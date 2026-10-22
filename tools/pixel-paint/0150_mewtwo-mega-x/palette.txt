@@ -1,0 +1,16 @@
+// pixel-paint palette for 0150_mewtwo-mega-x. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 500c2a
+1 333333
+2 392f39
+3 393351
+4 873f87
+5 9942bf
+6 d0255d
+7 7f7b9b
+8 979fa7
+9 f472b6
+a d7dfdf
+b ffffff

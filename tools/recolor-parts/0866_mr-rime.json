@@ -1,0 +1,665 @@
+{
+ "base": "0122_mr-mime-galar",
+ "grow": 3,
+ "colors": {
+  "k": "000000",
+  "w": "ffffff",
+  "W": "c8cce0",
+  "H": "3a3a6a",
+  "h": "5a5a90",
+  "n": "26264a",
+  "b": "6a8ad0",
+  "c": "a8d8f0"
+ },
+ "parts": [
+  {
+   "name": "hat_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -7,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kbbbbbbbbbk..",
+      ".kkHhHHHHHHnkk.",
+      "khHHHHHHHHHHnnk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -8,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kbbbbbbbbbk..",
+      ".kkHhHHHHHHnkk.",
+      "khHHHHHHHHHHnnk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -9,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kbbbbbbbbbk..",
+      ".kkHhHHHHHHnkk.",
+      "khHHHHHHHHHHnnk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -7,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kbbbbbbbbbk..",
+      ".kkHhHHHHHHnkk.",
+      "khHHHHHHHHHHnnk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -7,
+      -12
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kHhHHHHHHnk..",
+      "..kbbbbbbbbbk..",
+      ".kkHhHHHHHHnkk.",
+      "khHHHHHHHHHHnnk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..kbbbbbbbbbk..",
+      ".kknHHHHHHhHkk.",
+      "knnHHHHHHHHHHhk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -4,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..kbbbbbbbbbk..",
+      ".kknHHHHHHhHkk.",
+      "knnHHHHHHHHHHhk",
+      ".kkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -5,
+      -14
+     ],
+     "px": [
+      "...kkkkkkkkk...",
+      "..kHHHHHHHHHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..knHHHHHHhHk..",
+      "..kbbbbbbbbbk..",
+      ".kknHHHHHHhHkk.",
+      "knnHHHHHHHHHHhk",
+      ".kkkkkkkkkkkkk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "gloveL_handL",
+   "anchor": "handL",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "gloveR_handR",
+   "anchor": "handR",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kwwwWk",
+      "kwwWWk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -1,
+      -3
+     ],
+     "px": [
+      "..kk..",
+      ".kwwk.",
+      "kWwwwk",
+      "kWWwwk",
+      ".kWWk.",
+      "..kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "cane_handR",
+   "anchor": "handR",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -4,
+      -4
+     ],
+     "px": [
+      "..kk...",
+      ".kcck..",
+      "kckkck.",
+      "kckkck.",
+      ".k.kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "....k.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -4,
+      -4
+     ],
+     "px": [
+      "..kk...",
+      ".kcck..",
+      "kckkck.",
+      "kckkck.",
+      ".k.kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "....k.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -1,
+      -4
+     ],
+     "px": [
+      "...kk..",
+      "..kcck.",
+      ".kckkck",
+      ".kckkck",
+      ".kck.k.",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      "..k...."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Charge"
+   ]
+  },
+  {
+   "name": "caneL_handL",
+   "anchor": "handL",
+   "layer": "front",
+   "dirs": {
+    "SE": {
+     "at": [
+      -4,
+      -4
+     ],
+     "px": [
+      "..kk...",
+      ".kcck..",
+      "kckkck.",
+      "kckkck.",
+      ".k.kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "....k.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -1,
+      -4
+     ],
+     "px": [
+      "...kk..",
+      "..kcck.",
+      ".kckkck",
+      ".kckkck",
+      ".kck.k.",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      "..k...."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Charge"
+   ]
+  },
+  {
+   "name": "caneb_handR",
+   "anchor": "handR",
+   "layer": "back",
+   "dirs": {
+    "E": {
+     "at": [
+      -4,
+      -4
+     ],
+     "px": [
+      "..kk...",
+      ".kcck..",
+      "kckkck.",
+      "kckkck.",
+      ".k.kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "....k.."
+     ]
+    },
+    "W": {
+     "at": [
+      -1,
+      -4
+     ],
+     "px": [
+      "...kk..",
+      "..kcck.",
+      ".kckkck",
+      ".kckkck",
+      ".kck.k.",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      ".kck...",
+      "..k...."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Charge"
+   ]
+  },
+  {
+   "name": "canebL_handL",
+   "anchor": "handL",
+   "layer": "back",
+   "dirs": {
+    "N": {
+     "at": [
+      -4,
+      -4
+     ],
+     "px": [
+      "..kk...",
+      ".kcck..",
+      "kckkck.",
+      "kckkck.",
+      ".k.kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "...kck.",
+      "....k.."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Charge"
+   ]
+  }
+ ]
+}

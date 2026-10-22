@@ -1,0 +1,1307 @@
+{
+ "base": "0953_rellor",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "v": "e0a0ff",
+  "u": "b060e8",
+  "w": "8038c0"
+ },
+ "parts": [
+  {
+   "name": "aura#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "aura#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "aura#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kuvvvvvuuvvvvvvvuuvvvvvuuuk",
+      "kuuvvvuuvuuuvuuuvuuvvvuuuuk",
+      "kwuuuuuvvvuuuuuvvvuuuuuuuwk",
+      "kwwwwuvvvvvuuuvvvvvuuuwwwwk",
+      ".kwwwwuvvvuuuuuvvvuuuwwwwk.",
+      "..kkkwwuvuuuwuwuvuuuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Attack"
+   ]
+  },
+  {
+   "name": "aura#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kuvvvvvuvvvvvvvvvuvvvvvuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kuvvvvvvvvvvvvvvvvvvvvvuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "aura#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kuuvvvuvvvvvvvvvvvuvvvuuuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kuvvvvvuvvvvvvvuvvvvvuuuk.",
+      ".kuvvvvvvvvvvvvvvvvvvvuuuwk",
+      "kwuvvvvvvvvvvvvvvvvvvuuuuk.",
+      ".kuuvvvvvvvvvvvvvvuuuuuuwk.",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      ".kuuuuvvvvvvvvvvvvvuuuuuk..",
+      ".kuuuuuvvvvvvvvvvvuuuuuuuk.",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkuuuuuvvvuuuuuuuuuuk..",
+      "..kuuuuuuuuuvuuuuuvvvuuuuk.",
+      ".kuuvvvuuuuuvuuuuvvvvvuuuk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuvuuuk..........",
+      ".........kuvvvuuuk..k......",
+      "......kkkuvvvvvuuukkukkk...",
+      "...kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "aura-m#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kwwwwuuuvvvvvuuuvvvvvuwwwwk",
+      ".kwwwwuuuvvvuuuuuvvvuwwwwk.",
+      "..kkkwwuuuvuwuwuuuvuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kwwwwuuuvvvvvuuuvvvvvuwwwwk",
+      ".kwwwwuuuvvvuuuuuvvvuwwwwk.",
+      "..kkkwwuuuvuwuwuuuvuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kwwwwuuuvvvvvuuuvvvvvuwwwwk",
+      ".kwwwwuuuvvvuuuuuvvvuwwwwk.",
+      "..kkkwwuuuvuwuwuuuvuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "aura-m#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "aura-m#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kwwwwuuuvvvvvuuuvvvvvuwwwwk",
+      ".kwwwwuuuvvvuuuuuvvvuwwwwk.",
+      "..kkkwwuuuvuwuwuuuvuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kwwwwuuuvvvvvuuuvvvvvuwwwwk",
+      ".kwwwwuuuvvvuuuuuvvvuwwwwk.",
+      "..kkkwwuuuvuwuwuuuvuwwkkk..",
+      ".....kwwwuwwwwwwwuwwwk.....",
+      "......kwwwwwkwkwwwwwk......",
+      ".......kkkkk.k.kkkkk......."
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kuuuvvvvvuuvvvvvvvuuvvvvvuk",
+      "kuuuuvvvuuvuuuvuuuvuuvvvuuk",
+      "kwuuuuuuuvvvuuuuuvvvuuuuuwk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Attack"
+   ]
+  },
+  {
+   "name": "aura-m#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kuuuuvvvuvvvvvvvvvvvuvvvuuk",
+      "kuuuvvvvvvvvvvvvvvvvvvvvvuk",
+      "kuuuvvvvvuvvvvvvvvvuvvvvvuk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "aura-m#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkkkkkkkkkkkkkkkk......"
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "...........kkkkk...........",
+      "..........kuuuvuk..........",
+      "......k..kuuuvvvuk.........",
+      "...kkkukkuuuvvvvvukkk......",
+      "..kuuuuuuuuuuvvvuuuuukkk...",
+      ".kuuuuvvvuuuuuvuuuuuuuuuk..",
+      ".kuuuvvvvvuuuuvuuuuuvvvuuk.",
+      ".kuuuvvvvvuvvvvvvvuvvvvvuk.",
+      "kwuuuvvvvvvvvvvvvvvvvvvvuk.",
+      ".kuuuuvvvvvvvvvvvvvvvvvvuwk",
+      ".kwuuuuuuvvvvvvvvvvvvvvuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "..kuuuuuvvvvvvvvvvvvvuuuuk.",
+      ".kuuuuuuuvvvvvvvvvvvuuuuuk.",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  }
+ ]
+}

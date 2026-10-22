@@ -1,0 +1,101 @@
+{
+ "base": "0629_vullaby",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "y": "f0c030",
+  "r": "d04020"
+ },
+ "parts": [
+  {
+   "name": "beak",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -2,
+      1
+     ],
+     "px": [
+      ".kk.",
+      "kyyk",
+      "kyyk",
+      "kyrk",
+      ".krk",
+      "..k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -1,
+      0
+     ],
+     "px": [
+      ".kkkkkk.",
+      "kyyyyyrk",
+      "kyyyyrk.",
+      ".kkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      0,
+      -1
+     ],
+     "px": [
+      ".kkkkkk.",
+      "kyyyyyrk",
+      "kyyyyrk.",
+      ".kkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "beak-m",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "W": {
+     "at": [
+      -7,
+      -1
+     ],
+     "px": [
+      ".kkkkkk.",
+      "kryyyyyk",
+      ".kryyyyk",
+      "..kkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -6,
+      0
+     ],
+     "px": [
+      ".kkkkkk.",
+      "kryyyyyk",
+      ".kryyyyk",
+      "..kkkkk."
+     ]
+    }
+   }
+  }
+ ]
+}

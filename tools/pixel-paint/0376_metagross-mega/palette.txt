@@ -1,0 +1,19 @@
+// pixel-paint palette for 0376_metagross-mega (hand-painted). light from upper-left.
+. transparent
+# 000000
+d 313962
+n 232a4c
+s 416294
+b 4a83c5
+l 7ba4f6
+G 736a73
+m a1a1a1
+h cdcdcd
+w e7e7e7
+W ffffff
+o b44100
+y e69c00
+Y ffd500
+L ffff62
+r e73f4f
+R 8c1020

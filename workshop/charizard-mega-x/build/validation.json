@@ -1,0 +1,57 @@
+{
+  "structuralPass": true,
+  "visualApproval": false,
+  "warnings": [
+    "Hurt: 6 opaque pixels touch cell edges; review clipping"
+  ],
+  "metrics": {
+    "Idle": {
+      "colors": 15,
+      "cells": 32,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Walk": {
+      "colors": 15,
+      "cells": 32,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Attack": {
+      "colors": 15,
+      "cells": 112,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Shoot": {
+      "colors": 15,
+      "cells": 88,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "SpAttack": {
+      "colors": 15,
+      "cells": 88,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Charge": {
+      "colors": 14,
+      "cells": 80,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Strike": {
+      "colors": 15,
+      "cells": 112,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Hurt": {
+      "colors": 13,
+      "cells": 16,
+      "changedPixels": 0,
+      "edgePixels": 6
+    }
+  }
+}

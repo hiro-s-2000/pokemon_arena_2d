@@ -1,0 +1,16 @@
+// pixel-paint palette for 0154_meganium-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 0a3a1c
+1 333333
+2 67001f
+3 298257
+4 c72a44
+5 a76f00
+6 f9768f
+7 dfb700
+8 9fcf6f
+9 e4c8d6
+a d7efa7
+b ffffff

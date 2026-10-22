@@ -1,0 +1,898 @@
+{
+  "id": "0895_regidrago",
+  "pokemonId": 895,
+  "dex": 895,
+  "slug": "regidrago",
+  "name": "Regidrago",
+  "jpName": "レジドラゴ",
+  "genus": "Dragon Orb Pokémon",
+  "jpGenus": "りゅうぎょくポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": true,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0895_regidrago/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0895_regidrago/normal/back.gif",
+  "abilities": [
+    {
+      "id": 263,
+      "slug": "dragons-maw",
+      "name": "Dragon’s Maw",
+      "jpName": "りゅうのあぎと",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Powers up Dragon-type moves.",
+      "jpDescription": "ドラゴンタイプの 技の 威力が 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 21,
+    "meters": 2.1,
+    "feetInches": "6'11\"",
+    "display": "2.1 m (6'11\")"
+  },
+  "weight": {
+    "hectograms": 2000,
+    "kilograms": 200.0,
+    "pounds": 440.9,
+    "display": "200.0 kg (440.9 lbs)"
+  },
+  "shape": {
+    "id": 12,
+    "slug": "humanoid",
+    "name": "Humanoid",
+    "awesomeName": "Anthropomorphic",
+    "jpName": "人型"
+  },
+  "baseStats": {
+    "hp": 200,
+    "attack": 100,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50,
+    "speed": 80,
+    "total": 580,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 260,
+          "max": 307
+        },
+        "lv100": {
+          "min": 510,
+          "max": 604
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 94,
+          "max": 167
+        },
+        "lv100": {
+          "min": 184,
+          "max": 328
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 94,
+          "max": 167
+        },
+        "lv100": {
+          "min": 184,
+          "max": 328
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      }
+    }
+  },
+  "baseStatTotal": 580,
+  "typeMatchups": {
+    "types": [
+      "dragon"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 16,
+        "slug": "dragon",
+        "name": "Dragon",
+        "jpName": "ドラゴン"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 0.5,
+      "electric": 0.5,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 2.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "ice",
+      "dragon",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "fighting",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "ghost",
+      "dark",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "water",
+      "electric",
+      "grass"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "dragon"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 3
+      }
+    ],
+    "evYieldText": "3 HP",
+    "evYieldTextJa": "HP+3",
+    "catchRate": 3,
+    "pokeBallFullHpPercent": 1.6,
+    "catchRateDisplay": "3 (1.6% with PokéBall, full HP)",
+    "baseFriendship": 35,
+    "baseExperience": 290,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 15,
+        "slug": "no-eggs",
+        "name": "Undiscovered",
+        "jpName": "タマゴみはっけん"
+      }
+    ],
+    "genderRatio": {
+      "genderless": true,
+      "malePercent": 0.0,
+      "femalePercent": 0.0,
+      "display": "Genderless",
+      "displayJa": "性別不明"
+    },
+    "eggCycles": {
+      "cycles": 120,
+      "minSteps": 29281,
+      "maxSteps": 31097,
+      "display": "120 (29,281–31,097 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 473,
+    "evolvesFrom": null,
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 895,
+        "dex": 895,
+        "slug": "regidrago",
+        "name": "Regidrago",
+        "jpName": "レジドラゴ",
+        "types": [
+          "dragon"
+        ],
+        "sprite": "../pokeSprite/gen8/0895_regidrago/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0895_regidrago/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": []
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Regidrago",
+    "summaryTextJa": "レジドラゴ"
+  },
+  "moves": {
+    "totalUniqueMoves": 38,
+    "levelUp": [
+      {
+        "id": 239,
+        "slug": "twister",
+        "name": "Twister",
+        "jpName": "たつまき",
+        "type": "dragon",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
+        "jpDescription": "竜巻を おこして 相手を まきこみ 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 44,
+        "slug": "bite",
+        "name": "Bite",
+        "jpName": "かみつく",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+        "jpDescription": "鋭く とがった 歯で かみついて 攻撃する。 相手を ひるませることが ある。",
+        "level": 6
+      },
+      {
+        "id": 246,
+        "slug": "ancient-power",
+        "name": "Ancient Power",
+        "jpName": "げんしのちから",
+        "type": "rock",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks with a prehistoric power. This may also boost all the user's stats at once.",
+        "jpDescription": "原始の 力で 攻撃する。 自分の すべての 能力が あがることが ある。",
+        "level": 12
+      },
+      {
+        "id": 225,
+        "slug": "dragon-breath",
+        "name": "Dragon Breath",
+        "jpName": "りゅうのいぶき",
+        "type": "dragon",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.",
+        "jpDescription": "ものすごい 息を 相手に 吹きつけて 攻撃する。 まひ状態に することが ある。",
+        "level": 18
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。",
+        "level": 30
+      },
+      {
+        "id": 337,
+        "slug": "dragon-claw",
+        "name": "Dragon Claw",
+        "jpName": "ドラゴンクロー",
+        "type": "dragon",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes the target with huge, sharp claws to inflict damage.",
+        "jpDescription": "鋭く とがった 巨大な ツメで 相手を 切り裂いて 攻撃する。",
+        "level": 36
+      },
+      {
+        "id": 359,
+        "slug": "hammer-arm",
+        "name": "Hammer Arm",
+        "jpName": "アームハンマー",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat.",
+        "jpDescription": "強くて 重い こぶしを ふるって ダメージを 与える。 自分の 素早さが さがる。",
+        "level": 42
+      },
+      {
+        "id": 349,
+        "slug": "dragon-dance",
+        "name": "Dragon Dance",
+        "jpName": "りゅうのまい",
+        "type": "dragon",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+        "jpDescription": "神秘的で 力強い 舞を 激しく おどる。 自分の 攻撃と 素早さを あげる。",
+        "level": 48
+      },
+      {
+        "id": 37,
+        "slug": "thrash",
+        "name": "Thrash",
+        "jpName": "あばれる",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+        "jpDescription": "２ー３ターンの 間 暴れまくって 相手を 攻撃する。 暴れたあとは 混乱する。",
+        "level": 54
+      },
+      {
+        "id": 116,
+        "slug": "focus-energy",
+        "name": "Focus Energy",
+        "jpName": "きあいだめ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits.",
+        "jpDescription": "深く 息を 吸い 気合を こめる。 自分の 攻撃が 急所に 当たりやすくなる。",
+        "level": 60
+      },
+      {
+        "id": 820,
+        "slug": "dragon-energy",
+        "name": "Dragon Energy",
+        "jpName": "ドラゴンエナジー",
+        "type": "dragon",
+        "category": "special",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power.",
+        "jpDescription": "生命力を パワーに 変え 相手を 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は さがる。",
+        "level": 66
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。",
+        "level": 72
+      },
+      {
+        "id": 153,
+        "slug": "explosion",
+        "name": "Explosion",
+        "jpName": "だいばくはつ",
+        "type": "normal",
+        "category": "physical",
+        "power": 250,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
+        "jpDescription": "大きな 爆発で 自分の 周りに いるものを 攻撃する。 使ったあとに ひんしに なる。",
+        "level": 78
+      }
+    ],
+    "machine": [
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 784,
+        "slug": "breaking-swipe",
+        "name": "Breaking Swipe",
+        "jpName": "ワイドブレイカー",
+        "type": "dragon",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.",
+        "jpDescription": "きょうじんな しっぽを 激しく ふりはらって 相手を 攻撃する。 相手の 攻撃を 下げる。"
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 434,
+        "slug": "draco-meteor",
+        "name": "Draco Meteor",
+        "jpName": "りゅうせいぐん",
+        "type": "dragon",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat.",
+        "jpDescription": "天空から 隕石を 相手に 落とす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 913,
+        "slug": "dragon-cheer",
+        "name": "Dragon Cheer",
+        "jpName": "ドラゴンエール",
+        "type": "dragon",
+        "category": "status",
+        "power": 0,
+        "accuracy": 0,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more.",
+        "jpDescription": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more."
+      },
+      {
+        "id": 337,
+        "slug": "dragon-claw",
+        "name": "Dragon Claw",
+        "jpName": "ドラゴンクロー",
+        "type": "dragon",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes the target with huge, sharp claws to inflict damage.",
+        "jpDescription": "鋭く とがった 巨大な ツメで 相手を 切り裂いて 攻撃する。"
+      },
+      {
+        "id": 349,
+        "slug": "dragon-dance",
+        "name": "Dragon Dance",
+        "jpName": "りゅうのまい",
+        "type": "dragon",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+        "jpDescription": "神秘的で 力強い 舞を 激しく おどる。 自分の 攻撃と 素早さを あげる。"
+      },
+      {
+        "id": 406,
+        "slug": "dragon-pulse",
+        "name": "Dragon Pulse",
+        "jpName": "りゅうのはどう",
+        "type": "dragon",
+        "category": "special",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is attacked with a shock wave generated by the user's gaping mouth.",
+        "jpDescription": "大きな 口から 衝撃波を まきおこして 相手を 攻撃する。"
+      },
+      {
+        "id": 414,
+        "slug": "earth-power",
+        "name": "Earth Power",
+        "jpName": "だいちのちから",
+        "type": "ground",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "相手の 足下へ 大地の力を 放出する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 89,
+        "slug": "earthquake",
+        "name": "Earthquake",
+        "jpName": "じしん",
+        "type": "ground",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user sets off an earthquake that strikes every Pokémon around it.",
+        "jpDescription": "地震の 衝撃で 自分の 周りに いるものを 攻撃する。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 424,
+        "slug": "fire-fang",
+        "name": "Fire Fang",
+        "jpName": "ほのおのキバ",
+        "type": "fire",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+        "jpDescription": "炎を まとった キバで かみつく。 相手を ひるませたり やけど状態に することが ある。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 423,
+        "slug": "ice-fang",
+        "name": "Ice Fang",
+        "jpName": "こおりのキバ",
+        "type": "ice",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+        "jpDescription": "冷気を ひめた キバで かみつく。 相手を ひるませたり こおり状態に することが ある。"
+      },
+      {
+        "id": 113,
+        "slug": "light-screen",
+        "name": "Light Screen",
+        "jpName": "ひかりのかべ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from special moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 特殊攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 200,
+        "slug": "outrage",
+        "name": "Outrage",
+        "jpName": "げきりん",
+        "type": "dragon",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+        "jpDescription": "２ー３ターンの 間 暴れまくって 攻撃する。 暴れたあとは 混乱する。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 115,
+        "slug": "reflect",
+        "name": "Reflect",
+        "jpName": "リフレクター",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from physical moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 物理攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 179,
+        "slug": "reversal",
+        "name": "Reversal",
+        "jpName": "きしかいせい",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "An all-out attack that becomes more powerful the less HP the user has.",
+        "jpDescription": "力を ふりしぼり 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 799,
+        "slug": "scale-shot",
+        "name": "Scale Shot",
+        "jpName": "スケイルショット",
+        "type": "dragon",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat.",
+        "jpDescription": "ウロコを 撃ちだして 攻撃する。 ２ー５回の 間 連続で だす。 素早さが あがるが 防御が さがる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 422,
+        "slug": "thunder-fang",
+        "name": "Thunder Fang",
+        "jpName": "かみなりのキバ",
+        "type": "electric",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+        "jpDescription": "電気を ためた キバで かみつく。 相手を ひるませたり まひ状態に することが ある。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 434,
+        "slug": "draco-meteor",
+        "name": "Draco Meteor",
+        "jpName": "りゅうせいぐん",
+        "type": "dragon",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat.",
+        "jpDescription": "天空から 隕石を 相手に 落とす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 799,
+        "slug": "scale-shot",
+        "name": "Scale Shot",
+        "jpName": "スケイルショット",
+        "type": "dragon",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat.",
+        "jpDescription": "ウロコを 撃ちだして 攻撃する。 ２ー５回の 間 連続で だす。 素早さが あがるが 防御が さがる。"
+      }
+    ]
+  }
+}

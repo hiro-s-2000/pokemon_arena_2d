@@ -1,0 +1,15 @@
+// pixel-paint palette for 0668_pyroar-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4b1206
+1 503934
+2 762116
+3 a92e20
+4 7a5d4d
+5 f54247
+6 00a7d5
+7 d49452
+8 f4c68c
+9 fbe652
+a fdf9cd

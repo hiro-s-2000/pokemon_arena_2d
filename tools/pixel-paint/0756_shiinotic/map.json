@@ -1,0 +1,99 @@
+{
+ "_help": "views.<view>.keys.<key> = { src: converted frame the grid started from, frames: every GIF frame index drawn with <view>_<key>.txt }. A file <view>_f<iii>.txt overrides one frame. poses pins the action poses (front.gif frame numbers).",
+ "poses": {
+  "rest": 0,
+  "crouch": 1,
+  "reach": 6,
+  "mid": 4
+ },
+ "views": {
+  "front": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0, 5, 7, 8, 9, 14, 16, 17, 18, 23, 25, 26, 27, 32, 34, 35, 36, 46, 55, 56, 66, 75]
+    },
+    "k1": {
+     "src": 1,
+     "frames": [1, 10, 19, 28]
+    },
+    "k2": {
+     "src": 4,
+     "frames": [2, 3, 4, 11, 12, 13, 20, 21, 22, 29, 30, 31]
+    },
+    "k3": {
+     "src": 6,
+     "frames": [6, 15, 24, 33]
+    },
+    "k4": {
+     "src": 38,
+     "frames": [37, 38, 44, 45, 57, 58, 64, 65]
+    },
+    "k5": {
+     "src": 39,
+     "frames": [39, 40, 42, 43, 59, 60, 62, 63]
+    },
+    "k6": {
+     "src": 41,
+     "frames": [41, 61]
+    },
+    "k7": {
+     "src": 48,
+     "frames": [47, 48, 54, 67, 68, 74]
+    },
+    "k8": {
+     "src": 49,
+     "frames": [49, 50, 52, 53, 69, 70, 72, 73]
+    },
+    "k9": {
+     "src": 51,
+     "frames": [51, 71]
+    }
+   }
+  },
+  "back": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0, 5, 7, 8, 9, 14, 16, 17, 18, 23, 25, 26, 27, 32, 34, 35, 36, 37, 45, 46, 47, 55, 56, 57, 65, 66, 67, 75]
+    },
+    "k1": {
+     "src": 1,
+     "frames": [1, 10, 19, 28]
+    },
+    "k2": {
+     "src": 3,
+     "frames": [2, 3, 11, 12, 20, 21, 29, 30]
+    },
+    "k3": {
+     "src": 4,
+     "frames": [4, 13, 22, 31]
+    },
+    "k4": {
+     "src": 6,
+     "frames": [6, 15, 24, 33]
+    },
+    "k5": {
+     "src": 39,
+     "frames": [38, 39, 40, 42, 43, 44, 58, 59, 60, 62, 63, 64]
+    },
+    "k6": {
+     "src": 41,
+     "frames": [41, 61]
+    },
+    "k7": {
+     "src": 48,
+     "frames": [48, 54, 68, 74]
+    },
+    "k8": {
+     "src": 49,
+     "frames": [49, 53, 69, 73]
+    },
+    "k9": {
+     "src": 51,
+     "frames": [50, 51, 52, 70, 71, 72]
+    }
+   }
+  }
+ }
+}

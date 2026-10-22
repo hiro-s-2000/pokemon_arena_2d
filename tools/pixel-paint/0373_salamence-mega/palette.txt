@@ -1,0 +1,24 @@
+// pixel-paint palette for 0373_salamence-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// blue body: highlight / light / base / shade
+h 7fd4f2
+B 23a1d3
+b 1e7696
+c 1d4a5e
+// red wing, jaw, fins: highlight / light / base / shade
+S f79a8a
+s ea5350
+r a33939
+t 602828
+// grey chest chevrons and claws: light / mid / shade
+W f0f0e8
+g acaca4
+G 6f8080
+// eye: iris / iris shade / glint
+Y f1f94f
+y bfb526
+w ffffff
+// purple attack effect
+P c890ff
+p 7d4ccf

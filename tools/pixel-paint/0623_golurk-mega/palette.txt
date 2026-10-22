@@ -1,0 +1,24 @@
+// pixel-paint palette for 0623_golurk-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// teal golem body: dark / mid / light / highlight
+d 25606a
+m 4a96a0
+l 88cad0
+h c8f0f2
+// gold armour: dark / mid / light, cream seal
+G a8681c
+g e8b048
+y f8dc90
+w fff6d0
+// brown seal tab / bands
+b 6e4218
+n a8722e
+// ghost flames
+P b04cc8
+p e57ef0
+q f9c4fb
+// glowing eyes / energy
+e fff27a
+o e8961e
+r d83a20

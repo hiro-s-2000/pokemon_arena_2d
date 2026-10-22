@@ -1,0 +1,632 @@
+{
+ "_units": "lungePx / hopPx / anims.*.lunge are PMD-scale pixels (converted from GIF pixels by the pixelize scale)",
+ "_comment": "Gigantamax curation. Most gen8 Gmax GIFs share one layout: 19-frame loops (head glint / mouth projectile at 3-8, frame 4 sparkle, hand burst at 12-16) or 20-frame loops (mouth effect 4-9, sparks 11-12/18-19, swipe 13-17). Projectile frames drive Shoot/SpAttack, burst/swipe frames drive Attack/Strike, plain frames drive Hurt/Faint. Idle stays the full genuine loop.",
+ "0003_venusaur-gmax": {
+  "lungePx": 4,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0009_blastoise-gmax": {
+  "lungePx": 5,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18],
+  "paletteFrom": null
+ },
+ "0025_pikachu-gmax": {
+  "lungePx": 10,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0068_machamp-gmax": {
+  "lungePx": 9,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18],
+  "speckSize": 4
+ },
+ "0094_gengar-gmax": {
+  "lungePx": 5,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0099_kingler-gmax": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0131_lapras-gmax": {
+  "lungePx": 5,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18],
+  "speckSize": 4
+ },
+ "0143_snorlax-gmax": {
+  "lungePx": 4,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0809_melmetal-gmax": {
+  "lungePx": 6,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0812_rillaboom-gmax": {
+  "lungePx": 6,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0818_inteleon-gmax": {
+  "lungePx": 12,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0842_appletun-gmax": {
+  "lungePx": 5,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0844_sandaconda-gmax": {
+  "lungePx": 8,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0849_toxtricity-low-key-gmax": {
+  "lungePx": 13,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0851_centiskorch-gmax": {
+  "lungePx": 8,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18],
+  "colors": 9,
+  "speckSize": 4,
+  "speckContrast": 0.2
+ },
+ "0861_grimmsnarl-gmax": {
+  "lungePx": 9,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0869_alcremie-gmax": {
+  "lungePx": 6,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18],
+  "colors": 11,
+  "speckSize": 4,
+  "speckContrast": 0.2,
+  "paletteFrom": null
+ },
+ "0879_copperajah-gmax": {
+  "lungePx": 5,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0884_duraludon-gmax": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0892_urshifu-rapid-strike-gmax": {
+  "lungePx": 14,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0892_urshifu-single-strike-gmax": {
+  "lungePx": 14,
+  "poses": {
+   "rest": 0,
+   "crouch": 11,
+   "reach": 14,
+   "mid": 16
+  },
+  "walkFrames": [0, 1, 2, 3, 2, 1, 0, 18],
+  "attackFrames": [0, 10, 11, 12, 14, 15, 16, 17, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "shootFrames": [2, 3, 5, 6, 7, 8, 0],
+  "spAttackFrames": [1, 2, 3, 5, 6, 7, 8, 17, 0],
+  "chargeFrames": [1, 2, 3, 4, 3, 2, 1, 4, 18, 0],
+  "hurtFrames": [18, 18, 17],
+  "faintFrames": [18]
+ },
+ "0006_charizard-gmax": {
+  "lungePx": 8,
+  "poses": {
+   "rest": 0,
+   "crouch": 12,
+   "reach": 15,
+   "mid": 17
+  },
+  "walkFrames": [0, 1, 2, 3, 3, 2, 1, 0],
+  "attackFrames": [0, 11, 12, 13, 15, 16, 17, 18, 0],
+  "hitFrame": 4,
+  "strikeFrames": [12, 12, 13, 14, 15, 16, 17, 17, 18, 0],
+  "shootFrames": [3, 5, 6, 7, 8, 9, 0],
+  "spAttackFrames": [3, 4, 5, 6, 7, 8, 8, 9, 0],
+  "chargeFrames": [11, 12, 18, 19, 11, 12, 18, 19, 10, 0],
+  "hurtFrames": [3, 3, 2],
+  "faintFrames": [3],
+  "colors": 9,
+  "speckSize": 5,
+  "speckContrast": 0.2
+ },
+ "0012_butterfree-gmax": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 12,
+   "reach": 15,
+   "mid": 17
+  },
+  "walkFrames": [0, 1, 2, 3, 3, 2, 1, 0],
+  "attackFrames": [0, 11, 12, 13, 15, 16, 17, 18, 0],
+  "hitFrame": 4,
+  "strikeFrames": [12, 12, 13, 14, 15, 16, 17, 17, 18, 0],
+  "shootFrames": [3, 5, 6, 7, 8, 9, 0],
+  "spAttackFrames": [3, 4, 5, 6, 7, 8, 8, 9, 0],
+  "chargeFrames": [11, 12, 18, 19, 11, 12, 18, 19, 10, 0],
+  "hurtFrames": [3, 3, 2],
+  "faintFrames": [3],
+  "paletteFrom": null
+ },
+ "0823_corviknight-gmax": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 12,
+   "reach": 15,
+   "mid": 17
+  },
+  "walkFrames": [0, 1, 2, 3, 3, 2, 1, 0],
+  "attackFrames": [0, 11, 12, 13, 15, 16, 17, 18, 0],
+  "hitFrame": 4,
+  "strikeFrames": [12, 12, 13, 14, 15, 16, 17, 17, 18, 0],
+  "shootFrames": [3, 5, 6, 7, 8, 9, 0],
+  "spAttackFrames": [3, 4, 5, 6, 7, 8, 8, 9, 0],
+  "chargeFrames": [11, 12, 18, 19, 11, 12, 18, 19, 10, 0],
+  "hurtFrames": [3, 3, 2],
+  "faintFrames": [3],
+  "speckSize": 5,
+  "speckContrast": 0.22
+ },
+ "0841_flapple-gmax": {
+  "lungePx": 11,
+  "poses": {
+   "rest": 0,
+   "crouch": 12,
+   "reach": 15,
+   "mid": 17
+  },
+  "walkFrames": [0, 1, 2, 3, 3, 2, 1, 0],
+  "attackFrames": [0, 11, 12, 13, 15, 16, 17, 18, 0],
+  "hitFrame": 4,
+  "strikeFrames": [12, 12, 13, 14, 15, 16, 17, 17, 18, 0],
+  "shootFrames": [3, 5, 6, 7, 8, 9, 0],
+  "spAttackFrames": [3, 4, 5, 6, 7, 8, 8, 9, 0],
+  "chargeFrames": [11, 12, 18, 19, 11, 12, 18, 19, 10, 0],
+  "hurtFrames": [3, 3, 2],
+  "faintFrames": [3]
+ },
+ "0052_meowth-gmax": {
+  "lungePx": 11,
+  "poses": {
+   "rest": 0,
+   "crouch": 3,
+   "reach": 8,
+   "mid": 6
+  },
+  "walkFrames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "attackFrames": [0, 2, 3, 5, 7, 8, 8, 9, 0],
+  "hitFrame": 4,
+  "strikeFrames": [3, 4, 5, 6, 8, 8, 9, 9, 0, 0],
+  "shootFrames": [3, 6, 7, 8, 8, 9, 0],
+  "spAttackFrames": [3, 5, 6, 7, 8, 8, 9, 0, 0],
+  "chargeFrames": [3, 4, 3, 4, 3, 4, 3, 4, 6, 0],
+  "hurtFrames": [4, 4, 5],
+  "faintFrames": [4]
+ },
+ "0133_eevee-gmax": {
+  "lungePx": 8,
+  "poses": {
+   "rest": 0,
+   "crouch": 4,
+   "reach": 0,
+   "mid": 2
+  },
+  "walkFrames": [0, 1, 2, 3, 4, 5, 6, 7],
+  "attackFrames": [0, 4, 4, 3, 0, 0, 1, 0, 0],
+  "hitFrame": 4,
+  "strikeFrames": [12, 12, 11, 9, 8, 8, 9, 15, 0, 0],
+  "shootFrames": [4, 1, 0, 0, 2, 0, 0],
+  "spAttackFrames": [4, 1, 0, 0, 0, 0, 1, 2, 0],
+  "chargeFrames": [53, 55, 57, 59, 61, 63, 65, 67, 70, 75],
+  "hurtFrames": [61, 61, 62],
+  "faintFrames": [61]
+ },
+ "0569_garbodor-gmax": {
+  "lungePx": 4,
+  "poses": {
+   "rest": 0,
+   "crouch": 19,
+   "reach": 80,
+   "mid": 77
+  },
+  "walkFrames": [0, 7, 9, 13, 15, 19, 26, 29],
+  "attackFrames": [0, 13, 15, 19, 77, 80, 84, 88, 0],
+  "hitFrame": 4,
+  "strikeFrames": [15, 19, 75, 77, 80, 82, 86, 90, 0, 0],
+  "shootFrames": [15, 77, 80, 82, 86, 90, 0],
+  "spAttackFrames": [9, 75, 77, 80, 82, 84, 86, 90, 0],
+  "chargeFrames": [13, 15, 19, 15, 13, 15, 19, 15, 9, 0],
+  "hurtFrames": [19, 19, 15],
+  "faintFrames": [19],
+  "colors": 10,
+  "speckSize": 4,
+  "speckContrast": 0.18
+ },
+ "0815_cinderace-gmax": {
+  "lungePx": 11,
+  "poses": {
+   "rest": 0,
+   "crouch": 55,
+   "reach": 62,
+   "mid": 58
+  },
+  "walkFrames": [0, 2, 4, 6, 8, 10, 12, 14],
+  "attackFrames": [0, 53, 55, 57, 60, 62, 64, 67, 0],
+  "hitFrame": 4,
+  "strikeFrames": [54, 55, 57, 59, 61, 62, 65, 68, 70, 0],
+  "shootFrames": [55, 58, 60, 62, 64, 67, 0],
+  "spAttackFrames": [53, 55, 58, 60, 62, 63, 65, 69, 0],
+  "chargeFrames": [55, 56, 55, 56, 55, 56, 55, 56, 58, 0],
+  "hurtFrames": [5, 6, 7],
+  "faintFrames": [55]
+ },
+ "0826_orbeetle-gmax": {
+  "lungePx": 10,
+  "poses": {
+   "rest": 0,
+   "crouch": 52,
+   "reach": 73,
+   "mid": 62
+  },
+  "attackFrames": [0, 50, 52, 60, 70, 73, 74, 76, 0],
+  "hitFrame": 4,
+  "strikeFrames": [52, 54, 56, 62, 72, 73, 74, 75, 76, 0],
+  "shootFrames": [56, 70, 72, 73, 75, 77, 0],
+  "spAttackFrames": [50, 60, 68, 70, 72, 73, 74, 76, 0],
+  "chargeFrames": [50, 51, 52, 53, 54, 55, 56, 57, 60, 0],
+  "hurtFrames": [52, 56, 58],
+  "faintFrames": [56]
+ },
+ "0834_drednaw-gmax": {
+  "lungePx": 6,
+  "poses": {
+   "rest": 0,
+   "crouch": 77,
+   "reach": 74,
+   "mid": 72
+  },
+  "walkFrames": [0, 2, 4, 6, 8, 10, 12, 14],
+  "attackFrames": [0, 71, 72, 73, 74, 74, 75, 80, 0],
+  "hitFrame": 4,
+  "strikeFrames": [71, 72, 73, 74, 75, 76, 77, 79, 82, 0],
+  "shootFrames": [72, 73, 74, 74, 76, 80, 0],
+  "spAttackFrames": [70, 71, 72, 73, 74, 74, 76, 81, 0],
+  "chargeFrames": [76, 77, 78, 79, 76, 77, 78, 79, 81, 0],
+  "hurtFrames": [75, 75, 77],
+  "faintFrames": [77]
+ },
+ "0839_coalossal-gmax": {
+  "lungePx": 4,
+  "poses": {
+   "rest": 0,
+   "crouch": 62,
+   "reach": 66,
+   "mid": 69
+  },
+  "walkFrames": [0, 2, 5, 7, 10, 12, 15, 17],
+  "attackFrames": [0, 62, 63, 65, 66, 67, 68, 70, 0],
+  "hitFrame": 4,
+  "strikeFrames": [63, 64, 65, 66, 67, 68, 68, 69, 70, 0],
+  "shootFrames": [69, 70, 72, 73, 75, 78, 0],
+  "spAttackFrames": [68, 69, 70, 71, 72, 73, 75, 80, 0],
+  "chargeFrames": [61, 62, 63, 64, 65, 67, 69, 70, 72, 0],
+  "hurtFrames": [5, 6, 6],
+  "faintFrames": [6]
+ },
+ "0849_toxtricity-amped-gmax": {
+  "lungePx": 13,
+  "poses": {
+   "rest": 0,
+   "crouch": 14,
+   "reach": 6,
+   "mid": 5
+  },
+  "attackFrames": [0, 13, 14, 15, 16, 17, 18, 0, 0],
+  "hitFrame": 4,
+  "strikeFrames": [4, 5, 6, 7, 8, 8, 9, 13, 0, 0],
+  "shootFrames": [3, 5, 6, 7, 8, 9, 0],
+  "spAttackFrames": [1, 2, 4, 5, 6, 7, 8, 9, 0],
+  "chargeFrames": [1, 2, 1, 2, 1, 2, 1, 2, 3, 0],
+  "hurtFrames": [14, 14, 13],
+  "faintFrames": [14]
+ },
+ "0858_hatterene-gmax": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 10,
+   "reach": 5,
+   "mid": 14
+  },
+  "attackFrames": [0, 1, 2, 3, 4, 5, 6, 8, 0],
+  "hitFrame": 4,
+  "strikeFrames": [10, 11, 12, 13, 14, 15, 16, 17, 0, 0],
+  "shootFrames": [2, 4, 5, 6, 7, 8, 0],
+  "spAttackFrames": [11, 12, 13, 14, 15, 16, 16, 17, 0],
+  "chargeFrames": [19, 20, 19, 20, 19, 20, 19, 20, 21, 0],
+  "hurtFrames": [9, 10, 10],
+  "faintFrames": [10]
+ }
+}

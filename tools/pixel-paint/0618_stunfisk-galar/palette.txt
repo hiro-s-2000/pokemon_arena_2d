@@ -1,0 +1,14 @@
+// pixel-paint palette for 0618_stunfisk-galar. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 3c3026
+2 514e40
+3 ad2d25
+4 7c6f62
+5 a09181
+6 67b940
+7 fbbf24
+8 abf773
+9 f2efdc

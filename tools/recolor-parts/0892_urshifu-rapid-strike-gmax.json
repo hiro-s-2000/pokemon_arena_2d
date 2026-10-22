@@ -1,0 +1,92 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "r": "3048d8",
+  "l": "78a0ff"
+ },
+ "parts": [
+  {
+   "name": "furMane",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -8,
+      -13
+     ],
+     "px": [
+      "k.......k.......k",
+      "kk.....krk.....kk",
+      "krk...krrrk...krk",
+      ".krk.krrlrrk.krk.",
+      ".krrkrrlllrrkrrk.",
+      "..krrrllllllrrk..",
+      "..krrrrrrrrrrrk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -9,
+      -11
+     ],
+     "px": [
+      "k.......k.......k",
+      "kk.....krk.....kk",
+      "krk...krrrk...krk",
+      ".krk.krrlrrk.krk.",
+      ".krrkrrlllrrkrrk.",
+      "..krrrllllllrrk..",
+      "..krrrrrrrrrrrk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -11,
+      -11
+     ],
+     "px": [
+      "k.......k.......k",
+      "kk.....krk.....kk",
+      "krk...krrrk...krk",
+      ".krk.krrlrrk.krk.",
+      ".krrkrrlllrrkrrk.",
+      "..krrrllllllrrk..",
+      "..krrrrrrrrrrrk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -9,
+      -11
+     ],
+     "px": [
+      "k.......k.......k",
+      "kk.....krk.....kk",
+      "krk...krrrk...krk",
+      ".krk.krrlrrk.krk.",
+      ".krrkrrlllrrkrrk.",
+      "..krrrllllllrrk..",
+      "..krrrrrrrrrrrk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -8,
+      -10
+     ],
+     "px": [
+      "k.......k.......k",
+      "kk.....krk.....kk",
+      "krk...krrrk...krk",
+      ".krk.krrlrrk.krk.",
+      ".krrkrrlllrrkrrk.",
+      "..krrrllllllrrk..",
+      "..krrrrrrrrrrrk.."
+     ]
+    }
+   }
+  }
+ ]
+}

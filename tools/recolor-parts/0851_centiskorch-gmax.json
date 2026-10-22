@@ -1,0 +1,165 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "y": "ffe860",
+  "o": "ff9a10",
+  "r": "d83a10"
+ },
+ "parts": [
+  {
+   "name": "whiskerA",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -21,
+      -14
+     ],
+     "px": [
+      "..kk................",
+      ".kyyk..kk...........",
+      ".kyyokkyyk..........",
+      "..kyyooyyok.........",
+      "...kyyyyooookk......",
+      "....kkyyyyooorkk....",
+      "......kkyyyyoorrkk..",
+      "........kkyyyooorrk.",
+      "..........kkyyyoork.",
+      "............kkyyork.",
+      "..............kyyok.",
+      "...............kkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -21,
+      -10
+     ],
+     "px": [
+      "..kk................",
+      ".kyyk..kk...........",
+      ".kyyokkyyk..........",
+      "..kyyooyyok.........",
+      "...kyyyyooookk......",
+      "....kkyyyyooorkk....",
+      "......kkyyyyoorrkk..",
+      "........kkyyyooorrk.",
+      "..........kkyyyoork.",
+      "............kkyyork.",
+      "..............kyyok.",
+      "...............kkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -22,
+      -15
+     ],
+     "px": [
+      "..kk................",
+      ".kyyk..kk...........",
+      ".kyyokkyyk..........",
+      "..kyyooyyok.........",
+      "...kyyyyooookk......",
+      "....kkyyyyooorkk....",
+      "......kkyyyyoorrkk..",
+      "........kkyyyooorrk.",
+      "..........kkyyyoork.",
+      "............kkyyork.",
+      "..............kyyok.",
+      "...............kkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -22,
+      -15
+     ],
+     "px": [
+      "..kk................",
+      ".kyyk..kk...........",
+      ".kyyokkyyk..........",
+      "..kyyooyyok.........",
+      "...kyyyyooookk......",
+      "....kkyyyyooorkk....",
+      "......kkyyyyoorrkk..",
+      "........kkyyyooorrk.",
+      "..........kkyyyoork.",
+      "............kkyyork.",
+      "..............kyyok.",
+      "...............kkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -21,
+      -15
+     ],
+     "px": [
+      "..kk................",
+      ".kyyk..kk...........",
+      ".kyyokkyyk..........",
+      "..kyyooyyok.........",
+      "...kyyyyooookk......",
+      "....kkyyyyooorkk....",
+      "......kkyyyyoorrkk..",
+      "........kkyyyooorrk.",
+      "..........kkyyyoork.",
+      "............kkyyork.",
+      "..............kyyok.",
+      "...............kkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "whiskerB",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      2,
+      -14
+     ],
+     "px": [
+      "................kk..",
+      "...........kk..kyyk.",
+      "..........kyykkoyyk.",
+      ".........koyyooyyk..",
+      "......kkooooyyyyk...",
+      "....kkroooyyyykk....",
+      "..kkrrooyyyykk......",
+      ".krroooyyykk........",
+      ".krooyyykk..........",
+      ".kroyykk............",
+      ".koyyk..............",
+      "..kkk..............."
+     ]
+    },
+    "N": {
+     "at": [
+      2,
+      -10
+     ],
+     "px": [
+      "................kk..",
+      "...........kk..kyyk.",
+      "..........kyykkoyyk.",
+      ".........koyyooyyk..",
+      "......kkooooyyyyk...",
+      "....kkroooyyyykk....",
+      "..kkrrooyyyykk......",
+      ".krroooyyykk........",
+      ".krooyyykk..........",
+      ".kroyykk............",
+      ".koyyk..............",
+      "..kkk..............."
+     ]
+    }
+   }
+  }
+ ]
+}

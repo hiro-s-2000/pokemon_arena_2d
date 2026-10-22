@@ -1,0 +1,626 @@
+{
+  "id": "0414_mothim",
+  "pokemonId": 414,
+  "dex": 414,
+  "slug": "mothim",
+  "name": "Mothim",
+  "jpName": "ガーメイル",
+  "genus": "Moth Pokémon",
+  "jpGenus": "ミノガポケモン",
+  "generation": 4,
+  "category": "gen4",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen4/0414_mothim/normal/front.gif",
+  "backSprite": "../pokeSprite/gen4/0414_mothim/normal/back.gif",
+  "abilities": [
+    {
+      "id": 68,
+      "slug": "swarm",
+      "name": "Swarm",
+      "jpName": "むしのしらせ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "jpDescription": "ＨＰが 減ったとき むしタイプの 技の 威力が 上がる。"
+    },
+    {
+      "id": 110,
+      "slug": "tinted-lens",
+      "name": "Tinted Lens",
+      "jpName": "いろめがね",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Doubles damage inflicted with not-very-effective moves.",
+      "jpDescription": "効果が いまひとつの 技を 通常の 威力で 出すことが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 9,
+    "meters": 0.9,
+    "feetInches": "2'11\"",
+    "display": "0.9 m (2'11\")"
+  },
+  "weight": {
+    "hectograms": 233,
+    "kilograms": 23.3,
+    "pounds": 51.4,
+    "display": "23.3 kg (51.4 lbs)"
+  },
+  "shape": {
+    "id": 13,
+    "slug": "bug-wings",
+    "name": "Bug wings",
+    "awesomeName": "Lepidopterous",
+    "jpName": "2対以上の翼（虫翼）"
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 94,
+    "defense": 50,
+    "specialAttack": 94,
+    "specialDefense": 50,
+    "speed": 66,
+    "total": 424,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 130,
+          "max": 177
+        },
+        "lv100": {
+          "min": 250,
+          "max": 344
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 89,
+          "max": 160
+        },
+        "lv100": {
+          "min": 173,
+          "max": 315
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 89,
+          "max": 160
+        },
+        "lv100": {
+          "min": 173,
+          "max": 315
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 129
+        },
+        "lv100": {
+          "min": 123,
+          "max": 254
+        }
+      }
+    }
+  },
+  "baseStatTotal": 424,
+  "typeMatchups": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      },
+      {
+        "slot": 2,
+        "id": 3,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 1.0,
+      "electric": 2.0,
+      "grass": 0.25,
+      "ice": 2.0,
+      "fighting": 0.25,
+      "poison": 1.0,
+      "ground": 0.0,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 4.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [
+      "rock"
+    ],
+    "weaknesses2x": [
+      "fire",
+      "electric",
+      "ice",
+      "flying"
+    ],
+    "neutral1x": [
+      "normal",
+      "water",
+      "poison",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "bug"
+    ],
+    "resistances0_25x": [
+      "grass",
+      "fighting"
+    ],
+    "immunities0x": [
+      "ground"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "fighting",
+      "psychic",
+      "bug",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 1
+      },
+      {
+        "stat": "specialAttack",
+        "statName": "Sp. Atk",
+        "statJpName": "とくこう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Attack, 1 Sp. Atk",
+    "evYieldTextJa": "こうげき+1・とくこう+1",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 148,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 100.0,
+      "femalePercent": 0.0,
+      "display": "100.0% Male, 0.0% Female",
+      "displayJa": "♂ 100.0% / ♀ 0.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 213,
+    "evolvesFrom": {
+      "speciesId": 412,
+      "dex": 412,
+      "slug": "burmy",
+      "name": "Burmy",
+      "jpName": "ミノムッチ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 20,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 20",
+          "conditionTextJa": "Lv.20"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 412,
+        "dex": 412,
+        "slug": "burmy",
+        "name": "Burmy",
+        "jpName": "ミノムッチ",
+        "types": [
+          "bug"
+        ],
+        "sprite": "../pokeSprite/gen4/0412_burmy/normal/front.gif",
+        "backSprite": "../pokeSprite/gen4/0412_burmy/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 413,
+            "dex": 413,
+            "slug": "wormadam",
+            "name": "Wormadam",
+            "jpName": "ミノマダム",
+            "types": [
+              "bug",
+              "grass"
+            ],
+            "sprite": "../pokeSprite/gen4/0413_wormadam-plant/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0413_wormadam-plant/normal/back.gif",
+            "condition": "Level 20",
+            "conditionJa": "Lv.20",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 414,
+            "dex": 414,
+            "slug": "mothim",
+            "name": "Mothim",
+            "jpName": "ガーメイル",
+            "types": [
+              "bug",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen4/0414_mothim/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0414_mothim/normal/back.gif",
+            "condition": "Level 20",
+            "conditionJa": "Lv.20",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Burmy --(Level 20)--> Wormadam | Burmy --(Level 20)--> Mothim",
+    "summaryTextJa": "ミノムッチ --(Lv.20)--> ミノマダム | ミノムッチ --(Lv.20)--> ガーメイル"
+  },
+  "moves": {
+    "totalUniqueMoves": 15,
+    "levelUp": [
+      {
+        "id": 522,
+        "slug": "struggle-bug",
+        "name": "Struggle Bug",
+        "jpName": "むしのていこう",
+        "type": "bug",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats.",
+        "jpDescription": "抵抗して 相手を 攻撃する。 相手の 特攻を さげる。",
+        "level": 1
+      },
+      {
+        "id": 16,
+        "slug": "gust",
+        "name": "Gust",
+        "jpName": "かぜおこし",
+        "type": "flying",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+        "jpDescription": "翼で おこした 激しい 風を 相手に ぶつけて 攻撃する。",
+        "level": 6
+      },
+      {
+        "id": 93,
+        "slug": "confusion",
+        "name": "Confusion",
+        "jpName": "ねんりき",
+        "type": "psychic",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is hit with a weak telekinetic force to inflict damage. This may also confuse the target.",
+        "jpDescription": "弱い 念力を 相手に 送って 攻撃する。 相手を 混乱させることが ある。",
+        "level": 11
+      },
+      {
+        "id": 318,
+        "slug": "silver-wind",
+        "name": "Silver Wind",
+        "jpName": "ぎんいろのかぜ",
+        "type": "bug",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします",
+        "level": 18
+      },
+      {
+        "id": 403,
+        "slug": "air-slash",
+        "name": "Air Slash",
+        "jpName": "エアスラッシュ",
+        "type": "flying",
+        "category": "special",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+        "jpDescription": "空をも 切り裂く 空気の 刃で 攻撃する。 相手を ひるませることが ある。",
+        "level": 25
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。",
+        "level": 34
+      },
+      {
+        "id": 405,
+        "slug": "bug-buzz",
+        "name": "Bug Buzz",
+        "jpName": "むしのさざめき",
+        "type": "bug",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user vibrates to generate a damaging sound wave. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "振動で 音波を おこして 攻撃する。相手の 特防を さげることが ある。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。"
+      },
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 285,
+        "slug": "skill-swap",
+        "name": "Skill Swap",
+        "jpName": "スキルスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to exchange Abilities with the target.",
+        "jpDescription": "超能力で 自分の 特性と 相手の 特性を 入れ替える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      }
+    ]
+  }
+}

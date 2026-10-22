@@ -1,0 +1,16 @@
+// pixel-paint palette for 0849_toxtricity-low-key-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 4e2a06
+2 613c6f
+3 9b5bc1
+4 ca4aaa
+5 ac8d29
+6 739bd9
+7 e773c2
+8 feb4e4
+9 96def3
+a fed641
+b fff6d5

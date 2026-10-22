@@ -1,0 +1,15 @@
+// pixel-paint palette for 0809_melmetal-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 3c383d
+2 5d5c5d
+3 d11414
+4 ab732b
+5 838383
+6 e56d8b
+7 dea220
+8 bebebe
+9 f6be13
+a eaeaea

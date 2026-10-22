@@ -1,0 +1,16 @@
+// pixel-paint palette for 0812_rillaboom-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 2e2323
+1 333333
+2 113c25
+3 00592f
+4 584545
+5 296f49
+6 7d6c61
+7 c08135
+8 9f8f7a
+9 fd8036
+a 4ade80
+b f6e3a3

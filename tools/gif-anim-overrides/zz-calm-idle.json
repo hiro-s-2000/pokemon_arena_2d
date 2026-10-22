@@ -1,0 +1,803 @@
+{
+ "_comment": "Loaded last (file name order). The short Gen 6+ battle GIFs (19 or 20 frames at 0.06 s) all draw two move effects into their loop: a mouth/head effect (19-frame: 3-8, 20-frame: 4-9) and a limb/hand effect (12-16 / 13-17), with flutter marks at 11-12 and 18-19 on the 20-frame ones. The other curator files use those effect frames for the moves; here Idle is limited to the effect-free frames so a standing Pokémon does not fire beams. Frame 9 (19-frame) / 10 (20-frame) equals frame 0.",
+ "0003_venusaur-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0003_venusaur-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0006_charizard-gmax": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0006_charizard-mega-y": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0009_blastoise-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0009_blastoise-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0012_butterfree-gmax": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0018_pidgeot-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0025_pikachu-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0026_raichu-mega-x": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0026_raichu-mega-y": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0036_clefable-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0068_machamp-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0071_victreebel-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0094_gengar-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0099_kingler-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0121_starmie-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0127_pinsir-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0130_gyarados-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0131_lapras-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0143_snorlax-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0149_dragonite-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0150_mewtwo-mega-x": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0154_meganium-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0160_feraligatr-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0181_ampharos-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0214_heracross-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0260_swampert-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0306_aggron-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0358_chimecho-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0359_absol-mega-z": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0376_metagross-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0398_staraptor-mega": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0445_garchomp-mega-z": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0448_lucario-mega-z": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0478_froslass-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0485_heatran-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0500_emboar-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0531_audino-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0545_scolipede-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0555_darmanitan-galar-zen": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0609_chandelure-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0618_stunfisk-galar": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0623_golurk-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0652_chesnaught-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0655_delphox-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0658_greninja-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0668_pyroar-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0678_meowstic-female-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0678_meowstic-male-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0683_aromatisse": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0687_malamar-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0689_barbaracle-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0740_crabominable-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0765_oranguru": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0768_golisopod-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0801_magearna-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0801_magearna-original-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0809_melmetal-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0812_rillaboom-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0818_inteleon-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0823_corviknight-gmax": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0841_flapple-gmax": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0842_appletun-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0844_sandaconda-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0849_toxtricity-low-key-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0851_centiskorch-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0861_grimmsnarl-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0869_alcremie-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0870_falinks-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0879_copperajah-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0884_duraludon-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0892_urshifu-rapid-strike-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0892_urshifu-single-strike-gmax": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0893_zarude": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0929_dolliv": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0931_squawkabilly-green-plumage": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0942_maschiff": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0943_mabosstiff": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0944_shroodle": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0945_grafaiai": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0947_brambleghast": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0949_toedscruel": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0950_klawf": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0952_scovillain-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0954_rabsca": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0956_espathra": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0962_bombirdier": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0970_glimmora-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0973_flamigo": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0978_tatsugiri-droopy-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0978_tatsugiri-stretchy-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0986_brute-bonnet": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0990_iron-treads": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "0993_iron-jugulis": {
+  "idleFrames": [0, 1, 2, 3, 2, 1],
+  "anims": {
+   "Idle": {
+    "ticks": 6
+   }
+  }
+ },
+ "0998_baxcalibur-mega": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "1014_okidogi": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "1021_raging-bolt": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "1022_iron-boulder": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ },
+ "1023_iron-crown": {
+  "idleFrames": [0, 1, 2, 10, 11, 17, 18],
+  "anims": {
+   "Idle": {
+    "ticks": 5
+   }
+  }
+ }
+}

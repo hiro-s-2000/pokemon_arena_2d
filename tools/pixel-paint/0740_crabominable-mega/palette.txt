@@ -1,0 +1,16 @@
+// pixel-paint palette for 0740_crabominable-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4a120b
+1 333333
+2 434777
+3 7d5329
+4 b22a03
+5 6f7299
+6 0681ad
+7 3cacdc
+8 b2c6cf
+9 e7c36a
+a 98fcf9
+b ffffff

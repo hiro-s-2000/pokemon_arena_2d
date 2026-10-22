@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMD Animation Lab — 0001–0009</title>
+<style>
+:root{color-scheme:dark;--ink:#e7edf5;--muted:#99a9bf;--panel:#171e2b;--line:#2b374a;--accent:#83e4c7}*{box-sizing:border-box}body{margin:0;background:#0d121c;color:var(--ink);font:14px/1.6 system-ui,-apple-system,sans-serif}header{padding:25px 32px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:25px;letter-spacing:-.5px;margin:3px 0}h2{font-size:16px;margin:0 0 14px}p{margin:4px 0}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--accent)}.muted,small{color:var(--muted)}.badge{padding:5px 11px;border-radius:20px;background:#17342e;color:var(--accent);white-space:nowrap}main{max-width:1600px;margin:auto;padding:22px 32px 40px}.controls{display:flex;flex-wrap:wrap;gap:14px;align-items:end;padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:12px;position:sticky;top:0;z-index:10;box-shadow:0 8px 18px #0003}label{display:flex;flex-direction:column;gap:5px;font-size:11px;color:var(--muted)}button,select,input{font:inherit}button,select{color:var(--ink);background:#222d3d;border:1px solid #3c4a60;border-radius:6px;padding:8px 11px;cursor:pointer}button:hover{border-color:var(--accent)}button.primary{background:var(--accent);color:#0b211c;border:0;font-weight:700}select{max-width:100%}input[type=range]{accent-color:var(--accent);width:100%}input[type=color]{width:44px;height:36px;border:0;background:none}.check{flex-direction:row;align-items:center;padding-bottom:8px;font-size:12px}.summary{display:flex;gap:18px;flex-wrap:wrap;padding:16px 0;color:var(--muted);font-size:12px}.summary strong{color:var(--ink)}.focus{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,.7fr);gap:18px}.panel{padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:12px}.stage{display:flex;justify-content:center;align-items:center;min-height:330px;overflow:hidden;border-radius:8px;background:#c6ccd6}.stage canvas{width:100%;height:auto;max-height:440px;object-fit:contain;image-rendering:pixelated}.readout{display:flex;justify-content:space-between;gap:12px;margin:12px 0 4px;font-variant-numeric:tabular-nums}.timeline{display:flex;gap:3px;height:24px;margin:8px 0}.tick{flex:1;padding:0;font-size:9px;border:0;background:#2a3a50;min-width:0}.tick.hit{box-shadow:inset 0 -3px #f4b65a}.tick.current{background:var(--accent);color:#10271f}.sources{display:flex;justify-content:space-around;gap:12px;min-height:160px;align-items:center}.sources img{image-rendering:pixelated;max-width:46%;max-height:150px;object-fit:contain}.notice{font-size:12px;color:#c3cfe0;margin-top:14px;padding:12px;background:#202b3c;border-radius:6px}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.section{margin-top:26px}.grid{display:grid;gap:12px}.directions{grid-template-columns:repeat(8,minmax(0,1fr))}.motions{grid-template-columns:repeat(3,minmax(0,1fr))}.tile{padding:10px;background:var(--panel);border:1px solid var(--line);border-radius:9px;cursor:pointer;overflow:hidden}.tile.selected{border-color:var(--accent)}.tile canvas{width:100%;image-rendering:pixelated;display:block;border-radius:5px}.tile .title{display:flex;justify-content:space-between;margin-bottom:7px;font-size:12px}.tile small{font-size:10px}.assets{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}.asset{background:#1b2637;border-radius:8px;padding:10px;overflow:hidden}.asset img{display:block;image-rendering:pixelated;max-width:100%;height:80px;object-fit:contain;margin:auto}.asset a{font-size:11px;overflow-wrap:anywhere}.asset small{font-size:10px;display:block}.footer{border-top:1px solid var(--line);margin-top:28px;padding-top:18px;font-size:12px;color:var(--muted)}.error{padding:30px;color:#ffaaa0}details summary{cursor:pointer;color:var(--muted);margin:15px 0}@media(max-width:900px){main{padding:14px}header{padding:18px}.focus{grid-template-columns:1fr}.directions{grid-template-columns:repeat(4,minmax(0,1fr))}.motions{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{position:static}.stage{min-height:240px}}@media(max-width:500px){.motions{grid-template-columns:1fr}h1{font-size:21px}.badge{display:none}}
+</style></head><body>
+<header><div><div class="eyebrow">REFERENCE STUDY / PIXEL MOTION</div><h1>PMD Animation Lab</h1><p class="muted">図鑑0001–0009 · 通常 / メガ / キョダイマックス · 色違い</p></div><span class="badge" id="count">読み込み中</span></header>
+<main>
+<div class="controls">
+<label>対象<select id="pokemon" aria-label="対象"></select></label>
+<label>配色<select id="variant"><option value="normal">通常色</option><option value="shiny">色違い</option></select></label>
+<label>動作<select id="action"></select></label><label>方向<select id="direction"></select></label>
+<button class="primary" id="play">停止</button><button id="prev" aria-label="前のコマ">◀</button><button id="next" aria-label="次のコマ">▶</button>
+<label>再生速度<select id="speed"><option value="0.25">0.25 ×</option><option value="0.5">0.5 ×</option><option value="1" selected>1 ×</option><option value="2">2 ×</option></select></label>
+<label>拡大<select id="zoom"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></label>
+<label>背景<input type="color" id="bg" value="#c6ccd6"></label><label class="check"><input type="checkbox" id="onion">前コマ重ね</label><label class="check"><input type="checkbox" id="guides" checked>基準線</label>
+</div>
+<div class="summary" id="summary"></div>
+<div class="focus"><section class="panel"><h2 id="focus-title"></h2><div class="stage" id="stage"><canvas id="main" width="640" height="360"></canvas></div>
+<div class="readout"><span id="frame"></span><small id="timing"></small></div><input id="scrub" type="range" min="0" value="0" step="1" aria-label="コマ位置"><div class="timeline" id="timeline"></div><small>緑: 現在のコマ / 橙線: ヒット · Space: 再生/停止 · ← →: コマ送り</small></section>
+<aside class="panel"><h2>pokeSpriteの元デザイン</h2><div class="sources"><img id="source-front" alt="pokeSprite正面"><img id="source-back" alt="pokeSprite背面"></div><p class="muted">正面 / 背面</p><div class="notice" id="method"></div><div class="notice" id="notes"></div><p style="margin-top:16px"><a id="sheet-link" href="#">動作シートPNG</a> · <a id="meta-link" href="#">メタデータ</a> · <a id="credit-link" href="#">作者情報</a></p></aside></div>
+<section class="section"><h2>8方向を比較 <small>方向をクリックして拡大</small></h2><div class="grid directions" id="directions"></div></section>
+<section class="section"><h2>すべての動作 <small>各動作の本来の時間でループ再生 / クリックしてコマを確認</small></h2><div class="grid motions" id="motions"></div></section>
+<details class="section" id="asset-details"><summary>元ファイルと同名のPMD画像 — 前後・反転・色違い・box-icons</summary><p class="muted">front/back GIFはPMD待機ループ。box-iconsはPMD待機絵から統一したアイコンです。</p><div class="assets" id="assets"></div></details>
+<footer class="footer">生成先: reference-study/gen1/… · 1xで制作し2倍の整数拡大 · GIFは10ms単位、動作シートは60 ticks/秒<br>素材: <a href="https://github.com/PMDCollab/SpriteCollab">PMDCollab / SpriteCollab</a> · <a href="reference-study/LICENSE-SpriteCollab.md">ライセンス</a> · <a href="reference-study/validation.json">検証結果</a> · <a href="reference-study/asset-map.json">全入力画像と生成物の対応表</a></footer>
+</main>
+<script src="reference-study/catalog.js"></script><script src="reference-study/asset-map.js"></script>
+<script>
+'use strict';
+const $=id=>document.getElementById(id),D=window.PMD_STUDY,ASSETS=window.PMD_ASSETS||[];
+if(!D)throw Error('reference-study/catalog.js が見つかりません。フォルダ構成を保持してください。');
+const JP={Idle:'待機',Walk:'歩行',Attack:'攻撃',Shoot:'射撃',SpAttack:'特殊攻撃',Charge:'溜め',Strike:'強攻撃',Hurt:'被弾',Faint:'倒れる'};
+const JAPANESE={'0001':'フシギダネ','0002':'フシギソウ','0003':'フシギバナ','0004':'ヒトカゲ','0005':'リザード','0006':'リザードン','0007':'ゼニガメ','0008':'カメール','0009':'カメックス'};
+const DIRJP=['南','南東','東','北東','北','北西','西','南西'];
+const url=p=>p.split('/').map(encodeURIComponent).join('/');
+const label=r=>JAPANESE[r.id.slice(0,4)]+(r.id.includes('-mega-x')?' メガX':r.id.includes('-mega-y')?' メガY':r.id.includes('-mega')?' メガ':r.id.includes('-gmax')?' キョダイマックス':' 通常');
+const images=new Map();let record,variant,animation='Idle',row=0,elapsed=0,playing=true,last=performance.now(),errors=[];
+const dirViews=[],motionViews=[],timeline=[];
+for(const r of D.records)$('pokemon').add(new Option(r.id.slice(0,4)+' '+label(r),r.id));
+for(const a of D.actions)$('action').add(new Option(JP[a]+' / '+a,a));
+D.dirs.forEach((d,i)=>$('direction').add(new Option(d+' · '+DIRJP[i],String(i))));
+$('count').textContent=`${D.records.length}形態 / ${D.records.length*2}配色 / ${D.records.length*18}シート`;
+function loadImage(file){if(!images.has(file)){const im=new Image();im.onerror=()=>{errors.push(file);$('timing').textContent='画像読込エラー: '+file;};im.src=url(file);images.set(file,im);}return images.get(file);}
+function spec(name=animation){return variant.anims[name];}
+function frameAt(a,t){const total=a.durations.reduce((s,d)=>s+d,0);let ticks=((t*60)%total+total)%total;for(let i=0;i<a.frames;i++){ticks-=a.durations[i];if(ticks<.0000001)return i;}return a.frames-1;}
+function goFrame(i){const a=spec();elapsed=a.durations.slice(0,i).reduce((s,d)=>s+d,0)/60+.00001;playing=false;$('play').textContent='再生';draw();}
+function background(ctx,w,h){ctx.fillStyle=$('bg').value;ctx.fillRect(0,0,w,h);}
+function paint(canvas,name,direction,f,large=false){
+  const a=spec(name),im=loadImage('reference-study/'+record.src+'/'+a.file),ctx=canvas.getContext('2d'),w=canvas.width,h=canvas.height;
+  ctx.imageSmoothingEnabled=false;background(ctx,w,h);
+  // A common Idle foot anchor is applied to every action; lunges and recoil retain their offsets.
+  const baseline=h*.64,zoom=large?+$('zoom').value:1;
+  const fit=Math.min((w-16)/a.fw,(baseline-8)/Math.max(1,a.anchorY),(h-baseline-8)/Math.max(1,a.fh-a.anchorY)),scale=Math.min(zoom,fit);
+  const ox=w/2-a.fw*scale/2,oy=baseline-a.anchorY*scale;
+  if($('guides').checked){ctx.strokeStyle='#56607255';ctx.beginPath();ctx.moveTo(0,baseline+.5);ctx.lineTo(w,baseline+.5);ctx.moveTo(w/2+.5,0);ctx.lineTo(w/2+.5,h);ctx.stroke();}
+  if(!im.complete||!im.naturalWidth)return;
+  const r=a.rows===1?0:direction;
+  function stamp(k,alpha){ctx.globalAlpha=alpha;ctx.drawImage(im,k*a.fw,r*a.fh,a.fw,a.fh,ox,oy,a.fw*scale,a.fh*scale);ctx.globalAlpha=1;}
+  if($('onion').checked)stamp((f+a.frames-1)%a.frames,.22);stamp(f,1);
+}
+function tiles(){
+  $('directions').replaceChildren();$('motions').replaceChildren();dirViews.length=0;motionViews.length=0;
+  for(let i=0;i<8;i++){const tile=document.createElement('div');tile.className='tile';tile.tabIndex=0;tile.setAttribute('role','button');tile.setAttribute('aria-label','方向 '+D.dirs[i]);const title=document.createElement('div');title.className='title';title.textContent=D.dirs[i]+' / '+DIRJP[i];const c=document.createElement('canvas');c.width=180;c.height=160;tile.append(title,c);tile.onclick=()=>{$('direction').value=String(i);row=i;draw();};tile.onkeydown=e=>{if(e.key==='Enter')tile.click();};$('directions').append(tile);dirViews.push({tile,c});}
+  for(const name of D.actions){const a=spec(name),tile=document.createElement('div');tile.className='tile';tile.tabIndex=0;tile.setAttribute('role','button');tile.setAttribute('aria-label','動作 '+name);const title=document.createElement('div');title.className='title';title.textContent=JP[name]+' / '+name;const detail=document.createElement('small');detail.textContent=a.frames+'コマ · '+a.durations.reduce((s,d)=>s+d,0)+' ticks'+(a.substituted?' · '+a.sourceAnimation+'を使用':'');const c=document.createElement('canvas');c.width=400;c.height=220;tile.append(title,c,detail);tile.onclick=()=>{$('action').value=name;chooseAction();};tile.onkeydown=e=>{if(e.key==='Enter')tile.click();};$('motions').append(tile);motionViews.push({name,tile,c});}
+}
+function assets(){
+  const holder=$('assets');holder.replaceChildren();
+  for(const asset of ASSETS.filter(a=>a.id===record.id)){const card=document.createElement('div');card.className='asset';const img=new Image();img.loading='lazy';img.src=url('reference-study/'+asset.output);img.alt=asset.output.split('/').slice(-2).join('/');const a=document.createElement('a');a.href=img.src;a.textContent=asset.output.slice(record.src.length+1);const info=document.createElement('small');info.textContent=asset.outputSize.join(' × ')+' · '+asset.frames+' frame(s)';card.append(img,a,info);holder.append(card);}
+}
+function chooseAction(){animation=$('action').value;elapsed=0;const a=spec();$('scrub').max=String(a.frames-1);$('timeline').replaceChildren();timeline.length=0;for(let i=0;i<a.frames;i++){const b=document.createElement('button');b.className='tick'+(i===a.hit?' hit':'');b.textContent=String(i+1);b.title=`${i+1}コマ: ${a.durations[i]} ticks`;b.style.flex=String(a.durations[i]);b.onclick=()=>goFrame(i);$('timeline').append(b);timeline.push(b);}const base='reference-study/'+record.src+'/';$('sheet-link').href=url(base+a.file);draw();}
+function choose(){
+  images.clear();
+  record=D.records.find(r=>r.id===$('pokemon').value);variant=record.variants[$('variant').value];
+  const suffix=$('variant').value==='shiny'?'-shiny':'';
+  $('source-front').src=url('../pokemon_arena_2d/pokeSprite/'+record.src+'/front'+suffix+'.png');$('source-back').src=url('../pokemon_arena_2d/pokeSprite/'+record.src+'/back'+suffix+'.png');
+  $('summary').replaceChildren();$('summary').textContent=`${label(record)} / ${record.src} / 共通パレット ${variant.palette.length}色 / 透明背景`;
+  $('method').textContent='制作方式: '+record.method+' / 元素材 '+record.sourceFolder;
+  $('notes').textContent=record.notes.length?record.notes.join(' '):'8方向の元ポーズ・コマの時間・ヒット位置を保持しています。';
+  $('meta-link').href=url('reference-study/'+record.src+'/manifest.json');$('credit-link').href=url('reference-study/'+record.src+'/credits.txt');
+  for(const a of Object.values(variant.anims))loadImage('reference-study/'+record.src+'/'+a.file);
+  tiles();assets();chooseAction();
+}
+function draw(){if(!record)return;const a=spec(),f=frameAt(a,elapsed);$('focus-title').textContent=label(record)+' — '+JP[animation]+' / '+D.dirs[row];$('frame').textContent=`${f+1} / ${a.frames} コマ`;
+  if(!errors.length)$('timing').textContent=`${a.durations[f]} ticks · ${(a.durations[f]/60*1000).toFixed(1)} ms${f===a.hit?' · HIT':''}${a.rows===1?' · 元素材は単一方向':''}`;
+  $('scrub').value=String(f);timeline.forEach((b,i)=>b.classList.toggle('current',i===f));$('stage').style.background=$('bg').value;
+  paint($('main'),animation,row,f,true);dirViews.forEach(({tile,c},i)=>{tile.classList.toggle('selected',i===row);paint(c,animation,i,f);});motionViews.forEach(({name,tile,c})=>{tile.classList.toggle('selected',name===animation);paint(c,name,row,frameAt(spec(name),elapsed));});
+}
+$('pokemon').onchange=choose;$('variant').onchange=choose;$('action').onchange=chooseAction;$('direction').onchange=()=>{row=+$('direction').value;draw();};
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'停止':'再生';};$('next').onclick=()=>goFrame((frameAt(spec(),elapsed)+1)%spec().frames);$('prev').onclick=()=>goFrame((frameAt(spec(),elapsed)+spec().frames-1)%spec().frames);$('scrub').oninput=()=>goFrame(+$('scrub').value);
+document.addEventListener('keydown',e=>{if(['INPUT','SELECT','BUTTON'].includes(e.target.tagName))return;if(e.code==='Space'){e.preventDefault();$('play').click();}if(e.code==='ArrowRight'){e.preventDefault();$('next').click();}if(e.code==='ArrowLeft'){e.preventDefault();$('prev').click();}});
+choose();function tick(now){if(playing)elapsed+=(now-last)/1000*+$('speed').value;last=now;draw();requestAnimationFrame(tick);}requestAnimationFrame(tick);
+window.PMD_DEBUG={get imageErrors(){return errors.slice();},frameAt};
+</script></body></html>

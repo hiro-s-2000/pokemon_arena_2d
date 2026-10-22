@@ -1,0 +1,1802 @@
+{
+  "id": "0136_flareon",
+  "pokemonId": 136,
+  "dex": 136,
+  "slug": "flareon",
+  "name": "Flareon",
+  "jpName": "ブースター",
+  "genus": "Flame Pokémon",
+  "jpGenus": "ほのおポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0136_flareon/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0136_flareon/normal/back.gif",
+  "abilities": [
+    {
+      "id": 18,
+      "slug": "flash-fire",
+      "name": "Flash Fire",
+      "jpName": "もらいび",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+      "jpDescription": "ほのおタイプの 技を 受けると 炎を もらい 自分が 出す ほのおタイプの 技が 強くなる。"
+    },
+    {
+      "id": 62,
+      "slug": "guts",
+      "name": "Guts",
+      "jpName": "こんじょう",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Increases Attack to 1.5× with a major status ailment.",
+      "jpDescription": "状態異常に なると 根性を だして 攻撃が 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 9,
+    "meters": 0.9,
+    "feetInches": "2'11\"",
+    "display": "0.9 m (2'11\")"
+  },
+  "weight": {
+    "hectograms": 250,
+    "kilograms": 25.0,
+    "pounds": 55.1,
+    "display": "25.0 kg (55.1 lbs)"
+  },
+  "shape": {
+    "id": 8,
+    "slug": "quadruped",
+    "name": "Quadruped",
+    "awesomeName": "Mensal",
+    "jpName": "四足歩行"
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 110,
+    "speed": 65,
+    "total": 525,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 125,
+          "max": 172
+        },
+        "lv100": {
+          "min": 240,
+          "max": 334
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 121,
+          "max": 200
+        },
+        "lv100": {
+          "min": 238,
+          "max": 394
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 90,
+          "max": 161
+        },
+        "lv100": {
+          "min": 175,
+          "max": 317
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 103,
+          "max": 178
+        },
+        "lv100": {
+          "min": 202,
+          "max": 350
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      }
+    }
+  },
+  "baseStatTotal": 525,
+  "typeMatchups": {
+    "types": [
+      "fire"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 10,
+        "slug": "fire",
+        "name": "Fire",
+        "jpName": "ほのお"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 2.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 0.5,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 2.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 0.5
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "water",
+      "ground",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "electric",
+      "fighting",
+      "poison",
+      "flying",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "grass",
+      "ice",
+      "bug",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "ice",
+      "bug",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Attack",
+    "evYieldTextJa": "こうげき+2",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 184,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 87.5,
+      "femalePercent": 12.5,
+      "display": "87.5% Male, 12.5% Female",
+      "displayJa": "♂ 87.5% / ♀ 12.5%"
+    },
+    "eggCycles": {
+      "cycles": 35,
+      "minSteps": 8541,
+      "maxSteps": 9252,
+      "display": "35 (8,541–9,252 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 67,
+    "evolvesFrom": {
+      "speciesId": 133,
+      "dex": 133,
+      "slug": "eevee",
+      "name": "Eevee",
+      "jpName": "イーブイ",
+      "conditions": [
+        {
+          "trigger": "use-item",
+          "triggerName": "Use item",
+          "minLevel": null,
+          "item": "Fire Stone",
+          "itemJp": "ほのおのいし",
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Use Fire Stone",
+          "conditionTextJa": "「ほのおのいし」を使用"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 133,
+        "dex": 133,
+        "slug": "eevee",
+        "name": "Eevee",
+        "jpName": "イーブイ",
+        "types": [
+          "normal"
+        ],
+        "sprite": "../pokeSprite/gen1/0133_eevee/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0133_eevee/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 134,
+            "dex": 134,
+            "slug": "vaporeon",
+            "name": "Vaporeon",
+            "jpName": "シャワーズ",
+            "types": [
+              "water"
+            ],
+            "sprite": "../pokeSprite/gen1/0134_vaporeon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0134_vaporeon/normal/back.gif",
+            "condition": "Use Water Stone",
+            "conditionJa": "「みずのいし」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Water Stone",
+                "itemJp": "みずのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Water Stone",
+                "conditionTextJa": "「みずのいし」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 135,
+            "dex": 135,
+            "slug": "jolteon",
+            "name": "Jolteon",
+            "jpName": "サンダース",
+            "types": [
+              "electric"
+            ],
+            "sprite": "../pokeSprite/gen1/0135_jolteon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0135_jolteon/normal/back.gif",
+            "condition": "Use Thunder Stone",
+            "conditionJa": "「かみなりのいし」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Thunder Stone",
+                "itemJp": "かみなりのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Thunder Stone",
+                "conditionTextJa": "「かみなりのいし」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 136,
+            "dex": 136,
+            "slug": "flareon",
+            "name": "Flareon",
+            "jpName": "ブースター",
+            "types": [
+              "fire"
+            ],
+            "sprite": "../pokeSprite/gen1/0136_flareon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0136_flareon/normal/back.gif",
+            "condition": "Use Fire Stone",
+            "conditionJa": "「ほのおのいし」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Fire Stone",
+                "itemJp": "ほのおのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Fire Stone",
+                "conditionTextJa": "「ほのおのいし」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 196,
+            "dex": 196,
+            "slug": "espeon",
+            "name": "Espeon",
+            "jpName": "エーフィ",
+            "types": [
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen2/0196_espeon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0196_espeon/normal/back.gif",
+            "condition": "Level up high Friendship (160+) at day",
+            "conditionJa": "レベルアップ（なつき度160以上）（day）",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": 160,
+                "timeOfDay": "day",
+                "conditionText": "Level up high Friendship (160+) at day",
+                "conditionTextJa": "レベルアップ（なつき度160以上）（day）"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 197,
+            "dex": 197,
+            "slug": "umbreon",
+            "name": "Umbreon",
+            "jpName": "ブラッキー",
+            "types": [
+              "dark"
+            ],
+            "sprite": "../pokeSprite/gen2/0197_umbreon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0197_umbreon/normal/back.gif",
+            "condition": "Level up high Friendship (160+) at night",
+            "conditionJa": "レベルアップ（なつき度160以上）（night）",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": 160,
+                "timeOfDay": "night",
+                "conditionText": "Level up high Friendship (160+) at night",
+                "conditionTextJa": "レベルアップ（なつき度160以上）（night）"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 470,
+            "dex": 470,
+            "slug": "leafeon",
+            "name": "Leafeon",
+            "jpName": "リーフィア",
+            "types": [
+              "grass"
+            ],
+            "sprite": "../pokeSprite/gen4/0470_leafeon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0470_leafeon/normal/back.gif",
+            "condition": "Level up / Use Leaf Stone",
+            "conditionJa": "レベルアップ / 「リーフのいし」を使用",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Leaf Stone",
+                "itemJp": "リーフのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Leaf Stone",
+                "conditionTextJa": "「リーフのいし」を使用"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 471,
+            "dex": 471,
+            "slug": "glaceon",
+            "name": "Glaceon",
+            "jpName": "グレイシア",
+            "types": [
+              "ice"
+            ],
+            "sprite": "../pokeSprite/gen4/0471_glaceon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0471_glaceon/normal/back.gif",
+            "condition": "Level up / Use Ice Stone",
+            "conditionJa": "レベルアップ / 「こおりのいし」を使用",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Ice Stone",
+                "itemJp": "こおりのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Ice Stone",
+                "conditionTextJa": "「こおりのいし」を使用"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 700,
+            "dex": 700,
+            "slug": "sylveon",
+            "name": "Sylveon",
+            "jpName": "ニンフィア",
+            "types": [
+              "fairy"
+            ],
+            "sprite": "../pokeSprite/gen6/0700_sylveon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen6/0700_sylveon/normal/back.gif",
+            "condition": "Level up / Level up high Friendship (160+)",
+            "conditionJa": "レベルアップ / レベルアップ（なつき度160以上）",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": 160,
+                "timeOfDay": null,
+                "conditionText": "Level up high Friendship (160+)",
+                "conditionTextJa": "レベルアップ（なつき度160以上）"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Eevee --(Use Water Stone)--> Vaporeon | Eevee --(Use Thunder Stone)--> Jolteon | Eevee --(Use Fire Stone)--> Flareon | Eevee --(Level up high Friendship (160+) at day)--> Espeon | Eevee --(Level up high Friendship (160+) at night)--> Umbreon | Eevee --(Level up / Use Leaf Stone)--> Leafeon | Eevee --(Level up / Use Ice Stone)--> Glaceon | Eevee --(Level up / Level up high Friendship (160+))--> Sylveon",
+    "summaryTextJa": "イーブイ --(「みずのいし」を使用)--> シャワーズ | イーブイ --(「かみなりのいし」を使用)--> サンダース | イーブイ --(「ほのおのいし」を使用)--> ブースター | イーブイ --(レベルアップ（なつき度160以上）（day）)--> エーフィ | イーブイ --(レベルアップ（なつき度160以上）（night）)--> ブラッキー | イーブイ --(レベルアップ / 「リーフのいし」を使用)--> リーフィア | イーブイ --(レベルアップ / 「こおりのいし」を使用)--> グレイシア | イーブイ --(レベルアップ / レベルアップ（なつき度160以上）)--> ニンフィア"
+  },
+  "moves": {
+    "totalUniqueMoves": 61,
+    "levelUp": [
+      {
+        "id": 52,
+        "slug": "ember",
+        "name": "Ember",
+        "jpName": "ひのこ",
+        "type": "fire",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is attacked with small flames. This may also leave the target with a burn.",
+        "jpDescription": "小さな 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。",
+        "level": 0
+      },
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。",
+        "level": 1
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 1
+      },
+      {
+        "id": 39,
+        "slug": "tail-whip",
+        "name": "Tail Whip",
+        "jpName": "しっぽをふる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user wags its tail cutely, making opposing Pokémon less wary. This lowers their Defense stats.",
+        "jpDescription": "しっぽを 左右に かわいく ふって 油断を 誘う。 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。",
+        "level": 1
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。",
+        "level": 1
+      },
+      {
+        "id": 226,
+        "slug": "baton-pass",
+        "name": "Baton Pass",
+        "jpName": "バトンタッチ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+        "jpDescription": "控えの ポケモンと 入れ替わる。 能力変化は 替わった ポケモンが そのまま 受けつぐ。",
+        "level": 1
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。",
+        "level": 1
+      },
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。",
+        "level": 1
+      },
+      {
+        "id": 383,
+        "slug": "copycat",
+        "name": "Copycat",
+        "jpName": "まねっこ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+        "jpDescription": "直前に でた 技を まねして 同じ 技を だす。 技が でていないと 失敗する。",
+        "level": 1
+      },
+      {
+        "id": 28,
+        "slug": "sand-attack",
+        "name": "Sand Attack",
+        "jpName": "すなかけ",
+        "type": "ground",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "Sand is hurled in the target's face, lowering the target's accuracy.",
+        "jpDescription": "相手の 顔に 砂を かけて 命中率を さげる。",
+        "level": 5
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。",
+        "level": 10
+      },
+      {
+        "id": 608,
+        "slug": "baby-doll-eyes",
+        "name": "Baby-Doll Eyes",
+        "jpName": "つぶらなひとみ",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user stares at the target with its baby-doll eyes, which lowers the target's Attack stat. This move always goes first.",
+        "jpDescription": "つぶらなひとみで 相手を みつめて 攻撃を さげる。 必ず 先制攻撃 できる。",
+        "level": 15
+      },
+      {
+        "id": 123,
+        "slug": "smog",
+        "name": "Smog",
+        "jpName": "スモッグ",
+        "type": "poison",
+        "category": "special",
+        "power": 30,
+        "accuracy": 70,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a discharge of filthy gases. This may also poison the target.",
+        "jpDescription": "汚れた ガスを 相手に 吹きつけて 攻撃する。 毒状態に することが ある。",
+        "level": 20
+      },
+      {
+        "id": 44,
+        "slug": "bite",
+        "name": "Bite",
+        "jpName": "かみつく",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+        "jpDescription": "鋭く とがった 歯で かみついて 攻撃する。 相手を ひるませることが ある。",
+        "level": 25
+      },
+      {
+        "id": 424,
+        "slug": "fire-fang",
+        "name": "Fire Fang",
+        "jpName": "ほのおのキバ",
+        "type": "fire",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+        "jpDescription": "炎を まとった キバで かみつく。 相手を ひるませたり やけど状態に することが ある。",
+        "level": 30
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。",
+        "level": 35
+      },
+      {
+        "id": 436,
+        "slug": "lava-plume",
+        "name": "Lava Plume",
+        "jpName": "ふんえん",
+        "type": "fire",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+        "jpDescription": "真っ赤な 炎で 自分の 周りに いるものを 攻撃する。 やけど状態に することが ある。",
+        "level": 40
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。",
+        "level": 45
+      },
+      {
+        "id": 394,
+        "slug": "flare-blitz",
+        "name": "Flare Blitz",
+        "jpName": "フレアドライブ",
+        "type": "fire",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
+        "jpDescription": "炎を まとって 突進する。 自分も かなり ダメージを 受ける。 やけど状態に することが ある。",
+        "level": 50
+      },
+      {
+        "id": 387,
+        "slug": "last-resort",
+        "name": "Last Resort",
+        "jpName": "とっておき",
+        "type": "normal",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can be used only after the user has used all the other moves it knows in the battle.",
+        "jpDescription": "戦闘中に おぼえている 技を すべて 使うと はじめて だせる とっておきの 技。",
+        "level": 55
+      }
+    ],
+    "machine": [
+      {
+        "id": 914,
+        "slug": "alluring-voice",
+        "name": "Alluring Voice",
+        "jpName": "みわくのボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn.",
+        "jpDescription": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn."
+      },
+      {
+        "id": 226,
+        "slug": "baton-pass",
+        "name": "Baton Pass",
+        "jpName": "バトンタッチ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+        "jpDescription": "控えの ポケモンと 入れ替わる。 能力変化は 替わった ポケモンが そのまま 受けつぐ。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 807,
+        "slug": "burning-jealousy",
+        "name": "Burning Jealousy",
+        "jpName": "しっとのほのお",
+        "type": "fire",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
+        "jpDescription": "しっとの エネルギーで 相手を 攻撃。 そのターン 能力が あがった ポケモンを やけどの 状態に する。"
+      },
+      {
+        "id": 347,
+        "slug": "calm-mind",
+        "name": "Calm Mind",
+        "jpName": "めいそう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user quietly focuses its mind and calms its spirit to boost its Sp. Atk and Sp. Def stats.",
+        "jpDescription": "静かに 精神を 統一し 心を 鎮めることで 自分の 特攻と 特防を あげる。"
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 174,
+        "slug": "curse",
+        "name": "Curse",
+        "jpName": "のろい",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that has different effects depending on whether the user is a Ghost type or not.",
+        "jpDescription": "使う ポケモンが ゴーストタイプと それ以外 とでは 効果が 変わる。"
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 126,
+        "slug": "fire-blast",
+        "name": "Fire Blast",
+        "jpName": "だいもんじ",
+        "type": "fire",
+        "category": "special",
+        "power": 110,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+        "jpDescription": "大の字の 炎で 相手を 焼きつくす。 やけど状態に することが ある。"
+      },
+      {
+        "id": 424,
+        "slug": "fire-fang",
+        "name": "Fire Fang",
+        "jpName": "ほのおのキバ",
+        "type": "fire",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+        "jpDescription": "炎を まとった キバで かみつく。 相手を ひるませたり やけど状態に することが ある。"
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。"
+      },
+      {
+        "id": 53,
+        "slug": "flamethrower",
+        "name": "Flamethrower",
+        "jpName": "かえんほうしゃ",
+        "type": "fire",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+        "jpDescription": "激しい 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 394,
+        "slug": "flare-blitz",
+        "name": "Flare Blitz",
+        "jpName": "フレアドライブ",
+        "type": "fire",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
+        "jpDescription": "炎を まとって 突進する。 自分も かなり ダメージを 受ける。 やけど状態に することが ある。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 189,
+        "slug": "mud-slap",
+        "name": "Mud-Slap",
+        "jpName": "どろかけ",
+        "type": "ground",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+        "jpDescription": "相手の 顔などに 泥を 投げつけて 攻撃する。 命中率を さげる。"
+      },
+      {
+        "id": 315,
+        "slug": "overheat",
+        "name": "Overheat",
+        "jpName": "オーバーヒート",
+        "type": "fire",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with all its might. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "フルパワーで 相手を 攻撃する。 使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 46,
+        "slug": "roar",
+        "name": "Roar",
+        "jpName": "ほえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 逃がして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。"
+      },
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 500,
+        "slug": "stored-power",
+        "name": "Stored Power",
+        "jpName": "アシストパワー",
+        "type": "psychic",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with stored power. The more the user's stats are boosted, the greater the move's power.",
+        "jpDescription": "蓄積された パワーで 相手を 攻撃する。自分の 能力が あがっているほど 威力が あがる。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 915,
+        "slug": "temper-flare",
+        "name": "Temper Flare",
+        "jpName": "やけっぱち",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed."
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 885,
+        "slug": "trailblaze",
+        "name": "Trailblaze",
+        "jpName": "くさわけ",
+        "type": "grass",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+        "jpDescription": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+      },
+      {
+        "id": 311,
+        "slug": "weather-ball",
+        "name": "Weather Ball",
+        "jpName": "ウェザーボール",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's type and power change depending on the weather at the time the move is used.",
+        "jpDescription": "使ったときの 天気に よって 技の タイプと 威力が 変わる。"
+      },
+      {
+        "id": 261,
+        "slug": "will-o-wisp",
+        "name": "Will-O-Wisp",
+        "jpName": "おにび",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shoots a sinister flame at the target to inflict a burn.",
+        "jpDescription": "不気味で 怪しい 炎を 放って 相手を やけどの 状態に する。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 807,
+        "slug": "burning-jealousy",
+        "name": "Burning Jealousy",
+        "jpName": "しっとのほのお",
+        "type": "fire",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
+        "jpDescription": "しっとの エネルギーで 相手を 攻撃。 そのターン 能力が あがった ポケモンを やけどの 状態に する。"
+      },
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。"
+      },
+      {
+        "id": 215,
+        "slug": "heal-bell",
+        "name": "Heal Bell",
+        "jpName": "いやしのすず",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies.",
+        "jpDescription": "心地好い 鈴の 音色を 聞かせて 味方 全員の 状態異常を 回復 する。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 673,
+        "slug": "laser-focus",
+        "name": "Laser Focus",
+        "jpName": "とぎすます",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user concentrates intensely. The attack on the next turn always results in a critical hit.",
+        "jpDescription": "精神を 集中して 次の 攻撃を 必ず 急所に 当てる。"
+      },
+      {
+        "id": 387,
+        "slug": "last-resort",
+        "name": "Last Resort",
+        "jpName": "とっておき",
+        "type": "normal",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can be used only after the user has used all the other moves it knows in the battle.",
+        "jpDescription": "戦闘中に おぼえている 技を すべて 使うと はじめて だせる とっておきの 技。"
+      },
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 276,
+        "slug": "superpower",
+        "name": "Superpower",
+        "jpName": "ばかぢから",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats.",
+        "jpDescription": "すごい 力を 発揮して 相手を 攻撃する。自分の 攻撃と 防御が さがる。"
+      }
+    ]
+  }
+}

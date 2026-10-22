@@ -1,0 +1,21 @@
+// Swampert-Mega (hand-painted). Lit from upper-left.
+. transparent
+# 000000
+D 1d3c7c
+B 2f62b4
+M 4a88dc
+L 76aaee
+H aed0f6
+K 26242f
+G 444254
+g 676579
+q 9896ab
+o b8401c
+O f0703c
+P ffa877
+Y ffc23a
+W e4eee8
+w a3b5ac
+c 7cc8f0
+C 2f6fb4
+h e8f8ff

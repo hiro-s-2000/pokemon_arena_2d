@@ -1,0 +1,912 @@
+{
+  "id": "0832_dubwool",
+  "pokemonId": 832,
+  "dex": 832,
+  "slug": "dubwool",
+  "name": "Dubwool",
+  "jpName": "バイウールー",
+  "genus": "Sheep Pokémon",
+  "jpGenus": "ひつじポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0832_dubwool/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0832_dubwool/normal/back.gif",
+  "abilities": [
+    {
+      "id": 218,
+      "slug": "fluffy",
+      "name": "Fluffy",
+      "jpName": "もふもふ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Damage from contact moves is halved. Damage from Fire moves is doubled.",
+      "jpDescription": "相手から 受けた 接触する 技の ダメージを 半減するが ほのおタイプの 技の ダメージは ２倍になる。"
+    },
+    {
+      "id": 80,
+      "slug": "steadfast",
+      "name": "Steadfast",
+      "jpName": "ふくつのこころ",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Raises Speed one stage upon flinching.",
+      "jpDescription": "ひるむ たびに 不屈の心を 燃やして 素早さが 上がる。"
+    },
+    {
+      "id": 171,
+      "slug": "bulletproof",
+      "name": "Bulletproof",
+      "jpName": "ぼうだん",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against bullet, ball, and bomb-based moves.",
+      "jpDescription": "相手の 弾や 爆弾などの 技を 防ぐことが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 13,
+    "meters": 1.3,
+    "feetInches": "4'03\"",
+    "display": "1.3 m (4'03\")"
+  },
+  "weight": {
+    "hectograms": 430,
+    "kilograms": 43.0,
+    "pounds": 94.8,
+    "display": "43.0 kg (94.8 lbs)"
+  },
+  "shape": {
+    "id": 8,
+    "slug": "quadruped",
+    "name": "Quadruped",
+    "awesomeName": "Mensal",
+    "jpName": "四足歩行"
+  },
+  "baseStats": {
+    "hp": 72,
+    "attack": 80,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 90,
+    "speed": 88,
+    "total": 490,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 132,
+          "max": 179
+        },
+        "lv100": {
+          "min": 254,
+          "max": 348
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 94,
+          "max": 167
+        },
+        "lv100": {
+          "min": 184,
+          "max": 328
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 83,
+          "max": 154
+        },
+        "lv100": {
+          "min": 162,
+          "max": 302
+        }
+      }
+    }
+  },
+  "baseStatTotal": 490,
+  "typeMatchups": {
+    "types": [
+      "normal"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 1,
+        "slug": "normal",
+        "name": "Normal",
+        "jpName": "ノーマル"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 0.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fighting"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ghost"
+    ],
+    "stabSuperEffectiveAgainst": []
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "defense",
+        "statName": "Defense",
+        "statJpName": "ぼうぎょ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Defense",
+    "evYieldTextJa": "ぼうぎょ+2",
+    "catchRate": 127,
+    "pokeBallFullHpPercent": 26.0,
+    "catchRateDisplay": "127 (26.0% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 172,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 438,
+    "evolvesFrom": {
+      "speciesId": 831,
+      "dex": 831,
+      "slug": "wooloo",
+      "name": "Wooloo",
+      "jpName": "ウールー",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 24,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 24",
+          "conditionTextJa": "Lv.24"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 831,
+        "dex": 831,
+        "slug": "wooloo",
+        "name": "Wooloo",
+        "jpName": "ウールー",
+        "types": [
+          "normal"
+        ],
+        "sprite": "../pokeSprite/gen8/0831_wooloo/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0831_wooloo/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 832,
+            "dex": 832,
+            "slug": "dubwool",
+            "name": "Dubwool",
+            "jpName": "バイウールー",
+            "types": [
+              "normal"
+            ],
+            "sprite": "../pokeSprite/gen8/0832_dubwool/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0832_dubwool/normal/back.gif",
+            "condition": "Level 24",
+            "conditionJa": "Lv.24",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 24,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 24",
+                "conditionTextJa": "Lv.24"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Wooloo --(Level 24)--> Dubwool",
+    "summaryTextJa": "ウールー --(Lv.24)--> バイウールー"
+  },
+  "moves": {
+    "totalUniqueMoves": 38,
+    "levelUp": [
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 111,
+        "slug": "defense-curl",
+        "name": "Defense Curl",
+        "jpName": "まるくなる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user curls up and boosts its Defense stat.",
+        "jpDescription": "体を まるめて ちぢこまり 自分の 防御を あげる。",
+        "level": 1
+      },
+      {
+        "id": 383,
+        "slug": "copycat",
+        "name": "Copycat",
+        "jpName": "まねっこ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+        "jpDescription": "直前に でた 技を まねして 同じ 技を だす。 技が でていないと 失敗する。",
+        "level": 1
+      },
+      {
+        "id": 470,
+        "slug": "guard-split",
+        "name": "Guard Split",
+        "jpName": "ガードシェア",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+        "jpDescription": "超能力で 自分と 相手の 防御と 特防を たして 半分に わける。",
+        "level": 12
+      },
+      {
+        "id": 24,
+        "slug": "double-kick",
+        "name": "Double Kick",
+        "jpName": "にどげり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by kicking the target twice in a row using two feet.",
+        "jpDescription": "２本の 足で 相手を けとばして 攻撃する。 ２回連続で ダメージを 与える。",
+        "level": 16
+      },
+      {
+        "id": 29,
+        "slug": "headbutt",
+        "name": "Headbutt",
+        "jpName": "ずつき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+        "jpDescription": "頭を 突きだして まっすぐ つっこんで 攻撃する。 相手を ひるませることが ある。",
+        "level": 21
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。",
+        "level": 27
+      },
+      {
+        "id": 385,
+        "slug": "guard-swap",
+        "name": "Guard Swap",
+        "jpName": "ガードスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+        "jpDescription": "超能力で 自分と 相手の 防御と 特防の 能力変化を 入れ替える。",
+        "level": 32
+      },
+      {
+        "id": 179,
+        "slug": "reversal",
+        "name": "Reversal",
+        "jpName": "きしかいせい",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "An all-out attack that becomes more powerful the less HP the user has.",
+        "jpDescription": "力を ふりしぼり 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。",
+        "level": 38
+      },
+      {
+        "id": 538,
+        "slug": "cotton-guard",
+        "name": "Cotton Guard",
+        "jpName": "コットンガード",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat.",
+        "jpDescription": "フワフワの 綿毛で 自分の 体を 包みこんで 守る。 防御を ぐぐーんと あげる。",
+        "level": 44
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 50
+      },
+      {
+        "id": 387,
+        "slug": "last-resort",
+        "name": "Last Resort",
+        "jpName": "とっておき",
+        "type": "normal",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can be used only after the user has used all the other moves it knows in the battle.",
+        "jpDescription": "戦闘中に おぼえている 技を すべて 使うと はじめて だせる とっておきの 技。",
+        "level": 56
+      }
+    ],
+    "machine": [
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 226,
+        "slug": "baton-pass",
+        "name": "Baton Pass",
+        "jpName": "バトンタッチ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+        "jpDescription": "控えの ポケモンと 入れ替わる。 能力変化は 替わった ポケモンが そのまま 受けつぐ。"
+      },
+      {
+        "id": 776,
+        "slug": "body-press",
+        "name": "Body Press",
+        "jpName": "ボディプレス",
+        "type": "fighting",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals.",
+        "jpDescription": "体を ぶつけて 攻撃。 防御が 高いほど 与える ダメージが 増える。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 340,
+        "slug": "bounce",
+        "name": "Bounce",
+        "jpName": "とびはねる",
+        "type": "flying",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+        "jpDescription": "空高く 飛び跳ねて ２ターン目に 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 486,
+        "slug": "electro-ball",
+        "name": "Electro Ball",
+        "jpName": "エレキボール",
+        "type": "electric",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power.",
+        "jpDescription": "電気の 塊を 相手に ぶつける。相手より 素早さが 速いほど 威力が あがる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 385,
+        "slug": "guard-swap",
+        "name": "Guard Swap",
+        "jpName": "ガードスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+        "jpDescription": "超能力で 自分と 相手の 防御と 特防の 能力変化を 入れ替える。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 25,
+        "slug": "mega-kick",
+        "name": "Mega Kick",
+        "jpName": "メガトンキック",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 75,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked by a kick launched with muscle-packed power.",
+        "jpDescription": "ものすごい 力を こめた キックで 相手を けとばして 攻撃する。"
+      },
+      {
+        "id": 371,
+        "slug": "payback",
+        "name": "Payback",
+        "jpName": "しっぺがえし",
+        "type": "dark",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user stores power, then attacks. This move's power is doubled if the user moves after the target.",
+        "jpDescription": "ためこんで 攻撃する。 相手より あとに 攻撃できると 技の 威力は ２倍に なる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 514,
+        "slug": "retaliate",
+        "name": "Retaliate",
+        "jpName": "かたきうち",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user takes revenge for a fainted ally. This move's power is boosted if an ally fainted in the previous turn.",
+        "jpDescription": "倒れた 味方の かたきを 討つ。 前の ターンに 味方が 倒されていると 威力が あがる。"
+      },
+      {
+        "id": 179,
+        "slug": "reversal",
+        "name": "Reversal",
+        "jpName": "きしかいせい",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "An all-out attack that becomes more powerful the less HP the user has.",
+        "jpDescription": "力を ふりしぼり 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。"
+      },
+      {
+        "id": 86,
+        "slug": "thunder-wave",
+        "name": "Thunder Wave",
+        "jpName": "でんじは",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+        "jpDescription": "弱い 電撃を 浴びせることで 相手を まひ状態に する。"
+      },
+      {
+        "id": 528,
+        "slug": "wild-charge",
+        "name": "Wild Charge",
+        "jpName": "ワイルドボルト",
+        "type": "electric",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+        "jpDescription": "電気を まとって 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      }
+    ]
+  }
+}

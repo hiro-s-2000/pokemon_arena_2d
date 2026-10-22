@@ -1,0 +1,135 @@
+{
+ "base": "0090_shellder",
+ "colors": {
+  "k": "000000",
+  "W": "ececf0",
+  "G": "b0b0c0",
+  "D": "707080",
+  "P": "f07890",
+  "p": "c04060",
+  "w": "ffffff"
+ },
+ "parts": [
+  {
+   "name": "dome",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -11
+     ],
+     "px": [
+      "..kkk..",
+      ".kWGGk.",
+      "kWGGGDk",
+      "kGGGGDk",
+      "kGGGDDk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -11
+     ],
+     "px": [
+      "..kkk..",
+      ".kWGGk.",
+      "kWGGGDk",
+      "kGGGGDk",
+      "kGGGDDk"
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      -12
+     ],
+     "px": [
+      "..kkk..",
+      ".kWGGk.",
+      "kWGGGDk",
+      "kGGGGDk",
+      "kGGGDDk"
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -11
+     ],
+     "px": [
+      "..kkk..",
+      ".kWGGk.",
+      "kWGGGDk",
+      "kGGGGDk",
+      "kGGGDDk"
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -10
+     ],
+     "px": [
+      "..kkk..",
+      ".kWGGk.",
+      "kWGGGDk",
+      "kGGGGDk",
+      "kGGGDDk"
+     ]
+    }
+   }
+  },
+  {
+   "name": "face",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -6,
+      2
+     ],
+     "px": [
+      ".kkkkkkkkkkk.",
+      "kPPPPPPPPPPPk",
+      "kPPkwPPPkwPPk",
+      "kPPkkPPPkkPPk",
+      "kpPPPPPPPPPpk",
+      ".kppPPPPPppk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      2
+     ],
+     "px": [
+      ".kkkkkkk.",
+      "kPPPPPPPk",
+      "kPPPPkwPk",
+      "kPPPPkkPk",
+      "kpPPPPPPk",
+      ".kppPPpk."
+     ]
+    },
+    "E": {
+     "at": [
+      2,
+      1
+     ],
+     "px": [
+      ".kkkkkkk.",
+      "kPPPPPPPk",
+      "kPPPPkwPk",
+      "kPPPPkkPk",
+      "kpPPPPPPk",
+      ".kppPPpk."
+     ]
+    }
+   }
+  }
+ ]
+}

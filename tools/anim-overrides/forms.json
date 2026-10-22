@@ -1,0 +1,9 @@
+{
+  "_comment": "Regional / alternate-form mapping fixes (reviewed against pokeSprite front GIFs). Keys starting with _ are ignored.",
+  "_0032_nidoran-m": "root sheet uses the old PMD pink palette; the Altcolor subgroup is the purple main-series palette that matches the GIF",
+  "0032_nidoran-m": "0032/0001",
+  "_0555_darmanitan-galar-zen": "no Galar_Zen art; Galar standard looks like a different Pokemon, the GIF shows the right form",
+  "0555_darmanitan-galar-zen": null,
+  "_1003_ting-lu": "root has a single still Idle, but the Temp subgroup is complete Ting-Lu art (Idle/Walk/Attack/Shoot/Charge/Hurt)",
+  "1003_ting-lu": "1003/0001"
+}

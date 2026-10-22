@@ -1,0 +1,53 @@
+{
+ "id": "0015_beedrill-mega",
+ "exported": "2026-10-21T07:51:35.012Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 40,
+   "H": 33,
+   "x0": -2,
+   "y0": -3,
+   "w": 44,
+   "h": 40,
+   "frames": 180
+  },
+  "back": {
+   "W": 32,
+   "H": 28,
+   "x0": -2,
+   "y0": -3,
+   "w": 36,
+   "h": 35,
+   "frames": 20
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (180 vs 180 frames)",
+  "backR": "worst frame mismatch 0.00% (20 vs 20 frames)"
+ },
+ "pixel": {
+  "height": 28,
+  "how": "base 0015_beedrill",
+  "scale": 0.3333,
+  "srcBodyH": 78,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0015_beedrill",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

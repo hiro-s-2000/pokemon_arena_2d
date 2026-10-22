@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Pokémon Arena HD-2D</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="screen"></canvas>
+<!-- Sprite <img> elements live here; js/sprites.js decodes GIF frames when served over http. -->
+<div id="sprite-pool" aria-hidden="true"></div>
+
+<div id="loading" class="overlay">
+  <div class="logo"><span>Pokémon</span><b>ARENA</b><i>HD-2D</i></div>
+  <p id="loading-text">ポケモンデータを読み込み中…</p>
+</div>
+
+<div id="menu" class="overlay hidden">
+  <div class="menu-head">
+    <div class="logo small"><span>Pokémon</span><b>ARENA</b><i>HD-2D</i></div>
+    <div class="menu-options">
+      <label>モード
+        <select id="opt-mode">
+          <option value="play">プレイ（あなた vs CPU）</option>
+          <option value="watch" selected>観戦（CPU vs CPU）</option>
+        </select>
+      </label>
+      <label>フィールド
+        <select id="opt-arena"></select>
+      </label>
+      <label>CPUの強さ
+        <select id="opt-level">
+          <option value="0.55">よわい</option>
+          <option value="0.8">ふつう</option>
+          <option value="1" selected>つよい</option>
+        </select>
+      </label>
+      <label>CPUの攻撃
+        <select id="opt-cpu-attack">
+          <option value="1">する</option>
+          <option value="0">しない（練習）</option>
+        </select>
+      </label>
+      <label>色違いの確率
+        <select id="opt-shiny" title="スロットの ✨ で指定していないポケモンが、バトル開始時にこの確率で色違いになります">
+          <option value="0">出ない</option>
+          <option value="0.0625" selected>1/16</option>
+          <option value="0.25">1/4</option>
+          <option value="0.5">1/2</option>
+          <option value="1">全員</option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="teams">
+    <div class="team" data-side="0">
+      <h3>あなたのチーム</h3>
+      <div class="slots"></div>
+      <button class="btn-ghost" data-random="0">おまかせ</button>
+    </div>
+    <div class="team" data-side="1">
+      <h3>相手のチーム</h3>
+      <div class="slots"></div>
+      <button class="btn-ghost" data-random="1">おまかせ</button>
+    </div>
+  </div>
+  <div class="picker">
+    <div class="picker-bar">
+      <input id="search" type="search" placeholder="名前・図鑑番号・タイプで検索（例: リザードン / 6 / ほのお）" autocomplete="off">
+      <select id="filter-kind">
+        <option value="">すべての姿</option>
+        <option value="gen">通常</option>
+        <option value="mega">メガシンカ</option>
+        <option value="regional">リージョン</option>
+        <option value="gigantamax">キョダイマックス</option>
+      </select>
+      <span class="hint">クリックで選択中のチームに追加 / スロットをクリックで外す / スロットの ✨ で色違いに切り替え</span>
+    </div>
+    <div id="grid"></div>
+  </div>
+  <div class="menu-foot">
+    <div class="controls-help">
+      移動 <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / 矢印 ・ 技 <kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd>（<kbd>1</kbd>〜<kbd>4</kbd>） ・ 回避 <kbd>Space</kbd> ・ メガシンカ <kbd>M</kbd> ・ キョダイマックス <kbd>G</kbd> ・ 色違い切替 <kbd>K</kbd>（観戦中の相手側は <kbd>L</kbd>） ・ 交代 <kbd>Q</kbd> ・ CPUの攻撃 切替 <kbd>T</kbd> ・ 一時停止 <kbd>Esc</kbd>
+      <span class="hint">観戦中は移動が CPU のままです。青チームの技・回避・交代・メガシンカ・キョダイマックスは操作できます。</span>
+    </div>
+    <button id="start" class="btn-main">バトル開始！</button>
+  </div>
+</div>
+
+<div id="pause" class="overlay hidden">
+  <div class="panel">
+    <h2>一時停止</h2>
+    <button class="btn-main" data-act="resume">つづける</button>
+    <button class="btn-ghost" data-act="menu">メニューに戻る</button>
+  </div>
+</div>
+
+<div id="touch" hidden>
+  <div class="touch-utils">
+    <button type="button" data-util data-key=" ">回避</button>
+    <button type="button" data-util data-key="q">交代</button>
+    <button type="button" data-util data-key="m"><span class="nm">メガ</span></button>
+    <button type="button" data-util data-key="g"><span class="nm">キョダイ</span></button>
+    <button type="button" data-util data-key="k"><span class="nm">✨色違い</span></button>
+    <button type="button" data-util data-key="t"><span class="nm">CPU攻</span></button>
+    <button type="button" data-util data-key="escape">停止</button>
+  </div>
+  <div id="stick" aria-label="移動"><i id="stick-knob"></i></div>
+  <div class="touch-moves">
+    <button type="button" data-move data-key="z"><span class="nm">技1</span><span class="cd"></span></button>
+    <button type="button" data-move data-key="x"><span class="nm">技2</span><span class="cd"></span></button>
+    <button type="button" data-move data-key="c"><span class="nm">技3</span><span class="cd"></span></button>
+    <button type="button" data-move data-key="v"><span class="nm">技4</span><span class="cd"></span></button>
+  </div>
+</div>
+
+<div id="result" class="overlay hidden">
+  <div class="panel">
+    <h2 id="result-title"></h2>
+    <p id="result-sub"></p>
+    <button class="btn-main" data-act="again">もう一度</button>
+    <button class="btn-ghost" data-act="menu">メニューに戻る</button>
+  </div>
+</div>
+
+<script src="../pokeData/pokeData.js"></script>
+<script src="../pokeSprite/manifest.js"></script>
+<script src="../pokeAnim/manifest.js?v=20261022p"></script>
+<script src="js/util.js"></script>
+<script src="js/data.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/arenas.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/moves.js"></script>
+<script src="js/fighter.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/battle.js"></script>
+<script src="js/render.js"></script>
+<script src="js/hud.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

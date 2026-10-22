@@ -1,0 +1,15 @@
+// pixel-paint palette for 1021_raging-bolt. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 3a322d
+2 4f4c91
+3 6a6765
+4 c13327
+5 8279bd
+6 d69d26
+7 ba97f0
+8 a8c2d6
+9 f3d32d
+a eeeef0

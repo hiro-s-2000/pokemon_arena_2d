@@ -1,0 +1,18 @@
+// pixel-paint palette for 0460_abomasnow-mega — hand-painted, light from upper-left
+. transparent
+# 000000
+w ffffff
+l dde4ee
+g a9b5c8
+G 77869f
+B 4e5a72
+p eab8ff
+P b672e6
+Q 6a2c9c
+h 6cd0a6
+m 3c9a7a
+n 25665a
+i eaffff
+I 9cecfa
+j 44bce6
+J 1a78a8

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0149_dragonite-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 241450
+1 773f00
+2 316066
+3 a75f1f
+4 6366f1
+5 14a682
+6 df771f
+7 dd82f6
+8 dfaf67
+9 b3d8ea
+a ffffff

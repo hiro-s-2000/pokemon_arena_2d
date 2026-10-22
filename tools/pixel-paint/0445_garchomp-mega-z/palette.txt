@@ -1,0 +1,24 @@
+// Mega Garchomp Z (hand-painted). "." transparent, "#" outline
+. transparent
+# 000000
+// navy body: light / mid / shade / deep
+B 6e6cae
+b 4c4a88
+n 37335f
+N 231e40
+// orange blades & chest: light / mid / shade / deep red (spear, mouth)
+O ff7f40
+o e65a2e
+r b33a2a
+q 7a1a18
+R d8403a
+// yellow marks: light / shade
+Y ffd23a
+y c8981c
+// white spikes / claws
+W ffffff
+w c4c8d6
+// move effects: deep / light / cyan
+P c04ee0
+p f4a8ff
+c b8f6ff

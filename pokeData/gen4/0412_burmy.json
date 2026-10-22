@@ -1,0 +1,497 @@
+{
+  "id": "0412_burmy",
+  "pokemonId": 412,
+  "dex": 412,
+  "slug": "burmy",
+  "name": "Burmy",
+  "jpName": "ミノムッチ",
+  "genus": "Bagworm Pokémon",
+  "jpGenus": "みのむしポケモン",
+  "generation": 4,
+  "category": "gen4",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen4/0412_burmy/normal/front.gif",
+  "backSprite": "../pokeSprite/gen4/0412_burmy/normal/back.gif",
+  "abilities": [
+    {
+      "id": 61,
+      "slug": "shed-skin",
+      "name": "Shed Skin",
+      "jpName": "だっぴ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Has a 33% chance of curing any major status ailment after each turn.",
+      "jpDescription": "体の 皮を 脱ぎ捨てることで 状態異常を 治すことが ある。"
+    },
+    {
+      "id": 142,
+      "slug": "overcoat",
+      "name": "Overcoat",
+      "jpName": "ぼうじん",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against damage from weather.",
+      "jpDescription": "すなあらしや あられなどの ダメージを 受けない。 粉の 技を 受けない。"
+    }
+  ],
+  "height": {
+    "decimeters": 2,
+    "meters": 0.2,
+    "feetInches": "0'08\"",
+    "display": "0.2 m (0'08\")"
+  },
+  "weight": {
+    "hectograms": 34,
+    "kilograms": 3.4,
+    "pounds": 7.5,
+    "display": "3.4 kg (7.5 lbs)"
+  },
+  "shape": {
+    "id": 5,
+    "slug": "blob",
+    "name": "Blob",
+    "awesomeName": "Alvine",
+    "jpName": "不定形"
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 29,
+    "defense": 45,
+    "specialAttack": 29,
+    "specialDefense": 45,
+    "speed": 36,
+    "total": 224,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 100,
+          "max": 147
+        },
+        "lv100": {
+          "min": 190,
+          "max": 284
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 30,
+          "max": 89
+        },
+        "lv100": {
+          "min": 56,
+          "max": 172
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 30,
+          "max": 89
+        },
+        "lv100": {
+          "min": 56,
+          "max": 172
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 36,
+          "max": 96
+        },
+        "lv100": {
+          "min": 69,
+          "max": 188
+        }
+      }
+    }
+  },
+  "baseStatTotal": 224,
+  "typeMatchups": {
+    "types": [
+      "bug"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "water",
+      "electric",
+      "ice",
+      "poison",
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "grass",
+      "fighting",
+      "ground"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "psychic",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Sp. Def",
+    "evYieldTextJa": "とくぼう+1",
+    "catchRate": 120,
+    "pokeBallFullHpPercent": 24.9,
+    "catchRateDisplay": "120 (24.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 45,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 213,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 413,
+        "dex": 413,
+        "slug": "wormadam",
+        "name": "Wormadam",
+        "jpName": "ミノマダム",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 20,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 20",
+            "conditionTextJa": "Lv.20"
+          },
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 20,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 20",
+            "conditionTextJa": "Lv.20"
+          },
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 20,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 20",
+            "conditionTextJa": "Lv.20"
+          }
+        ]
+      },
+      {
+        "speciesId": 414,
+        "dex": 414,
+        "slug": "mothim",
+        "name": "Mothim",
+        "jpName": "ガーメイル",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 20,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 20",
+            "conditionTextJa": "Lv.20"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 412,
+        "dex": 412,
+        "slug": "burmy",
+        "name": "Burmy",
+        "jpName": "ミノムッチ",
+        "types": [
+          "bug"
+        ],
+        "sprite": "../pokeSprite/gen4/0412_burmy/normal/front.gif",
+        "backSprite": "../pokeSprite/gen4/0412_burmy/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 413,
+            "dex": 413,
+            "slug": "wormadam",
+            "name": "Wormadam",
+            "jpName": "ミノマダム",
+            "types": [
+              "bug",
+              "grass"
+            ],
+            "sprite": "../pokeSprite/gen4/0413_wormadam-plant/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0413_wormadam-plant/normal/back.gif",
+            "condition": "Level 20",
+            "conditionJa": "Lv.20",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              },
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 414,
+            "dex": 414,
+            "slug": "mothim",
+            "name": "Mothim",
+            "jpName": "ガーメイル",
+            "types": [
+              "bug",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen4/0414_mothim/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0414_mothim/normal/back.gif",
+            "condition": "Level 20",
+            "conditionJa": "Lv.20",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Burmy --(Level 20)--> Wormadam | Burmy --(Level 20)--> Mothim",
+    "summaryTextJa": "ミノムッチ --(Lv.20)--> ミノマダム | ミノムッチ --(Lv.20)--> ガーメイル"
+  },
+  "moves": {
+    "totalUniqueMoves": 4,
+    "levelUp": [
+      {
+        "id": 522,
+        "slug": "struggle-bug",
+        "name": "Struggle Bug",
+        "jpName": "むしのていこう",
+        "type": "bug",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats.",
+        "jpDescription": "抵抗して 相手を 攻撃する。 相手の 特攻を さげる。",
+        "level": 1
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      }
+    ]
+  }
+}

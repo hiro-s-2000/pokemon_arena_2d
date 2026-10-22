@@ -1,0 +1,22 @@
+// pixel-paint palette for 0448_lucario-mega-z — hand-painted, light from upper-left
+. transparent
+# 000000
+K 1c1c26
+k 383846
+g 62627a
+G a0a6b8
+w f6f8fc
+N 0a1840
+E 2a70e0
+e 9ad6ff
+c 3ec8ea
+l a8f0ff
+C 1f92b8
+D 13647e
+y f4de80
+Y cfa850
+b 8a6430
+r e0584e
+o ff8a1a
+O ffcc40
+a fff6c0

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0869_alcremie-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 501030
+1 333333
+2 8d785c
+3 f0638c
+4 ac8fb9
+5 fe6d26
+6 d9c228
+7 d9bfa7
+8 56e1d2
+9 fdf1d1
+a f6ff5a

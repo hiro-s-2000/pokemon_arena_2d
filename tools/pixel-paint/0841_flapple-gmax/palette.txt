@@ -1,0 +1,14 @@
+// pixel-paint palette for 0841_flapple-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 2a4726
+2 882826
+3 5c8929
+4 d3504d
+5 38a43e
+6 c4a449
+7 4ade80
+8 d5e28b
+9 ffffff

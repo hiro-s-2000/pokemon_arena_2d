@@ -1,0 +1,25 @@
+// pixel-paint palette for 1014_okidogi — hand repaint. "." = transparent, "#" = outline.
+. transparent
+# 000000
+// dark fur (mane / cape / head cap), light from upper-left
+d 2c2c33
+f 46474f
+F 6c6d78
+L 9293a0
+// green skin
+g 3a6420
+G 5f9a2e
+h 93c84e
+// magenta chain / markings
+m 7a1d5c
+M c2449a
+n f08ccc
+// face
+y ffd83a
+w f6f6f6
+r 5c1028
+// poison effects (tongue / star)
+q 4c2190
+P a274ea
+p e4d2ff
+e d8283c  // red tongue root

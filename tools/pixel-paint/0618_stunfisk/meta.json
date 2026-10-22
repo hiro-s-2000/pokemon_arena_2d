@@ -1,0 +1,53 @@
+{
+ "id": "0618_stunfisk",
+ "exported": "2026-10-21T07:51:43.868Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 40,
+   "H": 30,
+   "x0": -2,
+   "y0": -3,
+   "w": 44,
+   "h": 37,
+   "frames": 76
+  },
+  "back": {
+   "W": 48,
+   "H": 22,
+   "x0": -3,
+   "y0": -3,
+   "w": 54,
+   "h": 29,
+   "frames": 50
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (76 vs 75 frames)",
+  "backR": "worst frame mismatch 0.00% (50 vs 50 frames)"
+ },
+ "pixel": {
+  "height": 26,
+  "how": "override",
+  "scale": 0.5714,
+  "srcBodyH": 42,
+  "colors": 10,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.42,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 10,
+  "outlineShades": 1
+ }
+}

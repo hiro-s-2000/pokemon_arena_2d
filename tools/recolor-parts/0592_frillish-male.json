@@ -1,0 +1,102 @@
+{
+ "base": "0593_jellicent-male",
+ "colors": {
+  "k": "000000",
+  "T": "8ad4f8",
+  "W": "ffffff"
+ },
+ "parts": [
+  {
+   "name": "tentacles",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      1
+     ],
+     "px": [
+      "..kTTk.kTk.kTk.kTTk..",
+      ".kTTWk.kTk.kTk.kWTTk.",
+      ".kTWk..kTWkWTk..kWTk.",
+      "kTTWk..kTTkTTk..kWTTk",
+      "kTWk...kTWkWTk...kWTk",
+      "kTWk..kTTk.kTTk..kWTk",
+      "kWk...kTWk.kWTk...kWk",
+      ".kk...kWk...kWk...kk.",
+      "......kk.....kk......"
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      1
+     ],
+     "px": [
+      "..kTTk.kTk.kTk.kTTk..",
+      ".kTTWk.kTk.kTk.kWTTk.",
+      ".kTWk..kTWkWTk..kWTk.",
+      "kTTWk..kTTkTTk..kWTTk",
+      "kTWk...kTWkWTk...kWTk",
+      "kTWk..kTTk.kTTk..kWTk",
+      "kWk...kTWk.kWTk...kWk",
+      ".kk...kWk...kWk...kk.",
+      "......kk.....kk......"
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      1
+     ],
+     "px": [
+      "..kTTk.kTk.kTk.kTTk..",
+      ".kTTWk.kTk.kTk.kWTTk.",
+      ".kTWk..kTWkWTk..kWTk.",
+      "kTTWk..kTTkTTk..kWTTk",
+      "kTWk...kTWkWTk...kWTk",
+      "kTWk..kTTk.kTTk..kWTk",
+      "kWk...kTWk.kWTk...kWk",
+      ".kk...kWk...kWk...kk.",
+      "......kk.....kk......"
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      1
+     ],
+     "px": [
+      "..kTTk.kTk.kTk.kTTk..",
+      ".kTTWk.kTk.kTk.kWTTk.",
+      ".kTWk..kTWkWTk..kWTk.",
+      "kTTWk..kTTkTTk..kWTTk",
+      "kTWk...kTWkWTk...kWTk",
+      "kTWk..kTTk.kTTk..kWTk",
+      "kWk...kTWk.kWTk...kWk",
+      ".kk...kWk...kWk...kk.",
+      "......kk.....kk......"
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      1
+     ],
+     "px": [
+      "..kTTk.kTk.kTk.kTTk..",
+      ".kTTWk.kTk.kTk.kWTTk.",
+      ".kTWk..kTWkWTk..kWTk.",
+      "kTTWk..kTTkTTk..kWTTk",
+      "kTWk...kTWkWTk...kWTk",
+      "kTWk..kTTk.kTTk..kWTk",
+      "kWk...kTWk.kWTk...kWk",
+      ".kk...kWk...kWk...kk.",
+      "......kk.....kk......"
+     ]
+    }
+   }
+  }
+ ]
+}

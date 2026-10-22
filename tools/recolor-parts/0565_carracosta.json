@@ -1,0 +1,417 @@
+{
+ "base": "0009_blastoise",
+ "grow": 3,
+ "colors": {
+  "k": "000000",
+  "l": "78b8f0",
+  "m": "3c84d0",
+  "d": "24569c"
+ },
+ "erase": [
+  {
+   "name": "cannontip",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -11
+     ],
+     "px": [
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####"
+     ]
+    },
+    "SE": {
+     "at": [
+      5,
+      -13
+     ],
+     "px": [
+      "#####",
+      "#####",
+      "#####",
+      "#####"
+     ]
+    },
+    "E": {
+     "at": [
+      -2,
+      -17
+     ],
+     "px": [
+      "######",
+      "######",
+      "######",
+      "######"
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -14
+     ],
+     "px": [
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######"
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -11
+     ],
+     "px": [
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####"
+     ]
+    }
+   }
+  },
+  {
+   "name": "cannonR",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      10,
+      -11
+     ],
+     "px": [
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####",
+      "####"
+     ]
+    },
+    "N": {
+     "at": [
+      9,
+      -11
+     ],
+     "px": [
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####"
+     ]
+    }
+   }
+  }
+ ],
+ "parts": [
+  {
+   "name": "tipfix",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "SE": {
+     "at": [
+      6,
+      -10
+     ],
+     "px": [
+      "kk"
+     ]
+    },
+    "E": {
+     "at": [
+      1,
+      -13
+     ],
+     "px": [
+      "k"
+     ]
+    }
+   }
+  },
+  {
+   "name": "flipL",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      ".......kk...",
+      "......kmmk..",
+      ".....kmmmdk.",
+      "....klmmmdk.",
+      "....klmmmddk",
+      "...klmmmmddk",
+      "...klmmmmddk",
+      "..klmmmmmddk",
+      "..klmmmmdddk",
+      ".klmmmmmdddk",
+      ".klmmmmmdddk",
+      "klmmmmmmdddk",
+      "klmmmmmddddk",
+      "klmmmmmddddk",
+      "klmmmmdddddk",
+      "klmmkmmdkddk",
+      "klmkkmdkkdk.",
+      ".klk.kdk.k..",
+      "..k...k....."
+     ]
+    },
+    "SE": {
+     "at": [
+      -16,
+      -8
+     ],
+     "px": [
+      ".......kk...",
+      "......kmmk..",
+      ".....kmmmdk.",
+      "....klmmmdk.",
+      "....klmmmddk",
+      "...klmmmmddk",
+      "...klmmmmddk",
+      "..klmmmmmddk",
+      "..klmmmmdddk",
+      ".klmmmmmdddk",
+      ".klmmmmmdddk",
+      "klmmmmmmdddk",
+      "klmmmmmddddk",
+      "klmmmmmddddk",
+      "klmmmmdddddk",
+      "klmmkmmdkddk",
+      "klmkkmdkkdk.",
+      ".klk.kdk.k..",
+      "..k...k....."
+     ]
+    },
+    "E": {
+     "at": [
+      -9,
+      -12
+     ],
+     "px": [
+      ".......kk...",
+      "......kmmk..",
+      ".....kmmmdk.",
+      "....klmmmdk.",
+      "....klmmmddk",
+      "...klmmmmddk",
+      "...klmmmmddk",
+      "..klmmmmmddk",
+      "..klmmmmdddk",
+      ".klmmmmmdddk",
+      ".klmmmmmdddk",
+      "klmmmmmmdddk",
+      "klmmmmmddddk",
+      "klmmmmmddddk",
+      "klmmmmdddddk",
+      "klmmkmmdkddk",
+      "klmkkmdkkdk.",
+      ".klk.kdk.k..",
+      "..k...k....."
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -12
+     ],
+     "px": [
+      ".......kk...",
+      "......kmmk..",
+      ".....kmmmdk.",
+      "....klmmmdk.",
+      "....klmmmddk",
+      "...klmmmmddk",
+      "...klmmmmddk",
+      "..klmmmmmddk",
+      "..klmmmmdddk",
+      ".klmmmmmdddk",
+      ".klmmmmmdddk",
+      "klmmmmmmdddk",
+      "klmmmmmddddk",
+      "klmmmmmddddk",
+      "klmmmmdddddk",
+      "klmmkmmdkddk",
+      "klmkkmdkkdk.",
+      ".klk.kdk.k..",
+      "..k...k....."
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -12
+     ],
+     "px": [
+      ".......kk...",
+      "......kmmk..",
+      ".....kmmmdk.",
+      "....klmmmdk.",
+      "....klmmmddk",
+      "...klmmmmddk",
+      "...klmmmmddk",
+      "..klmmmmmddk",
+      "..klmmmmdddk",
+      ".klmmmmmdddk",
+      ".klmmmmmdddk",
+      "klmmmmmmdddk",
+      "klmmmmmddddk",
+      "klmmmmmddddk",
+      "klmmmmdddddk",
+      "klmmkmmdkddk",
+      "klmkkmdkkdk.",
+      ".klk.kdk.k..",
+      "..k...k....."
+     ]
+    }
+   }
+  },
+  {
+   "name": "flipR",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      6,
+      -11
+     ],
+     "px": [
+      "...kk.......",
+      "..kmmk......",
+      ".kdmmmk.....",
+      ".kdmmmlk....",
+      "kddmmmlk....",
+      "kddmmmmlk...",
+      "kddmmmmlk...",
+      "kddmmmmmlk..",
+      "kdddmmmmlk..",
+      "kdddmmmmmlk.",
+      "kdddmmmmmlk.",
+      "kdddmmmmmmlk",
+      "kddddmmmmmlk",
+      "kddddmmmmmlk",
+      "kdddddmmmmlk",
+      "kddkdmmkmmlk",
+      ".kdkkdmkkmlk",
+      "..k.kdk.klk.",
+      ".....k...k.."
+     ]
+    },
+    "SE": {
+     "at": [
+      6,
+      -7
+     ],
+     "px": [
+      "...kk.......",
+      "..kmmk......",
+      ".kdmmmk.....",
+      ".kdmmmlk....",
+      "kddmmmlk....",
+      "kddmmmmlk...",
+      "kddmmmmlk...",
+      "kddmmmmmlk..",
+      "kdddmmmmlk..",
+      "kdddmmmmmlk.",
+      "kdddmmmmmlk.",
+      "kdddmmmmmmlk",
+      "kddddmmmmmlk",
+      "kddddmmmmmlk",
+      "kdddddmmmmlk",
+      "kddkdmmkmmlk",
+      ".kdkkdmkkmlk",
+      "..k.kdk.klk.",
+      ".....k...k.."
+     ]
+    },
+    "NE": {
+     "at": [
+      5,
+      -10
+     ],
+     "px": [
+      "...kk.......",
+      "..kmmk......",
+      ".kdmmmk.....",
+      ".kdmmmlk....",
+      "kddmmmlk....",
+      "kddmmmmlk...",
+      "kddmmmmlk...",
+      "kddmmmmmlk..",
+      "kdddmmmmlk..",
+      "kdddmmmmmlk.",
+      "kdddmmmmmlk.",
+      "kdddmmmmmmlk",
+      "kddddmmmmmlk",
+      "kddddmmmmmlk",
+      "kdddddmmmmlk",
+      "kddkdmmkmmlk",
+      ".kdkkdmkkmlk",
+      "..k.kdk.klk.",
+      ".....k...k.."
+     ]
+    },
+    "N": {
+     "at": [
+      6,
+      -12
+     ],
+     "px": [
+      "...kk.......",
+      "..kmmk......",
+      ".kdmmmk.....",
+      ".kdmmmlk....",
+      "kddmmmlk....",
+      "kddmmmmlk...",
+      "kddmmmmlk...",
+      "kddmmmmmlk..",
+      "kdddmmmmlk..",
+      "kdddmmmmmlk.",
+      "kdddmmmmmlk.",
+      "kdddmmmmmmlk",
+      "kddddmmmmmlk",
+      "kddddmmmmmlk",
+      "kdddddmmmmlk",
+      "kddkdmmkmmlk",
+      ".kdkkdmkkmlk",
+      "..k.kdk.klk.",
+      ".....k...k.."
+     ]
+    }
+   }
+  }
+ ]
+}

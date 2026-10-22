@@ -1,0 +1,409 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "a": "bce0ef",
+  "b": "7aa6d6",
+  "l": "ffd2de",
+  "p": "f9a6ae",
+  "q": "d28092"
+ },
+ "parts": [
+  {
+   "name": "tendrilL",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -18,
+      -6
+     ],
+     "px": [
+      ".....kkk",
+      "....kabk",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kabk...",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      ".kabk...",
+      ".kabk...",
+      "..kabk..",
+      "..kabk..",
+      "...kabk.",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kaak...",
+      "..kk...."
+     ]
+    },
+    "SE": {
+     "at": [
+      -24,
+      -6
+     ],
+     "px": [
+      ".....kkk",
+      "....kabk",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kabk...",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      ".kabk...",
+      ".kabk...",
+      "..kabk..",
+      "..kabk..",
+      "...kabk.",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kaak...",
+      "..kk...."
+     ]
+    },
+    "E": {
+     "at": [
+      -27,
+      -6
+     ],
+     "px": [
+      ".....kkk",
+      "....kabk",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kabk...",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      ".kabk...",
+      ".kabk...",
+      "..kabk..",
+      "..kabk..",
+      "...kabk.",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kaak...",
+      "..kk...."
+     ]
+    },
+    "NE": {
+     "at": [
+      -22,
+      -6
+     ],
+     "px": [
+      ".....kkk",
+      "....kabk",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kabk...",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      ".kabk...",
+      ".kabk...",
+      "..kabk..",
+      "..kabk..",
+      "...kabk.",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kaak...",
+      "..kk...."
+     ]
+    },
+    "N": {
+     "at": [
+      -19,
+      -5
+     ],
+     "px": [
+      ".....kkk",
+      "....kabk",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kabk...",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      "kabk....",
+      ".kabk...",
+      ".kabk...",
+      "..kabk..",
+      "..kabk..",
+      "...kabk.",
+      "...kabk.",
+      "..kabk..",
+      ".kabk...",
+      ".kaak...",
+      "..kk...."
+     ]
+    }
+   }
+  },
+  {
+   "name": "tendrilR",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      11,
+      -6
+     ],
+     "px": [
+      "kkk.....",
+      "kbak....",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kbak.",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "...kbak.",
+      "...kbak.",
+      "..kbak..",
+      "..kbak..",
+      ".kbak...",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kaak.",
+      "....kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      6,
+      -6
+     ],
+     "px": [
+      "kkk.....",
+      "kbak....",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kbak.",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "...kbak.",
+      "...kbak.",
+      "..kbak..",
+      "..kbak..",
+      ".kbak...",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kaak.",
+      "....kk.."
+     ]
+    },
+    "E": {
+     "at": [
+      2,
+      -6
+     ],
+     "px": [
+      "kkk.....",
+      "kbak....",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kbak.",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "...kbak.",
+      "...kbak.",
+      "..kbak..",
+      "..kbak..",
+      ".kbak...",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kaak.",
+      "....kk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      7,
+      -6
+     ],
+     "px": [
+      "kkk.....",
+      "kbak....",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kbak.",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "...kbak.",
+      "...kbak.",
+      "..kbak..",
+      "..kbak..",
+      ".kbak...",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kaak.",
+      "....kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      11,
+      -5
+     ],
+     "px": [
+      "kkk.....",
+      "kbak....",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kbak.",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "....kbak",
+      "...kbak.",
+      "...kbak.",
+      "..kbak..",
+      "..kbak..",
+      ".kbak...",
+      ".kbak...",
+      "..kbak..",
+      "...kbak.",
+      "...kaak.",
+      "....kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "knob",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -2,
+      -19
+     ],
+     "px": [
+      ".kkk.",
+      "kllpk",
+      "klppk",
+      "kpqqk",
+      ".kkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -2,
+      -18
+     ],
+     "px": [
+      ".kkk.",
+      "kllpk",
+      "klppk",
+      "kpqqk",
+      ".kkk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "knob2",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "SE": {
+     "at": [
+      -3,
+      -18
+     ],
+     "px": [
+      ".kkk.",
+      "kllpk",
+      "klppk",
+      "kpqqk",
+      ".kqk.",
+      "..k.."
+     ]
+    },
+    "E": {
+     "at": [
+      -6,
+      -17
+     ],
+     "px": [
+      ".kkk.",
+      "kllpk",
+      "klppk",
+      "kpqqk",
+      ".kqk.",
+      "..k.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -18
+     ],
+     "px": [
+      ".kkk.",
+      "kllpk",
+      "klppk",
+      "kpqqk",
+      ".kqk.",
+      "..k.."
+     ]
+    }
+   }
+  }
+ ]
+}

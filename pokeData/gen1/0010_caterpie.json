@@ -1,0 +1,453 @@
+{
+  "id": "0010_caterpie",
+  "pokemonId": 10,
+  "dex": 10,
+  "slug": "caterpie",
+  "name": "Caterpie",
+  "jpName": "キャタピー",
+  "genus": "Worm Pokémon",
+  "jpGenus": "いもむしポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0010_caterpie/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0010_caterpie/normal/back.gif",
+  "abilities": [
+    {
+      "id": 19,
+      "slug": "shield-dust",
+      "name": "Shield Dust",
+      "jpName": "りんぷん",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against incoming moves' extra effects.",
+      "jpDescription": "りんぷんに 守られて 技の 追加効果を 受けなくなる。"
+    },
+    {
+      "id": 50,
+      "slug": "run-away",
+      "name": "Run Away",
+      "jpName": "にげあし",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Ensures success fleeing from wild battles.",
+      "jpDescription": "野生の ポケモンから 必ず 逃げられる。"
+    }
+  ],
+  "height": {
+    "decimeters": 3,
+    "meters": 0.3,
+    "feetInches": "1'00\"",
+    "display": "0.3 m (1'00\")"
+  },
+  "weight": {
+    "hectograms": 29,
+    "kilograms": 2.9,
+    "pounds": 6.4,
+    "display": "2.9 kg (6.4 lbs)"
+  },
+  "shape": {
+    "id": 14,
+    "slug": "armor",
+    "name": "Armor",
+    "awesomeName": "Chitinous",
+    "jpName": "節足・甲殻"
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 45,
+    "total": 195,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 105,
+          "max": 152
+        },
+        "lv100": {
+          "min": 200,
+          "max": 294
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 31,
+          "max": 90
+        },
+        "lv100": {
+          "min": 58,
+          "max": 174
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 22,
+          "max": 79
+        },
+        "lv100": {
+          "min": 40,
+          "max": 152
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 22,
+          "max": 79
+        },
+        "lv100": {
+          "min": 40,
+          "max": 152
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      }
+    }
+  },
+  "baseStatTotal": 195,
+  "typeMatchups": {
+    "types": [
+      "bug"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "water",
+      "electric",
+      "ice",
+      "poison",
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "grass",
+      "fighting",
+      "ground"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "psychic",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 HP",
+    "evYieldTextJa": "HP+1",
+    "catchRate": 255,
+    "pokeBallFullHpPercent": 43.9,
+    "catchRateDisplay": "255 (43.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 39,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 4,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 11,
+        "dex": 11,
+        "slug": "metapod",
+        "name": "Metapod",
+        "jpName": "トランセル",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 7,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 7",
+            "conditionTextJa": "Lv.7"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 10,
+        "dex": 10,
+        "slug": "caterpie",
+        "name": "Caterpie",
+        "jpName": "キャタピー",
+        "types": [
+          "bug"
+        ],
+        "sprite": "../pokeSprite/gen1/0010_caterpie/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0010_caterpie/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 11,
+            "dex": 11,
+            "slug": "metapod",
+            "name": "Metapod",
+            "jpName": "トランセル",
+            "types": [
+              "bug"
+            ],
+            "sprite": "../pokeSprite/gen1/0011_metapod/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0011_metapod/normal/back.gif",
+            "condition": "Level 7",
+            "conditionJa": "Lv.7",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 7,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 7",
+                "conditionTextJa": "Lv.7"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 12,
+                "dex": 12,
+                "slug": "butterfree",
+                "name": "Butterfree",
+                "jpName": "バタフリー",
+                "types": [
+                  "bug",
+                  "flying"
+                ],
+                "sprite": "../pokeSprite/gen1/0012_butterfree/normal/front.gif",
+                "backSprite": "../pokeSprite/gen1/0012_butterfree/normal/back.gif",
+                "condition": "Level 10",
+                "conditionJa": "Lv.10",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 10,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 10",
+                    "conditionTextJa": "Lv.10"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Caterpie --(Level 7)--> Metapod --(Level 10)--> Butterfree",
+    "summaryTextJa": "キャタピー --(Lv.7)--> トランセル --(Lv.10)--> バタフリー"
+  },
+  "moves": {
+    "totalUniqueMoves": 5,
+    "levelUp": [
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 81,
+        "slug": "string-shot",
+        "name": "String Shot",
+        "jpName": "いとをはく",
+        "type": "bug",
+        "category": "status",
+        "power": null,
+        "accuracy": 95,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats.",
+        "jpDescription": "口から 吹きだした 糸を まきつけて 相手の 素早さを がくっと さげる。",
+        "level": 1
+      },
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 9
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      }
+    ]
+  }
+}

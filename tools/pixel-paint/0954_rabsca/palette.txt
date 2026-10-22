@@ -1,0 +1,16 @@
+// pixel-paint palette for 0954_rabsca. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 181818
+1 333333
+2 73067f
+3 59504a
+4 ae29bc
+5 b74b61
+6 f94784
+7 ea40fa
+8 a2a2a2
+9 6ccadb
+a 9ee132
+b ffffff

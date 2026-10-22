@@ -1,0 +1,215 @@
+{
+ "base": "0458_mantyke",
+ "colors": {
+  "k": "000000",
+  "Y": "f8d840",
+  "y": "c8a020",
+  "W": "ffffff",
+  "T": "d8d8e0",
+  "t": "9898a8"
+ },
+ "erase": [
+  {
+   "name": "antL",
+   "anchor": "center",
+   "dirs": {
+    "N": {
+     "at": [
+      -7,
+      -16
+     ],
+     "px": [
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######"
+     ]
+    },
+    "NE": {
+     "at": [
+      2,
+      -16
+     ],
+     "px": [
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######"
+     ]
+    },
+    "E": {
+     "at": [
+      7,
+      -11
+     ],
+     "px": [
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######"
+     ]
+    }
+   }
+  },
+  {
+   "name": "antR",
+   "anchor": "center",
+   "dirs": {
+    "N": {
+     "at": [
+      1,
+      -16
+     ],
+     "px": [
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######",
+      "#######"
+     ]
+    },
+    "NE": {
+     "at": [
+      8,
+      -14
+     ],
+     "px": [
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######",
+      "######"
+     ]
+    }
+   }
+  }
+ ],
+ "parts": [
+  {
+   "name": "jaw",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -7,
+      3
+     ],
+     "px": [
+      ".k.k.k.k.k.k.k.",
+      "kTkTkTkTkTkTkTk",
+      "kTTTTTTTTTTTTTk",
+      "kttttttttttttTk",
+      "kTkTkTkTkTkTkTk",
+      ".k.k.k.k.k.k.k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      3
+     ],
+     "px": [
+      ".k.k.k.k.k.k.k.",
+      "kTkTkTkTkTkTkTk",
+      "kTTTTTTTTTTTTTk",
+      "kttttttttttttTk",
+      "kTkTkTkTkTkTkTk",
+      ".k.k.k.k.k.k.k."
+     ]
+    },
+    "E": {
+     "at": [
+      2,
+      2
+     ],
+     "px": [
+      ".k.k.k..",
+      "kTkTkTk.",
+      "kTTTTTTk",
+      "ktttttTk",
+      "kTkTkTk.",
+      ".k.k.k.."
+     ]
+    },
+    "N": {
+     "at": [
+      -7,
+      0
+     ],
+     "px": [
+      ".k.k.k.k.k.k.k.",
+      "kTkTkTkTkTkTkTk",
+      "kTTTTTTTTTTTTTk",
+      "kttttttttttttTk",
+      "kTkTkTkTkTkTkTk",
+      ".k.k.k.k.k.k.k."
+     ]
+    }
+   }
+  },
+  {
+   "name": "eyes",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -5,
+      -1
+     ],
+     "px": [
+      "kkk.....kkk",
+      "kWWk...kWWk",
+      "kWkk...kkWk",
+      ".kk.....kk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -2,
+      -2
+     ],
+     "px": [
+      "kkk.....kkk",
+      "kWWk...kWWk",
+      "kWkk...kkWk",
+      ".kk.....kk."
+     ]
+    },
+    "E": {
+     "at": [
+      1,
+      -3
+     ],
+     "px": [
+      "kkk..kkk",
+      "kWWkkWWk",
+      "kWkkkkWk",
+      ".kk..kk."
+     ]
+    }
+   }
+  }
+ ]
+}

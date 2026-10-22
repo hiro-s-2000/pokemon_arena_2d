@@ -1,0 +1,246 @@
+{
+ "base": "0524_roggenrola",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "r": "b02010",
+  "o": "f04820",
+  "y": "ffb040",
+  "l": "5e5e66",
+  "m": "3c3c42",
+  "d": "28282c"
+ },
+ "erase": [
+  {
+   "name": "stalk",
+   "anchor": "head",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -13
+     ],
+     "px": [
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx"
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -13
+     ],
+     "px": [
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx"
+     ]
+    },
+    "SE": {
+     "at": [
+      -5,
+      -13
+     ],
+     "px": [
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx"
+     ]
+    },
+    "E": {
+     "at": [
+      -8,
+      -13
+     ],
+     "px": [
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx"
+     ]
+    },
+    "NE": {
+     "at": [
+      -6,
+      -13
+     ],
+     "px": [
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx",
+      "xxxxxx"
+     ]
+    }
+   }
+  }
+ ],
+ "parts": [
+  {
+   "name": "block",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -11,
+      -3
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkkk..",
+      ".klllllllllllllllllllk.",
+      ".klllllllllllllllllllk.",
+      "kmlmmmlmmmlmmmlmmmlmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      ".kdddddddddddddddddddk.",
+      ".kdddddddddddddddddddk.",
+      "..kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -11,
+      -3
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkkk..",
+      ".klllllllllllllllllllk.",
+      ".klllllllllllllllllllk.",
+      "kmlmmmlmmmlmmmlmmmlmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmmmk",
+      ".kdddddddddddddddddddk.",
+      ".kdddddddddddddddddddk.",
+      "..kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -3
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkk..",
+      ".klllllllllllllllllk.",
+      ".klllllllllllllllllk.",
+      "kmlmmmlmmmlmmmlmmmlmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      ".kdddddddddddddddddk.",
+      ".kdddddddddddddddddk.",
+      "..kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -9,
+      -3
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkk..",
+      ".klllllllllllllllk.",
+      ".klllllllllllllllk.",
+      "kmlmmmlmmmlmmmlmmmk",
+      "kmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmk",
+      ".kdddddddddddddddk.",
+      ".kdddddddddddddddk.",
+      "..kkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -3
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkk..",
+      ".klllllllllllllllllk.",
+      ".klllllllllllllllllk.",
+      "kmlmmmlmmmlmmmlmmmlmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      "kmmmmmmmmmmmmmmmmmmmk",
+      ".kdddddddddddddddddk.",
+      ".kdddddddddddddddddk.",
+      "..kkkkkkkkkkkkkkkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "eye",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -4
+     ],
+     "px": [
+      ".kkkk.",
+      "kroork",
+      "koyyok",
+      "kroork",
+      ".kkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -2,
+      -4
+     ],
+     "px": [
+      ".kkkk.",
+      "kroork",
+      "koyyok",
+      "kroork",
+      ".kkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -4,
+      -3
+     ],
+     "px": [
+      ".kk.",
+      "krok",
+      "koyk",
+      "krok",
+      ".kk."
+     ]
+    }
+   }
+  }
+ ]
+}

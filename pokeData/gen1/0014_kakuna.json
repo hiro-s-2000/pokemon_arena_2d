@@ -1,0 +1,446 @@
+{
+  "id": "0014_kakuna",
+  "pokemonId": 14,
+  "dex": 14,
+  "slug": "kakuna",
+  "name": "Kakuna",
+  "jpName": "コクーン",
+  "genus": "Cocoon Pokémon",
+  "jpGenus": "さなぎポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0014_kakuna/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0014_kakuna/normal/back.gif",
+  "abilities": [
+    {
+      "id": 61,
+      "slug": "shed-skin",
+      "name": "Shed Skin",
+      "jpName": "だっぴ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Has a 33% chance of curing any major status ailment after each turn.",
+      "jpDescription": "体の 皮を 脱ぎ捨てることで 状態異常を 治すことが ある。"
+    }
+  ],
+  "height": {
+    "decimeters": 6,
+    "meters": 0.6,
+    "feetInches": "2'00\"",
+    "display": "0.6 m (2'00\")"
+  },
+  "weight": {
+    "hectograms": 100,
+    "kilograms": 10.0,
+    "pounds": 22.0,
+    "display": "10.0 kg (22.0 lbs)"
+  },
+  "shape": {
+    "id": 2,
+    "slug": "squiggle",
+    "name": "Squiggle",
+    "awesomeName": "Caudal",
+    "jpName": "くねくね（蛇型）"
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 35,
+    "total": 205,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 105,
+          "max": 152
+        },
+        "lv100": {
+          "min": 200,
+          "max": 294
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 27,
+          "max": 84
+        },
+        "lv100": {
+          "min": 49,
+          "max": 163
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 27,
+          "max": 84
+        },
+        "lv100": {
+          "min": 49,
+          "max": 163
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 27,
+          "max": 84
+        },
+        "lv100": {
+          "min": 49,
+          "max": 163
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      }
+    }
+  },
+  "baseStatTotal": 205,
+  "typeMatchups": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      },
+      {
+        "slot": 2,
+        "id": 4,
+        "slug": "poison",
+        "name": "Poison",
+        "jpName": "どく"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 0.25,
+      "ice": 1.0,
+      "fighting": 0.25,
+      "poison": 0.5,
+      "ground": 1.0,
+      "flying": 2.0,
+      "psychic": 2.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 0.5
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "flying",
+      "psychic",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "water",
+      "electric",
+      "ice",
+      "ground",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "poison",
+      "bug",
+      "fairy"
+    ],
+    "resistances0_25x": [
+      "grass",
+      "fighting"
+    ],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "psychic",
+      "dark",
+      "fairy"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "defense",
+        "statName": "Defense",
+        "statJpName": "ぼうぎょ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Defense",
+    "evYieldTextJa": "ぼうぎょ+2",
+    "catchRate": 120,
+    "pokeBallFullHpPercent": 24.9,
+    "catchRateDisplay": "120 (24.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 72,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 5,
+    "evolvesFrom": {
+      "speciesId": 13,
+      "dex": 13,
+      "slug": "weedle",
+      "name": "Weedle",
+      "jpName": "ビードル",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 7,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 7",
+          "conditionTextJa": "Lv.7"
+        }
+      ]
+    },
+    "evolvesTo": [
+      {
+        "speciesId": 15,
+        "dex": 15,
+        "slug": "beedrill",
+        "name": "Beedrill",
+        "jpName": "スピアー",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 10,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 10",
+            "conditionTextJa": "Lv.10"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 13,
+        "dex": 13,
+        "slug": "weedle",
+        "name": "Weedle",
+        "jpName": "ビードル",
+        "types": [
+          "bug",
+          "poison"
+        ],
+        "sprite": "../pokeSprite/gen1/0013_weedle/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0013_weedle/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 14,
+            "dex": 14,
+            "slug": "kakuna",
+            "name": "Kakuna",
+            "jpName": "コクーン",
+            "types": [
+              "bug",
+              "poison"
+            ],
+            "sprite": "../pokeSprite/gen1/0014_kakuna/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0014_kakuna/normal/back.gif",
+            "condition": "Level 7",
+            "conditionJa": "Lv.7",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 7,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 7",
+                "conditionTextJa": "Lv.7"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 15,
+                "dex": 15,
+                "slug": "beedrill",
+                "name": "Beedrill",
+                "jpName": "スピアー",
+                "types": [
+                  "bug",
+                  "poison"
+                ],
+                "sprite": "../pokeSprite/gen1/0015_beedrill/normal/front.gif",
+                "backSprite": "../pokeSprite/gen1/0015_beedrill/normal/back.gif",
+                "condition": "Level 10",
+                "conditionJa": "Lv.10",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 10,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 10",
+                    "conditionTextJa": "Lv.10"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Weedle --(Level 7)--> Kakuna --(Level 10)--> Beedrill",
+    "summaryTextJa": "ビードル --(Lv.7)--> コクーン --(Lv.10)--> スピアー"
+  },
+  "moves": {
+    "totalUniqueMoves": 4,
+    "levelUp": [
+      {
+        "id": 106,
+        "slug": "harden",
+        "name": "Harden",
+        "jpName": "かたくなる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user stiffens all the muscles in its body to boost its Defense stat.",
+        "jpDescription": "全身に 力を こめて 体を 硬くして 自分の 防御を あげる。",
+        "level": 0
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      }
+    ]
+  }
+}

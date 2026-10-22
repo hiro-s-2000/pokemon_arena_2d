@@ -1,0 +1,155 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "W": "e2dad2",
+  "G": "b0a69c",
+  "D": "7a706a"
+ },
+ "parts": [
+  {
+   "name": "tower",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      -24
+     ],
+     "px": [
+      ".....kk..kk..kk......",
+      "....kWGkkWGkkWGk.....",
+      "....kWWWWWWWWWWWk....",
+      "....kGGGGGGGGGGDk....",
+      "....kkkkkkkkkkkkk....",
+      "...kWWWWWWWWWWWWWk...",
+      "...kGGGGGGGGGGGGDk...",
+      "...kkkkkkkkkkkkkkk...",
+      "..kWWWWWWWWWWWWWWWk..",
+      "..kGGGGGGGGGGGGGGDk..",
+      "..kkkkkkkkkkkkkkkkk..",
+      ".kWWWWWWWWWWWWWWWWWk.",
+      ".kGGGGGGGGGGGGGGGGDk.",
+      ".kkkkkkkkkkkkkkkkkkk.",
+      "kWWWWWWWWWWWWWWWWWWWk",
+      "kGGGGGGGGGGGGGGGGGGDk",
+      "kDDDDDDDDDDDDDDDDDDDk",
+      "kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -20
+     ],
+     "px": [
+      ".....kk..kk......",
+      "....kWGkkWGkk....",
+      "....kWWWWWWWk....",
+      "....kGGGGGGDk....",
+      "....kkkkkkkkk....",
+      "...kWWWWWWWWWk...",
+      "...kGGGGGGGGDk...",
+      "...kkkkkkkkkkk...",
+      "..kWWWWWWWWWWWk..",
+      "..kGGGGGGGGGGDk..",
+      "..kkkkkkkkkkkkk..",
+      ".kWWWWWWWWWWWWWk.",
+      ".kGGGGGGGGGGGGDk.",
+      ".kkkkkkkkkkkkkkk.",
+      "kWWWWWWWWWWWWWWWk",
+      "kGGGGGGGGGGGGGGDk",
+      "kDDDDDDDDDDDDDDDk",
+      "kkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -17,
+      -20
+     ],
+     "px": [
+      ".....kk..kk......",
+      "....kWGkkWGkk....",
+      "....kWWWWWWWk....",
+      "....kGGGGGGDk....",
+      "....kkkkkkkkk....",
+      "...kWWWWWWWWWk...",
+      "...kGGGGGGGGDk...",
+      "...kkkkkkkkkkk...",
+      "..kWWWWWWWWWWWk..",
+      "..kGGGGGGGGGGDk..",
+      "..kkkkkkkkkkkkk..",
+      ".kWWWWWWWWWWWWWk.",
+      ".kGGGGGGGGGGGGDk.",
+      ".kkkkkkkkkkkkkkk.",
+      "kWWWWWWWWWWWWWWWk",
+      "kGGGGGGGGGGGGGGDk",
+      "kDDDDDDDDDDDDDDDk",
+      "kkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -23
+     ],
+     "px": [
+      ".....kk..kk......",
+      "....kWGkkWGkk....",
+      "....kWWWWWWWk....",
+      "....kGGGGGGDk....",
+      "....kkkkkkkkk....",
+      "...kWWWWWWWWWk...",
+      "...kGGGGGGGGDk...",
+      "...kkkkkkkkkkk...",
+      "..kWWWWWWWWWWWk..",
+      "..kGGGGGGGGGGDk..",
+      "..kkkkkkkkkkkkk..",
+      ".kWWWWWWWWWWWWWk.",
+      ".kGGGGGGGGGGGGDk.",
+      ".kkkkkkkkkkkkkkk.",
+      "kWWWWWWWWWWWWWWWk",
+      "kGGGGGGGGGGGGGGDk",
+      "kDDDDDDDDDDDDDDDk",
+      "kkkkkkkkkkkkkkkkk"
+     ]
+    }
+   }
+  },
+  {
+   "name": "towerN",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "N": {
+     "at": [
+      -8,
+      -18
+     ],
+     "px": [
+      ".....kk..kk......",
+      "....kWGkkWGkk....",
+      "....kWWWWWWWk....",
+      "....kGGGGGGDk....",
+      "....kkkkkkkkk....",
+      "...kWWWWWWWWWk...",
+      "...kGGGGGGGGDk...",
+      "...kkkkkkkkkkk...",
+      "..kWWWWWWWWWWWk..",
+      "..kGGGGGGGGGGDk..",
+      "..kkkkkkkkkkkkk..",
+      ".kWWWWWWWWWWWWWk.",
+      ".kGGGGGGGGGGGGDk.",
+      ".kkkkkkkkkkkkkkk.",
+      "kWWWWWWWWWWWWWWWk",
+      "kGGGGGGGGGGGGGGDk",
+      "kDDDDDDDDDDDDDDDk",
+      "kkkkkkkkkkkkkkkkk"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0973_flamigo. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 0c4a6e
+2 87334f
+3 5b5253
+4 d7496f
+5 aa9595
+6 fc7a9b
+7 38bdf8
+8 c6d4e5
+9 fcd660
+a f0eff3

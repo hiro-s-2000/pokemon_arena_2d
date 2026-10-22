@@ -1,0 +1,32 @@
+// pixel-paint palette for 0094_gengar-gmax (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// gengar purple body: highlight / light / mid / dark / deepest
+A bfaaf0
+B 9078d2
+C 6e5ab6
+D 52429c
+E 3a2e7c
+// dark miasma at the base
+F a8508f
+G 76326c
+// mouth: rim / red / dark ring / deepest ring
+H e0577a
+I b8284f
+J 8a1336
+K 5c0a24
+// teeth
+W ffffff
+V c6c0e2
+// tongue: highlight / mid / shade
+L ff7aa4
+M e2346c
+N a51a4c
+// eyes: yellow / orange / red pupil
+Y ffe844
+O f09a1c
+R d81e1e
+// shadow-ball / ghost energy: white-lilac / lilac / violet
+S f4e4ff
+T c08cf4
+U 8048c8

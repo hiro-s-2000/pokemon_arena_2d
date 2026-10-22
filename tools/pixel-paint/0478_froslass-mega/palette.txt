@@ -1,0 +1,16 @@
+// pixel-paint palette for 0478_froslass-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 0c3c4e
+2 572f9f
+3 4551ae
+4 5d5d80
+5 497abe
+6 d73f00
+7 8f67bf
+8 67a7ff
+9 b4a4ff
+a bfcff7
+b ffffff

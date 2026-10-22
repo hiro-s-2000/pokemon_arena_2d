@@ -1,0 +1,16 @@
+// pixel-paint palette for 0944_shroodle. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 43136d
+2 333040
+3 454658
+4 546577
+5 b91c1c
+6 8a35cb
+7 72a7b2
+8 96ba9e
+9 d7b8f2
+a e0e3b7
+b f6e7f9

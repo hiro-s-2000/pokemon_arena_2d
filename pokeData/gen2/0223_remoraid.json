@@ -1,0 +1,750 @@
+{
+  "id": "0223_remoraid",
+  "pokemonId": 223,
+  "dex": 223,
+  "slug": "remoraid",
+  "name": "Remoraid",
+  "jpName": "テッポウオ",
+  "genus": "Jet Pokémon",
+  "jpGenus": "ふんしゃポケモン",
+  "generation": 2,
+  "category": "gen2",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen2/0223_remoraid/normal/front.gif",
+  "backSprite": "../pokeSprite/gen2/0223_remoraid/normal/back.gif",
+  "abilities": [
+    {
+      "id": 55,
+      "slug": "hustle",
+      "name": "Hustle",
+      "jpName": "はりきり",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+      "jpDescription": "自分の 攻撃が 高くなるが 命中率が 下がる。"
+    },
+    {
+      "id": 97,
+      "slug": "sniper",
+      "name": "Sniper",
+      "jpName": "スナイパー",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+      "jpDescription": "攻撃を 急所に 当てると 威力が さらに 上がる。"
+    },
+    {
+      "id": 141,
+      "slug": "moody",
+      "name": "Moody",
+      "jpName": "ムラっけ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises a random stat two stages and lowers another one stage after each turn.",
+      "jpDescription": "毎ターン 能力の どれかが ぐーんと 上がって どれかが 下がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 6,
+    "meters": 0.6,
+    "feetInches": "2'00\"",
+    "display": "0.6 m (2'00\")"
+  },
+  "weight": {
+    "hectograms": 120,
+    "kilograms": 12.0,
+    "pounds": 26.5,
+    "display": "12.0 kg (26.5 lbs)"
+  },
+  "shape": {
+    "id": 3,
+    "slug": "fish",
+    "name": "Fish",
+    "awesomeName": "Ichthyic",
+    "jpName": "ヒレあり（魚型）"
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 35,
+    "speed": 65,
+    "total": 300,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 95,
+          "max": 142
+        },
+        "lv100": {
+          "min": 180,
+          "max": 274
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      }
+    }
+  },
+  "baseStatTotal": 300,
+  "typeMatchups": {
+    "types": [
+      "water"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 11,
+        "slug": "water",
+        "name": "Water",
+        "jpName": "みず"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 0.5,
+      "electric": 2.0,
+      "grass": 2.0,
+      "ice": 0.5,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "electric",
+      "grass"
+    ],
+    "neutral1x": [
+      "normal",
+      "fighting",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "water",
+      "ice",
+      "steel"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "ground",
+      "rock"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialAttack",
+        "statName": "Sp. Atk",
+        "statJpName": "とくこう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Sp. Atk",
+    "evYieldTextJa": "とくこう+1",
+    "catchRate": 190,
+    "pokeBallFullHpPercent": 35.2,
+    "catchRateDisplay": "190 (35.2% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 60,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 2,
+        "slug": "water1",
+        "name": "Water 1",
+        "jpName": "すいちゅう１"
+      },
+      {
+        "id": 12,
+        "slug": "water2",
+        "name": "Water 2",
+        "jpName": "すいちゅう２"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 114,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 224,
+        "dex": 224,
+        "slug": "octillery",
+        "name": "Octillery",
+        "jpName": "オクタン",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 25,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 25",
+            "conditionTextJa": "Lv.25"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 223,
+        "dex": 223,
+        "slug": "remoraid",
+        "name": "Remoraid",
+        "jpName": "テッポウオ",
+        "types": [
+          "water"
+        ],
+        "sprite": "../pokeSprite/gen2/0223_remoraid/normal/front.gif",
+        "backSprite": "../pokeSprite/gen2/0223_remoraid/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 224,
+            "dex": 224,
+            "slug": "octillery",
+            "name": "Octillery",
+            "jpName": "オクタン",
+            "types": [
+              "water"
+            ],
+            "sprite": "../pokeSprite/gen2/0224_octillery/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0224_octillery/normal/back.gif",
+            "condition": "Level 25",
+            "conditionJa": "Lv.25",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 25,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 25",
+                "conditionTextJa": "Lv.25"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Remoraid --(Level 25)--> Octillery",
+    "summaryTextJa": "テッポウオ --(Lv.25)--> オクタン"
+  },
+  "moves": {
+    "totalUniqueMoves": 24,
+    "levelUp": [
+      {
+        "id": 145,
+        "slug": "bubble",
+        "name": "Bubble",
+        "jpName": "あわ",
+        "type": "water",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします",
+        "level": 1
+      },
+      {
+        "id": 491,
+        "slug": "acid-spray",
+        "name": "Acid Spray",
+        "jpName": "アシッドボム",
+        "type": "poison",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "相手を とかす 液体を 吐きだして 攻撃する。 相手の 特防を がくっと さげる。",
+        "level": 6
+      },
+      {
+        "id": 451,
+        "slug": "charge-beam",
+        "name": "Charge Beam",
+        "jpName": "チャージビーム",
+        "type": "electric",
+        "category": "special",
+        "power": 50,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat.",
+        "jpDescription": "電撃の 束を 相手に 発射する。電気を ためて 自分の 特攻を あげることが ある。",
+        "level": 11
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。",
+        "level": 18
+      },
+      {
+        "id": 58,
+        "slug": "ice-beam",
+        "name": "Ice Beam",
+        "jpName": "れいとうビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+        "jpDescription": "凍える ビームを 相手に 発射して 攻撃する。 こおり状態に することが ある。",
+        "level": 25
+      },
+      {
+        "id": 56,
+        "slug": "hydro-pump",
+        "name": "Hydro Pump",
+        "jpName": "ハイドロポンプ",
+        "type": "water",
+        "category": "special",
+        "power": 110,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is blasted by a huge volume of water launched under great pressure.",
+        "jpDescription": "大量の 水を 激しい 勢いで 相手に 発射して 攻撃する。",
+        "level": 34
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [
+      {
+        "id": 491,
+        "slug": "acid-spray",
+        "name": "Acid Spray",
+        "jpName": "アシッドボム",
+        "type": "poison",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "相手を とかす 液体を 吐きだして 攻撃する。 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 62,
+        "slug": "aurora-beam",
+        "name": "Aurora Beam",
+        "jpName": "オーロラビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+        "jpDescription": "にじいろの ビームを 相手に 発射して 攻撃する。 攻撃を さげる ことが ある。"
+      },
+      {
+        "id": 494,
+        "slug": "entrainment",
+        "name": "Entrainment",
+        "jpName": "なかまづくり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user dances with an odd rhythm that compels the target to mimic it, making the target's Ability the same as the user's.",
+        "jpDescription": "不思議な リズムで おどる。 動きを まねさせて 自分と 相手の 特性を 同じに する。"
+      },
+      {
+        "id": 175,
+        "slug": "flail",
+        "name": "Flail",
+        "jpName": "じたばた",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+        "jpDescription": "じたばた 暴れて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 114,
+        "slug": "haze",
+        "name": "Haze",
+        "jpName": "くろいきり",
+        "type": "ice",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+        "jpDescription": "黒い霧を だして 戦闘に でている ポケモン 全員の 能力変化を もとに もどす。"
+      },
+      {
+        "id": 341,
+        "slug": "mud-shot",
+        "name": "Mud Shot",
+        "jpName": "マッドショット",
+        "type": "ground",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+        "jpDescription": "泥の 塊を 相手に 投げつけて 攻撃する。 同時に 相手の 素早さを さげる。"
+      },
+      {
+        "id": 190,
+        "slug": "octazooka",
+        "name": "Octazooka",
+        "jpName": "オクタンほう",
+        "type": "water",
+        "category": "special",
+        "power": 65,
+        "accuracy": 85,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+        "jpDescription": "相手の 顔などに 墨を 吹きかけて 攻撃する。 命中率を さげることが ある。"
+      },
+      {
+        "id": 350,
+        "slug": "rock-blast",
+        "name": "Rock Blast",
+        "jpName": "ロックブラスト",
+        "type": "rock",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by hurling hard rocks at the target. This move hits two to five times in a row.",
+        "jpDescription": "硬い 岩石を 相手に 発射して 攻撃する。 ２ー５回の 間 連続で だす。"
+      },
+      {
+        "id": 103,
+        "slug": "screech",
+        "name": "Screech",
+        "jpName": "いやなおと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+        "jpDescription": "おもわず 耳を ふさぎたくなる いやなおとを だして 相手の 防御を がくっと さげる。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 48,
+        "slug": "supersonic",
+        "name": "Supersonic",
+        "jpName": "ちょうおんぱ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 55,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user generates odd sound waves from its body that confuse the target.",
+        "jpDescription": "特殊な 音波を 体から 発して 相手を 混乱させる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 323,
+        "slug": "water-spout",
+        "name": "Water Spout",
+        "jpName": "しおふき",
+        "type": "water",
+        "category": "special",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user spouts water to damage opposing Pokémon. The lower the user's HP, the lower the move's power.",
+        "jpDescription": "潮を 吹きつけて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は さがる。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 340,
+        "slug": "bounce",
+        "name": "Bounce",
+        "jpName": "とびはねる",
+        "type": "flying",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+        "jpDescription": "空高く 飛び跳ねて ２ターン目に 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 441,
+        "slug": "gunk-shot",
+        "name": "Gunk Shot",
+        "jpName": "ダストシュート",
+        "type": "poison",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user shoots filthy garbage at the target to attack. This may also poison the target.",
+        "jpDescription": "汚い ゴミを 相手に ぶつけて 攻撃する。 毒状態に することが ある。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      }
+    ]
+  }
+}

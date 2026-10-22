@@ -1,0 +1,17 @@
+// pixel-paint palette for 0121_starmie-mega (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+1 2e2a78
+2 4c4eb4
+3 7276dc
+4 9ca4f6
+5 d0d8ff
+6 9a5a12
+7 d89a28
+8 f8d468
+9 8e1036
+a dc3862
+b ff8eaa
+c ffffff
+d 48bdf0
+e c4f4ff

@@ -1,0 +1,465 @@
+{
+  "id": "0202_wobbuffet",
+  "pokemonId": 202,
+  "dex": 202,
+  "slug": "wobbuffet",
+  "name": "Wobbuffet",
+  "jpName": "ソーナンス",
+  "genus": "Patient Pokémon",
+  "jpGenus": "がまんポケモン",
+  "generation": 2,
+  "category": "gen2",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen2/0202_wobbuffet/normal/front.gif",
+  "backSprite": "../pokeSprite/gen2/0202_wobbuffet/normal/back.gif",
+  "abilities": [
+    {
+      "id": 23,
+      "slug": "shadow-tag",
+      "name": "Shadow Tag",
+      "jpName": "かげふみ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Prevents opponents from fleeing or switching out.",
+      "jpDescription": "相手の 影を 踏み 逃げたり 交代 できなくする。"
+    },
+    {
+      "id": 140,
+      "slug": "telepathy",
+      "name": "Telepathy",
+      "jpName": "テレパシー",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against friendly Pokémon's damaging moves.",
+      "jpDescription": "味方の 攻撃を 読み取って 技を 回避する。"
+    }
+  ],
+  "height": {
+    "decimeters": 13,
+    "meters": 1.3,
+    "feetInches": "4'03\"",
+    "display": "1.3 m (4'03\")"
+  },
+  "weight": {
+    "hectograms": 285,
+    "kilograms": 28.5,
+    "pounds": 62.8,
+    "display": "28.5 kg (62.8 lbs)"
+  },
+  "shape": {
+    "id": 5,
+    "slug": "blob",
+    "name": "Blob",
+    "awesomeName": "Alvine",
+    "jpName": "不定形"
+  },
+  "baseStats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "specialAttack": 33,
+    "specialDefense": 58,
+    "speed": 33,
+    "total": 405,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 250,
+          "max": 297
+        },
+        "lv100": {
+          "min": 490,
+          "max": 584
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 34,
+          "max": 93
+        },
+        "lv100": {
+          "min": 63,
+          "max": 181
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 56,
+          "max": 121
+        },
+        "lv100": {
+          "min": 108,
+          "max": 236
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 34,
+          "max": 93
+        },
+        "lv100": {
+          "min": 63,
+          "max": 181
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 56,
+          "max": 121
+        },
+        "lv100": {
+          "min": 108,
+          "max": 236
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 34,
+          "max": 93
+        },
+        "lv100": {
+          "min": 63,
+          "max": 181
+        }
+      }
+    }
+  },
+  "baseStatTotal": 405,
+  "typeMatchups": {
+    "types": [
+      "psychic"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 14,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "エスパー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 0.5,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 2.0,
+      "dragon": 1.0,
+      "dark": 2.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "bug",
+      "ghost",
+      "dark"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "rock",
+      "dragon",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fighting",
+      "psychic"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fighting",
+      "poison"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 HP",
+    "evYieldTextJa": "HP+2",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 142,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 11,
+        "slug": "indeterminate",
+        "name": "Amorphous",
+        "jpName": "ふていけい"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 100,
+    "evolvesFrom": {
+      "speciesId": 360,
+      "dex": 360,
+      "slug": "wynaut",
+      "name": "Wynaut",
+      "jpName": "ソーナノ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 15,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 15",
+          "conditionTextJa": "Lv.15"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 360,
+        "dex": 360,
+        "slug": "wynaut",
+        "name": "Wynaut",
+        "jpName": "ソーナノ",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "../pokeSprite/gen3/0360_wynaut/normal/front.gif",
+        "backSprite": "../pokeSprite/gen3/0360_wynaut/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 202,
+            "dex": 202,
+            "slug": "wobbuffet",
+            "name": "Wobbuffet",
+            "jpName": "ソーナンス",
+            "types": [
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen2/0202_wobbuffet/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0202_wobbuffet/normal/back.gif",
+            "condition": "Level 15",
+            "conditionJa": "Lv.15",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 15,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 15",
+                "conditionTextJa": "Lv.15"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Wynaut --(Level 15)--> Wobbuffet",
+    "summaryTextJa": "ソーナノ --(Lv.15)--> ソーナンス"
+  },
+  "moves": {
+    "totalUniqueMoves": 8,
+    "levelUp": [
+      {
+        "id": 68,
+        "slug": "counter",
+        "name": "Counter",
+        "jpName": "カウンター",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -5,
+        "description": "A retaliatory attack that counters any physical move, inflicting double the damage taken.",
+        "jpDescription": "相手から 受けた 物理攻撃の ダメージを ２倍に して 同じ 相手に 返す。",
+        "level": 0
+      },
+      {
+        "id": 194,
+        "slug": "destiny-bond",
+        "name": "Destiny Bond",
+        "jpName": "みちづれ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "If the user is knocked out after using this move, the Pokémon that knocked it out will also faint. This move's chance of failing rises if it is used in succession.",
+        "jpDescription": "技のあと 相手の 攻撃で ひんしに なると 攻撃 相手も ひんしにする。 連続して 出すと 失敗する。",
+        "level": 0
+      },
+      {
+        "id": 219,
+        "slug": "safeguard",
+        "name": "Safeguard",
+        "jpName": "しんぴのまもり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user creates a protective field that prevents status conditions for five turns.",
+        "jpDescription": "５ターンの 間 不思議な 力に 守られて 状態異常に ならなくなる。",
+        "level": 0
+      },
+      {
+        "id": 243,
+        "slug": "mirror-coat",
+        "name": "Mirror Coat",
+        "jpName": "ミラーコート",
+        "type": "psychic",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -5,
+        "description": "A retaliatory attack that counters any special move, inflicting double the damage taken.",
+        "jpDescription": "相手から 受けた 特殊攻撃の ダメージを ２倍に して その相手に 返す。",
+        "level": 0
+      },
+      {
+        "id": 133,
+        "slug": "amnesia",
+        "name": "Amnesia",
+        "jpName": "ドわすれ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user temporarily empties its mind to forget its concerns. This sharply boosts the user's Sp. Def stat.",
+        "jpDescription": "頭を からにして 一瞬 なにかを 忘れることで 自分の 特防を ぐーんと あげる。",
+        "level": 1
+      },
+      {
+        "id": 150,
+        "slug": "splash",
+        "name": "Splash",
+        "jpName": "はねる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user just flops and splashes around to no effect at all...",
+        "jpDescription": "攻撃もせずに ピョン ピョンと 跳ねるだけで なにも おこらない……。",
+        "level": 1
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。",
+        "level": 1
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。",
+        "level": 1
+      }
+    ],
+    "machine": [
+      {
+        "id": 219,
+        "slug": "safeguard",
+        "name": "Safeguard",
+        "jpName": "しんぴのまもり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user creates a protective field that prevents status conditions for five turns.",
+        "jpDescription": "５ターンの 間 不思議な 力に 守られて 状態異常に ならなくなる。"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

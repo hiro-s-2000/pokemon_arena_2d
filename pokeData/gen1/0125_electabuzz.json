@@ -1,0 +1,1550 @@
+{
+  "id": "0125_electabuzz",
+  "pokemonId": 125,
+  "dex": 125,
+  "slug": "electabuzz",
+  "name": "Electabuzz",
+  "jpName": "エレブー",
+  "genus": "Electric Pokémon",
+  "jpGenus": "でんげきポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0125_electabuzz/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0125_electabuzz/normal/back.gif",
+  "abilities": [
+    {
+      "id": 9,
+      "slug": "static",
+      "name": "Static",
+      "jpName": "せいでんき",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+      "jpDescription": "静電気を 体に まとい 触った 相手を まひさせる ことがある。"
+    },
+    {
+      "id": 72,
+      "slug": "vital-spirit",
+      "name": "Vital Spirit",
+      "jpName": "やるき",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Prevents sleep.",
+      "jpDescription": "やる気を だすことに よって ねむり状態に ならない。"
+    }
+  ],
+  "height": {
+    "decimeters": 11,
+    "meters": 1.1,
+    "feetInches": "3'07\"",
+    "display": "1.1 m (3'07\")"
+  },
+  "weight": {
+    "hectograms": 300,
+    "kilograms": 30.0,
+    "pounds": 66.1,
+    "display": "30.0 kg (66.1 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "specialAttack": 95,
+    "specialDefense": 85,
+    "speed": 105,
+    "total": 490,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 125,
+          "max": 172
+        },
+        "lv100": {
+          "min": 240,
+          "max": 334
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 79,
+          "max": 148
+        },
+        "lv100": {
+          "min": 153,
+          "max": 291
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 55,
+          "max": 119
+        },
+        "lv100": {
+          "min": 107,
+          "max": 234
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 90,
+          "max": 161
+        },
+        "lv100": {
+          "min": 175,
+          "max": 317
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 81,
+          "max": 150
+        },
+        "lv100": {
+          "min": 157,
+          "max": 295
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 99,
+          "max": 172
+        },
+        "lv100": {
+          "min": 193,
+          "max": 339
+        }
+      }
+    }
+  },
+  "baseStatTotal": 490,
+  "typeMatchups": {
+    "types": [
+      "electric"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 13,
+        "slug": "electric",
+        "name": "Electric",
+        "jpName": "でんき"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 0.5,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 2.0,
+      "flying": 0.5,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "ground"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "grass",
+      "ice",
+      "fighting",
+      "poison",
+      "psychic",
+      "bug",
+      "rock",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "electric",
+      "flying",
+      "steel"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "flying"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Speed",
+    "evYieldTextJa": "すばやさ+2",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 172,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 8,
+        "slug": "humanshape",
+        "name": "Human-Like",
+        "jpName": "ひとがた"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 75.0,
+      "femalePercent": 25.0,
+      "display": "75.0% Male, 25.0% Female",
+      "displayJa": "♂ 75.0% / ♀ 25.0%"
+    },
+    "eggCycles": {
+      "cycles": 25,
+      "minSteps": 6101,
+      "maxSteps": 6682,
+      "display": "25 (6,101–6,682 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 60,
+    "evolvesFrom": {
+      "speciesId": 239,
+      "dex": 239,
+      "slug": "elekid",
+      "name": "Elekid",
+      "jpName": "エレキッド",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 30,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 30",
+          "conditionTextJa": "Lv.30"
+        }
+      ]
+    },
+    "evolvesTo": [
+      {
+        "speciesId": 466,
+        "dex": 466,
+        "slug": "electivire",
+        "name": "Electivire",
+        "jpName": "エレキブル",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "triggerName": "Trade or Linking Cord",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": "Electirizer",
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Trade holding Electirizer",
+            "conditionTextJa": "通信交換（エレキブースターを持たせる）"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 239,
+        "dex": 239,
+        "slug": "elekid",
+        "name": "Elekid",
+        "jpName": "エレキッド",
+        "types": [
+          "electric"
+        ],
+        "sprite": "../pokeSprite/gen2/0239_elekid/normal/front.gif",
+        "backSprite": "../pokeSprite/gen2/0239_elekid/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 125,
+            "dex": 125,
+            "slug": "electabuzz",
+            "name": "Electabuzz",
+            "jpName": "エレブー",
+            "types": [
+              "electric"
+            ],
+            "sprite": "../pokeSprite/gen1/0125_electabuzz/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0125_electabuzz/normal/back.gif",
+            "condition": "Level 30",
+            "conditionJa": "Lv.30",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 30,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 30",
+                "conditionTextJa": "Lv.30"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 466,
+                "dex": 466,
+                "slug": "electivire",
+                "name": "Electivire",
+                "jpName": "エレキブル",
+                "types": [
+                  "electric"
+                ],
+                "sprite": "../pokeSprite/gen4/0466_electivire/normal/front.gif",
+                "backSprite": "../pokeSprite/gen4/0466_electivire/normal/back.gif",
+                "condition": "Trade holding Electirizer",
+                "conditionJa": "通信交換（エレキブースターを持たせる）",
+                "details": [
+                  {
+                    "trigger": "trade",
+                    "triggerName": "Trade or Linking Cord",
+                    "minLevel": null,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": "Electirizer",
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Trade holding Electirizer",
+                    "conditionTextJa": "通信交換（エレキブースターを持たせる）"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Elekid --(Level 30)--> Electabuzz --(Trade holding Electirizer)--> Electivire",
+    "summaryTextJa": "エレキッド --(Lv.30)--> エレブー --(通信交換（エレキブースターを持たせる）)--> エレキブル"
+  },
+  "moves": {
+    "totalUniqueMoves": 64,
+    "levelUp": [
+      {
+        "id": 43,
+        "slug": "leer",
+        "name": "Leer",
+        "jpName": "にらみつける",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats.",
+        "jpDescription": "鋭い 目つきで おびえさせて 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 84,
+        "slug": "thunder-shock",
+        "name": "Thunder Shock",
+        "jpName": "でんきショック",
+        "type": "electric",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis.",
+        "jpDescription": "電気の 刺激を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。",
+        "level": 1
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。",
+        "level": 1
+      },
+      {
+        "id": 268,
+        "slug": "charge",
+        "name": "Charge",
+        "jpName": "じゅうでん",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user becomes charged, boosting the power of the next Electric-type move it uses. This also boosts the user's Sp. Def stat.",
+        "jpDescription": "次の ターンに だす でんきタイプの 技の 威力を あげる。 自分の 特防も あがる。",
+        "level": 1
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。",
+        "level": 12
+      },
+      {
+        "id": 351,
+        "slug": "shock-wave",
+        "name": "Shock Wave",
+        "jpName": "でんげきは",
+        "type": "electric",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+        "jpDescription": "電撃を 素早く 相手に 浴びせる。 攻撃は 必ず 命中する。",
+        "level": 16
+      },
+      {
+        "id": 86,
+        "slug": "thunder-wave",
+        "name": "Thunder Wave",
+        "jpName": "でんじは",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+        "jpDescription": "弱い 電撃を 浴びせることで 相手を まひ状態に する。",
+        "level": 20
+      },
+      {
+        "id": 103,
+        "slug": "screech",
+        "name": "Screech",
+        "jpName": "いやなおと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+        "jpDescription": "おもわず 耳を ふさぎたくなる いやなおとを だして 相手の 防御を がくっと さげる。",
+        "level": 24
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。",
+        "level": 28
+      },
+      {
+        "id": 435,
+        "slug": "discharge",
+        "name": "Discharge",
+        "jpName": "ほうでん",
+        "type": "electric",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis.",
+        "jpDescription": "まばゆい 電撃で 自分の 周りに いるものを 攻撃する。 まひ状態に することが ある。",
+        "level": 34
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。",
+        "level": 40
+      },
+      {
+        "id": 85,
+        "slug": "thunderbolt",
+        "name": "Thunderbolt",
+        "jpName": "１０まんボルト",
+        "type": "electric",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+        "jpDescription": "強い 電撃を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。",
+        "level": 46
+      },
+      {
+        "id": 113,
+        "slug": "light-screen",
+        "name": "Light Screen",
+        "jpName": "ひかりのかべ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from special moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 特殊攻撃の ダメージを 弱める。",
+        "level": 52
+      },
+      {
+        "id": 87,
+        "slug": "thunder",
+        "name": "Thunder",
+        "jpName": "かみなり",
+        "type": "electric",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 10,
+        "priority": 0,
+        "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+        "jpDescription": "激しい 雷を 相手に 落として 攻撃する。 まひ状態に することが ある。",
+        "level": 58
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。",
+        "level": 64
+      }
+    ],
+    "machine": [
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。"
+      },
+      {
+        "id": 339,
+        "slug": "bulk-up",
+        "name": "Bulk Up",
+        "jpName": "ビルドアップ",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tenses its muscles to bulk up its body, boosting its Attack and Defense stats.",
+        "jpDescription": "体に 力を こめて 筋肉を ぶあつく することで 自分の 攻撃と 防御を あげる。"
+      },
+      {
+        "id": 268,
+        "slug": "charge",
+        "name": "Charge",
+        "jpName": "じゅうでん",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user becomes charged, boosting the power of the next Electric-type move it uses. This also boosts the user's Sp. Def stat.",
+        "jpDescription": "次の ターンに だす でんきタイプの 技の 威力を あげる。 自分の 特防も あがる。"
+      },
+      {
+        "id": 451,
+        "slug": "charge-beam",
+        "name": "Charge Beam",
+        "jpName": "チャージビーム",
+        "type": "electric",
+        "category": "special",
+        "power": 50,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat.",
+        "jpDescription": "電撃の 束を 相手に 発射する。電気を ためて 自分の 特攻を あげることが ある。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 598,
+        "slug": "eerie-impulse",
+        "name": "Eerie Impulse",
+        "jpName": "かいでんぱ",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.",
+        "jpDescription": "体から かいでんぱを 放ち 相手に 浴びせる ことによって 特攻を がくっと さげる。"
+      },
+      {
+        "id": 604,
+        "slug": "electric-terrain",
+        "name": "Electric Terrain",
+        "jpName": "エレキフィールド",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep.",
+        "jpDescription": "５ターンの 間 エレキフィールドにする。 地面にいる ポケモンは 眠らない。 でんきタイプの 威力が あがる。"
+      },
+      {
+        "id": 486,
+        "slug": "electro-ball",
+        "name": "Electro Ball",
+        "jpName": "エレキボール",
+        "type": "electric",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power.",
+        "jpDescription": "電気の 塊を 相手に ぶつける。相手より 素早さが 速いほど 威力が あがる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 374,
+        "slug": "fling",
+        "name": "Fling",
+        "jpName": "なげつける",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+        "jpDescription": "持たせた 道具を 素早く 投げつけて 攻撃する。 道具で 威力と 効果が 変わる。"
+      },
+      {
+        "id": 411,
+        "slug": "focus-blast",
+        "name": "Focus Blast",
+        "jpName": "きあいだま",
+        "type": "fighting",
+        "category": "special",
+        "power": 120,
+        "accuracy": 70,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "気合を 高めて ありったけの 力を 放出する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。"
+      },
+      {
+        "id": 113,
+        "slug": "light-screen",
+        "name": "Light Screen",
+        "jpName": "ひかりのかべ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from special moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 特殊攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 490,
+        "slug": "low-sweep",
+        "name": "Low Sweep",
+        "jpName": "ローキック",
+        "type": "fighting",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+        "jpDescription": "素早い 動きで 相手の 足を ねらって 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 319,
+        "slug": "metal-sound",
+        "name": "Metal Sound",
+        "jpName": "きんぞくおん",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "金属を こすって でるような いやな 音を 聞かせる。 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 118,
+        "slug": "metronome",
+        "name": "Metronome",
+        "jpName": "ゆびをふる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
+        "jpDescription": "指をふり 自分の 脳を 刺激して すべての 技の なかから どれか １つを くりだす。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 916,
+        "slug": "supercell-slam",
+        "name": "Supercell Slam",
+        "jpName": "サンダーダイブ",
+        "type": "electric",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead.",
+        "jpDescription": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 87,
+        "slug": "thunder",
+        "name": "Thunder",
+        "jpName": "かみなり",
+        "type": "electric",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 10,
+        "priority": 0,
+        "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+        "jpDescription": "激しい 雷を 相手に 落として 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 86,
+        "slug": "thunder-wave",
+        "name": "Thunder Wave",
+        "jpName": "でんじは",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+        "jpDescription": "弱い 電撃を 浴びせることで 相手を まひ状態に する。"
+      },
+      {
+        "id": 85,
+        "slug": "thunderbolt",
+        "name": "Thunderbolt",
+        "jpName": "１０まんボルト",
+        "type": "electric",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+        "jpDescription": "強い 電撃を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 885,
+        "slug": "trailblaze",
+        "name": "Trailblaze",
+        "jpName": "くさわけ",
+        "type": "grass",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+        "jpDescription": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 521,
+        "slug": "volt-switch",
+        "name": "Volt Switch",
+        "jpName": "ボルトチェンジ",
+        "type": "electric",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えポケモンと 入れ替わる。"
+      },
+      {
+        "id": 528,
+        "slug": "wild-charge",
+        "name": "Wild Charge",
+        "jpName": "ワイルドボルト",
+        "type": "electric",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+        "jpDescription": "電気を まとって 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 238,
+        "slug": "cross-chop",
+        "name": "Cross Chop",
+        "jpName": "クロスチョップ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user delivers a double chop with its forearms crossed. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "両手チョップを 相手に たたきつけて 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 223,
+        "slug": "dynamic-punch",
+        "name": "Dynamic Punch",
+        "jpName": "ばくれつパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 50,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks by punching the target with full concentrated power. This also confuses the target.",
+        "jpDescription": "こん身の 力で パンチを くりだして 攻撃する。 相手を 必ず 混乱させる。"
+      },
+      {
+        "id": 364,
+        "slug": "feint",
+        "name": "Feint",
+        "jpName": "フェイント",
+        "type": "normal",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 2,
+        "description": "This attack can hit a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+        "jpDescription": "まもるや みきり などを している 相手に 攻撃が できる。 守りの 効果を 解除させる。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 266,
+        "slug": "follow-me",
+        "name": "Follow Me",
+        "jpName": "このゆびとまれ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 2,
+        "description": "The user draws attention to itself, making all opposing Pokémon take aim only at the user.",
+        "jpDescription": "自分に 注目させて 相手からの 攻撃を すべて 自分に むけさせる。"
+      },
+      {
+        "id": 359,
+        "slug": "hammer-arm",
+        "name": "Hammer Arm",
+        "jpName": "アームハンマー",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat.",
+        "jpDescription": "強くて 重い こぶしを ふるって ダメージを 与える。 自分の 素早さが さがる。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。"
+      },
+      {
+        "id": 530,
+        "slug": "dual-chop",
+        "name": "Dual Chop",
+        "jpName": "ダブルチョップ",
+        "type": "dragon",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+        "jpDescription": "体の 硬い部分で 相手を たたいて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 393,
+        "slug": "magnet-rise",
+        "name": "Magnet Rise",
+        "jpName": "でんじふゆう",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user levitates using electrically generated magnetism for five turns.",
+        "jpDescription": "電気で つくった 磁力の 力で 宙に 浮かぶ。 ５ターンの 間 浮遊できる。"
+      },
+      {
+        "id": 804,
+        "slug": "rising-voltage",
+        "name": "Rising Voltage",
+        "jpName": "ライジングボルト",
+        "type": "electric",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks with electricity rising from the ground. This move's power is doubled if the target is on Electric Terrain.",
+        "jpDescription": "地面から 立ちのぼる 電撃で 攻撃。 相手が エレキフィールドに いる時 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 351,
+        "slug": "shock-wave",
+        "name": "Shock Wave",
+        "jpName": "でんげきは",
+        "type": "electric",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+        "jpDescription": "電撃を 素早く 相手に 浴びせる。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+// Mega Garchomp (hand-painted). "." transparent, "#" outline
+. transparent
+# 000000
+// body blue: light / mid / shade / deep
+B 6f82d8
+b 4a5cb4
+n 343f86
+N 252a5c
+// red: light / mid / shade
+R f2604a
+r cc3a32
+q 7e1c1c
+// yellow: light / shade
+Y ffd83a
+y d49a1c
+// white spikes / claws: white / grey
+W ffffff
+w b4bccc
+// move effects (dragon breath / dragon claw): deep / light / cyan
+P c04ee0
+p f4a8ff
+c b8f6ff

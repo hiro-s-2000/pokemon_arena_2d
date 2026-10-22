@@ -1,0 +1,862 @@
+{
+  "id": "0935_charcadet",
+  "pokemonId": 935,
+  "dex": 935,
+  "slug": "charcadet",
+  "name": "Charcadet",
+  "jpName": "カルボウ",
+  "genus": "Fire Child Pokémon",
+  "jpGenus": "ひのこポケモン",
+  "generation": 9,
+  "category": "gen9",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen9/0935_charcadet/normal/front.gif",
+  "backSprite": "../pokeSprite/gen9/0935_charcadet/normal/back.gif",
+  "abilities": [
+    {
+      "id": 18,
+      "slug": "flash-fire",
+      "name": "Flash Fire",
+      "jpName": "もらいび",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+      "jpDescription": "ほのおタイプの 技を 受けると 炎を もらい 自分が 出す ほのおタイプの 技が 強くなる。"
+    },
+    {
+      "id": 49,
+      "slug": "flame-body",
+      "name": "Flame Body",
+      "jpName": "ほのおのからだ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Has a 30% chance of burning attacking Pokémon on contact.",
+      "jpDescription": "自分に 触った 相手を やけど状態に する ことがある。"
+    }
+  ],
+  "height": {
+    "decimeters": 6,
+    "meters": 0.6,
+    "feetInches": "2'00\"",
+    "display": "0.6 m (2'00\")"
+  },
+  "weight": {
+    "hectograms": 105,
+    "kilograms": 10.5,
+    "pounds": 23.1,
+    "display": "10.5 kg (23.1 lbs)"
+  },
+  "shape": {
+    "id": 12,
+    "slug": "humanoid",
+    "name": "Humanoid",
+    "awesomeName": "Anthropomorphic",
+    "jpName": "人型"
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 40,
+    "speed": 35,
+    "total": 255,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 100,
+          "max": 147
+        },
+        "lv100": {
+          "min": 190,
+          "max": 284
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      }
+    }
+  },
+  "baseStatTotal": 255,
+  "typeMatchups": {
+    "types": [
+      "fire"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 10,
+        "slug": "fire",
+        "name": "Fire",
+        "jpName": "ほのお"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 2.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 0.5,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 2.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 0.5
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "water",
+      "ground",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "electric",
+      "fighting",
+      "poison",
+      "flying",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "grass",
+      "ice",
+      "bug",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "ice",
+      "bug",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialAttack",
+        "statName": "Sp. Atk",
+        "statJpName": "とくこう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Sp. Atk",
+    "evYieldTextJa": "とくこう+1",
+    "catchRate": 90,
+    "pokeBallFullHpPercent": 20.1,
+    "catchRateDisplay": "90 (20.1% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 51,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 8,
+        "slug": "humanshape",
+        "name": "Human-Like",
+        "jpName": "ひとがた"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 35,
+      "minSteps": 8541,
+      "maxSteps": 9252,
+      "display": "35 (8,541–9,252 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 490,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 936,
+        "dex": 936,
+        "slug": "armarouge",
+        "name": "Armarouge",
+        "jpName": "グレンアルマ",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Auspicious Armor",
+            "itemJp": "イワイノヨロイ",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Auspicious Armor",
+            "conditionTextJa": "「イワイノヨロイ」を使用"
+          }
+        ]
+      },
+      {
+        "speciesId": 937,
+        "dex": 937,
+        "slug": "ceruledge",
+        "name": "Ceruledge",
+        "jpName": "ソウブレイズ",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Malicious Armor",
+            "itemJp": "ノロイノヨロイ",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Malicious Armor",
+            "conditionTextJa": "「ノロイノヨロイ」を使用"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 935,
+        "dex": 935,
+        "slug": "charcadet",
+        "name": "Charcadet",
+        "jpName": "カルボウ",
+        "types": [
+          "fire"
+        ],
+        "sprite": "../pokeSprite/gen9/0935_charcadet/normal/front.gif",
+        "backSprite": "../pokeSprite/gen9/0935_charcadet/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 936,
+            "dex": 936,
+            "slug": "armarouge",
+            "name": "Armarouge",
+            "jpName": "グレンアルマ",
+            "types": [
+              "fire",
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen9/0936_armarouge/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/0936_armarouge/normal/back.gif",
+            "condition": "Use Auspicious Armor",
+            "conditionJa": "「イワイノヨロイ」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Auspicious Armor",
+                "itemJp": "イワイノヨロイ",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Auspicious Armor",
+                "conditionTextJa": "「イワイノヨロイ」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 937,
+            "dex": 937,
+            "slug": "ceruledge",
+            "name": "Ceruledge",
+            "jpName": "ソウブレイズ",
+            "types": [
+              "fire",
+              "ghost"
+            ],
+            "sprite": "../pokeSprite/gen9/0937_ceruledge/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/0937_ceruledge/normal/back.gif",
+            "condition": "Use Malicious Armor",
+            "conditionJa": "「ノロイノヨロイ」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Malicious Armor",
+                "itemJp": "ノロイノヨロイ",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Malicious Armor",
+                "conditionTextJa": "「ノロイノヨロイ」を使用"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Charcadet --(Use Auspicious Armor)--> Armarouge | Charcadet --(Use Malicious Armor)--> Ceruledge",
+    "summaryTextJa": "カルボウ --(「イワイノヨロイ」を使用)--> グレンアルマ | カルボウ --(「ノロイノヨロイ」を使用)--> ソウブレイズ"
+  },
+  "moves": {
+    "totalUniqueMoves": 28,
+    "levelUp": [
+      {
+        "id": 43,
+        "slug": "leer",
+        "name": "Leer",
+        "jpName": "にらみつける",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats.",
+        "jpDescription": "鋭い 目つきで おびえさせて 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 52,
+        "slug": "ember",
+        "name": "Ember",
+        "jpName": "ひのこ",
+        "type": "fire",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is attacked with small flames. This may also leave the target with a burn.",
+        "jpDescription": "小さな 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。",
+        "level": 1
+      },
+      {
+        "id": 310,
+        "slug": "astonish",
+        "name": "Astonish",
+        "jpName": "おどろかす",
+        "type": "ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
+        "jpDescription": "大きな 声などで 不意に 驚かして 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 499,
+        "slug": "clear-smog",
+        "name": "Clear Smog",
+        "jpName": "クリアスモッグ",
+        "type": "poison",
+        "category": "special",
+        "power": 50,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by throwing a clump of special mud. All stat changes are eliminated.",
+        "jpDescription": "特殊な 泥の 塊を 相手に 投げつけて 攻撃する。 能力変化を もとに もどす。",
+        "level": 8
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。",
+        "level": 12
+      },
+      {
+        "id": 261,
+        "slug": "will-o-wisp",
+        "name": "Will-O-Wisp",
+        "jpName": "おにび",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shoots a sinister flame at the target to inflict a burn.",
+        "jpDescription": "不気味で 怪しい 炎を 放って 相手を やけどの 状態に する。",
+        "level": 16
+      },
+      {
+        "id": 101,
+        "slug": "night-shade",
+        "name": "Night Shade",
+        "jpName": "ナイトヘッド",
+        "type": "ghost",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+        "jpDescription": "恐ろしい 幻を みせて 自分の レベルと 同じだけの ダメージを 相手に 与える。",
+        "level": 20
+      },
+      {
+        "id": 488,
+        "slug": "flame-charge",
+        "name": "Flame Charge",
+        "jpName": "ニトロチャージ",
+        "type": "fire",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat.",
+        "jpDescription": "炎を まとい 相手を 攻撃する。 力を ためて 自分の 素早さを あげる。",
+        "level": 24
+      },
+      {
+        "id": 510,
+        "slug": "incinerate",
+        "name": "Incinerate",
+        "jpName": "やきつくす",
+        "type": "fire",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+        "jpDescription": "炎で 相手を 攻撃する。 相手が きのみなどを 持っているとき 燃やして 使えなくする。",
+        "level": 28
+      },
+      {
+        "id": 436,
+        "slug": "lava-plume",
+        "name": "Lava Plume",
+        "jpName": "ふんえん",
+        "type": "fire",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+        "jpDescription": "真っ赤な 炎で 自分の 周りに いるものを 攻撃する。 やけど状態に することが ある。",
+        "level": 32
+      }
+    ],
+    "machine": [
+      {
+        "id": 109,
+        "slug": "confuse-ray",
+        "name": "Confuse Ray",
+        "jpName": "あやしいひかり",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is exposed to a sinister ray that causes confusion.",
+        "jpDescription": "怪しい 光を 相手に みせて まどわせる。 相手を 混乱させる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 126,
+        "slug": "fire-blast",
+        "name": "Fire Blast",
+        "jpName": "だいもんじ",
+        "type": "fire",
+        "category": "special",
+        "power": 110,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+        "jpDescription": "大の字の 炎で 相手を 焼きつくす。 やけど状態に することが ある。"
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。"
+      },
+      {
+        "id": 488,
+        "slug": "flame-charge",
+        "name": "Flame Charge",
+        "jpName": "ニトロチャージ",
+        "type": "fire",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Cloaking itself in flame, the user attacks the target. Then, building up momentum, the user boosts its Speed stat.",
+        "jpDescription": "炎を まとい 相手を 攻撃する。 力を ためて 自分の 素早さを あげる。"
+      },
+      {
+        "id": 53,
+        "slug": "flamethrower",
+        "name": "Flamethrower",
+        "jpName": "かえんほうしゃ",
+        "type": "fire",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+        "jpDescription": "激しい 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 394,
+        "slug": "flare-blitz",
+        "name": "Flare Blitz",
+        "jpName": "フレアドライブ",
+        "type": "fire",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
+        "jpDescription": "炎を まとって 突進する。 自分も かなり ダメージを 受ける。 やけど状態に することが ある。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 101,
+        "slug": "night-shade",
+        "name": "Night Shade",
+        "jpName": "ナイトヘッド",
+        "type": "ghost",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+        "jpDescription": "恐ろしい 幻を みせて 自分の レベルと 同じだけの ダメージを 相手に 与える。"
+      },
+      {
+        "id": 315,
+        "slug": "overheat",
+        "name": "Overheat",
+        "jpName": "オーバーヒート",
+        "type": "fire",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with all its might. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "フルパワーで 相手を 攻撃する。 使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 180,
+        "slug": "spite",
+        "name": "Spite",
+        "jpName": "うらみ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+        "jpDescription": "相手が 最後に 使った技に 恨みを 抱いて その技の ＰＰを ４だけ 減らす。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 261,
+        "slug": "will-o-wisp",
+        "name": "Will-O-Wisp",
+        "jpName": "おにび",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shoots a sinister flame at the target to inflict a burn.",
+        "jpDescription": "不気味で 怪しい 炎を 放って 相手を やけどの 状態に する。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 194,
+        "slug": "destiny-bond",
+        "name": "Destiny Bond",
+        "jpName": "みちづれ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "If the user is knocked out after using this move, the Pokémon that knocked it out will also faint. This move's chance of failing rises if it is used in succession.",
+        "jpDescription": "技のあと 相手の 攻撃で ひんしに なると 攻撃 相手も ひんしにする。 連続して 出すと 失敗する。"
+      },
+      {
+        "id": 50,
+        "slug": "disable",
+        "name": "Disable",
+        "jpName": "かなしばり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "For four turns, the target will be unable to use whichever move it last used.",
+        "jpDescription": "相手の 動きを とめて 直前に だしていた 技を ４ターンの 間 使えなくする。"
+      },
+      {
+        "id": 180,
+        "slug": "spite",
+        "name": "Spite",
+        "jpName": "うらみ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+        "jpDescription": "相手が 最後に 使った技に 恨みを 抱いて その技の ＰＰを ４だけ 減らす。"
+      }
+    ],
+    "tutor": []
+  }
+}

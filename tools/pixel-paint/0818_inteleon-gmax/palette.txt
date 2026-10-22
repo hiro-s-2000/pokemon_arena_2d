@@ -1,0 +1,13 @@
+// pixel-paint palette for 0818_inteleon-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 444445
+2 004b8a
+3 0167a9
+4 dc364a
+5 4497d1
+6 99d2e2
+7 dedc5e
+8 ffffff

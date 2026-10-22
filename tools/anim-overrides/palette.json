@@ -1,0 +1,13 @@
+{
+  "_comment": "Root sheets ripped from the original PMD games (credited CHUNSOFT) sometimes use PMD's own palette, which can differ in hue from the main series (pokeSprite GIFs). Where the hue is clearly wrong, the 'Altcolor' subgroup (not shiny: the main-series colours) is used instead. Picked by a colour-histogram scan of all 207 CHUNSOFT roots with an Altcolor set, then checked by eye; subtle shade differences were left alone. The Altcolor sets lack a few sheets (mostly Strike), which the renderer's fallback chain covers.",
+  "0033_nidorino": "0033/0001",
+  "0079_slowpoke": "0079/0002",
+  "0161_sentret": "0161/0001",
+  "0200_misdreavus": "0200/0001",
+  "0217_ursaring": "0217/0001",
+  "0274_nuzleaf": "0274/0001",
+  "0299_nosepass": "0299/0001",
+  "0405_luxray": "0405/0001",
+  "0436_bronzor": "0436/0001",
+  "0491_darkrai": "0491/0003"
+}

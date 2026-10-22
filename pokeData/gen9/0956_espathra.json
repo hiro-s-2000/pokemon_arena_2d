@@ -1,0 +1,1323 @@
+{
+  "id": "0956_espathra",
+  "pokemonId": 956,
+  "dex": 956,
+  "slug": "espathra",
+  "name": "Espathra",
+  "jpName": "クエスパトラ",
+  "genus": "Ostrich Pokémon",
+  "jpGenus": "ダチョウポケモン",
+  "generation": 9,
+  "category": "gen9",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen9/0956_espathra/normal/front.gif",
+  "backSprite": "../pokeSprite/gen9/0956_espathra/normal/back.gif",
+  "abilities": [
+    {
+      "id": 290,
+      "slug": "opportunist",
+      "name": "Opportunist",
+      "jpName": "びんじょう",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Copies stat boosts by the opponent.",
+      "jpDescription": "相手の 能力が 上がったとき 自分も 便乗して 同じように 能力を 上げる。"
+    },
+    {
+      "id": 119,
+      "slug": "frisk",
+      "name": "Frisk",
+      "jpName": "おみとおし",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Reveals an opponent's held item upon entering battle.",
+      "jpDescription": "登場 したとき 相手の 持ち物を 見通すことが できる。"
+    },
+    {
+      "id": 3,
+      "slug": "speed-boost",
+      "name": "Speed Boost",
+      "jpName": "かそく",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises Speed one stage after each turn.",
+      "jpDescription": "毎ターン 素早さが 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 19,
+    "meters": 1.9,
+    "feetInches": "6'03\"",
+    "display": "1.9 m (6'03\")"
+  },
+  "weight": {
+    "hectograms": 900,
+    "kilograms": 90.0,
+    "pounds": 198.4,
+    "display": "90.0 kg (198.4 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 101,
+    "specialDefense": 60,
+    "speed": 105,
+    "total": 481,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 155,
+          "max": 202
+        },
+        "lv100": {
+          "min": 300,
+          "max": 394
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 95,
+          "max": 168
+        },
+        "lv100": {
+          "min": 186,
+          "max": 331
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 99,
+          "max": 172
+        },
+        "lv100": {
+          "min": 193,
+          "max": 339
+        }
+      }
+    }
+  },
+  "baseStatTotal": 481,
+  "typeMatchups": {
+    "types": [
+      "psychic"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 14,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "エスパー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 0.5,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 2.0,
+      "dragon": 1.0,
+      "dark": 2.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "bug",
+      "ghost",
+      "dark"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "rock",
+      "dragon",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fighting",
+      "psychic"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fighting",
+      "poison"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Speed",
+    "evYieldTextJa": "すばやさ+2",
+    "catchRate": 60,
+    "pokeBallFullHpPercent": 14.8,
+    "catchRateDisplay": "60 (14.8% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 168,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 500,
+    "evolvesFrom": {
+      "speciesId": 955,
+      "dex": 955,
+      "slug": "flittle",
+      "name": "Flittle",
+      "jpName": "ヒラヒナ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 35,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 35",
+          "conditionTextJa": "Lv.35"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 955,
+        "dex": 955,
+        "slug": "flittle",
+        "name": "Flittle",
+        "jpName": "ヒラヒナ",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "../pokeSprite/gen9/0955_flittle/normal/front.gif",
+        "backSprite": "../pokeSprite/gen9/0955_flittle/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 956,
+            "dex": 956,
+            "slug": "espathra",
+            "name": "Espathra",
+            "jpName": "クエスパトラ",
+            "types": [
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen9/0956_espathra/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/0956_espathra/normal/back.gif",
+            "condition": "Level 35",
+            "conditionJa": "Lv.35",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 35,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 35",
+                "conditionTextJa": "Lv.35"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Flittle --(Level 35)--> Espathra",
+    "summaryTextJa": "ヒラヒナ --(Lv.35)--> クエスパトラ"
+  },
+  "moves": {
+    "totalUniqueMoves": 62,
+    "levelUp": [
+      {
+        "id": 855,
+        "slug": "lumina-crash",
+        "name": "Lumina Crash",
+        "jpName": "ルミナコリジョン",
+        "type": "psychic",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.",
+        "level": 0
+      },
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 64,
+        "slug": "peck",
+        "name": "Peck",
+        "jpName": "つつく",
+        "type": "flying",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is jabbed with a sharply pointed beak or horn to inflict damage.",
+        "jpDescription": "鋭く とがった くちばしや つので 相手を 突いて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 65,
+        "slug": "drill-peck",
+        "name": "Drill Peck",
+        "jpName": "ドリルくちばし",
+        "type": "flying",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill.",
+        "jpDescription": "回転しながら とがった くちばしを 相手に 突き刺して 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 297,
+        "slug": "feather-dance",
+        "name": "Feather Dance",
+        "jpName": "フェザーダンス",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+        "jpDescription": "羽毛を ふりまいて 相手の 体に からませる。 相手の 攻撃を がくっと さげる。",
+        "level": 1
+      },
+      {
+        "id": 93,
+        "slug": "confusion",
+        "name": "Confusion",
+        "jpName": "ねんりき",
+        "type": "psychic",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is hit with a weak telekinetic force to inflict damage. This may also confuse the target.",
+        "jpDescription": "弱い 念力を 相手に 送って 攻撃する。 相手を 混乱させることが ある。",
+        "level": 5
+      },
+      {
+        "id": 608,
+        "slug": "baby-doll-eyes",
+        "name": "Baby-Doll Eyes",
+        "jpName": "つぶらなひとみ",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user stares at the target with its baby-doll eyes, which lowers the target's Attack stat. This move always goes first.",
+        "jpDescription": "つぶらなひとみで 相手を みつめて 攻撃を さげる。 必ず 先制攻撃 できる。",
+        "level": 8
+      },
+      {
+        "id": 574,
+        "slug": "disarming-voice",
+        "name": "Disarming Voice",
+        "jpName": "チャームボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
+        "jpDescription": "魅惑の 鳴き声を だして 相手に 精神的な ダメージを 与える。 攻撃は 必ず 命中 する。",
+        "level": 11
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。",
+        "level": 15
+      },
+      {
+        "id": 60,
+        "slug": "psybeam",
+        "name": "Psybeam",
+        "jpName": "サイケこうせん",
+        "type": "psychic",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a peculiar ray. This may also confuse the target.",
+        "jpDescription": "不思議な 光線を 相手に 発射して 攻撃する。 混乱させることが ある。",
+        "level": 19
+      },
+      {
+        "id": 365,
+        "slug": "pluck",
+        "name": "Pluck",
+        "jpName": "ついばむ",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pecking the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "くちばしで 攻撃。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 24
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。",
+        "level": 29
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。",
+        "level": 34
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。",
+        "level": 43
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。",
+        "level": 49
+      },
+      {
+        "id": 387,
+        "slug": "last-resort",
+        "name": "Last Resort",
+        "jpName": "とっておき",
+        "type": "normal",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can be used only after the user has used all the other moves it knows in the battle.",
+        "jpDescription": "戦闘中に おぼえている 技を すべて 使うと はじめて だせる とっておきの 技。",
+        "level": 54
+      }
+    ],
+    "machine": [
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 226,
+        "slug": "baton-pass",
+        "name": "Baton Pass",
+        "jpName": "バトンタッチ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+        "jpDescription": "控えの ポケモンと 入れ替わる。 能力変化は 替わった ポケモンが そのまま 受けつぐ。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 347,
+        "slug": "calm-mind",
+        "name": "Calm Mind",
+        "jpName": "めいそう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user quietly focuses its mind and calms its spirit to boost its Sp. Atk and Sp. Def stats.",
+        "jpDescription": "静かに 精神を 統一し 心を 鎮めることで 自分の 特攻と 特防を あげる。"
+      },
+      {
+        "id": 109,
+        "slug": "confuse-ray",
+        "name": "Confuse Ray",
+        "jpName": "あやしいひかり",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is exposed to a sinister ray that causes confusion.",
+        "jpDescription": "怪しい 光を 相手に みせて まどわせる。 相手を 混乱させる。"
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。"
+      },
+      {
+        "id": 574,
+        "slug": "disarming-voice",
+        "name": "Disarming Voice",
+        "jpName": "チャームボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
+        "jpDescription": "魅惑の 鳴き声を だして 相手に 精神的な ダメージを 与える。 攻撃は 必ず 命中 する。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。"
+      },
+      {
+        "id": 797,
+        "slug": "expanding-force",
+        "name": "Expanding Force",
+        "jpName": "ワイドフォース",
+        "type": "psychic",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with its psychic power. When the ground is Psychic Terrain, this move's power is boosted and it damages all opposing Pokémon.",
+        "jpDescription": "サイコパワーで 相手を 攻撃する。 サイコフィールドの時 威力が あがり すべての 相手に ダメージを 与える。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 297,
+        "slug": "feather-dance",
+        "name": "Feather Dance",
+        "jpName": "フェザーダンス",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+        "jpDescription": "羽毛を ふりまいて 相手の 体に からませる。 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 430,
+        "slug": "flash-cannon",
+        "name": "Flash Cannon",
+        "jpName": "ラスターカノン",
+        "type": "steel",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "体の 光を 一点に 集めて 力を 放つ。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 506,
+        "slug": "hex",
+        "name": "Hex",
+        "jpName": "たたりめ",
+        "type": "ghost",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This relentless attack does massive damage to a target affected by status conditions.",
+        "jpDescription": "たたみかける ように 攻撃する。 状態異常の 相手に 大きな ダメージを 与える。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 113,
+        "slug": "light-screen",
+        "name": "Light Screen",
+        "jpName": "ひかりのかべ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from special moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 特殊攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 189,
+        "slug": "mud-slap",
+        "name": "Mud-Slap",
+        "jpName": "どろかけ",
+        "type": "ground",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+        "jpDescription": "相手の 顔などに 泥を 投げつけて 攻撃する。 命中率を さげる。"
+      },
+      {
+        "id": 101,
+        "slug": "night-shade",
+        "name": "Night Shade",
+        "jpName": "ナイトヘッド",
+        "type": "ghost",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+        "jpDescription": "恐ろしい 幻を みせて 自分の レベルと 同じだけの ダメージを 相手に 与える。"
+      },
+      {
+        "id": 884,
+        "slug": "pounce",
+        "name": "Pounce",
+        "jpName": "とびつく",
+        "type": "bug",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
+        "jpDescription": "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 60,
+        "slug": "psybeam",
+        "name": "Psybeam",
+        "jpName": "サイケこうせん",
+        "type": "psychic",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a peculiar ray. This may also confuse the target.",
+        "jpDescription": "不思議な 光線を 相手に 発射して 攻撃する。 混乱させることが ある。"
+      },
+      {
+        "id": 244,
+        "slug": "psych-up",
+        "name": "Psych Up",
+        "jpName": "じこあんじ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hypnotizes itself into copying any stat change made by the target.",
+        "jpDescription": "自分に 暗示を かけることで 能力変化の 状態を 相手と 同じにする。"
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 678,
+        "slug": "psychic-terrain",
+        "name": "Psychic Terrain",
+        "jpName": "サイコフィールド",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+        "jpDescription": "５ターンの間 地面にいると 先制技を 受けない。 エスパータイプの 威力が あがる。"
+      },
+      {
+        "id": 473,
+        "slug": "psyshock",
+        "name": "Psyshock",
+        "jpName": "サイコショック",
+        "type": "psychic",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user materializes an odd psychic wave to attack the target. This move deals physical damage.",
+        "jpDescription": "不思議な 念波を 実体化して 相手を 攻撃する。 物理的な ダメージを 与える。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 115,
+        "slug": "reflect",
+        "name": "Reflect",
+        "jpName": "リフレクター",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from physical moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 物理攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 201,
+        "slug": "sandstorm",
+        "name": "Sandstorm",
+        "jpName": "すなあらし",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types.",
+        "jpDescription": "５ターンの 間 砂あらしで いわ じめん はがねタイプ 以外に ダメージ。 いわタイプの 特防が あがる。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 285,
+        "slug": "skill-swap",
+        "name": "Skill Swap",
+        "jpName": "スキルスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to exchange Abilities with the target.",
+        "jpDescription": "超能力で 自分の 特性と 相手の 特性を 入れ替える。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 500,
+        "slug": "stored-power",
+        "name": "Stored Power",
+        "jpName": "アシストパワー",
+        "type": "psychic",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with stored power. The more the user's stats are boosted, the greater the move's power.",
+        "jpDescription": "蓄積された パワーで 相手を 攻撃する。自分の 能力が あがっているほど 威力が あがる。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 271,
+        "slug": "trick",
+        "name": "Trick",
+        "jpName": "トリック",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user catches the target off guard and swaps the target's held item with its own.",
+        "jpDescription": "相手の すきを ついて 自分と 相手の 持ち物を 交換する。"
+      },
+      {
+        "id": 433,
+        "slug": "trick-room",
+        "name": "Trick Room",
+        "jpName": "トリックルーム",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": -7,
+        "description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+        "jpDescription": "まか不思議な 空間を つくる。 ５ターンの 間 遅い ポケモンから 行動できる。"
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

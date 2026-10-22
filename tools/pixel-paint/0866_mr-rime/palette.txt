@@ -1,0 +1,16 @@
+// pixel-paint palette for 0866_mr-rime. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 333055
+2 6a3931
+3 334fac
+4 575481
+5 cb4370
+6 2f80d9
+7 6399cf
+8 e19387
+9 e9bb00
+a a0cfe9
+b fdfdfd

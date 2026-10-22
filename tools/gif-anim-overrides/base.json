@@ -1,0 +1,5 @@
+{
+  "_comment": "Per-id tuning for tools/build-gif-anim.js (schema: README.md here). Keys starting with _ are ignored. Every id without an entry uses the automatic poses shown on its review contact sheet. Pixel sizes (lungePx, hopPx, lunge) are PMD-scale pixels of the converted art.",
+  "_example_0006_charizard-gmax": { "attackFrames": [0, 12, 13, 14, 14, 14, 15, 0, 0], "hitFrame": 4, "idleRange": [0, 19], "lungePx": 10 },
+  "_example_pixel": { "pixelHeight": 34, "colors": 14, "paletteFrom": "0006_charizard", "outline": "black", "outlineInner": false, "alphaThreshold": 0.45, "keepDetail": 3 }
+}

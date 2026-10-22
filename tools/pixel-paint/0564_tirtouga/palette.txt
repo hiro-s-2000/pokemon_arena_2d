@@ -1,0 +1,19 @@
+// pixel-paint palette for 0564_tirtouga (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+d 36404c
+s 4c5866
+m 6f7d8c
+l 9aa8b6
+B 1f4f80
+b 3173ad
+c 4a9cde
+h 84c8f4
+g 586270
+f 7e8896
+e a8b1bc
+w f8f8f8
+i 96dcf0
+n 2a5c8a
+q b84a6a
+p f77b9c

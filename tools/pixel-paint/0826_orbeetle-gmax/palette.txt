@@ -1,0 +1,16 @@
+// pixel-paint palette for 0826_orbeetle-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 732010
+2 4d3e3f
+3 a70a0e
+4 a45600
+5 e63337
+6 ac9cad
+7 c0a24f
+8 10bddc
+9 f7d342
+a 57fbe7
+b ffffff

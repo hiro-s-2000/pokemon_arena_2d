@@ -1,0 +1,16 @@
+// pixel-paint palette for 0842_appletun-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 732834
+2 414b41
+3 af3044
+4 5f7d5d
+5 bd7929
+6 38a43e
+7 db5d73
+8 b3ac62
+9 4ade80
+a f7cb83
+b fffed5

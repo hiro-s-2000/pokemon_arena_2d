@@ -1,0 +1,15 @@
+// pixel-paint palette for 0942_maschiff. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 180f23
+1 3f2d2f
+2 4e2f33
+3 804e27
+4 8b4e4f
+5 c37370
+6 f43f5e
+7 cb820c
+8 e6796e
+9 fdc133
+a f1d0d4

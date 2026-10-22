@@ -1,0 +1,1132 @@
+{
+  "id": "0083_farfetchd-galar",
+  "pokemonId": 10166,
+  "dex": 83,
+  "slug": "farfetchd-galar",
+  "name": "Galarian Farfetch’d",
+  "jpName": "カモネギ（ガラルのすがた）",
+  "genus": "Wild Duck Pokémon",
+  "jpGenus": "かるがもポケモン",
+  "generation": 1,
+  "category": "regional",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0083_farfetchd/regional/farfetchd-galar/front.gif",
+  "backSprite": "../pokeSprite/gen1/0083_farfetchd/regional/farfetchd-galar/back.gif",
+  "abilities": [
+    {
+      "id": 80,
+      "slug": "steadfast",
+      "name": "Steadfast",
+      "jpName": "ふくつのこころ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Raises Speed one stage upon flinching.",
+      "jpDescription": "ひるむ たびに 不屈の心を 燃やして 素早さが 上がる。"
+    },
+    {
+      "id": 113,
+      "slug": "scrappy",
+      "name": "Scrappy",
+      "jpName": "きもったま",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon.",
+      "jpDescription": "ゴーストタイプの ポケモンに ノーマルタイプと かくとうタイプの 技を 当てることが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 8,
+    "meters": 0.8,
+    "feetInches": "2'07\"",
+    "display": "0.8 m (2'07\")"
+  },
+  "weight": {
+    "hectograms": 420,
+    "kilograms": 42.0,
+    "pounds": 92.6,
+    "display": "42.0 kg (92.6 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 52,
+    "attack": 95,
+    "defense": 55,
+    "specialAttack": 58,
+    "specialDefense": 62,
+    "speed": 55,
+    "total": 377,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 112,
+          "max": 159
+        },
+        "lv100": {
+          "min": 214,
+          "max": 308
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 90,
+          "max": 161
+        },
+        "lv100": {
+          "min": 175,
+          "max": 317
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 54,
+          "max": 117
+        },
+        "lv100": {
+          "min": 103,
+          "max": 229
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 56,
+          "max": 121
+        },
+        "lv100": {
+          "min": 108,
+          "max": 236
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 60,
+          "max": 125
+        },
+        "lv100": {
+          "min": 116,
+          "max": 245
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 54,
+          "max": 117
+        },
+        "lv100": {
+          "min": 103,
+          "max": 229
+        }
+      }
+    }
+  },
+  "baseStatTotal": 377,
+  "typeMatchups": {
+    "types": [
+      "fighting"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 2,
+        "slug": "fighting",
+        "name": "Fighting",
+        "jpName": "かくとう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 2.0,
+      "psychic": 2.0,
+      "bug": 0.5,
+      "rock": 0.5,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 0.5,
+      "steel": 1.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "flying",
+      "psychic",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "fighting",
+      "poison",
+      "ground",
+      "ghost",
+      "dragon",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "bug",
+      "rock",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "normal",
+      "ice",
+      "rock",
+      "dark",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Attack",
+    "evYieldTextJa": "こうげき+1",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 132,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      },
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 35,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 865,
+        "dex": 865,
+        "slug": "sirfetchd",
+        "name": "Sirfetch’d",
+        "jpName": "ネギガナイト",
+        "conditions": [
+          {
+            "trigger": "three-critical-hits",
+            "triggerName": "Land three critical hits in a battle",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Land three critical hits in a battle",
+            "conditionTextJa": "Land three critical hits in a battle"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 83,
+        "dex": 83,
+        "slug": "farfetchd",
+        "name": "Farfetch’d",
+        "jpName": "カモネギ",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen1/0083_farfetchd/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0083_farfetchd/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 865,
+            "dex": 865,
+            "slug": "sirfetchd",
+            "name": "Sirfetch’d",
+            "jpName": "ネギガナイト",
+            "types": [
+              "fighting"
+            ],
+            "sprite": "../pokeSprite/gen8/0865_sirfetchd/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0865_sirfetchd/normal/back.gif",
+            "condition": "Land three critical hits in a battle",
+            "conditionJa": "Land three critical hits in a battle",
+            "details": [
+              {
+                "trigger": "three-critical-hits",
+                "triggerName": "Land three critical hits in a battle",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Land three critical hits in a battle",
+                "conditionTextJa": "Land three critical hits in a battle"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": [
+        "0083_farfetchd-galar"
+      ]
+    },
+    "summaryText": "Farfetch’d --(Land three critical hits in a battle)--> Sirfetch’d",
+    "summaryTextJa": "カモネギ --(Land three critical hits in a battle)--> ネギガナイト"
+  },
+  "moves": {
+    "totalUniqueMoves": 50,
+    "levelUp": [
+      {
+        "id": 28,
+        "slug": "sand-attack",
+        "name": "Sand Attack",
+        "jpName": "すなかけ",
+        "type": "ground",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "Sand is hurled in the target's face, lowering the target's accuracy.",
+        "jpDescription": "相手の 顔に 砂を かけて 命中率を さげる。",
+        "level": 1
+      },
+      {
+        "id": 64,
+        "slug": "peck",
+        "name": "Peck",
+        "jpName": "つつく",
+        "type": "flying",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is jabbed with a sharply pointed beak or horn to inflict damage.",
+        "jpDescription": "鋭く とがった くちばしや つので 相手を 突いて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 43,
+        "slug": "leer",
+        "name": "Leer",
+        "jpName": "にらみつける",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats.",
+        "jpDescription": "鋭い 目つきで おびえさせて 相手の 防御を さげる。",
+        "level": 5
+      },
+      {
+        "id": 210,
+        "slug": "fury-cutter",
+        "name": "Fury Cutter",
+        "jpName": "れんぞくぎり",
+        "type": "bug",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 95,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by slashing the target with scythes, claws, or the like. This attack becomes more powerful if it hits in succession.",
+        "jpDescription": "カマや ツメなどで 相手を 切りつけて 攻撃する。 連続で 当てると 威力が あがる。",
+        "level": 10
+      },
+      {
+        "id": 249,
+        "slug": "rock-smash",
+        "name": "Rock Smash",
+        "jpName": "いわくだき",
+        "type": "fighting",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a punch. This may also lower the target's Defense stat.",
+        "jpDescription": "パンチで 攻撃する。相手の 防御を さげる ことが ある。",
+        "level": 15
+      },
+      {
+        "id": 693,
+        "slug": "brutal-swing",
+        "name": "Brutal Swing",
+        "jpName": "ぶんまわす",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+        "jpDescription": "自分の 体を ぶんまわして 相手に ダメージを 与える。",
+        "level": 20
+      },
+      {
+        "id": 197,
+        "slug": "detect",
+        "name": "Detect",
+        "jpName": "みきり",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。",
+        "level": 25
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。",
+        "level": 30
+      },
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。",
+        "level": 35
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。",
+        "level": 40
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。",
+        "level": 45
+      },
+      {
+        "id": 21,
+        "slug": "slam",
+        "name": "Slam",
+        "jpName": "たたきつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 75,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+        "jpDescription": "長い しっぽや つるなどを 使い 相手を たたきつけて 攻撃する。",
+        "level": 50
+      },
+      {
+        "id": 348,
+        "slug": "leaf-blade",
+        "name": "Leaf Blade",
+        "jpName": "リーフブレード",
+        "type": "grass",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user handles a sharp leaf like a sword and cuts the target to inflict damage. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "はっぱを 剣のように あやつり 相手を 切りつけて 攻撃する。 急所に 当たりやすい。",
+        "level": 55
+      },
+      {
+        "id": 515,
+        "slug": "final-gambit",
+        "name": "Final Gambit",
+        "jpName": "いのちがけ",
+        "type": "fighting",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user risks everything to attack the target. The user faints but inflicts damage equal to its own HP.",
+        "jpDescription": "命懸けで 相手を 攻撃する。 自分は ひんしに なるが 相手に ＨＰ分の ダメージを 与える。",
+        "level": 60
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。",
+        "level": 65
+      }
+    ],
+    "machine": [
+      {
+        "id": 372,
+        "slug": "assurance",
+        "name": "Assurance",
+        "jpName": "ダメおし",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's power is doubled if the target has already taken some damage in the same turn.",
+        "jpDescription": "そのターンに 相手が すでに ダメージを 受けていたら 技の 威力は ２倍に なる。"
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。"
+      },
+      {
+        "id": 693,
+        "slug": "brutal-swing",
+        "name": "Brutal Swing",
+        "jpName": "ぶんまわす",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+        "jpDescription": "自分の 体を ぶんまわして 相手に ダメージを 与える。"
+      },
+      {
+        "id": 370,
+        "slug": "close-combat",
+        "name": "Close Combat",
+        "jpName": "インファイト",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's Defense and Sp. Def stats.",
+        "jpDescription": "守りを 捨てて 相手の ふところに 突撃する。 自分の 防御と 特防が さがる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 116,
+        "slug": "focus-energy",
+        "name": "Focus Energy",
+        "jpName": "きあいだめ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits.",
+        "jpDescription": "深く 息を 吸い 気合を こめる。 自分の 攻撃が 急所に 当たりやすくなる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 348,
+        "slug": "leaf-blade",
+        "name": "Leaf Blade",
+        "jpName": "リーフブレード",
+        "type": "grass",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user handles a sharp leaf like a sword and cuts the target to inflict damage. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "はっぱを 剣のように あやつり 相手を 切りつけて 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 398,
+        "slug": "poison-jab",
+        "name": "Poison Jab",
+        "jpName": "どくづき",
+        "type": "poison",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target.",
+        "jpDescription": "毒に そまった 触手や 腕で 相手を 突き刺す。 毒状態に することが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 514,
+        "slug": "retaliate",
+        "name": "Retaliate",
+        "jpName": "かたきうち",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user takes revenge for a fainted ally. This move's power is boosted if an ally fainted in the previous turn.",
+        "jpDescription": "倒れた 味方の かたきを 討つ。 前の ターンに 味方が 倒されていると 威力が あがる。"
+      },
+      {
+        "id": 279,
+        "slug": "revenge",
+        "name": "Revenge",
+        "jpName": "リベンジ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": -4,
+        "description": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.",
+        "jpDescription": "相手から 技を 受けていると その相手に 対して 与える ダメージが ２倍に なる。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 669,
+        "slug": "solar-blade",
+        "name": "Solar Blade",
+        "jpName": "ソーラーブレード",
+        "type": "grass",
+        "category": "physical",
+        "power": 125,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then fills a blade with the light's energy and attacks on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に その 力を 剣に 込めて 攻撃する。"
+      },
+      {
+        "id": 211,
+        "slug": "steel-wing",
+        "name": "Steel Wing",
+        "jpName": "はがねのつばさ",
+        "type": "steel",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 90,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is hit with wings of steel. This may also boost the user's Defense stat.",
+        "jpDescription": "硬い 翼を 相手に たたきつけて 攻撃する。 自分の 防御が あがることが ある。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 276,
+        "slug": "superpower",
+        "name": "Superpower",
+        "jpName": "ばかぢから",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats.",
+        "jpDescription": "すごい 力を 発揮して 相手を 攻撃する。自分の 攻撃と 防御が さがる。"
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。"
+      },
+      {
+        "id": 675,
+        "slug": "throat-chop",
+        "name": "Throat Chop",
+        "jpName": "じごくづき",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns.",
+        "jpDescription": "この 技を 受けた 相手は 地獄の 苦しみから ２ターンの間 音の 技を 出すことが できなくなる。"
+      },
+      {
+        "id": 526,
+        "slug": "work-up",
+        "name": "Work Up",
+        "jpName": "ふるいたてる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user is roused, and its Attack and Sp. Atk stats are boosted.",
+        "jpDescription": "自分を 奮いたてて 攻撃と 特攻を あげる。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 68,
+        "slug": "counter",
+        "name": "Counter",
+        "jpName": "カウンター",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -5,
+        "description": "A retaliatory attack that counters any physical move, inflicting double the damage taken.",
+        "jpDescription": "相手から 受けた 物理攻撃の ダメージを ２倍に して 同じ 相手に 返す。"
+      },
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。"
+      },
+      {
+        "id": 174,
+        "slug": "curse",
+        "name": "Curse",
+        "jpName": "のろい",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that has different effects depending on whether the user is a Ghost type or not.",
+        "jpDescription": "使う ポケモンが ゴーストタイプと それ以外 とでは 効果が 変わる。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 364,
+        "slug": "feint",
+        "name": "Feint",
+        "jpName": "フェイント",
+        "type": "normal",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 2,
+        "description": "This attack can hit a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+        "jpDescription": "まもるや みきり などを している 相手に 攻撃が できる。 守りの 効果を 解除させる。"
+      },
+      {
+        "id": 175,
+        "slug": "flail",
+        "name": "Flail",
+        "jpName": "じたばた",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+        "jpDescription": "じたばた 暴れて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 400,
+        "slug": "night-slash",
+        "name": "Night Slash",
+        "jpName": "つじぎり",
+        "type": "dark",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes the target the instant an opportunity arises. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "一瞬の すきを ついて 相手を 切りはらう。 急所に 当たりやすい。"
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。"
+      },
+      {
+        "id": 501,
+        "slug": "quick-guard",
+        "name": "Quick Guard",
+        "jpName": "ファストガード",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 3,
+        "description": "The user protects itself and its allies from priority moves.",
+        "jpDescription": "自分と 味方を 相手の 先制攻撃から 守る。"
+      },
+      {
+        "id": 493,
+        "slug": "simple-beam",
+        "name": "Simple Beam",
+        "jpName": "シンプルビーム",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user emits a mysterious psychic wave that changes the target's Ability to Simple.",
+        "jpDescription": "なぞの 念波を 相手に 送る。 念波を 受けとった 相手は 特性が たんじゅんに なる。"
+      },
+      {
+        "id": 143,
+        "slug": "sky-attack",
+        "name": "Sky Attack",
+        "jpName": "ゴッドバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch.",
+        "jpDescription": "２ターン目に 相手を 攻撃する。 たまに ひるませる。 急所にも 当たりやすい。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      }
+    ]
+  }
+}

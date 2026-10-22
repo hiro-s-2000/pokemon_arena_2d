@@ -1,0 +1,169 @@
+{
+ "base": "0557_dwebble",
+ "grow": 9,
+ "colors": {
+  "k": "000000",
+  "T": "d8bc98",
+  "t": "b8987a",
+  "B": "8a6a50",
+  "b": "6a5040",
+  "Y": "f0c040",
+  "y": "c89020",
+  "D": "4a3a30"
+ },
+ "parts": [
+  {
+   "name": "slab",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -24
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkkkkkk..",
+      ".kTTTTTTTTTTTTTTTTTTTTttk.",
+      "kTTTTTTTTTTTTTTTTTTTTTtttk",
+      "kTTTTTTTTTTTTTTTTTTTTTtttk",
+      "ktttttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbbbDDDk",
+      "kYYYYYYYYYYYYYYYYYYYYYyyyk",
+      "kyyyyyyyyyyyyyyyyyyyyybbbk",
+      "kyyyyyyyyyyyyyyyyyyyyybbbk",
+      "kBBBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbbbDDDk",
+      "ktttttttttttttttttttttBBBk",
+      "ktttttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbbbDDDk",
+      ".kDDDDDDDDDDDDDDDDDDDDDDk.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -15,
+      -21
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkkkk..",
+      ".kTTTTTTTTTTTTTTTTTTttk.",
+      "kTTTTTTTTTTTTTTTTTTTtttk",
+      "kTTTTTTTTTTTTTTTTTTTtttk",
+      "ktttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      "kYYYYYYYYYYYYYYYYYYYyyyk",
+      "kyyyyyyyyyyyyyyyyyyybbbk",
+      "kyyyyyyyyyyyyyyyyyyybbbk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      "ktttttttttttttttttttBBBk",
+      "ktttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      ".kDDDDDDDDDDDDDDDDDDDDk.",
+      "..kkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -18,
+      -20
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkk..",
+      ".kTTTTTTTTTTTTTTttk.",
+      "kTTTTTTTTTTTTTTTtttk",
+      "kTTTTTTTTTTTTTTTtttk",
+      "ktttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbDDDk",
+      "kbbbbbbbbbbbbbbbDDDk",
+      "kYYYYYYYYYYYYYYYyyyk",
+      "kyyyyyyyyyyyyyyybbbk",
+      "kBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbDDDk",
+      "ktttttttttttttttBBBk",
+      "ktttttttttttttttBBBk",
+      "ktttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbDDDk",
+      ".kDDDDDDDDDDDDDDDDk.",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -17
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkk..",
+      ".kTTTTTTTTTTTTTTTTttk.",
+      "kTTTTTTTTTTTTTTTTTtttk",
+      "kTTTTTTTTTTTTTTTTTtttk",
+      "ktttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbDDDk",
+      "kbbbbbbbbbbbbbbbbbDDDk",
+      "kYYYYYYYYYYYYYYYYYyyyk",
+      "kyyyyyyyyyyyyyyyyybbbk",
+      "kBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbDDDk",
+      "ktttttttttttttttttBBBk",
+      "ktttttttttttttttttBBBk",
+      "ktttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbDDDk",
+      ".kDDDDDDDDDDDDDDDDDDk.",
+      "..kkkkkkkkkkkkkkkkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "slabN",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "N": {
+     "at": [
+      -12,
+      -16
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkkkkkk..",
+      ".kTTTTTTTTTTTTTTTTTTttk.",
+      "kTTTTTTTTTTTTTTTTTTTtttk",
+      "kTTTTTTTTTTTTTTTTTTTtttk",
+      "ktttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      "kYYYYYYYYYYYYYYYYYYYyyyk",
+      "kyyyyyyyyyyyyyyyyyyybbbk",
+      "kyyyyyyyyyyyyyyyyyyybbbk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      "ktttttttttttttttttttBBBk",
+      "ktttttttttttttttttttBBBk",
+      "ktttttttttttttttttttBBBk",
+      "kBBBBBBBBBBBBBBBBBBBbbbk",
+      "kbbbbbbbbbbbbbbbbbbbDDDk",
+      ".kDDDDDDDDDDDDDDDDDDDDk.",
+      "..kkkkkkkkkkkkkkkkkkkk.."
+     ]
+    }
+   }
+  }
+ ]
+}

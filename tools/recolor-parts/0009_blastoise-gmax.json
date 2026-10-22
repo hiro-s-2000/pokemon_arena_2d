@@ -1,0 +1,162 @@
+{
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "L": "7a7064",
+  "M": "4e463e",
+  "D": "2c2622",
+  "g": "dfe3e8",
+  "G": "9aa2ae",
+  "m": "5c6470",
+  "h": "202028",
+  "w": "8fd0ff"
+ },
+ "parts": [
+  {
+   "name": "fortress",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -23
+     ],
+     "px": [
+      "...kkk......kkk.......kkk...",
+      "..khhhk....khhhk.....khhhk..",
+      "..kGGmk....kGGmk.....kGGmk..",
+      "..kgGmk....kgGmk.....kgGmk..",
+      "..kgGmk....kgGmk.....kgGmk..",
+      ".kkgGmkkkkkkgGmkkkkkkkgGmkk.",
+      "kLLLLLLLLLLLLLLLLLLLLLLLLLDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMhhMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kDDDDDDDDDDDDDDDDDDDDDDDDDDk",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -21
+     ],
+     "px": [
+      "...kkk.....kkk....kkk.",
+      "..khhhk...khhhk..khhhk",
+      "..kGGmk...kGGmk..kGGmk",
+      "..kgGmk...kgGmk..kgGmk",
+      "..kgGmk...kgGmk..kgGmk",
+      ".kkgGmkkkkkgGmkkkkgGmk",
+      "kLLLLLLLLLLLLLLLLLLLDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMhhMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMDk",
+      "kDDDDDDDDDDDDDDDDDDDDk",
+      ".kkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -25
+     ],
+     "px": [
+      "...kkk...kkk...kkk.",
+      "..khhhk.khhhk.khhhk",
+      "..kGGmk.kGGmk.kGGmk",
+      "..kgGmk.kgGmk.kgGmk",
+      "..kgGmk.kgGmk.kgGmk",
+      ".kkgGmkkkgGmkkkgGmk",
+      "kLLLLLLLLLLLLLLLDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMhhMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMDk.",
+      "kDDDDDDDDDDDDDDDDk.",
+      ".kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -23
+     ],
+     "px": [
+      "...kkk....kkk....kkk.",
+      "..khhhk..khhhk..khhhk",
+      "..kGGmk..kGGmk..kGGmk",
+      "..kgGmk..kgGmk..kgGmk",
+      "..kgGmk..kgGmk..kgGmk",
+      ".kkgGmkkkkgGmkkkkgGmk",
+      "kLLLLLLLLLLLLLLLLLDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMhhMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMDk.",
+      "kDDDDDDDDDDDDDDDDDDk.",
+      ".kkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -14,
+      -24
+     ],
+     "px": [
+      "....kkk......kkk.......kkk....",
+      "...khhhk....khhhk.....khhhk...",
+      "...kGGmk....kGGmk.....kGGmk...",
+      "...kgGmk....kgGmk.....kgGmk...",
+      "...kgGmk....kgGmk.....kgGmk...",
+      ".kkkgGmkkkkkkgGmkkkkkkkgGmkkk.",
+      "kLLLLLLLLLLLLLLLLLLLLLLLLLLLDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMhhMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kDDDDDDDDDDDDDDDDDDDDDDDDDDDDk",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+// pixel-paint palette for 0815_cinderace-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 101010
+1 072145
+2 731a0d
+3 303888
+4 980000
+5 7d7679
+6 e95a23
+7 ed9723
+8 a8b0b8
+9 dfb700
+a fef1b0
+b ffffff

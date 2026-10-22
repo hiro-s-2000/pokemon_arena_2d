@@ -1,0 +1,1205 @@
+{
+  "id": "0682_spritzee",
+  "pokemonId": 682,
+  "dex": 682,
+  "slug": "spritzee",
+  "name": "Spritzee",
+  "jpName": "シュシュプ",
+  "genus": "Perfume Pokémon",
+  "jpGenus": "こうすいポケモン",
+  "generation": 6,
+  "category": "gen6",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen6/0682_spritzee/normal/front.gif",
+  "backSprite": "../pokeSprite/gen6/0682_spritzee/normal/back.gif",
+  "abilities": [
+    {
+      "id": 131,
+      "slug": "healer",
+      "name": "Healer",
+      "jpName": "いやしのこころ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+      "jpDescription": "状態異常の 味方を たまに 治してあげる。"
+    },
+    {
+      "id": 165,
+      "slug": "aroma-veil",
+      "name": "Aroma Veil",
+      "jpName": "アロマベール",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects allies against moves that affect their mental state.",
+      "jpDescription": "自分と 味方への メンタル 攻撃を 防ぐことが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 2,
+    "meters": 0.2,
+    "feetInches": "0'08\"",
+    "display": "0.2 m (0'08\")"
+  },
+  "weight": {
+    "hectograms": 5,
+    "kilograms": 0.5,
+    "pounds": 1.1,
+    "display": "0.5 kg (1.1 lbs)"
+  },
+  "shape": {
+    "id": 4,
+    "slug": "arms",
+    "name": "Arms",
+    "awesomeName": "Brachial",
+    "jpName": "腕あり"
+  },
+  "baseStats": {
+    "hp": 78,
+    "attack": 52,
+    "defense": 60,
+    "specialAttack": 63,
+    "specialDefense": 65,
+    "speed": 23,
+    "total": 341,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 138,
+          "max": 185
+        },
+        "lv100": {
+          "min": 266,
+          "max": 360
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 51,
+          "max": 114
+        },
+        "lv100": {
+          "min": 98,
+          "max": 223
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 61,
+          "max": 126
+        },
+        "lv100": {
+          "min": 117,
+          "max": 247
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 25,
+          "max": 82
+        },
+        "lv100": {
+          "min": 45,
+          "max": 159
+        }
+      }
+    }
+  },
+  "baseStatTotal": 341,
+  "typeMatchups": {
+    "types": [
+      "fairy"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 18,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "フェアリー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 2.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 0.0,
+      "dark": 0.5,
+      "steel": 2.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "poison",
+      "steel"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "ground",
+      "flying",
+      "psychic",
+      "rock",
+      "ghost",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fighting",
+      "bug",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "dragon"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "fighting",
+      "dragon",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 HP",
+    "evYieldTextJa": "HP+1",
+    "catchRate": 200,
+    "pokeBallFullHpPercent": 36.6,
+    "catchRateDisplay": "200 (36.6% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 68,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 6,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "ようせい"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 350,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 683,
+        "dex": 683,
+        "slug": "aromatisse",
+        "name": "Aromatisse",
+        "jpName": "フレフワン",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "triggerName": "Trade or Linking Cord",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": "Sachet",
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Trade holding Sachet",
+            "conditionTextJa": "通信交換（においぶくろを持たせる）"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 682,
+        "dex": 682,
+        "slug": "spritzee",
+        "name": "Spritzee",
+        "jpName": "シュシュプ",
+        "types": [
+          "fairy"
+        ],
+        "sprite": "../pokeSprite/gen6/0682_spritzee/normal/front.gif",
+        "backSprite": "../pokeSprite/gen6/0682_spritzee/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 683,
+            "dex": 683,
+            "slug": "aromatisse",
+            "name": "Aromatisse",
+            "jpName": "フレフワン",
+            "types": [
+              "fairy"
+            ],
+            "sprite": "../pokeSprite/gen6/0683_aromatisse/normal/front.gif",
+            "backSprite": "../pokeSprite/gen6/0683_aromatisse/normal/back.gif",
+            "condition": "Trade holding Sachet",
+            "conditionJa": "通信交換（においぶくろを持たせる）",
+            "details": [
+              {
+                "trigger": "trade",
+                "triggerName": "Trade or Linking Cord",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": "Sachet",
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Trade holding Sachet",
+                "conditionTextJa": "通信交換（においぶくろを持たせる）"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Spritzee --(Trade holding Sachet)--> Aromatisse",
+    "summaryTextJa": "シュシュプ --(通信交換（においぶくろを持たせる）)--> フレフワン"
+  },
+  "moves": {
+    "totalUniqueMoves": 48,
+    "levelUp": [
+      {
+        "id": 230,
+        "slug": "sweet-scent",
+        "name": "Sweet Scent",
+        "jpName": "あまいかおり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user releases a scent that harshly lowers opposing Pokémon's evasiveness.",
+        "jpDescription": "香りで 相手の 回避率を がくっと さげる。",
+        "level": 1
+      },
+      {
+        "id": 584,
+        "slug": "fairy-wind",
+        "name": "Fairy Wind",
+        "jpName": "ようせいのかぜ",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by stirring up a fairy wind to strike the target.",
+        "jpDescription": "ようせいのかぜを 起こし 相手に 吹きつけて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 186,
+        "slug": "sweet-kiss",
+        "name": "Sweet Kiss",
+        "jpName": "てんしのキッス",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 75,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user kisses the target with a sweet, angelic cuteness that causes confusion.",
+        "jpDescription": "天使のように かわいく キスして 相手を 混乱させる。",
+        "level": 3
+      },
+      {
+        "id": 497,
+        "slug": "echoed-voice",
+        "name": "Echoed Voice",
+        "jpName": "エコーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",
+        "jpDescription": "響く 声で 相手を 攻撃する。 毎ターン だれかが 技を 使い続けると 威力が あがる。",
+        "level": 6
+      },
+      {
+        "id": 577,
+        "slug": "draining-kiss",
+        "name": "Draining Kiss",
+        "jpName": "ドレインキッス",
+        "type": "fairy",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target.",
+        "jpDescription": "キッスによって 相手から ＨＰを 吸い取る。 与えた ダメージの 半分以上 ＨＰを 回復する。",
+        "level": 9
+      },
+      {
+        "id": 312,
+        "slug": "aromatherapy",
+        "name": "Aromatherapy",
+        "jpName": "アロマセラピー",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered.",
+        "jpDescription": "心地好い やすらぐ 香りを かがせて 味方全員の 状態異常を 回復する。",
+        "level": 12
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。",
+        "level": 18
+      },
+      {
+        "id": 175,
+        "slug": "flail",
+        "name": "Flail",
+        "jpName": "じたばた",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+        "jpDescription": "じたばた 暴れて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。",
+        "level": 21
+      },
+      {
+        "id": 581,
+        "slug": "misty-terrain",
+        "name": "Misty Terrain",
+        "jpName": "ミストフィールド",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+        "jpDescription": "５ターンの 間 地面にいると 状態異常に ならず ドラゴン技の ダメージも 半分になる。",
+        "level": 24
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。",
+        "level": 27
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。",
+        "level": 30
+      },
+      {
+        "id": 347,
+        "slug": "calm-mind",
+        "name": "Calm Mind",
+        "jpName": "めいそう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user quietly focuses its mind and calms its spirit to boost its Sp. Atk and Sp. Def stats.",
+        "jpDescription": "静かに 精神を 統一し 心を 鎮めることで 自分の 特攻と 特防を あげる。",
+        "level": 33
+      },
+      {
+        "id": 585,
+        "slug": "moonblast",
+        "name": "Moonblast",
+        "jpName": "ムーンフォース",
+        "type": "fairy",
+        "category": "special",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.",
+        "jpDescription": "月の パワーを かりて 相手を 攻撃する。 相手の 特攻を さげる ことがある。",
+        "level": 36
+      },
+      {
+        "id": 285,
+        "slug": "skill-swap",
+        "name": "Skill Swap",
+        "jpName": "スキルスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to exchange Abilities with the target.",
+        "jpDescription": "超能力で 自分の 特性と 相手の 特性を 入れ替える。",
+        "level": 39
+      }
+    ],
+    "machine": [
+      {
+        "id": 502,
+        "slug": "ally-switch",
+        "name": "Ally Switch",
+        "jpName": "サイドチェンジ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 2,
+        "description": "The user teleports using a strange power and switches places with one of its allies. This move's chance of failing rises if it is used in succession.",
+        "jpDescription": "不思議な 力で テレポートして 自分と 味方の 居場所を 入れ替える。"
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 347,
+        "slug": "calm-mind",
+        "name": "Calm Mind",
+        "jpName": "めいそう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user quietly focuses its mind and calms its spirit to boost its Sp. Atk and Sp. Def stats.",
+        "jpDescription": "静かに 精神を 統一し 心を 鎮めることで 自分の 特攻と 特防を あげる。"
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。"
+      },
+      {
+        "id": 577,
+        "slug": "draining-kiss",
+        "name": "Draining Kiss",
+        "jpName": "ドレインキッス",
+        "type": "fairy",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target.",
+        "jpDescription": "キッスによって 相手から ＨＰを 吸い取る。 与えた ダメージの 半分以上 ＨＰを 回復する。"
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 430,
+        "slug": "flash-cannon",
+        "name": "Flash Cannon",
+        "jpName": "ラスターカノン",
+        "type": "steel",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "体の 光を 一点に 集めて 力を 放つ。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 360,
+        "slug": "gyro-ball",
+        "name": "Gyro Ball",
+        "jpName": "ジャイロボール",
+        "type": "steel",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power.",
+        "jpDescription": "体を 高速に 回転させて 体当たりする。相手より 素早さが 低いほど 強い。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 113,
+        "slug": "light-screen",
+        "name": "Light Screen",
+        "jpName": "ひかりのかべ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from special moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 特殊攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 581,
+        "slug": "misty-terrain",
+        "name": "Misty Terrain",
+        "jpName": "ミストフィールド",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+        "jpDescription": "５ターンの 間 地面にいると 状態異常に ならず ドラゴン技の ダメージも 半分になる。"
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 115,
+        "slug": "reflect",
+        "name": "Reflect",
+        "jpName": "リフレクター",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from physical moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 物理攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 285,
+        "slug": "skill-swap",
+        "name": "Skill Swap",
+        "jpName": "スキルスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to exchange Abilities with the target.",
+        "jpDescription": "超能力で 自分の 特性と 相手の 特性を 入れ替える。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 85,
+        "slug": "thunderbolt",
+        "name": "Thunderbolt",
+        "jpName": "１０まんボルト",
+        "type": "electric",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+        "jpDescription": "強い 電撃を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 433,
+        "slug": "trick-room",
+        "name": "Trick Room",
+        "jpName": "トリックルーム",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": -7,
+        "description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+        "jpDescription": "まか不思議な 空間を つくる。 ５ターンの 間 遅い ポケモンから 行動できる。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 495,
+        "slug": "after-you",
+        "name": "After You",
+        "jpName": "おさきにどうぞ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user helps the target and makes it use its move right after the user.",
+        "jpDescription": "相手の 行動を サポートして 自分の 行動の あとに 続けて 動けるように する。"
+      },
+      {
+        "id": 445,
+        "slug": "captivate",
+        "name": "Captivate",
+        "jpName": "ゆうわく",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 50,
+        "slug": "disable",
+        "name": "Disable",
+        "jpName": "かなしばり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "For four turns, the target will be unable to use whichever move it last used.",
+        "jpDescription": "相手の 動きを とめて 直前に だしていた 技を ４ターンの 間 使えなくする。"
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。"
+      },
+      {
+        "id": 287,
+        "slug": "refresh",
+        "name": "Refresh",
+        "jpName": "リフレッシュ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 273,
+        "slug": "wish",
+        "name": "Wish",
+        "jpName": "ねがいごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "One turn after this move is used, the user's or its replacement's HP is restored by up to half the user's max HP.",
+        "jpDescription": "次の ターンに 自分 もしくは 入れ替わった ポケモンの ＨＰを 最大ＨＰの 半分 回復する。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 495,
+        "slug": "after-you",
+        "name": "After You",
+        "jpName": "おさきにどうぞ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user helps the target and makes it use its move right after the user.",
+        "jpDescription": "相手の 行動を サポートして 自分の 行動の あとに 続けて 動けるように する。"
+      },
+      {
+        "id": 502,
+        "slug": "ally-switch",
+        "name": "Ally Switch",
+        "jpName": "サイドチェンジ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 2,
+        "description": "The user teleports using a strange power and switches places with one of its allies. This move's chance of failing rises if it is used in succession.",
+        "jpDescription": "不思議な 力で テレポートして 自分と 味方の 居場所を 入れ替える。"
+      },
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 215,
+        "slug": "heal-bell",
+        "name": "Heal Bell",
+        "jpName": "いやしのすず",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies.",
+        "jpDescription": "心地好い 鈴の 音色を 聞かせて 味方 全員の 状態異常を 回復 する。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 277,
+        "slug": "magic-coat",
+        "name": "Magic Coat",
+        "jpName": "マジックコート",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 4,
+        "description": "Moves like Leech Seed and moves that inflict status conditions are blocked by a barrier and reflected back to the user of those moves.",
+        "jpDescription": "状態異常に なる 技や やどりぎのタネ などを だされたとき 相手に 跳ね返す。"
+      },
+      {
+        "id": 802,
+        "slug": "misty-explosion",
+        "name": "Misty Explosion",
+        "jpName": "ミストバースト",
+        "type": "fairy",
+        "category": "special",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks everything around it and faints upon using this move. This move's power is boosted on Misty Terrain.",
+        "jpDescription": "自分の 周りに いる すべてを 攻撃するが 使うと 瀕死になる。 ミストフィールドで 威力が あがる。"
+      },
+      {
+        "id": 285,
+        "slug": "skill-swap",
+        "name": "Skill Swap",
+        "jpName": "スキルスワップ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user employs its psychic power to exchange Abilities with the target.",
+        "jpDescription": "超能力で 自分の 特性と 相手の 特性を 入れ替える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 477,
+        "slug": "telekinesis",
+        "name": "Telekinesis",
+        "jpName": "テレキネシス",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      }
+    ]
+  }
+}

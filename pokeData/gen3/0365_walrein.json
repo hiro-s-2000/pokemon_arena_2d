@@ -1,0 +1,653 @@
+{
+  "id": "0365_walrein",
+  "pokemonId": 365,
+  "dex": 365,
+  "slug": "walrein",
+  "name": "Walrein",
+  "jpName": "トドゼルガ",
+  "genus": "Ice Break Pokémon",
+  "jpGenus": "こおりわりポケモン",
+  "generation": 3,
+  "category": "gen3",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen3/0365_walrein/normal/front.gif",
+  "backSprite": "../pokeSprite/gen3/0365_walrein/normal/back.gif",
+  "abilities": [
+    {
+      "id": 47,
+      "slug": "thick-fat",
+      "name": "Thick Fat",
+      "jpName": "あついしぼう",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Halves damage from Fire and Ice moves.",
+      "jpDescription": "厚い 脂肪で 守られているので ほのおタイプと こおりタイプの 技の ダメージを 半減させる。"
+    },
+    {
+      "id": 115,
+      "slug": "ice-body",
+      "name": "Ice Body",
+      "jpName": "アイスボディ",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Heals for 1/16 max HP after each turn during hail. Protects against hail damage.",
+      "jpDescription": "天気が あられのとき ＨＰを 少しずつ 回復 する。"
+    },
+    {
+      "id": 12,
+      "slug": "oblivious",
+      "name": "Oblivious",
+      "jpName": "どんかん",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Prevents infatuation and protects against Captivate.",
+      "jpDescription": "鈍感なので メロメロや ちょうはつ状態に ならない。"
+    }
+  ],
+  "height": {
+    "decimeters": 14,
+    "meters": 1.4,
+    "feetInches": "4'07\"",
+    "display": "1.4 m (4'07\")"
+  },
+  "weight": {
+    "hectograms": 1506,
+    "kilograms": 150.6,
+    "pounds": 332.0,
+    "display": "150.6 kg (332.0 lbs)"
+  },
+  "shape": {
+    "id": 8,
+    "slug": "quadruped",
+    "name": "Quadruped",
+    "awesomeName": "Mensal",
+    "jpName": "四足歩行"
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 80,
+    "defense": 90,
+    "specialAttack": 95,
+    "specialDefense": 90,
+    "speed": 65,
+    "total": 530,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 170,
+          "max": 217
+        },
+        "lv100": {
+          "min": 330,
+          "max": 424
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 90,
+          "max": 161
+        },
+        "lv100": {
+          "min": 175,
+          "max": 317
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      }
+    }
+  },
+  "baseStatTotal": 530,
+  "typeMatchups": {
+    "types": [
+      "ice",
+      "water"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 15,
+        "slug": "ice",
+        "name": "Ice",
+        "jpName": "こおり"
+      },
+      {
+        "slot": 2,
+        "id": 11,
+        "slug": "water",
+        "name": "Water",
+        "jpName": "みず"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 0.5,
+      "electric": 2.0,
+      "grass": 2.0,
+      "ice": 0.25,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "electric",
+      "grass",
+      "fighting",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "water"
+    ],
+    "resistances0_25x": [
+      "ice"
+    ],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "grass",
+      "ground",
+      "flying",
+      "rock",
+      "dragon"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 3
+      }
+    ],
+    "evYieldText": "3 HP",
+    "evYieldTextJa": "HP+3",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 239,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 2,
+        "slug": "water1",
+        "name": "Water 1",
+        "jpName": "すいちゅう１"
+      },
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 187,
+    "evolvesFrom": {
+      "speciesId": 364,
+      "dex": 364,
+      "slug": "sealeo",
+      "name": "Sealeo",
+      "jpName": "トドグラー",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 44,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 44",
+          "conditionTextJa": "Lv.44"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 363,
+        "dex": 363,
+        "slug": "spheal",
+        "name": "Spheal",
+        "jpName": "タマザラシ",
+        "types": [
+          "ice",
+          "water"
+        ],
+        "sprite": "../pokeSprite/gen3/0363_spheal/normal/front.gif",
+        "backSprite": "../pokeSprite/gen3/0363_spheal/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 364,
+            "dex": 364,
+            "slug": "sealeo",
+            "name": "Sealeo",
+            "jpName": "トドグラー",
+            "types": [
+              "ice",
+              "water"
+            ],
+            "sprite": "../pokeSprite/gen3/0364_sealeo/normal/front.gif",
+            "backSprite": "../pokeSprite/gen3/0364_sealeo/normal/back.gif",
+            "condition": "Level 32",
+            "conditionJa": "Lv.32",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 32,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 32",
+                "conditionTextJa": "Lv.32"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 365,
+                "dex": 365,
+                "slug": "walrein",
+                "name": "Walrein",
+                "jpName": "トドゼルガ",
+                "types": [
+                  "ice",
+                  "water"
+                ],
+                "sprite": "../pokeSprite/gen3/0365_walrein/normal/front.gif",
+                "backSprite": "../pokeSprite/gen3/0365_walrein/normal/back.gif",
+                "condition": "Level 44",
+                "conditionJa": "Lv.44",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 44,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 44",
+                    "conditionTextJa": "Lv.44"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Spheal --(Level 32)--> Sealeo --(Level 44)--> Walrein",
+    "summaryTextJa": "タマザラシ --(Lv.32)--> トドグラー --(Lv.44)--> トドゼルガ"
+  },
+  "moves": {
+    "totalUniqueMoves": 17,
+    "levelUp": [
+      {
+        "id": 205,
+        "slug": "rollout",
+        "name": "Rollout",
+        "jpName": "ころがる",
+        "type": "rock",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits.",
+        "jpDescription": "５ターンの 間 転がり続けて 攻撃する。 技が 当たるたびに 威力が あがる。",
+        "level": 1
+      },
+      {
+        "id": 181,
+        "slug": "powder-snow",
+        "name": "Powder Snow",
+        "jpName": "こなゆき",
+        "type": "ice",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks with a chilling gust of powdery snow. This may also leave opposing Pokémon frozen.",
+        "jpDescription": "冷たい 粉雪を 相手に 吹きつけて 攻撃する。 こおり状態に することが ある。",
+        "level": 6
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。",
+        "level": 11
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。",
+        "level": 18
+      },
+      {
+        "id": 710,
+        "slug": "liquidation",
+        "name": "Liquidation",
+        "jpName": "アクアブレイク",
+        "type": "water",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.",
+        "jpDescription": "水の 力で 相手に ぶつかって 攻撃する。 相手の 防御を さげる ことがある。",
+        "level": 25
+      },
+      {
+        "id": 58,
+        "slug": "ice-beam",
+        "name": "Ice Beam",
+        "jpName": "れいとうビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+        "jpDescription": "凍える ビームを 相手に 発射して 攻撃する。 こおり状態に することが ある。",
+        "level": 34
+      },
+      {
+        "id": 59,
+        "slug": "blizzard",
+        "name": "Blizzard",
+        "jpName": "ふぶき",
+        "type": "ice",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 5,
+        "priority": 0,
+        "description": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+        "jpDescription": "激しい 吹雪を 相手に 吹きつけて 攻撃する。 こおり状態に することが ある。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 401,
+        "slug": "aqua-tail",
+        "name": "Aqua Tail",
+        "jpName": "アクアテール",
+        "type": "water",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+        "jpDescription": "激しく あれくるう 荒波の ように 大きな しっぽを ふって 相手を 攻撃する。"
+      },
+      {
+        "id": 335,
+        "slug": "block",
+        "name": "Block",
+        "jpName": "とおせんぼう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user blocks the target's way with arms spread wide to prevent the target from fleeing.",
+        "jpDescription": "両手を ひろげて たちはだかり 相手の 逃げ道を ふさいで 逃げられなくする。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 442,
+        "slug": "iron-head",
+        "name": "Iron Head",
+        "jpName": "アイアンヘッド",
+        "type": "steel",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+        "jpDescription": "鋼の ような 硬い 頭で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 798,
+        "slug": "steel-roller",
+        "name": "Steel Roller",
+        "jpName": "アイアンローラー",
+        "type": "steel",
+        "category": "physical",
+        "power": 130,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks while destroying the terrain. This move fails if the ground hasn't turned into a terrain.",
+        "jpDescription": "フィールドを 破壊しながら 攻撃。 なんらかの フィールド状態に 変わっていないと 技は 失敗する。"
+      },
+      {
+        "id": 707,
+        "slug": "stomping-tantrum",
+        "name": "Stomping Tantrum",
+        "jpName": "じだんだ",
+        "type": "ground",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "悔しさを バネにして 攻撃する。 前の ターンに 技を 外していると 威力が 倍に なる。"
+      },
+      {
+        "id": 162,
+        "slug": "super-fang",
+        "name": "Super Fang",
+        "jpName": "いかりのまえば",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+        "jpDescription": "鋭い 前歯で 激しく かみついて 攻撃する。 相手の ＨＰは 半分に なる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      }
+    ]
+  }
+}

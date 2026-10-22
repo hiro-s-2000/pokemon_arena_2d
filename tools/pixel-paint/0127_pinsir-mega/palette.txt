@@ -1,0 +1,23 @@
+// pixel-paint palette for 0127_pinsir-mega (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+1 3a2c22
+2 64563f
+3 8a7a62
+4 ad9c82
+5 d2c4aa
+6 6e6660
+7 a49c94
+8 d6d0c8
+9 f8f4ee
+a 5a2a10
+b f07e1c
+c fbc23a
+d fde894
+e f8d820
+f ffffff
+g b88a10
+h 3c90c8
+i bfe8f8
+j 7ccc38
+k e0fca0

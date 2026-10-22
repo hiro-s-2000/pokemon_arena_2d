@@ -1,0 +1,116 @@
+{
+ "base": "0525_boldore",
+ "grow": 5,
+ "colors": {
+  "k": "000000",
+  "l": "4a4a52",
+  "m": "2c2c32",
+  "r": "e84828"
+ },
+ "parts": [
+  {
+   "name": "coalpile",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      -16
+     ],
+     "px": [
+      "..........k..........",
+      ".........klk.........",
+      "........klmmk........",
+      ".......klmmmmk.......",
+      "......klrmmmmmk......",
+      ".....klmmlmmmmrk.....",
+      "....klmmmrmlmmmmk....",
+      "...krmmmmmmmmlmrmk...",
+      "..klmmmmmmrmmmmlmmk..",
+      ".klmlrmmmmmmmmmmrlmk.",
+      "klmmmmlmmmmrmmmmmmmlk",
+      ".kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      -16
+     ],
+     "px": [
+      "..........k..........",
+      ".........klk.........",
+      "........klmmk........",
+      ".......klmmmmk.......",
+      "......klrmmmmmk......",
+      ".....klmmlmmmmrk.....",
+      "....klmmmrmlmmmmk....",
+      "...krmmmmmmmmlmrmk...",
+      "..klmmmmmmrmmmmlmmk..",
+      ".klmlrmmmmmmmmmmrlmk.",
+      "klmmmmlmmmmrmmmmmmmlk",
+      ".kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -8,
+      -15
+     ],
+     "px": [
+      "........k........",
+      ".......klk.......",
+      "......klmmk......",
+      ".....klmmmmk.....",
+      "....klllrmmmk....",
+      "...kllmmmlmmmk...",
+      "..kllmmmmrmlmmk..",
+      "..klrmmmmmmmmlk..",
+      ".klmmmmmmmrmmmmk.",
+      "klmmlrmmmmmmmmmmk",
+      ".kkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -7,
+      -15
+     ],
+     "px": [
+      "........k........",
+      ".......klk.......",
+      "......klmmk......",
+      ".....klmmmmk.....",
+      "....klllrmmmk....",
+      "...kllmmmlmmmk...",
+      "..kllmmmmrmlmmk..",
+      "..klrmmmmmmmmlk..",
+      ".klmmmmmmmrmmmmk.",
+      "klmmlrmmmmmmmmmmk",
+      ".kkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -9,
+      -15
+     ],
+     "px": [
+      "........k........",
+      ".......klk.......",
+      "......klmmk......",
+      ".....klmmmmk.....",
+      "....klllrmmmk....",
+      "...kllmmmlmmmk...",
+      "..kllmmmmrmlmmk..",
+      "..klrmmmmmmmmlk..",
+      ".klmmmmmmmrmmmmk.",
+      "klmmlrmmmmmmmmmmk",
+      ".kkkkkkkkkkkkkkk."
+     ]
+    }
+   }
+  }
+ ]
+}

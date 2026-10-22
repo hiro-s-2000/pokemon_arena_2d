@@ -1,0 +1,1168 @@
+{
+  "id": "0810_grookey",
+  "pokemonId": 810,
+  "dex": 810,
+  "slug": "grookey",
+  "name": "Grookey",
+  "jpName": "サルノリ",
+  "genus": "Chimp Pokémon",
+  "jpGenus": "こざるポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0810_grookey/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0810_grookey/normal/back.gif",
+  "abilities": [
+    {
+      "id": 65,
+      "slug": "overgrow",
+      "name": "Overgrow",
+      "jpName": "しんりょく",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "jpDescription": "ＨＰが 減ったとき くさタイプの 技の 威力が 上がる。"
+    },
+    {
+      "id": 229,
+      "slug": "grassy-surge",
+      "name": "Grassy Surge",
+      "jpName": "グラスメイカー",
+      "isHidden": true,
+      "slot": 3,
+      "description": "When this Pokémon enters battle, it changes the terrain to Grassy Terrain.",
+      "jpDescription": "登場 したときに グラスフィールドを はりめぐらせる。"
+    }
+  ],
+  "height": {
+    "decimeters": 3,
+    "meters": 0.3,
+    "feetInches": "1'00\"",
+    "display": "0.3 m (1'00\")"
+  },
+  "weight": {
+    "hectograms": 50,
+    "kilograms": 5.0,
+    "pounds": 11.0,
+    "display": "5.0 kg (11.0 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 65,
+    "total": 310,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 110,
+          "max": 157
+        },
+        "lv100": {
+          "min": 210,
+          "max": 304
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      }
+    }
+  },
+  "baseStatTotal": 310,
+  "typeMatchups": {
+    "types": [
+      "grass"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 12,
+        "slug": "grass",
+        "name": "Grass",
+        "jpName": "くさ"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 0.5,
+      "electric": 0.5,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 1.0,
+      "poison": 2.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "ice",
+      "poison",
+      "flying",
+      "bug"
+    ],
+    "neutral1x": [
+      "normal",
+      "fighting",
+      "psychic",
+      "rock",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "water",
+      "electric",
+      "grass",
+      "ground"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "ground",
+      "rock"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Attack",
+    "evYieldTextJa": "こうげき+1",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 62,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      },
+      {
+        "id": 7,
+        "slug": "plant",
+        "name": "Grass",
+        "jpName": "しょくぶつ"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 87.5,
+      "femalePercent": 12.5,
+      "display": "87.5% Male, 12.5% Female",
+      "displayJa": "♂ 87.5% / ♀ 12.5%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 430,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 811,
+        "dex": 811,
+        "slug": "thwackey",
+        "name": "Thwackey",
+        "jpName": "バチンキー",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 16,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 16",
+            "conditionTextJa": "Lv.16"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 810,
+        "dex": 810,
+        "slug": "grookey",
+        "name": "Grookey",
+        "jpName": "サルノリ",
+        "types": [
+          "grass"
+        ],
+        "sprite": "../pokeSprite/gen8/0810_grookey/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0810_grookey/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 811,
+            "dex": 811,
+            "slug": "thwackey",
+            "name": "Thwackey",
+            "jpName": "バチンキー",
+            "types": [
+              "grass"
+            ],
+            "sprite": "../pokeSprite/gen8/0811_thwackey/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0811_thwackey/normal/back.gif",
+            "condition": "Level 16",
+            "conditionJa": "Lv.16",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 16,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 16",
+                "conditionTextJa": "Lv.16"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 812,
+                "dex": 812,
+                "slug": "rillaboom",
+                "name": "Rillaboom",
+                "jpName": "ゴリランダー",
+                "types": [
+                  "grass"
+                ],
+                "sprite": "../pokeSprite/gen8/0812_rillaboom/normal/front.gif",
+                "backSprite": "../pokeSprite/gen8/0812_rillaboom/normal/back.gif",
+                "condition": "Level 35",
+                "conditionJa": "Lv.35",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 35,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 35",
+                    "conditionTextJa": "Lv.35"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Grookey --(Level 16)--> Thwackey --(Level 35)--> Rillaboom",
+    "summaryTextJa": "サルノリ --(Lv.16)--> バチンキー --(Lv.35)--> ゴリランダー"
+  },
+  "moves": {
+    "totalUniqueMoves": 50,
+    "levelUp": [
+      {
+        "id": 10,
+        "slug": "scratch",
+        "name": "Scratch",
+        "jpName": "ひっかく",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "Hard, pointed, sharp claws rake the target to inflict damage.",
+        "jpDescription": "硬く とがった 鋭い ツメで 相手を ひっかいて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 785,
+        "slug": "branch-poke",
+        "name": "Branch Poke",
+        "jpName": "えだづき",
+        "type": "grass",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user attacks the target by poking it with a sharply pointed branch.",
+        "jpDescription": "するどく とがった 枝で 相手を 突いて 攻撃する。",
+        "level": 6
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。",
+        "level": 8
+      },
+      {
+        "id": 75,
+        "slug": "razor-leaf",
+        "name": "Razor Leaf",
+        "jpName": "はっぱカッター",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 25,
+        "priority": 0,
+        "description": "Sharp-edged leaves are launched to slash at opposing Pokémon. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "はっぱを とばして 相手を 切りつけて 攻撃する。 急所に 当たりやすい。",
+        "level": 12
+      },
+      {
+        "id": 103,
+        "slug": "screech",
+        "name": "Screech",
+        "jpName": "いやなおと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+        "jpDescription": "おもわず 耳を ふさぎたくなる いやなおとを だして 相手の 防御を がくっと さげる。",
+        "level": 17
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。",
+        "level": 20
+      },
+      {
+        "id": 21,
+        "slug": "slam",
+        "name": "Slam",
+        "jpName": "たたきつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 75,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+        "jpDescription": "長い しっぽや つるなどを 使い 相手を たたきつけて 攻撃する。",
+        "level": 24
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。",
+        "level": 28
+      },
+      {
+        "id": 452,
+        "slug": "wood-hammer",
+        "name": "Wood Hammer",
+        "jpName": "ウッドハンマー",
+        "type": "grass",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+        "jpDescription": "硬い 胴体を 相手に たたきつけて 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 32
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。",
+        "level": 36
+      }
+    ],
+    "machine": [
+      {
+        "id": 512,
+        "slug": "acrobatics",
+        "name": "Acrobatics",
+        "jpName": "アクロバット",
+        "type": "flying",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item.",
+        "jpDescription": "軽やかに 相手を 攻撃する。 自分が 道具を 持っていないとき 大きな ダメージを 与える。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 331,
+        "slug": "bullet-seed",
+        "name": "Bullet Seed",
+        "jpName": "タネマシンガン",
+        "type": "grass",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by forcefully shooting seeds at the target. This move hits two to five times in a row.",
+        "jpDescription": "タネを 勢いよく 相手に 発射して 攻撃する。 ２ー５回の 間 連続で だす。"
+      },
+      {
+        "id": 409,
+        "slug": "drain-punch",
+        "name": "Drain Punch",
+        "jpName": "ドレインパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks with an energy-draining punch. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "こぶしから 相手の 力を 吸い取る。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 206,
+        "slug": "false-swipe",
+        "name": "False Swipe",
+        "jpName": "みねうち",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+        "jpDescription": "相手の ＨＰが 必ず １だけ 残るように 手加減して 攻撃する。"
+      },
+      {
+        "id": 374,
+        "slug": "fling",
+        "name": "Fling",
+        "jpName": "なげつける",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+        "jpDescription": "持たせた 道具を 素早く 投げつけて 攻撃する。 道具で 威力と 効果が 変わる。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 447,
+        "slug": "grass-knot",
+        "name": "Grass Knot",
+        "jpName": "くさむすび",
+        "type": "grass",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+        "jpDescription": "草を からませて 相手を 転ばせる。相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 520,
+        "slug": "grass-pledge",
+        "name": "Grass Pledge",
+        "jpName": "くさのちかい",
+        "type": "grass",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A column of grass hits the target. When used with its water counterpart, this move's power is boosted and a vast swamp appears.",
+        "jpDescription": "草の柱で 攻撃する。 みずと 組みあわせると 威力が あがって あたりが 湿原に なる。"
+      },
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      },
+      {
+        "id": 580,
+        "slug": "grassy-terrain",
+        "name": "Grassy Terrain",
+        "jpName": "グラスフィールド",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user turns the ground into Grassy Terrain for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+        "jpDescription": "５ターンの 間 グラスフィールドにする。 地面にいると 毎ターン 回復する。 くさタイプの 威力が あがる。"
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。"
+      },
+      {
+        "id": 437,
+        "slug": "leaf-storm",
+        "name": "Leaf Storm",
+        "jpName": "リーフストーム",
+        "type": "grass",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user whips up a storm of leaves around the target. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "とがった はっぱで 相手に あらしを おこす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 345,
+        "slug": "magical-leaf",
+        "name": "Magical Leaf",
+        "jpName": "マジカルリーフ",
+        "type": "grass",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user scatters curious leaves that chase the target. This attack never misses.",
+        "jpDescription": "相手を 追跡する 不思議な はっぱを まきちらす。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 669,
+        "slug": "solar-blade",
+        "name": "Solar Blade",
+        "jpName": "ソーラーブレード",
+        "type": "grass",
+        "category": "physical",
+        "power": 125,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then fills a blade with the light's energy and attacks on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に その 力を 剣に 込めて 攻撃する。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 885,
+        "slug": "trailblaze",
+        "name": "Trailblaze",
+        "jpName": "くさわけ",
+        "type": "grass",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+        "jpDescription": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 252,
+        "slug": "fake-out",
+        "name": "Fake Out",
+        "jpName": "ねこだまし",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 3,
+        "description": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle.",
+        "jpDescription": "先制攻撃で 相手を ひるませる。 戦闘に でたら すぐに ださないと 成功しない。"
+      },
+      {
+        "id": 74,
+        "slug": "growth",
+        "name": "Growth",
+        "jpName": "せいちょう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user's body grows all at once, boosting the Attack and Sp. Atk stats.",
+        "jpDescription": "体を 一気に 大きく 生長させて 攻撃と 特攻を あげる。"
+      },
+      {
+        "id": 359,
+        "slug": "hammer-arm",
+        "name": "Hammer Arm",
+        "jpName": "アームハンマー",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat.",
+        "jpDescription": "強くて 重い こぶしを ふるって ダメージを 与える。 自分の 素早さが さがる。"
+      },
+      {
+        "id": 73,
+        "slug": "leech-seed",
+        "name": "Leech Seed",
+        "jpName": "やどりぎのタネ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "A seed is planted on the target. It steals some HP from the target every turn.",
+        "jpDescription": "植えつけた 相手の ＨＰを 毎ターン 少しだけ 吸い取り 自分の ＨＰを 回復する。"
+      },
+      {
+        "id": 267,
+        "slug": "nature-power",
+        "name": "Nature Power",
+        "jpName": "しぜんのちから",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+        "jpDescription": "自然の 力で 攻撃する。 使う 場所で でてくる 技が 変化する。"
+      },
+      {
+        "id": 70,
+        "slug": "strength",
+        "name": "Strength",
+        "jpName": "かいりき",
+        "type": "normal",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slugged with a punch thrown at maximum power.",
+        "jpDescription": "こん身の 力で 相手を なぐりつけて 攻撃する。"
+      },
+      {
+        "id": 388,
+        "slug": "worry-seed",
+        "name": "Worry Seed",
+        "jpName": "なやみのタネ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia.",
+        "jpDescription": "心を なやませる タネを 植えつける。 相手を 眠れなくして 特性を ふみんに する。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 520,
+        "slug": "grass-pledge",
+        "name": "Grass Pledge",
+        "jpName": "くさのちかい",
+        "type": "grass",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A column of grass hits the target. When used with its water counterpart, this move's power is boosted and a vast swamp appears.",
+        "jpDescription": "草の柱で 攻撃する。 みずと 組みあわせると 威力が あがって あたりが 湿原に なる。"
+      },
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      }
+    ]
+  }
+}

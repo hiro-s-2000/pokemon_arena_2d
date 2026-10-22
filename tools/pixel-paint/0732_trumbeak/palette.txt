@@ -1,0 +1,26 @@
+// pixel-paint palette for 0732_trumbeak (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+// body plumage (dark brown-grey, lit upper-left)
+D 2c2624
+B 4a4240
+b 6a605c
+L 8c827c
+// face / chest
+W ffffff
+w d4d2d6
+G c2bdb8
+g 8e8884
+// eye
+C 9ee0f8
+c 3f9fd8
+P 15304a
+// bib + beak
+R e8342c
+r a0201c
+O f88c3c
+o d05c24
+K 302a28
+// legs
+U a6c8dc
+u 6890a8

@@ -1,0 +1,20 @@
+// pixel-paint palette for 0500_emboar-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+// hand-painted palette (0500_emboar-mega). light from upper-left.
+k 404048
+K 26262e
+g 6a6a76
+r e63129
+R a82020
+o ee8b08
+y eebd08
+Y b48b20
+f f8e078
+b a43931
+B 6e2418
+n ee6220
+N b04418
+w ffffff
+s acacb4

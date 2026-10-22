@@ -1,0 +1,113 @@
+{
+ "base": "0731_pikipek",
+ "grow": 5,
+ "colors": {
+  "k": "000000",
+  "o": "f89040",
+  "O": "d05a20",
+  "y": "f8d060"
+ },
+ "parts": [
+  {
+   "name": "beak_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -2,
+      -2
+     ],
+     "px": [
+      ".kkk.",
+      "kyook",
+      "kooOk",
+      "koOOk",
+      ".kOk.",
+      "..k.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -2,
+      -2
+     ],
+     "px": [
+      ".kkkkk....",
+      "kyooookkk.",
+      ".koooooook",
+      "..kOOOOOOk",
+      "...kkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -4,
+      -2
+     ],
+     "px": [
+      ".kkkkkkkkk....",
+      "kyooooooookkk.",
+      "kyoooooooooook",
+      "kOOOOOOOOOkkk.",
+      ".kkkkkkkkk...."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -5
+     ],
+     "px": [
+      ".......kk.",
+      ".....kkook",
+      "...kkooOk.",
+      ".kkyooOk..",
+      "kyyOOkk...",
+      ".kkkk....."
+     ]
+    },
+    "NW": {
+     "at": [
+      -6,
+      -5
+     ],
+     "px": [
+      ".kk.......",
+      "kookk.....",
+      ".kOookk...",
+      "..kOooykk.",
+      "...kkOOyyk",
+      ".....kkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      -2
+     ],
+     "px": [
+      "....kkkkkkkkk.",
+      ".kkkooooooooyk",
+      "koooooooooooyk",
+      ".kkkOOOOOOOOOk",
+      "....kkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -7,
+      -2
+     ],
+     "px": [
+      "....kkkkk.",
+      ".kkkooooyk",
+      "koooooook.",
+      "kOOOOOOk..",
+      ".kkkkkk..."
+     ]
+    }
+   }
+  }
+ ]
+}

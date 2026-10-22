@@ -1,0 +1,15 @@
+// pixel-paint palette for 0950_klawf. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 2f251c
+1 344142
+2 901711
+3 756956
+4 bc3f1e
+5 898c83
+6 ea7940
+7 c6a07b
+8 f3b45b
+9 c6c6c6
+a f5e6c9

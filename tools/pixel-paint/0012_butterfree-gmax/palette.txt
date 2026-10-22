@@ -1,0 +1,25 @@
+// 0012_butterfree-gmax hand-painted palette (light from upper-left)
+. transparent
+# 000000
+H e4fde0
+W f4fffb
+w d2f2e6
+G a8eea0
+m a6e2d0
+g 7fd3b2
+t 3aa587
+P 7462b0
+p 4a3a80
+q 2c2154
+e ffd8cc
+R ec3442
+r 9a1430
+B 72b8f2
+b 3770c0
+s e6e2f4
+S a39dc4
+A b0f0b4
+a 4cba82
+L e2e6ee
+l aab2c2
+d 767e94

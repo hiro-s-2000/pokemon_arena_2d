@@ -1,0 +1,138 @@
+{
+ "base": "0128_tauros",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "A": "2a1a12",
+  "M": "4a3222",
+  "L": "6e4e34"
+ },
+ "parts": [
+  {
+   "name": "afro",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -26
+     ],
+     "px": [
+      "........kk....kk........",
+      "........kLk..kLk........",
+      "...kkk.kLLLkkLLLk.kkk...",
+      "...kLLkLLLLLLLMMMkMMk...",
+      "....kLLLLLMMMMMMMMMk....",
+      ".kkkLLLMMMMMMMMMMMMMkkk.",
+      ".kLLMMMMMMMMMMMMMMMMMMk.",
+      "..kMMMMMMMMMMMMMMMMMMk..",
+      "..kMMMMMMMMMMMMMMMAAAk..",
+      ".kMMMMMMMMMMMMAAAAAAAAk.",
+      ".kkkMMMMMMMAAAAAAAAAkkk.",
+      "....kMMMAAAAAAAAAAAk....",
+      "...kAAkAAAAAAAAAAkAAk...",
+      "...kkk.kAAAkkAAAk.kkk...",
+      "........kAk..kAk........",
+      "........kk....kk........"
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -23
+     ],
+     "px": [
+      ".....kk.......",
+      ".....kk..kk...",
+      "..k..kLkkMk...",
+      "..kkkLLMMMk...",
+      "..kLLMMMMMMkkk",
+      "..kMMMMMMMMMk.",
+      "kkMMMMMMMMMk..",
+      "kkMMMMMMMMAk..",
+      "..kMMMMMAAAAk.",
+      "..kMMMAAAAAkkk",
+      "..kkkAAAAAk...",
+      "..k..kAkkAk...",
+      ".....kk..kk...",
+      ".....kk......."
+     ]
+    },
+    "E": {
+     "at": [
+      -11,
+      -22
+     ],
+     "px": [
+      ".....kk.......",
+      ".....kk..kk...",
+      "..k..kLkkMk...",
+      "..kkkLLMMMk...",
+      "..kLLMMMMMMkkk",
+      "..kMMMMMMMMMk.",
+      "kkMMMMMMMMMk..",
+      "kkMMMMMMMMAk..",
+      "..kMMMMMAAAAk.",
+      "..kMMMAAAAAkkk",
+      "..kkkAAAAAk...",
+      "..k..kAkkAk...",
+      ".....kk..kk...",
+      ".....kk......."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -16
+     ],
+     "px": [
+      ".....kk.......",
+      ".....kk..kk...",
+      "..k..kLkkMk...",
+      "..kkkLLMMMk...",
+      "..kLLMMMMMMkkk",
+      "..kMMMMMMMMMk.",
+      "kkMMMMMMMMMk..",
+      "kkMMMMMMMMAk..",
+      "..kMMMMMAAAAk.",
+      "..kMMMAAAAAkkk",
+      "..kkkAAAAAk...",
+      "..k..kAkkAk...",
+      ".....kk..kk...",
+      ".....kk......."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      -14
+     ],
+     "px": [
+      ".........kk.........",
+      "....kk..kLLk..kk....",
+      "....kLkkLLLLkkMk....",
+      "....kLLLLLLMMMMk....",
+      "..kkLLLLMMMMMMMMkk..",
+      "kkLLLMMMMMMMMMMMMMkk",
+      ".kMMMMMMMMMMMMMMMMk.",
+      "..kMMMMMMMMMMMMMAk..",
+      ".kMMMMMMMMMMMAAAAAk.",
+      "kkMMMMMMMMAAAAAAAAkk",
+      "..kkMMMAAAAAAAAAkk..",
+      "....kAAAAAAAAAAk....",
+      "....kAkkAAAAkkAk....",
+      "....kk..kAAk..kk....",
+      ".........kk........."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk",
+    "Shoot",
+    "Charge"
+   ]
+  }
+ ]
+}

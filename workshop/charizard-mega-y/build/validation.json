@@ -1,0 +1,61 @@
+{
+  "structuralPass": true,
+  "visualApproval": false,
+  "warnings": [],
+  "metrics": {
+    "Idle": {
+      "colors": 10,
+      "cells": 32,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Walk": {
+      "colors": 10,
+      "cells": 32,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Attack": {
+      "colors": 10,
+      "cells": 112,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Shoot": {
+      "colors": 10,
+      "cells": 88,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "SpAttack": {
+      "colors": 10,
+      "cells": 88,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Charge": {
+      "colors": 10,
+      "cells": 80,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Strike": {
+      "colors": 10,
+      "cells": 104,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Hurt": {
+      "colors": 10,
+      "cells": 16,
+      "changedPixels": 0,
+      "edgePixels": 0
+    },
+    "Faint": {
+      "colors": 10,
+      "cells": 32,
+      "changedPixels": 0,
+      "edgePixels": 0
+    }
+  }
+}

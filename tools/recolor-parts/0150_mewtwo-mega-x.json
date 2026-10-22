@@ -1,0 +1,301 @@
+{
+  "_": "Mega Mewtwo X = Mewtwo PMD sheets recoloured + dual swept-back Mega X horns (anchor headTop) + sky-blue eyes + deep purple Y-chest/shoulder/pelvic armor + muscular ribbed forearms & brawler fists",
+  "grow": 6,
+  "colors": {
+    "k": "000000",
+    "W": "f0eaf6",
+    "L": "d6cce6",
+    "M": "9e92b8",
+    "D": "4e4268",
+    "p": "c874ec",
+    "P": "9441bd",
+    "q": "64288c",
+    "B": "38a8ff",
+    "b": "1c68c8"
+  },
+  "parts": [
+    {
+      "name": "mega-x-horns",
+      "anchor": "headTop",
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-9, -4],
+          "px": [
+            ".kkk...........kkk.",
+            "kWWLk.........kLWWk",
+            "kWLLk.kk...kk.kLLWk",
+            ".kLLk.kWk.kWk.kLLk.",
+            "..kLLkkWkkkWkkLLk..",
+            "...kLLLLWWWLLLLk...",
+            "....kkLLMWMLLkk...."
+          ]
+        },
+        "SE": {
+          "at": [-9, -3],
+          "px": [
+            ".kkk.......kkk.",
+            "kWWLk.....kLWWk",
+            ".kWLLk...kLLWk.",
+            "..kLLk.kkkLLk..",
+            "...kLLkWWLLk...",
+            "....kkLLWMk...."
+          ]
+        },
+        "E": {
+          "at": [-9, -4],
+          "px": [
+            ".kkkk....",
+            "kWWLLkk..",
+            ".kWWLLLk.",
+            "..kkWLLLk",
+            ".kWWLLLLk",
+            "..kkLLMMk",
+            "....kkkk."
+          ]
+        },
+        "NE": {
+          "at": [-5, -3],
+          "px": [
+            ".kkk.......kkk.",
+            "kWWLk.....kLWWk",
+            ".kLLWk...kLLWk.",
+            "..kLLkkk.kLLk..",
+            "...kLLWWkLLk...",
+            "....kMWLLkk...."
+          ]
+        },
+        "N": {
+          "at": [-9, -4],
+          "px": [
+            ".kkk...........kkk.",
+            "kWWLk.........kLWWk",
+            "kWLLk.kk...kk.kLLWk",
+            ".kLLk.kWk.kWk.kLLk.",
+            "..kLLkkWkkkWkkLLk..",
+            "...kLLLLWWWLLLLk...",
+            "....kkLLMMMLLkk...."
+          ]
+        }
+      }
+    },
+    {
+      "name": "sky-blue-eyes",
+      "anchor": "head",
+      "layer": "front",
+      "anims": ["Idle", "Walk", "Attack", "Shoot", "SpAttack", "Strike", "Charge"],
+      "dirs": {
+        "S": {
+          "at": [-3, -2],
+          "px": [
+            "B.....B",
+            "b.....b"
+          ]
+        },
+        "SE": {
+          "at": [-3, -3],
+          "px": [
+            ".....B",
+            "B....b"
+          ]
+        },
+        "E": {
+          "at": [-2, -2],
+          "px": [
+            "B",
+            "b"
+          ]
+        }
+      }
+    },
+    {
+      "name": "purple-chest-and-pelvis-armor",
+      "anchor": "center",
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-6, -4],
+          "px": [
+            ".kkk.....kkk.",
+            "kppPk...kPppk",
+            "kPPqkkkkkqPPk",
+            ".kkqpppppPkk.",
+            "...kPpppPk...",
+            "....kPqPk....",
+            "....kkqkk....",
+            "...kppPppk...",
+            "...kPPqPPk...",
+            "....kPqPk...."
+          ]
+        },
+        "SE": {
+          "at": [-5, -4],
+          "px": [
+            ".kkk....kkk.",
+            "kppPk..kPppk",
+            "kPPqkkkkqPPk",
+            ".kkqppppPkk.",
+            "...kPppPk...",
+            "....kPqPk...",
+            "....kkqkk...",
+            "...kppPppk..",
+            "...kPPqPPk.."
+          ]
+        },
+        "E": {
+          "at": [-5, -4],
+          "px": [
+            "..kkkkkkk.",
+            ".kLLkppPPk",
+            ".kMMkPPqqk",
+            "..kkkqpPPk",
+            "....kPppk.",
+            "....kkqkk.",
+            "...kppPppk",
+            "...kPPqPPk"
+          ]
+        },
+        "NE": {
+          "at": [-5, -4],
+          "px": [
+            ".kkk...kkk.",
+            "kppPkkkPppk",
+            "kPPqqqqqPPk",
+            ".kkLMMMLkk.",
+            "...kLLLk...",
+            "....kkk....",
+            "...kppPk...",
+            "...kPPqk..."
+          ]
+        },
+        "N": {
+          "at": [-6, -4],
+          "px": [
+            ".kkk.....kkk.",
+            "kppPkkkkkPppk",
+            "kPPqqqqqqqPPk",
+            ".kkLMMMMMLkk.",
+            "...kLLLLLk...",
+            "....kkkkk...."
+          ]
+        }
+      }
+    },
+    {
+      "name": "brawler-fist-L",
+      "anchor": "handL",
+      "noSwapHands": true,
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-3, -3],
+          "px": [
+            ".kkkk.",
+            "kWLLMk",
+            "kWkkMk",
+            "kWLLDk",
+            "kWLWDk",
+            ".kkkk."
+          ]
+        },
+        "SE": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kMkkWk",
+            "kDLLWk",
+            ".kkkk."
+          ]
+        },
+        "E": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kMkkWk",
+            "kDLLWk",
+            ".kkkk."
+          ]
+        },
+        "NE": {
+          "at": [-3, -3],
+          "px": [
+            ".kkkk.",
+            "kWLLMk",
+            "kDLLMk",
+            ".kkkk."
+          ]
+        },
+        "N": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kMkkWk",
+            "kDLLWk",
+            ".kkkk."
+          ]
+        }
+      }
+    },
+    {
+      "name": "brawler-fist-R",
+      "anchor": "handR",
+      "noSwapHands": true,
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kMkkWk",
+            "kDLLWk",
+            "kDWLWk",
+            ".kkkk."
+          ]
+        },
+        "SE": {
+          "at": [-3, -3],
+          "px": [
+            ".kkkk.",
+            "kWLLMk",
+            "kWkkMk",
+            "kWLLDk",
+            ".kkkk."
+          ]
+        },
+        "E": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kMkkWk",
+            "kDLLWk",
+            ".kkkk."
+          ]
+        },
+        "NE": {
+          "at": [-2, -3],
+          "px": [
+            ".kkkk.",
+            "kMLLWk",
+            "kDLLWk",
+            ".kkkk."
+          ]
+        },
+        "N": {
+          "at": [-3, -3],
+          "px": [
+            ".kkkk.",
+            "kWLLMk",
+            "kWkkMk",
+            "kWLLDk",
+            ".kkkk."
+          ]
+        }
+      }
+    }
+  ]
+}

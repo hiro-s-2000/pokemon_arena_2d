@@ -1,0 +1,16 @@
+// pixel-paint palette for 0970_glimmora-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 273439
+1 333333
+2 002787
+3 5442a4
+4 476777
+5 5767b7
+6 005fff
+7 7f61ff
+8 17a7bf
+9 c6c2fd
+a 60ebe3
+b fed07e

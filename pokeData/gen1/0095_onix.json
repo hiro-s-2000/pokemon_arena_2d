@@ -1,0 +1,790 @@
+{
+  "id": "0095_onix",
+  "pokemonId": 95,
+  "dex": 95,
+  "slug": "onix",
+  "name": "Onix",
+  "jpName": "イワーク",
+  "genus": "Rock Snake Pokémon",
+  "jpGenus": "いわへびポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0095_onix/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0095_onix/normal/back.gif",
+  "abilities": [
+    {
+      "id": 69,
+      "slug": "rock-head",
+      "name": "Rock Head",
+      "jpName": "いしあたま",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against recoil damage.",
+      "jpDescription": "反動を 受ける 技を 出しても ＨＰが 減らない。"
+    },
+    {
+      "id": 5,
+      "slug": "sturdy",
+      "name": "Sturdy",
+      "jpName": "がんじょう",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+      "jpDescription": "相手の 技を 受けても 一撃で 倒されることが ない。 一撃必殺技も 効かない。"
+    },
+    {
+      "id": 133,
+      "slug": "weak-armor",
+      "name": "Weak Armor",
+      "jpName": "くだけるよろい",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+      "jpDescription": "物理技で ダメージを 受けると 防御が 下がり 素早さが ぐーんと 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 88,
+    "meters": 8.8,
+    "feetInches": "28'10\"",
+    "display": "8.8 m (28'10\")"
+  },
+  "weight": {
+    "hectograms": 2100,
+    "kilograms": 210.0,
+    "pounds": 463.0,
+    "display": "210.0 kg (463.0 lbs)"
+  },
+  "shape": {
+    "id": 2,
+    "slug": "squiggle",
+    "name": "Squiggle",
+    "awesomeName": "Caudal",
+    "jpName": "くねくね（蛇型）"
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "specialAttack": 30,
+    "specialDefense": 45,
+    "speed": 70,
+    "total": 385,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 95,
+          "max": 142
+        },
+        "lv100": {
+          "min": 180,
+          "max": 274
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 148,
+          "max": 233
+        },
+        "lv100": {
+          "min": 292,
+          "max": 460
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 31,
+          "max": 90
+        },
+        "lv100": {
+          "min": 58,
+          "max": 174
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      }
+    }
+  },
+  "baseStatTotal": 385,
+  "typeMatchups": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 6,
+        "slug": "rock",
+        "name": "Rock",
+        "jpName": "いわ"
+      },
+      {
+        "slot": 2,
+        "id": 5,
+        "slug": "ground",
+        "name": "Ground",
+        "jpName": "じめん"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 0.5,
+      "fire": 0.5,
+      "water": 4.0,
+      "electric": 0.0,
+      "grass": 4.0,
+      "ice": 2.0,
+      "fighting": 2.0,
+      "poison": 0.25,
+      "ground": 2.0,
+      "flying": 0.5,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 0.5,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 2.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [
+      "water",
+      "grass"
+    ],
+    "weaknesses2x": [
+      "ice",
+      "fighting",
+      "ground",
+      "steel"
+    ],
+    "neutral1x": [
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "normal",
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "resistances0_25x": [
+      "poison"
+    ],
+    "immunities0x": [
+      "electric"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "electric",
+      "ice",
+      "poison",
+      "flying",
+      "bug",
+      "rock",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "defense",
+        "statName": "Defense",
+        "statJpName": "ぼうぎょ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Defense",
+    "evYieldTextJa": "ぼうぎょ+1",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 77,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 10,
+        "slug": "mineral",
+        "name": "Mineral",
+        "jpName": "こうぶつ"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 25,
+      "minSteps": 6101,
+      "maxSteps": 6682,
+      "display": "25 (6,101–6,682 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 41,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 208,
+        "dex": 208,
+        "slug": "steelix",
+        "name": "Steelix",
+        "jpName": "ハガネール",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "triggerName": "Trade or Linking Cord",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": "Metal Coat",
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Trade holding Metal Coat",
+            "conditionTextJa": "通信交換（メタルコートを持たせる）"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 95,
+        "dex": 95,
+        "slug": "onix",
+        "name": "Onix",
+        "jpName": "イワーク",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "sprite": "../pokeSprite/gen1/0095_onix/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0095_onix/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 208,
+            "dex": 208,
+            "slug": "steelix",
+            "name": "Steelix",
+            "jpName": "ハガネール",
+            "types": [
+              "steel",
+              "ground"
+            ],
+            "sprite": "../pokeSprite/gen2/0208_steelix/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0208_steelix/normal/back.gif",
+            "condition": "Trade holding Metal Coat",
+            "conditionJa": "通信交換（メタルコートを持たせる）",
+            "details": [
+              {
+                "trigger": "trade",
+                "triggerName": "Trade or Linking Cord",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": "Metal Coat",
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Trade holding Metal Coat",
+                "conditionTextJa": "通信交換（メタルコートを持たせる）"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Onix --(Trade holding Metal Coat)--> Steelix",
+    "summaryTextJa": "イワーク --(通信交換（メタルコートを持たせる）)--> ハガネール"
+  },
+  "moves": {
+    "totalUniqueMoves": 25,
+    "levelUp": [
+      {
+        "id": 205,
+        "slug": "rollout",
+        "name": "Rollout",
+        "jpName": "ころがる",
+        "type": "rock",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits.",
+        "jpDescription": "５ターンの 間 転がり続けて 攻撃する。 技が 当たるたびに 威力が あがる。",
+        "level": 1
+      },
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 6
+      },
+      {
+        "id": 523,
+        "slug": "bulldoze",
+        "name": "Bulldoze",
+        "jpName": "じならし",
+        "type": "ground",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+        "jpDescription": "地面を 踏みならして 自分の 周りに いるものを 攻撃する。 相手の 素早さを さげる。",
+        "level": 11
+      },
+      {
+        "id": 157,
+        "slug": "rock-slide",
+        "name": "Rock Slide",
+        "jpName": "いわなだれ",
+        "type": "rock",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+        "jpDescription": "大きな 岩を 激しく ぶつけて 攻撃する。 相手を ひるませることが ある。",
+        "level": 18
+      },
+      {
+        "id": 446,
+        "slug": "stealth-rock",
+        "name": "Stealth Rock",
+        "jpName": "ステルスロック",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle.",
+        "jpDescription": "相手の 周りに 無数の 岩を 浮かべて 交代で でてきた 相手の ポケモンに ダメージを 与える。",
+        "level": 25
+      },
+      {
+        "id": 667,
+        "slug": "high-horsepower",
+        "name": "High Horsepower",
+        "jpName": "１０まんばりき",
+        "type": "ground",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user fiercely attacks the target using its entire body.",
+        "jpDescription": "全身を 使って 相手に 猛アタックする。",
+        "level": 34
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [
+      {
+        "id": 335,
+        "slug": "block",
+        "name": "Block",
+        "jpName": "とおせんぼう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user blocks the target's way with arms spread wide to prevent the target from fleeing.",
+        "jpDescription": "両手を ひろげて たちはだかり 相手の 逃げ道を ふさいで 逃げられなくする。"
+      },
+      {
+        "id": 111,
+        "slug": "defense-curl",
+        "name": "Defense Curl",
+        "jpName": "まるくなる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user curls up and boosts its Defense stat.",
+        "jpDescription": "体を まるめて ちぢこまり 自分の 防御を あげる。"
+      },
+      {
+        "id": 525,
+        "slug": "dragon-tail",
+        "name": "Dragon Tail",
+        "jpName": "ドラゴンテール",
+        "type": "dragon",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": -6,
+        "description": "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を はじきとばして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 175,
+        "slug": "flail",
+        "name": "Flail",
+        "jpName": "じたばた",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+        "jpDescription": "じたばた 暴れて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 457,
+        "slug": "head-smash",
+        "name": "Head Smash",
+        "jpName": "もろはのずつき",
+        "type": "rock",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with a hazardous full-power headbutt. This also damages the user terribly.",
+        "jpDescription": "命を 懸けて こん身の 力で 相手に ずつきを する。 自分も ものすごい ダメージを 受ける。"
+      },
+      {
+        "id": 484,
+        "slug": "heavy-slam",
+        "name": "Heavy Slam",
+        "jpName": "ヘビーボンバー",
+        "type": "steel",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
+        "jpDescription": "重たい 体で 相手に ぶつかって 攻撃する。 自分が 相手より 重いほど 威力が あがる。"
+      },
+      {
+        "id": 350,
+        "slug": "rock-blast",
+        "name": "Rock Blast",
+        "jpName": "ロックブラスト",
+        "type": "rock",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by hurling hard rocks at the target. This move hits two to five times in a row.",
+        "jpDescription": "硬い 岩石を 相手に 発射して 攻撃する。 ２ー５回の 間 連続で だす。"
+      },
+      {
+        "id": 431,
+        "slug": "rock-climb",
+        "name": "Rock Climb",
+        "jpName": "ロッククライム",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 205,
+        "slug": "rollout",
+        "name": "Rollout",
+        "jpName": "ころがる",
+        "type": "rock",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits.",
+        "jpDescription": "５ターンの 間 転がり続けて 攻撃する。 技が 当たるたびに 威力が あがる。"
+      },
+      {
+        "id": 563,
+        "slug": "rototiller",
+        "name": "Rototiller",
+        "jpName": "たがやす",
+        "type": "ground",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 446,
+        "slug": "stealth-rock",
+        "name": "Stealth Rock",
+        "jpName": "ステルスロック",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle.",
+        "jpDescription": "相手の 周りに 無数の 岩を 浮かべて 交代で でてきた 相手の ポケモンに ダメージを 与える。"
+      },
+      {
+        "id": 469,
+        "slug": "wide-guard",
+        "name": "Wide Guard",
+        "jpName": "ワイドガード",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 3,
+        "description": "The user and its allies are protected from wide-ranging attacks for one turn.",
+        "jpDescription": "味方全員に 当たる 攻撃を １ターンの 間 防ぐ。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 20,
+        "slug": "bind",
+        "name": "Bind",
+        "jpName": "しめつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 15,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A long body, tentacles, or the like are used to bind and squeeze the target for four to five turns.",
+        "jpDescription": "長い 体や つるなどを 使い ４ー５ターンの 間 相手を 締めつけて 攻撃する。"
+      },
+      {
+        "id": 335,
+        "slug": "block",
+        "name": "Block",
+        "jpName": "とおせんぼう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user blocks the target's way with arms spread wide to prevent the target from fleeing.",
+        "jpDescription": "両手を ひろげて たちはだかり 相手の 逃げ道を ふさいで 逃げられなくする。"
+      },
+      {
+        "id": 406,
+        "slug": "dragon-pulse",
+        "name": "Dragon Pulse",
+        "jpName": "りゅうのはどう",
+        "type": "dragon",
+        "category": "special",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is attacked with a shock wave generated by the user's gaping mouth.",
+        "jpDescription": "大きな 口から 衝撃波を まきおこして 相手を 攻撃する。"
+      },
+      {
+        "id": 414,
+        "slug": "earth-power",
+        "name": "Earth Power",
+        "jpName": "だいちのちから",
+        "type": "ground",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "相手の 足下へ 大地の力を 放出する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 442,
+        "slug": "iron-head",
+        "name": "Iron Head",
+        "jpName": "アイアンヘッド",
+        "type": "steel",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+        "jpDescription": "鋼の ような 硬い 頭で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 800,
+        "slug": "meteor-beam",
+        "name": "Meteor Beam",
+        "jpName": "メテオビーム",
+        "type": "rock",
+        "category": "special",
+        "power": 120,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers energy from space and boosts its Sp. Atk stat on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 宇宙の 力を 集めることで 特攻が あがり ２ターン目に 相手を 攻撃する。"
+      },
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 446,
+        "slug": "stealth-rock",
+        "name": "Stealth Rock",
+        "jpName": "ステルスロック",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle.",
+        "jpDescription": "相手の 周りに 無数の 岩を 浮かべて 交代で でてきた 相手の ポケモンに ダメージを 与える。"
+      },
+      {
+        "id": 707,
+        "slug": "stomping-tantrum",
+        "name": "Stomping Tantrum",
+        "jpName": "じだんだ",
+        "type": "ground",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "悔しさを バネにして 攻撃する。 前の ターンに 技を 外していると 威力が 倍に なる。"
+      }
+    ]
+  }
+}

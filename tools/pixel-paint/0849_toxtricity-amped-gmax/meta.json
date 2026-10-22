@@ -1,0 +1,53 @@
+{
+ "id": "0849_toxtricity-amped-gmax",
+ "exported": "2026-10-21T07:51:51.057Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 62,
+   "H": 62,
+   "x0": -3,
+   "y0": -3,
+   "w": 68,
+   "h": 69,
+   "frames": 21
+  },
+  "back": {
+   "W": 64,
+   "H": 61,
+   "x0": -3,
+   "y0": -2,
+   "w": 70,
+   "h": 67,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (21 vs 21 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 61,
+  "how": "base 0849_toxtricity-amped",
+  "scale": 0.6344,
+  "srcBodyH": 93,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0849_toxtricity-amped",
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

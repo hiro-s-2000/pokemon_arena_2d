@@ -1,0 +1,1269 @@
+{
+  "id": "0456_finneon",
+  "pokemonId": 456,
+  "dex": 456,
+  "slug": "finneon",
+  "name": "Finneon",
+  "jpName": "ケイコウオ",
+  "genus": "Wing Fish Pokémon",
+  "jpGenus": "はねうおポケモン",
+  "generation": 4,
+  "category": "gen4",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen4/0456_finneon/normal/front.gif",
+  "backSprite": "../pokeSprite/gen4/0456_finneon/normal/back.gif",
+  "abilities": [
+    {
+      "id": 33,
+      "slug": "swift-swim",
+      "name": "Swift Swim",
+      "jpName": "すいすい",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Doubles Speed during rain.",
+      "jpDescription": "天気が 雨のとき 素早さが 上がる。"
+    },
+    {
+      "id": 114,
+      "slug": "storm-drain",
+      "name": "Storm Drain",
+      "jpName": "よびみず",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
+      "jpDescription": "みずタイプの 技を 自分に よせつけ ダメージは 受けずに 特攻が 上がる。"
+    },
+    {
+      "id": 41,
+      "slug": "water-veil",
+      "name": "Water Veil",
+      "jpName": "みずのベール",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Prevents burns.",
+      "jpDescription": "水のベールを 身にまとい やけど状態に ならない。"
+    }
+  ],
+  "height": {
+    "decimeters": 4,
+    "meters": 0.4,
+    "feetInches": "1'04\"",
+    "display": "0.4 m (1'04\")"
+  },
+  "weight": {
+    "hectograms": 70,
+    "kilograms": 7.0,
+    "pounds": 15.4,
+    "display": "7.0 kg (15.4 lbs)"
+  },
+  "shape": {
+    "id": 3,
+    "slug": "fish",
+    "name": "Fish",
+    "awesomeName": "Ichthyic",
+    "jpName": "ヒレあり（魚型）"
+  },
+  "baseStats": {
+    "hp": 49,
+    "attack": 49,
+    "defense": 56,
+    "specialAttack": 49,
+    "specialDefense": 61,
+    "speed": 66,
+    "total": 330,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 109,
+          "max": 156
+        },
+        "lv100": {
+          "min": 208,
+          "max": 302
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 48,
+          "max": 111
+        },
+        "lv100": {
+          "min": 92,
+          "max": 216
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 54,
+          "max": 118
+        },
+        "lv100": {
+          "min": 105,
+          "max": 232
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 48,
+          "max": 111
+        },
+        "lv100": {
+          "min": 92,
+          "max": 216
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 59,
+          "max": 124
+        },
+        "lv100": {
+          "min": 114,
+          "max": 243
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 129
+        },
+        "lv100": {
+          "min": 123,
+          "max": 254
+        }
+      }
+    }
+  },
+  "baseStatTotal": 330,
+  "typeMatchups": {
+    "types": [
+      "water"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 11,
+        "slug": "water",
+        "name": "Water",
+        "jpName": "みず"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 0.5,
+      "electric": 2.0,
+      "grass": 2.0,
+      "ice": 0.5,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "electric",
+      "grass"
+    ],
+    "neutral1x": [
+      "normal",
+      "fighting",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "water",
+      "ice",
+      "steel"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "ground",
+      "rock"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Speed",
+    "evYieldTextJa": "すばやさ+1",
+    "catchRate": 190,
+    "pokeBallFullHpPercent": 35.2,
+    "catchRateDisplay": "190 (35.2% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 66,
+    "growthRate": {
+      "id": 5,
+      "slug": "slow-then-very-fast",
+      "name": "Erratic",
+      "formula": "\\begin{cases}\n\\frac{ x^3 \\left( 100 - x \\right) }{50},    & \\text{if } x \\leq 50  \\\\\n\\frac{ x^3 \\left( 150 - x \\right) }{100},   & \\text{if } 50 < x \\leq 68  \\\\\n\\frac{ x^3 \\left( 1274 + (x \\bmod 3)^2 - 9 (x \\bmod 3) - 20 \\left\\lfloor \\frac{x}{3} \\right\\rfloor \\right) }{1000}, & \\text{if } 68 < x \\leq 98  \\\\\n\\frac{ x^3 \\left( 160 - x \\right) }{100},   & \\text{if } x > 98  \\\\\n\\end{cases}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 12,
+        "slug": "water2",
+        "name": "Water 2",
+        "jpName": "すいちゅう２"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 237,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 457,
+        "dex": 457,
+        "slug": "lumineon",
+        "name": "Lumineon",
+        "jpName": "ネオラント",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 31,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 31",
+            "conditionTextJa": "Lv.31"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 456,
+        "dex": 456,
+        "slug": "finneon",
+        "name": "Finneon",
+        "jpName": "ケイコウオ",
+        "types": [
+          "water"
+        ],
+        "sprite": "../pokeSprite/gen4/0456_finneon/normal/front.gif",
+        "backSprite": "../pokeSprite/gen4/0456_finneon/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 457,
+            "dex": 457,
+            "slug": "lumineon",
+            "name": "Lumineon",
+            "jpName": "ネオラント",
+            "types": [
+              "water"
+            ],
+            "sprite": "../pokeSprite/gen4/0457_lumineon/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0457_lumineon/normal/back.gif",
+            "condition": "Level 31",
+            "conditionJa": "Lv.31",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 31,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 31",
+                "conditionTextJa": "Lv.31"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Finneon --(Level 31)--> Lumineon",
+    "summaryTextJa": "ケイコウオ --(Lv.31)--> ネオラント"
+  },
+  "moves": {
+    "totalUniqueMoves": 50,
+    "levelUp": [
+      {
+        "id": 1,
+        "slug": "pound",
+        "name": "Pound",
+        "jpName": "はたく",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is physically pounded with a long tail, a foreleg, or the like.",
+        "jpDescription": "長い しっぽや 手などを 使って 相手を はたいて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 55,
+        "slug": "water-gun",
+        "name": "Water Gun",
+        "jpName": "みずでっぽう",
+        "type": "water",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is blasted with a forceful shot of water.",
+        "jpDescription": "水を 勢いよく 相手に 発射して 攻撃する。",
+        "level": 6
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。",
+        "level": 13
+      },
+      {
+        "id": 16,
+        "slug": "gust",
+        "name": "Gust",
+        "jpName": "かぜおこし",
+        "type": "flying",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+        "jpDescription": "翼で おこした 激しい 風を 相手に ぶつけて 攻撃する。",
+        "level": 17
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。",
+        "level": 22
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。",
+        "level": 26
+      },
+      {
+        "id": 219,
+        "slug": "safeguard",
+        "name": "Safeguard",
+        "jpName": "しんぴのまもり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user creates a protective field that prevents status conditions for five turns.",
+        "jpDescription": "５ターンの 間 不思議な 力に 守られて 状態異常に ならなくなる。",
+        "level": 29
+      },
+      {
+        "id": 392,
+        "slug": "aqua-ring",
+        "name": "Aqua Ring",
+        "jpName": "アクアリング",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+        "jpDescription": "自分の 体の 周りを 水で つくった ベールで おおう。 毎ターン ＨＰを 回復する。",
+        "level": 33
+      },
+      {
+        "id": 250,
+        "slug": "whirlpool",
+        "name": "Whirlpool",
+        "jpName": "うずしお",
+        "type": "water",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a violent, swirling whirlpool that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 水の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。",
+        "level": 38
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。",
+        "level": 42
+      },
+      {
+        "id": 340,
+        "slug": "bounce",
+        "name": "Bounce",
+        "jpName": "とびはねる",
+        "type": "flying",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+        "jpDescription": "空高く 飛び跳ねて ２ターン目に 相手を 攻撃する。 まひ状態に することが ある。",
+        "level": 45
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。",
+        "level": 49
+      },
+      {
+        "id": 487,
+        "slug": "soak",
+        "name": "Soak",
+        "jpName": "みずびたし",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user shoots a torrent of water that changes the target's type to Water.",
+        "jpDescription": "たくさんの 水を 浴びせかけて 相手を みずタイプに する。",
+        "level": 54
+      }
+    ],
+    "machine": [
+      {
+        "id": 512,
+        "slug": "acrobatics",
+        "name": "Acrobatics",
+        "jpName": "アクロバット",
+        "type": "flying",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item.",
+        "jpDescription": "軽やかに 相手を 攻撃する。 自分が 道具を 持っていないとき 大きな ダメージを 与える。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 914,
+        "slug": "alluring-voice",
+        "name": "Alluring Voice",
+        "jpName": "みわくのボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn.",
+        "jpDescription": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn."
+      },
+      {
+        "id": 59,
+        "slug": "blizzard",
+        "name": "Blizzard",
+        "jpName": "ふぶき",
+        "type": "ice",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 5,
+        "priority": 0,
+        "description": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+        "jpDescription": "激しい 吹雪を 相手に 吹きつけて 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 886,
+        "slug": "chilling-water",
+        "name": "Chilling Water",
+        "jpName": "ひやみず",
+        "type": "water",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat.",
+        "jpDescription": "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
+      },
+      {
+        "id": 109,
+        "slug": "confuse-ray",
+        "name": "Confuse Ray",
+        "jpName": "あやしいひかり",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is exposed to a sinister ray that causes confusion.",
+        "jpDescription": "怪しい 光を 相手に みせて まどわせる。 相手を 混乱させる。"
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 812,
+        "slug": "flip-turn",
+        "name": "Flip Turn",
+        "jpName": "クイックターン",
+        "type": "water",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃した あと ものすごい スピードで 戻ってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 56,
+        "slug": "hydro-pump",
+        "name": "Hydro Pump",
+        "jpName": "ハイドロポンプ",
+        "type": "water",
+        "category": "special",
+        "power": 110,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is blasted by a huge volume of water launched under great pressure.",
+        "jpDescription": "大量の 水を 激しい 勢いで 相手に 発射して 攻撃する。"
+      },
+      {
+        "id": 58,
+        "slug": "ice-beam",
+        "name": "Ice Beam",
+        "jpName": "れいとうビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+        "jpDescription": "凍える ビームを 相手に 発射して 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 60,
+        "slug": "psybeam",
+        "name": "Psybeam",
+        "jpName": "サイケこうせん",
+        "type": "psychic",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a peculiar ray. This may also confuse the target.",
+        "jpDescription": "不思議な 光線を 相手に 発射して 攻撃する。 混乱させることが ある。"
+      },
+      {
+        "id": 244,
+        "slug": "psych-up",
+        "name": "Psych Up",
+        "jpName": "じこあんじ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hypnotizes itself into copying any stat change made by the target.",
+        "jpDescription": "自分に 暗示を かけることで 能力変化の 状態を 相手と 同じにする。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 57,
+        "slug": "surf",
+        "name": "Surf",
+        "jpName": "なみのり",
+        "type": "water",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks everything around it by swamping its surroundings with a giant wave.",
+        "jpDescription": "大きな 波で 自分の 周りに いるものを 攻撃する。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 127,
+        "slug": "waterfall",
+        "name": "Waterfall",
+        "jpName": "たきのぼり",
+        "type": "water",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user charges at the target and may make it flinch.",
+        "jpDescription": "すごい 勢いで 相手に つっこむ。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 250,
+        "slug": "whirlpool",
+        "name": "Whirlpool",
+        "jpName": "うずしお",
+        "type": "water",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a violent, swirling whirlpool that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 水の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 401,
+        "slug": "aqua-tail",
+        "name": "Aqua Tail",
+        "jpName": "アクアテール",
+        "type": "water",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+        "jpDescription": "激しく あれくるう 荒波の ように 大きな しっぽを ふって 相手を 攻撃する。"
+      },
+      {
+        "id": 62,
+        "slug": "aurora-beam",
+        "name": "Aurora Beam",
+        "jpName": "オーロラビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+        "jpDescription": "にじいろの ビームを 相手に 発射して 攻撃する。 攻撃を さげる ことが ある。"
+      },
+      {
+        "id": 362,
+        "slug": "brine",
+        "name": "Brine",
+        "jpName": "しおみず",
+        "type": "water",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's power is doubled if the target's HP is at half or less.",
+        "jpDescription": "相手が ＨＰの 半分くらい きずを おっていると 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 109,
+        "slug": "confuse-ray",
+        "name": "Confuse Ray",
+        "jpName": "あやしいひかり",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is exposed to a sinister ray that causes confusion.",
+        "jpDescription": "怪しい 光を 相手に みせて まどわせる。 相手を 混乱させる。"
+      },
+      {
+        "id": 175,
+        "slug": "flail",
+        "name": "Flail",
+        "jpName": "じたばた",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power.",
+        "jpDescription": "じたばた 暴れて 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 60,
+        "slug": "psybeam",
+        "name": "Psybeam",
+        "jpName": "サイケこうせん",
+        "type": "psychic",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a peculiar ray. This may also confuse the target.",
+        "jpDescription": "不思議な 光線を 相手に 発射して 攻撃する。 混乱させることが ある。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 150,
+        "slug": "splash",
+        "name": "Splash",
+        "jpName": "はねる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user just flops and splashes around to no effect at all...",
+        "jpDescription": "攻撃もせずに ピョン ピョンと 跳ねるだけで なにも おこらない……。"
+      },
+      {
+        "id": 186,
+        "slug": "sweet-kiss",
+        "name": "Sweet Kiss",
+        "jpName": "てんしのキッス",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 75,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user kisses the target with a sweet, angelic cuteness that causes confusion.",
+        "jpDescription": "天使のように かわいく キスして 相手を 混乱させる。"
+      },
+      {
+        "id": 321,
+        "slug": "tickle",
+        "name": "Tickle",
+        "jpName": "くすぐる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tickles the target into laughing, lowering its Attack and Defense stats.",
+        "jpDescription": "体を くすぐり 笑わせる ことで 相手の 攻撃と 防御を さげる。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 401,
+        "slug": "aqua-tail",
+        "name": "Aqua Tail",
+        "jpName": "アクアテール",
+        "type": "water",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+        "jpDescription": "激しく あれくるう 荒波の ように 大きな しっぽを ふって 相手を 攻撃する。"
+      },
+      {
+        "id": 340,
+        "slug": "bounce",
+        "name": "Bounce",
+        "jpName": "とびはねる",
+        "type": "flying",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+        "jpDescription": "空高く 飛び跳ねて ２ターン目に 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1165 @@
+{
+  "id": "0293_whismur",
+  "pokemonId": 293,
+  "dex": 293,
+  "slug": "whismur",
+  "name": "Whismur",
+  "jpName": "ゴニョニョ",
+  "genus": "Whisper Pokémon",
+  "jpGenus": "ささやきポケモン",
+  "generation": 3,
+  "category": "gen3",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen3/0293_whismur/normal/front.gif",
+  "backSprite": "../pokeSprite/gen3/0293_whismur/normal/back.gif",
+  "abilities": [
+    {
+      "id": 43,
+      "slug": "soundproof",
+      "name": "Soundproof",
+      "jpName": "ぼうおん",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against sound-based moves.",
+      "jpDescription": "音を 遮断 することに よって 音の 攻撃を 受けない。"
+    },
+    {
+      "id": 155,
+      "slug": "rattled",
+      "name": "Rattled",
+      "jpName": "びびり",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.",
+      "jpDescription": "あくタイプと ゴーストタイプと むしタイプの 技を 受けると びびって 素早さが 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 6,
+    "meters": 0.6,
+    "feetInches": "2'00\"",
+    "display": "0.6 m (2'00\")"
+  },
+  "weight": {
+    "hectograms": 163,
+    "kilograms": 16.3,
+    "pounds": 35.9,
+    "display": "16.3 kg (35.9 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 64,
+    "attack": 51,
+    "defense": 23,
+    "specialAttack": 51,
+    "specialDefense": 23,
+    "speed": 28,
+    "total": 240,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 124,
+          "max": 171
+        },
+        "lv100": {
+          "min": 238,
+          "max": 332
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 50,
+          "max": 113
+        },
+        "lv100": {
+          "min": 96,
+          "max": 221
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 25,
+          "max": 82
+        },
+        "lv100": {
+          "min": 45,
+          "max": 159
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 50,
+          "max": 113
+        },
+        "lv100": {
+          "min": 96,
+          "max": 221
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 25,
+          "max": 82
+        },
+        "lv100": {
+          "min": 45,
+          "max": 159
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 29,
+          "max": 88
+        },
+        "lv100": {
+          "min": 54,
+          "max": 170
+        }
+      }
+    }
+  },
+  "baseStatTotal": 240,
+  "typeMatchups": {
+    "types": [
+      "normal"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 1,
+        "slug": "normal",
+        "name": "Normal",
+        "jpName": "ノーマル"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 0.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fighting"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ghost"
+    ],
+    "stabSuperEffectiveAgainst": []
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 HP",
+    "evYieldTextJa": "HP+1",
+    "catchRate": 190,
+    "pokeBallFullHpPercent": 35.2,
+    "catchRateDisplay": "190 (35.2% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 48,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 1,
+        "slug": "monster",
+        "name": "Monster",
+        "jpName": "かいじゅう"
+      },
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 145,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 294,
+        "dex": 294,
+        "slug": "loudred",
+        "name": "Loudred",
+        "jpName": "ドゴーム",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 20,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 20",
+            "conditionTextJa": "Lv.20"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 293,
+        "dex": 293,
+        "slug": "whismur",
+        "name": "Whismur",
+        "jpName": "ゴニョニョ",
+        "types": [
+          "normal"
+        ],
+        "sprite": "../pokeSprite/gen3/0293_whismur/normal/front.gif",
+        "backSprite": "../pokeSprite/gen3/0293_whismur/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 294,
+            "dex": 294,
+            "slug": "loudred",
+            "name": "Loudred",
+            "jpName": "ドゴーム",
+            "types": [
+              "normal"
+            ],
+            "sprite": "../pokeSprite/gen3/0294_loudred/normal/front.gif",
+            "backSprite": "../pokeSprite/gen3/0294_loudred/normal/back.gif",
+            "condition": "Level 20",
+            "conditionJa": "Lv.20",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 20,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 20",
+                "conditionTextJa": "Lv.20"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 295,
+                "dex": 295,
+                "slug": "exploud",
+                "name": "Exploud",
+                "jpName": "バクオング",
+                "types": [
+                  "normal"
+                ],
+                "sprite": "../pokeSprite/gen3/0295_exploud/normal/front.gif",
+                "backSprite": "../pokeSprite/gen3/0295_exploud/normal/back.gif",
+                "condition": "Level 40",
+                "conditionJa": "Lv.40",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 40,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 40",
+                    "conditionTextJa": "Lv.40"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Whismur --(Level 20)--> Loudred --(Level 40)--> Exploud",
+    "summaryTextJa": "ゴニョニョ --(Lv.20)--> ドゴーム --(Lv.40)--> バクオング"
+  },
+  "moves": {
+    "totalUniqueMoves": 47,
+    "levelUp": [
+      {
+        "id": 1,
+        "slug": "pound",
+        "name": "Pound",
+        "jpName": "はたく",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is physically pounded with a long tail, a foreleg, or the like.",
+        "jpDescription": "長い しっぽや 手などを 使って 相手を はたいて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 310,
+        "slug": "astonish",
+        "name": "Astonish",
+        "jpName": "おどろかす",
+        "type": "ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
+        "jpDescription": "大きな 声などで 不意に 驚かして 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 497,
+        "slug": "echoed-voice",
+        "name": "Echoed Voice",
+        "jpName": "エコーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",
+        "jpDescription": "響く 声で 相手を 攻撃する。 毎ターン だれかが 技を 使い続けると 威力が あがる。",
+        "level": 5
+      },
+      {
+        "id": 336,
+        "slug": "howl",
+        "name": "Howl",
+        "jpName": "とおぼえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user howls loudly to rouse itself and its allies. This boosts their Attack stats.",
+        "jpDescription": "大声で ほえて 気合を 高め 自分と 味方の 攻撃を あげる。",
+        "level": 10
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。",
+        "level": 15
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。",
+        "level": 15
+      },
+      {
+        "id": 23,
+        "slug": "stomp",
+        "name": "Stomp",
+        "jpName": "ふみつけ",
+        "type": "normal",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by stomping on the target with a big foot. This may also make the target flinch.",
+        "jpDescription": "大きな 足で 相手を 踏みつけて 攻撃する。 相手を ひるませることが ある。",
+        "level": 21
+      },
+      {
+        "id": 46,
+        "slug": "roar",
+        "name": "Roar",
+        "jpName": "ほえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 逃がして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。",
+        "level": 25
+      },
+      {
+        "id": 48,
+        "slug": "supersonic",
+        "name": "Supersonic",
+        "jpName": "ちょうおんぱ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 55,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user generates odd sound waves from its body that confuse the target.",
+        "jpDescription": "特殊な 音波を 体から 発して 相手を 混乱させる。",
+        "level": 30
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。",
+        "level": 35
+      },
+      {
+        "id": 103,
+        "slug": "screech",
+        "name": "Screech",
+        "jpName": "いやなおと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+        "jpDescription": "おもわず 耳を ふさぎたくなる いやなおとを だして 相手の 防御を がくっと さげる。",
+        "level": 40
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。",
+        "level": 45
+      }
+    ],
+    "machine": [
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 59,
+        "slug": "blizzard",
+        "name": "Blizzard",
+        "jpName": "ふぶき",
+        "type": "ice",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 5,
+        "priority": 0,
+        "description": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+        "jpDescription": "激しい 吹雪を 相手に 吹きつけて 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 104,
+        "slug": "double-team",
+        "name": "Double Team",
+        "jpName": "かげぶんしん",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "By moving rapidly, the user makes illusory copies of itself to boost its evasiveness.",
+        "jpDescription": "素早い 動きで 分身を つくり 相手を まどわせて 回避率を あげる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 126,
+        "slug": "fire-blast",
+        "name": "Fire Blast",
+        "jpName": "だいもんじ",
+        "type": "fire",
+        "category": "special",
+        "power": 110,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+        "jpDescription": "大の字の 炎で 相手を 焼きつくす。 やけど状態に することが ある。"
+      },
+      {
+        "id": 53,
+        "slug": "flamethrower",
+        "name": "Flamethrower",
+        "jpName": "かえんほうしゃ",
+        "type": "fire",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+        "jpDescription": "激しい 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 374,
+        "slug": "fling",
+        "name": "Fling",
+        "jpName": "なげつける",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+        "jpDescription": "持たせた 道具を 素早く 投げつけて 攻撃する。 道具で 威力と 効果が 変わる。"
+      },
+      {
+        "id": 58,
+        "slug": "ice-beam",
+        "name": "Ice Beam",
+        "jpName": "れいとうビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+        "jpDescription": "凍える ビームを 相手に 発射して 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 46,
+        "slug": "roar",
+        "name": "Roar",
+        "jpName": "ほえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 逃がして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 351,
+        "slug": "shock-wave",
+        "name": "Shock Wave",
+        "jpName": "でんげきは",
+        "type": "electric",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+        "jpDescription": "電撃を 素早く 相手に 浴びせる。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 207,
+        "slug": "swagger",
+        "name": "Swagger",
+        "jpName": "いばる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user enrages and confuses the target. However, this also sharply boosts the target's Attack stat.",
+        "jpDescription": "相手を 怒らせて 混乱させる。 怒りで 相手の 攻撃は ぐーんと あがってしまう。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 526,
+        "slug": "work-up",
+        "name": "Work Up",
+        "jpName": "ふるいたてる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user is roused, and its Attack and Sp. Atk stats are boosted.",
+        "jpDescription": "自分を 奮いたてて 攻撃と 特攻を あげる。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 509,
+        "slug": "circle-throw",
+        "name": "Circle Throw",
+        "jpName": "ともえなげ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": -6,
+        "description": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 投げとばして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 574,
+        "slug": "disarming-voice",
+        "name": "Disarming Voice",
+        "jpName": "チャームボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
+        "jpDescription": "魅惑の 鳴き声を だして 相手に 精神的な ダメージを 与える。 攻撃は 必ず 命中 する。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 326,
+        "slug": "extrasensory",
+        "name": "Extrasensory",
+        "jpName": "じんつうりき",
+        "type": "psychic",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks with an odd, unseeable power. This may also make the target flinch.",
+        "jpDescription": "みえない 不思議な 力を 送って 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 359,
+        "slug": "hammer-arm",
+        "name": "Hammer Arm",
+        "jpName": "アームハンマー",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat.",
+        "jpDescription": "強くて 重い こぶしを ふるって ダメージを 与える。 自分の 素早さが さがる。"
+      },
+      {
+        "id": 265,
+        "slug": "smelling-salts",
+        "name": "Smelling Salts",
+        "jpName": "きつけ",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 108,
+        "slug": "smokescreen",
+        "name": "Smokescreen",
+        "jpName": "えんまく",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user releases an obscuring cloud of smoke or ink. This lowers the target's accuracy.",
+        "jpDescription": "煙や 墨などを 吹きかけて 相手の 命中率を さげる。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 18,
+        "slug": "whirlwind",
+        "name": "Whirlwind",
+        "jpName": "ふきとばし",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is blown away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 吹きとばして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 351,
+        "slug": "shock-wave",
+        "name": "Shock Wave",
+        "jpName": "でんげきは",
+        "type": "electric",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+        "jpDescription": "電撃を 素早く 相手に 浴びせる。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0555_darmanitan-galar-zen. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 0c3c4e
+2 832d1a
+3 c04b31
+4 7a7e84
+5 e57934
+6 efa63d
+7 bdbfc1
+8 67e8f9
+9 ebede7
+a eef8a2

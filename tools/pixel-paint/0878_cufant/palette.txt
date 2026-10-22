@@ -1,0 +1,16 @@
+// pixel-paint palette for 0878_cufant. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 0e3941
+1 333333
+2 75392b
+3 0c5a51
+4 117f7e
+5 d55139
+6 e77454
+7 cab151
+8 fe9956
+9 bcb4b5
+a f5f59a
+b fdfdfd

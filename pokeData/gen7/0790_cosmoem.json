@@ -1,0 +1,464 @@
+{
+  "id": "0790_cosmoem",
+  "pokemonId": 790,
+  "dex": 790,
+  "slug": "cosmoem",
+  "name": "Cosmoem",
+  "jpName": "コスモウム",
+  "genus": "Protostar Pokémon",
+  "jpGenus": "げんしせいポケモン",
+  "generation": 7,
+  "category": "gen7",
+  "isLegendary": true,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen7/0790_cosmoem/normal/front.gif",
+  "backSprite": "../pokeSprite/gen7/0790_cosmoem/normal/back.gif",
+  "abilities": [
+    {
+      "id": 5,
+      "slug": "sturdy",
+      "name": "Sturdy",
+      "jpName": "がんじょう",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+      "jpDescription": "相手の 技を 受けても 一撃で 倒されることが ない。 一撃必殺技も 効かない。"
+    }
+  ],
+  "height": {
+    "decimeters": 1,
+    "meters": 0.1,
+    "feetInches": "0'04\"",
+    "display": "0.1 m (0'04\")"
+  },
+  "weight": {
+    "hectograms": 9999,
+    "kilograms": 999.9,
+    "pounds": 2204.4,
+    "display": "999.9 kg (2204.4 lbs)"
+  },
+  "shape": {
+    "id": 1,
+    "slug": "ball",
+    "name": "Ball",
+    "awesomeName": "Pomaceous",
+    "jpName": "まるい（球体）"
+  },
+  "baseStats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 131,
+    "specialAttack": 29,
+    "specialDefense": 131,
+    "speed": 37,
+    "total": 400,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 103,
+          "max": 150
+        },
+        "lv100": {
+          "min": 196,
+          "max": 290
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 30,
+          "max": 89
+        },
+        "lv100": {
+          "min": 56,
+          "max": 172
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 122,
+          "max": 201
+        },
+        "lv100": {
+          "min": 240,
+          "max": 397
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 30,
+          "max": 89
+        },
+        "lv100": {
+          "min": 56,
+          "max": 172
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 122,
+          "max": 201
+        },
+        "lv100": {
+          "min": 240,
+          "max": 397
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 37,
+          "max": 97
+        },
+        "lv100": {
+          "min": 71,
+          "max": 190
+        }
+      }
+    }
+  },
+  "baseStatTotal": 400,
+  "typeMatchups": {
+    "types": [
+      "psychic"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 14,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "エスパー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 0.5,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 2.0,
+      "dragon": 1.0,
+      "dark": 2.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "bug",
+      "ghost",
+      "dark"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "rock",
+      "dragon",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fighting",
+      "psychic"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "fighting",
+      "poison"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "defense",
+        "statName": "Defense",
+        "statJpName": "ぼうぎょ",
+        "effort": 1
+      },
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Defense, 1 Sp. Def",
+    "evYieldTextJa": "ぼうぎょ+1・とくぼう+1",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 0,
+    "baseExperience": 140,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 15,
+        "slug": "no-eggs",
+        "name": "Undiscovered",
+        "jpName": "タマゴみはっけん"
+      }
+    ],
+    "genderRatio": {
+      "genderless": true,
+      "malePercent": 0.0,
+      "femalePercent": 0.0,
+      "display": "Genderless",
+      "displayJa": "性別不明"
+    },
+    "eggCycles": {
+      "cycles": 120,
+      "minSteps": 29281,
+      "maxSteps": 31097,
+      "display": "120 (29,281–31,097 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 413,
+    "evolvesFrom": {
+      "speciesId": 789,
+      "dex": 789,
+      "slug": "cosmog",
+      "name": "Cosmog",
+      "jpName": "コスモッグ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 43,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 43",
+          "conditionTextJa": "Lv.43"
+        }
+      ]
+    },
+    "evolvesTo": [
+      {
+        "speciesId": 791,
+        "dex": 791,
+        "slug": "solgaleo",
+        "name": "Solgaleo",
+        "jpName": "ソルガレオ",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 53,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 53",
+            "conditionTextJa": "Lv.53"
+          }
+        ]
+      },
+      {
+        "speciesId": 792,
+        "dex": 792,
+        "slug": "lunala",
+        "name": "Lunala",
+        "jpName": "ルナアーラ",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 53,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 53",
+            "conditionTextJa": "Lv.53"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 789,
+        "dex": 789,
+        "slug": "cosmog",
+        "name": "Cosmog",
+        "jpName": "コスモッグ",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "../pokeSprite/gen7/0789_cosmog/normal/front.gif",
+        "backSprite": "../pokeSprite/gen7/0789_cosmog/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 790,
+            "dex": 790,
+            "slug": "cosmoem",
+            "name": "Cosmoem",
+            "jpName": "コスモウム",
+            "types": [
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen7/0790_cosmoem/normal/front.gif",
+            "backSprite": "../pokeSprite/gen7/0790_cosmoem/normal/back.gif",
+            "condition": "Level 43",
+            "conditionJa": "Lv.43",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 43,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 43",
+                "conditionTextJa": "Lv.43"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 791,
+                "dex": 791,
+                "slug": "solgaleo",
+                "name": "Solgaleo",
+                "jpName": "ソルガレオ",
+                "types": [
+                  "psychic",
+                  "steel"
+                ],
+                "sprite": "../pokeSprite/gen7/0791_solgaleo/normal/front.gif",
+                "backSprite": "../pokeSprite/gen7/0791_solgaleo/normal/back.gif",
+                "condition": "Level 53",
+                "conditionJa": "Lv.53",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 53,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 53",
+                    "conditionTextJa": "Lv.53"
+                  }
+                ],
+                "evolvesTo": []
+              },
+              {
+                "speciesId": 792,
+                "dex": 792,
+                "slug": "lunala",
+                "name": "Lunala",
+                "jpName": "ルナアーラ",
+                "types": [
+                  "psychic",
+                  "ghost"
+                ],
+                "sprite": "../pokeSprite/gen7/0792_lunala/normal/front.gif",
+                "backSprite": "../pokeSprite/gen7/0792_lunala/normal/back.gif",
+                "condition": "Level 53",
+                "conditionJa": "Lv.53",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 53,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 53",
+                    "conditionTextJa": "Lv.53"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Cosmog --(Level 43)--> Cosmoem --(Level 53)--> Solgaleo | Cosmog --(Level 43)--> Cosmoem --(Level 53)--> Lunala",
+    "summaryTextJa": "コスモッグ --(Lv.43)--> コスモウム --(Lv.53)--> ソルガレオ | コスモッグ --(Lv.43)--> コスモウム --(Lv.53)--> ルナアーラ"
+  },
+  "moves": {
+    "totalUniqueMoves": 2,
+    "levelUp": [
+      {
+        "id": 322,
+        "slug": "cosmic-power",
+        "name": "Cosmic Power",
+        "jpName": "コスモパワー",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user absorbs a mystical power from space to boost its Defense and Sp. Def stats.",
+        "jpDescription": "宇宙から 神秘の 力を とりこむ ことで 自分の 防御と 特防を あげる。",
+        "level": 0
+      },
+      {
+        "id": 100,
+        "slug": "teleport",
+        "name": "Teleport",
+        "jpName": "テレポート",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees.",
+        "jpDescription": "ひかえの ポケモンが いるときに 使うと 入れ替わる。 野生の ポケモンは 逃げてしまう。",
+        "level": 1
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

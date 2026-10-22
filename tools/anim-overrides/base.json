@@ -1,0 +1,3 @@
+{
+  "_comment": "roster id -> SpriteCollab sprite path (e.g. \"0006/0001\") or null to force the GIF fallback. Keys starting with _ are ignored."
+}

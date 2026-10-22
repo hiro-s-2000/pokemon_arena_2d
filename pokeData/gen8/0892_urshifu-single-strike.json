@@ -1,0 +1,1445 @@
+{
+  "id": "0892_urshifu-single-strike",
+  "pokemonId": 892,
+  "dex": 892,
+  "slug": "urshifu-single-strike",
+  "name": "Urshifu",
+  "jpName": "ウーラオス",
+  "genus": "Wushu Pokémon",
+  "jpGenus": "けんぽうポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": true,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0892_urshifu-single-strike/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0892_urshifu-single-strike/normal/back.gif",
+  "abilities": [
+    {
+      "id": 260,
+      "slug": "unseen-fist",
+      "name": "Unseen Fist",
+      "jpName": "ふかしのこぶし",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Contact moves can strike through Protect/Detect.",
+      "jpDescription": "相手に 接触する 技なら 守りの 効果を 無視して 攻撃することが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 19,
+    "meters": 1.9,
+    "feetInches": "6'03\"",
+    "display": "1.9 m (6'03\")"
+  },
+  "weight": {
+    "hectograms": 1050,
+    "kilograms": 105.0,
+    "pounds": 231.5,
+    "display": "105.0 kg (231.5 lbs)"
+  },
+  "shape": {
+    "id": 12,
+    "slug": "humanoid",
+    "name": "Humanoid",
+    "awesomeName": "Anthropomorphic",
+    "jpName": "人型"
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 130,
+    "defense": 100,
+    "specialAttack": 63,
+    "specialDefense": 60,
+    "speed": 97,
+    "total": 550,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 160,
+          "max": 207
+        },
+        "lv100": {
+          "min": 310,
+          "max": 404
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 121,
+          "max": 200
+        },
+        "lv100": {
+          "min": 238,
+          "max": 394
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 94,
+          "max": 167
+        },
+        "lv100": {
+          "min": 184,
+          "max": 328
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 61,
+          "max": 126
+        },
+        "lv100": {
+          "min": 117,
+          "max": 247
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 91,
+          "max": 163
+        },
+        "lv100": {
+          "min": 179,
+          "max": 322
+        }
+      }
+    }
+  },
+  "baseStatTotal": 550,
+  "typeMatchups": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 2,
+        "slug": "fighting",
+        "name": "Fighting",
+        "jpName": "かくとう"
+      },
+      {
+        "slot": 2,
+        "id": 17,
+        "slug": "dark",
+        "name": "Dark",
+        "jpName": "あく"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 2.0,
+      "psychic": 0.0,
+      "bug": 1.0,
+      "rock": 0.5,
+      "ghost": 0.5,
+      "dragon": 1.0,
+      "dark": 0.25,
+      "steel": 1.0,
+      "fairy": 4.0
+    },
+    "weaknesses4x": [
+      "fairy"
+    ],
+    "weaknesses2x": [
+      "fighting",
+      "flying"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "bug",
+      "dragon",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "rock",
+      "ghost"
+    ],
+    "resistances0_25x": [
+      "dark"
+    ],
+    "immunities0x": [
+      "psychic"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "normal",
+      "ice",
+      "psychic",
+      "rock",
+      "ghost",
+      "dark",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 3
+      }
+    ],
+    "evYieldText": "3 Attack",
+    "evYieldTextJa": "こうげき+3",
+    "catchRate": 3,
+    "pokeBallFullHpPercent": 1.6,
+    "catchRateDisplay": "3 (1.6% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 275,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 15,
+        "slug": "no-eggs",
+        "name": "Undiscovered",
+        "jpName": "タマゴみはっけん"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 87.5,
+      "femalePercent": 12.5,
+      "display": "87.5% Male, 12.5% Female",
+      "displayJa": "♂ 87.5% / ♀ 12.5%"
+    },
+    "eggCycles": {
+      "cycles": 120,
+      "minSteps": 29281,
+      "maxSteps": 31097,
+      "display": "120 (29,281–31,097 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 470,
+    "evolvesFrom": {
+      "speciesId": 891,
+      "dex": 891,
+      "slug": "kubfu",
+      "name": "Kubfu",
+      "jpName": "ダクマ",
+      "conditions": [
+        {
+          "trigger": "tower-of-darkness",
+          "triggerName": "Train in the Tower of Darkness",
+          "minLevel": null,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Train in the Tower of Darkness",
+          "conditionTextJa": "Train in the Tower of Darkness"
+        },
+        {
+          "trigger": "tower-of-waters",
+          "triggerName": "Train in the Tower of Waters",
+          "minLevel": null,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Train in the Tower of Waters",
+          "conditionTextJa": "Train in the Tower of Waters"
+        },
+        {
+          "trigger": "use-item",
+          "triggerName": "Use item",
+          "minLevel": null,
+          "item": "Scroll of Darkness",
+          "itemJp": "あくのかけじく",
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Use Scroll of Darkness",
+          "conditionTextJa": "「あくのかけじく」を使用"
+        },
+        {
+          "trigger": "use-item",
+          "triggerName": "Use item",
+          "minLevel": null,
+          "item": "Scroll of Waters",
+          "itemJp": "みずのかけじく",
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Use Scroll of Waters",
+          "conditionTextJa": "「みずのかけじく」を使用"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 891,
+        "dex": 891,
+        "slug": "kubfu",
+        "name": "Kubfu",
+        "jpName": "ダクマ",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "../pokeSprite/gen8/0891_kubfu/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0891_kubfu/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 892,
+            "dex": 892,
+            "slug": "urshifu",
+            "name": "Urshifu",
+            "jpName": "ウーラオス",
+            "types": [
+              "fighting",
+              "dark"
+            ],
+            "sprite": "../pokeSprite/gen8/0892_urshifu-single-strike/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0892_urshifu-single-strike/normal/back.gif",
+            "condition": "Train in the Tower of Darkness / Train in the Tower of Waters / Use Scroll of Darkness / Use Scroll of Waters",
+            "conditionJa": "Train in the Tower of Darkness / Train in the Tower of Waters / 「あくのかけじく」を使用 / 「みずのかけじく」を使用",
+            "details": [
+              {
+                "trigger": "tower-of-darkness",
+                "triggerName": "Train in the Tower of Darkness",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Train in the Tower of Darkness",
+                "conditionTextJa": "Train in the Tower of Darkness"
+              },
+              {
+                "trigger": "tower-of-waters",
+                "triggerName": "Train in the Tower of Waters",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Train in the Tower of Waters",
+                "conditionTextJa": "Train in the Tower of Waters"
+              },
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Scroll of Darkness",
+                "itemJp": "あくのかけじく",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Scroll of Darkness",
+                "conditionTextJa": "「あくのかけじく」を使用"
+              },
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Scroll of Waters",
+                "itemJp": "みずのかけじく",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Scroll of Waters",
+                "conditionTextJa": "「みずのかけじく」を使用"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [
+        "0892_urshifu-rapid-strike-gmax",
+        "0892_urshifu-single-strike-gmax"
+      ],
+      "regionals": []
+    },
+    "summaryText": "Kubfu --(Train in the Tower of Darkness / Train in the Tower of Waters / Use Scroll of Darkness / Use Scroll of Waters)--> Urshifu",
+    "summaryTextJa": "ダクマ --(Train in the Tower of Darkness / Train in the Tower of Waters / 「あくのかけじく」を使用 / 「みずのかけじく」を使用)--> ウーラオス"
+  },
+  "moves": {
+    "totalUniqueMoves": 62,
+    "levelUp": [
+      {
+        "id": 817,
+        "slug": "wicked-blow",
+        "name": "Wicked Blow",
+        "jpName": "あんこくきょうだ",
+        "type": "dark",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user, having mastered the Dark style, strikes the target with a fierce blow. This move always lands a critical hit.",
+        "jpDescription": "あくの型を 極めし 強烈な 一撃。 必ず 急所に 当たる。",
+        "level": 0
+      },
+      {
+        "id": 43,
+        "slug": "leer",
+        "name": "Leer",
+        "jpName": "にらみつける",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats.",
+        "jpDescription": "鋭い 目つきで おびえさせて 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 116,
+        "slug": "focus-energy",
+        "name": "Focus Energy",
+        "jpName": "きあいだめ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits.",
+        "jpDescription": "深く 息を 吸い 気合を こめる。 自分の 攻撃が 急所に 当たりやすくなる。",
+        "level": 1
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。",
+        "level": 1
+      },
+      {
+        "id": 249,
+        "slug": "rock-smash",
+        "name": "Rock Smash",
+        "jpName": "いわくだき",
+        "type": "fighting",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a punch. This may also lower the target's Defense stat.",
+        "jpDescription": "パンチで 攻撃する。相手の 防御を さげる ことが ある。",
+        "level": 1
+      },
+      {
+        "id": 389,
+        "slug": "sucker-punch",
+        "name": "Sucker Punch",
+        "jpName": "ふいうち",
+        "type": "dark",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 1,
+        "description": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+        "jpDescription": "相手より 先に 攻撃 できる。 相手が だす技が 攻撃技でないと 失敗する。",
+        "level": 1
+      },
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。",
+        "level": 12
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。",
+        "level": 16
+      },
+      {
+        "id": 29,
+        "slug": "headbutt",
+        "name": "Headbutt",
+        "jpName": "ずつき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+        "jpDescription": "頭を 突きだして まっすぐ つっこんで 攻撃する。 相手を ひるませることが ある。",
+        "level": 20
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。",
+        "level": 24
+      },
+      {
+        "id": 197,
+        "slug": "detect",
+        "name": "Detect",
+        "jpName": "みきり",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。",
+        "level": 28
+      },
+      {
+        "id": 339,
+        "slug": "bulk-up",
+        "name": "Bulk Up",
+        "jpName": "ビルドアップ",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tenses its muscles to bulk up its body, boosting its Attack and Defense stats.",
+        "jpDescription": "体に 力を こめて 筋肉を ぶあつく することで 自分の 攻撃と 防御を あげる。",
+        "level": 32
+      },
+      {
+        "id": 442,
+        "slug": "iron-head",
+        "name": "Iron Head",
+        "jpName": "アイアンヘッド",
+        "type": "steel",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+        "jpDescription": "鋼の ような 硬い 頭で 攻撃する。 相手を ひるませることが ある。",
+        "level": 36
+      },
+      {
+        "id": 223,
+        "slug": "dynamic-punch",
+        "name": "Dynamic Punch",
+        "jpName": "ばくれつパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 50,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks by punching the target with full concentrated power. This also confuses the target.",
+        "jpDescription": "こん身の 力で パンチを くりだして 攻撃する。 相手を 必ず 混乱させる。",
+        "level": 40
+      },
+      {
+        "id": 68,
+        "slug": "counter",
+        "name": "Counter",
+        "jpName": "カウンター",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -5,
+        "description": "A retaliatory attack that counters any physical move, inflicting double the damage taken.",
+        "jpDescription": "相手から 受けた 物理攻撃の ダメージを ２倍に して 同じ 相手に 返す。",
+        "level": 44
+      },
+      {
+        "id": 370,
+        "slug": "close-combat",
+        "name": "Close Combat",
+        "jpName": "インファイト",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's Defense and Sp. Def stats.",
+        "jpDescription": "守りを 捨てて 相手の ふところに 突撃する。 自分の 防御と 特防が さがる。",
+        "level": 48
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。",
+        "level": 52
+      }
+    ],
+    "machine": [
+      {
+        "id": 512,
+        "slug": "acrobatics",
+        "name": "Acrobatics",
+        "jpName": "アクロバット",
+        "type": "flying",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item.",
+        "jpDescription": "軽やかに 相手を 攻撃する。 自分が 道具を 持っていないとき 大きな ダメージを 与える。"
+      },
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 396,
+        "slug": "aura-sphere",
+        "name": "Aura Sphere",
+        "jpName": "はどうだん",
+        "type": "fighting",
+        "category": "special",
+        "power": 80,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lets loose a pulse of aura power from deep within its body at the target. This attack never misses.",
+        "jpDescription": "体の 奥から 波導の 力を 相手に うち放つ。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 776,
+        "slug": "body-press",
+        "name": "Body Press",
+        "jpName": "ボディプレス",
+        "type": "fighting",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals.",
+        "jpDescription": "体を ぶつけて 攻撃。 防御が 高いほど 与える ダメージが 増える。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。"
+      },
+      {
+        "id": 339,
+        "slug": "bulk-up",
+        "name": "Bulk Up",
+        "jpName": "ビルドアップ",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tenses its muscles to bulk up its body, boosting its Attack and Defense stats.",
+        "jpDescription": "体に 力を こめて 筋肉を ぶあつく することで 自分の 攻撃と 防御を あげる。"
+      },
+      {
+        "id": 370,
+        "slug": "close-combat",
+        "name": "Close Combat",
+        "jpName": "インファイト",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's Defense and Sp. Def stats.",
+        "jpDescription": "守りを 捨てて 相手の ふところに 突撃する。 自分の 防御と 特防が さがる。"
+      },
+      {
+        "id": 811,
+        "slug": "coaching",
+        "name": "Coaching",
+        "jpName": "コーチング",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
+        "jpDescription": "的確な 指導を おこなうことで 味方 全員の 攻撃と 防御を 上げる。"
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 399,
+        "slug": "dark-pulse",
+        "name": "Dark Pulse",
+        "jpName": "あくのはどう",
+        "type": "dark",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",
+        "jpDescription": "体から 悪意に みちた 恐ろしい オーラを 発する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 409,
+        "slug": "drain-punch",
+        "name": "Drain Punch",
+        "jpName": "ドレインパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks with an energy-draining punch. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "こぶしから 相手の 力を 吸い取る。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 206,
+        "slug": "false-swipe",
+        "name": "False Swipe",
+        "jpName": "みねうち",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+        "jpDescription": "相手の ＨＰが 必ず １だけ 残るように 手加減して 攻撃する。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 374,
+        "slug": "fling",
+        "name": "Fling",
+        "jpName": "なげつける",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+        "jpDescription": "持たせた 道具を 素早く 投げつけて 攻撃する。 道具で 威力と 効果が 変わる。"
+      },
+      {
+        "id": 411,
+        "slug": "focus-blast",
+        "name": "Focus Blast",
+        "jpName": "きあいだま",
+        "type": "fighting",
+        "category": "special",
+        "power": 120,
+        "accuracy": 70,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "気合を 高めて ありったけの 力を 放出する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      },
+      {
+        "id": 442,
+        "slug": "iron-head",
+        "name": "Iron Head",
+        "jpName": "アイアンヘッド",
+        "type": "steel",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+        "jpDescription": "鋼の ような 硬い 頭で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 808,
+        "slug": "lash-out",
+        "name": "Lash Out",
+        "jpName": "うっぷんばらし",
+        "type": "dark",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lashes out to vent its frustration toward the target. This move's power is doubled if the user's stats were lowered during this turn.",
+        "jpDescription": "相手への いらだちを ぶつけて 攻撃。 そのターンに 能力を さげられていると 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 490,
+        "slug": "low-sweep",
+        "name": "Low Sweep",
+        "jpName": "ローキック",
+        "type": "fighting",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+        "jpDescription": "素早い 動きで 相手の 足を ねらって 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 232,
+        "slug": "metal-claw",
+        "name": "Metal Claw",
+        "jpName": "メタルクロー",
+        "type": "steel",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 95,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is raked with steel claws. This may also boost the user's Attack stat.",
+        "jpDescription": "鋼鉄の ツメで 相手を 切り裂いて 攻撃する。 自分の 攻撃が あがることが ある。"
+      },
+      {
+        "id": 398,
+        "slug": "poison-jab",
+        "name": "Poison Jab",
+        "jpName": "どくづき",
+        "type": "poison",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target.",
+        "jpDescription": "毒に そまった 触手や 腕で 相手を 突き刺す。 毒状態に することが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 179,
+        "slug": "reversal",
+        "name": "Reversal",
+        "jpName": "きしかいせい",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "An all-out attack that becomes more powerful the less HP the user has.",
+        "jpDescription": "力を ふりしぼり 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 46,
+        "slug": "roar",
+        "name": "Roar",
+        "jpName": "ほえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 逃がして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 157,
+        "slug": "rock-slide",
+        "name": "Rock Slide",
+        "jpName": "いわなだれ",
+        "type": "rock",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+        "jpDescription": "大きな 岩を 激しく ぶつけて 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 317,
+        "slug": "rock-tomb",
+        "name": "Rock Tomb",
+        "jpName": "がんせきふうじ",
+        "type": "rock",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement.",
+        "jpDescription": "岩石を 投げつけて 攻撃する。 相手の 動きを 封じることで 素早さを さげる。"
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 555,
+        "slug": "snarl",
+        "name": "Snarl",
+        "jpName": "バークアウト",
+        "type": "dark",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+        "jpDescription": "まくしたてる ように 怒鳴りつけて 相手の 特攻を さげる。"
+      },
+      {
+        "id": 444,
+        "slug": "stone-edge",
+        "name": "Stone Edge",
+        "jpName": "ストーンエッジ",
+        "type": "rock",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user stabs the target with sharpened stones. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "とがった 岩を 相手に 突き刺して 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 675,
+        "slug": "throat-chop",
+        "name": "Throat Chop",
+        "jpName": "じごくづき",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target's throat, and the resultant suffering prevents the target from using sound-based moves for two turns.",
+        "jpDescription": "この 技を 受けた 相手は 地獄の 苦しみから ２ターンの間 音の 技を 出すことが できなくなる。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 885,
+        "slug": "trailblaze",
+        "name": "Trailblaze",
+        "jpName": "くさわけ",
+        "type": "grass",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+        "jpDescription": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 811,
+        "slug": "coaching",
+        "name": "Coaching",
+        "jpName": "コーチング",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
+        "jpDescription": "的確な 指導を おこなうことで 味方 全員の 攻撃と 防御を 上げる。"
+      },
+      {
+        "id": 808,
+        "slug": "lash-out",
+        "name": "Lash Out",
+        "jpName": "うっぷんばらし",
+        "type": "dark",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lashes out to vent its frustration toward the target. This move's power is doubled if the user's stats were lowered during this turn.",
+        "jpDescription": "相手への いらだちを ぶつけて 攻撃。 そのターンに 能力を さげられていると 技の 威力が ２倍に なる。"
+      }
+    ]
+  }
+}

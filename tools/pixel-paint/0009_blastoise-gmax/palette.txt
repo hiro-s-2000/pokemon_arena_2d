@@ -1,0 +1,22 @@
+// 0009_blastoise-gmax — hand-painted palette (light from upper-left)
+. transparent
+# 000000
+L 9cc4f8
+B 5a8edc
+b 2a62b8
+d 0c3a6a
+O f08a64
+o c85536
+q 86301c
+S 7e7466
+s 615848
+t 4a4237
+u 2e2821
+W ffffff
+w d0d2da
+g 9a9aa2
+G 4e4e56
+E a8fff0
+e 40c8b8
+C b8f4ff
+c 50b8f4

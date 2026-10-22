@@ -1,0 +1,53 @@
+{
+ "id": "0026_raichu-mega-x",
+ "exported": "2026-10-21T07:27:12.202Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 70,
+   "H": 30,
+   "x0": -3,
+   "y0": -3,
+   "w": 76,
+   "h": 37,
+   "frames": 19
+  },
+  "back": {
+   "W": 72,
+   "H": 31,
+   "x0": -3,
+   "y0": -3,
+   "w": 78,
+   "h": 38,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 29,
+  "how": "base 0026_raichu",
+  "scale": 0.6279,
+  "srcBodyH": 43,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.6,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0026_raichu",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

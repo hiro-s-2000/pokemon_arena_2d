@@ -1,0 +1,53 @@
+{
+ "id": "0531_audino-mega",
+ "exported": "2026-10-21T07:51:41.577Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 30,
+   "H": 30,
+   "x0": -3,
+   "y0": -3,
+   "w": 36,
+   "h": 37,
+   "frames": 19
+  },
+  "back": {
+   "W": 30,
+   "H": 31,
+   "x0": -3,
+   "y0": -3,
+   "w": 36,
+   "h": 38,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 29,
+  "how": "base 0531_audino",
+  "scale": 0.4286,
+  "srcBodyH": 63,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.4,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0531_audino",
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

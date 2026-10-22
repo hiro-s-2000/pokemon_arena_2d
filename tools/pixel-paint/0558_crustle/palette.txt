@@ -1,0 +1,15 @@
+// pixel-paint palette for 0558_crustle. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 393224
+2 6b2918
+3 5a4231
+4 8c6b4a
+5 bd5231
+6 c68c18
+7 ad9c84
+8 ef844a
+9 f7bd3b
+a ffffff

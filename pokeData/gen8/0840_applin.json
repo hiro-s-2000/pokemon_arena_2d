@@ -1,0 +1,645 @@
+{
+  "id": "0840_applin",
+  "pokemonId": 840,
+  "dex": 840,
+  "slug": "applin",
+  "name": "Applin",
+  "jpName": "カジッチュ",
+  "genus": "Apple Core Pokémon",
+  "jpGenus": "りんごぐらしポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0840_applin/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0840_applin/normal/back.gif",
+  "abilities": [
+    {
+      "id": 247,
+      "slug": "ripen",
+      "name": "Ripen",
+      "jpName": "じゅくせい",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Doubles the effect of berries.",
+      "jpDescription": "熟成 させることで きのみの 効果が 倍に なる。"
+    },
+    {
+      "id": 82,
+      "slug": "gluttony",
+      "name": "Gluttony",
+      "jpName": "くいしんぼう",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+      "jpDescription": "ＨＰが 少なくなったら 食べる きのみを ＨＰ 半分の 時に 食べてしまう。"
+    },
+    {
+      "id": 171,
+      "slug": "bulletproof",
+      "name": "Bulletproof",
+      "jpName": "ぼうだん",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against bullet, ball, and bomb-based moves.",
+      "jpDescription": "相手の 弾や 爆弾などの 技を 防ぐことが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 2,
+    "meters": 0.2,
+    "feetInches": "0'08\"",
+    "display": "0.2 m (0'08\")"
+  },
+  "weight": {
+    "hectograms": 5,
+    "kilograms": 0.5,
+    "pounds": 1.1,
+    "display": "0.5 kg (1.1 lbs)"
+  },
+  "shape": {
+    "id": 2,
+    "slug": "squiggle",
+    "name": "Squiggle",
+    "awesomeName": "Caudal",
+    "jpName": "くねくね（蛇型）"
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 20,
+    "total": 260,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 100,
+          "max": 147
+        },
+        "lv100": {
+          "min": 190,
+          "max": 284
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 22,
+          "max": 79
+        },
+        "lv100": {
+          "min": 40,
+          "max": 152
+        }
+      }
+    }
+  },
+  "baseStatTotal": 260,
+  "typeMatchups": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 12,
+        "slug": "grass",
+        "name": "Grass",
+        "jpName": "くさ"
+      },
+      {
+        "slot": 2,
+        "id": 16,
+        "slug": "dragon",
+        "name": "Dragon",
+        "jpName": "ドラゴン"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 0.25,
+      "electric": 0.25,
+      "grass": 0.25,
+      "ice": 4.0,
+      "fighting": 1.0,
+      "poison": 2.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 2.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [
+      "ice"
+    ],
+    "weaknesses2x": [
+      "poison",
+      "flying",
+      "bug",
+      "dragon",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "fighting",
+      "psychic",
+      "rock",
+      "ghost",
+      "dark",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "ground"
+    ],
+    "resistances0_25x": [
+      "water",
+      "electric",
+      "grass"
+    ],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "ground",
+      "rock",
+      "dragon"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "defense",
+        "statName": "Defense",
+        "statJpName": "ぼうぎょ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Defense",
+    "evYieldTextJa": "ぼうぎょ+1",
+    "catchRate": 255,
+    "pokeBallFullHpPercent": 43.9,
+    "catchRateDisplay": "255 (43.9% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 52,
+    "growthRate": {
+      "id": 5,
+      "slug": "slow-then-very-fast",
+      "name": "Erratic",
+      "formula": "\\begin{cases}\n\\frac{ x^3 \\left( 100 - x \\right) }{50},    & \\text{if } x \\leq 50  \\\\\n\\frac{ x^3 \\left( 150 - x \\right) }{100},   & \\text{if } 50 < x \\leq 68  \\\\\n\\frac{ x^3 \\left( 1274 + (x \\bmod 3)^2 - 9 (x \\bmod 3) - 20 \\left\\lfloor \\frac{x}{3} \\right\\rfloor \\right) }{1000}, & \\text{if } 68 < x \\leq 98  \\\\\n\\frac{ x^3 \\left( 160 - x \\right) }{100},   & \\text{if } x > 98  \\\\\n\\end{cases}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 7,
+        "slug": "plant",
+        "name": "Grass",
+        "jpName": "しょくぶつ"
+      },
+      {
+        "id": 14,
+        "slug": "dragon",
+        "name": "Dragon",
+        "jpName": "ドラゴン"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 442,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 841,
+        "dex": 841,
+        "slug": "flapple",
+        "name": "Flapple",
+        "jpName": "アップリュー",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Tart Apple",
+            "itemJp": "すっぱいりんご",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Tart Apple",
+            "conditionTextJa": "「すっぱいりんご」を使用"
+          }
+        ]
+      },
+      {
+        "speciesId": 842,
+        "dex": 842,
+        "slug": "appletun",
+        "name": "Appletun",
+        "jpName": "タルップル",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Sweet Apple",
+            "itemJp": "あまーいりんご",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Sweet Apple",
+            "conditionTextJa": "「あまーいりんご」を使用"
+          }
+        ]
+      },
+      {
+        "speciesId": 1011,
+        "dex": 1011,
+        "slug": "dipplin",
+        "name": "Dipplin",
+        "jpName": "カミッチュ",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Syrupy Apple",
+            "itemJp": "みついりりんご",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Syrupy Apple",
+            "conditionTextJa": "「みついりりんご」を使用"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 840,
+        "dex": 840,
+        "slug": "applin",
+        "name": "Applin",
+        "jpName": "カジッチュ",
+        "types": [
+          "grass",
+          "dragon"
+        ],
+        "sprite": "../pokeSprite/gen8/0840_applin/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0840_applin/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 841,
+            "dex": 841,
+            "slug": "flapple",
+            "name": "Flapple",
+            "jpName": "アップリュー",
+            "types": [
+              "grass",
+              "dragon"
+            ],
+            "sprite": "../pokeSprite/gen8/0841_flapple/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0841_flapple/normal/back.gif",
+            "condition": "Use Tart Apple",
+            "conditionJa": "「すっぱいりんご」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Tart Apple",
+                "itemJp": "すっぱいりんご",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Tart Apple",
+                "conditionTextJa": "「すっぱいりんご」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 842,
+            "dex": 842,
+            "slug": "appletun",
+            "name": "Appletun",
+            "jpName": "タルップル",
+            "types": [
+              "grass",
+              "dragon"
+            ],
+            "sprite": "../pokeSprite/gen8/0842_appletun/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0842_appletun/normal/back.gif",
+            "condition": "Use Sweet Apple",
+            "conditionJa": "「あまーいりんご」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Sweet Apple",
+                "itemJp": "あまーいりんご",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Sweet Apple",
+                "conditionTextJa": "「あまーいりんご」を使用"
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "speciesId": 1011,
+            "dex": 1011,
+            "slug": "dipplin",
+            "name": "Dipplin",
+            "jpName": "カミッチュ",
+            "types": [
+              "grass",
+              "dragon"
+            ],
+            "sprite": "../pokeSprite/gen9/1011_dipplin/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/1011_dipplin/normal/back.gif",
+            "condition": "Use Syrupy Apple",
+            "conditionJa": "「みついりりんご」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Syrupy Apple",
+                "itemJp": "みついりりんご",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Syrupy Apple",
+                "conditionTextJa": "「みついりりんご」を使用"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 1019,
+                "dex": 1019,
+                "slug": "hydrapple",
+                "name": "Hydrapple",
+                "jpName": "カミツオロチ",
+                "types": [
+                  "grass",
+                  "dragon"
+                ],
+                "sprite": "../pokeSprite/gen9/1019_hydrapple/normal/front.gif",
+                "backSprite": "../pokeSprite/gen9/1019_hydrapple/normal/back.gif",
+                "condition": "Level up knowing Dragon Cheer",
+                "conditionJa": "レベルアップ（「ドラゴンエール」を習得）",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": null,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": "Dragon Cheer",
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level up knowing Dragon Cheer",
+                    "conditionTextJa": "レベルアップ（「ドラゴンエール」を習得）"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Applin --(Use Tart Apple)--> Flapple | Applin --(Use Sweet Apple)--> Appletun | Applin --(Use Syrupy Apple)--> Dipplin --(Level up knowing Dragon Cheer)--> Hydrapple",
+    "summaryTextJa": "カジッチュ --(「すっぱいりんご」を使用)--> アップリュー | カジッチュ --(「あまーいりんご」を使用)--> タルップル | カジッチュ --(「みついりりんご」を使用)--> カミッチュ --(レベルアップ（「ドラゴンエール」を習得）)--> カミツオロチ"
+  },
+  "moves": {
+    "totalUniqueMoves": 10,
+    "levelUp": [
+      {
+        "id": 110,
+        "slug": "withdraw",
+        "name": "Withdraw",
+        "jpName": "からにこもる",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user withdraws its body into its hard shell, boosting its Defense stat.",
+        "jpDescription": "殻に 潜りこんで 身を守り 自分の 防御を あげる。",
+        "level": 1
+      },
+      {
+        "id": 310,
+        "slug": "astonish",
+        "name": "Astonish",
+        "jpName": "おどろかす",
+        "type": "ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
+        "jpDescription": "大きな 声などで 不意に 驚かして 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      }
+    ],
+    "machine": [
+      {
+        "id": 884,
+        "slug": "pounce",
+        "name": "Pounce",
+        "jpName": "とびつく",
+        "type": "bug",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
+        "jpDescription": "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      }
+    ],
+    "egg": [
+      {
+        "id": 111,
+        "slug": "defense-curl",
+        "name": "Defense Curl",
+        "jpName": "まるくなる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user curls up and boosts its Defense stat.",
+        "jpDescription": "体を まるめて ちぢこまり 自分の 防御を あげる。"
+      },
+      {
+        "id": 278,
+        "slug": "recycle",
+        "name": "Recycle",
+        "jpName": "リサイクル",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user recycles a held item that has been used in battle so it can be used again.",
+        "jpDescription": "戦闘中に 使って なくなった 自分の 持ち物を 再生させて 使えるように する。"
+      },
+      {
+        "id": 205,
+        "slug": "rollout",
+        "name": "Rollout",
+        "jpName": "ころがる",
+        "type": "rock",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits.",
+        "jpDescription": "５ターンの 間 転がり続けて 攻撃する。 技が 当たるたびに 威力が あがる。"
+      },
+      {
+        "id": 389,
+        "slug": "sucker-punch",
+        "name": "Sucker Punch",
+        "jpName": "ふいうち",
+        "type": "dark",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 1,
+        "description": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+        "jpDescription": "相手より 先に 攻撃 できる。 相手が だす技が 攻撃技でないと 失敗する。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 434,
+        "slug": "draco-meteor",
+        "name": "Draco Meteor",
+        "jpName": "りゅうせいぐん",
+        "type": "dragon",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat.",
+        "jpDescription": "天空から 隕石を 相手に 落とす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      }
+    ]
+  }
+}

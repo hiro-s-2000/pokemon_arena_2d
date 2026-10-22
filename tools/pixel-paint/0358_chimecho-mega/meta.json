@@ -1,0 +1,53 @@
+{
+ "id": "0358_chimecho-mega",
+ "exported": "2026-10-21T07:51:38.765Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 38,
+   "H": 31,
+   "x0": -3,
+   "y0": -3,
+   "w": 43,
+   "h": 38,
+   "frames": 19
+  },
+  "back": {
+   "W": 38,
+   "H": 31,
+   "x0": -2,
+   "y0": -3,
+   "w": 43,
+   "h": 38,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 30,
+  "how": "base 0358_chimecho",
+  "scale": 0.35,
+  "srcBodyH": 80,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0358_chimecho",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

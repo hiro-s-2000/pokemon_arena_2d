@@ -1,0 +1,15 @@
+// pixel-paint palette for 1020_gouging-fire. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 522903
+2 7b3c25
+3 a65024
+4 707d8f
+5 3aab4a
+6 bc8810
+7 cfa45d
+8 a9b9bf
+9 f1d629
+a f7f1b4

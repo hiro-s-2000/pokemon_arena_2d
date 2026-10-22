@@ -1,0 +1,22 @@
+// carkol hand-painted palette
+. transparent
+# 000000
+k 1c1517
+m 322729
+l 4a3a3c
+h 6b5456
+r b8361f
+o f2742a
+y ffd04a
+e 2a2a2e
+f 3d3d42
+g 57575d
+w f6f6f6
+R e33b2e
+A 7d786f
+B 615e57
+C 4a4743
+D 35332f
+F 3a2b27
+G 5e463f
+s 6e2a1c

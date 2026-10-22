@@ -1,0 +1,3368 @@
+{
+  "1": {
+    "id": 1,
+    "slug": "stench",
+    "name": "Stench",
+    "jpName": "あくしゅう",
+    "shortEffect": "Has a 10% chance of making target Pokémon flinch with each hit.",
+    "flavorTextEn": "By releasing a stench when attacking, the Pokémon may cause the target to flinch.",
+    "flavorTextJa": "臭い においを 放つことによって 攻撃した ときに 相手を ひるませることが ある。"
+  },
+  "2": {
+    "id": 2,
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "jpName": "あめふらし",
+    "shortEffect": "Summons rain that lasts indefinitely upon entering battle.",
+    "flavorTextEn": "The Pokémon makes it rain when it enters a battle.",
+    "flavorTextJa": "登場 したときに 天気を 雨に する。"
+  },
+  "3": {
+    "id": 3,
+    "slug": "speed-boost",
+    "name": "Speed Boost",
+    "jpName": "かそく",
+    "shortEffect": "Raises Speed one stage after each turn.",
+    "flavorTextEn": "The Pokémon's Speed stat is boosted every turn.",
+    "flavorTextJa": "毎ターン 素早さが 上がる。"
+  },
+  "4": {
+    "id": 4,
+    "slug": "battle-armor",
+    "name": "Battle Armor",
+    "jpName": "カブトアーマー",
+    "shortEffect": "Protects against critical hits.",
+    "flavorTextEn": "Hard armor protects the Pokémon from critical hits.",
+    "flavorTextJa": "硬い 甲羅に 守られて 相手の 攻撃が 急所に 当たらない。"
+  },
+  "5": {
+    "id": 5,
+    "slug": "sturdy",
+    "name": "Sturdy",
+    "jpName": "がんじょう",
+    "shortEffect": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+    "flavorTextEn": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
+    "flavorTextJa": "相手の 技を 受けても 一撃で 倒されることが ない。 一撃必殺技も 効かない。"
+  },
+  "6": {
+    "id": 6,
+    "slug": "damp",
+    "name": "Damp",
+    "jpName": "しめりけ",
+    "shortEffect": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle.",
+    "flavorTextEn": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct.",
+    "flavorTextJa": "あたりを 湿らせることに よって じばく などの 爆発する 技を だれも 使えなくなる。"
+  },
+  "7": {
+    "id": 7,
+    "slug": "limber",
+    "name": "Limber",
+    "jpName": "じゅうなん",
+    "shortEffect": "Prevents paralysis.",
+    "flavorTextEn": "The Pokémon's limber body prevents it from being paralyzed.",
+    "flavorTextJa": "柔軟な 体によって まひ状態に ならない。"
+  },
+  "8": {
+    "id": 8,
+    "slug": "sand-veil",
+    "name": "Sand Veil",
+    "jpName": "すながくれ",
+    "shortEffect": "Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.",
+    "flavorTextEn": "Boosts the Pokémon's evasiveness in a sandstorm.",
+    "flavorTextJa": "砂あらしの とき 回避率が 上がる。"
+  },
+  "9": {
+    "id": 9,
+    "slug": "static",
+    "name": "Static",
+    "jpName": "せいでんき",
+    "shortEffect": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+    "flavorTextEn": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
+    "flavorTextJa": "静電気を 体に まとい 触った 相手を まひさせる ことがある。"
+  },
+  "10": {
+    "id": 10,
+    "slug": "volt-absorb",
+    "name": "Volt Absorb",
+    "jpName": "ちくでん",
+    "shortEffect": "Absorbs Electric moves, healing for 1/4 max HP.",
+    "flavorTextEn": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage.",
+    "flavorTextJa": "でんきタイプの 技を 受けると ダメージを 受けずに 回復する。"
+  },
+  "11": {
+    "id": 11,
+    "slug": "water-absorb",
+    "name": "Water Absorb",
+    "jpName": "ちょすい",
+    "shortEffect": "Absorbs Water moves, healing for 1/4 max HP.",
+    "flavorTextEn": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.",
+    "flavorTextJa": "みずタイプの 技を 受けると ダメージを 受けずに 回復する。"
+  },
+  "12": {
+    "id": 12,
+    "slug": "oblivious",
+    "name": "Oblivious",
+    "jpName": "どんかん",
+    "shortEffect": "Prevents infatuation and protects against Captivate.",
+    "flavorTextEn": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate.",
+    "flavorTextJa": "鈍感なので メロメロや ちょうはつ状態に ならない。"
+  },
+  "13": {
+    "id": 13,
+    "slug": "cloud-nine",
+    "name": "Cloud Nine",
+    "jpName": "ノーてんき",
+    "shortEffect": "Negates all effects of weather, but does not prevent the weather itself.",
+    "flavorTextEn": "Eliminates the effects of weather.",
+    "flavorTextJa": "あらゆる 天気の 影響が なくなって しまう。"
+  },
+  "14": {
+    "id": 14,
+    "slug": "compound-eyes",
+    "name": "Compound Eyes",
+    "jpName": "ふくがん",
+    "shortEffect": "Increases moves' accuracy to 1.3×.",
+    "flavorTextEn": "The Pokémon's compound eyes boost its accuracy.",
+    "flavorTextJa": "複眼を 持っているため 技の 命中率が 上がる。"
+  },
+  "15": {
+    "id": 15,
+    "slug": "insomnia",
+    "name": "Insomnia",
+    "jpName": "ふみん",
+    "shortEffect": "Prevents sleep.",
+    "flavorTextEn": "The Pokémon's insomnia prevents it from falling asleep.",
+    "flavorTextJa": "眠れない 体質 なので ねむり状態に ならない。"
+  },
+  "16": {
+    "id": 16,
+    "slug": "color-change",
+    "name": "Color Change",
+    "jpName": "へんしょく",
+    "shortEffect": "Changes type to match when hit by a damaging move.",
+    "flavorTextEn": "The Pokémon’s type becomes the type of the move used on it.",
+    "flavorTextJa": "相手から 受けた 技の タイプに 自分の タイプが 変化 する。"
+  },
+  "17": {
+    "id": 17,
+    "slug": "immunity",
+    "name": "Immunity",
+    "jpName": "めんえき",
+    "shortEffect": "Prevents poison.",
+    "flavorTextEn": "The Pokémon's immune system prevents it from being poisoned.",
+    "flavorTextJa": "体内に 免疫を 持っているため どく状態に ならない。"
+  },
+  "18": {
+    "id": 18,
+    "slug": "flash-fire",
+    "name": "Flash Fire",
+    "jpName": "もらいび",
+    "shortEffect": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+    "flavorTextEn": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves.",
+    "flavorTextJa": "ほのおタイプの 技を 受けると 炎を もらい 自分が 出す ほのおタイプの 技が 強くなる。"
+  },
+  "19": {
+    "id": 19,
+    "slug": "shield-dust",
+    "name": "Shield Dust",
+    "jpName": "りんぷん",
+    "shortEffect": "Protects against incoming moves' extra effects.",
+    "flavorTextEn": "Protective dust shields the Pokémon from the additional effects of moves.",
+    "flavorTextJa": "りんぷんに 守られて 技の 追加効果を 受けなくなる。"
+  },
+  "20": {
+    "id": 20,
+    "slug": "own-tempo",
+    "name": "Own Tempo",
+    "jpName": "マイペース",
+    "shortEffect": "Prevents confusion.",
+    "flavorTextEn": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate.",
+    "flavorTextJa": "マイペースなので こんらん状態に ならない。"
+  },
+  "21": {
+    "id": 21,
+    "slug": "suction-cups",
+    "name": "Suction Cups",
+    "jpName": "きゅうばん",
+    "shortEffect": "Prevents being forced out of battle by other Pokémon's moves.",
+    "flavorTextEn": "The Pokémon uses suction cups to stay in one spot. This protects it from moves and items that would force it to switch out.",
+    "flavorTextJa": "吸盤で 地面に 張り付き ポケモンを 入れ替えさせる 技や 道具が 効かなくなる。"
+  },
+  "22": {
+    "id": 22,
+    "slug": "intimidate",
+    "name": "Intimidate",
+    "jpName": "いかく",
+    "shortEffect": "Lowers opponents' Attack one stage upon entering battle.",
+    "flavorTextEn": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.",
+    "flavorTextJa": "登場 したとき 威嚇して 相手を 萎縮させ 相手の 攻撃を 下げて しまう。"
+  },
+  "23": {
+    "id": 23,
+    "slug": "shadow-tag",
+    "name": "Shadow Tag",
+    "jpName": "かげふみ",
+    "shortEffect": "Prevents opponents from fleeing or switching out.",
+    "flavorTextEn": "The Pokémon steps on the opposing Pokémon's shadows to prevent them from fleeing or switching out.",
+    "flavorTextJa": "相手の 影を 踏み 逃げたり 交代 できなくする。"
+  },
+  "24": {
+    "id": 24,
+    "slug": "rough-skin",
+    "name": "Rough Skin",
+    "jpName": "さめはだ",
+    "shortEffect": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+    "flavorTextEn": "The Pokémon's rough skin damages attackers that make direct contact with it.",
+    "flavorTextJa": "攻撃を 受けたとき 自分に 触れた 相手を ざらざらの 肌で キズつける。"
+  },
+  "25": {
+    "id": 25,
+    "slug": "wonder-guard",
+    "name": "Wonder Guard",
+    "jpName": "ふしぎなまもり",
+    "shortEffect": "Protects against damaging moves that are not super effective.",
+    "flavorTextEn": "Its mysterious power only lets supereffective moves hit the Pokémon.",
+    "flavorTextJa": "効果バツグンの 技しか 当たらない 不思議な 力。"
+  },
+  "26": {
+    "id": 26,
+    "slug": "levitate",
+    "name": "Levitate",
+    "jpName": "ふゆう",
+    "shortEffect": "Evades Ground moves.",
+    "flavorTextEn": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves.",
+    "flavorTextJa": "地面から 浮くことによって じめんタイプの 技を 受けない。"
+  },
+  "27": {
+    "id": 27,
+    "slug": "effect-spore",
+    "name": "Effect Spore",
+    "jpName": "ほうし",
+    "shortEffect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+    "flavorTextEn": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker.",
+    "flavorTextJa": "攻撃で 自分に 触れた 相手を どくや まひや ねむり状態に する ことがある。"
+  },
+  "28": {
+    "id": 28,
+    "slug": "synchronize",
+    "name": "Synchronize",
+    "jpName": "シンクロ",
+    "shortEffect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+    "flavorTextEn": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition.",
+    "flavorTextJa": "自分が なってしまった どくや まひや やけどを 相手に うつす。"
+  },
+  "29": {
+    "id": 29,
+    "slug": "clear-body",
+    "name": "Clear Body",
+    "jpName": "クリアボディ",
+    "shortEffect": "Prevents stats from being lowered by other Pokémon.",
+    "flavorTextEn": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.",
+    "flavorTextJa": "相手の 技や 特性で 能力を 下げられない。"
+  },
+  "30": {
+    "id": 30,
+    "slug": "natural-cure",
+    "name": "Natural Cure",
+    "jpName": "しぜんかいふく",
+    "shortEffect": "Cures any major status ailment upon switching out.",
+    "flavorTextEn": "The Pokémon's status conditions are cured when it switches out.",
+    "flavorTextJa": "手持ちに ひっこむと 状態異常が 治る。"
+  },
+  "31": {
+    "id": 31,
+    "slug": "lightning-rod",
+    "name": "Lightning Rod",
+    "jpName": "ひらいしん",
+    "shortEffect": "Redirects single-target Electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",
+    "flavorTextEn": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted.",
+    "flavorTextJa": "でんきタイプの 技を 自分に 寄せつけ ダメージを 受けずに 特攻が 上がる。"
+  },
+  "32": {
+    "id": 32,
+    "slug": "serene-grace",
+    "name": "Serene Grace",
+    "jpName": "てんのめぐみ",
+    "shortEffect": "Doubles the chance of moves' extra effects occurring.",
+    "flavorTextEn": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves.",
+    "flavorTextJa": "天の恵みの おかげで 技の 追加効果が でやすい。"
+  },
+  "33": {
+    "id": 33,
+    "slug": "swift-swim",
+    "name": "Swift Swim",
+    "jpName": "すいすい",
+    "shortEffect": "Doubles Speed during rain.",
+    "flavorTextEn": "Boosts the Pokémon's Speed stat in rain.",
+    "flavorTextJa": "天気が 雨のとき 素早さが 上がる。"
+  },
+  "34": {
+    "id": 34,
+    "slug": "chlorophyll",
+    "name": "Chlorophyll",
+    "jpName": "ようりょくそ",
+    "shortEffect": "Doubles Speed during strong sunlight.",
+    "flavorTextEn": "Boosts the Pokémon's Speed stat in harsh sunlight.",
+    "flavorTextJa": "天気が 晴れのとき 素早さが 上がる。"
+  },
+  "35": {
+    "id": 35,
+    "slug": "illuminate",
+    "name": "Illuminate",
+    "jpName": "はっこう",
+    "shortEffect": "Doubles the wild encounter rate.",
+    "flavorTextEn": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered.",
+    "flavorTextJa": "あたりを 明るくする ことで 野生の ポケモンに 遭遇 しやすくなる。"
+  },
+  "36": {
+    "id": 36,
+    "slug": "trace",
+    "name": "Trace",
+    "jpName": "トレース",
+    "shortEffect": "Copies an opponent's ability upon entering battle.",
+    "flavorTextEn": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.",
+    "flavorTextJa": "登場 したとき 相手の 特性を トレースして 同じ 特性に なる。"
+  },
+  "37": {
+    "id": 37,
+    "slug": "huge-power",
+    "name": "Huge Power",
+    "jpName": "ちからもち",
+    "shortEffect": "Doubles Attack in battle.",
+    "flavorTextEn": "Doubles the Pokémon's Attack stat.",
+    "flavorTextJa": "物理攻撃の 威力が ２倍になる。"
+  },
+  "38": {
+    "id": 38,
+    "slug": "poison-point",
+    "name": "Poison Point",
+    "jpName": "どくのトゲ",
+    "shortEffect": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+    "flavorTextEn": "Contact with the Pokémon may poison the attacker.",
+    "flavorTextJa": "自分に 触った 相手を どく状態に することがある。"
+  },
+  "39": {
+    "id": 39,
+    "slug": "inner-focus",
+    "name": "Inner Focus",
+    "jpName": "せいしんりょく",
+    "shortEffect": "Prevents flinching.",
+    "flavorTextEn": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate.",
+    "flavorTextJa": "鍛えられた 精神に よって 相手の 攻撃に ひるまない。"
+  },
+  "40": {
+    "id": 40,
+    "slug": "magma-armor",
+    "name": "Magma Armor",
+    "jpName": "マグマのよろい",
+    "shortEffect": "Prevents freezing.",
+    "flavorTextEn": "The Pokémon’s hot magma coating prevents it from being frozen.",
+    "flavorTextJa": "熱い マグマを 身にまとい こおり状態に ならない。"
+  },
+  "41": {
+    "id": 41,
+    "slug": "water-veil",
+    "name": "Water Veil",
+    "jpName": "みずのベール",
+    "shortEffect": "Prevents burns.",
+    "flavorTextEn": "The Pokémon's water veil prevents it from being burned.",
+    "flavorTextJa": "水のベールを 身にまとい やけど状態に ならない。"
+  },
+  "42": {
+    "id": 42,
+    "slug": "magnet-pull",
+    "name": "Magnet Pull",
+    "jpName": "じりょく",
+    "shortEffect": "Prevents Steel opponents from fleeing or switching out.",
+    "flavorTextEn": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism.",
+    "flavorTextJa": "はがねタイプの ポケモンを 磁力で 引きつけて 逃げられなくする。"
+  },
+  "43": {
+    "id": 43,
+    "slug": "soundproof",
+    "name": "Soundproof",
+    "jpName": "ぼうおん",
+    "shortEffect": "Protects against sound-based moves.",
+    "flavorTextEn": "Soundproofing gives the Pokémon full immunity to all sound-based moves.",
+    "flavorTextJa": "音を 遮断 することに よって 音の 攻撃を 受けない。"
+  },
+  "44": {
+    "id": 44,
+    "slug": "rain-dish",
+    "name": "Rain Dish",
+    "jpName": "あめうけざら",
+    "shortEffect": "Heals for 1/16 max HP after each turn during rain.",
+    "flavorTextEn": "The Pokémon gradually regains HP in rain.",
+    "flavorTextJa": "天気が 雨のとき 少しずつ ＨＰを 回復する。"
+  },
+  "45": {
+    "id": 45,
+    "slug": "sand-stream",
+    "name": "Sand Stream",
+    "jpName": "すなおこし",
+    "shortEffect": "Summons a sandstorm that lasts indefinitely upon entering battle.",
+    "flavorTextEn": "The Pokémon summons a sandstorm when it enters a battle.",
+    "flavorTextJa": "登場 したとき 天気を 砂あらしにする。"
+  },
+  "46": {
+    "id": 46,
+    "slug": "pressure",
+    "name": "Pressure",
+    "jpName": "プレッシャー",
+    "shortEffect": "Increases the PP cost of moves targetting the Pokémon by one.",
+    "flavorTextEn": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves.",
+    "flavorTextJa": "プレッシャーを あたえて 相手の 使う 技の ＰＰを 多く 減らす。"
+  },
+  "47": {
+    "id": 47,
+    "slug": "thick-fat",
+    "name": "Thick Fat",
+    "jpName": "あついしぼう",
+    "shortEffect": "Halves damage from Fire and Ice moves.",
+    "flavorTextEn": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+    "flavorTextJa": "厚い 脂肪で 守られているので ほのおタイプと こおりタイプの 技の ダメージを 半減させる。"
+  },
+  "48": {
+    "id": 48,
+    "slug": "early-bird",
+    "name": "Early Bird",
+    "jpName": "はやおき",
+    "shortEffect": "Makes sleep pass twice as quickly.",
+    "flavorTextEn": "The Pokémon awakens from sleep twice as fast as other Pokémon.",
+    "flavorTextJa": "ねむり状態に なっても ２倍の 早さで 目覚める ことが できる。"
+  },
+  "49": {
+    "id": 49,
+    "slug": "flame-body",
+    "name": "Flame Body",
+    "jpName": "ほのおのからだ",
+    "shortEffect": "Has a 30% chance of burning attacking Pokémon on contact.",
+    "flavorTextEn": "Contact with the Pokémon may burn the attacker.",
+    "flavorTextJa": "自分に 触った 相手を やけど状態に する ことがある。"
+  },
+  "50": {
+    "id": 50,
+    "slug": "run-away",
+    "name": "Run Away",
+    "jpName": "にげあし",
+    "shortEffect": "Ensures success fleeing from wild battles.",
+    "flavorTextEn": "Enables a sure getaway from wild Pokémon.",
+    "flavorTextJa": "野生の ポケモンから 必ず 逃げられる。"
+  },
+  "51": {
+    "id": 51,
+    "slug": "keen-eye",
+    "name": "Keen Eye",
+    "jpName": "するどいめ",
+    "shortEffect": "Prevents accuracy from being lowered.",
+    "flavorTextEn": "The Pokémon's keen eyes prevent its accuracy from being lowered.",
+    "flavorTextJa": "鋭い 目の おかげで 命中率を 下げられない。"
+  },
+  "52": {
+    "id": 52,
+    "slug": "hyper-cutter",
+    "name": "Hyper Cutter",
+    "jpName": "かいりきバサミ",
+    "shortEffect": "Prevents Attack from being lowered by other Pokémon.",
+    "flavorTextEn": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat.",
+    "flavorTextJa": "力自慢の ハサミを 持っているので 相手に 攻撃を 下げられない。"
+  },
+  "53": {
+    "id": 53,
+    "slug": "pickup",
+    "name": "Pickup",
+    "jpName": "ものひろい",
+    "shortEffect": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
+    "flavorTextEn": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too.",
+    "flavorTextJa": "相手の 使った 道具を 拾ってくることが ある。 冒険中も 拾ってくる。"
+  },
+  "54": {
+    "id": 54,
+    "slug": "truant",
+    "name": "Truant",
+    "jpName": "なまけ",
+    "shortEffect": "Skips every second turn.",
+    "flavorTextEn": "Each time the Pokémon uses a move, it spends the next turn loafing around.",
+    "flavorTextJa": "技を 出すと 次の ターンは 休んでしまう。"
+  },
+  "55": {
+    "id": 55,
+    "slug": "hustle",
+    "name": "Hustle",
+    "jpName": "はりきり",
+    "shortEffect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+    "flavorTextEn": "Boosts the Pokémon's Attack stat but lowers its accuracy.",
+    "flavorTextJa": "自分の 攻撃が 高くなるが 命中率が 下がる。"
+  },
+  "56": {
+    "id": 56,
+    "slug": "cute-charm",
+    "name": "Cute Charm",
+    "jpName": "メロメロボディ",
+    "shortEffect": "Has a 30% chance of infatuating attacking Pokémon on contact.",
+    "flavorTextEn": "The Pokémon may infatuate attackers that make direct contact with it.",
+    "flavorTextJa": "自分に 触った 相手を メロメロに することが ある。"
+  },
+  "57": {
+    "id": 57,
+    "slug": "plus",
+    "name": "Plus",
+    "jpName": "プラス",
+    "shortEffect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+    "flavorTextEn": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+    "flavorTextJa": "プラスか マイナスの 特性を 持つ ポケモンが 仲間に いると 自分の 特攻が 上がる。"
+  },
+  "58": {
+    "id": 58,
+    "slug": "minus",
+    "name": "Minus",
+    "jpName": "マイナス",
+    "shortEffect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+    "flavorTextEn": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+    "flavorTextJa": "プラスか マイナスの 特性を 持つ ポケモンが 仲間に いると 自分の 特攻が 上がる。"
+  },
+  "59": {
+    "id": 59,
+    "slug": "forecast",
+    "name": "Forecast",
+    "jpName": "てんきや",
+    "shortEffect": "Changes Castform's type and form to match the weather.",
+    "flavorTextEn": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice.",
+    "flavorTextJa": "天気の 影響を 受けて みずタイプ ほのおタイプ こおりタイプの どれかに 変化する。"
+  },
+  "60": {
+    "id": 60,
+    "slug": "sticky-hold",
+    "name": "Sticky Hold",
+    "jpName": "ねんちゃく",
+    "shortEffect": "Prevents a held item from being removed by other Pokémon.",
+    "flavorTextEn": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon.",
+    "flavorTextJa": "粘着質の 体に 道具が くっついているため 相手に 道具を 奪われない。"
+  },
+  "61": {
+    "id": 61,
+    "slug": "shed-skin",
+    "name": "Shed Skin",
+    "jpName": "だっぴ",
+    "shortEffect": "Has a 33% chance of curing any major status ailment after each turn.",
+    "flavorTextEn": "The Pokémon may cure its own status conditions by shedding its skin.",
+    "flavorTextJa": "体の 皮を 脱ぎ捨てることで 状態異常を 治すことが ある。"
+  },
+  "62": {
+    "id": 62,
+    "slug": "guts",
+    "name": "Guts",
+    "jpName": "こんじょう",
+    "shortEffect": "Increases Attack to 1.5× with a major status ailment.",
+    "flavorTextEn": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
+    "flavorTextJa": "状態異常に なると 根性を だして 攻撃が 上がる。"
+  },
+  "63": {
+    "id": 63,
+    "slug": "marvel-scale",
+    "name": "Marvel Scale",
+    "jpName": "ふしぎなうろこ",
+    "shortEffect": "Increases Defense to 1.5× with a major status ailment.",
+    "flavorTextEn": "The Pokémon's marvelous scales boost its Defense stat if it has a status condition.",
+    "flavorTextJa": "状態異常に なると 不思議なウロコが 反応して 防御が 上がる。"
+  },
+  "64": {
+    "id": 64,
+    "slug": "liquid-ooze",
+    "name": "Liquid Ooze",
+    "jpName": "ヘドロえき",
+    "shortEffect": "Damages opponents using leeching moves for as much as they would heal.",
+    "flavorTextEn": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves.",
+    "flavorTextJa": "ヘドロ液を 吸い取った 相手は 強烈な 悪臭で ダメージを 受けて ＨＰを 減らす。"
+  },
+  "65": {
+    "id": 65,
+    "slug": "overgrow",
+    "name": "Overgrow",
+    "jpName": "しんりょく",
+    "shortEffect": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "flavorTextEn": "Powers up Grass-type moves when the Pokémon's HP is low.",
+    "flavorTextJa": "ＨＰが 減ったとき くさタイプの 技の 威力が 上がる。"
+  },
+  "66": {
+    "id": 66,
+    "slug": "blaze",
+    "name": "Blaze",
+    "jpName": "もうか",
+    "shortEffect": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "flavorTextEn": "Powers up Fire-type moves when the Pokémon's HP is low.",
+    "flavorTextJa": "ＨＰが 減ったとき ほのおタイプの 技の 威力が 上がる。"
+  },
+  "67": {
+    "id": 67,
+    "slug": "torrent",
+    "name": "Torrent",
+    "jpName": "げきりゅう",
+    "shortEffect": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "flavorTextEn": "Powers up Water-type moves when the Pokémon's HP is low.",
+    "flavorTextJa": "ＨＰが 減ったとき みずタイプの 技の 威力が 上がる。"
+  },
+  "68": {
+    "id": 68,
+    "slug": "swarm",
+    "name": "Swarm",
+    "jpName": "むしのしらせ",
+    "shortEffect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+    "flavorTextEn": "Powers up Bug-type moves when the Pokémon's HP is low.",
+    "flavorTextJa": "ＨＰが 減ったとき むしタイプの 技の 威力が 上がる。"
+  },
+  "69": {
+    "id": 69,
+    "slug": "rock-head",
+    "name": "Rock Head",
+    "jpName": "いしあたま",
+    "shortEffect": "Protects against recoil damage.",
+    "flavorTextEn": "Protects the Pokémon from recoil damage.",
+    "flavorTextJa": "反動を 受ける 技を 出しても ＨＰが 減らない。"
+  },
+  "70": {
+    "id": 70,
+    "slug": "drought",
+    "name": "Drought",
+    "jpName": "ひでり",
+    "shortEffect": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+    "flavorTextEn": "Turns the sunlight harsh when the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに 天気を 晴れに する。"
+  },
+  "71": {
+    "id": 71,
+    "slug": "arena-trap",
+    "name": "Arena Trap",
+    "jpName": "ありじごく",
+    "shortEffect": "Prevents opponents from fleeing or switching out. Eluded by Flying-types and Pokémon in the air.",
+    "flavorTextEn": "Prevents opposing Pokémon from fleeing from battle.",
+    "flavorTextJa": "戦闘で 相手を 逃げられなくする。"
+  },
+  "72": {
+    "id": 72,
+    "slug": "vital-spirit",
+    "name": "Vital Spirit",
+    "jpName": "やるき",
+    "shortEffect": "Prevents sleep.",
+    "flavorTextEn": "The Pokémon is full of vitality, and that prevents it from falling asleep.",
+    "flavorTextJa": "やる気を だすことに よって ねむり状態に ならない。"
+  },
+  "73": {
+    "id": 73,
+    "slug": "white-smoke",
+    "name": "White Smoke",
+    "jpName": "しろいけむり",
+    "shortEffect": "Prevents stats from being lowered by other Pokémon.",
+    "flavorTextEn": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats.",
+    "flavorTextJa": "白い煙に 守られて 相手に 能力を 下げられない。"
+  },
+  "74": {
+    "id": 74,
+    "slug": "pure-power",
+    "name": "Pure Power",
+    "jpName": "ヨガパワー",
+    "shortEffect": "Doubles Attack in battle.",
+    "flavorTextEn": "Using its pure power, the Pokémon doubles its Attack stat.",
+    "flavorTextJa": "ヨガの 力で 物理攻撃の 威力が ２倍に なる。"
+  },
+  "75": {
+    "id": 75,
+    "slug": "shell-armor",
+    "name": "Shell Armor",
+    "jpName": "シェルアーマー",
+    "shortEffect": "Protects against critical hits.",
+    "flavorTextEn": "A hard shell protects the Pokémon from critical hits.",
+    "flavorTextJa": "硬い 殻に 守られ 相手の 攻撃が 急所に 当たらない。"
+  },
+  "76": {
+    "id": 76,
+    "slug": "air-lock",
+    "name": "Air Lock",
+    "jpName": "エアロック",
+    "shortEffect": "Negates all effects of weather, but does not prevent the weather itself.",
+    "flavorTextEn": "Eliminates the effects of weather.",
+    "flavorTextJa": "あらゆる 天気の 影響が 消えて しまう。"
+  },
+  "77": {
+    "id": 77,
+    "slug": "tangled-feet",
+    "name": "Tangled Feet",
+    "jpName": "ちどりあし",
+    "shortEffect": "Doubles evasion when confused.",
+    "flavorTextEn": "Boosts the Pokémon's evasiveness if it is confused.",
+    "flavorTextJa": "こんらん状態の ときは 回避率が アップする。"
+  },
+  "78": {
+    "id": 78,
+    "slug": "motor-drive",
+    "name": "Motor Drive",
+    "jpName": "でんきエンジン",
+    "shortEffect": "Absorbs Electric moves, raising Speed one stage.",
+    "flavorTextEn": "The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted.",
+    "flavorTextJa": "でんきタイプの 技を 受けると ダメージを 受けずに 素早さが 上がる。"
+  },
+  "79": {
+    "id": 79,
+    "slug": "rivalry",
+    "name": "Rivalry",
+    "jpName": "とうそうしん",
+    "shortEffect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+    "flavorTextEn": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender.",
+    "flavorTextJa": "性別が 同じだと 闘争心を 燃やして 強くなる。 性別が 違うと 弱くなる。"
+  },
+  "80": {
+    "id": 80,
+    "slug": "steadfast",
+    "name": "Steadfast",
+    "jpName": "ふくつのこころ",
+    "shortEffect": "Raises Speed one stage upon flinching.",
+    "flavorTextEn": "The Pokémon's determination boosts its Speed stat every time it flinches.",
+    "flavorTextJa": "ひるむ たびに 不屈の心を 燃やして 素早さが 上がる。"
+  },
+  "81": {
+    "id": 81,
+    "slug": "snow-cloak",
+    "name": "Snow Cloak",
+    "jpName": "ゆきがくれ",
+    "shortEffect": "Increases evasion to 1.25× during hail. Protects against hail damage.",
+    "flavorTextEn": "Boosts the Pokémon's evasiveness in snow.",
+    "flavorTextJa": "天気が あられのとき 回避率が 上がる。"
+  },
+  "82": {
+    "id": 82,
+    "slug": "gluttony",
+    "name": "Gluttony",
+    "jpName": "くいしんぼう",
+    "shortEffect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+    "flavorTextEn": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.",
+    "flavorTextJa": "ＨＰが 少なくなったら 食べる きのみを ＨＰ 半分の 時に 食べてしまう。"
+  },
+  "83": {
+    "id": 83,
+    "slug": "anger-point",
+    "name": "Anger Point",
+    "jpName": "いかりのつぼ",
+    "shortEffect": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+    "flavorTextEn": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+    "flavorTextJa": "急所に 攻撃が 当たると 怒りくるって 攻撃力が 最大に なる。"
+  },
+  "84": {
+    "id": 84,
+    "slug": "unburden",
+    "name": "Unburden",
+    "jpName": "かるわざ",
+    "shortEffect": "Doubles Speed upon using or losing a held item.",
+    "flavorTextEn": "Boosts the Speed stat if the Pokémon's held item is used or lost.",
+    "flavorTextJa": "持っていた 道具が なくなると 素早さが 上がる。"
+  },
+  "85": {
+    "id": 85,
+    "slug": "heatproof",
+    "name": "Heatproof",
+    "jpName": "たいねつ",
+    "shortEffect": "Halves damage from Fire moves and burns.",
+    "flavorTextEn": "The Pokémon's heatproof body halves the damage taken from Fire-type moves.",
+    "flavorTextJa": "耐熱の 体に よって ほのおタイプの 技の 威力を 半減させる。"
+  },
+  "86": {
+    "id": 86,
+    "slug": "simple",
+    "name": "Simple",
+    "jpName": "たんじゅん",
+    "shortEffect": "Doubles the Pokémon's stat modifiers. These doubled modifiers are still capped at -6 or 6 stages.",
+    "flavorTextEn": "Doubles the effects of the Pokémon's stat changes.",
+    "flavorTextJa": "能力 変化が いつもの ２倍に なる。"
+  },
+  "87": {
+    "id": 87,
+    "slug": "dry-skin",
+    "name": "Dry Skin",
+    "jpName": "かんそうはだ",
+    "shortEffect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain. Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP.",
+    "flavorTextEn": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+    "flavorTextJa": "天気が 雨の時や みずタイプの 技で ＨＰが 回復し はれの時や ほのおタイプの 技で 減ってしまう。"
+  },
+  "88": {
+    "id": 88,
+    "slug": "download",
+    "name": "Download",
+    "jpName": "ダウンロード",
+    "shortEffect": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.",
+    "flavorTextEn": "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective.",
+    "flavorTextJa": "相手の 防御と 特防を くらべて 低い ほうの 能力に あわせて 自分の 攻撃か 特攻を 上げる。"
+  },
+  "89": {
+    "id": 89,
+    "slug": "iron-fist",
+    "name": "Iron Fist",
+    "jpName": "てつのこぶし",
+    "shortEffect": "Strengthens punch-based moves to 1.2× their power.",
+    "flavorTextEn": "Powers up punching moves.",
+    "flavorTextJa": "パンチを 使う 技の 威力が 上がる。"
+  },
+  "90": {
+    "id": 90,
+    "slug": "poison-heal",
+    "name": "Poison Heal",
+    "jpName": "ポイズンヒール",
+    "shortEffect": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
+    "flavorTextEn": "If poisoned, the Pokémon has its HP restored instead of taking damage.",
+    "flavorTextJa": "どく状態に なると ＨＰが 減らずに 増えていく。"
+  },
+  "91": {
+    "id": 91,
+    "slug": "adaptability",
+    "name": "Adaptability",
+    "jpName": "てきおうりょく",
+    "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
+    "flavorTextEn": "Powers up moves of the same type as the Pokémon.",
+    "flavorTextJa": "自分と おなじ タイプの 技の 威力が 上がる。"
+  },
+  "92": {
+    "id": 92,
+    "slug": "skill-link",
+    "name": "Skill Link",
+    "jpName": "スキルリンク",
+    "shortEffect": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",
+    "flavorTextEn": "Maximizes the number of times multistrike moves hit.",
+    "flavorTextJa": "連続技を 使うと いつも 最高回数 出すことが できる。"
+  },
+  "93": {
+    "id": 93,
+    "slug": "hydration",
+    "name": "Hydration",
+    "jpName": "うるおいボディ",
+    "shortEffect": "Cures any major status ailment after each turn during rain.",
+    "flavorTextEn": "Cures the Pokémon's status conditions in rain.",
+    "flavorTextJa": "天気が 雨のとき 状態異常が 治る。"
+  },
+  "94": {
+    "id": 94,
+    "slug": "solar-power",
+    "name": "Solar Power",
+    "jpName": "サンパワー",
+    "shortEffect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+    "flavorTextEn": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
+    "flavorTextJa": "天気が 晴れると 特攻が 上がるが 毎ターン ＨＰが 減る。"
+  },
+  "95": {
+    "id": 95,
+    "slug": "quick-feet",
+    "name": "Quick Feet",
+    "jpName": "はやあし",
+    "shortEffect": "Increases Speed to 1.5× with a major status ailment.",
+    "flavorTextEn": "Boosts the Speed stat if the Pokémon has a status condition.",
+    "flavorTextJa": "状態異常に なると 素早さが 上がる。"
+  },
+  "96": {
+    "id": 96,
+    "slug": "normalize",
+    "name": "Normalize",
+    "jpName": "ノーマルスキン",
+    "shortEffect": "Makes the Pokémon's moves all act Normal-type.",
+    "flavorTextEn": "All the Pokémon’s moves become Normal type. The power of those moves is boosted a little.",
+    "flavorTextJa": "どんな タイプの 技でも すべて ノーマルタイプに なる。 威力が 少し 上がる。"
+  },
+  "97": {
+    "id": 97,
+    "slug": "sniper",
+    "name": "Sniper",
+    "jpName": "スナイパー",
+    "shortEffect": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+    "flavorTextEn": "If the Pokémon's attack lands a critical hit, the attack is powered up even further.",
+    "flavorTextJa": "攻撃を 急所に 当てると 威力が さらに 上がる。"
+  },
+  "98": {
+    "id": 98,
+    "slug": "magic-guard",
+    "name": "Magic Guard",
+    "jpName": "マジックガード",
+    "shortEffect": "Protects against damage not directly caused by a move.",
+    "flavorTextEn": "The Pokémon only takes damage from attacks.",
+    "flavorTextJa": "攻撃 以外では ダメージを 受けない。"
+  },
+  "99": {
+    "id": 99,
+    "slug": "no-guard",
+    "name": "No Guard",
+    "jpName": "ノーガード",
+    "shortEffect": "Ensures all moves used by and against the Pokémon hit.",
+    "flavorTextEn": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+    "flavorTextJa": "ノーガード戦法に よって お互いの 出す 技が かならず 当たる ようになる。"
+  },
+  "100": {
+    "id": 100,
+    "slug": "stall",
+    "name": "Stall",
+    "jpName": "あとだし",
+    "shortEffect": "Makes the Pokémon move last within its move's priority bracket.",
+    "flavorTextEn": "The Pokémon is always the last to use its moves.",
+    "flavorTextJa": "技を 出す 順番が かならず 最後に なる。"
+  },
+  "101": {
+    "id": 101,
+    "slug": "technician",
+    "name": "Technician",
+    "jpName": "テクニシャン",
+    "shortEffect": "Strengthens moves of 60 base power or less to 1.5× their power.",
+    "flavorTextEn": "Powers up weak moves so the Pokémon can deal more damage with them.",
+    "flavorTextJa": "威力が 低い 技の 威力を 高くして 攻撃できる。"
+  },
+  "102": {
+    "id": 102,
+    "slug": "leaf-guard",
+    "name": "Leaf Guard",
+    "jpName": "リーフガード",
+    "shortEffect": "Protects against major status ailments during strong sunlight.",
+    "flavorTextEn": "Prevents status conditions in harsh sunlight.",
+    "flavorTextJa": "天気が 晴れのときは 状態異常に ならない。"
+  },
+  "103": {
+    "id": 103,
+    "slug": "klutz",
+    "name": "Klutz",
+    "jpName": "ぶきよう",
+    "shortEffect": "Prevents the Pokémon from using its held item in battle.",
+    "flavorTextEn": "The Pokémon can't use any held items.",
+    "flavorTextJa": "持っている 道具を 使うことが できない。"
+  },
+  "104": {
+    "id": 104,
+    "slug": "mold-breaker",
+    "name": "Mold Breaker",
+    "jpName": "かたやぶり",
+    "shortEffect": "Bypasses targets' abilities if they could hinder or prevent a move.",
+    "flavorTextEn": "The Pokémon's moves are unimpeded by the Ability of the target.",
+    "flavorTextJa": "相手の 特性に ジャマされる ことなく 相手に 技を 出すことが できる。"
+  },
+  "105": {
+    "id": 105,
+    "slug": "super-luck",
+    "name": "Super Luck",
+    "jpName": "きょううん",
+    "shortEffect": "Raises moves' critical hit rates one stage.",
+    "flavorTextEn": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.",
+    "flavorTextJa": "強運を 持っているため 相手の 急所に 攻撃が 当たりやすい。"
+  },
+  "106": {
+    "id": 106,
+    "slug": "aftermath",
+    "name": "Aftermath",
+    "jpName": "ゆうばく",
+    "shortEffect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+    "flavorTextEn": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact.",
+    "flavorTextJa": "ひんしに なったとき 触った 相手に ダメージを あたえる。"
+  },
+  "107": {
+    "id": 107,
+    "slug": "anticipation",
+    "name": "Anticipation",
+    "jpName": "きけんよち",
+    "shortEffect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move.",
+    "flavorTextEn": "The Pokémon can sense an opposing Pokémon's dangerous moves.",
+    "flavorTextJa": "相手の 持つ 危険な 技を 察知する ことができる。"
+  },
+  "108": {
+    "id": 108,
+    "slug": "forewarn",
+    "name": "Forewarn",
+    "jpName": "よちむ",
+    "shortEffect": "Reveals the opponents' strongest move upon entering battle.",
+    "flavorTextEn": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.",
+    "flavorTextJa": "登場 したとき 相手の 持つ 技を ひとつだけ 読み取る。"
+  },
+  "109": {
+    "id": 109,
+    "slug": "unaware",
+    "name": "Unaware",
+    "jpName": "てんねん",
+    "shortEffect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+    "flavorTextEn": "When attacking, the Pokémon ignores the target's stat changes.",
+    "flavorTextJa": "相手の 能力の 変化を 無視して 攻撃が できる。"
+  },
+  "110": {
+    "id": 110,
+    "slug": "tinted-lens",
+    "name": "Tinted Lens",
+    "jpName": "いろめがね",
+    "shortEffect": "Doubles damage inflicted with not-very-effective moves.",
+    "flavorTextEn": "The Pokémon can use “not very effective” moves to deal regular damage.",
+    "flavorTextJa": "効果が いまひとつの 技を 通常の 威力で 出すことが できる。"
+  },
+  "111": {
+    "id": 111,
+    "slug": "filter",
+    "name": "Filter",
+    "jpName": "フィルター",
+    "shortEffect": "Decreases damage taken from super-effective moves by 1/4.",
+    "flavorTextEn": "Reduces the power of supereffective attacks that hit the Pokémon.",
+    "flavorTextJa": "効果バツグンに なってしまう 攻撃の 威力を 弱める ことが できる。"
+  },
+  "112": {
+    "id": 112,
+    "slug": "slow-start",
+    "name": "Slow Start",
+    "jpName": "スロースタート",
+    "shortEffect": "Halves Attack and Speed for five turns upon entering battle.",
+    "flavorTextEn": "For five turns, the Pokémon's Attack and Speed stats are halved.",
+    "flavorTextJa": "５ターンの あいだ 攻撃と 素早さが 半分に なる。"
+  },
+  "113": {
+    "id": 113,
+    "slug": "scrappy",
+    "name": "Scrappy",
+    "jpName": "きもったま",
+    "shortEffect": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon.",
+    "flavorTextEn": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate.",
+    "flavorTextJa": "ゴーストタイプの ポケモンに ノーマルタイプと かくとうタイプの 技を 当てることが できる。"
+  },
+  "114": {
+    "id": 114,
+    "slug": "storm-drain",
+    "name": "Storm Drain",
+    "jpName": "よびみず",
+    "shortEffect": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",
+    "flavorTextEn": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted.",
+    "flavorTextJa": "みずタイプの 技を 自分に よせつけ ダメージは 受けずに 特攻が 上がる。"
+  },
+  "115": {
+    "id": 115,
+    "slug": "ice-body",
+    "name": "Ice Body",
+    "jpName": "アイスボディ",
+    "shortEffect": "Heals for 1/16 max HP after each turn during hail. Protects against hail damage.",
+    "flavorTextEn": "The Pokémon gradually regains HP in snow.",
+    "flavorTextJa": "天気が あられのとき ＨＰを 少しずつ 回復 する。"
+  },
+  "116": {
+    "id": 116,
+    "slug": "solid-rock",
+    "name": "Solid Rock",
+    "jpName": "ハードロック",
+    "shortEffect": "Decreases damage taken from super-effective moves by 1/4.",
+    "flavorTextEn": "Reduces the power of supereffective attacks that hit the Pokémon.",
+    "flavorTextJa": "効果バツグンに なってしまう 攻撃の 威力を 弱める ことが できる。"
+  },
+  "117": {
+    "id": 117,
+    "slug": "snow-warning",
+    "name": "Snow Warning",
+    "jpName": "ゆきふらし",
+    "shortEffect": "Summons hail that lasts indefinitely upon entering battle.",
+    "flavorTextEn": "The Pokémon makes it snow when it enters a battle.",
+    "flavorTextJa": "登場 したときに 天気を あられに する。"
+  },
+  "118": {
+    "id": 118,
+    "slug": "honey-gather",
+    "name": "Honey Gather",
+    "jpName": "みつあつめ",
+    "shortEffect": "The Pokémon may pick up Honey after battle.",
+    "flavorTextEn": "The Pokémon may gather Honey after a battle.",
+    "flavorTextJa": "戦闘が 終わったとき あまいミツを 拾うことが ある。"
+  },
+  "119": {
+    "id": 119,
+    "slug": "frisk",
+    "name": "Frisk",
+    "jpName": "おみとおし",
+    "shortEffect": "Reveals an opponent's held item upon entering battle.",
+    "flavorTextEn": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item.",
+    "flavorTextJa": "登場 したとき 相手の 持ち物を 見通すことが できる。"
+  },
+  "120": {
+    "id": 120,
+    "slug": "reckless",
+    "name": "Reckless",
+    "jpName": "すてみ",
+    "shortEffect": "Strengthens recoil moves to 1.2× their power.",
+    "flavorTextEn": "Powers up moves that have recoil damage.",
+    "flavorTextJa": "反動で ダメージを 受ける 技の 威力が 上がる。"
+  },
+  "121": {
+    "id": 121,
+    "slug": "multitype",
+    "name": "Multitype",
+    "jpName": "マルチタイプ",
+    "shortEffect": "Changes Arceus's type and form to match its held Plate.",
+    "flavorTextEn": "Changes the Pokémon's type to match the plate it holds.",
+    "flavorTextJa": "持っている プレートや Ｚクリスタルの タイプによって 自分の タイプが 変わる。"
+  },
+  "122": {
+    "id": 122,
+    "slug": "flower-gift",
+    "name": "Flower Gift",
+    "jpName": "フラワーギフト",
+    "shortEffect": "Increases friendly Pokémon's Attack and Special Defense to 1.5× during strong sunlight.",
+    "flavorTextEn": "Boosts the Attack and Sp. Def stats of itself and allies in harsh sunlight.",
+    "flavorTextJa": "天気が 晴れのとき 自分と 味方の 攻撃と 特防の 能力が 上がる。"
+  },
+  "123": {
+    "id": 123,
+    "slug": "bad-dreams",
+    "name": "Bad Dreams",
+    "jpName": "ナイトメア",
+    "shortEffect": "Damages sleeping opponents for 1/8 their max HP after each turn.",
+    "flavorTextEn": "Damages opposing Pokémon that are asleep.",
+    "flavorTextJa": "ねむり状態の 相手に ダメージを あたえる。"
+  },
+  "124": {
+    "id": 124,
+    "slug": "pickpocket",
+    "name": "Pickpocket",
+    "jpName": "わるいてぐせ",
+    "shortEffect": "Steals attacking Pokémon's held items on contact.",
+    "flavorTextEn": "The Pokémon steals the held item from attackers that made direct contact with it.",
+    "flavorTextJa": "触られた 相手の 道具を 盗んで しまう。"
+  },
+  "125": {
+    "id": 125,
+    "slug": "sheer-force",
+    "name": "Sheer Force",
+    "jpName": "ちからずく",
+    "shortEffect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+    "flavorTextEn": "Removes any additional effects from the Pokémon's moves, but increases the moves' power.",
+    "flavorTextJa": "技の 追加効果は なくなるが そのぶん 高い 威力で 技を 出すことが できる。"
+  },
+  "126": {
+    "id": 126,
+    "slug": "contrary",
+    "name": "Contrary",
+    "jpName": "あまのじゃく",
+    "shortEffect": "Inverts stat changes.",
+    "flavorTextEn": "Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them—and attempts to lower its stats will boost them.",
+    "flavorTextJa": "能力の 変化が 逆転して 上がるときに 下がり 下がるときに 上がる。"
+  },
+  "127": {
+    "id": 127,
+    "slug": "unnerve",
+    "name": "Unnerve",
+    "jpName": "きんちょうかん",
+    "shortEffect": "Prevents opposing Pokémon from eating held Berries.",
+    "flavorTextEn": "Unnerves opposing Pokémon and makes them unable to eat Berries.",
+    "flavorTextJa": "相手を 緊張させて きのみを 食べられなく させる。"
+  },
+  "128": {
+    "id": 128,
+    "slug": "defiant",
+    "name": "Defiant",
+    "jpName": "まけんき",
+    "shortEffect": "Raises Attack two stages upon having any stat lowered.",
+    "flavorTextEn": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.",
+    "flavorTextJa": "能力を 下げられると 攻撃が ぐーんと 上がる。"
+  },
+  "129": {
+    "id": 129,
+    "slug": "defeatist",
+    "name": "Defeatist",
+    "jpName": "よわき",
+    "shortEffect": "Halves Attack and Special Attack at 50% max HP or less.",
+    "flavorTextEn": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP becomes half or less.",
+    "flavorTextJa": "ＨＰが 半分に なると 弱気に なって 攻撃と 特攻が 半減する。"
+  },
+  "130": {
+    "id": 130,
+    "slug": "cursed-body",
+    "name": "Cursed Body",
+    "jpName": "のろわれボディ",
+    "shortEffect": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+    "flavorTextEn": "May disable a move that has dealt damage to the Pokémon.",
+    "flavorTextJa": "攻撃を 受けると 相手の 技を かなしばり状態に することが ある。"
+  },
+  "131": {
+    "id": 131,
+    "slug": "healer",
+    "name": "Healer",
+    "jpName": "いやしのこころ",
+    "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+    "flavorTextEn": "Sometimes cures the status conditions of the Pokémon's allies.",
+    "flavorTextJa": "状態異常の 味方を たまに 治してあげる。"
+  },
+  "132": {
+    "id": 132,
+    "slug": "friend-guard",
+    "name": "Friend Guard",
+    "jpName": "フレンドガード",
+    "shortEffect": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+    "flavorTextEn": "Reduces damage dealt to allies.",
+    "flavorTextJa": "味方の ダメージを 減らすことが できる。"
+  },
+  "133": {
+    "id": 133,
+    "slug": "weak-armor",
+    "name": "Weak Armor",
+    "jpName": "くだけるよろい",
+    "shortEffect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+    "flavorTextEn": "The Pokémon's Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted.",
+    "flavorTextJa": "物理技で ダメージを 受けると 防御が 下がり 素早さが ぐーんと 上がる。"
+  },
+  "134": {
+    "id": 134,
+    "slug": "heavy-metal",
+    "name": "Heavy Metal",
+    "jpName": "ヘヴィメタル",
+    "shortEffect": "Doubles the Pokémon's weight.",
+    "flavorTextEn": "Doubles the Pokémon's weight.",
+    "flavorTextJa": "自分の 重さが ２倍に なる。"
+  },
+  "135": {
+    "id": 135,
+    "slug": "light-metal",
+    "name": "Light Metal",
+    "jpName": "ライトメタル",
+    "shortEffect": "Halves the Pokémon's weight.",
+    "flavorTextEn": "Halves the Pokémon's weight.",
+    "flavorTextJa": "自分の 重さが 半分に なる。"
+  },
+  "136": {
+    "id": 136,
+    "slug": "multiscale",
+    "name": "Multiscale",
+    "jpName": "マルチスケイル",
+    "shortEffect": "Halves damage taken from full HP.",
+    "flavorTextEn": "Reduces the amount of damage the Pokémon takes while its HP is full.",
+    "flavorTextJa": "ＨＰが 満タンの ときに 受ける ダメージが 少なくなる。"
+  },
+  "137": {
+    "id": 137,
+    "slug": "toxic-boost",
+    "name": "Toxic Boost",
+    "jpName": "どくぼうそう",
+    "shortEffect": "Increases Attack to 1.5× when poisoned.",
+    "flavorTextEn": "Powers up physical moves when the Pokémon is poisoned.",
+    "flavorTextJa": "どく状態に なったとき 物理技の 威力が 上がる。"
+  },
+  "138": {
+    "id": 138,
+    "slug": "flare-boost",
+    "name": "Flare Boost",
+    "jpName": "ねつぼうそう",
+    "shortEffect": "Increases Special Attack to 1.5× when burned.",
+    "flavorTextEn": "Powers up special moves when the Pokémon is burned.",
+    "flavorTextJa": "やけど状態に なったとき 特殊技の 威力が 上がる。"
+  },
+  "139": {
+    "id": 139,
+    "slug": "harvest",
+    "name": "Harvest",
+    "jpName": "しゅうかく",
+    "shortEffect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.",
+    "flavorTextEn": "May create another Berry after one is used.",
+    "flavorTextJa": "使った きのみを 何回も 作りだす。"
+  },
+  "140": {
+    "id": 140,
+    "slug": "telepathy",
+    "name": "Telepathy",
+    "jpName": "テレパシー",
+    "shortEffect": "Protects against friendly Pokémon's damaging moves.",
+    "flavorTextEn": "The Pokémon anticipates and dodges the attacks of its allies.",
+    "flavorTextJa": "味方の 攻撃を 読み取って 技を 回避する。"
+  },
+  "141": {
+    "id": 141,
+    "slug": "moody",
+    "name": "Moody",
+    "jpName": "ムラっけ",
+    "shortEffect": "Raises a random stat two stages and lowers another one stage after each turn.",
+    "flavorTextEn": "Every turn, one of the Pokémon's stats will be boosted sharply but another stat will be lowered.",
+    "flavorTextJa": "毎ターン 能力の どれかが ぐーんと 上がって どれかが 下がる。"
+  },
+  "142": {
+    "id": 142,
+    "slug": "overcoat",
+    "name": "Overcoat",
+    "jpName": "ぼうじん",
+    "shortEffect": "Protects against damage from weather.",
+    "flavorTextEn": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores.",
+    "flavorTextJa": "すなあらしや あられなどの ダメージを 受けない。 粉の 技を 受けない。"
+  },
+  "143": {
+    "id": 143,
+    "slug": "poison-touch",
+    "name": "Poison Touch",
+    "jpName": "どくしゅ",
+    "shortEffect": "Has a 30% chance of poisoning target Pokémon upon contact.",
+    "flavorTextEn": "May poison a target when the Pokémon makes contact.",
+    "flavorTextJa": "触る だけで 相手を どく 状態に することがある。"
+  },
+  "144": {
+    "id": 144,
+    "slug": "regenerator",
+    "name": "Regenerator",
+    "jpName": "さいせいりょく",
+    "shortEffect": "Heals for 1/3 max HP upon switching out.",
+    "flavorTextEn": "The Pokémon has a little of its HP restored when withdrawn from battle.",
+    "flavorTextJa": "手持ちに 引っ込むと ＨＰが 少し 回復する。"
+  },
+  "145": {
+    "id": 145,
+    "slug": "big-pecks",
+    "name": "Big Pecks",
+    "jpName": "はとむね",
+    "shortEffect": "Protects against Defense drops.",
+    "flavorTextEn": "Prevents the Pokémon from having its Defense stat lowered.",
+    "flavorTextJa": "防御を 下げる 効果を 受けない。"
+  },
+  "146": {
+    "id": 146,
+    "slug": "sand-rush",
+    "name": "Sand Rush",
+    "jpName": "すなかき",
+    "shortEffect": "Doubles Speed during a sandstorm. Protects against sandstorm damage.",
+    "flavorTextEn": "Boosts the Pokémon's Speed stat in a sandstorm.",
+    "flavorTextJa": "天気が すなあらし のとき 素早さが 上がる。"
+  },
+  "147": {
+    "id": 147,
+    "slug": "wonder-skin",
+    "name": "Wonder Skin",
+    "jpName": "ミラクルスキン",
+    "shortEffect": "Lowers incoming non-damaging moves' base accuracy to exactly 50%.",
+    "flavorTextEn": "Makes status moves more likely to miss the Pokémon.",
+    "flavorTextJa": "変化技を 受けにくい 体に なっている。"
+  },
+  "148": {
+    "id": 148,
+    "slug": "analytic",
+    "name": "Analytic",
+    "jpName": "アナライズ",
+    "shortEffect": "Strengthens moves to 1.3× their power when moving last.",
+    "flavorTextEn": "Boosts the power of the Pokémon's move if it is the last to act that turn.",
+    "flavorTextJa": "いちばん 最後に 技を 出すと 技の 威力が 上がる。"
+  },
+  "149": {
+    "id": 149,
+    "slug": "illusion",
+    "name": "Illusion",
+    "jpName": "イリュージョン",
+    "shortEffect": "Takes the appearance of the last conscious party Pokémon upon being sent out until hit by a damaging move.",
+    "flavorTextEn": "The Pokémon fools opponents by entering battle disguised as the last Pokémon in its Trainer's party.",
+    "flavorTextJa": "手持ちの いちばん うしろに いる ポケモンに なりきって 登場して 相手を 化かす。"
+  },
+  "150": {
+    "id": 150,
+    "slug": "imposter",
+    "name": "Imposter",
+    "jpName": "かわりもの",
+    "shortEffect": "Transforms upon entering battle.",
+    "flavorTextEn": "The Pokémon transforms itself into the Pokémon it's facing.",
+    "flavorTextJa": "目の前の ポケモンに 変身 してしまう。"
+  },
+  "151": {
+    "id": 151,
+    "slug": "infiltrator",
+    "name": "Infiltrator",
+    "jpName": "すりぬけ",
+    "shortEffect": "Bypasses Light Screen, Reflect, and Safeguard.",
+    "flavorTextEn": "The Pokémon's moves are unaffected by the target's barriers, substitutes, and the like.",
+    "flavorTextJa": "相手の 壁や 身代わりを すりぬけて 攻撃 できる"
+  },
+  "152": {
+    "id": 152,
+    "slug": "mummy",
+    "name": "Mummy",
+    "jpName": "ミイラ",
+    "shortEffect": "Changes attacking Pokémon's abilities to Mummy on contact.",
+    "flavorTextEn": "Contact with the Pokémon changes the attacker’s Ability to Mummy.",
+    "flavorTextJa": "相手に 触られると 相手を ミイラに してしまう。"
+  },
+  "153": {
+    "id": 153,
+    "slug": "moxie",
+    "name": "Moxie",
+    "jpName": "じしんかじょう",
+    "shortEffect": "Raises Attack one stage upon KOing a Pokémon.",
+    "flavorTextEn": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat.",
+    "flavorTextJa": "相手を 倒すと 自信が ついて 攻撃が 上がる。"
+  },
+  "154": {
+    "id": 154,
+    "slug": "justified",
+    "name": "Justified",
+    "jpName": "せいぎのこころ",
+    "shortEffect": "Raises Attack one stage upon taking damage from a Dark move.",
+    "flavorTextEn": "When the Pokémon is hit by a Dark-type attack, its Attack stat is boosted by its sense of justice.",
+    "flavorTextJa": "あくタイプの 攻撃を 受けると 正義感で 攻撃が 上がる。"
+  },
+  "155": {
+    "id": 155,
+    "slug": "rattled",
+    "name": "Rattled",
+    "jpName": "びびり",
+    "shortEffect": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.",
+    "flavorTextEn": "The Pokémon gets scared when hit by a Dark-, Ghost-, or Bug-type attack or if intimidated, which boosts its Speed stat.",
+    "flavorTextJa": "あくタイプと ゴーストタイプと むしタイプの 技を 受けると びびって 素早さが 上がる。"
+  },
+  "156": {
+    "id": 156,
+    "slug": "magic-bounce",
+    "name": "Magic Bounce",
+    "jpName": "マジックミラー",
+    "shortEffect": "Reflects most non-damaging moves back at their user.",
+    "flavorTextEn": "The Pokémon reflects status moves instead of getting hit by them.",
+    "flavorTextJa": "相手に だされた 変化技を 受けずに そのまま 返す ことが できる。"
+  },
+  "157": {
+    "id": 157,
+    "slug": "sap-sipper",
+    "name": "Sap Sipper",
+    "jpName": "そうしょく",
+    "shortEffect": "Absorbs Grass moves, raising Attack one stage.",
+    "flavorTextEn": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted.",
+    "flavorTextJa": "くさタイプの 技を 受けると ダメージを 受けずに 攻撃が 上がる。"
+  },
+  "158": {
+    "id": 158,
+    "slug": "prankster",
+    "name": "Prankster",
+    "jpName": "いたずらごころ",
+    "shortEffect": "Raises non-damaging moves' priority by one stage.",
+    "flavorTextEn": "Gives priority to the Pokémon's status moves.",
+    "flavorTextJa": "変化技を 先制で 出すことが できる。"
+  },
+  "159": {
+    "id": 159,
+    "slug": "sand-force",
+    "name": "Sand Force",
+    "jpName": "すなのちから",
+    "shortEffect": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm. Protects against sandstorm damage.",
+    "flavorTextEn": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.",
+    "flavorTextJa": "天気が すなあらしの とき いわタイプと じめんタイプと はがねタイプの 威力が 上がる。"
+  },
+  "160": {
+    "id": 160,
+    "slug": "iron-barbs",
+    "name": "Iron Barbs",
+    "jpName": "てつのトゲ",
+    "shortEffect": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+    "flavorTextEn": "Inflicts damage on the attacker upon contact with iron barbs.",
+    "flavorTextJa": "自分に 触った 相手に 鉄のトゲで ダメージを あたえる。"
+  },
+  "161": {
+    "id": 161,
+    "slug": "zen-mode",
+    "name": "Zen Mode",
+    "jpName": "ダルマモード",
+    "shortEffect": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
+    "flavorTextEn": "Changes the Pokémon’s shape when HP is half or less.",
+    "flavorTextJa": "ＨＰが 半分 以下に なると 姿が 変化する。"
+  },
+  "162": {
+    "id": 162,
+    "slug": "victory-star",
+    "name": "Victory Star",
+    "jpName": "しょうりのほし",
+    "shortEffect": "Increases moves' accuracy to 1.1× for friendly Pokémon.",
+    "flavorTextEn": "Boosts the accuracy of its allies and itself.",
+    "flavorTextJa": "自分や 味方の 命中率が 上がる。"
+  },
+  "163": {
+    "id": 163,
+    "slug": "turboblaze",
+    "name": "Turboblaze",
+    "jpName": "ターボブレイズ",
+    "shortEffect": "Bypasses targets' abilities if they could hinder or prevent moves.",
+    "flavorTextEn": "The Pokémon's moves are unimpeded by the Ability of the target.",
+    "flavorTextJa": "相手の 特性に ジャマされず 相手に 技を 出すことが できる。"
+  },
+  "164": {
+    "id": 164,
+    "slug": "teravolt",
+    "name": "Teravolt",
+    "jpName": "テラボルテージ",
+    "shortEffect": "Bypasses targets' abilities if they could hinder or prevent moves.",
+    "flavorTextEn": "The Pokémon's moves are unimpeded by the Ability of the target.",
+    "flavorTextJa": "相手の 特性に ジャマされず 相手に 技を 出すことが できる。"
+  },
+  "165": {
+    "id": 165,
+    "slug": "aroma-veil",
+    "name": "Aroma Veil",
+    "jpName": "アロマベール",
+    "shortEffect": "Protects allies against moves that affect their mental state.",
+    "flavorTextEn": "Protects the Pokémon and its allies from effects that prevent the use of moves.",
+    "flavorTextJa": "自分と 味方への メンタル 攻撃を 防ぐことが できる。"
+  },
+  "166": {
+    "id": 166,
+    "slug": "flower-veil",
+    "name": "Flower Veil",
+    "jpName": "フラワーベール",
+    "shortEffect": "Protects friendly Grass Pokémon from having their stats lowered by other Pokémon.",
+    "flavorTextEn": "Ally Grass-type Pokémon are protected from status conditions and the lowering of their stats.",
+    "flavorTextJa": "味方の 草ポケモンは 能力が 下がらず 状態異常にも ならない。"
+  },
+  "167": {
+    "id": 167,
+    "slug": "cheek-pouch",
+    "name": "Cheek Pouch",
+    "jpName": "ほおぶくろ",
+    "shortEffect": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
+    "flavorTextEn": "The Pokémon's HP is restored when it eats any Berry, in addition to the Berry's usual effect.",
+    "flavorTextJa": "どんな きのみでも 食べると ＨＰも 回復する。"
+  },
+  "168": {
+    "id": 168,
+    "slug": "protean",
+    "name": "Protean",
+    "jpName": "へんげんじざい",
+    "shortEffect": "Changes the bearer's type to match each move it uses.",
+    "flavorTextEn": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.",
+    "flavorTextJa": "自分が 出す 技と 同じ タイプに 変化する。"
+  },
+  "169": {
+    "id": 169,
+    "slug": "fur-coat",
+    "name": "Fur Coat",
+    "jpName": "ファーコート",
+    "shortEffect": "Halves damage from physical attacks.",
+    "flavorTextEn": "Halves the damage from physical moves.",
+    "flavorTextJa": "相手から 受ける 物理技の ダメージが 半分に なる。"
+  },
+  "170": {
+    "id": 170,
+    "slug": "magician",
+    "name": "Magician",
+    "jpName": "マジシャン",
+    "shortEffect": "Steals the target's held item when the bearer uses a damaging move.",
+    "flavorTextEn": "The Pokémon steals the held item from any target it hits with a move.",
+    "flavorTextJa": "技を 当てた 相手の 道具を 奪ってしまう。"
+  },
+  "171": {
+    "id": 171,
+    "slug": "bulletproof",
+    "name": "Bulletproof",
+    "jpName": "ぼうだん",
+    "shortEffect": "Protects against bullet, ball, and bomb-based moves.",
+    "flavorTextEn": "Protects the Pokémon from ball and bomb moves.",
+    "flavorTextJa": "相手の 弾や 爆弾などの 技を 防ぐことが できる。"
+  },
+  "172": {
+    "id": 172,
+    "slug": "competitive",
+    "name": "Competitive",
+    "jpName": "かちき",
+    "shortEffect": "Raises Special Attack by two stages upon having any stat lowered.",
+    "flavorTextEn": "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon.",
+    "flavorTextJa": "能力を 下げられると 特攻が ぐーんと 上がる。"
+  },
+  "173": {
+    "id": 173,
+    "slug": "strong-jaw",
+    "name": "Strong Jaw",
+    "jpName": "がんじょうあご",
+    "shortEffect": "Strengthens biting moves to 1.5× their power.",
+    "flavorTextEn": "The Pokémon's strong jaw boosts the power of its biting moves.",
+    "flavorTextJa": "あごが 頑丈で 噛む 技の 威力が 高くなる。"
+  },
+  "174": {
+    "id": 174,
+    "slug": "refrigerate",
+    "name": "Refrigerate",
+    "jpName": "フリーズスキン",
+    "shortEffect": "Turns the bearer's Normal moves into Ice moves and strengthens them to 1.3× their power.",
+    "flavorTextEn": "Normal-type moves become Ice-type moves. The power of those moves is boosted a little.",
+    "flavorTextJa": "ノーマルタイプの 技が こおりタイプに なる。 威力が 少し 上がる。"
+  },
+  "175": {
+    "id": 175,
+    "slug": "sweet-veil",
+    "name": "Sweet Veil",
+    "jpName": "スイートベール",
+    "shortEffect": "Prevents friendly Pokémon from sleeping.",
+    "flavorTextEn": "Prevents the Pokémon and its allies from falling asleep.",
+    "flavorTextJa": "味方の ポケモンは 眠らなくなる。"
+  },
+  "176": {
+    "id": 176,
+    "slug": "stance-change",
+    "name": "Stance Change",
+    "jpName": "バトルスイッチ",
+    "shortEffect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield.",
+    "flavorTextEn": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King’s Shield.",
+    "flavorTextJa": "攻撃技を 出すと ブレードフォルムに 技 キングシールドを 出すと シールドフォルムに 変化する。"
+  },
+  "177": {
+    "id": 177,
+    "slug": "gale-wings",
+    "name": "Gale Wings",
+    "jpName": "はやてのつばさ",
+    "shortEffect": "Raises Flying moves' priority by one stage.",
+    "flavorTextEn": "Gives priority to the Pokémon's Flying-type moves while its HP is full.",
+    "flavorTextJa": "ＨＰが 満タン だと ひこうタイプの 技を 先制で 出すことが できる。"
+  },
+  "178": {
+    "id": 178,
+    "slug": "mega-launcher",
+    "name": "Mega Launcher",
+    "jpName": "メガランチャー",
+    "shortEffect": "Strengthens aura and pulse moves to 1.5× their power.",
+    "flavorTextEn": "Powers up pulse moves.",
+    "flavorTextJa": "波動の 技の 威力が 高くなる。"
+  },
+  "179": {
+    "id": 179,
+    "slug": "grass-pelt",
+    "name": "Grass Pelt",
+    "jpName": "くさのけがわ",
+    "shortEffect": "Boosts Defense while Grassy Terrain is in effect.",
+    "flavorTextEn": "Boosts the Pokémon's Defense stat on Grassy Terrain.",
+    "flavorTextJa": "グラスフィールドのとき 防御が 上がる。"
+  },
+  "180": {
+    "id": 180,
+    "slug": "symbiosis",
+    "name": "Symbiosis",
+    "jpName": "きょうせい",
+    "shortEffect": "Passes the bearer's held item to an ally when the ally uses up its item.",
+    "flavorTextEn": "The Pokémon passes its held item to an ally that has used up an item.",
+    "flavorTextJa": "味方が 道具を 使うと 自分の 持っている 道具を 味方に 渡す。"
+  },
+  "181": {
+    "id": 181,
+    "slug": "tough-claws",
+    "name": "Tough Claws",
+    "jpName": "かたいツメ",
+    "shortEffect": "Strengthens moves that make contact to 1.33× their power.",
+    "flavorTextEn": "Powers up moves that make direct contact.",
+    "flavorTextJa": "相手に 接触する 技の 威力が 高くなる。"
+  },
+  "182": {
+    "id": 182,
+    "slug": "pixilate",
+    "name": "Pixilate",
+    "jpName": "フェアリースキン",
+    "shortEffect": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power.",
+    "flavorTextEn": "Normal-type moves become Fairy-type moves. The power of those moves is boosted a little.",
+    "flavorTextJa": "ノーマルタイプの 技が フェアリータイプになる。 威力が 少し 上がる。"
+  },
+  "183": {
+    "id": 183,
+    "slug": "gooey",
+    "name": "Gooey",
+    "jpName": "ぬめぬめ",
+    "shortEffect": "Lowers attacking Pokémon's Speed by one stage on contact.",
+    "flavorTextEn": "Contact with the Pokémon lowers the attacker's Speed stat.",
+    "flavorTextJa": "攻撃で 自分に 触れた 相手の 素早さを 下げる。"
+  },
+  "184": {
+    "id": 184,
+    "slug": "aerilate",
+    "name": "Aerilate",
+    "jpName": "スカイスキン",
+    "shortEffect": "Turns the bearer's Normal moves into Flying moves and strengthens them to 1.3× their power.",
+    "flavorTextEn": "Normal-type moves become Flying-type moves. The power of those moves is boosted a little.",
+    "flavorTextJa": "ノーマルタイプの 技が ひこうタイプになる。 威力が 少し 上がる。"
+  },
+  "185": {
+    "id": 185,
+    "slug": "parental-bond",
+    "name": "Parental Bond",
+    "jpName": "おやこあい",
+    "shortEffect": "Lets the bearer hit twice with damaging moves. The second hit has half power.",
+    "flavorTextEn": "Parent and child each attacks.",
+    "flavorTextJa": "親子 ２匹で ２回 攻撃することが できる。"
+  },
+  "186": {
+    "id": 186,
+    "slug": "dark-aura",
+    "name": "Dark Aura",
+    "jpName": "ダークオーラ",
+    "shortEffect": "Strengthens Dark moves to 1.33× their power for all friendly and opposing Pokémon.",
+    "flavorTextEn": "Powers up each Pokémon’s Dark-type moves.",
+    "flavorTextJa": "全員の あくタイプの 技が 強くなる。"
+  },
+  "187": {
+    "id": 187,
+    "slug": "fairy-aura",
+    "name": "Fairy Aura",
+    "jpName": "フェアリーオーラ",
+    "shortEffect": "Strengthens Fairy moves to 1.33× their power for all friendly and opposing Pokémon.",
+    "flavorTextEn": "Powers up each Pokémon’s Fairy-type moves.",
+    "flavorTextJa": "全員の フェアリータイプの 技が 強くなる。"
+  },
+  "188": {
+    "id": 188,
+    "slug": "aura-break",
+    "name": "Aura Break",
+    "jpName": "オーラブレイク",
+    "shortEffect": "Makes Dark Aura and Fairy Aura weaken moves of their respective types.",
+    "flavorTextEn": "The effects of “Aura” Abilities are reversed to lower the power of affected moves.",
+    "flavorTextJa": "オーラの 効果を 逆転させて 威力を 下げる。"
+  },
+  "189": {
+    "id": 189,
+    "slug": "primordial-sea",
+    "name": "Primordial Sea",
+    "jpName": "はじまりのうみ",
+    "shortEffect": "Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail.",
+    "flavorTextEn": "The Pokémon changes the weather to nullify Fire-type attacks.",
+    "flavorTextJa": "ほのおタイプの 攻撃を 受けない 天気にする。"
+  },
+  "190": {
+    "id": 190,
+    "slug": "desolate-land",
+    "name": "Desolate Land",
+    "jpName": "おわりのだいち",
+    "shortEffect": "Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail.",
+    "flavorTextEn": "The Pokémon changes the weather to nullify Water-type attacks.",
+    "flavorTextJa": "みずタイプの 攻撃を 受けない 天気にする。"
+  },
+  "191": {
+    "id": 191,
+    "slug": "delta-stream",
+    "name": "Delta Stream",
+    "jpName": "デルタストリーム",
+    "shortEffect": "Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokémon.",
+    "flavorTextEn": "The Pokémon changes the weather to eliminate all of the Flying type’s weaknesses.",
+    "flavorTextJa": "ひこうタイプの 弱点が なくなる 天気にする。"
+  },
+  "192": {
+    "id": 192,
+    "slug": "stamina",
+    "name": "Stamina",
+    "jpName": "じきゅうりょく",
+    "shortEffect": "Raises this Pokémon's Defense by one stage when it takes damage from a move.",
+    "flavorTextEn": "Boosts the Defense stat when the Pokémon is hit by an attack.",
+    "flavorTextJa": "攻撃を 受けると 防御が 上がる。"
+  },
+  "193": {
+    "id": 193,
+    "slug": "wimp-out",
+    "name": "Wimp Out",
+    "jpName": "にげごし",
+    "shortEffect": "This Pokémon automatically switches out when its HP drops below half.",
+    "flavorTextEn": "The Pokémon cowardly switches out when its HP becomes half or less.",
+    "flavorTextJa": "ＨＰが 半分に なると あわてて 逃げ出して 手持ちに 引っ込んで しまう。"
+  },
+  "194": {
+    "id": 194,
+    "slug": "emergency-exit",
+    "name": "Emergency Exit",
+    "jpName": "ききかいひ",
+    "shortEffect": "This Pokémon automatically switches out when its HP drops below half.",
+    "flavorTextEn": "The Pokémon, sensing danger, switches out when its HP becomes half or less.",
+    "flavorTextJa": "ＨＰが 半分に なると 危険を 回避するため 手持ちに 引っ込んで しまう。"
+  },
+  "195": {
+    "id": 195,
+    "slug": "water-compaction",
+    "name": "Water Compaction",
+    "jpName": "みずがため",
+    "shortEffect": "Raises this Pokémon's Defense by two stages when it's hit by a Water move.",
+    "flavorTextEn": "Boosts the Defense stat sharply when the Pokémon is hit by a Water-type move.",
+    "flavorTextJa": "みずタイプの 技を 受けると 防御が ぐーんと 上がる。"
+  },
+  "196": {
+    "id": 196,
+    "slug": "merciless",
+    "name": "Merciless",
+    "jpName": "ひとでなし",
+    "shortEffect": "This Pokémon's moves critical hit against poisoned targets.",
+    "flavorTextEn": "The Pokémon's attacks become critical hits if the target is poisoned.",
+    "flavorTextJa": "どく状態の 相手を 攻撃すると かならず 急所に 当たる。"
+  },
+  "197": {
+    "id": 197,
+    "slug": "shields-down",
+    "name": "Shields Down",
+    "jpName": "リミットシールド",
+    "shortEffect": "Transforms this Minior between Core Form and Meteor Form. Prevents major status ailments and drowsiness while in Meteor Form.",
+    "flavorTextEn": "When its HP drops to half or less, the Pokémon's shell breaks and it becomes aggressive.",
+    "flavorTextJa": "ＨＰが 半分に なると 殻が 壊れて 攻撃的に なる。"
+  },
+  "198": {
+    "id": 198,
+    "slug": "stakeout",
+    "name": "Stakeout",
+    "jpName": "はりこみ",
+    "shortEffect": "This Pokémon's moves have double power against Pokémon that switched in this turn.",
+    "flavorTextEn": "Doubles the damage dealt to a target that has just switched into battle.",
+    "flavorTextJa": "交代で 出てきた 相手に ２倍の ダメージで 攻撃 できる。"
+  },
+  "199": {
+    "id": 199,
+    "slug": "water-bubble",
+    "name": "Water Bubble",
+    "jpName": "すいほう",
+    "shortEffect": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns.",
+    "flavorTextEn": "Lowers the power of Fire-type moves that hit the Pokémon and prevents it from being burned.",
+    "flavorTextJa": "自分に 対する ほのおタイプの 技の 威力を 下げる。 やけど しない。"
+  },
+  "200": {
+    "id": 200,
+    "slug": "steelworker",
+    "name": "Steelworker",
+    "jpName": "はがねつかい",
+    "shortEffect": "This Pokémon's Steel moves have 1.5× power.",
+    "flavorTextEn": "Powers up Steel-type moves.",
+    "flavorTextJa": "はがねタイプの 技の 威力が 上がる。"
+  },
+  "201": {
+    "id": 201,
+    "slug": "berserk",
+    "name": "Berserk",
+    "jpName": "ぎゃくじょう",
+    "shortEffect": "Raises this Pokémon's Special Attack by one stage every time its HP drops below half.",
+    "flavorTextEn": "Boosts the Pokémon's Sp. Atk stat when it takes a hit that causes its HP to drop to half or less.",
+    "flavorTextJa": "相手の 攻撃で ＨＰが 半分に なると 特攻が 上がる。"
+  },
+  "202": {
+    "id": 202,
+    "slug": "slush-rush",
+    "name": "Slush Rush",
+    "jpName": "ゆきかき",
+    "shortEffect": "During Hail, this Pokémon has double Speed.",
+    "flavorTextEn": "Boosts the Pokémon's Speed stat in snow.",
+    "flavorTextJa": "天気が あられ のとき 素早さが 上がる。"
+  },
+  "203": {
+    "id": 203,
+    "slug": "long-reach",
+    "name": "Long Reach",
+    "jpName": "えんかく",
+    "shortEffect": "This Pokémon's moves do not make contact.",
+    "flavorTextEn": "The Pokémon uses its moves without making contact with the target.",
+    "flavorTextJa": "すべての 技を 相手に 接触 しないで 出すことが できる。"
+  },
+  "204": {
+    "id": 204,
+    "slug": "liquid-voice",
+    "name": "Liquid Voice",
+    "jpName": "うるおいボイス",
+    "shortEffect": "Sound-based moves become Water-type.",
+    "flavorTextEn": "Sound-based moves become Water-type moves.",
+    "flavorTextJa": "すべての 音技が みずタイプに なる。"
+  },
+  "205": {
+    "id": 205,
+    "slug": "triage",
+    "name": "Triage",
+    "jpName": "ヒーリングシフト",
+    "shortEffect": "This Pokémon's healing moves have their priority increased by 3.",
+    "flavorTextEn": "Gives priority to the Pokémon's healing moves.",
+    "flavorTextJa": "回復技を 先制で 出すことが できる。"
+  },
+  "206": {
+    "id": 206,
+    "slug": "galvanize",
+    "name": "Galvanize",
+    "jpName": "エレキスキン",
+    "shortEffect": "This Pokémon's Normal moves are Electric and have their power increased to 1.2×.",
+    "flavorTextEn": "Normal-type moves become Electric-type moves. The power of those moves is boosted a little.",
+    "flavorTextJa": "ノーマルタイプの 技が でんきタイプになる。 威力が 少し 上がる。"
+  },
+  "207": {
+    "id": 207,
+    "slug": "surge-surfer",
+    "name": "Surge Surfer",
+    "jpName": "サーフテール",
+    "shortEffect": "Doubles this Pokémon's Speed on Electric Terrain.",
+    "flavorTextEn": "Doubles the Pokémon's Speed stat on Electric Terrain.",
+    "flavorTextJa": "エレキフィールド のとき 素早さが ２倍に なる。"
+  },
+  "208": {
+    "id": 208,
+    "slug": "schooling",
+    "name": "Schooling",
+    "jpName": "ぎょぐん",
+    "shortEffect": "Wishiwashi becomes Schooling Form when its HP is 25% or higher.",
+    "flavorTextEn": "When it has a lot of HP, the Pokémon forms a powerful school. It stops schooling when its HP is low.",
+    "flavorTextJa": "ＨＰが 多いときは 群れて 強くなる。 ＨＰの 残りが 少なくなると 群れは 散り散りに なってしまう。"
+  },
+  "209": {
+    "id": 209,
+    "slug": "disguise",
+    "name": "Disguise",
+    "jpName": "ばけのかわ",
+    "shortEffect": "Prevents the first instance of battle damage.",
+    "flavorTextEn": "Once per battle, the shroud that covers the Pokémon can protect it from an attack.",
+    "flavorTextJa": "体を 被う 化けの皮で １回 攻撃を 防ぐことが できる。"
+  },
+  "210": {
+    "id": 210,
+    "slug": "battle-bond",
+    "name": "Battle Bond",
+    "jpName": "きずなへんげ",
+    "shortEffect": "Transforms this Pokémon into Ash-Greninja after fainting an opponent. Water Shuriken's power is 20 and always hits three times.",
+    "flavorTextEn": "When the Pokémon knocks out a target, its bond with its Trainer is strengthened, and its Attack, Sp. Atk, and Speed stats are boosted.",
+    "flavorTextJa": "相手を 倒すと トレーナーとの キズナが 深まり サトシゲッコウガに 変化する。みずしゅりけんが 強くなる。"
+  },
+  "211": {
+    "id": 211,
+    "slug": "power-construct",
+    "name": "Power Construct",
+    "jpName": "スワームチェンジ",
+    "shortEffect": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.",
+    "flavorTextEn": "Other Cells gather to aid when its HP becomes half or less. Then the Pokémon changes its form to Complete Forme.",
+    "flavorTextJa": "ＨＰが 半分に なると セルたちが 応援に 駆けつけ パーフェクトフォルムに 姿を 変える。"
+  },
+  "212": {
+    "id": 212,
+    "slug": "corrosion",
+    "name": "Corrosion",
+    "jpName": "ふしょく",
+    "shortEffect": "This Pokémon can inflict poison on Poison and Steel Pokémon.",
+    "flavorTextEn": "The Pokémon can poison the target even if it's a Steel or Poison type.",
+    "flavorTextJa": "はがねタイプや どくタイプも どく状態に することが できる。"
+  },
+  "213": {
+    "id": 213,
+    "slug": "comatose",
+    "name": "Comatose",
+    "jpName": "ぜったいねむり",
+    "shortEffect": "This Pokémon always acts as though it were Asleep.",
+    "flavorTextEn": "The Pokémon is always drowsing and will never wake up. It can attack while in its sleeping state.",
+    "flavorTextJa": "つねに 夢うつつの 状態で 絶対に 目覚めない。 眠ったまま 攻撃が できる。"
+  },
+  "214": {
+    "id": 214,
+    "slug": "queenly-majesty",
+    "name": "Queenly Majesty",
+    "jpName": "じょおうのいげん",
+    "shortEffect": "Opposing Pokémon cannot use priority attacks.",
+    "flavorTextEn": "When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack.",
+    "flavorTextJa": "相手に 威圧感を あたえ こちらに むかって 先制技を 出せない ようにする。"
+  },
+  "215": {
+    "id": 215,
+    "slug": "innards-out",
+    "name": "Innards Out",
+    "jpName": "とびだすなかみ",
+    "shortEffect": "When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining.",
+    "flavorTextEn": "Damages the attacker landing the finishing hit by the amount equal to its last HP.",
+    "flavorTextJa": "相手に 倒されたとき ＨＰの 残りの ぶんだけ 相手に ダメージを あたえる。"
+  },
+  "216": {
+    "id": 216,
+    "slug": "dancer",
+    "name": "Dancer",
+    "jpName": "おどりこ",
+    "shortEffect": "Whenever another Pokémon uses a dance move, this Pokémon will use the same move immediately afterwards.",
+    "flavorTextEn": "Whenever a dance move is used in battle, the Pokémon will copy the user to immediately perform that dance move itself.",
+    "flavorTextJa": "だれかが 踊り技を 使うと 自分も それに 続いて 踊り技を 出すことが できる。"
+  },
+  "217": {
+    "id": 217,
+    "slug": "battery",
+    "name": "Battery",
+    "jpName": "バッテリー",
+    "shortEffect": "Ally Pokémon's moves have their power increased to 1.3×.",
+    "flavorTextEn": "Powers up ally Pokémon's special moves.",
+    "flavorTextJa": "味方の 特殊技の 威力を 上げる。"
+  },
+  "218": {
+    "id": 218,
+    "slug": "fluffy",
+    "name": "Fluffy",
+    "jpName": "もふもふ",
+    "shortEffect": "Damage from contact moves is halved. Damage from Fire moves is doubled.",
+    "flavorTextEn": "Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves.",
+    "flavorTextJa": "相手から 受けた 接触する 技の ダメージを 半減するが ほのおタイプの 技の ダメージは ２倍になる。"
+  },
+  "219": {
+    "id": 219,
+    "slug": "dazzling",
+    "name": "Dazzling",
+    "jpName": "ビビッドボディ",
+    "shortEffect": "Opposing Pokémon cannot use priority attacks.",
+    "flavorTextEn": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies.",
+    "flavorTextJa": "相手を びっくり させて こちらに むかって 先制技を 出せない ようにする。"
+  },
+  "220": {
+    "id": 220,
+    "slug": "soul-heart",
+    "name": "Soul-Heart",
+    "jpName": "ソウルハート",
+    "shortEffect": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints.",
+    "flavorTextEn": "Boosts the Pokémon's Sp. Atk stat every time another Pokémon faints.",
+    "flavorTextJa": "ポケモンが ひんしに なるたびに 特攻が 上がる。"
+  },
+  "221": {
+    "id": 221,
+    "slug": "tangling-hair",
+    "name": "Tangling Hair",
+    "jpName": "カーリーヘアー",
+    "shortEffect": "When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage.",
+    "flavorTextEn": "Contact with the Pokémon lowers the attacker's Speed stat.",
+    "flavorTextJa": "攻撃で 自分に 触れた 相手の 素早さを 下げる。"
+  },
+  "222": {
+    "id": 222,
+    "slug": "receiver",
+    "name": "Receiver",
+    "jpName": "レシーバー",
+    "shortEffect": "When an ally faints, this Pokémon gains its Ability.",
+    "flavorTextEn": "The Pokémon copies the Ability of a defeated ally.",
+    "flavorTextJa": "倒された 味方の 特性を 受け継いで 同じ 特性に なる。"
+  },
+  "223": {
+    "id": 223,
+    "slug": "power-of-alchemy",
+    "name": "Power of Alchemy",
+    "jpName": "かがくのちから",
+    "shortEffect": "When an ally faints, this Pokémon gains its Ability.",
+    "flavorTextEn": "The Pokémon copies the Ability of a defeated ally.",
+    "flavorTextJa": "倒された 味方の 特性を 受け継ぎ 同じ 特性に 変わる。"
+  },
+  "224": {
+    "id": 224,
+    "slug": "beast-boost",
+    "name": "Beast Boost",
+    "jpName": "ビーストブースト",
+    "shortEffect": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon.",
+    "flavorTextEn": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+    "flavorTextJa": "相手を 倒したとき 自分の いちばん 高い 能力が 上がる。"
+  },
+  "225": {
+    "id": 225,
+    "slug": "rks-system",
+    "name": "RKS System",
+    "jpName": "ＡＲシステム",
+    "shortEffect": "Changes this Pokémon's type to match its held Memory.",
+    "flavorTextEn": "Changes the Pokémon’s type to match the memory disc it holds.",
+    "flavorTextJa": "持っている メモリで 自分の タイプが 変わる。"
+  },
+  "226": {
+    "id": 226,
+    "slug": "electric-surge",
+    "name": "Electric Surge",
+    "jpName": "エレキメイカー",
+    "shortEffect": "When this Pokémon enters battle, it changes the terrain to Electric Terrain.",
+    "flavorTextEn": "Turns the ground into Electric Terrain when the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに エレキフィールドを はりめぐらせる。"
+  },
+  "227": {
+    "id": 227,
+    "slug": "psychic-surge",
+    "name": "Psychic Surge",
+    "jpName": "サイコメイカー",
+    "shortEffect": "When this Pokémon enters battle, it changes the terrain to Psychic Terrain.",
+    "flavorTextEn": "Turns the ground into Psychic Terrain when the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに サイコフィールドを はりめぐらせる。"
+  },
+  "228": {
+    "id": 228,
+    "slug": "misty-surge",
+    "name": "Misty Surge",
+    "jpName": "ミストメイカー",
+    "shortEffect": "When this Pokémon enters battle, it changes the terrain to Misty Terrain.",
+    "flavorTextEn": "Turns the ground into Misty Terrain when the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに ミストフィールドを はりめぐらせる。"
+  },
+  "229": {
+    "id": 229,
+    "slug": "grassy-surge",
+    "name": "Grassy Surge",
+    "jpName": "グラスメイカー",
+    "shortEffect": "When this Pokémon enters battle, it changes the terrain to Grassy Terrain.",
+    "flavorTextEn": "Turns the ground into Grassy Terrain when the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに グラスフィールドを はりめぐらせる。"
+  },
+  "230": {
+    "id": 230,
+    "slug": "full-metal-body",
+    "name": "Full Metal Body",
+    "jpName": "メタルプロテクト",
+    "shortEffect": "Other Pokémon cannot lower this Pokémon's stats.",
+    "flavorTextEn": "Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats.",
+    "flavorTextJa": "相手の 技や 特性で 能力を 下げられない。"
+  },
+  "231": {
+    "id": 231,
+    "slug": "shadow-shield",
+    "name": "Shadow Shield",
+    "jpName": "ファントムガード",
+    "shortEffect": "When this Pokémon has full HP, regular damage from moves is halved.",
+    "flavorTextEn": "Reduces the amount of damage the Pokémon takes while its HP is full.",
+    "flavorTextJa": "ＨＰが 満タンの ときに 受ける ダメージが 少なくなる。"
+  },
+  "232": {
+    "id": 232,
+    "slug": "prism-armor",
+    "name": "Prism Armor",
+    "jpName": "プリズムアーマー",
+    "shortEffect": "Reduces super-effective damage to 0.75×.",
+    "flavorTextEn": "Reduces the power of supereffective attacks taken.",
+    "flavorTextJa": "効果バツグンに なってしまう 攻撃の 威力を 弱める ことが できる。"
+  },
+  "233": {
+    "id": 233,
+    "slug": "neuroforce",
+    "name": "Neuroforce",
+    "jpName": "ブレインフォース",
+    "shortEffect": "Increases super-effective damage dealt to 1.25×.",
+    "flavorTextEn": "Powers up moves that are super effective.",
+    "flavorTextJa": "効果バツグンの 攻撃で 威力が さらに 上がる。"
+  },
+  "234": {
+    "id": 234,
+    "slug": "intrepid-sword",
+    "name": "Intrepid Sword",
+    "jpName": "ふとうのけん",
+    "shortEffect": "Boosts Attack in battle.",
+    "flavorTextEn": "Boosts the Pokémon’s Attack stat the first time the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに 攻撃が 上がる。"
+  },
+  "235": {
+    "id": 235,
+    "slug": "dauntless-shield",
+    "name": "Dauntless Shield",
+    "jpName": "ふくつのたて",
+    "shortEffect": "Boosts Defense in battle.",
+    "flavorTextEn": "Boosts the Pokémon’s Defense stat the first time the Pokémon enters a battle.",
+    "flavorTextJa": "登場 したときに 防御が 上がる。"
+  },
+  "236": {
+    "id": 236,
+    "slug": "libero",
+    "name": "Libero",
+    "jpName": "リベロ",
+    "shortEffect": "Libero changes the Pokémon's type to that of its previously used attack.",
+    "flavorTextEn": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.",
+    "flavorTextJa": "自分が 出す 技と 同じ タイプに 変化する。"
+  },
+  "237": {
+    "id": 237,
+    "slug": "ball-fetch",
+    "name": "Ball Fetch",
+    "jpName": "たまひろい",
+    "shortEffect": "If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle.",
+    "flavorTextEn": "If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle.",
+    "flavorTextJa": "道具を 持っていない 場合 １回目に 投げて 失敗 した モンスターボールを 拾ってくる。"
+  },
+  "238": {
+    "id": 238,
+    "slug": "cotton-down",
+    "name": "Cotton Down",
+    "jpName": "わたげ",
+    "shortEffect": "When Ignores moves and abilities that draw in moves.",
+    "flavorTextEn": "When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stat of all Pokémon except itself.",
+    "flavorTextJa": "攻撃を 受けると わたげを ばらまいて 自分以外の ポケモン すべての 素早さを 下げる。"
+  },
+  "239": {
+    "id": 239,
+    "slug": "propeller-tail",
+    "name": "Propeller Tail",
+    "jpName": "スクリューおびれ",
+    "shortEffect": "Ignores moves and abilities that draw in moves.",
+    "flavorTextEn": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves.",
+    "flavorTextJa": "相手の 技を 引き受ける 特性や 技の 影響を 無視 できる。"
+  },
+  "240": {
+    "id": 240,
+    "slug": "mirror-armor",
+    "name": "Mirror Armor",
+    "jpName": "ミラーアーマー",
+    "shortEffect": "Reflects any stat-lowering effects.",
+    "flavorTextEn": "Bounces back only the stat-lowering effects that the Pokémon receives.",
+    "flavorTextJa": "自分が 受けた 能力 ダウンの 効果 だけを 跳ね返す。"
+  },
+  "241": {
+    "id": 241,
+    "slug": "gulp-missile",
+    "name": "Gulp Missile",
+    "jpName": "うのミサイル",
+    "shortEffect": "If a Cramorant with Gulp Missile uses Surf or Dive, it catches prey and changes its form depending on its remaining HP.",
+    "flavorTextEn": "When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack.",
+    "flavorTextJa": "なみのりか ダイビングを すると 獲物を くわえてくる。 ダメージを 受けると 獲物を 吐きだして 攻撃。"
+  },
+  "242": {
+    "id": 242,
+    "slug": "stalwart",
+    "name": "Stalwart",
+    "jpName": "すじがねいり",
+    "shortEffect": "Ignores moves and abilities that draw in moves.",
+    "flavorTextEn": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves.",
+    "flavorTextJa": "相手の 技を 引き受ける 特性や 技の 影響を 無視 できる。"
+  },
+  "243": {
+    "id": 243,
+    "slug": "steam-engine",
+    "name": "Steam Engine",
+    "jpName": "じょうききかん",
+    "shortEffect": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move.",
+    "flavorTextEn": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move.",
+    "flavorTextJa": "みずタイプ ほのおタイプの 技を 受けると 素早さが ぐぐーんと 上がる。"
+  },
+  "244": {
+    "id": 244,
+    "slug": "punk-rock",
+    "name": "Punk Rock",
+    "jpName": "パンクロック",
+    "shortEffect": "Boosts sound-based moves and halves damage from the same moves.",
+    "flavorTextEn": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves.",
+    "flavorTextJa": "音技の 威力が 上がる。 受けた 音技の ダメージは 半分に なる。"
+  },
+  "245": {
+    "id": 245,
+    "slug": "sand-spit",
+    "name": "Sand Spit",
+    "jpName": "すなはき",
+    "shortEffect": "Creates a sandstorm when hit by an attack.",
+    "flavorTextEn": "The Pokémon creates a sandstorm when it's hit by an attack.",
+    "flavorTextJa": "攻撃を 受けると 砂あらしを 起こす。"
+  },
+  "246": {
+    "id": 246,
+    "slug": "ice-scales",
+    "name": "Ice Scales",
+    "jpName": "こおりのりんぷん",
+    "shortEffect": "Halves damage from Special moves.",
+    "flavorTextEn": "The Pokémon is protected by ice scales, which halve the damage taken from special moves.",
+    "flavorTextJa": "こおりのりんぷんに 守られて 特殊攻撃で 受ける ダメージが 半減 する。"
+  },
+  "247": {
+    "id": 247,
+    "slug": "ripen",
+    "name": "Ripen",
+    "jpName": "じゅくせい",
+    "shortEffect": "Doubles the effect of berries.",
+    "flavorTextEn": "Ripens Berries and doubles their effect.",
+    "flavorTextJa": "熟成 させることで きのみの 効果が 倍に なる。"
+  },
+  "248": {
+    "id": 248,
+    "slug": "ice-face",
+    "name": "Ice Face",
+    "jpName": "アイスフェイス",
+    "shortEffect": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows.",
+    "flavorTextEn": "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it snows.",
+    "flavorTextJa": "物理攻撃は 頭の 氷が みがわりに なるが 姿も 変わる。 氷は あられが 降ると 元に戻る。"
+  },
+  "249": {
+    "id": 249,
+    "slug": "power-spot",
+    "name": "Power Spot",
+    "jpName": "パワースポット",
+    "shortEffect": "Just being next to the Pokémon powers up moves.",
+    "flavorTextEn": "Just being next to the Pokémon powers up moves.",
+    "flavorTextJa": "隣に いるだけで 技の 威力が 上がる。"
+  },
+  "250": {
+    "id": 250,
+    "slug": "mimicry",
+    "name": "Mimicry",
+    "jpName": "ぎたい",
+    "shortEffect": "Changes type depending on the terrain.",
+    "flavorTextEn": "Changes the Pokémon’s type depending on the terrain.",
+    "flavorTextJa": "フィールドの 状態に あわせて ポケモンの タイプが 変わる。"
+  },
+  "251": {
+    "id": 251,
+    "slug": "screen-cleaner",
+    "name": "Screen Cleaner",
+    "jpName": "バリアフリー",
+    "shortEffect": "Nullifies effects of Light Screen, Reflect, and Aurora Veil.",
+    "flavorTextEn": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon.",
+    "flavorTextJa": "登場 したときに 敵と 味方の ひかりのかべ リフレクター オーロラベールの 効果が 消える。"
+  },
+  "252": {
+    "id": 252,
+    "slug": "steely-spirit",
+    "name": "Steely Spirit",
+    "jpName": "はがねのせいしん",
+    "shortEffect": "Powers up ally Pokémon's Steel-type moves.",
+    "flavorTextEn": "Powers up the Steel-type moves of the Pokémon and its allies.",
+    "flavorTextJa": "味方の はがねタイプの 攻撃の 威力が 上がる。"
+  },
+  "253": {
+    "id": 253,
+    "slug": "perish-body",
+    "name": "Perish Body",
+    "jpName": "ほろびのボディ",
+    "shortEffect": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",
+    "flavorTextEn": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",
+    "flavorTextJa": "接触する 技を 受けると お互い ３ターン たつと ひんしになる。 交代すると 効果は なくなる。"
+  },
+  "254": {
+    "id": 254,
+    "slug": "wandering-spirit",
+    "name": "Wandering Spirit",
+    "jpName": "さまようたましい",
+    "shortEffect": "Swaps abilities with opponents on contact.",
+    "flavorTextEn": "The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact.",
+    "flavorTextJa": "接触する 技で 攻撃 してきた ポケモンと 特性を 入れ替える。"
+  },
+  "255": {
+    "id": 255,
+    "slug": "gorilla-tactics",
+    "name": "Gorilla Tactics",
+    "jpName": "ごりむちゅう",
+    "shortEffect": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move.",
+    "flavorTextEn": "Boosts the Pokémon’s Attack stat but only allows the use of the first selected move.",
+    "flavorTextJa": "攻撃は 上がるが 最初に 選んだ 技しか 出せなくなる。"
+  },
+  "256": {
+    "id": 256,
+    "slug": "neutralizing-gas",
+    "name": "Neutralizing Gas",
+    "jpName": "かがくへんかガス",
+    "shortEffect": "Neutralizes abilities of all Pokémon in battle.",
+    "flavorTextEn": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered.",
+    "flavorTextJa": "かがくへんかガスの ポケモンが 場にいると すべての ポケモンの 特性の 効果が 消えたり 発動 しなくなる。"
+  },
+  "257": {
+    "id": 257,
+    "slug": "pastel-veil",
+    "name": "Pastel Veil",
+    "jpName": "パステルベール",
+    "shortEffect": "Prevents the Pokémon and its allies from being poisoned.",
+    "flavorTextEn": "Protects the Pokémon and its ally Pokémon from being poisoned.",
+    "flavorTextJa": "自分も 味方も どくの 状態異常を 受けなくなる。"
+  },
+  "258": {
+    "id": 258,
+    "slug": "hunger-switch",
+    "name": "Hunger Switch",
+    "jpName": "はらぺこスイッチ",
+    "shortEffect": "Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode",
+    "flavorTextEn": "The Pokémon changes its form, alternating between its Full Belly Mode and Hangry Mode after the end of every turn.",
+    "flavorTextJa": "ターンの 終わりに まんぷくもよう はらぺこもよう まんぷくもよう……と 交互に 姿を 変える。"
+  },
+  "259": {
+    "id": 259,
+    "slug": "quick-draw",
+    "name": "Quick Draw",
+    "jpName": "クイックドロウ",
+    "shortEffect": "Enables the Pokémon to move first occasionally.",
+    "flavorTextEn": "Enables the Pokémon to move first occasionally.",
+    "flavorTextJa": "相手より 先に 行動できることが ある。"
+  },
+  "260": {
+    "id": 260,
+    "slug": "unseen-fist",
+    "name": "Unseen Fist",
+    "jpName": "ふかしのこぶし",
+    "shortEffect": "Contact moves can strike through Protect/Detect.",
+    "flavorTextEn": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
+    "flavorTextJa": "相手に 接触する 技なら 守りの 効果を 無視して 攻撃することが できる。"
+  },
+  "261": {
+    "id": 261,
+    "slug": "curious-medicine",
+    "name": "Curious Medicine",
+    "jpName": "きみょうなくすり",
+    "shortEffect": "Resets all stat changes upon entering battlefield.",
+    "flavorTextEn": "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies.",
+    "flavorTextJa": "登場 したときに 貝がらから 薬を 振りまいて 味方の 能力変化を 元に戻す。"
+  },
+  "262": {
+    "id": 262,
+    "slug": "transistor",
+    "name": "Transistor",
+    "jpName": "トランジスタ",
+    "shortEffect": "Powers up Electric-type moves.",
+    "flavorTextEn": "Powers up Electric-type moves.",
+    "flavorTextJa": "でんきタイプの 技の 威力が 上がる。"
+  },
+  "263": {
+    "id": 263,
+    "slug": "dragons-maw",
+    "name": "Dragon’s Maw",
+    "jpName": "りゅうのあぎと",
+    "shortEffect": "Powers up Dragon-type moves.",
+    "flavorTextEn": "Powers up Dragon-type moves.",
+    "flavorTextJa": "ドラゴンタイプの 技の 威力が 上がる。"
+  },
+  "264": {
+    "id": 264,
+    "slug": "chilling-neigh",
+    "name": "Chilling Neigh",
+    "jpName": "しろのいななき",
+    "shortEffect": "Boosts Attack after knocking out a Pokémon.",
+    "flavorTextEn": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+    "flavorTextJa": "相手を 倒すと 冷たい 声で いなないて 攻撃が 上がる。"
+  },
+  "265": {
+    "id": 265,
+    "slug": "grim-neigh",
+    "name": "Grim Neigh",
+    "jpName": "くろのいななき",
+    "shortEffect": "Boosts Special Attack after knocking out a Pokémon.",
+    "flavorTextEn": "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+    "flavorTextJa": "相手を 倒すと 恐ろしい 声で いなないて 特攻が 上がる。"
+  },
+  "266": {
+    "id": 266,
+    "slug": "as-one-glastrier",
+    "name": "As One",
+    "jpName": "じんばいったい",
+    "shortEffect": "Combines the effects of Unnerve and Chilling Neigh.",
+    "flavorTextEn": "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability.",
+    "flavorTextJa": "バドレックスの きんちょうかんと ブリザポスの しろのいななきの 二つの 特性を あわせ持つ。"
+  },
+  "267": {
+    "id": 267,
+    "slug": "as-one-spectrier",
+    "name": "As One",
+    "jpName": "じんばいったい",
+    "shortEffect": "Combines the effects of Unnerve and Grim Neigh.",
+    "flavorTextEn": "This Ability combines the effects of both Calyrex's Unnerve Ability and Spectrier's Grim Neigh Ability.",
+    "flavorTextJa": "バドレックスの きんちょうかんと レイスポスの くろのいななきの 二つの 特性を あわせ持つ。"
+  },
+  "268": {
+    "id": 268,
+    "slug": "lingering-aroma",
+    "name": "Lingering Aroma",
+    "jpName": "とれないにおい",
+    "shortEffect": "Contact changes the attacker's Ability to Lingering Aroma.",
+    "flavorTextEn": "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma.",
+    "flavorTextJa": "相手に 触られると とれないにおいが 相手に うつってしまう。"
+  },
+  "269": {
+    "id": 269,
+    "slug": "seed-sower",
+    "name": "Seed Sower",
+    "jpName": "こぼれダネ",
+    "shortEffect": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+    "flavorTextEn": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+    "flavorTextJa": "攻撃を 受けると グラスフィールドに する。"
+  },
+  "270": {
+    "id": 270,
+    "slug": "thermal-exchange",
+    "name": "Thermal Exchange",
+    "jpName": "ねつこうかん",
+    "shortEffect": "Raises Attack when hit by a Fire-type move. Cannot be burned.",
+    "flavorTextEn": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned.",
+    "flavorTextJa": "ほのおタイプの 技を 受けると 攻撃が 上がる。 やけど状態に ならない。"
+  },
+  "271": {
+    "id": 271,
+    "slug": "anger-shell",
+    "name": "Anger Shell",
+    "jpName": "いかりのこうら",
+    "shortEffect": "When the Pokémon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised.",
+    "flavorTextEn": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats.",
+    "flavorTextJa": "相手の攻撃で HPが 半分に なると 怒りで 防御と 特防が 下がるが 攻撃 特攻 素早さが 上がる。"
+  },
+  "272": {
+    "id": 272,
+    "slug": "purifying-salt",
+    "name": "Purifying Salt",
+    "jpName": "きよめのしお",
+    "shortEffect": "Protects from status conditions and halves damage from Ghost-type moves.",
+    "flavorTextEn": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
+    "flavorTextJa": "清らかな塩で 状態異常に ならない。 ゴーストタイプの 技の ダメージを 半減させる。"
+  },
+  "273": {
+    "id": 273,
+    "slug": "well-baked-body",
+    "name": "Well-Baked Body",
+    "jpName": "こんがりボディ",
+    "shortEffect": "Immune to Fire-type moves, and Defense is sharply boosted.",
+    "flavorTextEn": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted.",
+    "flavorTextJa": "ほのおタイプの 技を 受けると ダメージを 受けずに 防御が ぐーんと 上がる。"
+  },
+  "274": {
+    "id": 274,
+    "slug": "wind-rider",
+    "name": "Wind Rider",
+    "jpName": "かぜのり",
+    "shortEffect": "Gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one.",
+    "flavorTextEn": "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves.",
+    "flavorTextJa": "おいかぜが 吹いたり 風技を 受けると ダメージを 受けずに 攻撃が 上がる。"
+  },
+  "275": {
+    "id": 275,
+    "slug": "guard-dog",
+    "name": "Guard Dog",
+    "jpName": "ばんけん",
+    "shortEffect": "Boosts Attack if intimidated, and prevents being forced to switch out.",
+    "flavorTextEn": "Boosts the Pokémon’s Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work.",
+    "flavorTextJa": "いかく されると 攻撃が 上がる。 ポケモンを 入れ替えさせる 技や 道具が 効かない。"
+  },
+  "276": {
+    "id": 276,
+    "slug": "rocky-payload",
+    "name": "Rocky Payload",
+    "jpName": "いわはこび",
+    "shortEffect": "Powers up Rock-type moves.",
+    "flavorTextEn": "Powers up Rock-type moves.",
+    "flavorTextJa": "いわタイプの 技の 威力が 上がる。"
+  },
+  "277": {
+    "id": 277,
+    "slug": "wind-power",
+    "name": "Wind Power",
+    "jpName": "ふうりょくでんき",
+    "shortEffect": "When hit by a wind move, the power of the next Electric-type move it uses is doubled.",
+    "flavorTextEn": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
+    "flavorTextJa": "風技を 受けると じゅうでん 状態に なる。"
+  },
+  "278": {
+    "id": 278,
+    "slug": "zero-to-hero",
+    "name": "Zero to Hero",
+    "jpName": "マイティチェンジ",
+    "shortEffect": "Transforms into its Hero Form when switching out.",
+    "flavorTextEn": "The Pokémon transforms into its Hero Form when it switches out.",
+    "flavorTextJa": "手持ちに ひっこむと マイティフォルムに 変化する。"
+  },
+  "279": {
+    "id": 279,
+    "slug": "commander",
+    "name": "Commander",
+    "jpName": "しれいとう",
+    "shortEffect": "Goes inside the mouth of an ally Dondozo if one is on the field.",
+    "flavorTextEn": "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there.",
+    "flavorTextJa": "登場したとき 味方に ヘイラッシャが いると 口の中に 入って そこから 指令を だす。"
+  },
+  "280": {
+    "id": 280,
+    "slug": "electromorphosis",
+    "name": "Electromorphosis",
+    "jpName": "でんきにかえる",
+    "shortEffect": "When hit by an attack, the power of the next Electric-type move it uses is doubled.",
+    "flavorTextEn": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
+    "flavorTextJa": "ダメージを 受けると じゅうでん 状態に なる。"
+  },
+  "281": {
+    "id": 281,
+    "slug": "protosynthesis",
+    "name": "Protosynthesis",
+    "jpName": "こだいかっせい",
+    "shortEffect": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+    "flavorTextEn": "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.",
+    "flavorTextJa": "ブーストエナジーを 持たせるか 天気が 晴れのとき いちばん 高い能力が 上がる。"
+  },
+  "282": {
+    "id": 282,
+    "slug": "quark-drive",
+    "name": "Quark Drive",
+    "jpName": "クォークチャージ",
+    "shortEffect": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+    "flavorTextEn": "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.",
+    "flavorTextJa": "ブーストエナジーを 持たせるか エレキフィールドのとき いちばん 高い能力が 上がる。"
+  },
+  "283": {
+    "id": 283,
+    "slug": "good-as-gold",
+    "name": "Good as Gold",
+    "jpName": "おうごんのからだ",
+    "shortEffect": "Gives immunity to status moves.",
+    "flavorTextEn": "A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.",
+    "flavorTextJa": "酸化せず 丈夫な 黄金の体は 相手からの 変化技を 受けない。"
+  },
+  "284": {
+    "id": 284,
+    "slug": "vessel-of-ruin",
+    "name": "Vessel of Ruin",
+    "jpName": "わざわいのうつわ",
+    "shortEffect": "Lowers Special Attack of all Pokémon except itself.",
+    "flavorTextEn": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.",
+    "flavorTextJa": "災厄を 呼ぶ 器の力で 自分以外の 特攻が 弱くなる。"
+  },
+  "285": {
+    "id": 285,
+    "slug": "sword-of-ruin",
+    "name": "Sword of Ruin",
+    "jpName": "わざわいのつるぎ",
+    "shortEffect": "Lowers Defense of all Pokémon except itself.",
+    "flavorTextEn": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself.",
+    "flavorTextJa": "災厄を 呼ぶ 剣の力で 自分以外の 防御が 弱くなる。"
+  },
+  "286": {
+    "id": 286,
+    "slug": "tablets-of-ruin",
+    "name": "Tablets of Ruin",
+    "jpName": "わざわいのおふだ",
+    "shortEffect": "Lowers Attack of all Pokémon except itself.",
+    "flavorTextEn": "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself.",
+    "flavorTextJa": "災厄を 呼ぶ 木札の力で 自分以外の 攻撃が 弱くなる。"
+  },
+  "287": {
+    "id": 287,
+    "slug": "beads-of-ruin",
+    "name": "Beads of Ruin",
+    "jpName": "わざわいのたま",
+    "shortEffect": "Lowers Special Defense of all Pokémon except itself.",
+    "flavorTextEn": "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself.",
+    "flavorTextJa": "災厄を 呼ぶ 勾玉の力で 自分以外の 特防が 弱くなる。"
+  },
+  "288": {
+    "id": 288,
+    "slug": "orichalcum-pulse",
+    "name": "Orichalcum Pulse",
+    "jpName": "ひひいろのこどう",
+    "shortEffect": "Turns the sunlight harsh when entering battle, and boosts Attack while active.",
+    "flavorTextEn": "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight.",
+    "flavorTextJa": "登場したとき 天気を 晴れにする。 日差しが 強いと 古代の 鼓動により 攻撃が 高まる。"
+  },
+  "289": {
+    "id": 289,
+    "slug": "hadron-engine",
+    "name": "Hadron Engine",
+    "jpName": "ハドロンエンジン",
+    "shortEffect": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",
+    "flavorTextEn": "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain.",
+    "flavorTextJa": "登場したとき エレキフィールドを はる。 エレキフィールドだと 未来の 機関により 特攻が 高まる。"
+  },
+  "290": {
+    "id": 290,
+    "slug": "opportunist",
+    "name": "Opportunist",
+    "jpName": "びんじょう",
+    "shortEffect": "Copies stat boosts by the opponent.",
+    "flavorTextEn": "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself.",
+    "flavorTextJa": "相手の 能力が 上がったとき 自分も 便乗して 同じように 能力を 上げる。"
+  },
+  "291": {
+    "id": 291,
+    "slug": "cud-chew",
+    "name": "Cud Chew",
+    "jpName": "はんすう",
+    "shortEffect": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn.",
+    "flavorTextEn": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+    "flavorTextJa": "きのみを 食べると 次のターンの 終わりに 胃から 出して もう1回だけ 食べる。"
+  },
+  "292": {
+    "id": 292,
+    "slug": "sharpness",
+    "name": "Sharpness",
+    "jpName": "きれあじ",
+    "shortEffect": "Powers up slicing moves.",
+    "flavorTextEn": "Powers up slicing moves.",
+    "flavorTextJa": "相手を 切る技の 威力が 上がる。"
+  },
+  "293": {
+    "id": 293,
+    "slug": "supreme-overlord",
+    "name": "Supreme Overlord",
+    "jpName": "そうだいしょう",
+    "shortEffect": "Attack and Special Attack are boosted for each party Pokémon that has been defeated.",
+    "flavorTextEn": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+    "flavorTextJa": "登場したとき 今まで 倒された 味方の 数が 多いほど 少しずつ 攻撃と 特攻が 上がる。"
+  },
+  "294": {
+    "id": 294,
+    "slug": "costar",
+    "name": "Costar",
+    "jpName": "きょうえん",
+    "shortEffect": "Copies ally's stat changes on entering battle.",
+    "flavorTextEn": "When the Pokémon enters a battle, it copies an ally's stat changes.",
+    "flavorTextJa": "登場 したときに 味方の 能力変化を コピーする。"
+  },
+  "295": {
+    "id": 295,
+    "slug": "toxic-debris",
+    "name": "Toxic Debris",
+    "jpName": "どくげしょう",
+    "shortEffect": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+    "flavorTextEn": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+    "flavorTextJa": "物理技で ダメージを 受けると 相手の 足下に どくびしが ちらばる。"
+  },
+  "296": {
+    "id": 296,
+    "slug": "armor-tail",
+    "name": "Armor Tail",
+    "jpName": "テイルアーマー",
+    "shortEffect": "Prevents the opponent from using any moves that have priority, such as Quick Attack.",
+    "flavorTextEn": "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies.",
+    "flavorTextJa": "頭を包む 謎のしっぽが こちらに むかって 先制技を 出せない ようにする。"
+  },
+  "297": {
+    "id": 297,
+    "slug": "earth-eater",
+    "name": "Earth Eater",
+    "jpName": "どしょく",
+    "shortEffect": "Restores HP when hit by a Ground-type move.",
+    "flavorTextEn": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.",
+    "flavorTextJa": "じめんタイプの 技を 受けると ダメージを 受けずに 回復する。"
+  },
+  "298": {
+    "id": 298,
+    "slug": "mycelium-might",
+    "name": "Mycelium Might",
+    "jpName": "きんしのちから",
+    "shortEffect": "Status moves go last, but are not affected by the opponent's ability.",
+    "flavorTextEn": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target.",
+    "flavorTextJa": "変化技を 出すとき 必ず 行動が 遅くなるが 相手の 特性に ジャマされない。"
+  },
+  "299": {
+    "id": 299,
+    "slug": "minds-eye",
+    "name": "Mind’s Eye",
+    "jpName": "しんがん",
+    "shortEffect": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",
+    "flavorTextEn": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal-type and Fighting-type moves",
+    "flavorTextJa": "ノーマル かくとうタイプの技を ゴーストタイプに 当てることが できる。 相手の 回避率の 変化を 無視し 命中率も 下げられない。"
+  },
+  "300": {
+    "id": 300,
+    "slug": "supersweet-syrup",
+    "name": "Supersweet Syrup",
+    "jpName": "かんろなミツ",
+    "shortEffect": "Once per battle, when a Pokémon with Supersweet Syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage.",
+    "flavorTextEn": "Lowers the evasion of opposing Pokémon by 1 stage when first sent into battle",
+    "flavorTextJa": "最初に 登場 したとき 甘ったるい 蜜の香りを ふりまいて 相手の 回避率を 下げる。"
+  },
+  "301": {
+    "id": 301,
+    "slug": "hospitality",
+    "name": "Hospitality",
+    "jpName": "おもてなし",
+    "shortEffect": "When a Pokémon with Hospitality enters a battle, it restores HP for an ally by 25%.",
+    "flavorTextEn": "When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP",
+    "flavorTextJa": "登場したとき 味方を もてなして HPを 少しだけ 回復してあげる。"
+  },
+  "302": {
+    "id": 302,
+    "slug": "toxic-chain",
+    "name": "Toxic Chain",
+    "jpName": "どくのくさり",
+    "shortEffect": "May cause bad poisoning when the Pokémon hits an opponent with a move.",
+    "flavorTextEn": "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move",
+    "flavorTextJa": "毒素を ふくんだ 鎖の力で 技を 当てた 相手を 猛毒の状態に することが ある。"
+  },
+  "303": {
+    "id": 303,
+    "slug": "embody-aspect",
+    "name": "Embody Aspect",
+    "jpName": "おもかげやどし",
+    "shortEffect": "Embody Aspect boosts a particular stat, depending on the form of a Terastallized Ogerpon",
+    "flavorTextEn": "The Pokémon's heart fills with memories, causing the Mask to shine and one of the Pokémon's stats to be boosted.",
+    "flavorTextJa": "思い出を 心に 宿すことで おめんを かがやかせ 自分の 能力を 上げる。"
+  },
+  "304": {
+    "id": 304,
+    "slug": "tera-shift",
+    "name": "Tera Shift",
+    "jpName": "テラスチェンジ",
+    "shortEffect": "When Terapagos enters the battle, it turns into its Terastal Form until the end of the battle.",
+    "flavorTextEn": "When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",
+    "flavorTextJa": "登場したとき 周囲の エネルギーを 吸収し テラスタルフォルムに 変化する。"
+  },
+  "305": {
+    "id": 305,
+    "slug": "tera-shell",
+    "name": "Tera Shell",
+    "jpName": "テラスシェル",
+    "shortEffect": "All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.",
+    "flavorTextEn": "The Pokémon's shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.",
+    "flavorTextJa": "全タイプの力を 秘めた甲羅は HPが 満タンの ときに 受ける ダメージを すべて 今ひとつに する。"
+  },
+  "306": {
+    "id": 306,
+    "slug": "teraform-zero",
+    "name": "Teraform Zero",
+    "jpName": "ゼロフォーミング",
+    "shortEffect": "As soon as Terapagos assumes its Stellar Form, it will immediately neutralize weather and terrain effects.",
+    "flavorTextEn": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",
+    "flavorTextJa": "テラパゴスが ステラフォルムに なったとき 秘められた力で 天気と フィールドの 影響を すべて ゼロにする。"
+  },
+  "307": {
+    "id": 307,
+    "slug": "poison-puppeteer",
+    "name": "Poison Puppeteer",
+    "jpName": "どくくぐつ",
+    "shortEffect": "Pokémon poisoned by Pecharunt's moves will also become confused.",
+    "flavorTextEn": "Pokémon poisoned by Pecharunt's moves will also become confused.",
+    "flavorTextJa": "モモワロウの 技によって どく状態に なった 相手は こんらん状態にも なってしまう。"
+  },
+  "308": {
+    "id": 308,
+    "slug": "piercing-drill",
+    "name": "Piercing Drill",
+    "jpName": "かんつうドリル",
+    "shortEffect": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves.",
+    "flavorTextEn": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target's protective effects is still triggered.",
+    "flavorTextJa": "接触技を使う時 相手の守りの効果を無視して 本来の1/4のダメージを与える。 相手の守りの効果以外は発動される。"
+  },
+  "309": {
+    "id": 309,
+    "slug": "dragonize",
+    "name": "Dragonize",
+    "jpName": "ドラゴンスキン",
+    "shortEffect": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+    "flavorTextEn": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+    "flavorTextJa": "ノーマルタイプの技がドラゴンタイプになり 威力が1.2倍になる。"
+  },
+  "310": {
+    "id": 310,
+    "slug": "mega-sol",
+    "name": "Mega Sol",
+    "jpName": "メガソーラー",
+    "shortEffect": "The Pokémon can use its moves as if the weather were harsh sunlight.",
+    "flavorTextEn": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight.",
+    "flavorTextJa": "天気が にほんばれ状態でなくても にほんばれ状態として 技を使うことができる。"
+  },
+  "311": {
+    "id": 311,
+    "slug": "spicy-spray",
+    "name": "Spicy Spray",
+    "jpName": "とびだすハバネロ",
+    "shortEffect": "When the Pokémon takes damage from a move, it burns the attacker.",
+    "flavorTextEn": "When the Pokémon takes damage from a move, it burns the attacker.",
+    "flavorTextJa": "技のダメージを受けると 相手をやけど状態にする。"
+  },
+  "312": {
+    "id": 312,
+    "slug": "eelevate",
+    "name": "Eelevate",
+    "jpName": "eelevate",
+    "shortEffect": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage.",
+    "flavorTextEn": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage.",
+    "flavorTextJa": ""
+  },
+  "313": {
+    "id": 313,
+    "slug": "fire-mane",
+    "name": "Fire Mane",
+    "jpName": "fire-mane",
+    "shortEffect": "Boosts the power of the Pokémon's Fire-type moves by 50%.",
+    "flavorTextEn": "Boosts the power of the Pokémon's Fire-type moves by 50%.",
+    "flavorTextJa": ""
+  },
+  "314": {
+    "id": 314,
+    "slug": "aura-guard",
+    "name": "Aura Guard",
+    "jpName": "aura-guard",
+    "shortEffect": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+    "flavorTextEn": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+    "flavorTextJa": ""
+  },
+  "10001": {
+    "id": 10001,
+    "slug": "mountaineer",
+    "name": "Mountaineer",
+    "jpName": "mountaineer",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10002": {
+    "id": 10002,
+    "slug": "wave-rider",
+    "name": "Wave Rider",
+    "jpName": "wave-rider",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10003": {
+    "id": 10003,
+    "slug": "skater",
+    "name": "Skater",
+    "jpName": "skater",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10004": {
+    "id": 10004,
+    "slug": "thrust",
+    "name": "Thrust",
+    "jpName": "thrust",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10005": {
+    "id": 10005,
+    "slug": "perception",
+    "name": "Perception",
+    "jpName": "perception",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10006": {
+    "id": 10006,
+    "slug": "parry",
+    "name": "Parry",
+    "jpName": "parry",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10007": {
+    "id": 10007,
+    "slug": "instinct",
+    "name": "Instinct",
+    "jpName": "instinct",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10008": {
+    "id": 10008,
+    "slug": "dodge",
+    "name": "Dodge",
+    "jpName": "dodge",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10009": {
+    "id": 10009,
+    "slug": "jagged-edge",
+    "name": "Jagged Edge",
+    "jpName": "jagged-edge",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10010": {
+    "id": 10010,
+    "slug": "frostbite",
+    "name": "Frostbite",
+    "jpName": "frostbite",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10011": {
+    "id": 10011,
+    "slug": "tenacity",
+    "name": "Tenacity",
+    "jpName": "tenacity",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10012": {
+    "id": 10012,
+    "slug": "pride",
+    "name": "Pride",
+    "jpName": "pride",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10013": {
+    "id": 10013,
+    "slug": "deep-sleep",
+    "name": "Deep Sleep",
+    "jpName": "deep-sleep",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10014": {
+    "id": 10014,
+    "slug": "power-nap",
+    "name": "Power Nap",
+    "jpName": "power-nap",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10015": {
+    "id": 10015,
+    "slug": "spirit",
+    "name": "Spirit",
+    "jpName": "spirit",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10016": {
+    "id": 10016,
+    "slug": "warm-blanket",
+    "name": "Warm Blanket",
+    "jpName": "warm-blanket",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10017": {
+    "id": 10017,
+    "slug": "gulp",
+    "name": "Gulp",
+    "jpName": "gulp",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10018": {
+    "id": 10018,
+    "slug": "herbivore",
+    "name": "Herbivore",
+    "jpName": "herbivore",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10019": {
+    "id": 10019,
+    "slug": "sandpit",
+    "name": "Sandpit",
+    "jpName": "sandpit",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10020": {
+    "id": 10020,
+    "slug": "hot-blooded",
+    "name": "Hot Blooded",
+    "jpName": "hot-blooded",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10021": {
+    "id": 10021,
+    "slug": "medic",
+    "name": "Medic",
+    "jpName": "medic",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10022": {
+    "id": 10022,
+    "slug": "life-force",
+    "name": "Life Force",
+    "jpName": "life-force",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10023": {
+    "id": 10023,
+    "slug": "lunchbox",
+    "name": "Lunchbox",
+    "jpName": "lunchbox",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10024": {
+    "id": 10024,
+    "slug": "nurse",
+    "name": "Nurse",
+    "jpName": "nurse",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10025": {
+    "id": 10025,
+    "slug": "melee",
+    "name": "Melee",
+    "jpName": "melee",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10026": {
+    "id": 10026,
+    "slug": "sponge",
+    "name": "Sponge",
+    "jpName": "sponge",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10027": {
+    "id": 10027,
+    "slug": "bodyguard",
+    "name": "Bodyguard",
+    "jpName": "bodyguard",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10028": {
+    "id": 10028,
+    "slug": "hero",
+    "name": "Hero",
+    "jpName": "hero",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10029": {
+    "id": 10029,
+    "slug": "last-bastion",
+    "name": "Last Bastion",
+    "jpName": "last-bastion",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10030": {
+    "id": 10030,
+    "slug": "stealth",
+    "name": "Stealth",
+    "jpName": "stealth",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10031": {
+    "id": 10031,
+    "slug": "vanguard",
+    "name": "Vanguard",
+    "jpName": "vanguard",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10032": {
+    "id": 10032,
+    "slug": "nomad",
+    "name": "Nomad",
+    "jpName": "nomad",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10033": {
+    "id": 10033,
+    "slug": "sequence",
+    "name": "Sequence",
+    "jpName": "sequence",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10034": {
+    "id": 10034,
+    "slug": "grass-cloak",
+    "name": "Grass Cloak",
+    "jpName": "grass-cloak",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10035": {
+    "id": 10035,
+    "slug": "celebrate",
+    "name": "Celebrate",
+    "jpName": "celebrate",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10036": {
+    "id": 10036,
+    "slug": "lullaby",
+    "name": "Lullaby",
+    "jpName": "lullaby",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10037": {
+    "id": 10037,
+    "slug": "calming",
+    "name": "Calming",
+    "jpName": "calming",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10038": {
+    "id": 10038,
+    "slug": "daze",
+    "name": "Daze",
+    "jpName": "daze",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10039": {
+    "id": 10039,
+    "slug": "frighten",
+    "name": "Frighten",
+    "jpName": "frighten",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10040": {
+    "id": 10040,
+    "slug": "interference",
+    "name": "Interference",
+    "jpName": "interference",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10041": {
+    "id": 10041,
+    "slug": "mood-maker",
+    "name": "Mood Maker",
+    "jpName": "mood-maker",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10042": {
+    "id": 10042,
+    "slug": "confidence",
+    "name": "Confidence",
+    "jpName": "confidence",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10043": {
+    "id": 10043,
+    "slug": "fortune",
+    "name": "Fortune",
+    "jpName": "fortune",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10044": {
+    "id": 10044,
+    "slug": "bonanza",
+    "name": "Bonanza",
+    "jpName": "bonanza",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10045": {
+    "id": 10045,
+    "slug": "explode",
+    "name": "Explode",
+    "jpName": "explode",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10046": {
+    "id": 10046,
+    "slug": "omnipotent",
+    "name": "Omnipotent",
+    "jpName": "omnipotent",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10047": {
+    "id": 10047,
+    "slug": "share",
+    "name": "Share",
+    "jpName": "share",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10048": {
+    "id": 10048,
+    "slug": "black-hole",
+    "name": "Black Hole",
+    "jpName": "black-hole",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10049": {
+    "id": 10049,
+    "slug": "shadow-dash",
+    "name": "Shadow Dash",
+    "jpName": "shadow-dash",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10050": {
+    "id": 10050,
+    "slug": "sprint",
+    "name": "Sprint",
+    "jpName": "sprint",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10051": {
+    "id": 10051,
+    "slug": "disgust",
+    "name": "Disgust",
+    "jpName": "disgust",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10052": {
+    "id": 10052,
+    "slug": "high-rise",
+    "name": "High-rise",
+    "jpName": "high-rise",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10053": {
+    "id": 10053,
+    "slug": "climber",
+    "name": "Climber",
+    "jpName": "climber",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10054": {
+    "id": 10054,
+    "slug": "flame-boost",
+    "name": "Flame Boost",
+    "jpName": "flame-boost",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10055": {
+    "id": 10055,
+    "slug": "aqua-boost",
+    "name": "Aqua Boost",
+    "jpName": "aqua-boost",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10056": {
+    "id": 10056,
+    "slug": "run-up",
+    "name": "Run Up",
+    "jpName": "run-up",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10057": {
+    "id": 10057,
+    "slug": "conqueror",
+    "name": "Conqueror",
+    "jpName": "conqueror",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10058": {
+    "id": 10058,
+    "slug": "shackle",
+    "name": "Shackle",
+    "jpName": "shackle",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10059": {
+    "id": 10059,
+    "slug": "decoy",
+    "name": "Decoy",
+    "jpName": "decoy",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  },
+  "10060": {
+    "id": 10060,
+    "slug": "shield",
+    "name": "Shield",
+    "jpName": "shield",
+    "shortEffect": "",
+    "flavorTextEn": "",
+    "flavorTextJa": ""
+  }
+}

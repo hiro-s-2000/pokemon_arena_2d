@@ -1,0 +1,23 @@
+// pixel-paint palette for 0398_staraptor-mega (hand-painted). light from upper-left.
+. transparent
+# 000000
+k 2e2622
+K 453f42
+g 564c48
+G 786b6f
+t c6b3ac
+T 9c8e88
+v b0aaa8
+W dbd3d0
+w f8f8f8
+r ff6035
+R c0402c
+D 6a2d2d
+y ffe483
+p f5a570
+o ff9429
+O bd6200
+e ffb020
+E d06a10
+u 9fd8f8
+U 3878a8

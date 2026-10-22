@@ -1,0 +1,14 @@
+// pixel-paint palette for 0522_blitzle. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 313333
+1 343434
+2 525252
+3 8c7321
+4 797979
+5 00adde
+6 a4a4a4
+7 cecece
+8 ffe700
+9 ffffff

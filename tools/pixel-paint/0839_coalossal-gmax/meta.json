@@ -1,0 +1,53 @@
+{
+ "id": "0839_coalossal-gmax",
+ "exported": "2026-10-21T07:27:08.338Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 62,
+   "H": 52,
+   "x0": -3,
+   "y0": -3,
+   "w": 68,
+   "h": 59,
+   "frames": 90
+  },
+  "back": {
+   "W": 60,
+   "H": 52,
+   "x0": -2,
+   "y0": -3,
+   "w": 64,
+   "h": 59,
+   "frames": 90
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (90 vs 90 frames)",
+  "backR": "worst frame mismatch 0.00% (90 vs 90 frames)"
+ },
+ "pixel": {
+  "height": 51,
+  "how": "height of 0839_coalossal 2.8m",
+  "scale": 0.5104,
+  "srcBodyH": 96,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

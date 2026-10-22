@@ -1,0 +1,15 @@
+// pixel-paint palette for 0962_bombirdier. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 403239
+2 0c4a6e
+3 7b2020
+4 655b5f
+5 a13f4b
+6 8a8183
+7 e94d62
+8 c0b0b5
+9 bae6fd
+a faf1ee

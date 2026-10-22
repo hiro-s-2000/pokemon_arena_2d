@@ -1,0 +1,53 @@
+{
+ "id": "0181_ampharos-mega",
+ "exported": "2026-10-21T07:51:38.076Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 32,
+   "H": 30,
+   "x0": -3,
+   "y0": -3,
+   "w": 38,
+   "h": 37,
+   "frames": 19
+  },
+  "back": {
+   "W": 30,
+   "H": 30,
+   "x0": -3,
+   "y0": -3,
+   "w": 36,
+   "h": 37,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 29,
+  "how": "base 0181_ampharos",
+  "scale": 0.3649,
+  "srcBodyH": 74,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0181_ampharos",
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "grow": 7,
+ "colors": {
+  "k": "000000",
+  "R": "e83818",
+  "O": "ffa020",
+  "y": "fff070"
+ },
+ "parts": [
+  {
+   "name": "wingflames",
+   "anchor": "center",
+   "layer": "back",
+   "anims": [
+    "Idle",
+    "Walk",
+    "Charge",
+    "Hurt"
+   ],
+   "dirs": {
+    "S": {
+     "at": [
+      -20,
+      -26
+     ],
+     "px": [
+      ".......k......................k..........",
+      "......kRk.k................k.kRk.........",
+      ".....kRRkkRk..............kRkkRRk........",
+      ".....kRORkRRk............kRRkRORk........",
+      "....kRROORRRk............kRRROORRk.......",
+      "....kROOyORRk............kRROyOORk.......",
+      "...kRROyyyORk............kROyyyORRk......",
+      "...kROOyyyORk............kROyyyOORk......",
+      "...kROyyyyORk............kROyyyyORk......",
+      "...kkROyyORk..............kROyyORk...k...",
+      "..kRkkRRRRk................kRRRRk..kkRk..",
+      ".kRRkRkkkk..................kkkk..kRkRRk.",
+      ".kRORRk...........................kRRORk.",
+      "kROyORk...........................kROyORk",
+      "kROyyORk.........................kROyyORk",
+      "kROyyORk.........................kROyyORk",
+      ".kROORk...........................kROORk.",
+      "..kRRk.............................kRRk..",
+      "...kk...............................kk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -17,
+      -26
+     ],
+     "px": [
+      ".......................k....",
+      "....k...............k.kRk...",
+      "...kRk.k...........kRkkRRk..",
+      "..kRRkkRk.........kRRkRORk..",
+      "..kRORkRRk........kRRROORRk.",
+      ".kRROORRRk........kRROyOORk.",
+      ".kROOyORRk........kROyyyORRk",
+      "kRROyyyORk........kROyyyOORk",
+      "kROOyyyORk........kROyyyyORk",
+      "kROyyyyORk.........kROyyORk.",
+      ".kROyyORk...........kRRRRk..",
+      "..kRRRRk.............kkkk...",
+      "...kkkk....................."
+     ]
+    },
+    "E": {
+     "at": [
+      -22,
+      -25
+     ],
+     "px": [
+      "..........k.............",
+      ".........kRk.k.....k....",
+      "........kRRkkRk.k.kRk...",
+      "........kRORkRRkRkkRRk..",
+      ".......kRROORRRRRkRORk..",
+      ".......kROOyORRRRROORRk.",
+      "......kRROyyyORRROyOORk.",
+      "...k..kROOyyyORROyyyORRk",
+      "..kRkkkROyyyyORROyyyOORk",
+      ".kRRkRkkROyyORkROyyyyORk",
+      ".kRORRk.kRRRRk.kROyyORk.",
+      "kROyORk..kkkk...kRRRRk..",
+      "kROyyORk.........kkkk...",
+      "kROyyORk................",
+      ".kROORk.................",
+      "..kRRk..................",
+      "...kk..................."
+     ]
+    },
+    "NE": {
+     "at": [
+      -16,
+      -21
+     ],
+     "px": [
+      "....k..................k....",
+      "...kRk.k............k.kRk...",
+      "..kRRkkRk..........kRkkRRk..",
+      "..kRORkRRk........kRRkRORk..",
+      ".kRROORRRk........kRRROORRk.",
+      ".kROOyORRk........kRROyOORk.",
+      "kRROyyyORk........kROyyyORRk",
+      "kROOyyyORk........kROyyyOORk",
+      "kROyyyyORk........kROyyyyORk",
+      ".kROyyORk..........kROyyORk.",
+      "..kRRRRk............kRRRRk..",
+      "...kkkk..............kkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -19,
+      -23
+     ],
+     "px": [
+      "....k........................k....",
+      "...kRk.k..................k.kRk...",
+      "..kRRkkRk................kRkkRRk..",
+      "..kRORkRRk..............kRRkRORk..",
+      ".kRROORRRk..............kRRROORRk.",
+      ".kROOyORRk..............kRROyOORk.",
+      "kRROyyyORk..............kROyyyORRk",
+      "kROOyyyORk..............kROyyyOORk",
+      "kROyyyyORk..............kROyyyyORk",
+      ".kROyyORk................kROyyORk.",
+      "..kRRRRk..................kRRRRk..",
+      "...kkkk....................kkkk..."
+     ]
+    }
+   }
+  },
+  {
+   "name": "headflame",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -4,
+      -20
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -7,
+      -18
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -7,
+      -17
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -12
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -4,
+      -10
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    }
+   }
+  },
+  {
+   "name": "tailflame",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "N": {
+     "at": [
+      1,
+      1
+     ],
+     "px": [
+      "...k....",
+      "..kRkk..",
+      ".kRRkRk.",
+      ".kRORRk.",
+      "kROyORk.",
+      "kROyyORk",
+      "kROyyORk",
+      ".kROORk.",
+      "..kRRk..",
+      "...kk..."
+     ]
+    }
+   }
+  }
+ ]
+}

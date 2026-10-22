@@ -1,0 +1,270 @@
+{
+ "base": "0377_regirock",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "w": "f0ece4",
+  "c": "2a2422",
+  "C": "4c423e",
+  "r": "d83a1c",
+  "o": "ffa040"
+ },
+ "parts": [
+  {
+   "name": "eyes_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      "ww...ww",
+      "wk...kw"
+     ]
+    },
+    "SE": {
+     "at": [
+      -4,
+      -2
+     ],
+     "px": [
+      "ww..ww",
+      "wk..kw"
+     ]
+    },
+    "E": {
+     "at": [
+      -2,
+      -2
+     ],
+     "px": [
+      "ww",
+      "kw"
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      -2
+     ],
+     "px": [
+      "ww",
+      "wk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -2,
+      -2
+     ],
+     "px": [
+      "ww..ww",
+      "wk..kw"
+     ]
+    }
+   }
+  },
+  {
+   "name": "coal_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -8,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kcCcck.....",
+      "....kcCrccck....",
+      "....kcCrocck....",
+      "...kcCcrccrck...",
+      "...kcCrccrock...",
+      "..kcCcrcCcrcck..",
+      "..kcCrocCcccck..",
+      ".kcCCrccCcrcrck.",
+      ".kcCcrrcccroccck",
+      "kcCCcrcCccrcccck",
+      "kcCcrocccrocrcck",
+      "kccrccrcccccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kcCcck.....",
+      "....kcCrccck....",
+      "....kcCrocck....",
+      "...kcCcrccrck...",
+      "...kcCrccrock...",
+      "..kcCcrcCcrcck..",
+      "..kcCrocCcccck..",
+      ".kcCCrccCcrcrck.",
+      ".kcCcrrcccroccck",
+      "kcCCcrcCccrcccck",
+      "kcCcrocccrocrcck",
+      "kccrccrcccccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kcCcck.....",
+      "....kcCrccck....",
+      "....kcCrocck....",
+      "...kcCcrccrck...",
+      "...kcCrccrock...",
+      "..kcCcrcCcrcck..",
+      "..kcCrocCcccck..",
+      ".kcCCrccCcrcrck.",
+      ".kcCcrrcccroccck",
+      "kcCCcrcCccrcccck",
+      "kcCcrocccrocrcck",
+      "kccrccrcccccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -20
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kcCcck.....",
+      "....kcCrccck....",
+      "....kcCrocck....",
+      "...kcCcrccrck...",
+      "...kcCrccrock...",
+      "..kcCcrcCcrcck..",
+      "..kcCrocCcccck..",
+      ".kcCCrccCcrcrck.",
+      ".kcCcrrcccroccck",
+      "kcCCcrcCccrcccck",
+      "kcCcrocccrocrcck",
+      "kccrccrcccccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -8,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kcCcck.....",
+      "....kcCrccck....",
+      "....kcCrocck....",
+      "...kcCcrccrck...",
+      "...kcCrccrock...",
+      "..kcCcrcCcrcck..",
+      "..kcCrocCcccck..",
+      ".kcCCrccCcrcrck.",
+      ".kcCcrrcccroccck",
+      "kcCCcrcCccrcccck",
+      "kcCcrocccrocrcck",
+      "kccrccrcccccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -6,
+      -20
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kccCck.....",
+      "....kcccrCck....",
+      "....kccorCck....",
+      "...kcrccrcCck...",
+      "...kcorccrCck...",
+      "..kccrcCcrcCck..",
+      "..kccccCcorCck..",
+      ".kcrcrcCccrCCck.",
+      "kcccorcccrrcCck.",
+      "kccccrccCcrcCCck",
+      "kccrcorcccorcCck",
+      "kccrcccccrccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -3,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kccCck.....",
+      "....kcccrCck....",
+      "....kccorCck....",
+      "...kcrccrcCck...",
+      "...kcorccrCck...",
+      "..kccrcCcrcCck..",
+      "..kccccCcorCck..",
+      ".kcrcrcCccrCCck.",
+      "kcccorcccrrcCck.",
+      "kccccrccCcrcCCck",
+      "kccrcorcccorcCck",
+      "kccrcccccrccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -4,
+      -21
+     ],
+     "px": [
+      ".......kk.......",
+      "......kcck......",
+      ".....kccCck.....",
+      "....kcccrCck....",
+      "....kccorCck....",
+      "...kcrccrcCck...",
+      "...kcorccrCck...",
+      "..kccrcCcrcCck..",
+      "..kccccCcorCck..",
+      ".kcrcrcCccrCCck.",
+      "kcccorcccrrcCck.",
+      "kccccrccCcrcCCck",
+      "kccrcorcccorcCck",
+      "kccrcccccrccrcck",
+      ".kcccccccccccck.",
+      "..kkkkkkkkkkkk.."
+     ]
+    }
+   }
+  }
+ ]
+}

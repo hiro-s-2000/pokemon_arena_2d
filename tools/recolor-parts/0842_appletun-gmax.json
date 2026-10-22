@@ -1,0 +1,1543 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "y": "f8c848",
+  "Y": "fff0a0",
+  "o": "e08820",
+  "r": "d83040",
+  "R": "a01c30",
+  "h": "f06070",
+  "f": "f8a040"
+ },
+ "parts": [
+  {
+   "name": "apple#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk"
+   ]
+  },
+  {
+   "name": "apple#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kkkkkkkkkkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "apple#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kkkkkkkkkkkkkkkkkkkkkkkkk...."
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkkkkkkkkkkkkkkkkkkkkkk....."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kkkkkkkkkkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kkkkkkkkkkkkkkkkkkkkkkkkk...."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "apple#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kkkkkkkkkkkkkkkkkkkkkkkkk...."
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkkkkkkkkkkkkk........."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "apple#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -16,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRrffrrrffrrrffrrrffrrrffRRk..",
+      "..kRRRffrrrffrrrffrrrffrrrfRRRk..",
+      "...kkkkkkkkkkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kRRhhhhhhhrrrrrrrorrrrorrrrrrrRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kRRhohhhhhrorrrroyrrrryorrrrorRRk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "N": {
+     "at": [
+      -16,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkYYYYyyyyykkk.........",
+      ".......kkYYYYYYYyyyyyyyykk.......",
+      ".....kkYYYYYYYYYyyyyyyyyyykk.....",
+      "....kYYYYYYYYYYYyyyyyyyyyyyyk....",
+      "...kYYYYYYYYYYYYyyyyyyyyyyyyyk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyyyyoyyoyyyyooyyyooyyyooyyyyok.",
+      "kRoyyyhyyhyyyyrryyorroyyrroyyyRok",
+      "kRRoyyhoohyyoorryyrrrryyrrroyyRRk",
+      "kRRhyohhhhoyrrrryyrrrryyrrrryoRRk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "apple-m#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkkkkkkkkkkkkk........."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkkkkkkkkkkkkk........."
+     ]
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "apple-m#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "apple-m#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kkkkkkkkkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "apple-m#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kkkkkkkkkkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkkkkkkkkkkkkkkkkkkkkkk....."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kkkkkkkkkkkkkkkkkkkkkkkkk...."
+     ]
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "apple-m#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkRRRRRRRRRRRRRRRkk.......",
+      ".........kkkRRRRRRRRRkkk.........",
+      "............kkkkkkkkk............"
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kRRRRRRRRRRRRRRRRRRRRRRRk....",
+      ".....kkRRRRRRRRRRRRRRRRRRRkk.....",
+      ".......kkkkkkkkkkkkkkkkkkk......."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kRRRRRRRRRRRRRRRRRRRRRRRRRk...",
+      "....kkkkkkkkkkkkkkkkkkkkkkkkk...."
+     ]
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "apple-m#5",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -17,
+      -11
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -16,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      -9
+     ],
+     "px": [
+      "............kkkkkkkkk............",
+      ".........kkkyyyyyYYYYkkk.........",
+      ".......kkyyyyyyyyYYYYYYYkk.......",
+      ".....kkyyyyyyyyyyYYYYYYYYYkk.....",
+      "....kyyyyyyyyyyyyYYYYYYYYYYYk....",
+      "...kyyyyyyyyyyyyyYYYYYYYYYYYYk...",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      "..kyyyyyyyyyyyyyyyyyyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyooyyyooyyyooyyyyoyyoyyyyk.",
+      "koRyyyorryyorroyyrryyyyhyyhyyyoRk",
+      "kRRyyorrryyrrrryyrrooyyhoohyyoRRk",
+      "kRRoyrrrryyrrrryyrrrryohhhhoyhRRk",
+      "kRRrorrrroyrrrryorrrrorhhhhhohRRk",
+      "kRRrrrrrrrorrrrorrrrrrrhhhhhhhRRk",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      ".kRRrrfrrrrfrrrrfrrrrfrrrrfrrRRk.",
+      "..kRRffrrrffrrrffrrrffrrrffrRRk..",
+      "..kRRRfrrrffrrrffrrrffrrrffRRRk..",
+      "...kkkkkkkkkkkkkkkkkkkkkkkkkkk..."
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  }
+ ]
+}

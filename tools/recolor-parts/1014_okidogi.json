@@ -1,0 +1,260 @@
+{
+ "base": "0727_incineroar",
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "p": "d83aa8",
+  "P": "ff90e0",
+  "G": "7ccc48",
+  "L": "b8f080",
+  "g": "3a8026"
+ },
+ "parts": [
+  {
+   "name": "fistL",
+   "anchor": "handL",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "fistR",
+   "anchor": "handR",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      ".kkkk.",
+      "kLGGGk",
+      "kGGGgk",
+      "kGggGk",
+      ".kkkk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "chain",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      3,
+      -5
+     ],
+     "px": [
+      "...........kkkkk.",
+      "..........kPPPPPk",
+      "..........kp...pk",
+      "......kkkkkpppppk",
+      ".....kPPPPPkkkkk.",
+      ".....kp...pk.....",
+      ".kkkkkpppppk.....",
+      "kPPPPPkkkkk......",
+      "kp...pk..........",
+      "kpppppk..........",
+      ".kkkkk..........."
+     ]
+    },
+    "SE": {
+     "at": [
+      1,
+      -5
+     ],
+     "px": [
+      "...........kkkkk.",
+      "..........kPPPPPk",
+      "..........kp...pk",
+      "......kkkkkpppppk",
+      ".....kPPPPPkkkkk.",
+      ".....kp...pk.....",
+      ".kkkkkpppppk.....",
+      "kPPPPPkkkkk......",
+      "kp...pk..........",
+      "kpppppk..........",
+      ".kkkkk..........."
+     ]
+    },
+    "E": {
+     "at": [
+      -6,
+      -6
+     ],
+     "px": [
+      "...........kkkkk.",
+      "..........kPPPPPk",
+      "..........kp...pk",
+      "......kkkkkpppppk",
+      ".....kPPPPPkkkkk.",
+      ".....kp...pk.....",
+      ".kkkkkpppppk.....",
+      "kPPPPPkkkkk......",
+      "kp...pk..........",
+      "kpppppk..........",
+      ".kkkkk..........."
+     ]
+    },
+    "NE": {
+     "at": [
+      -2,
+      -5
+     ],
+     "px": [
+      "...........kkkkk.",
+      "..........kPPPPPk",
+      "..........kp...pk",
+      "......kkkkkpppppk",
+      ".....kPPPPPkkkkk.",
+      ".....kp...pk.....",
+      ".kkkkkpppppk.....",
+      "kPPPPPkkkkk......",
+      "kp...pk..........",
+      "kpppppk..........",
+      ".kkkkk..........."
+     ]
+    },
+    "N": {
+     "at": [
+      -14,
+      -5
+     ],
+     "px": [
+      ".kkkkk...........",
+      "kPPPPPk..........",
+      "kp...pk..........",
+      "kpppppkkkkk......",
+      ".kkkkkPPPPPk.....",
+      ".....kp...pk.....",
+      ".....kpppppkkkkk.",
+      "......kkkkkPPPPPk",
+      "..........kp...pk",
+      "..........kpppppk",
+      "...........kkkkk."
+     ]
+    }
+   }
+  }
+ ]
+}

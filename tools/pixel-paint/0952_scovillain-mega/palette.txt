@@ -1,0 +1,16 @@
+// pixel-paint palette for 0952_scovillain-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 32323d
+2 3d3d47
+3 1b5940
+4 a51115
+5 706856
+6 258a4e
+7 ff6339
+8 bab2a0
+9 ff9659
+a 6ae76a
+b ffffff

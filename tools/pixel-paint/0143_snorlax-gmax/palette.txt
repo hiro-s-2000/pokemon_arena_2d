@@ -1,0 +1,27 @@
+// Snorlax-Gmax hand-painted palette (lit from upper-left)
+. transparent
+# 000000
+0 0a2630
+1 15404c
+3 315a7b
+4 4d7ba0
+c f6e6bd
+d d8bfa0
+f a47352
+g 5e3c1e
+h 54792b
+i 89b432
+j bbe35b
+k e2f79a
+l 2c5a3c
+m 0e9a5c
+n 3cc47a
+p fc8b9f
+q ffc8d2
+r de5656
+s a0a0a0
+t d4d4d4
+u 6c6c6c
+w f4f8ff
+W ffffff
+o 1e2838

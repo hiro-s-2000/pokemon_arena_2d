@@ -1,0 +1,53 @@
+{
+ "id": "0678_meowstic-female-mega",
+ "exported": "2026-10-21T07:51:45.125Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 24,
+   "H": 29,
+   "x0": -2,
+   "y0": -3,
+   "w": 28,
+   "h": 36,
+   "frames": 19
+  },
+  "back": {
+   "W": 22,
+   "H": 29,
+   "x0": -3,
+   "y0": -3,
+   "w": 28,
+   "h": 36,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 28,
+  "how": "base 0678_meowstic-male",
+  "scale": 0.3133,
+  "srcBodyH": 83,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.55,
+  "lineWeight": 0.35,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0678_meowstic-male",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

@@ -1,0 +1,24 @@
+// pixel-paint palette for 0358_chimecho-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+w f4fcff
+l d0d0f0
+r f6527b
+R b4415a
+q 7b2941
+h ffeaa0
+Y ffd55a
+y e6a44a
+o a47352
+b c5e6ff
+B 9cc5e6
+c 6a94b4
+C 477da2
+2 2c3456
+e ffe040
+k fa98b0
+g 7ab850
+G 3f7a30
+P ff9cc8
+p e0407a
+W ffffff

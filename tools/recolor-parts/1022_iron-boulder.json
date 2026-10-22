@@ -1,0 +1,188 @@
+{
+ "base": "0639_terrakion",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "D": "1e1e24",
+  "d": "3a3a44",
+  "o": "f08a30"
+ },
+ "parts": [
+  {
+   "name": "blade_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "SE": {
+     "at": [
+      -17,
+      -20
+     ],
+     "px": [
+      "..........k.........",
+      ".......kkkDkkk......",
+      "......kDDDdDDDk.....",
+      "....kkDdddddddDkk...",
+      "...kDDdddddddddDDk..",
+      "...koookooodddddDk..",
+      "..kokkk.kkkooddddDk.",
+      ".kok.......kooddddDk",
+      "..k.........kkodddDk",
+      ".............koddddk",
+      "..............kkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -19,
+      -16
+     ],
+     "px": [
+      "...........k...........",
+      ".......kkkkDkkkk.......",
+      "......kDDDDdDDDDk......",
+      "....kkDdddddddddDkk....",
+      "...kDDdddddddddddDDk...",
+      "..kDooookoooodddddDDk..",
+      "..kokkkk.kkkkooddddDk..",
+      ".kok.........kooddddDk.",
+      "..k...........kkoddddDk",
+      "................kodddDk",
+      ".................kkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -20,
+      -14
+     ],
+     "px": [
+      "...........k..........",
+      "........kkkDkkk.......",
+      "......kkDDDdDDDkk.....",
+      ".....kDDdddddddDDk....",
+      "....kDDdddddddddDDk...",
+      "....koookooodddddDk...",
+      "...kokkk.kkkooddddDk..",
+      "....k.......kkoddddDk.",
+      "..............kodddDk.",
+      "..............koddddDk",
+      "...............kkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      -14
+     ],
+     "px": [
+      "..........k...........",
+      ".......kkkDkkk........",
+      ".....kkDDDdDDDkk......",
+      "....kDDdddddddDDk.....",
+      "...kDDdddddddddDDk....",
+      "...kDdddddoookoook....",
+      "..kDddddookkk.kkkok...",
+      ".kDddddokk.......k....",
+      ".kDdddok..............",
+      "kDddddok..............",
+      ".kkkkkk..............."
+     ]
+    },
+    "W": {
+     "at": [
+      -2,
+      -16
+     ],
+     "px": [
+      "...........k...........",
+      ".......kkkkDkkkk.......",
+      "......kDDDDdDDDDk......",
+      "....kkDdddddddddDkk....",
+      "...kDDdddddddddddDDk...",
+      "..kDDdddddooookooooDk..",
+      "..kDddddookkkk.kkkkok..",
+      ".kDddddook.........kok.",
+      "kDddddokk...........k..",
+      "kDdddok................",
+      ".kkkkk................."
+     ]
+    },
+    "SW": {
+     "at": [
+      -2,
+      -20
+     ],
+     "px": [
+      ".........k..........",
+      "......kkkDkkk.......",
+      ".....kDDDdDDDk......",
+      "...kkDdddddddDkk....",
+      "..kDDdddddddddDDk...",
+      "..kDdddddoookoook...",
+      ".kDddddookkk.kkkok..",
+      "kDddddook.......kok.",
+      "kDdddokk.........k..",
+      "kddddok.............",
+      ".kkkkk.............."
+     ]
+    }
+   }
+  },
+  {
+   "name": "fin_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -25
+     ],
+     "px": [
+      "...k..",
+      "..kDk.",
+      "..kDk.",
+      "..kDok",
+      "..kDok",
+      "..kDok",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      "..kkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -3,
+      -13
+     ],
+     "px": [
+      "...k..",
+      "..kDk.",
+      "..kDk.",
+      "..kDok",
+      "..kDok",
+      "..kDok",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      ".kDoDk",
+      "..kkk."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk",
+    "Hurt",
+    "Charge",
+    "Shoot"
+   ]
+  }
+ ]
+}

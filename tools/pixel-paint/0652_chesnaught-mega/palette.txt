@@ -1,0 +1,16 @@
+// pixel-paint palette for 0652_chesnaught-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 383130
+1 244216
+2 8b1835
+3 7e5e46
+4 457517
+5 c13a4b
+6 5c9940
+7 b99662
+8 4ade80
+9 c5c0ba
+a e0cc96
+b fff4d2

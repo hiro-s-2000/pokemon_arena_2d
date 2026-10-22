@@ -1,0 +1,23 @@
+// pixel-paint palette for 0071_victreebel-mega (hand-painted). "." transparent, "#" outline.
+. transparent
+# 000000
+W ffffff
+l d2f24a
+g 9ad232
+G 5c9c22
+h 346a16
+y fbe834
+o f89a22
+O d4480e
+p ffc4c0
+P ec8a7c
+q b0485a
+u fff47e
+U e8cc2a
+v b89818
+V 7a6408
+n c47a40
+N 8a4a24
+m 4a2410
+k 2a8a50
+K a0f0c0

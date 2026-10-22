@@ -1,0 +1,12 @@
+// pixel-paint palette for 0851_centiskorch-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 492922
+2 681607
+3 804a3e
+4 d94b0a
+5 e49616
+6 ffd901
+7 fef9c9

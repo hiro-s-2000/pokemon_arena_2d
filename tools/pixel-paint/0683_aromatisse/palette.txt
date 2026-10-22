@@ -1,0 +1,16 @@
+// pixel-paint palette for 0683_aromatisse. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 55142d
+1 333333
+2 404040
+3 713f56
+4 993d71
+5 cc5299
+6 f24949
+7 cc7087
+8 a6a6a6
+9 fe9bb7
+a e5c37e
+b edece4

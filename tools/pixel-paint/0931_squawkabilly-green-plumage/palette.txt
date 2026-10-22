@@ -1,0 +1,16 @@
+// pixel-paint palette for 0931_squawkabilly-green-plumage. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 333235
+2 3c4d5b
+3 42581f
+4 858188
+5 549938
+6 c7925f
+7 38bdf8
+8 68d937
+9 c4d0d8
+a fbc962
+b fcfdfc

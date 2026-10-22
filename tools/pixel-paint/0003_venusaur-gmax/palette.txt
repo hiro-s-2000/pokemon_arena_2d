@@ -1,0 +1,23 @@
+// 0003_venusaur-gmax — hand-painted (light from upper-left)
+. transparent
+# 000000
+W ffffff
+Y fff070
+y f0c830
+o b07c18
+s ffc8c0
+P ff7c70
+p e85048
+q b83030
+r 6c1818
+T 68e0c8
+t 30b4a0
+d 128474
+D 0c5048
+L 98e070
+l 50b048
+g 2c7834
+M ff9c9c
+m c03c54
+E e8203c
+e 801018

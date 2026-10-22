@@ -1,0 +1,246 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "a": "f4e8c8",
+  "b": "dcc898",
+  "c": "b09868"
+ },
+ "parts": [
+  {
+   "name": "sand",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -26,
+      -1
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk.............k....kkkbkkk..........",
+      ".........kbbbbbbbk...k.....kkkbkkkkbbbbbbbk.........",
+      "......k.kbbaaabbbbkkkbkkk.kbbbbbbbbbaaabbbbk.k......",
+      "...kkkbkbbaaaaabbbbbbbbbbkbbaaabbbbaaaaabbbbkbkkk...",
+      "..kbbbbbbaaaaaaabbbaaabbbbbaaaaabbaaaaaaabbbbbbbbk..",
+      ".kbbaaabbaaaaaaabbaaaaabbbaaaaaaabaaaaaaabbaaabbbbk.",
+      ".kbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabbbk.",
+      ".kbaaaaabbaaaaabaaaaaaaabaaaaaaaaabaaaaabbaaaaabbbk.",
+      "kcbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabbbck",
+      ".kbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbbbk.",
+      ".kcbbbbbbbcccbbaaabaaabbaaabbbbbaaabbbbcccbbbbbbbck.",
+      ".kccccbccccccccbabbbbbbbbabbbcbcbabbbccccccccbcccck.",
+      "..kccccccckkkccccbcccbccccbcccccccbcccckkkccccccck..",
+      "...kkkckkk...kkcccccccccccccckckccccckk...kkkckkk...",
+      "......k........kkkkkkkkkkkkkk.k.kkkkk........k......"
+     ]
+    },
+    "SE": {
+     "at": [
+      -24,
+      -10
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk.............k....kkkbkkk..........",
+      ".........kbbbbbbbk...k.....kkkbkkkkbbbbbbbk.........",
+      "......k.kbbaaabbbbkkkbkkk.kbbbbbbbbbaaabbbbk.k......",
+      "...kkkbkbbaaaaabbbbbbbbbbkbbaaabbbbaaaaabbbbkbkkk...",
+      "..kbbbbbbaaaaaaabbbaaabbbbbaaaaabbaaaaaaabbbbbbbbk..",
+      ".kbbaaabbaaaaaaabbaaaaabbbaaaaaaabaaaaaaabbaaabbbbk.",
+      ".kbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabbbk.",
+      ".kbaaaaabbaaaaabaaaaaaaabaaaaaaaaabaaaaabbaaaaabbbk.",
+      "kcbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabbbck",
+      ".kbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbbbk.",
+      ".kcbbbbbbbcccbbaaabaaabbaaabbbbbaaabbbbcccbbbbbbbck.",
+      ".kccccbccccccccbabbbbbbbbabbbcbcbabbbccccccccbcccck.",
+      "..kccccccckkkccccbcccbccccbcccccccbcccckkkccccccck..",
+      "...kkkckkk...kkcccccccccccccckckccccckk...kkkckkk...",
+      "......k........kkkkkkkkkkkkkk.k.kkkkk........k......"
+     ]
+    },
+    "E": {
+     "at": [
+      -22,
+      -11
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk.............k....kkkbkkk..........",
+      ".........kbbbbbbbk...k.....kkkbkkkkbbbbbbbk.........",
+      "......k.kbbaaabbbbkkkbkkk.kbbbbbbbbbaaabbbbk.k......",
+      "...kkkbkbbaaaaabbbbbbbbbbkbbaaabbbbaaaaabbbbkbkkk...",
+      "..kbbbbbbaaaaaaabbbaaabbbbbaaaaabbaaaaaaabbbbbbbbk..",
+      ".kbbaaabbaaaaaaabbaaaaabbbaaaaaaabaaaaaaabbaaabbbbk.",
+      ".kbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabbbk.",
+      ".kbaaaaabbaaaaabaaaaaaaabaaaaaaaaabaaaaabbaaaaabbbk.",
+      "kcbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabbbck",
+      ".kbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbbbk.",
+      ".kcbbbbbbbcccbbaaabaaabbaaabbbbbaaabbbbcccbbbbbbbck.",
+      ".kccccbccccccccbabbbbbbbbabbbcbcbabbbccccccccbcccck.",
+      "..kccccccckkkccccbcccbccccbcccccccbcccckkkccccccck..",
+      "...kkkckkk...kkcccccccccccccckckccccckk...kkkckkk...",
+      "......k........kkkkkkkkkkkkkk.k.kkkkk........k......"
+     ]
+    },
+    "NE": {
+     "at": [
+      -28,
+      -11
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk.............k....kkkbkkk..........",
+      ".........kbbbbbbbk...k.....kkkbkkkkbbbbbbbk.........",
+      "......k.kbbaaabbbbkkkbkkk.kbbbbbbbbbaaabbbbk.k......",
+      "...kkkbkbbaaaaabbbbbbbbbbkbbaaabbbbaaaaabbbbkbkkk...",
+      "..kbbbbbbaaaaaaabbbaaabbbbbaaaaabbaaaaaaabbbbbbbbk..",
+      ".kbbaaabbaaaaaaabbaaaaabbbaaaaaaabaaaaaaabbaaabbbbk.",
+      ".kbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabbbk.",
+      ".kbaaaaabbaaaaabaaaaaaaabaaaaaaaaabaaaaabbaaaaabbbk.",
+      "kcbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabbbck",
+      ".kbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbbbk.",
+      ".kcbbbbbbbcccbbaaabaaabbaaabbbbbaaabbbbcccbbbbbbbck.",
+      ".kccccbccccccccbabbbbbbbbabbbcbcbabbbccccccccbcccck.",
+      "..kccccccckkkccccbcccbccccbcccccccbcccckkkccccccck..",
+      "...kkkckkk...kkcccccccccccccckckccccckk...kkkckkk...",
+      "......k........kkkkkkkkkkkkkk.k.kkkkk........k......"
+     ]
+    },
+    "N": {
+     "at": [
+      -26,
+      -6
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk.............k....kkkbkkk..........",
+      ".........kbbbbbbbk...k.....kkkbkkkkbbbbbbbk.........",
+      "......k.kbbaaabbbbkkkbkkk.kbbbbbbbbbaaabbbbk.k......",
+      "...kkkbkbbaaaaabbbbbbbbbbkbbaaabbbbaaaaabbbbkbkkk...",
+      "..kbbbbbbaaaaaaabbbaaabbbbbaaaaabbaaaaaaabbbbbbbbk..",
+      ".kbbaaabbaaaaaaabbaaaaabbbaaaaaaabaaaaaaabbaaabbbbk.",
+      ".kbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabbbk.",
+      ".kbaaaaabbaaaaabaaaaaaaabaaaaaaaaabaaaaabbaaaaabbbk.",
+      "kcbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabbbck",
+      ".kbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbbbk.",
+      ".kcbbbbbbbcccbbaaabaaabbaaabbbbbaaabbbbcccbbbbbbbck.",
+      ".kccccbccccccccbabbbbbbbbabbbcbcbabbbccccccccbcccck.",
+      "..kccccccckkkccccbcccbccccbcccccccbcccckkkccccccck..",
+      "...kkkckkk...kkcccccccccccccckckccccckk...kkkckkk...",
+      "......k........kkkkkkkkkkkkkk.k.kkkkk........k......"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "sand-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -23,
+      -11
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk....k.............kkkbkkk..........",
+      ".........kbbbbbbbkkkkbkkk.....k...kbbbbbbbk.........",
+      "......k.kbbbbaaabbbbbbbbbk.kkkbkkkbbbbaaabbk.k......",
+      "...kkkbkbbbbaaaaabbbbaaabbkbbbbbbbbbbaaaaabbkbkkk...",
+      "..kbbbbbbbbaaaaaaabbaaaaabbbbbaaabbbaaaaaaabbbbbbk..",
+      ".kbbbbaaabbaaaaaaabaaaaaaabbbaaaaabbaaaaaaabbaaabbk.",
+      ".kbbbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabk.",
+      ".kbbbaaaaabbaaaaabaaaaaaaaabaaaaaaaabaaaaabbaaaaabk.",
+      "kcbbbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabck",
+      ".kbbbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbk.",
+      ".kcbbbbbbbcccbbbbaaabbbbbaaabbaaabaaabbcccbbbbbbbck.",
+      ".kccccbccccccccbbbabcbcbbbabbbbbbbbabccccccccbcccck.",
+      "..kccccccckkkccccbcccccccbccccbcccbcccckkkccccccck..",
+      "...kkkckkk...kkccccckckcccccccccccccckk...kkkckkk...",
+      "......k........kkkkk.k.kkkkkkkkkkkkkk........k......"
+     ]
+    },
+    "W": {
+     "at": [
+      -29,
+      -11
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk....k.............kkkbkkk..........",
+      ".........kbbbbbbbkkkkbkkk.....k...kbbbbbbbk.........",
+      "......k.kbbbbaaabbbbbbbbbk.kkkbkkkbbbbaaabbk.k......",
+      "...kkkbkbbbbaaaaabbbbaaabbkbbbbbbbbbbaaaaabbkbkkk...",
+      "..kbbbbbbbbaaaaaaabbaaaaabbbbbaaabbbaaaaaaabbbbbbk..",
+      ".kbbbbaaabbaaaaaaabaaaaaaabbbaaaaabbaaaaaaabbaaabbk.",
+      ".kbbbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabk.",
+      ".kbbbaaaaabbaaaaabaaaaaaaaabaaaaaaaabaaaaabbaaaaabk.",
+      "kcbbbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabck",
+      ".kbbbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbk.",
+      ".kcbbbbbbbcccbbbbaaabbbbbaaabbaaabaaabbcccbbbbbbbck.",
+      ".kccccbccccccccbbbabcbcbbbabbbbbbbbabccccccccbcccck.",
+      "..kccccccckkkccccbcccccccbccccbcccbcccckkkccccccck..",
+      "...kkkckkk...kkccccckckcccccccccccccckk...kkkckkk...",
+      "......k........kkkkk.k.kkkkkkkkkkkkkk........k......"
+     ]
+    },
+    "SW": {
+     "at": [
+      -27,
+      -10
+     ],
+     "px": [
+      "....................................................",
+      ".............k........................k.............",
+      "..........kkkbkkk....k.............kkkbkkk..........",
+      ".........kbbbbbbbkkkkbkkk.....k...kbbbbbbbk.........",
+      "......k.kbbbbaaabbbbbbbbbk.kkkbkkkbbbbaaabbk.k......",
+      "...kkkbkbbbbaaaaabbbbaaabbkbbbbbbbbbbaaaaabbkbkkk...",
+      "..kbbbbbbbbaaaaaaabbaaaaabbbbbaaabbbaaaaaaabbbbbbk..",
+      ".kbbbbaaabbaaaaaaabaaaaaaabbbaaaaabbaaaaaaabbaaabbk.",
+      ".kbbbaaaaabaaaaaaabaaaaaaabbaaaaaaabaaaaaaabaaaaabk.",
+      ".kbbbaaaaabbaaaaabaaaaaaaaabaaaaaaaabaaaaabbaaaaabk.",
+      "kcbbbaaaaabbbaaabaaaaaaaaaaaaaaaaaaaabaaabbbaaaaabck",
+      ".kbbbbaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaabbk.",
+      ".kcbbbbbbbcccbbbbaaabbbbbaaabbaaabaaabbcccbbbbbbbck.",
+      ".kccccbccccccccbbbabcbcbbbabbbbbbbbabccccccccbcccck.",
+      "..kccccccckkkccccbcccccccbccccbcccbcccckkkccccccck..",
+      "...kkkckkk...kkccccckckcccccccccccccckk...kkkckkk...",
+      "......k........kkkkk.k.kkkkkkkkkkkkkk........k......"
+     ]
+    }
+   }
+  }
+ ]
+}

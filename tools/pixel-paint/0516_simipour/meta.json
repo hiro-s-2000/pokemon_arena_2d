@@ -1,0 +1,53 @@
+{
+ "id": "0516_simipour",
+ "exported": "2026-10-21T07:51:40.755Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 32,
+   "H": 29,
+   "x0": -3,
+   "y0": -3,
+   "w": 38,
+   "h": 36,
+   "frames": 77
+  },
+  "back": {
+   "W": 32,
+   "H": 31,
+   "x0": -2,
+   "y0": -3,
+   "w": 37,
+   "h": 38,
+   "frames": 51
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (77 vs 51 frames)",
+  "backR": "worst frame mismatch 0.00% (51 vs 50 frames)"
+ },
+ "pixel": {
+  "height": 28,
+  "how": "override",
+  "scale": 0.4483,
+  "srcBodyH": 58,
+  "colors": 10,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.42,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0515_panpour",
+  "palette": 10,
+  "outlineShades": 1
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "base": "0638_cobalion",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "o": "80f8ff",
+  "D": "f8e870",
+  "d": "30c8e0"
+ },
+ "parts": [
+  {
+   "name": "crown_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -4,
+      -20
+     ],
+     "px": [
+      ".k.....k.",
+      "kok...kok",
+      "kook.kook",
+      ".koDkDok.",
+      "..koook..",
+      "...kkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -9,
+      -11
+     ],
+     "px": [
+      ".......k.....",
+      ".....kkDkk...",
+      "....kDDdDDk..",
+      "...kDdddddDk.",
+      "..kookoodddDk",
+      "...kk.kkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      -11
+     ],
+     "px": [
+      "........k.....",
+      ".....kkkDkkk..",
+      "....kDDDdDDDk.",
+      "...kDDdddddDDk",
+      "...kookoooddDk",
+      "....kk.kkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -9,
+      -6
+     ],
+     "px": [
+      ".......k....",
+      ".....kkDkk..",
+      "....kDDdDDk.",
+      "...kDdddddDk",
+      "....kkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -4,
+      -13
+     ],
+     "px": [
+      ".k.....k.",
+      "kok...kok",
+      "kook.kook",
+      ".koDkDok.",
+      "..koook..",
+      "...kkk..."
+     ]
+    },
+    "NW": {
+     "at": [
+      -2,
+      -6
+     ],
+     "px": [
+      "....k.......",
+      "..kkDkk.....",
+      ".kDDdDDk....",
+      "kDdddddDk...",
+      ".kkkkkkk...."
+     ]
+    },
+    "W": {
+     "at": [
+      -3,
+      -11
+     ],
+     "px": [
+      ".....k........",
+      "..kkkDkkk.....",
+      ".kDDDdDDDk....",
+      "kDDdddddDDk...",
+      "kDddoookook...",
+      ".kkkkkk.kk...."
+     ]
+    },
+    "SW": {
+     "at": [
+      -3,
+      -11
+     ],
+     "px": [
+      ".....k.......",
+      "...kkDkk.....",
+      "..kDDdDDk....",
+      ".kDdddddDk...",
+      "kDdddookook..",
+      ".kkkkkk.kk..."
+     ]
+    }
+   }
+  }
+ ]
+}

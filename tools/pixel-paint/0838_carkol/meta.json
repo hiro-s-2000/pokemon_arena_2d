@@ -1,0 +1,53 @@
+{
+ "id": "0838_carkol",
+ "exported": "2026-10-21T07:27:06.523Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 32,
+   "H": 32,
+   "x0": -2,
+   "y0": -3,
+   "w": 36,
+   "h": 39,
+   "frames": 91
+  },
+  "back": {
+   "W": 32,
+   "H": 31,
+   "x0": -1,
+   "y0": -3,
+   "w": 35,
+   "h": 38,
+   "frames": 91
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (91 vs 79 frames)",
+  "backR": "worst frame mismatch 0.00% (91 vs 79 frames)"
+ },
+ "pixel": {
+  "height": 29,
+  "how": "override",
+  "scale": 0.4355,
+  "srcBodyH": 62,
+  "colors": 14,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.4,
+  "lineWeight": 0.4,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 13,
+  "outlineShades": 1
+ }
+}

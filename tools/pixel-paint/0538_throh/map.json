@@ -1,0 +1,99 @@
+{
+ "_help": "views.<view>.keys.<key> = { src: converted frame the grid started from, frames: every GIF frame index drawn with <view>_<key>.txt }. A file <view>_f<iii>.txt overrides one frame. poses pins the action poses (front.gif frame numbers).",
+ "poses": {
+  "rest": 0,
+  "crouch": 2,
+  "reach": 67,
+  "mid": 79
+ },
+ "views": {
+  "front": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0, 1, 13, 14, 15, 16, 28, 29, 30, 31, 43, 44, 45, 46, 58, 59, 60, 61, 82, 83]
+    },
+    "k1": {
+     "src": 2,
+     "frames": [2, 3, 17, 18, 32, 33, 47, 48]
+    },
+    "k2": {
+     "src": 5,
+     "frames": [4, 5, 6, 19, 20, 21, 34, 35, 36, 49, 50, 51]
+    },
+    "k3": {
+     "src": 7,
+     "frames": [7, 22, 37, 52]
+    },
+    "k4": {
+     "src": 8,
+     "frames": [8, 9, 23, 24, 38, 39, 53, 54]
+    },
+    "k5": {
+     "src": 10,
+     "frames": [10, 25, 40, 55]
+    },
+    "k6": {
+     "src": 11,
+     "frames": [11, 12, 26, 27, 41, 42, 56, 57]
+    },
+    "k7": {
+     "src": 62,
+     "frames": [62, 63, 80, 81]
+    },
+    "k8": {
+     "src": 67,
+     "frames": [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+    },
+    "k9": {
+     "src": 79,
+     "frames": [64, 79]
+    }
+   }
+  },
+  "back": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0, 9, 10, 19, 20, 29, 30, 39, 40, 41, 55]
+    },
+    "k1": {
+     "src": 1,
+     "frames": [1, 11, 21, 31]
+    },
+    "k2": {
+     "src": 2,
+     "frames": [2, 12, 22, 32]
+    },
+    "k3": {
+     "src": 3,
+     "frames": [3, 13, 23, 33]
+    },
+    "k4": {
+     "src": 4,
+     "frames": [4, 14, 24, 34]
+    },
+    "k5": {
+     "src": 6,
+     "frames": [5, 6, 7, 15, 16, 17, 25, 26, 27, 35, 36, 37]
+    },
+    "k6": {
+     "src": 8,
+     "frames": [8, 18, 28, 38]
+    },
+    "k7": {
+     "src": 42,
+     "frames": [42, 54]
+    },
+    "k8": {
+     "src": 45,
+     "frames": [44, 45, 46, 47, 48, 49, 50, 51, 52]
+    },
+    "k9": {
+     "src": 53,
+     "frames": [43, 53]
+    }
+   }
+  }
+ }
+}

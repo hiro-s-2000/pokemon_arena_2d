@@ -1,0 +1,14 @@
+// pixel-paint palette for 0668_pyroar-male. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 40372e
+2 791f14
+3 544945
+4 af2d1c
+5 e84936
+6 b08a5a
+7 19b081
+8 f2bc86
+9 ffc63b

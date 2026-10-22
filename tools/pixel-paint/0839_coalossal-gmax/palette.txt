@@ -1,0 +1,19 @@
+// coalossal-gmax hand-painted palette
+. transparent
+# 000000
+H 8f897f
+L 6d6961
+M 524f4a
+S 3b3936
+K 28272a
+d 4a1a1a
+c 72261f
+C 993526
+r cf3d27
+R ef6a35
+o f08a2a
+y ffd74a
+v a8401c
+b 4f3631
+B 75514a
+w f4f0e0

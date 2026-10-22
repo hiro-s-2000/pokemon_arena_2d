@@ -1,0 +1,26 @@
+// pixel-paint palette for 0565_carracosta (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+d 343c48
+s 4e5868
+m 6a7686
+l 909cac
+B 1d4a7a
+b 2f6fae
+c 3f8fd8
+h 6ab4f0
+a 98c6d4
+L c6e4ec
+w f6fafa
+i a8dcea
+n 14202e
+0 2c343c
+1 333333
+2 293963
+3 424a5a
+4 525a6b
+5 396384
+6 39739c
+7 637384
+8 4a94d6
+9 59ace7

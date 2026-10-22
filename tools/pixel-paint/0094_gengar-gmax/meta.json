@@ -1,0 +1,53 @@
+{
+ "id": "0094_gengar-gmax",
+ "exported": "2026-10-21T07:51:36.175Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 52,
+   "H": 43,
+   "x0": -2,
+   "y0": -3,
+   "w": 56,
+   "h": 50,
+   "frames": 19
+  },
+  "back": {
+   "W": 52,
+   "H": 40,
+   "x0": -2,
+   "y0": -3,
+   "w": 56,
+   "h": 47,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 42,
+  "how": "base 0094_gengar",
+  "scale": 0.4444,
+  "srcBodyH": 90,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0094_gengar",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

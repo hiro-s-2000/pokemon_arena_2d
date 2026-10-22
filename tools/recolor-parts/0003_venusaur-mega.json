@@ -1,0 +1,266 @@
+{
+  "_": "Mega Venusaur = Venusaur PMD sheets recoloured + tall palm crown & hanging vines + double-tiered lush fronds + forehead pink flower + back rump flower",
+  "grow": 6,
+  "colors": {
+    "k": "000000",
+    "W": "fff2f4",
+    "P": "f48294",
+    "D": "c8465c",
+    "Y": "f6d838",
+    "y": "c89818",
+    "B": "b36f50",
+    "b": "7c4224",
+    "L": "c4e4a8",
+    "G": "88dc78",
+    "g": "4ca850",
+    "d": "266e3a"
+  },
+  "parts": [
+    {
+      "name": "mega-fronds-back",
+      "anchor": "center",
+      "layer": "back",
+      "dirs": {
+        "S": {
+          "at": [-16, -15],
+          "px": [
+            "............kkk..kkk............",
+            "..........kkYYYkkYYYkk..........",
+            ".........kYYyBBBBBBByYk.........",
+            "........kYy..kBBBBk..yYk........",
+            "..kkkkk.......kbbk.......kkkkk..",
+            ".kLLGGGkk..............kkGGGLLk.",
+            "kLLGGGGggk............kggGGGGLLk",
+            "kggddddddk............kddddddggk",
+            ".kkkkkkkk..............kkkkkkkk.",
+            ".kLLGGgk................kgGGLLk.",
+            "kLGGddk..................kddGGLk",
+            ".kkkkk....................kkkkk."
+          ]
+        },
+        "SE": {
+          "at": [-15, -12],
+          "px": [
+            "...........kkk..kkk...........",
+            ".........kkYYYkkYYYkk.........",
+            "........kYYyBBBBBBByYk........",
+            ".......kYy..kBBBBk..yYk.......",
+            ".kkkkk.......kbbk.......kkkkk.",
+            "kLLGGGk................kGGGLLk",
+            "kLGGggdk..............kdggGGLk",
+            ".kkkkkk................kkkkkk.",
+            ".kLGGgk................kgGGLk.",
+            "..kkkk..................kkkk.."
+          ]
+        },
+        "E": {
+          "at": [-15, -12],
+          "px": [
+            "..........kkk..kkk..........",
+            "........kkYYYkkYYYkk........",
+            ".......kYYyBBBBBBByYk.......",
+            "......kYy..kBBBBk..yYk......",
+            ".kkkkk......kbbk......kkkkk.",
+            "kLLGGGk..............kGGGLLk",
+            "kLGGggdk............kdggGGLk",
+            ".kkkkkk..............kkkkkk.",
+            ".kLGGgk..............kgGGLk.",
+            "..kkkk................kkkk.."
+          ]
+        },
+        "NE": {
+          "at": [-15, -11],
+          "px": [
+            "..........kkk..kkk..........",
+            "........kkYYYkkYYYkk........",
+            ".......kYYyBBBBBBByYk.......",
+            "......kYy..kBBBBk..yYk......",
+            ".kkkkk......kbbk......kkkkk.",
+            "kLLGGGk..............kGGGLLk",
+            "kLGGggdk............kdggGGLk",
+            ".kkkkkk..............kkkkkk."
+          ]
+        },
+        "N": {
+          "at": [-16, -14],
+          "px": [
+            "............kkk..kkk............",
+            "..........kkYYYkkYYYkk..........",
+            ".........kYYyBBBBBBByYk.........",
+            "........kYy..kBBBBk..yYk........",
+            "..kkkkk.......kbbk.......kkkkk..",
+            ".kLLGGGkk..............kkGGGLLk.",
+            "kLLGGGGggk............kggGGGGLLk",
+            "kggddddddk............kddddddggk",
+            ".kkkkkkkk..............kkkkkkkk.",
+            ".kLLGGgk................kgGGLLk.",
+            "..kkkkk..................kkkkk.."
+          ]
+        }
+      }
+    },
+    {
+      "name": "palm-crown-and-vines",
+      "anchor": "center",
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-11, -14],
+          "px": [
+            "........kkk..kkk.......",
+            "......kkYYYkkYYYkk.....",
+            ".....kYYyBBBBBBByYk....",
+            "....kYYk.kBBBBbbkYYk...",
+            "....kkk...kBBBBk.kkk...",
+            ".kk........kbbk......kk",
+            "kGgk................kgGk",
+            "kgdk................kdgk",
+            "kGgk................kgGk",
+            ".kk..................kk."
+          ]
+        },
+        "SE": {
+          "at": [-10, -11],
+          "px": [
+            ".......kkk..kkk......",
+            ".....kkYYYkkYYYkk....",
+            "....kYYyBBBBBBByYk...",
+            "...kYYk.kBBBBbbkYYk..",
+            "...kkk...kBBBBk.kkk..",
+            "kk........kbbk.....kk",
+            "kGgk..............kgGk",
+            "kgdk..............kdgk",
+            ".kk................kk"
+          ]
+        },
+        "E": {
+          "at": [-10, -11],
+          "px": [
+            ".......kkk..kkk......",
+            ".....kkYYYkkYYYkk....",
+            "....kYYyBBBBBBByYk...",
+            "...kYYk.kBBBBbbkYYk..",
+            "...kkk...kBBBBk.kkk..",
+            "kk........kbbk.....kk",
+            "kGgk..............kgGk",
+            "kgdk..............kdgk",
+            ".kk................kk"
+          ]
+        },
+        "NE": {
+          "at": [-10, -10],
+          "px": [
+            ".......kkk..kkk......",
+            ".....kkYYYkkYYYkk....",
+            "....kYYyBBBBBBByYk...",
+            "...kYYk.kBBBBbbkYYk..",
+            "...kkk...kBBBBk.kkk..",
+            "kk........kbbk.....kk",
+            "kGgk..............kgGk",
+            ".kk................kk"
+          ]
+        },
+        "N": {
+          "at": [-11, -14],
+          "px": [
+            "........kkk..kkk.......",
+            "......kkYYYkkYYYkk.....",
+            ".....kYYyBBBBBBByYk....",
+            "....kYYk.kBBBBbbkYYk...",
+            "....kkk...kBBBBk.kkk...",
+            ".kk........kbbk......kk",
+            "kGgk................kgGk",
+            "kgdk................kdgk",
+            ".kk..................kk."
+          ]
+        }
+      }
+    },
+    {
+      "name": "forehead-flower",
+      "anchor": "center",
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-4, 1],
+          "px": [
+            "..kkkkk..",
+            ".kPPWPPk.",
+            "kPDDYDDPk",
+            "kPDYYYDPk",
+            ".kPPDPPk.",
+            "..kkkkk.."
+          ]
+        },
+        "SE": {
+          "at": [1, 3],
+          "px": [
+            "..kkkk...",
+            ".kPPWPk..",
+            "kPDDYDPk.",
+            "kPDYYDPk.",
+            ".kPPDPk..",
+            "..kkkk..."
+          ]
+        },
+        "E": {
+          "at": [5, 0],
+          "px": [
+            ".kkkk.",
+            "kPWWPk",
+            "kPDYDPk",
+            "kPPDPk",
+            ".kkkk."
+          ]
+        },
+        "NE": {
+          "at": [3, -2],
+          "px": [
+            ".kkk..",
+            "kPWPk.",
+            "kPDDPk",
+            ".kkkk."
+          ]
+        }
+      }
+    },
+    {
+      "name": "rump-flower",
+      "anchor": "center",
+      "layer": "front",
+      "dirs": {
+        "E": {
+          "at": [-11, 1],
+          "px": [
+            ".kkkk.",
+            "kPPWPk",
+            "kPDYDPk",
+            ".kDDPk",
+            "..kkk."
+          ]
+        },
+        "NE": {
+          "at": [-8, 3],
+          "px": [
+            "..kkkk..",
+            ".kPPWPk.",
+            "kPDDYDPk",
+            ".kPPDPk.",
+            "..kkkk.."
+          ]
+        },
+        "N": {
+          "at": [-4, 1],
+          "px": [
+            "..kkkkk..",
+            ".kPPWPPk.",
+            "kPDDYDDPk",
+            "kPDYYYDPk",
+            ".kPPDPPk.",
+            "..kkkkk.."
+          ]
+        }
+      }
+    }
+  ]
+}

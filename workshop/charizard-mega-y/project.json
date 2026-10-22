@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "id": "0006_charizard-mega-y",
+  "scale": 2,
+  "dirs": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "source": {
+    "repository": "https://github.com/PMDCollab/SpriteCollab",
+    "revision": "334639a66c5c70bccfe4e32fbb7d9b7c5043bae9",
+    "folder": "0006",
+    "files": [
+      {
+        "file": "AnimData.xml",
+        "gitBlob": "d89dc0920fac9d731177f6124814f0ba2b259b88",
+        "sha256": "2501f5c474cc624f18840933f7df291808f302c8ba1a0b6e4c8c5a2f601bd145"
+      },
+      {
+        "file": "Attack-Anim.png",
+        "gitBlob": "169e84b0c8b29ef343938a7b85e467489db67386",
+        "sha256": "af67973adf681138435e48494a7f04a80809a42b3378fea9486a18744c63f32e"
+      },
+      {
+        "file": "Attack-Offsets.png",
+        "gitBlob": "48c64c8ac97b4cfa3702247a56205a3953f85f69",
+        "sha256": "1458d09dd69cfb04330ed38e35eb26bf07118a37b707b77e2899fd7d67e782cd"
+      },
+      {
+        "file": "Attack-Shadow.png",
+        "gitBlob": "9b4ae1e6c48bae6b2e935d8c12ef62f2221318d6",
+        "sha256": "26f3b35801eb5a705337d1d05048b4576e6d124878f07546bd78c0acfb932970"
+      },
+      {
+        "file": "Charge-Anim.png",
+        "gitBlob": "bfbbbb17f1de6599752e86094190dfdc7dc0a207",
+        "sha256": "71fcc9fcffde72fc677b81e0e9ac40652b816779d9f88577ad8d3f6c312fedf2"
+      },
+      {
+        "file": "Charge-Offsets.png",
+        "gitBlob": "07990108cd6df08255d9842d28905aff4feed877",
+        "sha256": "d38f59ff470a7c0dd2ecd13ae9700c680a839e60c524e57ff868719e02168c87"
+      },
+      {
+        "file": "Charge-Shadow.png",
+        "gitBlob": "86733dfa5c9d78104d7d72cd513756ac1dbab8ef",
+        "sha256": "c6ad445d2e0a774f47eaed456321f1b7e41b77e5c93109c79887d3bb582c19b5"
+      },
+      {
+        "file": "Double-Anim.png",
+        "gitBlob": "9d39eb5b4cc381cb78733c8e16c7ca81114dee0e",
+        "sha256": "e1703d725201316e9243ee75949574468f9f10c793f65bea22bfb9c4dc00809e"
+      },
+      {
+        "file": "Double-Offsets.png",
+        "gitBlob": "91beac17f286e06866a623c56c189d1194631b03",
+        "sha256": "d2b583ad4032572f097ae5c7e5cbae278ad0c36be3726955ce681905279a0af0"
+      },
+      {
+        "file": "Double-Shadow.png",
+        "gitBlob": "e142efde374505debc99eb175c23a5d4d8aad301",
+        "sha256": "0f829d365b2d7ec6948ca42b3d4a4943ea755c54bcf7f747ae267a4300ebbf87"
+      },
+      {
+        "file": "Faint-Anim.png",
+        "gitBlob": "3adf410b2a5ef4c3f4d8b36e71961c636e99de03",
+        "sha256": "ccc9188c9fd49735856dfb532d8a17ad6317c0e1857ed70fc1f11bf7a737c72c"
+      },
+      {
+        "file": "Faint-Offsets.png",
+        "gitBlob": "4be3b2db3af2fd4e163b68c7f0c364249722c792",
+        "sha256": "9d68d679b9a422f745f46e2d98fb18b894e0973a96d8f088d9e1fed4b54b3dc9"
+      },
+      {
+        "file": "Faint-Shadow.png",
+        "gitBlob": "471446b4360396b3a976f8bebb34ba51892d97cb",
+        "sha256": "6fe00d59f414cd826d25e555857104a655ee8d16cde4c1f219093dff81f8af09"
+      },
+      {
+        "file": "Hop-Anim.png",
+        "gitBlob": "12990e5be0869f42f786255759341245db32754c",
+        "sha256": "6bc15ac3695849339acb20a0e78847e90e2e39b48540b173f1a293d037276df2"
+      },
+      {
+        "file": "Hop-Offsets.png",
+        "gitBlob": "83f6a18208eb6d0eb3e8d4dbaed59fa68fb5945f",
+        "sha256": "18a38e3c9a0dfcd2b988d95f832181caff1f5b6a4fc989b6f7dd419793f6a9e3"
+      },
+      {
+        "file": "Hop-Shadow.png",
+        "gitBlob": "150103d181d1371b6bd7b68630b9b56b7263dddc",
+        "sha256": "30edd9679772a18769dd267a4de294ea18ecc22172a01d059fe43e2a53c774cd"
+      },
+      {
+        "file": "Hurt-Anim.png",
+        "gitBlob": "11ef4400db208301c95021abddd076db5b6c26e6",
+        "sha256": "838924d5af02c21a3c67918807d8089afd09144a54a1898fcd02d977f4ad0aec"
+      },
+      {
+        "file": "Hurt-Offsets.png",
+        "gitBlob": "41d17f590dd825a0517958e39e3c4ca61119dcf7",
+        "sha256": "a5ff433b14b8514cac68d32d221611bd9095ac12079837c5e959c175d867738a"
+      },
+      {
+        "file": "Hurt-Shadow.png",
+        "gitBlob": "0820a0ca4cbfff19a0279847289a28a9e7471e12",
+        "sha256": "03a44da161edeef5b8c0a9c2d20a5e11a30664b078f3c12bf256b33054429860"
+      },
+      {
+        "file": "Idle-Anim.png",
+        "gitBlob": "7580c9124fc5e223c62c98515d2ee6c0e8129f92",
+        "sha256": "ceeb33e0db05817c2566e964d7b2264d0fb8fdecd480f7245faeafc864bc0d9b"
+      },
+      {
+        "file": "Idle-Offsets.png",
+        "gitBlob": "2678dbf13e3bf0489b8547e84797a1b3ffe3b698",
+        "sha256": "19250bf33166f1796e68e212816e39678618f8bf65c9258e6924c3329dd067d6"
+      },
+      {
+        "file": "Idle-Shadow.png",
+        "gitBlob": "c87c95e2445d0eee63f6bd2f42f0ce6a876f226a",
+        "sha256": "d7574bee72119c7a75aa9cc70f5c3f46f237f94053074ff14f4e981a5aa56dec"
+      },
+      {
+        "file": "Rotate-Anim.png",
+        "gitBlob": "2f38e256dc4a236adcb1a0ac89253a646bb8b963",
+        "sha256": "09465ed8da14314359fd741fc708f3d4c4fb1ba81d305cf5fff90d610b74d090"
+      },
+      {
+        "file": "Rotate-Offsets.png",
+        "gitBlob": "9df89855971b812ff07802385ff1db6900d4b7ef",
+        "sha256": "72ef9da029fbe69a66191b1e6902ba3fdb2cefd537a612c8dcada12edf625bc6"
+      },
+      {
+        "file": "Rotate-Shadow.png",
+        "gitBlob": "664bdac2a3ea3e0e8b0d25496aed52462e63cc08",
+        "sha256": "52836702bd84b4ef91e5babed993dadef662811b7e25203e4c90ec6a5bf9100e"
+      },
+      {
+        "file": "Shoot-Anim.png",
+        "gitBlob": "d53437345da8d3b6f40a9b1fd1b2596cddc11170",
+        "sha256": "7064487ed8b43e2aa4d73872a1c40320fc883ad224c1a717057918f3eedf9a8a"
+      },
+      {
+        "file": "Shoot-Offsets.png",
+        "gitBlob": "fa383efe5fb3a1c1723b0106bfd0e9e5201d4fa4",
+        "sha256": "ad521283ecc9390ea621410401b74a28b54ba504ead9ba0908c843eac2b5ab3e"
+      },
+      {
+        "file": "Shoot-Shadow.png",
+        "gitBlob": "9d78233e6a3a76e4b8deb0331a278e3dbef2d8e6",
+        "sha256": "71d5aa90343c68f2cb2a54b92d7f5c09f10914cfda599e2f7462b67f80dfe06e"
+      },
+      {
+        "file": "Sleep-Anim.png",
+        "gitBlob": "9cba014f1c358c7654ec26045ddb90d81e319c2b",
+        "sha256": "1cc7789b48c1537bcf95c4f4342dba859706bbf4942ab320707b9bc09f2244b7"
+      },
+      {
+        "file": "Sleep-Offsets.png",
+        "gitBlob": "35a0582abe849bd7553f17dca1ae7c2e853e20b6",
+        "sha256": "abbc52c0cd8f2694ec908e0107ccb19af3f69f16ebfe8805353abd7bf35ac3aa"
+      },
+      {
+        "file": "Sleep-Shadow.png",
+        "gitBlob": "e0e28ecdcc66e1528471afca8592eb793addb0b3",
+        "sha256": "b0f296d4a8a43a937b93e80f4357421e65466546c5be3b6422511cb2ede52d79"
+      },
+      {
+        "file": "Strike-Anim.png",
+        "gitBlob": "dbb50283ee60830847182acbf001619ca229ff76",
+        "sha256": "362411eee1c8cc0a71d47a32458a5df1e1682890b490e5032f50d1f53b310054"
+      },
+      {
+        "file": "Strike-Offsets.png",
+        "gitBlob": "787c6c6953202dbbcce72de5cb63be901906478b",
+        "sha256": "4faa60b09dcc9b37e9048543e9b78dab9f48abcf97d8344c7b0e4677e3636e5e"
+      },
+      {
+        "file": "Strike-Shadow.png",
+        "gitBlob": "d4c0822b8e0cde49592ca24f9295d8e90693b660",
+        "sha256": "fe65a0c6bebe41778381e99637e89fdedaa7c4ee0a50d8fc7754415fb87b345a"
+      },
+      {
+        "file": "Swing-Anim.png",
+        "gitBlob": "3363438a152aaf2f56d807e8cabd95493a1f0452",
+        "sha256": "bbc308d9fe93085fc5c13426e7f5c29a00f08f1edffcdff7226c87faf8d84a2a"
+      },
+      {
+        "file": "Swing-Offsets.png",
+        "gitBlob": "f164e3b701c34c084f0d871e9ed3f9857ad76c74",
+        "sha256": "92495faf4027362660c9671286a53e2eaf5685508b7af20ae153d181a438f355"
+      },
+      {
+        "file": "Swing-Shadow.png",
+        "gitBlob": "72bf14ebffefe2c744ee3407ff04e22e3040c6f6",
+        "sha256": "5601bebca6313db48361c99e42132bec829ce205c6c922ce108bd38f3fed5f08"
+      },
+      {
+        "file": "Walk-Anim.png",
+        "gitBlob": "7580c9124fc5e223c62c98515d2ee6c0e8129f92",
+        "sha256": "ceeb33e0db05817c2566e964d7b2264d0fb8fdecd480f7245faeafc864bc0d9b"
+      },
+      {
+        "file": "Walk-Offsets.png",
+        "gitBlob": "2678dbf13e3bf0489b8547e84797a1b3ffe3b698",
+        "sha256": "19250bf33166f1796e68e212816e39678618f8bf65c9258e6924c3329dd067d6"
+      },
+      {
+        "file": "Walk-Shadow.png",
+        "gitBlob": "c87c95e2445d0eee63f6bd2f42f0ce6a876f226a",
+        "sha256": "d7574bee72119c7a75aa9cc70f5c3f46f237f94053074ff14f4e981a5aa56dec"
+      },
+      {
+        "file": "credits.txt",
+        "gitBlob": "583f20367e538ee1f494da83a2ebcf96b5b599ff",
+        "sha256": "3a275f456ec2bc3fa899ce4b84bd584f27daab8d5e04101435b2db5c39088088"
+      }
+    ]
+  },
+  "palette": {
+    "0": "000000",
+    "1": "ff875f",
+    "2": "9f0000",
+    "3": "d64008",
+    "4": "fff500",
+    "5": "384092",
+    "6": "fafef3",
+    "7": "baceec",
+    "8": "dfb500",
+    "9": "a56f09"
+  },
+  "anims": {
+    "Idle": {
+      "fw": 40,
+      "fh": 48,
+      "rows": 8,
+      "frames": 4,
+      "durations": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Idle",
+      "sourceSha256": "ceeb33e0db05817c2566e964d7b2264d0fb8fdecd480f7245faeafc864bc0d9b"
+    },
+    "Walk": {
+      "fw": 40,
+      "fh": 48,
+      "rows": 8,
+      "frames": 4,
+      "durations": [
+        8,
+        10,
+        8,
+        10
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Walk",
+      "sourceSha256": "ceeb33e0db05817c2566e964d7b2264d0fb8fdecd480f7245faeafc864bc0d9b"
+    },
+    "Attack": {
+      "fw": 80,
+      "fh": 88,
+      "rows": 8,
+      "frames": 14,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": 2,
+      "ret": 8,
+      "sourceAnimation": "Attack",
+      "sourceSha256": "af67973adf681138435e48494a7f04a80809a42b3378fea9486a18744c63f32e"
+    },
+    "Shoot": {
+      "fw": 56,
+      "fh": 56,
+      "rows": 8,
+      "frames": 11,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "sourceAnimation": "Shoot",
+      "sourceSha256": "7064487ed8b43e2aa4d73872a1c40320fc883ad224c1a717057918f3eedf9a8a"
+    },
+    "SpAttack": {
+      "fw": 56,
+      "fh": 56,
+      "rows": 8,
+      "frames": 11,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "sourceAnimation": "Shoot",
+      "sourceSha256": "7064487ed8b43e2aa4d73872a1c40320fc883ad224c1a717057918f3eedf9a8a"
+    },
+    "Charge": {
+      "fw": 48,
+      "fh": 48,
+      "rows": 8,
+      "frames": 10,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": null,
+      "ret": 9,
+      "sourceAnimation": "Charge",
+      "sourceSha256": "71fcc9fcffde72fc677b81e0e9ac40652b816779d9f88577ad8d3f6c312fedf2"
+    },
+    "Strike": {
+      "fw": 72,
+      "fh": 80,
+      "rows": 8,
+      "frames": 13,
+      "durations": [
+        2,
+        2,
+        6,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 4,
+      "rush": 2,
+      "ret": 6,
+      "sourceAnimation": "Strike",
+      "sourceSha256": "362411eee1c8cc0a71d47a32458a5df1e1682890b490e5032f50d1f53b310054"
+    },
+    "Hurt": {
+      "fw": 64,
+      "fh": 64,
+      "rows": 8,
+      "frames": 2,
+      "durations": [
+        2,
+        8
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Hurt",
+      "sourceSha256": "838924d5af02c21a3c67918807d8089afd09144a54a1898fcd02d977f4ad0aec"
+    },
+    "Faint": {
+      "fw": 48,
+      "fh": 48,
+      "rows": 8,
+      "frames": 4,
+      "durations": [
+        8,
+        12,
+        4,
+        10
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Faint",
+      "sourceSha256": "ccc9188c9fd49735856dfb532d8a17ad6317c0e1857ed70fc1f11bf7a737c72c"
+    }
+  },
+  "derivation": {
+    "review": "/Users/honmahiroshi/Desktop/ai_workspace/pokemon_arena_2d/workshop/charizard-mega-y-parts",
+    "record": {
+      "src": "gen1/0006_charizard/mega/charizard-mega-y",
+      "exact": true,
+      "source": "recolor-parts",
+      "base": "0006_charizard",
+      "sc": "0006",
+      "scale": 2,
+      "shadowSize": 2,
+      "bodyH": 58,
+      "bodyW": 54,
+      "anims": {
+        "Idle": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Idle.png",
+          "fw": 80,
+          "fh": 96,
+          "frames": 4,
+          "rows": 8,
+          "durations": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "hit": null,
+          "rush": null,
+          "ret": null,
+          "anchorY": 64
+        },
+        "Walk": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Walk.png",
+          "fw": 80,
+          "fh": 96,
+          "frames": 4,
+          "rows": 8,
+          "durations": [
+            8,
+            10,
+            8,
+            10
+          ],
+          "hit": null,
+          "rush": null,
+          "ret": null,
+          "anchorY": 64
+        },
+        "Attack": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Attack.png",
+          "fw": 160,
+          "fh": 176,
+          "frames": 14,
+          "rows": 8,
+          "durations": [
+            2,
+            2,
+            2,
+            2,
+            4,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hit": 5,
+          "rush": 2,
+          "ret": 8,
+          "anchorY": 142
+        },
+        "Shoot": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Shoot.png",
+          "fw": 112,
+          "fh": 112,
+          "frames": 11,
+          "rows": 8,
+          "durations": [
+            4,
+            6,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hit": 2,
+          "rush": null,
+          "ret": 6,
+          "anchorY": 84
+        },
+        "SpAttack": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/SpAttack.png",
+          "fw": 112,
+          "fh": 112,
+          "frames": 11,
+          "rows": 8,
+          "durations": [
+            4,
+            6,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hit": 2,
+          "rush": null,
+          "ret": 6,
+          "anchorY": 84
+        },
+        "Charge": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Charge.png",
+          "fw": 96,
+          "fh": 96,
+          "frames": 10,
+          "rows": 8,
+          "durations": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hit": 5,
+          "rush": null,
+          "ret": 9,
+          "anchorY": 66
+        },
+        "Strike": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Strike.png",
+          "fw": 144,
+          "fh": 160,
+          "frames": 13,
+          "rows": 8,
+          "durations": [
+            2,
+            2,
+            6,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hit": 4,
+          "rush": 2,
+          "ret": 6,
+          "anchorY": 132
+        },
+        "Hurt": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Hurt.png",
+          "fw": 128,
+          "fh": 128,
+          "frames": 2,
+          "rows": 8,
+          "durations": [
+            2,
+            8
+          ],
+          "hit": null,
+          "rush": null,
+          "ret": null,
+          "anchorY": 68
+        },
+        "Faint": {
+          "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Faint.png",
+          "fw": 96,
+          "fh": 96,
+          "frames": 4,
+          "rows": 8,
+          "durations": [
+            8,
+            12,
+            4,
+            10
+          ],
+          "hit": null,
+          "rush": null,
+          "ret": null,
+          "anchorY": 60
+        }
+      }
+    }
+  }
+}

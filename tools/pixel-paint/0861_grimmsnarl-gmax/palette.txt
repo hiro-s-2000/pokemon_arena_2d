@@ -1,0 +1,16 @@
+// pixel-paint palette for 0861_grimmsnarl-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333234
+1 3b255b
+2 362a55
+3 433568
+4 58528d
+5 356a3c
+6 bd394d
+7 268659
+8 e7425f
+9 14d88a
+a eeccd0
+b ffffff

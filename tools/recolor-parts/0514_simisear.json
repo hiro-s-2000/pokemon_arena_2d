@@ -1,0 +1,214 @@
+{
+ "base": "0512_simisage",
+ "grow": 5,
+ "colors": {
+  "k": "000000",
+  "R": "c02818",
+  "O": "ff7a30",
+  "y": "ffd060",
+  "w": "fff0b0"
+ },
+ "parts": [
+  {
+   "name": "sideflames",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -9,
+      -17
+     ],
+     "px": [
+      "..k...",
+      ".kRk..",
+      ".kRRk.",
+      "kRORk.",
+      "kRyORk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -9,
+      -17
+     ],
+     "px": [
+      "..k...",
+      ".kRk..",
+      ".kRRk.",
+      "kRORk.",
+      "kRyORk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -4,
+      -18
+     ],
+     "px": [
+      "..k...",
+      ".kRk..",
+      ".kRRk.",
+      "kRORk.",
+      "kRyORk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -7,
+      -18
+     ],
+     "px": [
+      "..k...",
+      ".kRk..",
+      ".kRRk.",
+      "kRORk.",
+      "kRyORk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -9,
+      -17
+     ],
+     "px": [
+      "..k...",
+      ".kRk..",
+      ".kRRk.",
+      "kRORk.",
+      "kRyORk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "sideflames2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      1,
+      -17
+     ],
+     "px": [
+      "...k..",
+      "..kRk.",
+      ".kRRk.",
+      ".kRORk",
+      "kROyRk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      1,
+      -17
+     ],
+     "px": [
+      "...k..",
+      "..kRk.",
+      ".kRRk.",
+      ".kRORk",
+      "kROyRk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      3,
+      -18
+     ],
+     "px": [
+      "...k..",
+      "..kRk.",
+      ".kRRk.",
+      ".kRORk",
+      "kROyRk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      1,
+      -17
+     ],
+     "px": [
+      "...k..",
+      "..kRk.",
+      ".kRRk.",
+      ".kRORk",
+      "kROyRk",
+      "kRyyRk",
+      ".kRRk.",
+      "..kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "tufthi",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -16
+     ],
+     "px": [
+      ".y.",
+      "yOy",
+      "yO.",
+      ".O."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -16
+     ],
+     "px": [
+      ".y.",
+      "yOy",
+      "yO.",
+      ".O."
+     ]
+    },
+    "E": {
+     "at": [
+      1,
+      -17
+     ],
+     "px": [
+      ".y.",
+      "yOy",
+      "yO.",
+      ".O."
+     ]
+    }
+   }
+  }
+ ]
+}

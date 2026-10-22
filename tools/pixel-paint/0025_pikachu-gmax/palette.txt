@@ -1,0 +1,24 @@
+// pixel-paint palette for 0025_pikachu-gmax (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// fur yellow: highlight / light / main / shade / deep
+H fffbc0
+Y fff050
+y f8d020
+o e8a010
+O b86c08
+// brown fur lines (arms, back stripes, mouth)
+n 7a4008
+// ear tips
+K 2c2c30
+k 5a5a64
+// cheeks: highlight / red / shade
+s ff7a68
+R e83030
+r a81818
+// eyes
+W ffffff
+e 4a70c0
+// energy glow (bolt tail / sparks)
+g fffcc8
+G f8f040

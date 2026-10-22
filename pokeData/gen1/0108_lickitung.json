@@ -1,0 +1,852 @@
+{
+  "id": "0108_lickitung",
+  "pokemonId": 108,
+  "dex": 108,
+  "slug": "lickitung",
+  "name": "Lickitung",
+  "jpName": "ベロリンガ",
+  "genus": "Licking Pokémon",
+  "jpGenus": "なめまわしポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0108_lickitung/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0108_lickitung/normal/back.gif",
+  "abilities": [
+    {
+      "id": 20,
+      "slug": "own-tempo",
+      "name": "Own Tempo",
+      "jpName": "マイペース",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Prevents confusion.",
+      "jpDescription": "マイペースなので こんらん状態に ならない。"
+    },
+    {
+      "id": 12,
+      "slug": "oblivious",
+      "name": "Oblivious",
+      "jpName": "どんかん",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Prevents infatuation and protects against Captivate.",
+      "jpDescription": "鈍感なので メロメロや ちょうはつ状態に ならない。"
+    },
+    {
+      "id": 13,
+      "slug": "cloud-nine",
+      "name": "Cloud Nine",
+      "jpName": "ノーてんき",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Negates all effects of weather, but does not prevent the weather itself.",
+      "jpDescription": "あらゆる 天気の 影響が なくなって しまう。"
+    }
+  ],
+  "height": {
+    "decimeters": 12,
+    "meters": 1.2,
+    "feetInches": "3'11\"",
+    "display": "1.2 m (3'11\")"
+  },
+  "weight": {
+    "hectograms": 655,
+    "kilograms": 65.5,
+    "pounds": 144.4,
+    "display": "65.5 kg (144.4 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
+    "speed": 30,
+    "total": 385,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 150,
+          "max": 197
+        },
+        "lv100": {
+          "min": 290,
+          "max": 384
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 54,
+          "max": 117
+        },
+        "lv100": {
+          "min": 103,
+          "max": 229
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 72,
+          "max": 139
+        },
+        "lv100": {
+          "min": 139,
+          "max": 273
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 72,
+          "max": 139
+        },
+        "lv100": {
+          "min": 139,
+          "max": 273
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 31,
+          "max": 90
+        },
+        "lv100": {
+          "min": 58,
+          "max": 174
+        }
+      }
+    }
+  },
+  "baseStatTotal": 385,
+  "typeMatchups": {
+    "types": [
+      "normal"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 1,
+        "slug": "normal",
+        "name": "Normal",
+        "jpName": "ノーマル"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 0.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fighting"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ghost"
+    ],
+    "stabSuperEffectiveAgainst": []
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "hp",
+        "statName": "HP",
+        "statJpName": "HP",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 HP",
+    "evYieldTextJa": "HP+2",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 77,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 1,
+        "slug": "monster",
+        "name": "Monster",
+        "jpName": "かいじゅう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 48,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 463,
+        "dex": 463,
+        "slug": "lickilicky",
+        "name": "Lickilicky",
+        "jpName": "ベロベルト",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": "Rollout",
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level up knowing Rollout",
+            "conditionTextJa": "レベルアップ（「ころがる」を習得）"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 108,
+        "dex": 108,
+        "slug": "lickitung",
+        "name": "Lickitung",
+        "jpName": "ベロリンガ",
+        "types": [
+          "normal"
+        ],
+        "sprite": "../pokeSprite/gen1/0108_lickitung/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0108_lickitung/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 463,
+            "dex": 463,
+            "slug": "lickilicky",
+            "name": "Lickilicky",
+            "jpName": "ベロベルト",
+            "types": [
+              "normal"
+            ],
+            "sprite": "../pokeSprite/gen4/0463_lickilicky/normal/front.gif",
+            "backSprite": "../pokeSprite/gen4/0463_lickilicky/normal/back.gif",
+            "condition": "Level up knowing Rollout",
+            "conditionJa": "レベルアップ（「ころがる」を習得）",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": "Rollout",
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up knowing Rollout",
+                "conditionTextJa": "レベルアップ（「ころがる」を習得）"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Lickitung --(Level up knowing Rollout)--> Lickilicky",
+    "summaryTextJa": "ベロリンガ --(レベルアップ（「ころがる」を習得）)--> ベロベルト"
+  },
+  "moves": {
+    "totalUniqueMoves": 33,
+    "levelUp": [
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。",
+        "level": 6
+      },
+      {
+        "id": 523,
+        "slug": "bulldoze",
+        "name": "Bulldoze",
+        "jpName": "じならし",
+        "type": "ground",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+        "jpDescription": "地面を 踏みならして 自分の 周りに いるものを 攻撃する。 相手の 素早さを さげる。",
+        "level": 11
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。",
+        "level": 18
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 25
+      },
+      {
+        "id": 205,
+        "slug": "rollout",
+        "name": "Rollout",
+        "jpName": "ころがる",
+        "type": "rock",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user continually rolls into the target over five turns. This attack becomes more powerful each time it hits.",
+        "jpDescription": "５ターンの 間 転がり続けて 攻撃する。 技が 当たるたびに 威力が あがる。",
+        "level": 34
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [
+      {
+        "id": 133,
+        "slug": "amnesia",
+        "name": "Amnesia",
+        "jpName": "ドわすれ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user temporarily empties its mind to forget its concerns. This sharply boosts the user's Sp. Def stat.",
+        "jpDescription": "頭を からにして 一瞬 なにかを 忘れることで 自分の 特防を ぐーんと あげる。"
+      },
+      {
+        "id": 562,
+        "slug": "belch",
+        "name": "Belch",
+        "jpName": "ゲップ",
+        "type": "poison",
+        "category": "special",
+        "power": 120,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+        "jpDescription": "相手に 向かって ゲップを 浴びせて ダメージを 与える。 きのみを 食べないと だせない。"
+      },
+      {
+        "id": 187,
+        "slug": "belly-drum",
+        "name": "Belly Drum",
+        "jpName": "はらだいこ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user maximizes its Attack stat but loses HP equal to half its max HP.",
+        "jpDescription": "自分の ＨＰを 最大ＨＰの 半分 減らして 自分の 攻撃を 最大に あげる。"
+      },
+      {
+        "id": 34,
+        "slug": "body-slam",
+        "name": "Body Slam",
+        "jpName": "のしかかり",
+        "type": "normal",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis.",
+        "jpDescription": "全身で 相手に のしかかり 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 174,
+        "slug": "curse",
+        "name": "Curse",
+        "jpName": "のろい",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that has different effects depending on whether the user is a Ghost type or not.",
+        "jpDescription": "使う ポケモンが ゴーストタイプと それ以外 とでは 効果が 変わる。"
+      },
+      {
+        "id": 359,
+        "slug": "hammer-arm",
+        "name": "Hammer Arm",
+        "jpName": "アームハンマー",
+        "type": "fighting",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user swings its strong, heavy fist at the target to inflict damage. This also lowers the user's Speed stat.",
+        "jpDescription": "強くて 重い こぶしを ふるって ダメージを 与える。 自分の 素早さが さがる。"
+      },
+      {
+        "id": 222,
+        "slug": "magnitude",
+        "name": "Magnitude",
+        "jpName": "マグニチュード",
+        "type": "ground",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 330,
+        "slug": "muddy-water",
+        "name": "Muddy Water",
+        "jpName": "だくりゅう",
+        "type": "water",
+        "category": "special",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+        "jpDescription": "濁った 水を 相手に 発射して 攻撃する。 命中率を さげることが ある。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 265,
+        "slug": "smelling-salts",
+        "name": "Smelling Salts",
+        "jpName": "きつけ",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 37,
+        "slug": "thrash",
+        "name": "Thrash",
+        "jpName": "あばれる",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+        "jpDescription": "２ー３ターンの 間 暴れまくって 相手を 攻撃する。 暴れたあとは 混乱する。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 401,
+        "slug": "aqua-tail",
+        "name": "Aqua Tail",
+        "jpName": "アクアテール",
+        "type": "water",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+        "jpDescription": "激しく あれくるう 荒波の ように 大きな しっぽを ふって 相手を 攻撃する。"
+      },
+      {
+        "id": 20,
+        "slug": "bind",
+        "name": "Bind",
+        "jpName": "しめつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 15,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A long body, tentacles, or the like are used to bind and squeeze the target for four to five turns.",
+        "jpDescription": "長い 体や つるなどを 使い ４ー５ターンの 間 相手を 締めつけて 攻撃する。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。"
+      },
+      {
+        "id": 351,
+        "slug": "shock-wave",
+        "name": "Shock Wave",
+        "jpName": "でんげきは",
+        "type": "electric",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+        "jpDescription": "電撃を 素早く 相手に 浴びせる。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 798,
+        "slug": "steel-roller",
+        "name": "Steel Roller",
+        "jpName": "アイアンローラー",
+        "type": "steel",
+        "category": "physical",
+        "power": 130,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks while destroying the terrain. This move fails if the ground hasn't turned into a terrain.",
+        "jpDescription": "フィールドを 破壊しながら 攻撃。 なんらかの フィールド状態に 変わっていないと 技は 失敗する。"
+      },
+      {
+        "id": 707,
+        "slug": "stomping-tantrum",
+        "name": "Stomping Tantrum",
+        "jpName": "じだんだ",
+        "type": "ground",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "悔しさを バネにして 攻撃する。 前の ターンに 技を 外していると 威力が 倍に なる。"
+      },
+      {
+        "id": 805,
+        "slug": "terrain-pulse",
+        "name": "Terrain Pulse",
+        "jpName": "だいちのはどう",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user utilizes the energy of the terrain to attack. This move’s type and power change depending on the terrain at the time the move is used.",
+        "jpDescription": "フィールドの力を 借りて 攻撃。 使った時の フィールドの状態に よって 技の タイプと 威力が 変わる。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ]
+  }
+}

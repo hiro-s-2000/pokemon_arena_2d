@@ -1,0 +1,15 @@
+// pixel-paint palette for 0929_dolliv. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 0a3a1c
+1 333333
+2 064f17
+3 b91c1c
+4 6f6c4f
+5 148b16
+6 45ba24
+7 c09552
+8 c9d1a5
+9 d5df4e
+a f7f9e3

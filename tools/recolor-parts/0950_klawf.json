@@ -1,0 +1,198 @@
+{
+ "base": "0739_crabrawler",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "w": "f8f8f8",
+  "p": "202020"
+ },
+ "erase": [],
+ "parts": [
+  {
+   "name": "eyeL",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -6,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -4,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -2,
+      -7
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "eyeL-m",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "W": {
+     "at": [
+      -2,
+      -7
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      0,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "eyeR",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      2,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      3,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "E": {
+     "at": [
+      3,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "eyeR-m",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "W": {
+     "at": [
+      -7,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -7,
+      -8
+     ],
+     "px": [
+      ".kkk.",
+      "kwwwk",
+      "kwpwk",
+      "kwwwk",
+      ".kkk."
+     ]
+    }
+   }
+  }
+ ]
+}

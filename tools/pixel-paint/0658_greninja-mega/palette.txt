@@ -1,0 +1,16 @@
+// pixel-paint palette for 0658_greninja-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 3b2f32
+2 303b8a
+3 4e4245
+4 2657ba
+5 954060
+6 d5555a
+7 6f9199
+8 f46881
+9 3ec9ff
+a 94eef9
+b ffffff

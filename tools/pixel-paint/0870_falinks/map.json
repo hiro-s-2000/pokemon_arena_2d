@@ -1,0 +1,99 @@
+{
+ "_help": "views.<view>.keys.<key> = { src: converted frame the grid started from, frames: every GIF frame index drawn with <view>_<key>.txt }. A file <view>_f<iii>.txt overrides one frame. poses pins the action poses (front.gif frame numbers).",
+ "poses": {
+  "rest": 0,
+  "crouch": 6,
+  "reach": 11,
+  "mid": 9
+ },
+ "views": {
+  "front": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0]
+    },
+    "k1": {
+     "src": 2,
+     "frames": [1, 2, 3]
+    },
+    "k2": {
+     "src": 4,
+     "frames": [4]
+    },
+    "k3": {
+     "src": 5,
+     "frames": [5]
+    },
+    "k4": {
+     "src": 6,
+     "frames": [6]
+    },
+    "k5": {
+     "src": 8,
+     "frames": [8, 13]
+    },
+    "k6": {
+     "src": 9,
+     "frames": [9]
+    },
+    "k7": {
+     "src": 11,
+     "frames": [10, 11, 12]
+    },
+    "k8": {
+     "src": 14,
+     "frames": [7, 14]
+    },
+    "k9": {
+     "src": 15,
+     "frames": [15]
+    }
+   }
+  },
+  "back": {
+   "keys": {
+    "k0": {
+     "src": 0,
+     "frames": [0, 4, 9]
+    },
+    "k1": {
+     "src": 2,
+     "frames": [1, 2, 3]
+    },
+    "k2": {
+     "src": 6,
+     "frames": [6, 7, 17]
+    },
+    "k3": {
+     "src": 8,
+     "frames": [5, 8, 18]
+    },
+    "k4": {
+     "src": 10,
+     "frames": [10]
+    },
+    "k5": {
+     "src": 11,
+     "frames": [11]
+    },
+    "k6": {
+     "src": 12,
+     "frames": [12]
+    },
+    "k7": {
+     "src": 13,
+     "frames": [13, 14]
+    },
+    "k8": {
+     "src": 15,
+     "frames": [15]
+    },
+    "k9": {
+     "src": 16,
+     "frames": [16]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "0818_inteleon-gmax",
+ "exported": "2026-10-21T07:51:48.413Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 46,
+   "H": 54,
+   "x0": -3,
+   "y0": -3,
+   "w": 52,
+   "h": 61,
+   "frames": 19
+  },
+  "back": {
+   "W": 46,
+   "H": 51,
+   "x0": -3,
+   "y0": -3,
+   "w": 52,
+   "h": 58,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 53,
+  "how": "base 0818_inteleon",
+  "scale": 0.5313,
+  "srcBodyH": 96,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0818_inteleon",
+  "palette": 10,
+  "outlineShades": 1
+ }
+}

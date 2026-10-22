@@ -1,0 +1,1280 @@
+{
+  "id": "0546_cottonee",
+  "pokemonId": 546,
+  "dex": 546,
+  "slug": "cottonee",
+  "name": "Cottonee",
+  "jpName": "モンメン",
+  "genus": "Cotton Puff Pokémon",
+  "jpGenus": "わたたまポケモン",
+  "generation": 5,
+  "category": "gen5",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen5/0546_cottonee/normal/front.gif",
+  "backSprite": "../pokeSprite/gen5/0546_cottonee/normal/back.gif",
+  "abilities": [
+    {
+      "id": 158,
+      "slug": "prankster",
+      "name": "Prankster",
+      "jpName": "いたずらごころ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Raises non-damaging moves' priority by one stage.",
+      "jpDescription": "変化技を 先制で 出すことが できる。"
+    },
+    {
+      "id": 151,
+      "slug": "infiltrator",
+      "name": "Infiltrator",
+      "jpName": "すりぬけ",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Bypasses Light Screen, Reflect, and Safeguard.",
+      "jpDescription": "相手の 壁や 身代わりを すりぬけて 攻撃 できる"
+    },
+    {
+      "id": 34,
+      "slug": "chlorophyll",
+      "name": "Chlorophyll",
+      "jpName": "ようりょくそ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Doubles Speed during strong sunlight.",
+      "jpDescription": "天気が 晴れのとき 素早さが 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 3,
+    "meters": 0.3,
+    "feetInches": "1'00\"",
+    "display": "0.3 m (1'00\")"
+  },
+  "weight": {
+    "hectograms": 6,
+    "kilograms": 0.6,
+    "pounds": 1.3,
+    "display": "0.6 kg (1.3 lbs)"
+  },
+  "shape": {
+    "id": 1,
+    "slug": "ball",
+    "name": "Ball",
+    "awesomeName": "Pomaceous",
+    "jpName": "まるい（球体）"
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 27,
+    "defense": 60,
+    "specialAttack": 37,
+    "specialDefense": 50,
+    "speed": 66,
+    "total": 280,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 100,
+          "max": 147
+        },
+        "lv100": {
+          "min": 190,
+          "max": 284
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 28,
+          "max": 86
+        },
+        "lv100": {
+          "min": 53,
+          "max": 168
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 37,
+          "max": 97
+        },
+        "lv100": {
+          "min": 71,
+          "max": 190
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 129
+        },
+        "lv100": {
+          "min": 123,
+          "max": 254
+        }
+      }
+    }
+  },
+  "baseStatTotal": 280,
+  "typeMatchups": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 12,
+        "slug": "grass",
+        "name": "Grass",
+        "jpName": "くさ"
+      },
+      {
+        "slot": 2,
+        "id": 18,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "フェアリー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 0.5,
+      "electric": 0.5,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 0.5,
+      "poison": 4.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 0.0,
+      "dark": 0.5,
+      "steel": 2.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [
+      "poison"
+    ],
+    "weaknesses2x": [
+      "fire",
+      "ice",
+      "flying",
+      "steel"
+    ],
+    "neutral1x": [
+      "normal",
+      "psychic",
+      "bug",
+      "rock",
+      "ghost",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "water",
+      "electric",
+      "grass",
+      "fighting",
+      "ground",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "dragon"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "fighting",
+      "ground",
+      "rock",
+      "dragon",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Speed",
+    "evYieldTextJa": "すばやさ+1",
+    "catchRate": 190,
+    "pokeBallFullHpPercent": 35.2,
+    "catchRateDisplay": "190 (35.2% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 56,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 7,
+        "slug": "plant",
+        "name": "Grass",
+        "jpName": "しょくぶつ"
+      },
+      {
+        "id": 6,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "ようせい"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 278,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 547,
+        "dex": 547,
+        "slug": "whimsicott",
+        "name": "Whimsicott",
+        "jpName": "エルフーン",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "triggerName": "Use item",
+            "minLevel": null,
+            "item": "Sun Stone",
+            "itemJp": "たいようのいし",
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Use Sun Stone",
+            "conditionTextJa": "「たいようのいし」を使用"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 546,
+        "dex": 546,
+        "slug": "cottonee",
+        "name": "Cottonee",
+        "jpName": "モンメン",
+        "types": [
+          "grass",
+          "fairy"
+        ],
+        "sprite": "../pokeSprite/gen5/0546_cottonee/normal/front.gif",
+        "backSprite": "../pokeSprite/gen5/0546_cottonee/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 547,
+            "dex": 547,
+            "slug": "whimsicott",
+            "name": "Whimsicott",
+            "jpName": "エルフーン",
+            "types": [
+              "grass",
+              "fairy"
+            ],
+            "sprite": "../pokeSprite/gen5/0547_whimsicott/normal/front.gif",
+            "backSprite": "../pokeSprite/gen5/0547_whimsicott/normal/back.gif",
+            "condition": "Use Sun Stone",
+            "conditionJa": "「たいようのいし」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Sun Stone",
+                "itemJp": "たいようのいし",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Sun Stone",
+                "conditionTextJa": "「たいようのいし」を使用"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Cottonee --(Use Sun Stone)--> Whimsicott",
+    "summaryTextJa": "モンメン --(「たいようのいし」を使用)--> エルフーン"
+  },
+  "moves": {
+    "totalUniqueMoves": 48,
+    "levelUp": [
+      {
+        "id": 71,
+        "slug": "absorb",
+        "name": "Absorb",
+        "jpName": "すいとる",
+        "type": "grass",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 相手に 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 1
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。",
+        "level": 1
+      },
+      {
+        "id": 584,
+        "slug": "fairy-wind",
+        "name": "Fairy Wind",
+        "jpName": "ようせいのかぜ",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by stirring up a fairy wind to strike the target.",
+        "jpDescription": "ようせいのかぜを 起こし 相手に 吹きつけて 攻撃する。",
+        "level": 3
+      },
+      {
+        "id": 78,
+        "slug": "stun-spore",
+        "name": "Stun Spore",
+        "jpName": "しびれごな",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 75,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user scatters a cloud of numbing powder that paralyzes the target.",
+        "jpDescription": "しびれる 粉を たくさん ふりまいて 相手を まひ状態に する。",
+        "level": 6
+      },
+      {
+        "id": 72,
+        "slug": "mega-drain",
+        "name": "Mega Drain",
+        "jpName": "メガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 相手に 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 12
+      },
+      {
+        "id": 75,
+        "slug": "razor-leaf",
+        "name": "Razor Leaf",
+        "jpName": "はっぱカッター",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 25,
+        "priority": 0,
+        "description": "Sharp-edged leaves are launched to slash at opposing Pokémon. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "はっぱを とばして 相手を 切りつけて 攻撃する。 急所に 当たりやすい。",
+        "level": 15
+      },
+      {
+        "id": 74,
+        "slug": "growth",
+        "name": "Growth",
+        "jpName": "せいちょう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user's body grows all at once, boosting the Attack and Sp. Atk stats.",
+        "jpDescription": "体を 一気に 大きく 生長させて 攻撃と 特攻を あげる。",
+        "level": 18
+      },
+      {
+        "id": 77,
+        "slug": "poison-powder",
+        "name": "Poison Powder",
+        "jpName": "どくのこな",
+        "type": "poison",
+        "category": "status",
+        "power": null,
+        "accuracy": 75,
+        "pp": 35,
+        "priority": 0,
+        "description": "The user scatters a cloud of poisonous dust that poisons the target.",
+        "jpDescription": "毒の ある 粉を たくさん ふりまいて 相手を 毒状態に する。",
+        "level": 21
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 24
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。",
+        "level": 27
+      },
+      {
+        "id": 73,
+        "slug": "leech-seed",
+        "name": "Leech Seed",
+        "jpName": "やどりぎのタネ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "A seed is planted on the target. It steals some HP from the target every turn.",
+        "jpDescription": "植えつけた 相手の ＨＰを 毎ターン 少しだけ 吸い取り 自分の ＨＰを 回復する。",
+        "level": 30
+      },
+      {
+        "id": 178,
+        "slug": "cotton-spore",
+        "name": "Cotton Spore",
+        "jpName": "わたほうし",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats.",
+        "jpDescription": "綿のような フワフワの 胞子を まとわり つかせて 相手の 素早さを がくっと さげる。",
+        "level": 33
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。",
+        "level": 36
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。",
+        "level": 39
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。",
+        "level": 42
+      },
+      {
+        "id": 538,
+        "slug": "cotton-guard",
+        "name": "Cotton Guard",
+        "jpName": "コットンガード",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat.",
+        "jpDescription": "フワフワの 綿毛で 自分の 体を 包みこんで 守る。 防御を ぐぐーんと あげる。",
+        "level": 45
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。",
+        "level": 48
+      }
+    ],
+    "machine": [
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。"
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 447,
+        "slug": "grass-knot",
+        "name": "Grass Knot",
+        "jpName": "くさむすび",
+        "type": "grass",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+        "jpDescription": "草を からませて 相手を 転ばせる。相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      },
+      {
+        "id": 580,
+        "slug": "grassy-terrain",
+        "name": "Grassy Terrain",
+        "jpName": "グラスフィールド",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user turns the ground into Grassy Terrain for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+        "jpDescription": "５ターンの 間 グラスフィールドにする。 地面にいると 毎ターン 回復する。 くさタイプの 威力が あがる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 581,
+        "slug": "misty-terrain",
+        "name": "Misty Terrain",
+        "jpName": "ミストフィールド",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+        "jpDescription": "５ターンの 間 地面にいると 状態異常に ならず ドラゴン技の ダメージも 半分になる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      }
+    ],
+    "egg": [
+      {
+        "id": 251,
+        "slug": "beat-up",
+        "name": "Beat Up",
+        "jpName": "ふくろだたき",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+        "jpDescription": "味方 全員で 攻撃する。 仲間の ポケモンが 多いほど 技の 攻撃回数が 増える。"
+      },
+      {
+        "id": 445,
+        "slug": "captivate",
+        "name": "Captivate",
+        "jpName": "ゆうわく",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 320,
+        "slug": "grass-whistle",
+        "name": "Grass Whistle",
+        "jpName": "くさぶえ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 55,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 262,
+        "slug": "memento",
+        "name": "Memento",
+        "jpName": "おきみやげ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user faints. In return, the target's Attack and Sp. Atk stats are harshly lowered.",
+        "jpDescription": "自分は ひんしに なるが そのかわりに 相手の 攻撃と 特攻を がくっと さげる。"
+      },
+      {
+        "id": 581,
+        "slug": "misty-terrain",
+        "name": "Misty Terrain",
+        "jpName": "ミストフィールド",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+        "jpDescription": "５ターンの 間 地面にいると 状態異常に ならず ドラゴン技の ダメージも 半分になる。"
+      },
+      {
+        "id": 363,
+        "slug": "natural-gift",
+        "name": "Natural Gift",
+        "jpName": "しぜんのめぐみ",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 267,
+        "slug": "nature-power",
+        "name": "Nature Power",
+        "jpName": "しぜんのちから",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+        "jpDescription": "自然の 力で 攻撃する。 使う 場所で でてくる 技が 変化する。"
+      },
+      {
+        "id": 415,
+        "slug": "switcheroo",
+        "name": "Switcheroo",
+        "jpName": "すりかえ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user trades held items with the target faster than the eye can follow.",
+        "jpDescription": "目にも とまらぬ 速さで 自分と 相手の 持ち物を 交換する。"
+      },
+      {
+        "id": 321,
+        "slug": "tickle",
+        "name": "Tickle",
+        "jpName": "くすぐる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tickles the target into laughing, lowering its Attack and Defense stats.",
+        "jpDescription": "体を くすぐり 笑わせる ことで 相手の 攻撃と 防御を さげる。"
+      },
+      {
+        "id": 388,
+        "slug": "worry-seed",
+        "name": "Worry Seed",
+        "jpName": "なやみのタネ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia.",
+        "jpDescription": "心を なやませる タネを 植えつける。 相手を 眠れなくして 特性を ふみんに する。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 343,
+        "slug": "covet",
+        "name": "Covet",
+        "jpName": "ほしがる",
+        "type": "normal",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user endearingly approaches the target, then steals the target's held item.",
+        "jpDescription": "かわいく あまえながら 相手に ちかづき 持っている 道具を うばう。"
+      },
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 803,
+        "slug": "grassy-glide",
+        "name": "Grassy Glide",
+        "jpName": "グラススライダー",
+        "type": "grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+        "jpDescription": "地面を 滑るように 相手を 攻撃。 グラスフィールドの時 必ず 先制攻撃 できる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 388,
+        "slug": "worry-seed",
+        "name": "Worry Seed",
+        "jpName": "なやみのタネ",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia.",
+        "jpDescription": "心を なやませる タネを 植えつける。 相手を 眠れなくして 特性を ふみんに する。"
+      }
+    ]
+  }
+}

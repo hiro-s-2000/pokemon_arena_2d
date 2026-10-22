@@ -1,0 +1,81 @@
+{
+ "base": "0734_yungoos",
+ "grow": 5,
+ "colors": {
+  "k": "000000",
+  "b": "f0d878",
+  "a": "c8a048"
+ },
+ "parts": [
+  {
+   "name": "pompadour",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -7,
+      -13
+     ],
+     "px": [
+      "....kkkkkkk....",
+      "..kkbbbbbbbkk..",
+      ".kbbbbbbbbbbbk.",
+      "kbbaabbbbbaabbk",
+      "kbaakabbbakaabk",
+      "kakk.kaaak.kkak",
+      ".k....kkk....k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -8,
+      -14
+     ],
+     "px": [
+      ".....kkkkk....",
+      "...kkbbbbbkk..",
+      "..kbbbbbbbbbk.",
+      ".kbbaaabbbbbbk",
+      "kbbakkkaabbbak",
+      "kbak...kkaabak",
+      "kak......kkak.",
+      ".k.........k.."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      -11
+     ],
+     "px": [
+      ".....kkkkk....",
+      "...kkbbbbbkk..",
+      "..kbbbbbbbbbk.",
+      ".kbbaaabbbbbbk",
+      "kbbakkkaabbbak",
+      "kbak...kkaabak",
+      "kak......kkak.",
+      ".k.........k.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -11
+     ],
+     "px": [
+      ".....kkkkk....",
+      "...kkbbbbbkk..",
+      "..kbbbbbbbbbk.",
+      ".kbbaaabbbbbbk",
+      "kbbakkkaabbbak",
+      "kbak...kkaabak",
+      "kak......kkak.",
+      ".k.........k.."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0990_iron-treads. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 35313a
+2 822628
+3 4f4e59
+4 c62e2d
+5 7b727c
+6 ff4243
+7 9ca2a5
+8 c9c2c4
+9 fbbf24
+a fef1cd

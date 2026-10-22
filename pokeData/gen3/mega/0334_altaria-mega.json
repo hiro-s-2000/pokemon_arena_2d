@@ -1,0 +1,1328 @@
+{
+  "id": "0334_altaria-mega",
+  "pokemonId": 10067,
+  "dex": 334,
+  "slug": "altaria-mega",
+  "name": "Mega Altaria",
+  "jpName": "メガチルタリス",
+  "genus": "Humming Pokémon",
+  "jpGenus": "ハミングポケモン",
+  "generation": 3,
+  "category": "mega",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen3/0334_altaria/mega/altaria-mega/front.gif",
+  "backSprite": "../pokeSprite/gen3/0334_altaria/mega/altaria-mega/back.gif",
+  "abilities": [
+    {
+      "id": 182,
+      "slug": "pixilate",
+      "name": "Pixilate",
+      "jpName": "フェアリースキン",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power.",
+      "jpDescription": "ノーマルタイプの 技が フェアリータイプになる。 威力が 少し 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 15,
+    "meters": 1.5,
+    "feetInches": "4'11\"",
+    "display": "1.5 m (4'11\")"
+  },
+  "weight": {
+    "hectograms": 206,
+    "kilograms": 20.6,
+    "pounds": 45.4,
+    "display": "20.6 kg (45.4 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 110,
+    "defense": 110,
+    "specialAttack": 110,
+    "specialDefense": 105,
+    "speed": 80,
+    "total": 590,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 135,
+          "max": 182
+        },
+        "lv100": {
+          "min": 260,
+          "max": 354
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 103,
+          "max": 178
+        },
+        "lv100": {
+          "min": 202,
+          "max": 350
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 103,
+          "max": 178
+        },
+        "lv100": {
+          "min": 202,
+          "max": 350
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 103,
+          "max": 178
+        },
+        "lv100": {
+          "min": 202,
+          "max": 350
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 99,
+          "max": 172
+        },
+        "lv100": {
+          "min": 193,
+          "max": 339
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      }
+    }
+  },
+  "baseStatTotal": 590,
+  "typeMatchups": {
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 16,
+        "slug": "dragon",
+        "name": "Dragon",
+        "jpName": "ドラゴン"
+      },
+      {
+        "slot": 2,
+        "id": 18,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "フェアリー"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 0.5,
+      "electric": 0.5,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 0.5,
+      "poison": 2.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 1.0,
+      "ghost": 1.0,
+      "dragon": 0.0,
+      "dark": 0.5,
+      "steel": 2.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "ice",
+      "poison",
+      "steel",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "ground",
+      "flying",
+      "psychic",
+      "rock",
+      "ghost"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "fighting",
+      "bug",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "dragon"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "fighting",
+      "dragon",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Sp. Def",
+    "evYieldTextJa": "とくぼう+2",
+    "catchRate": 45,
+    "pokeBallFullHpPercent": 11.9,
+    "catchRateDisplay": "45 (11.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 207,
+    "growthRate": {
+      "id": 5,
+      "slug": "slow-then-very-fast",
+      "name": "Erratic",
+      "formula": "\\begin{cases}\n\\frac{ x^3 \\left( 100 - x \\right) }{50},    & \\text{if } x \\leq 50  \\\\\n\\frac{ x^3 \\left( 150 - x \\right) }{100},   & \\text{if } 50 < x \\leq 68  \\\\\n\\frac{ x^3 \\left( 1274 + (x \\bmod 3)^2 - 9 (x \\bmod 3) - 20 \\left\\lfloor \\frac{x}{3} \\right\\rfloor \\right) }{1000}, & \\text{if } 68 < x \\leq 98  \\\\\n\\frac{ x^3 \\left( 160 - x \\right) }{100},   & \\text{if } x > 98  \\\\\n\\end{cases}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      },
+      {
+        "id": 14,
+        "slug": "dragon",
+        "name": "Dragon",
+        "jpName": "ドラゴン"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 168,
+    "evolvesFrom": {
+      "speciesId": 333,
+      "dex": 333,
+      "slug": "swablu",
+      "name": "Swablu",
+      "jpName": "チルット",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 35,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 35",
+          "conditionTextJa": "Lv.35"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 333,
+        "dex": 333,
+        "slug": "swablu",
+        "name": "Swablu",
+        "jpName": "チルット",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen3/0333_swablu/normal/front.gif",
+        "backSprite": "../pokeSprite/gen3/0333_swablu/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 334,
+            "dex": 334,
+            "slug": "altaria",
+            "name": "Altaria",
+            "jpName": "チルタリス",
+            "types": [
+              "dragon",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen3/0334_altaria/normal/front.gif",
+            "backSprite": "../pokeSprite/gen3/0334_altaria/normal/back.gif",
+            "condition": "Level 35",
+            "conditionJa": "Lv.35",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 35,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 35",
+                "conditionTextJa": "Lv.35"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [
+        "0334_altaria-mega"
+      ],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Swablu --(Level 35)--> Altaria",
+    "summaryTextJa": "チルット --(Lv.35)--> チルタリス"
+  },
+  "moves": {
+    "totalUniqueMoves": 65,
+    "levelUp": [
+      {
+        "id": 225,
+        "slug": "dragon-breath",
+        "name": "Dragon Breath",
+        "jpName": "りゅうのいぶき",
+        "type": "dragon",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user exhales a mighty gust that inflicts damage. This may also leave the target with paralysis.",
+        "jpDescription": "ものすごい 息を 相手に 吹きつけて 攻撃する。 まひ状態に することが ある。",
+        "level": 0
+      },
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 47,
+        "slug": "sing",
+        "name": "Sing",
+        "jpName": "うたう",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 55,
+        "pp": 15,
+        "priority": 0,
+        "description": "A soothing lullaby is sung in a beautiful voice that puts the target to sleep.",
+        "jpDescription": "心地好い きれいな 歌声を 聞かせて 相手を 眠り状態に する。",
+        "level": 1
+      },
+      {
+        "id": 64,
+        "slug": "peck",
+        "name": "Peck",
+        "jpName": "つつく",
+        "type": "flying",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is jabbed with a sharply pointed beak or horn to inflict damage.",
+        "jpDescription": "鋭く とがった くちばしや つので 相手を 突いて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 143,
+        "slug": "sky-attack",
+        "name": "Sky Attack",
+        "jpName": "ゴッドバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch.",
+        "jpDescription": "２ターン目に 相手を 攻撃する。 たまに ひるませる。 急所にも 当たりやすい。",
+        "level": 1
+      },
+      {
+        "id": 310,
+        "slug": "astonish",
+        "name": "Astonish",
+        "jpName": "おどろかす",
+        "type": "ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
+        "jpDescription": "大きな 声などで 不意に 驚かして 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 365,
+        "slug": "pluck",
+        "name": "Pluck",
+        "jpName": "ついばむ",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pecking the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "くちばしで 攻撃。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 1
+      },
+      {
+        "id": 31,
+        "slug": "fury-attack",
+        "name": "Fury Attack",
+        "jpName": "みだれづき",
+        "type": "normal",
+        "category": "physical",
+        "power": 15,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row.",
+        "jpDescription": "つのや くちばしで 相手を つついて 攻撃する。 ２ー５回の 間 連続で だす。",
+        "level": 7
+      },
+      {
+        "id": 219,
+        "slug": "safeguard",
+        "name": "Safeguard",
+        "jpName": "しんぴのまもり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user creates a protective field that prevents status conditions for five turns.",
+        "jpDescription": "５ターンの 間 不思議な 力に 守られて 状態異常に ならなくなる。",
+        "level": 9
+      },
+      {
+        "id": 574,
+        "slug": "disarming-voice",
+        "name": "Disarming Voice",
+        "jpName": "チャームボイス",
+        "type": "fairy",
+        "category": "special",
+        "power": 40,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
+        "jpDescription": "魅惑の 鳴き声を だして 相手に 精神的な ダメージを 与える。 攻撃は 必ず 命中 する。",
+        "level": 11
+      },
+      {
+        "id": 54,
+        "slug": "mist",
+        "name": "Mist",
+        "jpName": "しろいきり",
+        "type": "ice",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+        "jpDescription": "白い霧で 体を おおう。 ５ターンの 間 相手に 能力を さげられなく なる。",
+        "level": 14
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。",
+        "level": 17
+      },
+      {
+        "id": 363,
+        "slug": "natural-gift",
+        "name": "Natural Gift",
+        "jpName": "しぜんのめぐみ",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします",
+        "level": 20
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。",
+        "level": 23
+      },
+      {
+        "id": 287,
+        "slug": "refresh",
+        "name": "Refresh",
+        "jpName": "リフレッシュ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします",
+        "level": 26
+      },
+      {
+        "id": 349,
+        "slug": "dragon-dance",
+        "name": "Dragon Dance",
+        "jpName": "りゅうのまい",
+        "type": "dragon",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+        "jpDescription": "神秘的で 力強い 舞を 激しく おどる。 自分の 攻撃と 素早さを あげる。",
+        "level": 30
+      },
+      {
+        "id": 538,
+        "slug": "cotton-guard",
+        "name": "Cotton Guard",
+        "jpName": "コットンガード",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user protects itself by wrapping its body in soft cotton, drastically boosting its Defense stat.",
+        "jpDescription": "フワフワの 綿毛で 自分の 体を 包みこんで 守る。 防御を ぐぐーんと あげる。",
+        "level": 34
+      },
+      {
+        "id": 406,
+        "slug": "dragon-pulse",
+        "name": "Dragon Pulse",
+        "jpName": "りゅうのはどう",
+        "type": "dragon",
+        "category": "special",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is attacked with a shock wave generated by the user's gaping mouth.",
+        "jpDescription": "大きな 口から 衝撃波を まきおこして 相手を 攻撃する。",
+        "level": 40
+      },
+      {
+        "id": 195,
+        "slug": "perish-song",
+        "name": "Perish Song",
+        "jpName": "ほろびのうた",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+        "jpDescription": "歌を 聴いた ポケモンは ３ターン たつと ひんしに なる。 交代すると 効果は なくなる。",
+        "level": 46
+      },
+      {
+        "id": 585,
+        "slug": "moonblast",
+        "name": "Moonblast",
+        "jpName": "ムーンフォース",
+        "type": "fairy",
+        "category": "special",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.",
+        "jpDescription": "月の パワーを かりて 相手を 攻撃する。 相手の 特攻を さげる ことがある。",
+        "level": 52
+      }
+    ],
+    "machine": [
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 523,
+        "slug": "bulldoze",
+        "name": "Bulldoze",
+        "jpName": "じならし",
+        "type": "ground",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+        "jpDescription": "地面を 踏みならして 自分の 周りに いるものを 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 590,
+        "slug": "confide",
+        "name": "Confide",
+        "jpName": "ないしょばなし",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.",
+        "jpDescription": "ないしょばなしを することで 相手の 集中力を 失わせ 相手の 特攻を さげる。"
+      },
+      {
+        "id": 605,
+        "slug": "dazzling-gleam",
+        "name": "Dazzling Gleam",
+        "jpName": "マジカルシャイン",
+        "type": "fairy",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+        "jpDescription": "強力な 光を 放ち 相手に ダメージを 与える。"
+      },
+      {
+        "id": 104,
+        "slug": "double-team",
+        "name": "Double Team",
+        "jpName": "かげぶんしん",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "By moving rapidly, the user makes illusory copies of itself to boost its evasiveness.",
+        "jpDescription": "素早い 動きで 分身を つくり 相手を まどわせて 回避率を あげる。"
+      },
+      {
+        "id": 337,
+        "slug": "dragon-claw",
+        "name": "Dragon Claw",
+        "jpName": "ドラゴンクロー",
+        "type": "dragon",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes the target with huge, sharp claws to inflict damage.",
+        "jpDescription": "鋭く とがった 巨大な ツメで 相手を 切り裂いて 攻撃する。"
+      },
+      {
+        "id": 138,
+        "slug": "dream-eater",
+        "name": "Dream Eater",
+        "jpName": "ゆめくい",
+        "type": "psychic",
+        "category": "special",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "寝ている 相手の 夢を 食べて 攻撃する。 ダメージの 半分の ＨＰを 回復する。"
+      },
+      {
+        "id": 89,
+        "slug": "earthquake",
+        "name": "Earthquake",
+        "jpName": "じしん",
+        "type": "ground",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user sets off an earthquake that strikes every Pokémon around it.",
+        "jpDescription": "地震の 衝撃で 自分の 周りに いるものを 攻撃する。"
+      },
+      {
+        "id": 497,
+        "slug": "echoed-voice",
+        "name": "Echoed Voice",
+        "jpName": "エコーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",
+        "jpDescription": "響く 声で 相手を 攻撃する。 毎ターン だれかが 技を 使い続けると 威力が あがる。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 126,
+        "slug": "fire-blast",
+        "name": "Fire Blast",
+        "jpName": "だいもんじ",
+        "type": "fire",
+        "category": "special",
+        "power": 110,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+        "jpDescription": "大の字の 炎で 相手を 焼きつくす。 やけど状態に することが ある。"
+      },
+      {
+        "id": 53,
+        "slug": "flamethrower",
+        "name": "Flamethrower",
+        "jpName": "かえんほうしゃ",
+        "type": "fire",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+        "jpDescription": "激しい 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 19,
+        "slug": "fly",
+        "name": "Fly",
+        "jpName": "そらをとぶ",
+        "type": "flying",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flies up into the sky on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目で 空へ 飛び ２ターン目に 相手を 攻撃する。"
+      },
+      {
+        "id": 218,
+        "slug": "frustration",
+        "name": "Frustration",
+        "jpName": "やつあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 237,
+        "slug": "hidden-power",
+        "name": "Hidden Power",
+        "jpName": "めざめるパワー",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 58,
+        "slug": "ice-beam",
+        "name": "Ice Beam",
+        "jpName": "れいとうビーム",
+        "type": "ice",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+        "jpDescription": "凍える ビームを 相手に 発射して 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 244,
+        "slug": "psych-up",
+        "name": "Psych Up",
+        "jpName": "じこあんじ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hypnotizes itself into copying any stat change made by the target.",
+        "jpDescription": "自分に 暗示を かけることで 能力変化の 状態を 相手と 同じにする。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 216,
+        "slug": "return",
+        "name": "Return",
+        "jpName": "おんがえし",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 46,
+        "slug": "roar",
+        "name": "Roar",
+        "jpName": "ほえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": -6,
+        "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+        "jpDescription": "相手を 逃がして 控えの ポケモンを ひきずりだす。 野生の 場合は 戦闘が 終わる。"
+      },
+      {
+        "id": 355,
+        "slug": "roost",
+        "name": "Roost",
+        "jpName": "はねやすめ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lands and rests its body. This move restores the user's HP by up to half its max HP.",
+        "jpDescription": "地面に 降りて 体を やすめる。 最大ＨＰの 半分の ＨＰを 回復する。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 219,
+        "slug": "safeguard",
+        "name": "Safeguard",
+        "jpName": "しんぴのまもり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user creates a protective field that prevents status conditions for five turns.",
+        "jpDescription": "５ターンの 間 不思議な 力に 守られて 状態異常に ならなくなる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 211,
+        "slug": "steel-wing",
+        "name": "Steel Wing",
+        "jpName": "はがねのつばさ",
+        "type": "steel",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 90,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is hit with wings of steel. This may also boost the user's Defense stat.",
+        "jpDescription": "硬い 翼を 相手に たたきつけて 攻撃する。 自分の 防御が あがることが ある。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 207,
+        "slug": "swagger",
+        "name": "Swagger",
+        "jpName": "いばる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user enrages and confuses the target. However, this also sharply boosts the target's Attack stat.",
+        "jpDescription": "相手を 怒らせて 混乱させる。 怒りで 相手の 攻撃は ぐーんと あがってしまう。"
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 92,
+        "slug": "toxic",
+        "name": "Toxic",
+        "jpName": "どくどく",
+        "type": "poison",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+        "jpDescription": "相手を 猛毒の 状態に する。 ターンが すすむほど 毒の ダメージが 増えていく。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 434,
+        "slug": "draco-meteor",
+        "name": "Draco Meteor",
+        "jpName": "りゅうせいぐん",
+        "type": "dragon",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat.",
+        "jpDescription": "天空から 隕石を 相手に 落とす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 406,
+        "slug": "dragon-pulse",
+        "name": "Dragon Pulse",
+        "jpName": "りゅうのはどう",
+        "type": "dragon",
+        "category": "special",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is attacked with a shock wave generated by the user's gaping mouth.",
+        "jpDescription": "大きな 口から 衝撃波を まきおこして 相手を 攻撃する。"
+      },
+      {
+        "id": 215,
+        "slug": "heal-bell",
+        "name": "Heal Bell",
+        "jpName": "いやしのすず",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user makes a soothing bell chime to cure the status conditions of all its fellow party Pokémon and allies.",
+        "jpDescription": "心地好い 鈴の 音色を 聞かせて 味方 全員の 状態異常を 回復 する。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 231,
+        "slug": "iron-tail",
+        "name": "Iron Tail",
+        "jpName": "アイアンテール",
+        "type": "steel",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 75,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+        "jpDescription": "硬い しっぽで 相手を たたきつけて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 200,
+        "slug": "outrage",
+        "name": "Outrage",
+        "jpName": "げきりん",
+        "type": "dragon",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+        "jpDescription": "２ー３ターンの 間 暴れまくって 攻撃する。 暴れたあとは 混乱する。"
+      },
+      {
+        "id": 143,
+        "slug": "sky-attack",
+        "name": "Sky Attack",
+        "jpName": "ゴッドバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch.",
+        "jpDescription": "２ターン目に 相手を 攻撃する。 たまに ひるませる。 急所にも 当たりやすい。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 472,
+        "slug": "wonder-room",
+        "name": "Wonder Room",
+        "jpName": "ワンダールーム",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.",
+        "jpDescription": "まか不思議な 空間を つくる。 ５ターンのあいだ すべてのポケモンの 防御と 特防が 入れ替わる。"
+      }
+    ]
+  }
+}

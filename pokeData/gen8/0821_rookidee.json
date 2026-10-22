@@ -1,0 +1,1006 @@
+{
+  "id": "0821_rookidee",
+  "pokemonId": 821,
+  "dex": 821,
+  "slug": "rookidee",
+  "name": "Rookidee",
+  "jpName": "ココガラ",
+  "genus": "Tiny Bird Pokémon",
+  "jpGenus": "ことりポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0821_rookidee/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0821_rookidee/normal/back.gif",
+  "abilities": [
+    {
+      "id": 51,
+      "slug": "keen-eye",
+      "name": "Keen Eye",
+      "jpName": "するどいめ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Prevents accuracy from being lowered.",
+      "jpDescription": "鋭い 目の おかげで 命中率を 下げられない。"
+    },
+    {
+      "id": 127,
+      "slug": "unnerve",
+      "name": "Unnerve",
+      "jpName": "きんちょうかん",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Prevents opposing Pokémon from eating held Berries.",
+      "jpDescription": "相手を 緊張させて きのみを 食べられなく させる。"
+    },
+    {
+      "id": 145,
+      "slug": "big-pecks",
+      "name": "Big Pecks",
+      "jpName": "はとむね",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against Defense drops.",
+      "jpDescription": "防御を 下げる 効果を 受けない。"
+    }
+  ],
+  "height": {
+    "decimeters": 2,
+    "meters": 0.2,
+    "feetInches": "0'08\"",
+    "display": "0.2 m (0'08\")"
+  },
+  "weight": {
+    "hectograms": 18,
+    "kilograms": 1.8,
+    "pounds": 4.0,
+    "display": "1.8 kg (4.0 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 38,
+    "attack": 47,
+    "defense": 35,
+    "specialAttack": 33,
+    "specialDefense": 35,
+    "speed": 57,
+    "total": 245,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 98,
+          "max": 145
+        },
+        "lv100": {
+          "min": 186,
+          "max": 280
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 46,
+          "max": 108
+        },
+        "lv100": {
+          "min": 89,
+          "max": 212
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 34,
+          "max": 93
+        },
+        "lv100": {
+          "min": 63,
+          "max": 181
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 55,
+          "max": 119
+        },
+        "lv100": {
+          "min": 107,
+          "max": 234
+        }
+      }
+    }
+  },
+  "baseStatTotal": 245,
+  "typeMatchups": {
+    "types": [
+      "flying"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 3,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 2.0,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "electric",
+      "ice",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "poison",
+      "flying",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "grass",
+      "fighting",
+      "bug"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ground"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "fighting",
+      "bug"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Speed",
+    "evYieldTextJa": "すばやさ+1",
+    "catchRate": 255,
+    "pokeBallFullHpPercent": 43.9,
+    "catchRateDisplay": "255 (43.9% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 49,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 434,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 822,
+        "dex": 822,
+        "slug": "corvisquire",
+        "name": "Corvisquire",
+        "jpName": "アオガラス",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 18,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 18",
+            "conditionTextJa": "Lv.18"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 821,
+        "dex": 821,
+        "slug": "rookidee",
+        "name": "Rookidee",
+        "jpName": "ココガラ",
+        "types": [
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen8/0821_rookidee/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0821_rookidee/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 822,
+            "dex": 822,
+            "slug": "corvisquire",
+            "name": "Corvisquire",
+            "jpName": "アオガラス",
+            "types": [
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen8/0822_corvisquire/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0822_corvisquire/normal/back.gif",
+            "condition": "Level 18",
+            "conditionJa": "Lv.18",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 18,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 18",
+                "conditionTextJa": "Lv.18"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 823,
+                "dex": 823,
+                "slug": "corviknight",
+                "name": "Corviknight",
+                "jpName": "アーマーガア",
+                "types": [
+                  "flying",
+                  "steel"
+                ],
+                "sprite": "../pokeSprite/gen8/0823_corviknight/normal/front.gif",
+                "backSprite": "../pokeSprite/gen8/0823_corviknight/normal/back.gif",
+                "condition": "Level 38",
+                "conditionJa": "Lv.38",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 38,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 38",
+                    "conditionTextJa": "Lv.38"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Rookidee --(Level 18)--> Corvisquire --(Level 38)--> Corviknight",
+    "summaryTextJa": "ココガラ --(Lv.18)--> アオガラス --(Lv.38)--> アーマーガア"
+  },
+  "moves": {
+    "totalUniqueMoves": 38,
+    "levelUp": [
+      {
+        "id": 43,
+        "slug": "leer",
+        "name": "Leer",
+        "jpName": "にらみつける",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user gives opposing Pokémon an intimidating leer that lowers their Defense stats.",
+        "jpDescription": "鋭い 目つきで おびえさせて 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 64,
+        "slug": "peck",
+        "name": "Peck",
+        "jpName": "つつく",
+        "type": "flying",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is jabbed with a sharply pointed beak or horn to inflict damage.",
+        "jpDescription": "鋭く とがった くちばしや つので 相手を 突いて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 681,
+        "slug": "power-trip",
+        "name": "Power Trip",
+        "jpName": "つけあがる",
+        "type": "dark",
+        "category": "physical",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user boasts its strength and attacks the target. The more the user's stats are boosted, the greater the move's power.",
+        "jpDescription": "自分の 強さを 鼻高々に 攻撃する。自分の 能力が あがって いるほど 威力が あがる。",
+        "level": 4
+      },
+      {
+        "id": 468,
+        "slug": "hone-claws",
+        "name": "Hone Claws",
+        "jpName": "つめとぎ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user sharpens its claws to boost its Attack stat and accuracy.",
+        "jpDescription": "ツメを 磨いて 鋭く する。 自分の 攻撃と 命中率を あげる。",
+        "level": 8
+      },
+      {
+        "id": 31,
+        "slug": "fury-attack",
+        "name": "Fury Attack",
+        "jpName": "みだれづき",
+        "type": "normal",
+        "category": "physical",
+        "power": 15,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by jabbing the target with a horn, a beak, or the like. This move hits two to five times in a row.",
+        "jpDescription": "つのや くちばしで 相手を つついて 攻撃する。 ２ー５回の 間 連続で だす。",
+        "level": 12
+      },
+      {
+        "id": 365,
+        "slug": "pluck",
+        "name": "Pluck",
+        "jpName": "ついばむ",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pecking the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "くちばしで 攻撃。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 16
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。",
+        "level": 20
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。",
+        "level": 24
+      },
+      {
+        "id": 65,
+        "slug": "drill-peck",
+        "name": "Drill Peck",
+        "jpName": "ドリルくちばし",
+        "type": "flying",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A corkscrewing attack that strikes the target with a sharp beak acting as a drill.",
+        "jpDescription": "回転しながら とがった くちばしを 相手に 突き刺して 攻撃する。",
+        "level": 28
+      },
+      {
+        "id": 207,
+        "slug": "swagger",
+        "name": "Swagger",
+        "jpName": "いばる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user enrages and confuses the target. However, this also sharply boosts the target's Attack stat.",
+        "jpDescription": "相手を 怒らせて 混乱させる。 怒りで 相手の 攻撃は ぐーんと あがってしまう。",
+        "level": 32
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。",
+        "level": 36
+      }
+    ],
+    "machine": [
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 314,
+        "slug": "air-cutter",
+        "name": "Air Cutter",
+        "jpName": "エアカッター",
+        "type": "flying",
+        "category": "special",
+        "power": 60,
+        "accuracy": 95,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user launches razor-like wind to slash opposing Pokémon. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "鋭い 風で 相手を 切りつけて 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 403,
+        "slug": "air-slash",
+        "name": "Air Slash",
+        "jpName": "エアスラッシュ",
+        "type": "flying",
+        "category": "special",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+        "jpDescription": "空をも 切り裂く 空気の 刃で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 19,
+        "slug": "fly",
+        "name": "Fly",
+        "jpName": "そらをとぶ",
+        "type": "flying",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flies up into the sky on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目で 空へ 飛び ２ターン目に 相手を 攻撃する。"
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 179,
+        "slug": "reversal",
+        "name": "Reversal",
+        "jpName": "きしかいせい",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "An all-out attack that becomes more powerful the less HP the user has.",
+        "jpDescription": "力を ふりしぼり 攻撃する。 自分の ＨＰが 少ないほど 技の 威力は あがる。"
+      },
+      {
+        "id": 184,
+        "slug": "scary-face",
+        "name": "Scary Face",
+        "jpName": "こわいかお",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+        "jpDescription": "恐ろしい 顔で にらみ おびえさせて 相手の 素早さを がくっと さげる。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 180,
+        "slug": "spite",
+        "name": "Spite",
+        "jpName": "うらみ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+        "jpDescription": "相手が 最後に 使った技に 恨みを 抱いて その技の ＰＰを ４だけ 減らす。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 249,
+        "slug": "rock-smash",
+        "name": "Rock Smash",
+        "jpName": "いわくだき",
+        "type": "fighting",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a punch. This may also lower the target's Defense stat.",
+        "jpDescription": "パンチで 攻撃する。相手の 防御を さげる ことが ある。"
+      },
+      {
+        "id": 355,
+        "slug": "roost",
+        "name": "Roost",
+        "jpName": "はねやすめ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lands and rests its body. This move restores the user's HP by up to half its max HP.",
+        "jpDescription": "地面に 降りて 体を やすめる。 最大ＨＰの 半分の ＨＰを 回復する。"
+      },
+      {
+        "id": 28,
+        "slug": "sand-attack",
+        "name": "Sand Attack",
+        "jpName": "すなかけ",
+        "type": "ground",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "Sand is hurled in the target's face, lowering the target's accuracy.",
+        "jpDescription": "相手の 顔に 砂を かけて 命中率を さげる。"
+      },
+      {
+        "id": 143,
+        "slug": "sky-attack",
+        "name": "Sky Attack",
+        "jpName": "ゴッドバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 140,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the turn after using this move. This move has a heightened chance of landing a critical hit and may also make the target flinch.",
+        "jpDescription": "２ターン目に 相手を 攻撃する。 たまに ひるませる。 急所にも 当たりやすい。"
+      },
+      {
+        "id": 180,
+        "slug": "spite",
+        "name": "Spite",
+        "jpName": "うらみ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+        "jpDescription": "相手が 最後に 使った技に 恨みを 抱いて その技の ＰＰを ４だけ 減らす。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      }
+    ]
+  }
+}

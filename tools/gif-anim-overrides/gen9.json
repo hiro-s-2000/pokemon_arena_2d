@@ -1,0 +1,1986 @@
+{
+ "_units": "lungePx / hopPx / anims.*.lunge are PMD-scale pixels (converted from GIF pixels by the pixelize scale)",
+ "_comment": "gen9 curation. Most gen9 GIFs (19/20 frames) are two idle halves with baked-in move effects: a mouth beam (frames 3-8 / 4-9) and a slash or burst (12-16 / 13-17). Idle is trimmed to the effect-free opening frames; the effect frames drive Shoot / SpAttack / Strike. The long legendary GIFs (wo-chien, chien-pao, gouging-fire) are several identical breathing loops plus one action sequence; Idle is one loop and the action sequence drives the moves. Pixel tuning: pixelHeight is matched to comparable gen9 PMD sheets (e.g. Great Tusk 34, Walking Wake 40, Koraidon 44); textured GIFs use fewer colours, larger speckSize and a higher innerLines threshold so the source texture strokes do not turn into black noise.",
+ "0929_dolliv": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "spAttackFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   1,
+   2,
+   2,
+   2,
+   17,
+   18,
+   0,
+   0
+  ],
+  "lungePx": 5,
+  "pixelHeight": 26,
+  "paletteFrom": "0930_arboliva"
+ },
+ "0931_squawkabilly-green-plumage": {
+  "idleRange": [
+   0,
+   3
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   3,
+   0,
+   1,
+   2,
+   3
+  ],
+  "attackFrames": [
+   0,
+   10,
+   10,
+   1,
+   2,
+   2,
+   3,
+   0,
+   0
+  ],
+  "shootFrames": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   11,
+   12,
+   18,
+   19,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   3
+  ],
+  "faintFrames": [
+   10
+  ],
+  "strikeFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 26
+ },
+ "0942_maschiff": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 22
+ },
+ "0943_mabosstiff": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 30,
+  "colors": 10,
+  "speckSize": 3,
+  "lineWeight": 0.4,
+  "speckContrast": 0.16,
+  "innerLines": 0.5
+ },
+ "0944_shroodle": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 5,
+  "pixelHeight": 18
+ },
+ "0945_grafaiai": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "spAttackFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   1,
+   2,
+   2,
+   2,
+   17,
+   18,
+   0,
+   0
+  ],
+  "lungePx": 7,
+  "pixelHeight": 28,
+  "speckSize": 4
+ },
+ "0947_brambleghast": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "spAttackFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   1,
+   2,
+   2,
+   2,
+   17,
+   18,
+   0,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 28,
+  "paletteFrom": "0946_bramblin"
+ },
+ "0949_toedscruel": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "spAttackFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   1,
+   2,
+   2,
+   2,
+   17,
+   18,
+   0,
+   0
+  ],
+  "lungePx": 5,
+  "pixelHeight": 34,
+  "paletteFrom": "0948_toedscool",
+  "darkLift": 0.42,
+  "innerLines": 0.6,
+  "lineWeight": 0.4
+ },
+ "0950_klawf": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 26
+ },
+ "0954_rabsca": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 4,
+  "pixelHeight": 28,
+  "paletteFrom": "0953_rellor"
+ },
+ "0956_espathra": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 8,
+  "pixelHeight": 34,
+  "paletteFrom": "0955_flittle"
+ },
+ "0962_bombirdier": {
+  "idleRange": [
+   0,
+   3
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   3,
+   0,
+   1,
+   2,
+   3
+  ],
+  "attackFrames": [
+   0,
+   10,
+   10,
+   1,
+   2,
+   2,
+   3,
+   0,
+   0
+  ],
+  "shootFrames": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   11,
+   12,
+   18,
+   19,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   3
+  ],
+  "faintFrames": [
+   10
+  ],
+  "strikeFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   0
+  ],
+  "lungePx": 7,
+  "pixelHeight": 32
+ },
+ "0973_flamigo": {
+  "idleRange": [
+   0,
+   3
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   3,
+   0,
+   1,
+   2,
+   3
+  ],
+  "attackFrames": [
+   0,
+   10,
+   10,
+   1,
+   2,
+   2,
+   3,
+   0,
+   0
+  ],
+  "shootFrames": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   11,
+   12,
+   18,
+   19,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   3
+  ],
+  "faintFrames": [
+   10
+  ],
+  "strikeFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   0
+  ],
+  "lungePx": 7,
+  "_note": "frames 13-17 are a kick burst at the foot: used for Strike",
+  "pixelHeight": 36,
+  "innerLines": 0,
+  "lineWeight": 0.3
+ },
+ "0986_brute-bonnet": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 5,
+  "pixelHeight": 32
+ },
+ "0990_iron-treads": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 5,
+  "pixelHeight": 30
+ },
+ "0993_iron-jugulis": {
+  "idleRange": [
+   0,
+   3
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   3,
+   0,
+   1,
+   2,
+   3
+  ],
+  "attackFrames": [
+   0,
+   10,
+   10,
+   1,
+   2,
+   2,
+   3,
+   0,
+   0
+  ],
+  "shootFrames": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   11,
+   12,
+   18,
+   19,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   3
+  ],
+  "faintFrames": [
+   10
+  ],
+  "strikeFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 32,
+  "speckSize": 4,
+  "darkLift": 0.42,
+  "innerLines": 0.6,
+  "lineWeight": 0.4
+ },
+ "0999_gimmighoul": {
+  "idleRange": [
+   0,
+   7
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "lungePx": 4,
+  "attackFrames": [
+   0,
+   46,
+   46,
+   70,
+   71,
+   71,
+   77,
+   0,
+   0
+  ],
+  "strikeFrames": [
+   45,
+   46,
+   69,
+   70,
+   71,
+   71,
+   77,
+   78,
+   0,
+   0
+  ],
+  "shootFrames": [
+   70,
+   72,
+   73,
+   74,
+   75,
+   76,
+   0
+  ],
+  "spAttackFrames": [
+   69,
+   71,
+   72,
+   73,
+   74,
+   75,
+   77,
+   0,
+   0
+  ],
+  "chargeFrames": [
+   46,
+   48,
+   46,
+   48,
+   46,
+   48,
+   46,
+   48,
+   69,
+   0
+  ],
+  "hurtFrames": [
+   44,
+   45,
+   43
+  ],
+  "faintFrames": [
+   53
+  ],
+  "pixelHeight": 24,
+  "paletteFrom": "1000_gholdengo"
+ },
+ "1001_wo-chien": {
+  "idleRange": [
+   0,
+   19
+  ],
+  "walkFrames": [
+   0,
+   3,
+   5,
+   8,
+   10,
+   13,
+   15,
+   18
+  ],
+  "lungePx": 4,
+  "attackFrames": [
+   0,
+   82,
+   83,
+   88,
+   91,
+   92,
+   96,
+   100,
+   0
+  ],
+  "strikeFrames": [
+   82,
+   83,
+   89,
+   91,
+   92,
+   93,
+   96,
+   99,
+   101,
+   0
+  ],
+  "shootFrames": [
+   83,
+   88,
+   91,
+   92,
+   95,
+   99,
+   0
+  ],
+  "spAttackFrames": [
+   82,
+   85,
+   88,
+   91,
+   92,
+   93,
+   96,
+   100,
+   0
+  ],
+  "chargeFrames": [
+   81,
+   82,
+   81,
+   82,
+   81,
+   82,
+   81,
+   82,
+   96,
+   0
+  ],
+  "hurtFrames": [
+   82,
+   82,
+   15
+  ],
+  "faintFrames": [
+   82
+  ],
+  "pixelHeight": 32,
+  "colors": 8,
+  "speckSize": 6,
+  "speckContrast": 0.22,
+  "lineWeight": 0.4,
+  "innerLines": 0.6
+ },
+ "1002_chien-pao": {
+  "idleRange": [
+   0,
+   19
+  ],
+  "walkFrames": [
+   0,
+   2,
+   5,
+   7,
+   10,
+   12,
+   15,
+   17
+  ],
+  "attackFrames": [
+   0,
+   64,
+   65,
+   67,
+   70,
+   71,
+   69,
+   75,
+   0
+  ],
+  "strikeFrames": [
+   64,
+   65,
+   66,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75,
+   0
+  ],
+  "shootFrames": [
+   65,
+   68,
+   72,
+   73,
+   74,
+   75,
+   0
+  ],
+  "spAttackFrames": [
+   64,
+   67,
+   69,
+   70,
+   71,
+   72,
+   73,
+   75,
+   0
+  ],
+  "chargeFrames": [
+   64,
+   65,
+   64,
+   65,
+   64,
+   65,
+   64,
+   65,
+   66,
+   0
+  ],
+  "hurtFrames": [
+   64,
+   64,
+   75
+  ],
+  "faintFrames": [
+   64
+  ],
+  "pixelHeight": 36,
+  "colors": 8,
+  "speckSize": 5,
+  "speckContrast": 0.22,
+  "lineWeight": 0.3,
+  "innerLines": 0.5
+ },
+ "1014_okidogi": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "spAttackFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   1,
+   2,
+   2,
+   2,
+   17,
+   18,
+   0,
+   0
+  ],
+  "lungePx": 6,
+  "pixelHeight": 33,
+  "darkLift": 0.38,
+  "speckSize": 5,
+  "colors": 10,
+  "speckContrast": 0.2,
+  "innerLines": 0.5,
+  "lineWeight": 0.4
+ },
+ "1020_gouging-fire": {
+  "idleRange": [
+   0,
+   27
+  ],
+  "walkFrames": [
+   0,
+   3,
+   7,
+   10,
+   14,
+   17,
+   21,
+   24
+  ],
+  "lungePx": 7,
+  "attackFrames": [
+   0,
+   59,
+   60,
+   72,
+   73,
+   74,
+   73,
+   0,
+   0
+  ],
+  "strikeFrames": [
+   59,
+   60,
+   63,
+   64,
+   65,
+   66,
+   68,
+   70,
+   72,
+   0
+  ],
+  "shootFrames": [
+   61,
+   63,
+   65,
+   66,
+   68,
+   70,
+   0
+  ],
+  "spAttackFrames": [
+   60,
+   62,
+   64,
+   65,
+   66,
+   67,
+   69,
+   71,
+   0
+  ],
+  "chargeFrames": [
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   70,
+   0
+  ],
+  "hurtFrames": [
+   60,
+   60,
+   58
+  ],
+  "faintFrames": [
+   61
+  ],
+  "pixelHeight": 44
+ },
+ "1021_raging-bolt": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 7,
+  "pixelHeight": 46
+ },
+ "1022_iron-boulder": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   0
+  ],
+  "chargeFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   7,
+   6,
+   9,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "lungePx": 7,
+  "_note": "frames 3-8 are a crest glow, not a beam: used for Charge / SpAttack; the slash 12-16 is Strike and Shoot",
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "pixelHeight": 33
+ },
+ "1023_iron-crown": {
+  "idleRange": [
+   0,
+   2
+  ],
+  "walkFrames": [
+   0,
+   1,
+   2,
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "attackFrames": [
+   0,
+   18,
+   18,
+   1,
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   11
+  ],
+  "faintFrames": [
+   17
+  ],
+  "strikeFrames": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "lungePx": 7,
+  "pixelHeight": 34
+ }
+}

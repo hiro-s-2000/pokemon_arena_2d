@@ -1,0 +1,53 @@
+{
+ "id": "0616_shelmet",
+ "exported": "2026-10-21T07:51:43.689Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 32,
+   "H": 26,
+   "x0": -3,
+   "y0": -3,
+   "w": 38,
+   "h": 33,
+   "frames": 134
+  },
+  "back": {
+   "W": 32,
+   "H": 26,
+   "x0": -3,
+   "y0": -3,
+   "w": 38,
+   "h": 33,
+   "frames": 136
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (134 vs 134 frames)",
+  "backR": "worst frame mismatch 0.00% (136 vs 136 frames)"
+ },
+ "pixel": {
+  "height": 22,
+  "how": "override",
+  "scale": 0.5714,
+  "srcBodyH": 35,
+  "colors": 10,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.42,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0617_accelgor",
+  "palette": 10,
+  "outlineShades": 1
+ }
+}

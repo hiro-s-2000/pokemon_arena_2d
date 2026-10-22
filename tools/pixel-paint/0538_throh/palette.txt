@@ -1,0 +1,14 @@
+// pixel-paint palette for 0538_throh. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 33332b
+2 631818
+3 383838
+4 ad3131
+5 de5a5a
+6 948c84
+7 c6bdad
+8 efe7d6
+9 f7f7f7

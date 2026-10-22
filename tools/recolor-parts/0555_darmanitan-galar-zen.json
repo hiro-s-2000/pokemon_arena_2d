@@ -1,0 +1,117 @@
+{
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "y": "ffe86a",
+  "o": "ff9a2e",
+  "r": "e8401c",
+  "w": "f0f0ea"
+ },
+ "parts": [
+  {
+   "name": "torch",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -6,
+      -30
+     ],
+     "px": [
+      "kkk.......",
+      "kyyok.....",
+      "kyyyook...",
+      ".kyyorrk..",
+      ".koorrrk..",
+      "..korrrk..",
+      "...kkrkwk.",
+      "......kwwk",
+      ".......kwk",
+      "........k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -30
+     ],
+     "px": [
+      "kkk.......",
+      "kyyok.....",
+      "kyyyook...",
+      ".kyyorrk..",
+      ".koorrrk..",
+      "..korrrk..",
+      "...kkrkwk.",
+      "......kwwk",
+      ".......kwk",
+      "........k."
+     ]
+    },
+    "E": {
+     "at": [
+      -16,
+      -29
+     ],
+     "px": [
+      "kkk.......",
+      "kyyok.....",
+      "kyyyook...",
+      ".kyyorrk..",
+      ".koorrrk..",
+      "..korrrk..",
+      "...kkrkwk.",
+      "......kwwk",
+      ".......kwk",
+      "........k."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -27
+     ],
+     "px": [
+      "kkk.......",
+      "kyyok.....",
+      "kyyyook...",
+      ".kyyorrk..",
+      ".koorrrk..",
+      "..korrrk..",
+      "...kkrkwk.",
+      "......kwwk",
+      ".......kwk",
+      "........k."
+     ]
+    },
+    "N": {
+     "at": [
+      -6,
+      -24
+     ],
+     "px": [
+      "kkk.......",
+      "kyyok.....",
+      "kyyyook...",
+      ".kyyorrk..",
+      ".koorrrk..",
+      "..korrrk..",
+      "...kkrkwk.",
+      "......kwwk",
+      ".......kwk",
+      "........k."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk",
+    "Attack",
+    "Charge",
+    "Strike",
+    "Hurt"
+   ]
+  }
+ ]
+}

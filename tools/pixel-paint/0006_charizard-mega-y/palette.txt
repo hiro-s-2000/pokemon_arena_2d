@@ -1,0 +1,26 @@
+// 0006_charizard-mega-y (hand-painted). "." transparent, "#" outline.
+. transparent
+# 000000
+// body orange: highlight / main / shade / deep
+h f8a850
+O ee8329
+o cd5241
+d 833118
+// belly cream: light / shade
+c eede7b
+k eeb45a
+// wing membrane teal: light / dark
+t 207394
+T 084152
+// flame: red / amber / yellow / core
+F e64110
+a f7a510
+y ffd610
+Y fff0a0
+// eye blue iris, white glint ; claws
+e 2a8cc8
+W f8f8f8
+g cdcdcd
+// wind streak
+b 7cc8f0
+B 2c7cb0

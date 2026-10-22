@@ -1,0 +1,15 @@
+// pixel-paint palette for 0892_urshifu-rapid-strike-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 2f2f2f
+1 23296c
+2 2b337d
+3 52595a
+4 303ff1
+5 a06125
+6 919191
+7 86a0fd
+8 bdbec5
+9 d7ce33
+a ffffff

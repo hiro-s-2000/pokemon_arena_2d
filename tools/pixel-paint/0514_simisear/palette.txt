@@ -1,0 +1,14 @@
+// pixel-paint palette for 0514_simisear. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 7a3131
+2 805818
+3 bd4139
+4 a57b39
+5 e65241
+6 9a9a9a
+7 f89018
+8 f8e088
+9 f8f8f8

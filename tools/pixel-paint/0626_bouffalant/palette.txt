@@ -1,0 +1,14 @@
+// pixel-paint palette for 0626_bouffalant. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 393129
+2 493f2f
+3 6b4a29
+4 6b6b73
+5 946b31
+6 9e8555
+7 b0a58d
+8 f9d287
+9 fff7ce

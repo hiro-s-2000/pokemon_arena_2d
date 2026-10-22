@@ -1,0 +1,1288 @@
+{
+  "id": "0529_drilbur",
+  "pokemonId": 529,
+  "dex": 529,
+  "slug": "drilbur",
+  "name": "Drilbur",
+  "jpName": "モグリュー",
+  "genus": "Mole Pokémon",
+  "jpGenus": "もぐらポケモン",
+  "generation": 5,
+  "category": "gen5",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen5/0529_drilbur/normal/front.gif",
+  "backSprite": "../pokeSprite/gen5/0529_drilbur/normal/back.gif",
+  "abilities": [
+    {
+      "id": 146,
+      "slug": "sand-rush",
+      "name": "Sand Rush",
+      "jpName": "すなかき",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Doubles Speed during a sandstorm. Protects against sandstorm damage.",
+      "jpDescription": "天気が すなあらし のとき 素早さが 上がる。"
+    },
+    {
+      "id": 159,
+      "slug": "sand-force",
+      "name": "Sand Force",
+      "jpName": "すなのちから",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm. Protects against sandstorm damage.",
+      "jpDescription": "天気が すなあらしの とき いわタイプと じめんタイプと はがねタイプの 威力が 上がる。"
+    },
+    {
+      "id": 104,
+      "slug": "mold-breaker",
+      "name": "Mold Breaker",
+      "jpName": "かたやぶり",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Bypasses targets' abilities if they could hinder or prevent a move.",
+      "jpDescription": "相手の 特性に ジャマされる ことなく 相手に 技を 出すことが できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 3,
+    "meters": 0.3,
+    "feetInches": "1'00\"",
+    "display": "0.3 m (1'00\")"
+  },
+  "weight": {
+    "hectograms": 85,
+    "kilograms": 8.5,
+    "pounds": 18.7,
+    "display": "8.5 kg (18.7 lbs)"
+  },
+  "shape": {
+    "id": 6,
+    "slug": "upright",
+    "name": "Upright",
+    "awesomeName": "Sciurine",
+    "jpName": "二足歩行（尻尾あり）"
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 45,
+    "speed": 68,
+    "total": 328,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 120,
+          "max": 167
+        },
+        "lv100": {
+          "min": 230,
+          "max": 324
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 81,
+          "max": 150
+        },
+        "lv100": {
+          "min": 157,
+          "max": 295
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 31,
+          "max": 90
+        },
+        "lv100": {
+          "min": 58,
+          "max": 174
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 65,
+          "max": 132
+        },
+        "lv100": {
+          "min": 126,
+          "max": 258
+        }
+      }
+    }
+  },
+  "baseStatTotal": 328,
+  "typeMatchups": {
+    "types": [
+      "ground"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 5,
+        "slug": "ground",
+        "name": "Ground",
+        "jpName": "じめん"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 2.0,
+      "electric": 0.0,
+      "grass": 2.0,
+      "ice": 2.0,
+      "fighting": 1.0,
+      "poison": 0.5,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 0.5,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "water",
+      "grass",
+      "ice"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "fighting",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "poison",
+      "rock"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "electric"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "electric",
+      "poison",
+      "rock",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Attack",
+    "evYieldTextJa": "こうげき+1",
+    "catchRate": 120,
+    "pokeBallFullHpPercent": 24.9,
+    "catchRateDisplay": "120 (24.9% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 66,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 270,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 530,
+        "dex": 530,
+        "slug": "excadrill",
+        "name": "Excadrill",
+        "jpName": "ドリュウズ",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 31,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 31",
+            "conditionTextJa": "Lv.31"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 529,
+        "dex": 529,
+        "slug": "drilbur",
+        "name": "Drilbur",
+        "jpName": "モグリュー",
+        "types": [
+          "ground"
+        ],
+        "sprite": "../pokeSprite/gen5/0529_drilbur/normal/front.gif",
+        "backSprite": "../pokeSprite/gen5/0529_drilbur/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 530,
+            "dex": 530,
+            "slug": "excadrill",
+            "name": "Excadrill",
+            "jpName": "ドリュウズ",
+            "types": [
+              "ground",
+              "steel"
+            ],
+            "sprite": "../pokeSprite/gen5/0530_excadrill/normal/front.gif",
+            "backSprite": "../pokeSprite/gen5/0530_excadrill/normal/back.gif",
+            "condition": "Level 31",
+            "conditionJa": "Lv.31",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 31,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 31",
+                "conditionTextJa": "Lv.31"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Drilbur --(Level 31)--> Excadrill",
+    "summaryTextJa": "モグリュー --(Lv.31)--> ドリュウズ"
+  },
+  "moves": {
+    "totalUniqueMoves": 48,
+    "levelUp": [
+      {
+        "id": 189,
+        "slug": "mud-slap",
+        "name": "Mud-Slap",
+        "jpName": "どろかけ",
+        "type": "ground",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+        "jpDescription": "相手の 顔などに 泥を 投げつけて 攻撃する。 命中率を さげる。",
+        "level": 1
+      },
+      {
+        "id": 229,
+        "slug": "rapid-spin",
+        "name": "Rapid Spin",
+        "jpName": "こうそくスピン",
+        "type": "normal",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat.",
+        "jpDescription": "回転して 相手を 攻撃する。 しめつける まきつく やどりぎのタネ など 吹きとばす。自分の 素早さも あがる。",
+        "level": 1
+      },
+      {
+        "id": 10,
+        "slug": "scratch",
+        "name": "Scratch",
+        "jpName": "ひっかく",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "Hard, pointed, sharp claws rake the target to inflict damage.",
+        "jpDescription": "硬く とがった 鋭い ツメで 相手を ひっかいて 攻撃する。",
+        "level": 4
+      },
+      {
+        "id": 468,
+        "slug": "hone-claws",
+        "name": "Hone Claws",
+        "jpName": "つめとぎ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user sharpens its claws to boost its Attack stat and accuracy.",
+        "jpDescription": "ツメを 磨いて 鋭く する。 自分の 攻撃と 命中率を あげる。",
+        "level": 8
+      },
+      {
+        "id": 154,
+        "slug": "fury-swipes",
+        "name": "Fury Swipes",
+        "jpName": "みだれひっかき",
+        "type": "normal",
+        "category": "physical",
+        "power": 18,
+        "accuracy": 80,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by raking the target with claws, scythes, or the like. This move hits two to five times in a row.",
+        "jpDescription": "ツメや カマなどで 相手を ひっかいて 攻撃する。 ２ー５回の 間 連続で だす。",
+        "level": 12
+      },
+      {
+        "id": 232,
+        "slug": "metal-claw",
+        "name": "Metal Claw",
+        "jpName": "メタルクロー",
+        "type": "steel",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 95,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is raked with steel claws. This may also boost the user's Attack stat.",
+        "jpDescription": "鋼鉄の ツメで 相手を 切り裂いて 攻撃する。 自分の 攻撃が あがることが ある。",
+        "level": 16
+      },
+      {
+        "id": 201,
+        "slug": "sandstorm",
+        "name": "Sandstorm",
+        "jpName": "すなあらし",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types.",
+        "jpDescription": "５ターンの 間 砂あらしで いわ じめん はがねタイプ 以外に ダメージ。 いわタイプの 特防が あがる。",
+        "level": 20
+      },
+      {
+        "id": 306,
+        "slug": "crush-claw",
+        "name": "Crush Claw",
+        "jpName": "ブレイククロー",
+        "type": "normal",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat.",
+        "jpDescription": "硬く 鋭い ツメで 切り裂いて 攻撃する。 相手の 防御を さげることが ある。",
+        "level": 24
+      },
+      {
+        "id": 157,
+        "slug": "rock-slide",
+        "name": "Rock Slide",
+        "jpName": "いわなだれ",
+        "type": "rock",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+        "jpDescription": "大きな 岩を 激しく ぶつけて 攻撃する。 相手を ひるませることが ある。",
+        "level": 28
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。",
+        "level": 32
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。",
+        "level": 36
+      },
+      {
+        "id": 529,
+        "slug": "drill-run",
+        "name": "Drill Run",
+        "jpName": "ドリルライナー",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "ドリルのように 体を 回転しながら 相手に 体当たりする。 急所に 当たりやすい。",
+        "level": 40
+      },
+      {
+        "id": 89,
+        "slug": "earthquake",
+        "name": "Earthquake",
+        "jpName": "じしん",
+        "type": "ground",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user sets off an earthquake that strikes every Pokémon around it.",
+        "jpDescription": "地震の 衝撃で 自分の 周りに いるものを 攻撃する。",
+        "level": 44
+      },
+      {
+        "id": 90,
+        "slug": "fissure",
+        "name": "Fissure",
+        "jpName": "じわれ",
+        "type": "ground",
+        "category": "physical",
+        "power": null,
+        "accuracy": 30,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+        "jpDescription": "地割れの 裂け目に 相手を 落として 攻撃する。 当たれば 一撃で ひんしに する。",
+        "level": 48
+      }
+    ],
+    "machine": [
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 280,
+        "slug": "brick-break",
+        "name": "Brick Break",
+        "jpName": "かわらわり",
+        "type": "fighting",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect.",
+        "jpDescription": "手刀を 勢いよく 振りおろして 相手を 攻撃する。 ひかりのかべや リフレクター なども 破壊できる。"
+      },
+      {
+        "id": 523,
+        "slug": "bulldoze",
+        "name": "Bulldoze",
+        "jpName": "じならし",
+        "type": "ground",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+        "jpDescription": "地面を 踏みならして 自分の 周りに いるものを 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 174,
+        "slug": "curse",
+        "name": "Curse",
+        "jpName": "のろい",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that has different effects depending on whether the user is a Ghost type or not.",
+        "jpDescription": "使う ポケモンが ゴーストタイプと それ以外 とでは 効果が 変わる。"
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 529,
+        "slug": "drill-run",
+        "name": "Drill Run",
+        "jpName": "ドリルライナー",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "ドリルのように 体を 回転しながら 相手に 体当たりする。 急所に 当たりやすい。"
+      },
+      {
+        "id": 414,
+        "slug": "earth-power",
+        "name": "Earth Power",
+        "jpName": "だいちのちから",
+        "type": "ground",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "相手の 足下へ 大地の力を 放出する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 89,
+        "slug": "earthquake",
+        "name": "Earthquake",
+        "jpName": "じしん",
+        "type": "ground",
+        "category": "physical",
+        "power": 100,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user sets off an earthquake that strikes every Pokémon around it.",
+        "jpDescription": "地震の 衝撃で 自分の 周りに いるものを 攻撃する。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 374,
+        "slug": "fling",
+        "name": "Fling",
+        "jpName": "なげつける",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+        "jpDescription": "持たせた 道具を 素早く 投げつけて 攻撃する。 道具で 威力と 効果が 変わる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 667,
+        "slug": "high-horsepower",
+        "name": "High Horsepower",
+        "jpName": "１０まんばりき",
+        "type": "ground",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user fiercely attacks the target using its entire body.",
+        "jpDescription": "全身を 使って 相手に 猛アタックする。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      },
+      {
+        "id": 232,
+        "slug": "metal-claw",
+        "name": "Metal Claw",
+        "jpName": "メタルクロー",
+        "type": "steel",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 95,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is raked with steel claws. This may also boost the user's Attack stat.",
+        "jpDescription": "鋼鉄の ツメで 相手を 切り裂いて 攻撃する。 自分の 攻撃が あがることが ある。"
+      },
+      {
+        "id": 319,
+        "slug": "metal-sound",
+        "name": "Metal Sound",
+        "jpName": "きんぞくおん",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "金属を こすって でるような いやな 音を 聞かせる。 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 341,
+        "slug": "mud-shot",
+        "name": "Mud Shot",
+        "jpName": "マッドショット",
+        "type": "ground",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+        "jpDescription": "泥の 塊を 相手に 投げつけて 攻撃する。 同時に 相手の 素早さを さげる。"
+      },
+      {
+        "id": 189,
+        "slug": "mud-slap",
+        "name": "Mud-Slap",
+        "jpName": "どろかけ",
+        "type": "ground",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+        "jpDescription": "相手の 顔などに 泥を 投げつけて 攻撃する。 命中率を さげる。"
+      },
+      {
+        "id": 398,
+        "slug": "poison-jab",
+        "name": "Poison Jab",
+        "jpName": "どくづき",
+        "type": "poison",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target.",
+        "jpDescription": "毒に そまった 触手や 腕で 相手を 突き刺す。 毒状態に することが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 157,
+        "slug": "rock-slide",
+        "name": "Rock Slide",
+        "jpName": "いわなだれ",
+        "type": "rock",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+        "jpDescription": "大きな 岩を 激しく ぶつけて 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 317,
+        "slug": "rock-tomb",
+        "name": "Rock Tomb",
+        "jpName": "がんせきふうじ",
+        "type": "rock",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hurls boulders at the target to inflict damage. This also lowers the target's Speed stat by cutting off its movement.",
+        "jpDescription": "岩石を 投げつけて 攻撃する。 相手の 動きを 封じることで 素早さを さげる。"
+      },
+      {
+        "id": 328,
+        "slug": "sand-tomb",
+        "name": "Sand Tomb",
+        "jpName": "すなじごく",
+        "type": "ground",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a harshly raging sandstorm that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 吹きあれる 砂あらしの 中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。"
+      },
+      {
+        "id": 201,
+        "slug": "sandstorm",
+        "name": "Sandstorm",
+        "jpName": "すなあらし",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types.",
+        "jpDescription": "５ターンの 間 砂あらしで いわ じめん はがねタイプ 以外に ダメージ。 いわタイプの 特防が あがる。"
+      },
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 421,
+        "slug": "shadow-claw",
+        "name": "Shadow Claw",
+        "jpName": "シャドークロー",
+        "type": "ghost",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "影から つくった 鋭い ツメで 相手を 切り裂く。 急所に 当たりやすい。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 446,
+        "slug": "stealth-rock",
+        "name": "Stealth Rock",
+        "jpName": "ステルスロック",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle.",
+        "jpDescription": "相手の 周りに 無数の 岩を 浮かべて 交代で でてきた 相手の ポケモンに ダメージを 与える。"
+      },
+      {
+        "id": 707,
+        "slug": "stomping-tantrum",
+        "name": "Stomping Tantrum",
+        "jpName": "じだんだ",
+        "type": "ground",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "悔しさを バネにして 攻撃する。 前の ターンに 技を 外していると 威力が 倍に なる。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 14,
+        "slug": "swords-dance",
+        "name": "Swords Dance",
+        "jpName": "つるぎのまい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat.",
+        "jpDescription": "戦いの舞を 激しく おどって 気合を 高める。 自分の 攻撃を ぐーんと あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 404,
+        "slug": "x-scissor",
+        "name": "X-Scissor",
+        "jpName": "シザークロス",
+        "type": "bug",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes at the target by crossing its scythes, claws, or the like as if they were a pair of scissors.",
+        "jpDescription": "カマや ツメを ハサミのように 交差させながら 相手を 切り裂く。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 306,
+        "slug": "crush-claw",
+        "name": "Crush Claw",
+        "jpName": "ブレイククロー",
+        "type": "normal",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slashes the target with hard and sharp claws. This may also lower the target's Defense stat.",
+        "jpDescription": "硬く 鋭い ツメで 切り裂いて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 414,
+        "slug": "earth-power",
+        "name": "Earth Power",
+        "jpName": "だいちのちから",
+        "type": "ground",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "相手の 足下へ 大地の力を 放出する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      },
+      {
+        "id": 319,
+        "slug": "metal-sound",
+        "name": "Metal Sound",
+        "jpName": "きんぞくおん",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "金属を こすって でるような いやな 音を 聞かせる。 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 229,
+        "slug": "rapid-spin",
+        "name": "Rapid Spin",
+        "jpName": "こうそくスピン",
+        "type": "normal",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also boosts the user's Speed stat.",
+        "jpDescription": "回転して 相手を 攻撃する。 しめつける まきつく やどりぎのタネ など 吹きとばす。自分の 素早さも あがる。"
+      },
+      {
+        "id": 431,
+        "slug": "rock-climb",
+        "name": "Rock Climb",
+        "jpName": "ロッククライム",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 130,
+        "slug": "skull-bash",
+        "name": "Skull Bash",
+        "jpName": "ロケットずつき",
+        "type": "normal",
+        "category": "physical",
+        "power": 130,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.",
+        "jpDescription": "１ターン目に 頭を ひっこめて 防御を あげる。 ２ターン目に 相手を 攻撃する。"
+      },
+      {
+        "id": 163,
+        "slug": "slash",
+        "name": "Slash",
+        "jpName": "きりさく",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is attacked with a slash of claws, scythes, or the like. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "ツメや カマなどで 相手を 切り裂いて 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 66,
+        "slug": "submission",
+        "name": "Submission",
+        "jpName": "じごくぐるま",
+        "type": "fighting",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 80,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user grabs the target and recklessly dives for the ground. This also damages the user a little.",
+        "jpDescription": "地面に 自分ごと 相手を 投げつけて 攻撃する。 自分も 少し ダメージを 受ける。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 529,
+        "slug": "drill-run",
+        "name": "Drill Run",
+        "jpName": "ドリルライナー",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 95,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "ドリルのように 体を 回転しながら 相手に 体当たりする。 急所に 当たりやすい。"
+      },
+      {
+        "id": 414,
+        "slug": "earth-power",
+        "name": "Earth Power",
+        "jpName": "だいちのちから",
+        "type": "ground",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "相手の 足下へ 大地の力を 放出する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      },
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 446,
+        "slug": "stealth-rock",
+        "name": "Stealth Rock",
+        "jpName": "ステルスロック",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap damages opposing Pokémon that switch into battle.",
+        "jpDescription": "相手の 周りに 無数の 岩を 浮かべて 交代で でてきた 相手の ポケモンに ダメージを 与える。"
+      }
+    ]
+  }
+}

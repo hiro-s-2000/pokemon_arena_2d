@@ -1,0 +1,15 @@
+// pixel-paint palette for 0052_meowth-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 1e293b
+1 773f00
+2 7f5745
+3 a75f1f
+4 b78727
+5 df771f
+6 c89f8c
+7 ff9747
+8 f9d400
+9 fff79f
+a ffffff

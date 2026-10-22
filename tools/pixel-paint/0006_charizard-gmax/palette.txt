@@ -1,0 +1,25 @@
+// 0006_charizard-gmax (hand-painted). "." transparent, "#" outline.
+. transparent
+# 000000
+// body orange: highlight / main / shade / deep
+h f8ac5c
+O ef8429
+o ce5242
+d 843119
+// belly cream: light / shade
+W fcfcfc
+w d5cfae
+// flames: core / yellow / amber / red / deep
+Y ffe877
+y ffd610
+a f7a510
+F ff4200
+f c42c00
+// eye: red iris / dark pupil, white glint
+r ff2a1a
+p 5a0a0a
+// claws grey
+g b4b4c0
+// wind streak blue
+b 7cc8f0
+B 2c7cb0

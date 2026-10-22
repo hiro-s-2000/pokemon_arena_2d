@@ -1,0 +1,16 @@
+// pixel-paint palette for 0998_baxcalibur-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 15364d
+2 24475f
+3 5e4fac
+4 3571a6
+5 be3a3a
+6 5b869a
+7 9d99ff
+8 e879f9
+9 aebfc6
+a ffe000
+b c9efef

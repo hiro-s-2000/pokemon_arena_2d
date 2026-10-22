@@ -1,0 +1,53 @@
+{
+ "id": "0942_maschiff",
+ "exported": "2026-10-21T07:51:54.249Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 44,
+   "H": 23,
+   "x0": -3,
+   "y0": -3,
+   "w": 50,
+   "h": 30,
+   "frames": 19
+  },
+  "back": {
+   "W": 40,
+   "H": 23,
+   "x0": -3,
+   "y0": -3,
+   "w": 46,
+   "h": 30,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 22,
+  "how": "override",
+  "scale": 0.5882,
+  "srcBodyH": 34,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

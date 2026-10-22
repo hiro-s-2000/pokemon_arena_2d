@@ -1,0 +1,53 @@
+{
+ "id": "0756_shiinotic",
+ "exported": "2026-10-21T07:51:46.836Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 42,
+   "H": 31,
+   "x0": -3,
+   "y0": -3,
+   "w": 48,
+   "h": 38,
+   "frames": 76
+  },
+  "back": {
+   "W": 42,
+   "H": 32,
+   "x0": -3,
+   "y0": -3,
+   "w": 48,
+   "h": 39,
+   "frames": 76
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (76 vs 76 frames)",
+  "backR": "worst frame mismatch 0.00% (76 vs 76 frames)"
+ },
+ "pixel": {
+  "height": 30,
+  "how": "override",
+  "scale": 0.4,
+  "srcBodyH": 70,
+  "colors": 12,
+  "alphaThreshold": 0.35,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

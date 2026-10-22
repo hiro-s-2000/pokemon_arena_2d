@@ -1,0 +1,25 @@
+// pixel-paint palette for 0689_barbaracle-mega (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+// charcoal hands / helmet
+K 2c2d35
+k 4b4e5a
+h 828797
+// rock shell (lit upper-left)
+W f6f7fa
+G d0d3dc
+g a4a8b8
+s 7c8194
+S 585c6e
+// arm stripes
+R ea6f68
+r b23a33
+O f4a65c
+o c97a36
+// eyes
+E f03a2c
+e 961818
+w fff6d6
+// effects (slash / charge)
+Y f8dc58
+y d09a20

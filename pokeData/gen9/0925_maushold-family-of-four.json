@@ -1,0 +1,1170 @@
+{
+  "id": "0925_maushold-family-of-four",
+  "pokemonId": 925,
+  "dex": 925,
+  "slug": "maushold-family-of-four",
+  "name": "Maushold",
+  "jpName": "イッカネズミ",
+  "genus": "Family Pokémon",
+  "jpGenus": "ファミリーポケモン",
+  "generation": 9,
+  "category": "gen9",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen9/0925_maushold-family-of-four/normal/front.gif",
+  "backSprite": "../pokeSprite/gen9/0925_maushold-family-of-four/normal/back.gif",
+  "abilities": [
+    {
+      "id": 132,
+      "slug": "friend-guard",
+      "name": "Friend Guard",
+      "jpName": "フレンドガード",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+      "jpDescription": "味方の ダメージを 減らすことが できる。"
+    },
+    {
+      "id": 167,
+      "slug": "cheek-pouch",
+      "name": "Cheek Pouch",
+      "jpName": "ほおぶくろ",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
+      "jpDescription": "どんな きのみでも 食べると ＨＰも 回復する。"
+    },
+    {
+      "id": 101,
+      "slug": "technician",
+      "name": "Technician",
+      "jpName": "テクニシャン",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Strengthens moves of 60 base power or less to 1.5× their power.",
+      "jpDescription": "威力が 低い 技の 威力を 高くして 攻撃できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 3,
+    "meters": 0.3,
+    "feetInches": "1'00\"",
+    "display": "0.3 m (1'00\")"
+  },
+  "weight": {
+    "hectograms": 28,
+    "kilograms": 2.8,
+    "pounds": 6.2,
+    "display": "2.8 kg (6.2 lbs)"
+  },
+  "shape": {
+    "id": 11,
+    "slug": "heads",
+    "name": "Heads",
+    "awesomeName": "Polycephalic",
+    "jpName": "複数の体"
+  },
+  "baseStats": {
+    "hp": 74,
+    "attack": 75,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 75,
+    "speed": 111,
+    "total": 470,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 134,
+          "max": 181
+        },
+        "lv100": {
+          "min": 258,
+          "max": 352
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 72,
+          "max": 139
+        },
+        "lv100": {
+          "min": 139,
+          "max": 273
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 72,
+          "max": 139
+        },
+        "lv100": {
+          "min": 139,
+          "max": 273
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 104,
+          "max": 179
+        },
+        "lv100": {
+          "min": 204,
+          "max": 353
+        }
+      }
+    }
+  },
+  "baseStatTotal": 470,
+  "typeMatchups": {
+    "types": [
+      "normal"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 1,
+        "slug": "normal",
+        "name": "Normal",
+        "jpName": "ノーマル"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 0.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fighting"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "psychic",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ghost"
+    ],
+    "stabSuperEffectiveAgainst": []
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Speed",
+    "evYieldTextJa": "すばやさ+2",
+    "catchRate": 75,
+    "pokeBallFullHpPercent": 17.5,
+    "catchRateDisplay": "75 (17.5% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 165,
+    "growthRate": {
+      "id": 3,
+      "slug": "fast",
+      "name": "Fast",
+      "formula": "\\frac{4x^3}{5}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      },
+      {
+        "id": 6,
+        "slug": "fairy",
+        "name": "Fairy",
+        "jpName": "ようせい"
+      }
+    ],
+    "genderRatio": {
+      "genderless": true,
+      "malePercent": 0.0,
+      "femalePercent": 0.0,
+      "display": "Genderless",
+      "displayJa": "性別不明"
+    },
+    "eggCycles": {
+      "cycles": 10,
+      "minSteps": 2441,
+      "maxSteps": 2827,
+      "display": "10 (2,441–2,827 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 485,
+    "evolvesFrom": {
+      "speciesId": 924,
+      "dex": 924,
+      "slug": "tandemaus",
+      "name": "Tandemaus",
+      "jpName": "ワッカネズミ",
+      "conditions": [
+        {
+          "trigger": "in-battle-level-up",
+          "triggerName": "Level up in battle",
+          "minLevel": 25,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level up in battle",
+          "conditionTextJa": "Level up in battle"
+        },
+        {
+          "trigger": "in-battle-level-up",
+          "triggerName": "Level up in battle",
+          "minLevel": 25,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level up in battle",
+          "conditionTextJa": "Level up in battle"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 924,
+        "dex": 924,
+        "slug": "tandemaus",
+        "name": "Tandemaus",
+        "jpName": "ワッカネズミ",
+        "types": [
+          "normal"
+        ],
+        "sprite": "../pokeSprite/gen9/0924_tandemaus/normal/front.gif",
+        "backSprite": "../pokeSprite/gen9/0924_tandemaus/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 925,
+            "dex": 925,
+            "slug": "maushold",
+            "name": "Maushold",
+            "jpName": "イッカネズミ",
+            "types": [
+              "normal"
+            ],
+            "sprite": "../pokeSprite/gen9/0925_maushold-family-of-four/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/0925_maushold-family-of-four/normal/back.gif",
+            "condition": "Level up in battle",
+            "conditionJa": "Level up in battle",
+            "details": [
+              {
+                "trigger": "in-battle-level-up",
+                "triggerName": "Level up in battle",
+                "minLevel": 25,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up in battle",
+                "conditionTextJa": "Level up in battle"
+              },
+              {
+                "trigger": "in-battle-level-up",
+                "triggerName": "Level up in battle",
+                "minLevel": 25,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up in battle",
+                "conditionTextJa": "Level up in battle"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Tandemaus --(Level up in battle)--> Maushold",
+    "summaryTextJa": "ワッカネズミ --(Level up in battle)--> イッカネズミ"
+  },
+  "moves": {
+    "totalUniqueMoves": 49,
+    "levelUp": [
+      {
+        "id": 1,
+        "slug": "pound",
+        "name": "Pound",
+        "jpName": "はたく",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is physically pounded with a long tail, a foreleg, or the like.",
+        "jpDescription": "長い しっぽや 手などを 使って 相手を はたいて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 266,
+        "slug": "follow-me",
+        "name": "Follow Me",
+        "jpName": "このゆびとまれ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 2,
+        "description": "The user draws attention to itself, making all opposing Pokémon take aim only at the user.",
+        "jpDescription": "自分に 注目させて 相手からの 攻撃を すべて 自分に むけさせる。",
+        "level": 1
+      },
+      {
+        "id": 608,
+        "slug": "baby-doll-eyes",
+        "name": "Baby-Doll Eyes",
+        "jpName": "つぶらなひとみ",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user stares at the target with its baby-doll eyes, which lowers the target's Attack stat. This move always goes first.",
+        "jpDescription": "つぶらなひとみで 相手を みつめて 攻撃を さげる。 必ず 先制攻撃 できる。",
+        "level": 1
+      },
+      {
+        "id": 882,
+        "slug": "tidy-up",
+        "name": "Tidy Up",
+        "jpName": "おかたづけ",
+        "type": "normal",
+        "category": "status",
+        "power": 0,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats.",
+        "jpDescription": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats.",
+        "level": 1
+      },
+      {
+        "id": 497,
+        "slug": "echoed-voice",
+        "name": "Echoed Voice",
+        "jpName": "エコーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",
+        "jpDescription": "響く 声で 相手を 攻撃する。 毎ターン だれかが 技を 使い続けると 威力が あがる。",
+        "level": 5
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。",
+        "level": 8
+      },
+      {
+        "id": 162,
+        "slug": "super-fang",
+        "name": "Super Fang",
+        "jpName": "いかりのまえば",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+        "jpDescription": "鋭い 前歯で 激しく かみついて 攻撃する。 相手の ＨＰは 半分に なる。",
+        "level": 11
+      },
+      {
+        "id": 458,
+        "slug": "double-hit",
+        "name": "Double Hit",
+        "jpName": "ダブルアタック",
+        "type": "normal",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with a tail or the like. The target is hit twice in a row.",
+        "jpDescription": "しっぽなどを 使い 相手を たたいて 攻撃する。 ２回連続で ダメージを 与える。",
+        "level": 14
+      },
+      {
+        "id": 331,
+        "slug": "bullet-seed",
+        "name": "Bullet Seed",
+        "jpName": "タネマシンガン",
+        "type": "grass",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by forcefully shooting seeds at the target. This move hits two to five times in a row.",
+        "jpDescription": "タネを 勢いよく 相手に 発射して 攻撃する。 ２ー５回の 間 連続で だす。",
+        "level": 18
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。",
+        "level": 22
+      },
+      {
+        "id": 583,
+        "slug": "play-rough",
+        "name": "Play Rough",
+        "jpName": "じゃれつく",
+        "type": "fairy",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by playing rough with the target. This may also lower the target's Attack stat.",
+        "jpDescription": "相手に じゃれついて 攻撃する。 相手の 攻撃を さげる ことがある。",
+        "level": 29
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。",
+        "level": 33
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。",
+        "level": 37
+      },
+      {
+        "id": 251,
+        "slug": "beat-up",
+        "name": "Beat Up",
+        "jpName": "ふくろだたき",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+        "jpDescription": "味方 全員で 攻撃する。 仲間の ポケモンが 多いほど 技の 攻撃回数が 増える。",
+        "level": 41
+      },
+      {
+        "id": 383,
+        "slug": "copycat",
+        "name": "Copycat",
+        "jpName": "まねっこ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+        "jpDescription": "直前に でた 技を まねして 同じ 技を だす。 技が でていないと 失敗する。",
+        "level": 46
+      },
+      {
+        "id": 860,
+        "slug": "population-bomb",
+        "name": "Population Bomb",
+        "jpName": "ネズミざん",
+        "type": "normal",
+        "category": "physical",
+        "power": 20,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user’s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.",
+        "jpDescription": "The user’s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.",
+        "level": 53
+      }
+    ],
+    "machine": [
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 331,
+        "slug": "bullet-seed",
+        "name": "Bullet Seed",
+        "jpName": "タネマシンガン",
+        "type": "grass",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks by forcefully shooting seeds at the target. This move hits two to five times in a row.",
+        "jpDescription": "タネを 勢いよく 相手に 発射して 攻撃する。 ２ー５回の 間 連続で だす。"
+      },
+      {
+        "id": 204,
+        "slug": "charm",
+        "name": "Charm",
+        "jpName": "あまえる",
+        "type": "fairy",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+        "jpDescription": "かわいく みつめて 油断を 誘い 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 886,
+        "slug": "chilling-water",
+        "name": "Chilling Water",
+        "jpName": "ひやみず",
+        "type": "water",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat.",
+        "jpDescription": "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。"
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 227,
+        "slug": "encore",
+        "name": "Encore",
+        "jpName": "アンコール",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user compels the target to keep using the move it encored for three turns.",
+        "jpDescription": "相手に アンコールした 技を ３回 続けて 出させる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 447,
+        "slug": "grass-knot",
+        "name": "Grass Knot",
+        "jpName": "くさむすび",
+        "type": "grass",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+        "jpDescription": "草を からませて 相手を 転ばせる。相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 304,
+        "slug": "hyper-voice",
+        "name": "Hyper Voice",
+        "jpName": "ハイパーボイス",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by letting loose a horribly loud, resounding cry.",
+        "jpDescription": "うるさく 響く 大きな 振動を 相手に 与えて 攻撃する。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 490,
+        "slug": "low-sweep",
+        "name": "Low Sweep",
+        "jpName": "ローキック",
+        "type": "fighting",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+        "jpDescription": "素早い 動きで 相手の 足を ねらって 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 341,
+        "slug": "mud-shot",
+        "name": "Mud Shot",
+        "jpName": "マッドショット",
+        "type": "ground",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+        "jpDescription": "泥の 塊を 相手に 投げつけて 攻撃する。 同時に 相手の 素早さを さげる。"
+      },
+      {
+        "id": 189,
+        "slug": "mud-slap",
+        "name": "Mud-Slap",
+        "jpName": "どろかけ",
+        "type": "ground",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+        "jpDescription": "相手の 顔などに 泥を 投げつけて 攻撃する。 命中率を さげる。"
+      },
+      {
+        "id": 583,
+        "slug": "play-rough",
+        "name": "Play Rough",
+        "jpName": "じゃれつく",
+        "type": "fairy",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by playing rough with the target. This may also lower the target's Attack stat.",
+        "jpDescription": "相手に じゃれついて 攻撃する。 相手の 攻撃を さげる ことがある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 240,
+        "slug": "rain-dance",
+        "name": "Rain Dance",
+        "jpName": "あまごい",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",
+        "jpDescription": "５ターンの 間 雨を 降らせて みずタイプの 威力を あげる。 ほのおタイプの 威力は さがる。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 421,
+        "slug": "shadow-claw",
+        "name": "Shadow Claw",
+        "jpName": "シャドークロー",
+        "type": "ghost",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "影から つくった 鋭い ツメで 相手を 切り裂く。 急所に 当たりやすい。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 162,
+        "slug": "super-fang",
+        "name": "Super Fang",
+        "jpName": "いかりのまえば",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+        "jpDescription": "鋭い 前歯で 激しく かみついて 攻撃する。 相手の ＨＰは 半分に なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 86,
+        "slug": "thunder-wave",
+        "name": "Thunder Wave",
+        "jpName": "でんじは",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+        "jpDescription": "弱い 電撃を 浴びせることで 相手を まひ状態に する。"
+      },
+      {
+        "id": 885,
+        "slug": "trailblaze",
+        "name": "Trailblaze",
+        "jpName": "くさわけ",
+        "type": "grass",
+        "category": "physical",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+        "jpDescription": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

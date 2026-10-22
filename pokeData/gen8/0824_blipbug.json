@@ -1,0 +1,448 @@
+{
+  "id": "0824_blipbug",
+  "pokemonId": 824,
+  "dex": 824,
+  "slug": "blipbug",
+  "name": "Blipbug",
+  "jpName": "サッチムシ",
+  "genus": "Larva Pokémon",
+  "jpGenus": "ようちゅうポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0824_blipbug/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0824_blipbug/normal/back.gif",
+  "abilities": [
+    {
+      "id": 68,
+      "slug": "swarm",
+      "name": "Swarm",
+      "jpName": "むしのしらせ",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "jpDescription": "ＨＰが 減ったとき むしタイプの 技の 威力が 上がる。"
+    },
+    {
+      "id": 14,
+      "slug": "compound-eyes",
+      "name": "Compound Eyes",
+      "jpName": "ふくがん",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Increases moves' accuracy to 1.3×.",
+      "jpDescription": "複眼を 持っているため 技の 命中率が 上がる。"
+    },
+    {
+      "id": 140,
+      "slug": "telepathy",
+      "name": "Telepathy",
+      "jpName": "テレパシー",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Protects against friendly Pokémon's damaging moves.",
+      "jpDescription": "味方の 攻撃を 読み取って 技を 回避する。"
+    }
+  ],
+  "height": {
+    "decimeters": 4,
+    "meters": 0.4,
+    "feetInches": "1'04\"",
+    "display": "0.4 m (1'04\")"
+  },
+  "weight": {
+    "hectograms": 80,
+    "kilograms": 8.0,
+    "pounds": 17.6,
+    "display": "8.0 kg (17.6 lbs)"
+  },
+  "shape": {
+    "id": 14,
+    "slug": "armor",
+    "name": "Armor",
+    "awesomeName": "Chitinous",
+    "jpName": "節足・甲殻"
+  },
+  "baseStats": {
+    "hp": 25,
+    "attack": 20,
+    "defense": 20,
+    "specialAttack": 25,
+    "specialDefense": 45,
+    "speed": 45,
+    "total": 180,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 85,
+          "max": 132
+        },
+        "lv100": {
+          "min": 160,
+          "max": 254
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 22,
+          "max": 79
+        },
+        "lv100": {
+          "min": 40,
+          "max": 152
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 22,
+          "max": 79
+        },
+        "lv100": {
+          "min": 40,
+          "max": 152
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 27,
+          "max": 84
+        },
+        "lv100": {
+          "min": 49,
+          "max": 163
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      }
+    }
+  },
+  "baseStatTotal": 180,
+  "typeMatchups": {
+    "types": [
+      "bug"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 2.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "flying",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "water",
+      "electric",
+      "ice",
+      "poison",
+      "psychic",
+      "bug",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "grass",
+      "fighting",
+      "ground"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "psychic",
+      "dark"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Sp. Def",
+    "evYieldTextJa": "とくぼう+1",
+    "catchRate": 255,
+    "pokeBallFullHpPercent": 43.9,
+    "catchRateDisplay": "255 (43.9% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 36,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 435,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 825,
+        "dex": 825,
+        "slug": "dottler",
+        "name": "Dottler",
+        "jpName": "レドームシ",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 10,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 10",
+            "conditionTextJa": "Lv.10"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 824,
+        "dex": 824,
+        "slug": "blipbug",
+        "name": "Blipbug",
+        "jpName": "サッチムシ",
+        "types": [
+          "bug"
+        ],
+        "sprite": "../pokeSprite/gen8/0824_blipbug/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0824_blipbug/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 825,
+            "dex": 825,
+            "slug": "dottler",
+            "name": "Dottler",
+            "jpName": "レドームシ",
+            "types": [
+              "bug",
+              "psychic"
+            ],
+            "sprite": "../pokeSprite/gen8/0825_dottler/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0825_dottler/normal/back.gif",
+            "condition": "Level 10",
+            "conditionJa": "Lv.10",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 10,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 10",
+                "conditionTextJa": "Lv.10"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 826,
+                "dex": 826,
+                "slug": "orbeetle",
+                "name": "Orbeetle",
+                "jpName": "イオルブ",
+                "types": [
+                  "bug",
+                  "psychic"
+                ],
+                "sprite": "../pokeSprite/gen8/0826_orbeetle/normal/front.gif",
+                "backSprite": "../pokeSprite/gen8/0826_orbeetle/normal/back.gif",
+                "condition": "Level 30",
+                "conditionJa": "Lv.30",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": 30,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Level 30",
+                    "conditionTextJa": "Lv.30"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Blipbug --(Level 10)--> Dottler --(Level 30)--> Orbeetle",
+    "summaryTextJa": "サッチムシ --(Lv.10)--> レドームシ --(Lv.30)--> イオルブ"
+  },
+  "moves": {
+    "totalUniqueMoves": 5,
+    "levelUp": [
+      {
+        "id": 522,
+        "slug": "struggle-bug",
+        "name": "Struggle Bug",
+        "jpName": "むしのていこう",
+        "type": "bug",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by struggling against opposing Pokémon. This also lowers their Sp. Atk stats.",
+        "jpDescription": "抵抗して 相手を 攻撃する。 相手の 特攻を さげる。",
+        "level": 1
+      }
+    ],
+    "machine": [],
+    "egg": [
+      {
+        "id": 611,
+        "slug": "infestation",
+        "name": "Infestation",
+        "jpName": "まとわりつく",
+        "type": "bug",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
+        "jpDescription": "４ー５ターンの 間 相手に まとわりついて 攻撃する。 そのあいだ 相手は 逃げられない。"
+      },
+      {
+        "id": 105,
+        "slug": "recover",
+        "name": "Recover",
+        "jpName": "じこさいせい",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user regenerates its cells, restoring its own HP by up to half its max HP.",
+        "jpDescription": "細胞を 再生させて 自分の 最大ＨＰの 半分の ＨＰを 回復する。"
+      },
+      {
+        "id": 564,
+        "slug": "sticky-web",
+        "name": "Sticky Web",
+        "jpName": "ねばねばネット",
+        "type": "bug",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle.",
+        "jpDescription": "相手の 周りに ねばねばした ネットを はりめぐらせ 交代で でてきた 相手の 素早さを さげる。"
+      },
+      {
+        "id": 48,
+        "slug": "supersonic",
+        "name": "Supersonic",
+        "jpName": "ちょうおんぱ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 55,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user generates odd sound waves from its body that confuse the target.",
+        "jpDescription": "特殊な 音波を 体から 発して 相手を 混乱させる。"
+      }
+    ],
+    "tutor": []
+  }
+}

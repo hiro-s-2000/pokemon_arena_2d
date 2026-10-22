@@ -1,0 +1,16 @@
+// pixel-paint palette for 0945_grafaiai. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 3b0764
+1 333333
+2 34303f
+3 3a3c4a
+4 97204c
+5 584698
+6 536b75
+7 9333ea
+8 dd3979
+9 92aba8
+a d8b4fe
+b e3e0d5

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0949_toedscruel. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4d4d4d
+1 4f4c4c
+2 5b5840
+3 a53e3d
+4 858550
+5 ba971f
+6 e77966
+7 d2b500
+8 d6ae9d
+9 f4c8b5
+a fefe4b

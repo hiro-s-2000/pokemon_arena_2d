@@ -1,0 +1,16 @@
+// pixel-paint palette for 0756_shiinotic. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 754b6e
+2 65604b
+3 9b67a7
+4 6f8a48
+5 cb8cb0
+6 97b371
+7 c2ada3
+8 aad36c
+9 f5bcd8
+a bbff59
+b f9f0d5

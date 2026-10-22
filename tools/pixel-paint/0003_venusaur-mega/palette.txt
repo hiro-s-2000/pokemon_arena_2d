@@ -1,0 +1,21 @@
+// 0003_venusaur-mega — hand-painted (light from upper-left)
+. transparent
+# 000000
+W ffffff
+p f88c94
+q d05868
+r 8c2c30
+Y f8e048
+y c89820
+B a8683c
+b 6c3c1c
+L a0e078
+l 58b048
+g 2c7034
+T 7cd0c0
+t 40a89c
+d 23736e
+D 124a48
+E e8203c
+e 801018
+m 7c2c18

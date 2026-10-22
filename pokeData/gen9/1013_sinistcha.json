@@ -1,0 +1,1021 @@
+{
+  "id": "1013_sinistcha",
+  "pokemonId": 1013,
+  "dex": 1013,
+  "slug": "sinistcha",
+  "name": "Sinistcha",
+  "jpName": "ヤバソチャ",
+  "genus": "Matcha Pokémon",
+  "jpGenus": "",
+  "generation": 9,
+  "category": "gen9",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen9/1013_sinistcha/normal/front.gif",
+  "backSprite": "../pokeSprite/gen9/1013_sinistcha/normal/back.gif",
+  "abilities": [
+    {
+      "id": 301,
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "jpName": "おもてなし",
+      "isHidden": false,
+      "slot": 1,
+      "description": "When a Pokémon with Hospitality enters a battle, it restores HP for an ally by 25%.",
+      "jpDescription": "登場したとき 味方を もてなして HPを 少しだけ 回復してあげる。"
+    },
+    {
+      "id": 85,
+      "slug": "heatproof",
+      "name": "Heatproof",
+      "jpName": "たいねつ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Halves damage from Fire moves and burns.",
+      "jpDescription": "耐熱の 体に よって ほのおタイプの 技の 威力を 半減させる。"
+    }
+  ],
+  "height": {
+    "decimeters": 2,
+    "meters": 0.2,
+    "feetInches": "0'08\"",
+    "display": "0.2 m (0'08\")"
+  },
+  "weight": {
+    "hectograms": 22,
+    "kilograms": 2.2,
+    "pounds": 4.9,
+    "display": "2.2 kg (4.9 lbs)"
+  },
+  "shape": {
+    "id": 1,
+    "slug": "ball",
+    "name": "Ball",
+    "awesomeName": "Pomaceous",
+    "jpName": "まるい（球体）"
+  },
+  "baseStats": {
+    "hp": 71,
+    "attack": 60,
+    "defense": 106,
+    "specialAttack": 121,
+    "specialDefense": 80,
+    "speed": 70,
+    "total": 508,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 131,
+          "max": 178
+        },
+        "lv100": {
+          "min": 252,
+          "max": 346
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 99,
+          "max": 173
+        },
+        "lv100": {
+          "min": 195,
+          "max": 342
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 113,
+          "max": 190
+        },
+        "lv100": {
+          "min": 222,
+          "max": 375
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      }
+    }
+  },
+  "baseStatTotal": 508,
+  "typeMatchups": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 12,
+        "slug": "grass",
+        "name": "Grass",
+        "jpName": "くさ"
+      },
+      {
+        "slot": 2,
+        "id": 8,
+        "slug": "ghost",
+        "name": "Ghost",
+        "jpName": "ゴースト"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 0.0,
+      "fire": 2.0,
+      "water": 0.5,
+      "electric": 0.5,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 0.0,
+      "poison": 1.0,
+      "ground": 0.5,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 1.0,
+      "rock": 1.0,
+      "ghost": 2.0,
+      "dragon": 1.0,
+      "dark": 2.0,
+      "steel": 1.0,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fire",
+      "ice",
+      "flying",
+      "ghost",
+      "dark"
+    ],
+    "neutral1x": [
+      "poison",
+      "psychic",
+      "bug",
+      "rock",
+      "dragon",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "water",
+      "electric",
+      "grass",
+      "ground"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "normal",
+      "fighting"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "ground",
+      "psychic",
+      "rock",
+      "ghost"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialAttack",
+        "statName": "Sp. Atk",
+        "statJpName": "とくこう",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Sp. Atk",
+    "evYieldTextJa": "とくこう+2",
+    "catchRate": 60,
+    "pokeBallFullHpPercent": 14.8,
+    "catchRateDisplay": "60 (14.8% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 178,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 10,
+        "slug": "mineral",
+        "name": "Mineral",
+        "jpName": "こうぶつ"
+      },
+      {
+        "id": 11,
+        "slug": "indeterminate",
+        "name": "Amorphous",
+        "jpName": "ふていけい"
+      }
+    ],
+    "genderRatio": {
+      "genderless": true,
+      "malePercent": 0.0,
+      "femalePercent": 0.0,
+      "display": "Genderless",
+      "displayJa": "性別不明"
+    },
+    "eggCycles": {
+      "cycles": 50,
+      "minSteps": 12201,
+      "maxSteps": 13107,
+      "display": "50 (12,201–13,107 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 539,
+    "evolvesFrom": {
+      "speciesId": 1012,
+      "dex": 1012,
+      "slug": "poltchageist",
+      "name": "Poltchageist",
+      "jpName": "チャデス",
+      "conditions": [
+        {
+          "trigger": "use-item",
+          "triggerName": "Use item",
+          "minLevel": null,
+          "item": "Unremarkable Teacup",
+          "itemJp": "ボンサクのちゃわん",
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Use Unremarkable Teacup",
+          "conditionTextJa": "「ボンサクのちゃわん」を使用"
+        },
+        {
+          "trigger": "use-item",
+          "triggerName": "Use item",
+          "minLevel": null,
+          "item": "Masterpiece Teacup",
+          "itemJp": "ボンサクのちゃわん",
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Use Masterpiece Teacup",
+          "conditionTextJa": "「ボンサクのちゃわん」を使用"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 1012,
+        "dex": 1012,
+        "slug": "poltchageist",
+        "name": "Poltchageist",
+        "jpName": "チャデス",
+        "types": [
+          "grass",
+          "ghost"
+        ],
+        "sprite": "../pokeSprite/gen9/1012_poltchageist/normal/front.gif",
+        "backSprite": "../pokeSprite/gen9/1012_poltchageist/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 1013,
+            "dex": 1013,
+            "slug": "sinistcha",
+            "name": "Sinistcha",
+            "jpName": "ヤバソチャ",
+            "types": [
+              "grass",
+              "ghost"
+            ],
+            "sprite": "../pokeSprite/gen9/1013_sinistcha/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/1013_sinistcha/normal/back.gif",
+            "condition": "Use Unremarkable Teacup / Use Masterpiece Teacup",
+            "conditionJa": "「ボンサクのちゃわん」を使用",
+            "details": [
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Unremarkable Teacup",
+                "itemJp": "ボンサクのちゃわん",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Unremarkable Teacup",
+                "conditionTextJa": "「ボンサクのちゃわん」を使用"
+              },
+              {
+                "trigger": "use-item",
+                "triggerName": "Use item",
+                "minLevel": null,
+                "item": "Masterpiece Teacup",
+                "itemJp": "ボンサクのちゃわん",
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Use Masterpiece Teacup",
+                "conditionTextJa": "「ボンサクのちゃわん」を使用"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Poltchageist --(Use Unremarkable Teacup / Use Masterpiece Teacup)--> Sinistcha",
+    "summaryTextJa": "チャデス --(「ボンサクのちゃわん」を使用)--> ヤバソチャ"
+  },
+  "moves": {
+    "totalUniqueMoves": 41,
+    "levelUp": [
+      {
+        "id": 902,
+        "slug": "matcha-gotcha",
+        "name": "Matcha Gotcha",
+        "jpName": "シャカシャカほう",
+        "type": "grass",
+        "category": "special",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn.",
+        "jpDescription": "The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn.",
+        "level": 0
+      },
+      {
+        "id": 78,
+        "slug": "stun-spore",
+        "name": "Stun Spore",
+        "jpName": "しびれごな",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 75,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user scatters a cloud of numbing powder that paralyzes the target.",
+        "jpDescription": "しびれる 粉を たくさん ふりまいて 相手を まひ状態に する。",
+        "level": 1
+      },
+      {
+        "id": 110,
+        "slug": "withdraw",
+        "name": "Withdraw",
+        "jpName": "からにこもる",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user withdraws its body into its hard shell, boosting its Defense stat.",
+        "jpDescription": "殻に 潜りこんで 身を守り 自分の 防御を あげる。",
+        "level": 1
+      },
+      {
+        "id": 310,
+        "slug": "astonish",
+        "name": "Astonish",
+        "jpName": "おどろかす",
+        "type": "ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target by crying out in a startling fashion. This may also make the target flinch.",
+        "jpDescription": "大きな 声などで 不意に 驚かして 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 71,
+        "slug": "absorb",
+        "name": "Absorb",
+        "jpName": "すいとる",
+        "type": "grass",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 相手に 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 6
+      },
+      {
+        "id": 791,
+        "slug": "life-dew",
+        "name": "Life Dew",
+        "jpName": "いのちのしずく",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle.",
+        "jpDescription": "不思議な 水を ふりまいて 自分と 場にいる 味方の ＨＰを 回復する。",
+        "level": 12
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。",
+        "level": 18
+      },
+      {
+        "id": 72,
+        "slug": "mega-drain",
+        "name": "Mega Drain",
+        "jpName": "メガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 相手に 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 24
+      },
+      {
+        "id": 506,
+        "slug": "hex",
+        "name": "Hex",
+        "jpName": "たたりめ",
+        "type": "ghost",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This relentless attack does massive damage to a target affected by status conditions.",
+        "jpDescription": "たたみかける ように 攻撃する。 状態異常の 相手に 大きな ダメージを 与える。",
+        "level": 30
+      },
+      {
+        "id": 476,
+        "slug": "rage-powder",
+        "name": "Rage Powder",
+        "jpName": "いかりのこな",
+        "type": "bug",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 2,
+        "description": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user.",
+        "jpDescription": "イライラさせる 粉を 自分に ふりかけて 注意を ひく。 相手の 攻撃を すべて 自分に むける。",
+        "level": 36
+      },
+      {
+        "id": 668,
+        "slug": "strength-sap",
+        "name": "Strength Sap",
+        "jpName": "ちからをすいとる",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user restores its own HP by the same amount as the target's Attack stat. It then lowers the target's Attack stat.",
+        "jpDescription": "相手の 攻撃力と 同じだけ 自分の ＨＰを 回復する。 そして 相手の 攻撃を さげる。",
+        "level": 42
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。",
+        "level": 48
+      },
+      {
+        "id": 262,
+        "slug": "memento",
+        "name": "Memento",
+        "jpName": "おきみやげ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user faints. In return, the target's Attack and Sp. Atk stats are harshly lowered.",
+        "jpDescription": "自分は ひんしに なるが そのかわりに 相手の 攻撃と 特攻を がくっと さげる。",
+        "level": 54
+      },
+      {
+        "id": 437,
+        "slug": "leaf-storm",
+        "name": "Leaf Storm",
+        "jpName": "リーフストーム",
+        "type": "grass",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user whips up a storm of leaves around the target. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "とがった はっぱで 相手に あらしを おこす。使うと 反動で 自分の 特攻が がくっと さがる。",
+        "level": 60
+      }
+    ],
+    "machine": [
+      {
+        "id": 347,
+        "slug": "calm-mind",
+        "name": "Calm Mind",
+        "jpName": "めいそう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user quietly focuses its mind and calms its spirit to boost its Sp. Atk and Sp. Def stats.",
+        "jpDescription": "静かに 精神を 統一し 心を 鎮めることで 自分の 特攻と 特防を あげる。"
+      },
+      {
+        "id": 174,
+        "slug": "curse",
+        "name": "Curse",
+        "jpName": "のろい",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "A move that has different effects depending on whether the user is a Ghost type or not.",
+        "jpDescription": "使う ポケモンが ゴーストタイプと それ以外 とでは 効果が 変わる。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 412,
+        "slug": "energy-ball",
+        "name": "Energy Ball",
+        "jpName": "エナジーボール",
+        "type": "grass",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "自然から 集めた 命の力を 発射する。 相手の 特防を さげることがある。"
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 580,
+        "slug": "grassy-terrain",
+        "name": "Grassy Terrain",
+        "jpName": "グラスフィールド",
+        "type": "grass",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user turns the ground into Grassy Terrain for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+        "jpDescription": "５ターンの 間 グラスフィールドにする。 地面にいると 毎ターン 回復する。 くさタイプの 威力が あがる。"
+      },
+      {
+        "id": 506,
+        "slug": "hex",
+        "name": "Hex",
+        "jpName": "たたりめ",
+        "type": "ghost",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This relentless attack does massive damage to a target affected by status conditions.",
+        "jpDescription": "たたみかける ように 攻撃する。 状態異常の 相手に 大きな ダメージを 与える。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 286,
+        "slug": "imprison",
+        "name": "Imprison",
+        "jpName": "ふういん",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+        "jpDescription": "相手が 自分と 同じ 技を おぼえていたら 相手だけ その技を 使えなくする。"
+      },
+      {
+        "id": 334,
+        "slug": "iron-defense",
+        "name": "Iron Defense",
+        "jpName": "てっぺき",
+        "type": "steel",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user hardens its body's surface like iron, sharply boosting its Defense stat.",
+        "jpDescription": "皮膚を 鉄のように 硬くする ことで 自分の 防御を ぐーんと あげる。"
+      },
+      {
+        "id": 437,
+        "slug": "leaf-storm",
+        "name": "Leaf Storm",
+        "jpName": "リーフストーム",
+        "type": "grass",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user whips up a storm of leaves around the target. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "とがった はっぱで 相手に あらしを おこす。使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 345,
+        "slug": "magical-leaf",
+        "name": "Magical Leaf",
+        "jpName": "マジカルリーフ",
+        "type": "grass",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user scatters curious leaves that chase the target. This attack never misses.",
+        "jpDescription": "相手を 追跡する 不思議な はっぱを まきちらす。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。"
+      },
+      {
+        "id": 101,
+        "slug": "night-shade",
+        "name": "Night Shade",
+        "jpName": "ナイトヘッド",
+        "type": "ghost",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+        "jpDescription": "恐ろしい 幻を みせて 自分の レベルと 同じだけの ダメージを 相手に 与える。"
+      },
+      {
+        "id": 220,
+        "slug": "pain-split",
+        "name": "Pain Split",
+        "jpName": "いたみわけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user adds its HP to the target's HP, then equally splits the combined HP between the target and itself.",
+        "jpDescription": "自分の ＨＰと 相手の ＨＰを あわせて それを 自分と 相手で なかよく わける。"
+      },
+      {
+        "id": 566,
+        "slug": "phantom-force",
+        "name": "Phantom Force",
+        "jpName": "ゴーストダイブ",
+        "type": "ghost",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+        "jpDescription": "１ターンめで どこかに 消えて ２ターンめに 相手を 攻撃する。 守りを 無視して 攻撃できる。"
+      },
+      {
+        "id": 809,
+        "slug": "poltergeist",
+        "name": "Poltergeist",
+        "jpName": "ポルターガイスト",
+        "type": "ghost",
+        "category": "physical",
+        "power": 110,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks by controlling the target's item. This move fails if the target isn't holding an item.",
+        "jpDescription": "相手の 持ち物を あやつって 攻撃。 相手が 道具を 持っていない 場合は 失敗する。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 244,
+        "slug": "psych-up",
+        "name": "Psych Up",
+        "jpName": "じこあんじ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hypnotizes itself into copying any stat change made by the target.",
+        "jpDescription": "自分に 暗示を かけることで 能力変化の 状態を 相手と 同じにする。"
+      },
+      {
+        "id": 115,
+        "slug": "reflect",
+        "name": "Reflect",
+        "jpName": "リフレクター",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "A wondrous wall of light is put up to reduce damage from physical moves for five turns.",
+        "jpDescription": "５ターンの 間 不思議な かべで 相手から 受ける 物理攻撃の ダメージを 弱める。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 503,
+        "slug": "scald",
+        "name": "Scald",
+        "jpName": "ねっとう",
+        "type": "water",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn.",
+        "jpDescription": "熱く 煮えたぎる 水を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 180,
+        "slug": "spite",
+        "name": "Spite",
+        "jpName": "うらみ",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+        "jpDescription": "相手が 最後に 使った技に 恨みを 抱いて その技の ＰＰを ４だけ 減らす。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 433,
+        "slug": "trick-room",
+        "name": "Trick Room",
+        "jpName": "トリックルーム",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": -7,
+        "description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+        "jpDescription": "まか不思議な 空間を つくる。 ５ターンの 間 遅い ポケモンから 行動できる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "id": "0226_mantine",
+  "pokemonId": 226,
+  "dex": 226,
+  "slug": "mantine",
+  "name": "Mantine",
+  "jpName": "マンタイン",
+  "genus": "Kite Pokémon",
+  "jpGenus": "カイトポケモン",
+  "generation": 2,
+  "category": "gen2",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen2/0226_mantine/normal/front.gif",
+  "backSprite": "../pokeSprite/gen2/0226_mantine/normal/back.gif",
+  "abilities": [
+    {
+      "id": 33,
+      "slug": "swift-swim",
+      "name": "Swift Swim",
+      "jpName": "すいすい",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Doubles Speed during rain.",
+      "jpDescription": "天気が 雨のとき 素早さが 上がる。"
+    },
+    {
+      "id": 11,
+      "slug": "water-absorb",
+      "name": "Water Absorb",
+      "jpName": "ちょすい",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Absorbs Water moves, healing for 1/4 max HP.",
+      "jpDescription": "みずタイプの 技を 受けると ダメージを 受けずに 回復する。"
+    },
+    {
+      "id": 41,
+      "slug": "water-veil",
+      "name": "Water Veil",
+      "jpName": "みずのベール",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Prevents burns.",
+      "jpDescription": "水のベールを 身にまとい やけど状態に ならない。"
+    }
+  ],
+  "height": {
+    "decimeters": 21,
+    "meters": 2.1,
+    "feetInches": "6'11\"",
+    "display": "2.1 m (6'11\")"
+  },
+  "weight": {
+    "hectograms": 2200,
+    "kilograms": 220.0,
+    "pounds": 485.0,
+    "display": "220.0 kg (485.0 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 140,
+    "speed": 70,
+    "total": 485,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 145,
+          "max": 192
+        },
+        "lv100": {
+          "min": 280,
+          "max": 374
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 130,
+          "max": 211
+        },
+        "lv100": {
+          "min": 256,
+          "max": 416
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      }
+    }
+  },
+  "baseStatTotal": 485,
+  "typeMatchups": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 11,
+        "slug": "water",
+        "name": "Water",
+        "jpName": "みず"
+      },
+      {
+        "slot": 2,
+        "id": 3,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 0.5,
+      "water": 0.5,
+      "electric": 4.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.0,
+      "flying": 1.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [
+      "electric"
+    ],
+    "weaknesses2x": [
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "grass",
+      "ice",
+      "poison",
+      "flying",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "fire",
+      "water",
+      "fighting",
+      "bug",
+      "steel"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ground"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "fire",
+      "grass",
+      "fighting",
+      "ground",
+      "bug",
+      "rock"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Sp. Def",
+    "evYieldTextJa": "とくぼう+2",
+    "catchRate": 25,
+    "pokeBallFullHpPercent": 7.7,
+    "catchRateDisplay": "25 (7.7% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 170,
+    "growthRate": {
+      "id": 1,
+      "slug": "slow",
+      "name": "Slow",
+      "formula": "\\frac{5x^3}{4}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 2,
+        "slug": "water1",
+        "name": "Water 1",
+        "jpName": "すいちゅう１"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 25,
+      "minSteps": 6101,
+      "maxSteps": 6682,
+      "display": "25 (6,101–6,682 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 116,
+    "evolvesFrom": {
+      "speciesId": 458,
+      "dex": 458,
+      "slug": "mantyke",
+      "name": "Mantyke",
+      "jpName": "タマンタ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": null,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level up",
+          "conditionTextJa": "レベルアップ"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 458,
+        "dex": 458,
+        "slug": "mantyke",
+        "name": "Mantyke",
+        "jpName": "タマンタ",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen4/0458_mantyke/normal/front.gif",
+        "backSprite": "../pokeSprite/gen4/0458_mantyke/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 226,
+            "dex": 226,
+            "slug": "mantine",
+            "name": "Mantine",
+            "jpName": "マンタイン",
+            "types": [
+              "water",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen2/0226_mantine/normal/front.gif",
+            "backSprite": "../pokeSprite/gen2/0226_mantine/normal/back.gif",
+            "condition": "Level up",
+            "conditionJa": "レベルアップ",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": null,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level up",
+                "conditionTextJa": "レベルアップ"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Mantyke --(Level up)--> Mantine",
+    "summaryTextJa": "タマンタ --(レベルアップ)--> マンタイン"
+  },
+  "moves": {
+    "totalUniqueMoves": 31,
+    "levelUp": [
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 145,
+        "slug": "bubble",
+        "name": "Bubble",
+        "jpName": "あわ",
+        "type": "water",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします",
+        "level": 5
+      },
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。",
+        "level": 9
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。",
+        "level": 15
+      },
+      {
+        "id": 403,
+        "slug": "air-slash",
+        "name": "Air Slash",
+        "jpName": "エアスラッシュ",
+        "type": "flying",
+        "category": "special",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+        "jpDescription": "空をも 切り裂く 空気の 刃で 攻撃する。 相手を ひるませることが ある。",
+        "level": 21
+      },
+      {
+        "id": 355,
+        "slug": "roost",
+        "name": "Roost",
+        "jpName": "はねやすめ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lands and rests its body. This move restores the user's HP by up to half its max HP.",
+        "jpDescription": "地面に 降りて 体を やすめる。 最大ＨＰの 半分の ＨＰを 回復する。",
+        "level": 29
+      },
+      {
+        "id": 56,
+        "slug": "hydro-pump",
+        "name": "Hydro Pump",
+        "jpName": "ハイドロポンプ",
+        "type": "water",
+        "category": "special",
+        "power": 110,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is blasted by a huge volume of water launched under great pressure.",
+        "jpDescription": "大量の 水を 激しい 勢いで 相手に 発射して 攻撃する。",
+        "level": 37
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 47
+      }
+    ],
+    "machine": [],
+    "egg": [
+      {
+        "id": 133,
+        "slug": "amnesia",
+        "name": "Amnesia",
+        "jpName": "ドわすれ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user temporarily empties its mind to forget its concerns. This sharply boosts the user's Sp. Def stat.",
+        "jpDescription": "頭を からにして 一瞬 なにかを 忘れることで 自分の 特防を ぐーんと あげる。"
+      },
+      {
+        "id": 109,
+        "slug": "confuse-ray",
+        "name": "Confuse Ray",
+        "jpName": "あやしいひかり",
+        "type": "ghost",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is exposed to a sinister ray that causes confusion.",
+        "jpDescription": "怪しい 光を 相手に みせて まどわせる。 相手を 混乱させる。"
+      },
+      {
+        "id": 114,
+        "slug": "haze",
+        "name": "Haze",
+        "jpName": "くろいきり",
+        "type": "ice",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+        "jpDescription": "黒い霧を だして 戦闘に でている ポケモン 全員の 能力変化を もとに もどす。"
+      },
+      {
+        "id": 56,
+        "slug": "hydro-pump",
+        "name": "Hydro Pump",
+        "jpName": "ハイドロポンプ",
+        "type": "water",
+        "category": "special",
+        "power": 110,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is blasted by a huge volume of water launched under great pressure.",
+        "jpDescription": "大量の 水を 激しい 勢いで 相手に 発射して 攻撃する。"
+      },
+      {
+        "id": 243,
+        "slug": "mirror-coat",
+        "name": "Mirror Coat",
+        "jpName": "ミラーコート",
+        "type": "psychic",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -5,
+        "description": "A retaliatory attack that counters any special move, inflicting double the damage taken.",
+        "jpDescription": "相手から 受けた 特殊攻撃の ダメージを ２倍に して その相手に 返す。"
+      },
+      {
+        "id": 300,
+        "slug": "mud-sport",
+        "name": "Mud Sport",
+        "jpName": "どろあそび",
+        "type": "ground",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 21,
+        "slug": "slam",
+        "name": "Slam",
+        "jpName": "たたきつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 75,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+        "jpDescription": "長い しっぽや つるなどを 使い 相手を たたきつけて 攻撃する。"
+      },
+      {
+        "id": 150,
+        "slug": "splash",
+        "name": "Splash",
+        "jpName": "はねる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user just flops and splashes around to no effect at all...",
+        "jpDescription": "攻撃もせずに ピョン ピョンと 跳ねるだけで なにも おこらない……。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 239,
+        "slug": "twister",
+        "name": "Twister",
+        "jpName": "たつまき",
+        "type": "dragon",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user whips up a vicious tornado to tear at opposing Pokémon. This may also make them flinch.",
+        "jpDescription": "竜巻を おこして 相手を まきこみ 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 346,
+        "slug": "water-sport",
+        "name": "Water Sport",
+        "jpName": "みずあそび",
+        "type": "water",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 469,
+        "slug": "wide-guard",
+        "name": "Wide Guard",
+        "jpName": "ワイドガード",
+        "type": "rock",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 3,
+        "description": "The user and its allies are protected from wide-ranging attacks for one turn.",
+        "jpDescription": "味方全員に 当たる 攻撃を １ターンの 間 防ぐ。"
+      }
+    ],
+    "tutor": [
+      {
+        "id": 401,
+        "slug": "aqua-tail",
+        "name": "Aqua Tail",
+        "jpName": "アクアテール",
+        "type": "water",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+        "jpDescription": "激しく あれくるう 荒波の ように 大きな しっぽを ふって 相手を 攻撃する。"
+      },
+      {
+        "id": 340,
+        "slug": "bounce",
+        "name": "Bounce",
+        "jpName": "とびはねる",
+        "type": "flying",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user bounces up high on the first turn, then drops onto the target on the next turn. This may also leave the target with paralysis.",
+        "jpDescription": "空高く 飛び跳ねて ２ターン目に 相手を 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 441,
+        "slug": "gunk-shot",
+        "name": "Gunk Shot",
+        "jpName": "ダストシュート",
+        "type": "poison",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 80,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user shoots filthy garbage at the target to attack. This may also poison the target.",
+        "jpDescription": "汚い ゴミを 相手に ぶつけて 攻撃する。 毒状態に することが ある。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 196,
+        "slug": "icy-wind",
+        "name": "Icy Wind",
+        "jpName": "こごえるかぜ",
+        "type": "ice",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+        "jpDescription": "凍てつく 冷気を 相手に 吹きつけて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 442,
+        "slug": "iron-head",
+        "name": "Iron Head",
+        "jpName": "アイアンヘッド",
+        "type": "steel",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+        "jpDescription": "鋼の ような 硬い 頭で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 710,
+        "slug": "liquidation",
+        "name": "Liquidation",
+        "jpName": "アクアブレイク",
+        "type": "water",
+        "category": "physical",
+        "power": 85,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.",
+        "jpDescription": "水の 力で 相手に ぶつかって 攻撃する。 相手の 防御を さげる ことがある。"
+      },
+      {
+        "id": 402,
+        "slug": "seed-bomb",
+        "name": "Seed Bomb",
+        "jpName": "タネばくだん",
+        "type": "grass",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above.",
+        "jpDescription": "硬い 殻を もつ 大きな タネを 上から たたきつけて 相手を 攻撃する。"
+      },
+      {
+        "id": 324,
+        "slug": "signal-beam",
+        "name": "Signal Beam",
+        "jpName": "シグナルビーム",
+        "type": "bug",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 352,
+        "slug": "water-pulse",
+        "name": "Water Pulse",
+        "jpName": "みずのはどう",
+        "type": "water",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+        "jpDescription": "水の 振動を 相手に 与えて 攻撃する。 相手を 混乱させることが ある。"
+      }
+    ]
+  }
+}

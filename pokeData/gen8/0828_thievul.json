@@ -1,0 +1,1098 @@
+{
+  "id": "0828_thievul",
+  "pokemonId": 828,
+  "dex": 828,
+  "slug": "thievul",
+  "name": "Thievul",
+  "jpName": "フォクスライ",
+  "genus": "Fox Pokémon",
+  "jpGenus": "きつねポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0828_thievul/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0828_thievul/normal/back.gif",
+  "abilities": [
+    {
+      "id": 50,
+      "slug": "run-away",
+      "name": "Run Away",
+      "jpName": "にげあし",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Ensures success fleeing from wild battles.",
+      "jpDescription": "野生の ポケモンから 必ず 逃げられる。"
+    },
+    {
+      "id": 84,
+      "slug": "unburden",
+      "name": "Unburden",
+      "jpName": "かるわざ",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Doubles Speed upon using or losing a held item.",
+      "jpDescription": "持っていた 道具が なくなると 素早さが 上がる。"
+    },
+    {
+      "id": 198,
+      "slug": "stakeout",
+      "name": "Stakeout",
+      "jpName": "はりこみ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "This Pokémon's moves have double power against Pokémon that switched in this turn.",
+      "jpDescription": "交代で 出てきた 相手に ２倍の ダメージで 攻撃 できる。"
+    }
+  ],
+  "height": {
+    "decimeters": 12,
+    "meters": 1.2,
+    "feetInches": "3'11\"",
+    "display": "1.2 m (3'11\")"
+  },
+  "weight": {
+    "hectograms": 199,
+    "kilograms": 19.9,
+    "pounds": 43.9,
+    "display": "19.9 kg (43.9 lbs)"
+  },
+  "shape": {
+    "id": 8,
+    "slug": "quadruped",
+    "name": "Quadruped",
+    "awesomeName": "Mensal",
+    "jpName": "四足歩行"
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 58,
+    "defense": 58,
+    "specialAttack": 87,
+    "specialDefense": 92,
+    "speed": 90,
+    "total": 455,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 130,
+          "max": 177
+        },
+        "lv100": {
+          "min": 250,
+          "max": 344
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 56,
+          "max": 121
+        },
+        "lv100": {
+          "min": 108,
+          "max": 236
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 56,
+          "max": 121
+        },
+        "lv100": {
+          "min": 108,
+          "max": 236
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 82,
+          "max": 152
+        },
+        "lv100": {
+          "min": 161,
+          "max": 300
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 87,
+          "max": 158
+        },
+        "lv100": {
+          "min": 170,
+          "max": 311
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      }
+    }
+  },
+  "baseStatTotal": 455,
+  "typeMatchups": {
+    "types": [
+      "dark"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 17,
+        "slug": "dark",
+        "name": "Dark",
+        "jpName": "あく"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 2.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 1.0,
+      "psychic": 0.0,
+      "bug": 2.0,
+      "rock": 1.0,
+      "ghost": 0.5,
+      "dragon": 1.0,
+      "dark": 0.5,
+      "steel": 1.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "fighting",
+      "bug",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "poison",
+      "ground",
+      "flying",
+      "rock",
+      "dragon",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "ghost",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "psychic"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "psychic",
+      "ghost"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "specialDefense",
+        "statName": "Sp. Def",
+        "statJpName": "とくぼう",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Sp. Def",
+    "evYieldTextJa": "とくぼう+2",
+    "catchRate": 127,
+    "pokeBallFullHpPercent": 26.0,
+    "catchRateDisplay": "127 (26.0% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 159,
+    "growthRate": {
+      "id": 3,
+      "slug": "fast",
+      "name": "Fast",
+      "formula": "\\frac{4x^3}{5}"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 5,
+        "slug": "ground",
+        "name": "Field",
+        "jpName": "りくじょう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 436,
+    "evolvesFrom": {
+      "speciesId": 827,
+      "dex": 827,
+      "slug": "nickit",
+      "name": "Nickit",
+      "jpName": "クスネ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 18,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 18",
+          "conditionTextJa": "Lv.18"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 827,
+        "dex": 827,
+        "slug": "nickit",
+        "name": "Nickit",
+        "jpName": "クスネ",
+        "types": [
+          "dark"
+        ],
+        "sprite": "../pokeSprite/gen8/0827_nickit/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0827_nickit/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 828,
+            "dex": 828,
+            "slug": "thievul",
+            "name": "Thievul",
+            "jpName": "フォクスライ",
+            "types": [
+              "dark"
+            ],
+            "sprite": "../pokeSprite/gen8/0828_thievul/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0828_thievul/normal/back.gif",
+            "condition": "Level 18",
+            "conditionJa": "Lv.18",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 18,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 18",
+                "conditionTextJa": "Lv.18"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Nickit --(Level 18)--> Thievul",
+    "summaryTextJa": "クスネ --(Lv.18)--> フォクスライ"
+  },
+  "moves": {
+    "totalUniqueMoves": 46,
+    "levelUp": [
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。",
+        "level": 0
+      },
+      {
+        "id": 39,
+        "slug": "tail-whip",
+        "name": "Tail Whip",
+        "jpName": "しっぽをふる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user wags its tail cutely, making opposing Pokémon less wary. This lowers their Defense stats.",
+        "jpDescription": "しっぽを 左右に かわいく ふって 油断を 誘う。 相手の 防御を さげる。",
+        "level": 1
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。",
+        "level": 1
+      },
+      {
+        "id": 251,
+        "slug": "beat-up",
+        "name": "Beat Up",
+        "jpName": "ふくろだたき",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+        "jpDescription": "味方 全員で 攻撃する。 仲間の ポケモンが 多いほど 技の 攻撃回数が 増える。",
+        "level": 1
+      },
+      {
+        "id": 468,
+        "slug": "hone-claws",
+        "name": "Hone Claws",
+        "jpName": "つめとぎ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user sharpens its claws to boost its Attack stat and accuracy.",
+        "jpDescription": "ツメを 磨いて 鋭く する。 自分の 攻撃と 命中率を あげる。",
+        "level": 1
+      },
+      {
+        "id": 555,
+        "slug": "snarl",
+        "name": "Snarl",
+        "jpName": "バークアウト",
+        "type": "dark",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+        "jpDescription": "まくしたてる ように 怒鳴りつけて 相手の 特攻を さげる。",
+        "level": 12
+      },
+      {
+        "id": 372,
+        "slug": "assurance",
+        "name": "Assurance",
+        "jpName": "ダメおし",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's power is doubled if the target has already taken some damage in the same turn.",
+        "jpDescription": "そのターンに 相手が すでに ダメージを 受けていたら 技の 威力は ２倍に なる。",
+        "level": 16
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。",
+        "level": 22
+      },
+      {
+        "id": 389,
+        "slug": "sucker-punch",
+        "name": "Sucker Punch",
+        "jpName": "ふいうち",
+        "type": "dark",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 1,
+        "description": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+        "jpDescription": "相手より 先に 攻撃 できる。 相手が だす技が 攻撃技でないと 失敗する。",
+        "level": 28
+      },
+      {
+        "id": 400,
+        "slug": "night-slash",
+        "name": "Night Slash",
+        "jpName": "つじぎり",
+        "type": "dark",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes the target the instant an opportunity arises. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "一瞬の すきを ついて 相手を 切りはらう。 急所に 当たりやすい。",
+        "level": 34
+      },
+      {
+        "id": 541,
+        "slug": "tail-slap",
+        "name": "Tail Slap",
+        "jpName": "スイープビンタ",
+        "type": "normal",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 85,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by striking the target with its hard tail. This move hits two to five times in a row.",
+        "jpDescription": "硬い しっぽで 相手を たたいて 攻撃する。 ２ー５回の 間 連続で だす。",
+        "level": 40
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。",
+        "level": 46
+      },
+      {
+        "id": 575,
+        "slug": "parting-shot",
+        "name": "Parting Shot",
+        "jpName": "すてゼリフ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches places with a party Pokémon in waiting.",
+        "jpDescription": "すてゼリフで 相手を いかくし 攻撃と 特攻を さげたのち 控えの ポケモンと 入れ替わる。",
+        "level": 52
+      }
+    ],
+    "machine": [
+      {
+        "id": 512,
+        "slug": "acrobatics",
+        "name": "Acrobatics",
+        "jpName": "アクロバット",
+        "type": "flying",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item.",
+        "jpDescription": "軽やかに 相手を 攻撃する。 自分が 道具を 持っていないとき 大きな ダメージを 与える。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 372,
+        "slug": "assurance",
+        "name": "Assurance",
+        "jpName": "ダメおし",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's power is doubled if the target has already taken some damage in the same turn.",
+        "jpDescription": "そのターンに 相手が すでに ダメージを 受けていたら 技の 威力は ２倍に なる。"
+      },
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 226,
+        "slug": "baton-pass",
+        "name": "Baton Pass",
+        "jpName": "バトンタッチ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+        "jpDescription": "控えの ポケモンと 入れ替わる。 能力変化は 替わった ポケモンが そのまま 受けつぐ。"
+      },
+      {
+        "id": 251,
+        "slug": "beat-up",
+        "name": "Beat Up",
+        "jpName": "ふくろだたき",
+        "type": "dark",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+        "jpDescription": "味方 全員で 攻撃する。 仲間の ポケモンが 多いほど 技の 攻撃回数が 増える。"
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 399,
+        "slug": "dark-pulse",
+        "name": "Dark Pulse",
+        "jpName": "あくのはどう",
+        "type": "dark",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",
+        "jpDescription": "体から 悪意に みちた 恐ろしい オーラを 発する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 91,
+        "slug": "dig",
+        "name": "Dig",
+        "jpName": "あなをほる",
+        "type": "ground",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user burrows into the ground on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目に 潜り ２ターン目で 相手を 攻撃する。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 313,
+        "slug": "fake-tears",
+        "name": "Fake Tears",
+        "jpName": "うそなき",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user feigns crying to fluster the target. This harshly lowers the target's Sp. Def stat.",
+        "jpDescription": "ないた ふりをして 涙を 流す。 こまらせる ことで 相手の 特防を がくっと さげる。"
+      },
+      {
+        "id": 424,
+        "slug": "fire-fang",
+        "name": "Fire Fang",
+        "jpName": "ほのおのキバ",
+        "type": "fire",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+        "jpDescription": "炎を まとった キバで かみつく。 相手を ひるませたり やけど状態に することが ある。"
+      },
+      {
+        "id": 492,
+        "slug": "foul-play",
+        "name": "Foul Play",
+        "jpName": "イカサマ",
+        "type": "dark",
+        "category": "physical",
+        "power": 95,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+        "jpDescription": "相手の 力を 利用する。 戦っている 相手の 攻撃が 高いほど ダメージが あがる。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 447,
+        "slug": "grass-knot",
+        "name": "Grass Knot",
+        "jpName": "くさむすび",
+        "type": "grass",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+        "jpDescription": "草を からませて 相手を 転ばせる。相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 423,
+        "slug": "ice-fang",
+        "name": "Ice Fang",
+        "jpName": "こおりのキバ",
+        "type": "ice",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+        "jpDescription": "冷気を ひめた キバで かみつく。 相手を ひるませたり こおり状態に することが ある。"
+      },
+      {
+        "id": 341,
+        "slug": "mud-shot",
+        "name": "Mud Shot",
+        "jpName": "マッドショット",
+        "type": "ground",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+        "jpDescription": "泥の 塊を 相手に 投げつけて 攻撃する。 同時に 相手の 素早さを さげる。"
+      },
+      {
+        "id": 417,
+        "slug": "nasty-plot",
+        "name": "Nasty Plot",
+        "jpName": "わるだくみ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stimulates its brain by thinking bad thoughts. This sharply boosts the user's Sp. Atk stat.",
+        "jpDescription": "悪いことを 考えて 頭を 活性化させる。 自分の 特攻を ぐーんと あげる。"
+      },
+      {
+        "id": 583,
+        "slug": "play-rough",
+        "name": "Play Rough",
+        "jpName": "じゃれつく",
+        "type": "fairy",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by playing rough with the target. This may also lower the target's Attack stat.",
+        "jpDescription": "相手に じゃれついて 攻撃する。 相手の 攻撃を さげる ことがある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 94,
+        "slug": "psychic",
+        "name": "Psychic",
+        "jpName": "サイコキネシス",
+        "type": "psychic",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "強い 念力を 相手に 送って 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 103,
+        "slug": "screech",
+        "name": "Screech",
+        "jpName": "いやなおと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 40,
+        "priority": 0,
+        "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+        "jpDescription": "おもわず 耳を ふさぎたくなる いやなおとを だして 相手の 防御を がくっと さげる。"
+      },
+      {
+        "id": 247,
+        "slug": "shadow-ball",
+        "name": "Shadow Ball",
+        "jpName": "シャドーボール",
+        "type": "ghost",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by hurling a shadowy blob at the target. This may also lower the target’s Sp. Def stat.",
+        "jpDescription": "黒い影の 塊を 投げつけて 攻撃する。 相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 421,
+        "slug": "shadow-claw",
+        "name": "Shadow Claw",
+        "jpName": "シャドークロー",
+        "type": "ghost",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "影から つくった 鋭い ツメで 相手を 切り裂く。 急所に 当たりやすい。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 555,
+        "slug": "snarl",
+        "name": "Snarl",
+        "jpName": "バークアウト",
+        "type": "dark",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+        "jpDescription": "まくしたてる ように 怒鳴りつけて 相手の 特攻を さげる。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 541,
+        "slug": "tail-slap",
+        "name": "Tail Slap",
+        "jpName": "スイープビンタ",
+        "type": "normal",
+        "category": "physical",
+        "power": 25,
+        "accuracy": 85,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by striking the target with its hard tail. This move hits two to five times in a row.",
+        "jpDescription": "硬い しっぽで 相手を たたいて 攻撃する。 ２ー５回の 間 連続で だす。"
+      },
+      {
+        "id": 269,
+        "slug": "taunt",
+        "name": "Taunt",
+        "jpName": "ちょうはつ",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+        "jpDescription": "相手を 怒らせる。 ３ターンの 間 相手は ダメージを 与える 技しか だせなくなる。"
+      },
+      {
+        "id": 168,
+        "slug": "thief",
+        "name": "Thief",
+        "jpName": "どろぼう",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.",
+        "jpDescription": "攻撃と 同時に 道具を 盗む。 自分が 道具を 持っている 場合は 盗めない。"
+      },
+      {
+        "id": 422,
+        "slug": "thunder-fang",
+        "name": "Thunder Fang",
+        "jpName": "かみなりのキバ",
+        "type": "electric",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+        "jpDescription": "電気を ためた キバで かみつく。 相手を ひるませたり まひ状態に することが ある。"
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 807,
+        "slug": "burning-jealousy",
+        "name": "Burning Jealousy",
+        "jpName": "しっとのほのお",
+        "type": "fire",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
+        "jpDescription": "しっとの エネルギーで 相手を 攻撃。 そのターン 能力が あがった ポケモンを やけどの 状態に する。"
+      },
+      {
+        "id": 808,
+        "slug": "lash-out",
+        "name": "Lash Out",
+        "jpName": "うっぷんばらし",
+        "type": "dark",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lashes out to vent its frustration toward the target. This move's power is doubled if the user's stats were lowered during this turn.",
+        "jpDescription": "相手への いらだちを ぶつけて 攻撃。 そのターンに 能力を さげられていると 技の 威力が ２倍に なる。"
+      }
+    ]
+  }
+}

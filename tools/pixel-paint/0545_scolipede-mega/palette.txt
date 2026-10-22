@@ -1,0 +1,16 @@
+// pixel-paint palette for 0545_scolipede-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 621010
+2 383636
+3 a11a35
+4 90738b
+5 cd54aa
+6 e05c5e
+7 0ca98d
+8 ff64d5
+9 37e2a4
+a d5bbd3
+b c7ffd2

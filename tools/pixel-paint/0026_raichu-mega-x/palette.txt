@@ -1,0 +1,28 @@
+// pixel-paint palette for 0026_raichu-mega-x (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+// yellow (head, tail base)
+y fff3a0
+Y ffd94a
+Z e0a63a
+// orange (body, crest, tail tip)
+P ffc766
+O f5a030
+o cf7420
+d a24c16
+// paws
+c d98a52
+b b25a2a
+B 74331a
+// black / grey fur
+k 2a2526
+g 4f494c
+G 7d7680
+// face
+r e8382c
+R a01e18
+w ffffff
+W c4c4d2
+// electric effects
+s ffe33a
+n 7a4a08

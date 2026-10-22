@@ -1,0 +1,14 @@
+// pixel-paint palette for 0516_simipour. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 013971
+2 805818
+3 1e849d
+4 a27938
+5 c8a018
+6 45beda
+7 8ad3da
+8 f8e088
+9 ffffff

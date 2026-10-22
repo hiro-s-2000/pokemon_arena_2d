@@ -1,0 +1,1118 @@
+{
+  "id": "0940_wattrel",
+  "pokemonId": 940,
+  "dex": 940,
+  "slug": "wattrel",
+  "name": "Wattrel",
+  "jpName": "カイデン",
+  "genus": "Storm Petrel Pokémon",
+  "jpGenus": "うみつばめポケモン",
+  "generation": 9,
+  "category": "gen9",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen9/0940_wattrel/normal/front.gif",
+  "backSprite": "../pokeSprite/gen9/0940_wattrel/normal/back.gif",
+  "abilities": [
+    {
+      "id": 277,
+      "slug": "wind-power",
+      "name": "Wind Power",
+      "jpName": "ふうりょくでんき",
+      "isHidden": false,
+      "slot": 1,
+      "description": "When hit by a wind move, the power of the next Electric-type move it uses is doubled.",
+      "jpDescription": "風技を 受けると じゅうでん 状態に なる。"
+    },
+    {
+      "id": 10,
+      "slug": "volt-absorb",
+      "name": "Volt Absorb",
+      "jpName": "ちくでん",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Absorbs Electric moves, healing for 1/4 max HP.",
+      "jpDescription": "でんきタイプの 技を 受けると ダメージを 受けずに 回復する。"
+    },
+    {
+      "id": 172,
+      "slug": "competitive",
+      "name": "Competitive",
+      "jpName": "かちき",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises Special Attack by two stages upon having any stat lowered.",
+      "jpDescription": "能力を 下げられると 特攻が ぐーんと 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 4,
+    "meters": 0.4,
+    "feetInches": "1'04\"",
+    "display": "0.4 m (1'04\")"
+  },
+  "weight": {
+    "hectograms": 36,
+    "kilograms": 3.6,
+    "pounds": 7.9,
+    "display": "3.6 kg (7.9 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "specialAttack": 55,
+    "specialDefense": 40,
+    "speed": 70,
+    "total": 280,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 100,
+          "max": 147
+        },
+        "lv100": {
+          "min": 190,
+          "max": 284
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 36,
+          "max": 95
+        },
+        "lv100": {
+          "min": 67,
+          "max": 185
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 54,
+          "max": 117
+        },
+        "lv100": {
+          "min": 103,
+          "max": 229
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 40,
+          "max": 101
+        },
+        "lv100": {
+          "min": 76,
+          "max": 196
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      }
+    }
+  },
+  "baseStatTotal": 280,
+  "typeMatchups": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 13,
+        "slug": "electric",
+        "name": "Electric",
+        "jpName": "でんき"
+      },
+      {
+        "slot": 2,
+        "id": 3,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 0.5,
+      "ice": 2.0,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 0.0,
+      "flying": 0.5,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 1.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "ice",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "poison",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark",
+      "fairy"
+    ],
+    "resistances0_5x": [
+      "grass",
+      "fighting",
+      "flying",
+      "bug",
+      "steel"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [
+      "ground"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "water",
+      "grass",
+      "fighting",
+      "flying",
+      "bug"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 1
+      }
+    ],
+    "evYieldText": "1 Speed",
+    "evYieldTextJa": "すばやさ+1",
+    "catchRate": 180,
+    "pokeBallFullHpPercent": 33.8,
+    "catchRateDisplay": "180 (33.8% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 56,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 2,
+        "slug": "water1",
+        "name": "Water 1",
+        "jpName": "すいちゅう１"
+      },
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 492,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      {
+        "speciesId": 941,
+        "dex": 941,
+        "slug": "kilowattrel",
+        "name": "Kilowattrel",
+        "jpName": "タイカイデン",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": 25,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Level 25",
+            "conditionTextJa": "Lv.25"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 940,
+        "dex": 940,
+        "slug": "wattrel",
+        "name": "Wattrel",
+        "jpName": "カイデン",
+        "types": [
+          "electric",
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen9/0940_wattrel/normal/front.gif",
+        "backSprite": "../pokeSprite/gen9/0940_wattrel/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 941,
+            "dex": 941,
+            "slug": "kilowattrel",
+            "name": "Kilowattrel",
+            "jpName": "タイカイデン",
+            "types": [
+              "electric",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen9/0941_kilowattrel/normal/front.gif",
+            "backSprite": "../pokeSprite/gen9/0941_kilowattrel/normal/back.gif",
+            "condition": "Level 25",
+            "conditionJa": "Lv.25",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 25,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 25",
+                "conditionTextJa": "Lv.25"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Wattrel --(Level 25)--> Kilowattrel",
+    "summaryTextJa": "カイデン --(Lv.25)--> タイカイデン"
+  },
+  "moves": {
+    "totalUniqueMoves": 46,
+    "levelUp": [
+      {
+        "id": 45,
+        "slug": "growl",
+        "name": "Growl",
+        "jpName": "なきごえ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 40,
+        "priority": 0,
+        "description": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.",
+        "jpDescription": "かわいい なきごえを 聞かせて 気を ひき 油断を させて 相手の 攻撃を さげる。",
+        "level": 1
+      },
+      {
+        "id": 64,
+        "slug": "peck",
+        "name": "Peck",
+        "jpName": "つつく",
+        "type": "flying",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "The target is jabbed with a sharply pointed beak or horn to inflict damage.",
+        "jpDescription": "鋭く とがった くちばしや つので 相手を 突いて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 84,
+        "slug": "thunder-shock",
+        "name": "Thunder Shock",
+        "jpName": "でんきショック",
+        "type": "electric",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user attacks the target with a jolt of electricity. This may also leave the target with paralysis.",
+        "jpDescription": "電気の 刺激を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。",
+        "level": 4
+      },
+      {
+        "id": 98,
+        "slug": "quick-attack",
+        "name": "Quick Attack",
+        "jpName": "でんこうせっか",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user lunges at the target to inflict damage, moving at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで 相手に つっこむ。 必ず 先制攻撃 できる。",
+        "level": 7
+      },
+      {
+        "id": 365,
+        "slug": "pluck",
+        "name": "Pluck",
+        "jpName": "ついばむ",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by pecking the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "くちばしで 攻撃。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 11
+      },
+      {
+        "id": 209,
+        "slug": "spark",
+        "name": "Spark",
+        "jpName": "スパーク",
+        "type": "electric",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks the target with an electrically charged tackle. This may also leave the target with paralysis.",
+        "jpDescription": "電気を まとい 相手に 突進して 攻撃する。 まひ状態に することが ある。",
+        "level": 15
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。",
+        "level": 19
+      },
+      {
+        "id": 355,
+        "slug": "roost",
+        "name": "Roost",
+        "jpName": "はねやすめ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user lands and rests its body. This move restores the user's HP by up to half its max HP.",
+        "jpDescription": "地面に 降りて 体を やすめる。 最大ＨＰの 半分の ＨＰを 回復する。",
+        "level": 23
+      },
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。",
+        "level": 27
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。",
+        "level": 32
+      },
+      {
+        "id": 521,
+        "slug": "volt-switch",
+        "name": "Volt Switch",
+        "jpName": "ボルトチェンジ",
+        "type": "electric",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えポケモンと 入れ替わる。",
+        "level": 37
+      },
+      {
+        "id": 435,
+        "slug": "discharge",
+        "name": "Discharge",
+        "jpName": "ほうでん",
+        "type": "electric",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis.",
+        "jpDescription": "まばゆい 電撃で 自分の 周りに いるものを 攻撃する。 まひ状態に することが ある。",
+        "level": 43
+      }
+    ],
+    "machine": [
+      {
+        "id": 512,
+        "slug": "acrobatics",
+        "name": "Acrobatics",
+        "jpName": "アクロバット",
+        "type": "flying",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item.",
+        "jpDescription": "軽やかに 相手を 攻撃する。 自分が 道具を 持っていないとき 大きな ダメージを 与える。"
+      },
+      {
+        "id": 332,
+        "slug": "aerial-ace",
+        "name": "Aerial Ace",
+        "jpName": "つばめがえし",
+        "type": "flying",
+        "category": "physical",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+        "jpDescription": "素早い 動きで 相手を ほんろうして 切りつける。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 97,
+        "slug": "agility",
+        "name": "Agility",
+        "jpName": "こうそくいどう",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 30,
+        "priority": 0,
+        "description": "The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",
+        "jpDescription": "力を ぬいて 体を 軽くして 高速で 動く。 自分の 素早さを ぐーんと あげる。"
+      },
+      {
+        "id": 314,
+        "slug": "air-cutter",
+        "name": "Air Cutter",
+        "jpName": "エアカッター",
+        "type": "flying",
+        "category": "special",
+        "power": 60,
+        "accuracy": 95,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user launches razor-like wind to slash opposing Pokémon. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "鋭い 風で 相手を 切りつけて 攻撃する。 急所に 当たりやすい。"
+      },
+      {
+        "id": 403,
+        "slug": "air-slash",
+        "name": "Air Slash",
+        "jpName": "エアスラッシュ",
+        "type": "flying",
+        "category": "special",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+        "jpDescription": "空をも 切り裂く 空気の 刃で 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 413,
+        "slug": "brave-bird",
+        "name": "Brave Bird",
+        "jpName": "ブレイブバード",
+        "type": "flying",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user tucks in its wings and charges at a low altitude. This also damages the user quite a lot.",
+        "jpDescription": "はねを おりたたみ 低空飛行で 突撃する。 自分も かなり ダメージを 受ける。"
+      },
+      {
+        "id": 268,
+        "slug": "charge",
+        "name": "Charge",
+        "jpName": "じゅうでん",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user becomes charged, boosting the power of the next Electric-type move it uses. This also boosts the user's Sp. Def stat.",
+        "jpDescription": "次の ターンに だす でんきタイプの 技の 威力を あげる。 自分の 特防も あがる。"
+      },
+      {
+        "id": 451,
+        "slug": "charge-beam",
+        "name": "Charge Beam",
+        "jpName": "チャージビーム",
+        "type": "electric",
+        "category": "special",
+        "power": 50,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks the target with an electric charge. The residual electricity may also boost the user's Sp. Atk stat.",
+        "jpDescription": "電撃の 束を 相手に 発射する。電気を ためて 自分の 特攻を あげることが ある。"
+      },
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 598,
+        "slug": "eerie-impulse",
+        "name": "Eerie Impulse",
+        "jpName": "かいでんぱ",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.",
+        "jpDescription": "体から かいでんぱを 放ち 相手に 浴びせる ことによって 特攻を がくっと さげる。"
+      },
+      {
+        "id": 604,
+        "slug": "electric-terrain",
+        "name": "Electric Terrain",
+        "jpName": "エレキフィールド",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep.",
+        "jpDescription": "５ターンの 間 エレキフィールドにする。 地面にいる ポケモンは 眠らない。 でんきタイプの 威力が あがる。"
+      },
+      {
+        "id": 486,
+        "slug": "electro-ball",
+        "name": "Electro Ball",
+        "jpName": "エレキボール",
+        "type": "electric",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power.",
+        "jpDescription": "電気の 塊を 相手に ぶつける。相手より 素早さが 速いほど 威力が あがる。"
+      },
+      {
+        "id": 527,
+        "slug": "electroweb",
+        "name": "Electroweb",
+        "jpName": "エレキネット",
+        "type": "electric",
+        "category": "special",
+        "power": 55,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user captures opposing Pokémon in an electric net to inflict damage. This also lowers their Speed stats.",
+        "jpDescription": "電気の ネットで 相手を 捕まえて 攻撃する。 相手の 素早さを さげる。"
+      },
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 297,
+        "slug": "feather-dance",
+        "name": "Feather Dance",
+        "jpName": "フェザーダンス",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+        "jpDescription": "羽毛を ふりまいて 相手の 体に からませる。 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 19,
+        "slug": "fly",
+        "name": "Fly",
+        "jpName": "そらをとぶ",
+        "type": "flying",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user flies up into the sky on the first turn, then attacks on the next turn.",
+        "jpDescription": "１ターン目で 空へ 飛び ２ターン目に 相手を 攻撃する。"
+      },
+      {
+        "id": 542,
+        "slug": "hurricane",
+        "name": "Hurricane",
+        "jpName": "ぼうふう",
+        "type": "flying",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by wrapping its opponent in a fierce wind. This may also confuse the target.",
+        "jpDescription": "強烈な 風で 相手を 包みこんで 攻撃する。 相手を 混乱させることが ある。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 129,
+        "slug": "swift",
+        "name": "Swift",
+        "jpName": "スピードスター",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+        "jpDescription": "星型の 光を 発射して 相手を 攻撃する。 攻撃は 必ず 命中する。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 36,
+        "slug": "take-down",
+        "name": "Take Down",
+        "jpName": "とっしん",
+        "type": "normal",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 85,
+        "pp": 20,
+        "priority": 0,
+        "description": "A reckless full-body charge attack for slamming into the target. This also damages the user a little.",
+        "jpDescription": "すごい 勢いで 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      },
+      {
+        "id": 851,
+        "slug": "tera-blast",
+        "name": "Tera Blast",
+        "jpName": "テラバースト",
+        "type": "normal",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
+        "jpDescription": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+      },
+      {
+        "id": 87,
+        "slug": "thunder",
+        "name": "Thunder",
+        "jpName": "かみなり",
+        "type": "electric",
+        "category": "special",
+        "power": 110,
+        "accuracy": 70,
+        "pp": 10,
+        "priority": 0,
+        "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+        "jpDescription": "激しい 雷を 相手に 落として 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 86,
+        "slug": "thunder-wave",
+        "name": "Thunder Wave",
+        "jpName": "でんじは",
+        "type": "electric",
+        "category": "status",
+        "power": null,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+        "jpDescription": "弱い 電撃を 浴びせることで 相手を まひ状態に する。"
+      },
+      {
+        "id": 85,
+        "slug": "thunderbolt",
+        "name": "Thunderbolt",
+        "jpName": "１０まんボルト",
+        "type": "electric",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis.",
+        "jpDescription": "強い 電撃を 相手に 浴びせて 攻撃する。 まひ状態に することが ある。"
+      },
+      {
+        "id": 369,
+        "slug": "u-turn",
+        "name": "U-turn",
+        "jpName": "とんぼがえり",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えの ポケモンと 入れ替わる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 521,
+        "slug": "volt-switch",
+        "name": "Volt Switch",
+        "jpName": "ボルトチェンジ",
+        "type": "electric",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+        "jpDescription": "攻撃したあと ものすごい スピードで もどってきて 控えポケモンと 入れ替わる。"
+      },
+      {
+        "id": 311,
+        "slug": "weather-ball",
+        "name": "Weather Ball",
+        "jpName": "ウェザーボール",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's type and power change depending on the weather at the time the move is used.",
+        "jpDescription": "使ったときの 天気に よって 技の タイプと 威力が 変わる。"
+      },
+      {
+        "id": 528,
+        "slug": "wild-charge",
+        "name": "Wild Charge",
+        "jpName": "ワイルドボルト",
+        "type": "electric",
+        "category": "physical",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+        "jpDescription": "電気を まとって 相手に ぶつかって 攻撃する。 自分も 少し ダメージを 受ける。"
+      }
+    ],
+    "egg": [
+      {
+        "id": 283,
+        "slug": "endeavor",
+        "name": "Endeavor",
+        "jpName": "がむしゃら",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP.",
+        "jpDescription": "相手の ＨＰが 自分の ＨＰと 同じくらいに なるように ダメージを 与える。"
+      },
+      {
+        "id": 297,
+        "slug": "feather-dance",
+        "name": "Feather Dance",
+        "jpName": "フェザーダンス",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+        "jpDescription": "羽毛を ふりまいて 相手の 体に からませる。 相手の 攻撃を がくっと さげる。"
+      },
+      {
+        "id": 255,
+        "slug": "spit-up",
+        "name": "Spit Up",
+        "jpName": "はきだす",
+        "type": "normal",
+        "category": "special",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
+        "jpDescription": "蓄えた 力を 相手に ぶつけて 攻撃する。 蓄えているほど 威力が あがる。"
+      },
+      {
+        "id": 254,
+        "slug": "stockpile",
+        "name": "Stockpile",
+        "jpName": "たくわえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user stores power and boosts its Defense and Sp. Def stats. This move can be used up to three times.",
+        "jpDescription": "力を 蓄えて 自分の 防御と 特防を あげる。 最大 ３回まで 蓄えられる。"
+      },
+      {
+        "id": 256,
+        "slug": "swallow",
+        "name": "Swallow",
+        "jpName": "のみこむ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The power stored using the move Stockpile is absorbed by the user to restore its own HP. The more power is stored, the more HP is restored.",
+        "jpDescription": "蓄えた 力を のみこんで 自分の ＨＰを 回復する。 蓄えているほど 回復する。"
+      },
+      {
+        "id": 311,
+        "slug": "weather-ball",
+        "name": "Weather Ball",
+        "jpName": "ウェザーボール",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "This move's type and power change depending on the weather at the time the move is used.",
+        "jpDescription": "使ったときの 天気に よって 技の タイプと 威力が 変わる。"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0858_hatterene-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 500c2a
+1 333333
+2 aa7683
+3 7293b9
+4 d28092
+5 aaaab7
+6 8ec0e3
+7 f7a4ac
+8 bee0ee
+9 dcdae7
+a ffffff

@@ -1,0 +1,82 @@
+{
+ "base": "0731_pikipek",
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "y": "ffd040",
+  "o": "ff9020",
+  "r": "e83828",
+  "d": "a02818"
+ },
+ "parts": [
+  {
+   "name": "beak",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -4
+     ],
+     "px": [
+      ".kkkkk.",
+      "kyyyyyk",
+      "kyyyyyk",
+      "koooook",
+      ".koook.",
+      ".krrrk.",
+      "..krk..",
+      "...k..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -2,
+      -4
+     ],
+     "px": [
+      ".kkkkk.....",
+      "kyyyookkkk.",
+      "kyyyooorrrk",
+      "kyyyooodrrk",
+      "kyyddddkkk.",
+      "kddkkkk....",
+      ".kk........"
+     ]
+    },
+    "E": {
+     "at": [
+      -2,
+      -4
+     ],
+     "px": [
+      ".kkkkkk........",
+      "kyyyyyokkkkk...",
+      "kyyyyyoooorrkk.",
+      "kyyyyyoooordrrk",
+      "kyyyyyoddddkkk.",
+      "kyyddddkkkk....",
+      "kddkkkk........",
+      ".kk............"
+     ]
+    },
+    "NE": {
+     "at": [
+      -3,
+      -3
+     ],
+     "px": [
+      ".kkkkk.....",
+      "kyyyookkkk.",
+      "kyyyooorrrk",
+      "kyyyooodrrk",
+      "kyyddddkkk.",
+      "kddkkkk....",
+      ".kk........"
+     ]
+    }
+   }
+  }
+ ]
+}

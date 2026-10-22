@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "id": "0006_charizard-mega-x",
+  "scale": 2,
+  "dirs": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "source": {
+    "repository": "https://github.com/PMDCollab/SpriteCollab",
+    "revision": "334639a66c5c70bccfe4e32fbb7d9b7c5043bae9",
+    "folder": "0006/0001",
+    "files": [
+      {
+        "file": "AnimData.xml",
+        "gitBlob": "3520200fe14a124598b72e7f9df772df5c1d475d",
+        "sha256": "6128267e22fdce251fd5e32d39aeabfeed437c0f5978640d993119a26dc508b1"
+      },
+      {
+        "file": "Attack-Anim.png",
+        "gitBlob": "ec5459d7a3481f51396b469bcffcf9664c0b50ac",
+        "sha256": "a0e0e6ded1adcaaa6a602e5910541007dc8faf9b0c8b4c929c56147dc001a214"
+      },
+      {
+        "file": "Attack-Offsets.png",
+        "gitBlob": "d7ffa613d214e5a326d6948373353dd8c368938d",
+        "sha256": "b75ab6585aeae897770a5c8d9faa92a1b27214980e112a38ef7d52d5d889d103"
+      },
+      {
+        "file": "Attack-Shadow.png",
+        "gitBlob": "c7e3bb97c06a2675cb8a614eac2f966f40cd92f2",
+        "sha256": "a8639ce077bb6a926d083e408e9593784f51ee55c31a22e58a1275ea8b20ef6f"
+      },
+      {
+        "file": "Charge-Anim.png",
+        "gitBlob": "171253c7c575d1e672b52d571d669157f10c9128",
+        "sha256": "5f2e0d184e13cc7cf5efdeeb82b8dc5e0d4f8ef95899c552e21d845e1f79e7f4"
+      },
+      {
+        "file": "Charge-Offsets.png",
+        "gitBlob": "c377a758f205efc52ce426d8143faaa9255b0f21",
+        "sha256": "4cf89314764e89218df643e19720d9ac92f8ec5899883cc11475409d908c6394"
+      },
+      {
+        "file": "Charge-Shadow.png",
+        "gitBlob": "c9a437e9cfc6c29b53426e6de2436307fbab0789",
+        "sha256": "0dfbb605898e9eb975fc8e01d4db4fe5cd063c3eadf98b380aa401ecd4476724"
+      },
+      {
+        "file": "Cringe-Anim.png",
+        "gitBlob": "e2351439fecb78c9daf4e93ec65b1e346f498a2c",
+        "sha256": "0e80282936ff0d5e16383011dd02c5939dff83d0fde6da45cda9f3a116b57932"
+      },
+      {
+        "file": "Cringe-Offsets.png",
+        "gitBlob": "e534acb1cbc74ae983f96f0af7e5c1aa2d8c1e33",
+        "sha256": "aec03669b0279b0d78d1d721f41d9fd62dcf72a2ab3fdd001a06738a55f6efe4"
+      },
+      {
+        "file": "Cringe-Shadow.png",
+        "gitBlob": "44387d69d469c08724e9b45b2730e13164b929dc",
+        "sha256": "580b5a335b975171577a949b2dfaf856a910c9558d83cde0e151c33aa1220897"
+      },
+      {
+        "file": "Double-Anim.png",
+        "gitBlob": "3c8f1e9ca2bf7789bc7e8b8bdbc7ec1af1b5e98a",
+        "sha256": "d0e622191a1f900d0ecb4258c16b9d9fb8a33248a84955d212bab3233540f468"
+      },
+      {
+        "file": "Double-Offsets.png",
+        "gitBlob": "c7d84cf1ac10ca212b2b9a5787b43220cef90475",
+        "sha256": "db56aa429a4bdd4941a4de768dc13a59a97fc749e41efa3dbeb77aff0a6ba025"
+      },
+      {
+        "file": "Double-Shadow.png",
+        "gitBlob": "d672e8f61d213a5d5adba9fdcf1c74d0919fc3fc",
+        "sha256": "9e5ea095932b79deb317cbd5fd90d9e47436a1398be01544fa26237fff4ce1ee"
+      },
+      {
+        "file": "Hop-Anim.png",
+        "gitBlob": "b32955e83faf6a94cde15b48c4efd6b78d7ad849",
+        "sha256": "b0d38cfccd86f9dbd7db6b2be86ebc489a8813a412c1a5be7dd0e483f62d5bfd"
+      },
+      {
+        "file": "Hop-Offsets.png",
+        "gitBlob": "83f6a18208eb6d0eb3e8d4dbaed59fa68fb5945f",
+        "sha256": "18a38e3c9a0dfcd2b988d95f832181caff1f5b6a4fc989b6f7dd419793f6a9e3"
+      },
+      {
+        "file": "Hop-Shadow.png",
+        "gitBlob": "150103d181d1371b6bd7b68630b9b56b7263dddc",
+        "sha256": "30edd9679772a18769dd267a4de294ea18ecc22172a01d059fe43e2a53c774cd"
+      },
+      {
+        "file": "Hurt-Anim.png",
+        "gitBlob": "55fc6e65ca496a588e546f96d98d5e8eb81c6df4",
+        "sha256": "4fb1ee1c785f7c9f9f63280d93a75635baa978ec57456d649ecb09d57352ca2a"
+      },
+      {
+        "file": "Hurt-Offsets.png",
+        "gitBlob": "41d17f590dd825a0517958e39e3c4ca61119dcf7",
+        "sha256": "a5ff433b14b8514cac68d32d221611bd9095ac12079837c5e959c175d867738a"
+      },
+      {
+        "file": "Hurt-Shadow.png",
+        "gitBlob": "0820a0ca4cbfff19a0279847289a28a9e7471e12",
+        "sha256": "03a44da161edeef5b8c0a9c2d20a5e11a30664b078f3c12bf256b33054429860"
+      },
+      {
+        "file": "Idle-Anim.png",
+        "gitBlob": "8912a92eb7c325416197d9138fd9a4d28f0faf61",
+        "sha256": "f7c590704a89aee35f215bfbd62ca98b4c6a657e70ea7b511d5c8575379476f1"
+      },
+      {
+        "file": "Idle-Offsets.png",
+        "gitBlob": "cbdc49499cc88f0a19e4ed9e27411b86d5dfbc2f",
+        "sha256": "c742e474a4829441a43d626b8e2181761e7e0534b83cadef768aaf0802fa79db"
+      },
+      {
+        "file": "Idle-Shadow.png",
+        "gitBlob": "175a3926b85a6a89b5ff46393d31e5d4d7c368af",
+        "sha256": "599bca0e4446708ea34de032e3e7f3847eab6d7fec80e57f545fb47e4bbf720e"
+      },
+      {
+        "file": "Rotate-Anim.png",
+        "gitBlob": "2bd5dff57f629d6e95574ea7af285a18e3f41564",
+        "sha256": "9ef0ca0500fd3e19c702562fcdbbaaf7b49eef1c344b0fed382e1831e01d3c9f"
+      },
+      {
+        "file": "Rotate-Offsets.png",
+        "gitBlob": "b43ecaba42c4727267503fd3bc18c11af182b4f5",
+        "sha256": "310ec0a4daae171bd6f30cc47a34fd8ff8d160371e98d6ed42d2f4cf936d3e80"
+      },
+      {
+        "file": "Rotate-Shadow.png",
+        "gitBlob": "8e4a5fd3daa2fa54e46885ba3a2b9db754aaae1c",
+        "sha256": "cd1e36b8e877329456f5b559785d005c16f064d0e18b00c990af6bd0cf65bd53"
+      },
+      {
+        "file": "Shoot-Anim.png",
+        "gitBlob": "c92833b27f4c48d312536bae89f2757df0c82bd0",
+        "sha256": "22c1fb64fb151cbf6a709fc966a6ae08301a0dc3f018ce9f3c24efcf2e20238f"
+      },
+      {
+        "file": "Shoot-Offsets.png",
+        "gitBlob": "30fd4910708a53bbb7d1a473100b795f412ca53c",
+        "sha256": "3f060b3430811768e9568a64e648bd94cf1e378e4d20e62a4adf1dd8d89565f6"
+      },
+      {
+        "file": "Shoot-Shadow.png",
+        "gitBlob": "17aefbff483685af1fdce49b91c327de1d1e4856",
+        "sha256": "f095002300fe0eba7cdc7e550a4ca31e5ce9aeffb8a9335c29233630e840f254"
+      },
+      {
+        "file": "Sleep-Anim.png",
+        "gitBlob": "3fb0af75726cfd9f12f36998e460d4364941332a",
+        "sha256": "e4e2697a24c2112e74ffac601c143de295685ec73d740ad829c45d103a8a9e78"
+      },
+      {
+        "file": "Sleep-Offsets.png",
+        "gitBlob": "ba2eea079ee1f997503decccf05ad7e0ed4b83ff",
+        "sha256": "5dfa58e6399e412e7b21e224294f3493802037aae85cfa81bd71de5287c99e58"
+      },
+      {
+        "file": "Sleep-Shadow.png",
+        "gitBlob": "dd74c613855d15c0ad3ef2e5e9381719ed24a2f3",
+        "sha256": "f04d82ef2806089aa6c612bbf29b81e3be8855ee988332065b4f78a0e1a67f45"
+      },
+      {
+        "file": "Swing-Anim.png",
+        "gitBlob": "c94253e9a8071fc565c2f04c255536b350ce186d",
+        "sha256": "af95a081f7fbcade8669d687869d1344d2739b44b1df6b3da184c12ecaf10d91"
+      },
+      {
+        "file": "Swing-Offsets.png",
+        "gitBlob": "f164e3b701c34c084f0d871e9ed3f9857ad76c74",
+        "sha256": "92495faf4027362660c9671286a53e2eaf5685508b7af20ae153d181a438f355"
+      },
+      {
+        "file": "Swing-Shadow.png",
+        "gitBlob": "72bf14ebffefe2c744ee3407ff04e22e3040c6f6",
+        "sha256": "5601bebca6313db48361c99e42132bec829ce205c6c922ce108bd38f3fed5f08"
+      },
+      {
+        "file": "Walk-Anim.png",
+        "gitBlob": "8912a92eb7c325416197d9138fd9a4d28f0faf61",
+        "sha256": "f7c590704a89aee35f215bfbd62ca98b4c6a657e70ea7b511d5c8575379476f1"
+      },
+      {
+        "file": "Walk-Offsets.png",
+        "gitBlob": "cbdc49499cc88f0a19e4ed9e27411b86d5dfbc2f",
+        "sha256": "c742e474a4829441a43d626b8e2181761e7e0534b83cadef768aaf0802fa79db"
+      },
+      {
+        "file": "Walk-Shadow.png",
+        "gitBlob": "175a3926b85a6a89b5ff46393d31e5d4d7c368af",
+        "sha256": "599bca0e4446708ea34de032e3e7f3847eab6d7fec80e57f545fb47e4bbf720e"
+      },
+      {
+        "file": "credits.txt",
+        "gitBlob": "ce51436637264a33ce802be2ec2837213b79d883",
+        "sha256": "b9e1fd30020ef99015a6f4f04af250a5f726ba4e969ff143cfbcec6218987ecb"
+      }
+    ]
+  },
+  "palette": {
+    "0": "000000",
+    "1": "0f87df",
+    "2": "67bfe7",
+    "3": "3f3f3f",
+    "4": "2f577f",
+    "5": "676767",
+    "6": "07274f",
+    "7": "073777",
+    "8": "97e7f7",
+    "9": "4f4f4f",
+    "a": "282827",
+    "b": "ffffff",
+    "c": "b70000",
+    "d": "4f6fb7",
+    "e": "275f7f"
+  },
+  "anims": {
+    "Idle": {
+      "fw": 48,
+      "fh": 56,
+      "rows": 8,
+      "frames": 4,
+      "durations": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Idle",
+      "sourceSha256": "f7c590704a89aee35f215bfbd62ca98b4c6a657e70ea7b511d5c8575379476f1"
+    },
+    "Walk": {
+      "fw": 48,
+      "fh": 56,
+      "rows": 8,
+      "frames": 4,
+      "durations": [
+        8,
+        10,
+        8,
+        10
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Walk",
+      "sourceSha256": "f7c590704a89aee35f215bfbd62ca98b4c6a657e70ea7b511d5c8575379476f1"
+    },
+    "Attack": {
+      "fw": 88,
+      "fh": 96,
+      "rows": 8,
+      "frames": 14,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": 2,
+      "ret": 8,
+      "sourceAnimation": "Attack",
+      "sourceSha256": "a0e0e6ded1adcaaa6a602e5910541007dc8faf9b0c8b4c929c56147dc001a214"
+    },
+    "Shoot": {
+      "fw": 56,
+      "fh": 64,
+      "rows": 8,
+      "frames": 11,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "sourceAnimation": "Shoot",
+      "sourceSha256": "22c1fb64fb151cbf6a709fc966a6ae08301a0dc3f018ce9f3c24efcf2e20238f"
+    },
+    "SpAttack": {
+      "fw": 56,
+      "fh": 64,
+      "rows": 8,
+      "frames": 11,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "sourceAnimation": "Shoot",
+      "sourceSha256": "22c1fb64fb151cbf6a709fc966a6ae08301a0dc3f018ce9f3c24efcf2e20238f"
+    },
+    "Charge": {
+      "fw": 48,
+      "fh": 56,
+      "rows": 8,
+      "frames": 10,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": null,
+      "ret": 9,
+      "sourceAnimation": "Charge",
+      "sourceSha256": "5f2e0d184e13cc7cf5efdeeb82b8dc5e0d4f8ef95899c552e21d845e1f79e7f4"
+    },
+    "Strike": {
+      "fw": 88,
+      "fh": 96,
+      "rows": 8,
+      "frames": 14,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": 2,
+      "ret": 8,
+      "sourceAnimation": "Attack",
+      "sourceSha256": "a0e0e6ded1adcaaa6a602e5910541007dc8faf9b0c8b4c929c56147dc001a214"
+    },
+    "Hurt": {
+      "fw": 64,
+      "fh": 64,
+      "rows": 8,
+      "frames": 2,
+      "durations": [
+        2,
+        8
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "sourceAnimation": "Hurt",
+      "sourceSha256": "4fb1ee1c785f7c9f9f63280d93a75635baa978ec57456d649ecb09d57352ca2a"
+    }
+  }
+}

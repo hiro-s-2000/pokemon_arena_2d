@@ -1,0 +1,16 @@
+// pixel-paint palette for 0687_malamar-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 333e4f
+2 841e62
+3 5c638f
+4 24996a
+5 db3f8a
+6 769dc8
+7 fa94b4
+8 c4cae1
+9 59ebeb
+a f6efb7
+b fafafa

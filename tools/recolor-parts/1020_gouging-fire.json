@@ -1,0 +1,123 @@
+{
+ "base": "0244_entei",
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "Y": "fff0a0",
+  "y": "f0c840",
+  "o": "b88a20"
+ },
+ "parts": [
+  {
+   "name": "mane",
+   "anchor": "head",
+   "layer": "back",
+   "anims": [
+    "Idle",
+    "Walk",
+    "Attack",
+    "Shoot",
+    "SpAttack",
+    "Strike",
+    "Hurt"
+   ],
+   "dirs": {
+    "S": {
+     "at": [
+      -9,
+      -20
+     ],
+     "px": [
+      "k.......k.......k..",
+      "kk.....kYk.....kk..",
+      "kYk..k.kYk.k..kYk..",
+      ".kYk.kkYyYkk.kYk...",
+      ".kYYkkYyyyYkkYYk.k.",
+      "..kYYYyyyyyYYYk.kYk",
+      "..kYyyyyyyyyyyYkYk.",
+      "k.kYyyyoyyyoyyyYk..",
+      "kYkYyyoooyoooyyYk..",
+      ".kYYyooooooooyyk...",
+      "..kkoooooooooook..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -20
+     ],
+     "px": [
+      "k.......k.......k..",
+      "kk.....kYk.....kk..",
+      "kYk..k.kYk.k..kYk..",
+      ".kYk.kkYyYkk.kYk...",
+      ".kYYkkYyyyYkkYYk.k.",
+      "..kYYYyyyyyYYYk.kYk",
+      "..kYyyyyyyyyyyYkYk.",
+      "k.kYyyyoyyyoyyyYk..",
+      "kYkYyyoooyoooyyYk..",
+      ".kYYyooooooooyyk...",
+      "..kkoooooooooook..."
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -19
+     ],
+     "px": [
+      "k.......k.......k..",
+      "kk.....kYk.....kk..",
+      "kYk..k.kYk.k..kYk..",
+      ".kYk.kkYyYkk.kYk...",
+      ".kYYkkYyyyYkkYYk.k.",
+      "..kYYYyyyyyYYYk.kYk",
+      "..kYyyyyyyyyyyYkYk.",
+      "k.kYyyyoyyyoyyyYk..",
+      "kYkYyyoooyoooyyYk..",
+      ".kYYyooooooooyyk...",
+      "..kkoooooooooook..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -11,
+      -13
+     ],
+     "px": [
+      "k.......k.......k..",
+      "kk.....kYk.....kk..",
+      "kYk..k.kYk.k..kYk..",
+      ".kYk.kkYyYkk.kYk...",
+      ".kYYkkYyyyYkkYYk.k.",
+      "..kYYYyyyyyYYYk.kYk",
+      "..kYyyyyyyyyyyYkYk.",
+      "k.kYyyyoyyyoyyyYk..",
+      "kYkYyyoooyoooyyYk..",
+      ".kYYyooooooooyyk...",
+      "..kkoooooooooook..."
+     ]
+    },
+    "N": {
+     "at": [
+      -9,
+      -11
+     ],
+     "px": [
+      "k.......k.......k..",
+      "kk.....kYk.....kk..",
+      "kYk..k.kYk.k..kYk..",
+      ".kYk.kkYyYkk.kYk...",
+      ".kYYkkYyyyYkkYYk.k.",
+      "..kYYYyyyyyYYYk.kYk",
+      "..kYyyyyyyyyyyYkYk.",
+      "k.kYyyyoyyyoyyyYk..",
+      "kYkYyyoooyoooyyYk..",
+      ".kYYyooooooooyyk...",
+      "..kkoooooooooook..."
+     ]
+    }
+   }
+  }
+ ]
+}

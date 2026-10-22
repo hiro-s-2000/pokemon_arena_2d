@@ -1,0 +1,32 @@
+// pixel-paint palette for 0099_kingler-gmax (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// claw shell salmon: light / mid / dark
+A e89a80
+B c56a5a
+C 8e3c36
+// head carapace orange: light / mid / dark
+D f8b878
+E ee8b4a
+F b85a26
+// cream legs + arm: highlight / mid / shade / dark
+G ffe6b4
+H eebd8b
+I b47b5a
+J 735210
+// leg tips
+L e2582e
+K 832908
+// foam / plates: white / lilac / shade
+W ffffff
+V e1d0db
+U b5a6b5
+T 9a859a
+// eyes: pale-pink sclera / pink shade / dark pupil
+Y ffdede
+P ff9191
+R 4a0a14
+// water FX
+S 35b8f4
+X c8f0ff
+Z 1a6cb0

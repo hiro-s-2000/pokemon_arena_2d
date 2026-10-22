@@ -1,0 +1,15 @@
+// pixel-paint palette for 0733_toucannon. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 404040
+2 992d17
+3 266980
+4 f24724
+5 a6a6a6
+6 45bde5
+7 ff884c
+8 ffc44c
+9 ffff4c
+a f8f8f8

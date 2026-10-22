@@ -1,0 +1,14 @@
+// pixel-paint palette for 0616_shelmet. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 630021
+1 333333
+2 353535
+3 4d6070
+4 af3d39
+5 3c8c42
+6 fc4879
+7 9394ac
+8 c6c6d6
+9 f4eded

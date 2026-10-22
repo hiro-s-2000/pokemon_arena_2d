@@ -1,0 +1,22 @@
+// 0009_blastoise-mega — hand-painted palette (light from upper-left)
+. transparent
+# 000000
+L 9cc4f8
+B 5a8edc
+b 2a62b8
+d 103c74
+Y fae6a8
+y e0bc66
+z a8802e
+N a8784a
+n 744a22
+o 5c3814
+m 42280e
+W ffffff
+w d6d8e0
+g 9c9ca6
+G 5c5c66
+R f04030
+r 98201a
+C b8f4ff
+c 50b8f4

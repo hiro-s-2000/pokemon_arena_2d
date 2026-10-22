@@ -1,0 +1,15 @@
+// pixel-paint palette for 0870_falinks. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 292929
+1 591b13
+2 60310f
+3 892d1f
+4 785456
+5 aa7035
+6 ef1918
+7 af9aa2
+8 d09f2f
+9 ffcc34
+a f3fcff

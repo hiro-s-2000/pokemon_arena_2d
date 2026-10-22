@@ -1,0 +1,16 @@
+// pixel-paint palette for 0655_delphox-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 323333
+2 681d1d
+3 574563
+4 8e3636
+5 cb4818
+6 f00062
+7 f758b7
+8 c1aea8
+9 e5ac3b
+a ffdd3e
+b ffffff

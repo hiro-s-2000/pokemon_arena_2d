@@ -1,0 +1,16 @@
+// pixel-paint palette for 0947_brambleghast. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 180a10
+1 0f371e
+2 333333
+3 442e0a
+4 594b5d
+5 8e4c1f
+6 a77f49
+7 16a34a
+8 ab85b0
+9 4ade80
+a e5bb83
+b f0fdf4

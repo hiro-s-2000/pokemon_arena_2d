@@ -1,0 +1,16 @@
+// pixel-paint palette for 0531_audino-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 501030
+1 333333
+2 9f272a
+3 73694b
+4 b35968
+5 7f797a
+6 e35c7a
+7 e0b36e
+8 c0bdbe
+9 fec2d2
+a ffeaa8
+b f8f8f8

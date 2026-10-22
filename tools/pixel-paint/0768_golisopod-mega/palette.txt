@@ -1,0 +1,16 @@
+// pixel-paint palette for 0768_golisopod-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 14532d
+2 4b4552
+3 6d2d7a
+4 716578
+5 3d9482
+6 a87e86
+7 65a30d
+8 cf78db
+9 b1b5bd
+a a8e637
+b eef1ec

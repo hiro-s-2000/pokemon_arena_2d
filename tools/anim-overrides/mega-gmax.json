@@ -1,0 +1,3 @@
+{
+  "_comment": "Mega/Primal/Gigantamax overrides. All 43 auto-mapped entries were checked visually against pokeSprite front.png and match; no corrections needed. Unmapped ones have no SpriteCollab sheets (or only a 1-frame Idle: 0006/0003, 0358/0001, 0869/0063) and correctly use the GIF."
+}

@@ -1,0 +1,53 @@
+{
+ "id": "0592_frillish-male",
+ "exported": "2026-10-21T07:51:43.299Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 32,
+   "H": 35,
+   "x0": -3,
+   "y0": -3,
+   "w": 38,
+   "h": 42,
+   "frames": 99
+  },
+  "back": {
+   "W": 34,
+   "H": 35,
+   "x0": -3,
+   "y0": -3,
+   "w": 39,
+   "h": 42,
+   "frames": 74
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (99 vs 99 frames)",
+  "backR": "worst frame mismatch 0.00% (74 vs 74 frames)"
+ },
+ "pixel": {
+  "height": 30,
+  "how": "override",
+  "scale": 0.4375,
+  "srcBodyH": 64,
+  "colors": 10,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0593_jellicent-male",
+  "palette": 8,
+  "outlineShades": 1
+ }
+}

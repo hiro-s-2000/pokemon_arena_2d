@@ -1,0 +1,17 @@
+// pixel-paint palette for 0839_coalossal. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 080808
+1 3b2f33
+2 373133
+3 373337
+4 453233
+5 42403c
+6 78373b
+7 54504c
+8 67635c
+9 ea4649
+a e69762
+b e0b625
+c fbfbfb

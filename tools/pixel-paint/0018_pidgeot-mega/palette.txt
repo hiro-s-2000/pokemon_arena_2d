@@ -1,0 +1,35 @@
+// pixel-paint palette for 0018_pidgeot-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// wing tan: light / mid / feather line
+T fff0b8
+t f0c070
+u b87a40
+v 7a4a28
+// belly cream: light / mid / shade
+C fff8c8
+c f8e098
+k e8c070
+// red head plume / tail: light / mid / shade
+R ff5868
+r e02840
+q 981830
+// crest flame: yellow / orange / deep
+Y fff060
+y ffb828
+O e86020
+// blue feather tips: light / dark
+B 38b8f0
+L 1870b8
+N 18406e
+// beak pink / shade
+P f8b8a8
+p c87870
+// talons
+F d8a090
+G 986050
+// eye: red iris / highlight
+e d81828
+W ffffff
+// effects (wind blade)
+l b8ecff

@@ -1,0 +1,1035 @@
+{
+ "base": "0948_toedscool",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "b": "34343c",
+  "c": "1c1c22",
+  "y": "e8c838"
+ },
+ "parts": [
+  {
+   "name": "brim",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      1
+     ],
+     "px": [
+      "....kkkkkkkkkkkkkkkkk.....",
+      "..kkccccccccccccccccckk...",
+      ".kcccbbbbbbbbbbbbbbbccck..",
+      "kccbbbbbbbbbbbbbbbbbbbcck.",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      1
+     ],
+     "px": [
+      "....kkkkkkkkkkkkkkkkk.....",
+      "..kkccccccccccccccccckk...",
+      ".kcccbbbbbbbbbbbbbbbccck..",
+      "kccbbbbbbbbbbbbbbbbbbbcck.",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -12,
+      1
+     ],
+     "px": [
+      "....kkkkkkkkkkkkkkkkk.....",
+      "..kkccccccccccccccccckk...",
+      ".kcccbbbbbbbbbbbbbbbccck..",
+      "kccbbbbbbbbbbbbbbbbbbbcck.",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      1
+     ],
+     "px": [
+      "....kkkkkkkkkkkkkkkkk.....",
+      "..kkccccccccccccccccckk...",
+      ".kcccbbbbbbbbbbbbbbbccck..",
+      "kccbbbbbbbbbbbbbbbbbbbcck.",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      1
+     ],
+     "px": [
+      "....kkkkkkkkkkkkkkkkk.....",
+      "..kkccccccccccccccccckk...",
+      ".kcccbbbbbbbbbbbbbbbccck..",
+      "kccbbbbbbbbbbbbbbbbbbbcck.",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "brim-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -13,
+      1
+     ],
+     "px": [
+      ".....kkkkkkkkkkkkkkkkk....",
+      "...kkccccccccccccccccckk..",
+      "..kcccbbbbbbbbbbbbbbbccck.",
+      ".kccbbbbbbbbbbbbbbbbbbbcck",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -13,
+      1
+     ],
+     "px": [
+      ".....kkkkkkkkkkkkkkkkk....",
+      "...kkccccccccccccccccckk..",
+      "..kcccbbbbbbbbbbbbbbbccck.",
+      ".kccbbbbbbbbbbbbbbbbbbbcck",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -13,
+      1
+     ],
+     "px": [
+      ".....kkkkkkkkkkkkkkkkk....",
+      "...kkccccccccccccccccckk..",
+      "..kcccbbbbbbbbbbbbbbbccck.",
+      ".kccbbbbbbbbbbbbbbbbbbbcck",
+      ".kcccccccccccccccccccccck.",
+      "..kkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "t1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -11,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -11,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "E": {
+     "at": [
+      -11,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NE": {
+     "at": [
+      -11,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "N": {
+     "at": [
+      -11,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "t1-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      8,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "W": {
+     "at": [
+      8,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "SW": {
+     "at": [
+      8,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "t2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      7,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "SE": {
+     "at": [
+      7,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "E": {
+     "at": [
+      7,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NE": {
+     "at": [
+      7,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "N": {
+     "at": [
+      7,
+      4
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "t2-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "t3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -8,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -8,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "E": {
+     "at": [
+      -8,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NE": {
+     "at": [
+      -8,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "N": {
+     "at": [
+      -8,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "t3-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      5,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "W": {
+     "at": [
+      5,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "SW": {
+     "at": [
+      5,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "t4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      4,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "SE": {
+     "at": [
+      4,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "E": {
+     "at": [
+      4,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NE": {
+     "at": [
+      4,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "N": {
+     "at": [
+      4,
+      5
+     ],
+     "px": [
+      ".k..",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "..k."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "t4-m",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -7,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "W": {
+     "at": [
+      -7,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -7,
+      5
+     ],
+     "px": [
+      "..k.",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      ".kyk",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      "kyk.",
+      ".k.."
+     ]
+    }
+   }
+  }
+ ]
+}

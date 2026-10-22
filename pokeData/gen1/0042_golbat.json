@@ -1,0 +1,645 @@
+{
+  "id": "0042_golbat",
+  "pokemonId": 42,
+  "dex": 42,
+  "slug": "golbat",
+  "name": "Golbat",
+  "jpName": "ゴルバット",
+  "genus": "Bat Pokémon",
+  "jpGenus": "こうもりポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0042_golbat/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0042_golbat/normal/back.gif",
+  "abilities": [
+    {
+      "id": 39,
+      "slug": "inner-focus",
+      "name": "Inner Focus",
+      "jpName": "せいしんりょく",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Prevents flinching.",
+      "jpDescription": "鍛えられた 精神に よって 相手の 攻撃に ひるまない。"
+    },
+    {
+      "id": 151,
+      "slug": "infiltrator",
+      "name": "Infiltrator",
+      "jpName": "すりぬけ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Bypasses Light Screen, Reflect, and Safeguard.",
+      "jpDescription": "相手の 壁や 身代わりを すりぬけて 攻撃 できる"
+    }
+  ],
+  "height": {
+    "decimeters": 16,
+    "meters": 1.6,
+    "feetInches": "5'03\"",
+    "display": "1.6 m (5'03\")"
+  },
+  "weight": {
+    "hectograms": 550,
+    "kilograms": 55.0,
+    "pounds": 121.3,
+    "display": "55.0 kg (121.3 lbs)"
+  },
+  "shape": {
+    "id": 9,
+    "slug": "wings",
+    "name": "Wings",
+    "awesomeName": "Alar",
+    "jpName": "1対の翼"
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 75,
+    "speed": 90,
+    "total": 455,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 135,
+          "max": 182
+        },
+        "lv100": {
+          "min": 260,
+          "max": 354
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 76,
+          "max": 145
+        },
+        "lv100": {
+          "min": 148,
+          "max": 284
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 72,
+          "max": 139
+        },
+        "lv100": {
+          "min": 139,
+          "max": 273
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      }
+    }
+  },
+  "baseStatTotal": 455,
+  "typeMatchups": {
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 4,
+        "slug": "poison",
+        "name": "Poison",
+        "jpName": "どく"
+      },
+      {
+        "slot": 2,
+        "id": 3,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 2.0,
+      "grass": 0.25,
+      "ice": 2.0,
+      "fighting": 0.25,
+      "poison": 0.5,
+      "ground": 0.0,
+      "flying": 1.0,
+      "psychic": 2.0,
+      "bug": 0.25,
+      "rock": 2.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 1.0,
+      "fairy": 0.5
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "electric",
+      "ice",
+      "psychic",
+      "rock"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "flying",
+      "ghost",
+      "dragon",
+      "dark",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "poison",
+      "fairy"
+    ],
+    "resistances0_25x": [
+      "grass",
+      "fighting",
+      "bug"
+    ],
+    "immunities0x": [
+      "ground"
+    ],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "fighting",
+      "bug",
+      "fairy"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "speed",
+        "statName": "Speed",
+        "statJpName": "すばやさ",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Speed",
+    "evYieldTextJa": "すばやさ+2",
+    "catchRate": 90,
+    "pokeBallFullHpPercent": 20.1,
+    "catchRateDisplay": "90 (20.1% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 159,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 4,
+        "slug": "flying",
+        "name": "Flying",
+        "jpName": "ひこう"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 15,
+      "minSteps": 3661,
+      "maxSteps": 4112,
+      "display": "15 (3,661–4,112 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 17,
+    "evolvesFrom": {
+      "speciesId": 41,
+      "dex": 41,
+      "slug": "zubat",
+      "name": "Zubat",
+      "jpName": "ズバット",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 22,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 22",
+          "conditionTextJa": "Lv.22"
+        }
+      ]
+    },
+    "evolvesTo": [
+      {
+        "speciesId": 169,
+        "dex": 169,
+        "slug": "crobat",
+        "name": "Crobat",
+        "jpName": "クロバット",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "triggerName": "Level up",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "conditionText": "Level up high Friendship (160+)",
+            "conditionTextJa": "レベルアップ（なつき度160以上）"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 41,
+        "dex": 41,
+        "slug": "zubat",
+        "name": "Zubat",
+        "jpName": "ズバット",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "sprite": "../pokeSprite/gen1/0041_zubat/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0041_zubat/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 42,
+            "dex": 42,
+            "slug": "golbat",
+            "name": "Golbat",
+            "jpName": "ゴルバット",
+            "types": [
+              "poison",
+              "flying"
+            ],
+            "sprite": "../pokeSprite/gen1/0042_golbat/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0042_golbat/normal/back.gif",
+            "condition": "Level 22",
+            "conditionJa": "Lv.22",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 22,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 22",
+                "conditionTextJa": "Lv.22"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 169,
+                "dex": 169,
+                "slug": "crobat",
+                "name": "Crobat",
+                "jpName": "クロバット",
+                "types": [
+                  "poison",
+                  "flying"
+                ],
+                "sprite": "../pokeSprite/gen2/0169_crobat/normal/front.gif",
+                "backSprite": "../pokeSprite/gen2/0169_crobat/normal/back.gif",
+                "condition": "Level up high Friendship (160+)",
+                "conditionJa": "レベルアップ（なつき度160以上）",
+                "details": [
+                  {
+                    "trigger": "level-up",
+                    "triggerName": "Level up",
+                    "minLevel": null,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": 160,
+                    "timeOfDay": null,
+                    "conditionText": "Level up high Friendship (160+)",
+                    "conditionTextJa": "レベルアップ（なつき度160以上）"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Zubat --(Level 22)--> Golbat --(Level up high Friendship (160+))--> Crobat",
+    "summaryTextJa": "ズバット --(Lv.22)--> ゴルバット --(レベルアップ（なつき度160以上）)--> クロバット"
+  },
+  "moves": {
+    "totalUniqueMoves": 17,
+    "levelUp": [
+      {
+        "id": 16,
+        "slug": "gust",
+        "name": "Gust",
+        "jpName": "かぜおこし",
+        "type": "flying",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+        "jpDescription": "翼で おこした 激しい 風を 相手に ぶつけて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 95,
+        "slug": "hypnosis",
+        "name": "Hypnosis",
+        "jpName": "さいみんじゅつ",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": 60,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user employs hypnotic suggestion to make the target fall asleep.",
+        "jpDescription": "眠気を 誘う 暗示を かけて 相手を 眠り状態に する。",
+        "level": 6
+      },
+      {
+        "id": 44,
+        "slug": "bite",
+        "name": "Bite",
+        "jpName": "かみつく",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+        "jpDescription": "鋭く とがった 歯で かみついて 攻撃する。 相手を ひるませることが ある。",
+        "level": 11
+      },
+      {
+        "id": 314,
+        "slug": "air-cutter",
+        "name": "Air Cutter",
+        "jpName": "エアカッター",
+        "type": "flying",
+        "category": "special",
+        "power": 60,
+        "accuracy": 95,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user launches razor-like wind to slash opposing Pokémon. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "鋭い 風で 相手を 切りつけて 攻撃する。 急所に 当たりやすい。",
+        "level": 18
+      },
+      {
+        "id": 440,
+        "slug": "cross-poison",
+        "name": "Cross Poison",
+        "jpName": "クロスポイズン",
+        "type": "poison",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A slashing attack with a poisonous blade that may also poison the target. This move has a heightened chance of landing a critical hit.",
+        "jpDescription": "毒の 刃で 相手を 切り裂く。 毒状態に することが あり 急所にも 当たりやすい。",
+        "level": 25
+      },
+      {
+        "id": 403,
+        "slug": "air-slash",
+        "name": "Air Slash",
+        "jpName": "エアスラッシュ",
+        "type": "flying",
+        "category": "special",
+        "power": 75,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+        "jpDescription": "空をも 切り裂く 空気の 刃で 攻撃する。 相手を ひるませることが ある。",
+        "level": 34
+      },
+      {
+        "id": 141,
+        "slug": "leech-life",
+        "name": "Leech Life",
+        "jpName": "きゅうけつ",
+        "type": "bug",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user drains the target's blood. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "血を 吸い取って 相手を 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 432,
+        "slug": "defog",
+        "name": "Defog",
+        "jpName": "きりばらい",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+        "jpDescription": "強い風で 相手の リフレクターや ひかりのかべ などを はらいのける。 回避率も さげる。"
+      },
+      {
+        "id": 814,
+        "slug": "dual-wingbeat",
+        "name": "Dual Wingbeat",
+        "jpName": "ダブルウイング",
+        "type": "flying",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with its wings to inflict damage. The target is hit twice in a row.",
+        "jpDescription": "翼を 相手に ぶつけて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 202,
+        "slug": "giga-drain",
+        "name": "Giga Drain",
+        "jpName": "ギガドレイン",
+        "type": "grass",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "A nutrient-draining attack. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "養分を 吸い取り 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 289,
+        "slug": "snatch",
+        "name": "Snatch",
+        "jpName": "よこどり",
+        "type": "dark",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered.",
+        "jpDescription": "この技は 使えません 思い出すことが できなくなりますが 技を 忘れることを おすすめします"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 162,
+        "slug": "super-fang",
+        "name": "Super Fang",
+        "jpName": "いかりのまえば",
+        "type": "normal",
+        "category": "physical",
+        "power": null,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+        "jpDescription": "鋭い 前歯で 激しく かみついて 攻撃する。 相手の ＨＰは 半分に なる。"
+      },
+      {
+        "id": 366,
+        "slug": "tailwind",
+        "name": "Tailwind",
+        "jpName": "おいかぜ",
+        "type": "flying",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns.",
+        "jpDescription": "激しく 吹きあれる 風の渦を つくり ４ターンの 間 味方 全員の 素早さを あげる。"
+      },
+      {
+        "id": 253,
+        "slug": "uproar",
+        "name": "Uproar",
+        "jpName": "さわぐ",
+        "type": "normal",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+        "jpDescription": "３ターンの 間 騒いで 相手を 攻撃する。 そのあいだは だれも 眠れなくなる。"
+      },
+      {
+        "id": 428,
+        "slug": "zen-headbutt",
+        "name": "Zen Headbutt",
+        "jpName": "しねんのずつき",
+        "type": "psychic",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+        "jpDescription": "思念の 力を 額に 集めて 攻撃する。 相手を ひるませることが ある。"
+      }
+    ]
+  }
+}

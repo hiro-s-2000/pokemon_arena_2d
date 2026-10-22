@@ -1,0 +1,72 @@
+{
+ "base": "0128_tauros",
+ "grow": 2,
+ "colors": {
+  "k": "000000",
+  "w": "f0f0f0",
+  "W": "b8b8c0"
+ },
+ "parts": [
+  {
+   "name": "hair_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "SE": {
+     "at": [
+      -13,
+      -19
+     ],
+     "px": [
+      ".........kkkkk..",
+      "...kkkkkkwwwwwk.",
+      ".kkwwwwwwWWWkk..",
+      "kwwWWWkkkkkk....",
+      ".kkkkk.........."
+     ]
+    },
+    "E": {
+     "at": [
+      -22,
+      -19
+     ],
+     "px": [
+      "............kkkkkkkk.",
+      "......kkkkkkwwwwwwwwk",
+      "..kkkkwwwwwWWWWWkkkk.",
+      ".kwwWWWWWkkkkkkk.....",
+      "kwWkkkkkk............",
+      ".kk.................."
+     ]
+    },
+    "W": {
+     "at": [
+      3,
+      -19
+     ],
+     "px": [
+      ".kkkkkkkk............",
+      "kwwwwwwwwkkkkkk......",
+      ".kkkkWWWWWwwwwwkkkk..",
+      ".....kkkkkkkWWWWWwwk.",
+      "............kkkkkkWwk",
+      "..................kk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -1,
+      -19
+     ],
+     "px": [
+      "..kkkkk.........",
+      ".kwwwwwkkkkkk...",
+      "..kkWWWwwwwwwkk.",
+      "....kkkkkkWWWwwk",
+      "..........kkkkk."
+     ]
+    }
+   }
+  }
+ ]
+}

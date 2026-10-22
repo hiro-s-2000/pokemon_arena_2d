@@ -1,0 +1,490 @@
+{
+ "base": "0590_foongus",
+ "grow": 3,
+ "colors": {
+  "k": "000000",
+  "q": "f490b8",
+  "p": "e0508a",
+  "r": "a83068",
+  "b": "d8ccc0",
+  "B": "a89888",
+  "w": "f0f0f0"
+ },
+ "parts": [
+  {
+   "name": "cap_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -8,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "...kppqqqqppppkk..",
+      "..kpqqqqppppppprk.",
+      ".kpqqqppppppppprrk",
+      "kpqqpppppppppprrrk",
+      "kpppppppppppprrrrk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -12
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "...kppqqqqppppkk..",
+      "..kpqqqqppppppprk.",
+      ".kpqqqppppppppprrk",
+      "kpqqpppppppppprrrk",
+      "kpppppppppppprrrrk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "...kppqqqqppppkk..",
+      "..kpqqqqppppppprk.",
+      ".kpqqqppppppppprrk",
+      "kpqqpppppppppprrrk",
+      "kpppppppppppprrrrk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "...kppqqqqppppkk..",
+      "..kpqqqqppppppprk.",
+      ".kpqqqppppppppprrk",
+      "kpqqpppppppppprrrk",
+      "kpppppppppppprrrrk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -9,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "...kppqqqqppppkk..",
+      "..kpqqqqppppppprk.",
+      ".kpqqqppppppppprrk",
+      "kpqqpppppppppprrrk",
+      "kpppppppppppprrrrk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "NW": {
+     "at": [
+      -7,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "..kkppppqqqqppk...",
+      ".krpppppppqqqqpk..",
+      "krrpppppppppqqqpk.",
+      "krrrppppppppppqqpk",
+      "krrrrppppppppppppk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "W": {
+     "at": [
+      -7,
+      -11
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "..kkppppqqqqppk...",
+      ".krpppppppqqqqpk..",
+      "krrpppppppppqqqpk.",
+      "krrrppppppppppqqpk",
+      "krrrrppppppppppppk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "SW": {
+     "at": [
+      -7,
+      -12
+     ],
+     "px": [
+      "......kkkkkk......",
+      "....kkppppppkk....",
+      "..kkppppqqqqppk...",
+      ".krpppppppqqqqpk..",
+      "krrpppppppppqqqpk.",
+      "krrrppppppppppqqpk",
+      "krrrrppppppppppppk",
+      "krrrrrrrrrrrrrrrrk",
+      ".kbbbbbbbbbbbbbbk.",
+      "..kBBBBBBBBBBBBk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballL_handL",
+   "anchor": "handL",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -7,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      0,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -7,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballLb_handL",
+   "anchor": "handL",
+   "layer": "back",
+   "dirs": {
+    "NE": {
+     "at": [
+      -8,
+      -3
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      0,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      1,
+      -3
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballR_handR",
+   "anchor": "handR",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      0,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -7,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      3,
+      -3
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      0,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": [
+      "."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballR_handL",
+   "anchor": "handL",
+   "layer": "front",
+   "dirs": {
+    "W": {
+     "at": [
+      -10,
+      -2
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballRb_handR",
+   "anchor": "handR",
+   "layer": "back",
+   "dirs": {
+    "E": {
+     "at": [
+      -10,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      0,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -7,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "kpqppprk",
+      "kppppprk",
+      "krrrrrrk",
+      "kwwwwwBk",
+      ".kwwBBk.",
+      "..kkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -7,
+      -4
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": [
+      "."
+     ]
+    }
+   }
+  },
+  {
+   "name": "ballRb_handL",
+   "anchor": "handL",
+   "layer": "back",
+   "dirs": {
+    "W": {
+     "at": [
+      3,
+      -3
+     ],
+     "px": [
+      "..kkkk..",
+      ".kppppk.",
+      "krpppqpk",
+      "krpppppk",
+      "krrrrrrk",
+      "kBwwwwwk",
+      ".kBBwwk.",
+      "..kkkk.."
+     ]
+    }
+   }
+  }
+ ]
+}

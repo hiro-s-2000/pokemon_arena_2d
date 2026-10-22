@@ -1,0 +1,16 @@
+// pixel-paint palette for 0893_zarude. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 180f23
+1 353137
+2 353737
+3 4c4e4e
+4 a71632
+5 636870
+6 328635
+7 868c91
+8 f53e59
+9 59c549
+a b6b7b3
+b fecdd3

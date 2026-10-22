@@ -1,0 +1,16 @@
+// pixel-paint palette for 0026_raichu-mega-y. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 180a10
+1 333333
+2 45311e
+3 773f00
+4 6c605d
+5 a75f1f
+6 b78727
+7 df871f
+8 ffaf47
+9 dfcedd
+a fff700
+b ffffff

@@ -1,0 +1,370 @@
+{
+ "base": "0512_simisage",
+ "grow": 2,
+ "colors": {
+  "k": "000000",
+  "w": "f4ecd0",
+  "W": "c8bc98",
+  "g": "5a5a66",
+  "G": "3a3a44"
+ },
+ "parts": [
+  {
+   "name": "crest_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -5,
+      -15
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -5,
+      -15
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -9,
+      -15
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -5,
+      -12
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      -3,
+      -14
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      0,
+      -15
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -4,
+      -15
+     ],
+     "px": [
+      ".k..k.k..k.",
+      "kwkkwkwkkwk",
+      "kwwkwWwkwwk",
+      "kwWwWWWwWwk",
+      ".kWWWWWWWk.",
+      "..kkkkkkk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "earL_head",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -15,
+      -11
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -10
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -9
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -15,
+      -8
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      9,
+      -9
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "W": {
+     "at": [
+      8,
+      -10
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "SW": {
+     "at": [
+      9,
+      -11
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    }
+   }
+  },
+  {
+   "name": "earR_head",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      8,
+      -11
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      6,
+      -11
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      4,
+      -9
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      8,
+      -8
+     ],
+     "px": [
+      "...kkk..",
+      "..kgggk.",
+      ".kgGGGgk",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      "kgGGGgk.",
+      ".kgGgk..",
+      "..kkk..."
+     ]
+    },
+    "NW": {
+     "at": [
+      -10,
+      -9
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -11
+     ],
+     "px": [
+      "..kkk...",
+      ".kgggk..",
+      "kgGGGgk.",
+      "kgGGGGgk",
+      "kgGGGGgk",
+      ".kgGGGgk",
+      "..kgGgk.",
+      "...kkk.."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+// pixel-paint palette for 0257_blaziken-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// body red: light / mid / shade
+R ee6464
+r c04444
+d 842a2a
+// crest / mane cream: light / mid / shade
+C f2eec8
+c ccc39c
+k 978766
+// legs black: highlight / main
+G 545454
+K 2e2e2e
+// fists grey-brown: light / dark
+b a8988e
+B 64544c
+// flames: core / yellow / orange / deep
+W fff8c0
+Y f8d860
+O ff7048
+o d83c24
+y f0a018
+// eye
+e 2f80e0
+w ffffff

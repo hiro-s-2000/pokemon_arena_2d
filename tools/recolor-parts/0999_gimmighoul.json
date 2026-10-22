@@ -1,0 +1,376 @@
+{
+ "base": "0854_sinistea",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "G": "f8d048",
+  "g": "d09828",
+  "o": "8a5a10",
+  "R": "c8303c",
+  "r": "84182a",
+  "s": "2a1420",
+  "w": "d8d8e4"
+ },
+ "erase": [
+  {
+   "name": "all",
+   "anchor": "center",
+   "dirs": {
+    "S": {
+     "at": [
+      -15,
+      -14
+     ],
+     "px": [
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+     ]
+    },
+    "SE": {
+     "at": [
+      -15,
+      -14
+     ],
+     "px": [
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+     ]
+    },
+    "E": {
+     "at": [
+      -15,
+      -14
+     ],
+     "px": [
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+     ]
+    },
+    "NE": {
+     "at": [
+      -15,
+      -14
+     ],
+     "px": [
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+     ]
+    },
+    "N": {
+     "at": [
+      -15,
+      -14
+     ],
+     "px": [
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+     ]
+    }
+   }
+  }
+ ],
+ "parts": [
+  {
+   "name": "chest",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      -6
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkk..",
+      ".kGGGGGGGGGGGGGGGGk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgrrrrrrkkrrrrrrgk.",
+      ".kooooooooooooooook.",
+      "..kssssswwwwsssssk..",
+      "..kssswwwwwwwwsssk..",
+      "..ksswkkwwwwkkwssk..",
+      "..ksswkGwwwwkGwssk..",
+      "kkkkkkkkkkkkkkkkkkkk",
+      "kGGGGGGGGkkGGGGGGGGk",
+      "kgRRRRRRRkkRRRRRRRgk",
+      "kgRRRRRRkGGkRRRRRRgk",
+      "kgRRRRRRkookRRRRRRgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kooooooooooooooooook",
+      "kkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -6
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkk..",
+      ".kGGGGGGGGGGGGGGGGk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgrrrrrrkkrrrrrrgk.",
+      ".kooooooooooooooook.",
+      "..kssssswwwwsssssk..",
+      "..kssswwwwwwwwsssk..",
+      "..ksswkkwwwwkkwssk..",
+      "..ksswkGwwwwkGwssk..",
+      "kkkkkkkkkkkkkkkkkkkk",
+      "kGGGGGGGGkkGGGGGGGGk",
+      "kgRRRRRRRkkRRRRRRRgk",
+      "kgRRRRRRkGGkRRRRRRgk",
+      "kgRRRRRRkookRRRRRRgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kooooooooooooooooook",
+      "kkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "E": {
+     "at": [
+      -8,
+      -6
+     ],
+     "px": [
+      "..kkkkkkkkkkkk..",
+      ".kGGGGGGGGGGGGk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgrrkkrrrrrrgk.",
+      ".kooooooooooook.",
+      "..kswwwwsssssk..",
+      "..kswwwwwwsssk..",
+      "..kswwwwkkwssk..",
+      "..kswwwwkGwssk..",
+      "kkkkkkkkkkkkkkkk",
+      "kGGGGkkGGGGGGGGk",
+      "kgRRRkkRRRRRRRgk",
+      "kgRRkGGkRRRRRRgk",
+      "kgRRkookRRRRRRgk",
+      "kgrrrkkrrrrrrrgk",
+      "kgrrrkkrrrrrrrgk",
+      "kooooooooooooook",
+      "kkkkkkkkkkkkkkkk"
+     ]
+    },
+    "NE": {
+     "at": [
+      -8,
+      -6
+     ],
+     "px": [
+      "..kkkkkkkkkkkk..",
+      ".kGGGGkkGGGGGGk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgRRkkRRRRRRgk.",
+      ".kgrrkkrrrrrrgk.",
+      ".kgrrkkrrrrrrgk.",
+      ".kgrrkkrrrrrrgk.",
+      ".kooooooooooook.",
+      "kkkkkkkkkkkkkkkk",
+      "kGGGGkkGGGGGGGGk",
+      "kgRRRkkRRRRRRRgk",
+      "kgRRRkkRRRRRRRgk",
+      "kgRRRkkRRRRRRRgk",
+      "kgrrrkkrrrrrrrgk",
+      "kgrrrkkrrrrrrrgk",
+      "kooooooooooooook",
+      "kkkkkkkkkkkkkkkk"
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      -6
+     ],
+     "px": [
+      "..kkkkkkkkkkkkkkkk..",
+      ".kGGGGGGGGkkGGGGGGk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgRRRRRRkkRRRRRRgk.",
+      ".kgrrrrrrkkrrrrrrgk.",
+      ".kgrrrrrrkkrrrrrrgk.",
+      ".kgrrrrrrkkrrrrrrgk.",
+      ".kooooooooooooooook.",
+      "kkkkkkkkkkkkkkkkkkkk",
+      "kGGGGGGGGkkGGGGGGGGk",
+      "kgRRRRRRRkkRRRRRRRgk",
+      "kgRRRRRRRkkRRRRRRRgk",
+      "kgRRRRRRRkkRRRRRRRgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kgrrrrrrrkkrrrrrrrgk",
+      "kooooooooooooooooook",
+      "kkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0956_espathra. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 500c2a
+1 333333
+2 564166
+3 91700f
+4 9e89d2
+5 f26db0
+6 d89339
+7 dfb700
+8 d7dfdf
+9 f5e578
+a ffffff

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0678_meowstic-male-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4e0c29
+1 213357
+2 485890
+3 346cb9
+4 ce255a
+5 6080a8
+6 788890
+7 f472b6
+8 d0d8d8
+9 ffff50
+a f8f8f8

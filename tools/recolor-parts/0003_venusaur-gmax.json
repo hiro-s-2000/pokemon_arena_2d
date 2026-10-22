@@ -1,0 +1,240 @@
+{
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "L": "ff9a94",
+  "M": "e8505a",
+  "D": "a8283a",
+  "y": "fff27a",
+  "Y": "f0c020",
+  "Z": "b08010",
+  "g": "7fd040",
+  "G": "3a8a20"
+ },
+ "parts": [
+  {
+   "name": "dome",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -19,
+      -19
+     ],
+     "px": [
+      ".............kkkkkkkkkkkk.............",
+      ".........kkkkLLLLLLLLLLLDkkkk.........",
+      "......kkkLLLLMMMMMMMMMMMMLLLDkkk......",
+      "....kkLLLMMMMMMMMMMMMMMMMMMMMLLDkk....",
+      "...kLLMMMMMMMMMMMMMMMMMMMMMMMMMMLDk...",
+      "..kLMMMLLMMMMMMMLLMMMMMMMLLMMMMMMMDk..",
+      ".kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMMDk",
+      "kDMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMMDk",
+      ".kDMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMDk.",
+      "..kDMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk..",
+      "...kDDMMMMDMMMMDMMMMDMMMMDMMMMDMDDk...",
+      "....kkDDDMDMMMMDMMMMDMMMMDMMMDDDkk....",
+      "......kkkDDDDMMDMMMMDMMMMDDDDkkk......",
+      ".........kkkkDMDDDMMDDDMDkkkk.........",
+      ".............kDDkkDDDkkDk.............",
+      "..............kk..kkk..k.............."
+     ]
+    },
+    "SE": {
+     "at": [
+      -19,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkkkkk............",
+      "........kkkkLLLLLLLLLLLDkkkk........",
+      "......kkLLLLMMMMMMMMMMMMLLLDkk......",
+      "....kkLLMMMMMMMMMMMMMMMMMMMMLDkk....",
+      "...kLLMMMMMMMMMMMMMMMMMMMMMMMMLDk...",
+      "..kLMMMLLMMMMMMMLLMMMMMMMLLMMMMMDk..",
+      ".kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      "kDMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      ".kDMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMDk.",
+      "..kDMDMMMMDMMMMDMMMMDMMMMDMMMMDMDk..",
+      "...kDDMMMMDMMMMDMMMMDMMMMDMMMMDDk...",
+      "....kkDDMMDMMMMDMMMMDMMMMDMMDDkk....",
+      "......kkDDDDMMMDMMMMDMMMDDDDkk......",
+      "........kkkkDMMDDDMMDDDDkkkk........",
+      "............kDDDkkDDDkkk............",
+      ".............kkk..kkk..............."
+     ]
+    },
+    "E": {
+     "at": [
+      -19,
+      -17
+     ],
+     "px": [
+      "............kkkkkkkkkkkk............",
+      "........kkkkLLLLLLLLLLLDkkkk........",
+      "......kkLLLLMMMMMMMMMMMMLLLDkk......",
+      "....kkLLMMMMMMMMMMMMMMMMMMMMLDkk....",
+      "...kLLMMMMMMMMMMMMMMMMMMMMMMMMLDk...",
+      "..kLMMMLLMMMMMMMLLMMMMMMMLLMMMMMDk..",
+      ".kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      "kDMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      ".kDMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMDk.",
+      "..kDMDMMMMDMMMMDMMMMDMMMMDMMMMDMDk..",
+      "...kDDMMMMDMMMMDMMMMDMMMMDMMMMDDk...",
+      "....kkDDMMDMMMMDMMMMDMMMMDMMDDkk....",
+      "......kkDDDDMMMDMMMMDMMMDDDDkk......",
+      "........kkkkDMMDDDMMDDDDkkkk........",
+      "............kDDDkkDDDkkk............",
+      ".............kkk..kkk..............."
+     ]
+    },
+    "NE": {
+     "at": [
+      -18,
+      -15
+     ],
+     "px": [
+      "............kkkkkkkkkkkk............",
+      "........kkkkLLLLLLLLLLLDkkkk........",
+      "......kkLLLLMMMMMMMMMMMMLLLDkk......",
+      "....kkLLMMMMMMMMMMMMMMMMMMMMLDkk....",
+      "...kLLMMMMMMMMMMMMMMMMMMMMMMMMLDk...",
+      "..kLMMMLLMMMMMMMLLMMMMMMMLLMMMMMDk..",
+      ".kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      "kDMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk",
+      ".kDMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMDk.",
+      "..kDMDMMMMDMMMMDMMMMDMMMMDMMMMDMDk..",
+      "...kDDMMMMDMMMMDMMMMDMMMMDMMMMDDk...",
+      "....kkDDMMDMMMMDMMMMDMMMMDMMDDkk....",
+      "......kkDDDDMMMDMMMMDMMMDDDDkk......",
+      "........kkkkDMMDDDMMDDDDkkkk........",
+      "............kDDDkkDDDkkk............",
+      ".............kkk..kkk..............."
+     ]
+    },
+    "N": {
+     "at": [
+      -19,
+      -18
+     ],
+     "px": [
+      ".............kkkkkkkkkkkk.............",
+      ".........kkkkLLLLLLLLLLLDkkkk.........",
+      "......kkkLLLLMMMMMMMMMMMMLLLDkkk......",
+      "....kkLLLMMMMMMMMMMMMMMMMMMMMLLDkk....",
+      "...kLLMMMMMMMMMMMMMMMMMMMMMMMMMMLDk...",
+      "..kLMMMLLMMMMMMMLLMMMMMMMLLMMMMMMMDk..",
+      ".kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk.",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDk",
+      "kLMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMMDk",
+      "kDMMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMMDk",
+      ".kDMMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMMDk.",
+      "..kDMDMMMMDMMMMDMMMMDMMMMDMMMMDMMMDk..",
+      "...kDDMMMMDMMMMDMMMMDMMMMDMMMMDMDDk...",
+      "....kkDDDMDMMMMDMMMMDMMMMDMMMDDDkk....",
+      "......kkkDDDDMMDMMMMDMMMMDDDDkkk......",
+      ".........kkkkDMDDDMMDDDMDkkkk.........",
+      ".............kDDkkDDDkkDk.............",
+      "..............kk..kkk..k.............."
+     ]
+    }
+   }
+  },
+  {
+   "name": "crown",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -7,
+      -22
+     ],
+     "px": [
+      ".k...k...k...k.",
+      "kyk.kyk.kyk.kyk",
+      "kyYkyYykyYykYyk",
+      "kYYyYYYyYYYyYYk",
+      "kZYYYYYYYYYYYZk",
+      ".kZZZZZZZZZZZk.",
+      "..kkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -9,
+      -18
+     ],
+     "px": [
+      ".k...k...k...k.",
+      "kyk.kyk.kyk.kyk",
+      "kyYkyYykyYykYyk",
+      "kYYyYYYyYYYyYYk",
+      "kZYYYYYYYYYYYZk",
+      ".kZZZZZZZZZZZk.",
+      "..kkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -8,
+      -19
+     ],
+     "px": [
+      ".k...k...k...k.",
+      "kyk.kyk.kyk.kyk",
+      "kyYkyYykyYykYyk",
+      "kYYyYYYyYYYyYYk",
+      "kZYYYYYYYYYYYZk",
+      ".kZZZZZZZZZZZk.",
+      "..kkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -8,
+      -17
+     ],
+     "px": [
+      ".k...k...k...k.",
+      "kyk.kyk.kyk.kyk",
+      "kyYkyYykyYykYyk",
+      "kYYyYYYyYYYyYYk",
+      "kZYYYYYYYYYYYZk",
+      ".kZZZZZZZZZZZk.",
+      "..kkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -7,
+      -21
+     ],
+     "px": [
+      ".k...k...k...k.",
+      "kyk.kyk.kyk.kyk",
+      "kyYkyYykyYykYyk",
+      "kYYyYYYyYYYyYYk",
+      "kZYYYYYYYYYYYZk",
+      ".kZZZZZZZZZZZk.",
+      "..kkkkkkkkkkk.."
+     ]
+    }
+   }
+  }
+ ]
+}

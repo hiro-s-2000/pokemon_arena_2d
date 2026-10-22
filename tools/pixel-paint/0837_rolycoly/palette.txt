@@ -1,0 +1,13 @@
+// pixel-paint palette for 0837_rolycoly. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 343331
+2 373230
+3 403b3a
+4 514c49
+5 5c5752
+6 77706c
+7 ed591b
+8 a29f9c

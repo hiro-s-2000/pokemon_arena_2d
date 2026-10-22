@@ -1,0 +1,17 @@
+// pixel-paint palette for 0306_aggron-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+w fefefe
+6 d2d4da
+5 a6a8b2
+4 82848e
+D 66666c
+d 4c4c50
+k 333336
+r ec5a5a
+R 9c3141
+B 70c4ff
+b 2c6cc4
+I eaf8ff
+i a8dcff
+j 4a90d8

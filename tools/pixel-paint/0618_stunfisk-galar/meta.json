@@ -1,0 +1,53 @@
+{
+ "id": "0618_stunfisk-galar",
+ "exported": "2026-10-21T07:51:43.938Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 44,
+   "H": 27,
+   "x0": -2,
+   "y0": -3,
+   "w": 48,
+   "h": 34,
+   "frames": 19
+  },
+  "back": {
+   "W": 46,
+   "H": 19,
+   "x0": -3,
+   "y0": -3,
+   "w": 52,
+   "h": 26,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 26,
+  "how": "override",
+  "scale": 0.5854,
+  "srcBodyH": 41,
+  "colors": 10,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.3,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 10,
+  "outlineShades": 1
+ }
+}

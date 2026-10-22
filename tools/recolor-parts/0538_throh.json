@@ -1,0 +1,33 @@
+{
+ "base": "0539_sawk",
+ "grow": 3,
+ "colors": {
+  "k": "000000",
+  "w": "ffffff",
+  "W": "e4e2e0",
+  "G": "b4b0b0",
+  "b": "222226"
+ },
+ "parts": [
+  {
+   "name": "knot",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -2,
+      3
+     ],
+     "px": [
+      ".kk...",
+      "kbbk..",
+      "kbkbk.",
+      "kbkkbk",
+      ".k..k."
+     ]
+    }
+   }
+  }
+ ]
+}

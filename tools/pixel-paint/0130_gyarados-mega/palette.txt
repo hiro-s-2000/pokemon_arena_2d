@@ -1,0 +1,21 @@
+// pixel-paint palette for 0130_gyarados-mega (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+1 0d3c78  // blue shadow
+2 1a6cc0  // blue mid
+3 2c97e4  // blue main
+4 86d0f8  // blue highlight
+5 7a5a2a  // tan shadow
+6 c9a45e  // tan
+7 ecd494  // tan light / cream
+8 25272d  // belly dark
+9 3b3e48  // belly mid
+a 5c606c  // grey horn / belly light
+b 7a0a14  // red dark
+c d42a3a  // red
+d ff8088  // red light
+e ffffff  // white (eye, teeth)
+f 666a74  // dark whisker
+g d4dcec  // light whisker
+h 949eb2  // light whisker shade
+i 9298a6  // grey horn highlight

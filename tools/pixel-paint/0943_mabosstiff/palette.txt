@@ -1,0 +1,13 @@
+// pixel-paint palette for 0943_mabosstiff. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 191322
+1 363131
+2 46413e
+3 63524b
+4 85766b
+5 f03d5a
+6 b8b9bd
+7 ffb24a
+8 eed5d8

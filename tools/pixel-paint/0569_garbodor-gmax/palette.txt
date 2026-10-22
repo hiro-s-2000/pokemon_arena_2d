@@ -1,0 +1,33 @@
+// pixel-paint palette for 0569_garbodor-gmax (hand-painted). One colour per line: <char> <rrggbb>. "." = transparent.
+. transparent
+# 000000
+// garbage pile / arms (tan family of PMD Garbodor), light from upper-left
+e d4c3a3
+d b19b7b
+c 8b765c
+b 625240
+// green body
+i 5fae7c
+h 47876f
+g 375f4f
+f 24443a
+// eyes / mouth
+p ef8fff
+q b04cc0
+k 6a1a2e
+8 ffffff
+// metal
+n dfe5ea
+m a5adb6
+l 6c7480
+// trash accents
+4 009fb7
+9 5fd8ef
+7 a4dc1e
+6 5f9a14
+y f4dc3c
+Y b89a1c
+r e04848
+R 902830
+s f6b09a
+S d27c6a

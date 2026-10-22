@@ -1,0 +1,700 @@
+{
+  "id": "0067_machoke",
+  "pokemonId": 67,
+  "dex": 67,
+  "slug": "machoke",
+  "name": "Machoke",
+  "jpName": "ゴーリキー",
+  "genus": "Superpower Pokémon",
+  "jpGenus": "かいりきポケモン",
+  "generation": 1,
+  "category": "gen1",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen1/0067_machoke/normal/front.gif",
+  "backSprite": "../pokeSprite/gen1/0067_machoke/normal/back.gif",
+  "abilities": [
+    {
+      "id": 62,
+      "slug": "guts",
+      "name": "Guts",
+      "jpName": "こんじょう",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Increases Attack to 1.5× with a major status ailment.",
+      "jpDescription": "状態異常に なると 根性を だして 攻撃が 上がる。"
+    },
+    {
+      "id": 99,
+      "slug": "no-guard",
+      "name": "No Guard",
+      "jpName": "ノーガード",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Ensures all moves used by and against the Pokémon hit.",
+      "jpDescription": "ノーガード戦法に よって お互いの 出す 技が かならず 当たる ようになる。"
+    },
+    {
+      "id": 80,
+      "slug": "steadfast",
+      "name": "Steadfast",
+      "jpName": "ふくつのこころ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Raises Speed one stage upon flinching.",
+      "jpDescription": "ひるむ たびに 不屈の心を 燃やして 素早さが 上がる。"
+    }
+  ],
+  "height": {
+    "decimeters": 15,
+    "meters": 1.5,
+    "feetInches": "4'11\"",
+    "display": "1.5 m (4'11\")"
+  },
+  "weight": {
+    "hectograms": 705,
+    "kilograms": 70.5,
+    "pounds": 155.4,
+    "display": "70.5 kg (155.4 lbs)"
+  },
+  "shape": {
+    "id": 12,
+    "slug": "humanoid",
+    "name": "Humanoid",
+    "awesomeName": "Anthropomorphic",
+    "jpName": "人型"
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 50,
+    "specialDefense": 60,
+    "speed": 45,
+    "total": 405,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 140,
+          "max": 187
+        },
+        "lv100": {
+          "min": 270,
+          "max": 364
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 94,
+          "max": 167
+        },
+        "lv100": {
+          "min": 184,
+          "max": 328
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 67,
+          "max": 134
+        },
+        "lv100": {
+          "min": 130,
+          "max": 262
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 49,
+          "max": 112
+        },
+        "lv100": {
+          "min": 94,
+          "max": 218
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 58,
+          "max": 123
+        },
+        "lv100": {
+          "min": 112,
+          "max": 240
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 45,
+          "max": 106
+        },
+        "lv100": {
+          "min": 85,
+          "max": 207
+        }
+      }
+    }
+  },
+  "baseStatTotal": 405,
+  "typeMatchups": {
+    "types": [
+      "fighting"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 2,
+        "slug": "fighting",
+        "name": "Fighting",
+        "jpName": "かくとう"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 1.0,
+      "electric": 1.0,
+      "grass": 1.0,
+      "ice": 1.0,
+      "fighting": 1.0,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 2.0,
+      "psychic": 2.0,
+      "bug": 0.5,
+      "rock": 0.5,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 0.5,
+      "steel": 1.0,
+      "fairy": 2.0
+    },
+    "weaknesses4x": [],
+    "weaknesses2x": [
+      "flying",
+      "psychic",
+      "fairy"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "water",
+      "electric",
+      "grass",
+      "ice",
+      "fighting",
+      "poison",
+      "ground",
+      "ghost",
+      "dragon",
+      "steel"
+    ],
+    "resistances0_5x": [
+      "bug",
+      "rock",
+      "dark"
+    ],
+    "resistances0_25x": [],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "normal",
+      "ice",
+      "rock",
+      "dark",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Attack",
+    "evYieldTextJa": "こうげき+2",
+    "catchRate": 90,
+    "pokeBallFullHpPercent": 20.1,
+    "catchRateDisplay": "90 (20.1% with PokéBall, full HP)",
+    "baseFriendship": 70,
+    "baseExperience": 142,
+    "growthRate": {
+      "id": 4,
+      "slug": "medium-slow",
+      "name": "Medium Slow",
+      "formula": "\\frac{6x^3}{5} - 15x^2 + 100x - 140"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 8,
+        "slug": "humanshape",
+        "name": "Human-Like",
+        "jpName": "ひとがた"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 75.0,
+      "femalePercent": 25.0,
+      "display": "75.0% Male, 25.0% Female",
+      "displayJa": "♂ 75.0% / ♀ 25.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 28,
+    "evolvesFrom": {
+      "speciesId": 66,
+      "dex": 66,
+      "slug": "machop",
+      "name": "Machop",
+      "jpName": "ワンリキー",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 28,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 28",
+          "conditionTextJa": "Lv.28"
+        }
+      ]
+    },
+    "evolvesTo": [
+      {
+        "speciesId": 68,
+        "dex": 68,
+        "slug": "machamp",
+        "name": "Machamp",
+        "jpName": "カイリキー",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "triggerName": "Trade or Linking Cord",
+            "minLevel": null,
+            "item": null,
+            "itemJp": null,
+            "heldItem": null,
+            "knownMove": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "conditionText": "Trade",
+            "conditionTextJa": "通信交換"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "speciesId": 66,
+        "dex": 66,
+        "slug": "machop",
+        "name": "Machop",
+        "jpName": "ワンリキー",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "../pokeSprite/gen1/0066_machop/normal/front.gif",
+        "backSprite": "../pokeSprite/gen1/0066_machop/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 67,
+            "dex": 67,
+            "slug": "machoke",
+            "name": "Machoke",
+            "jpName": "ゴーリキー",
+            "types": [
+              "fighting"
+            ],
+            "sprite": "../pokeSprite/gen1/0067_machoke/normal/front.gif",
+            "backSprite": "../pokeSprite/gen1/0067_machoke/normal/back.gif",
+            "condition": "Level 28",
+            "conditionJa": "Lv.28",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 28,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 28",
+                "conditionTextJa": "Lv.28"
+              }
+            ],
+            "evolvesTo": [
+              {
+                "speciesId": 68,
+                "dex": 68,
+                "slug": "machamp",
+                "name": "Machamp",
+                "jpName": "カイリキー",
+                "types": [
+                  "fighting"
+                ],
+                "sprite": "../pokeSprite/gen1/0068_machamp/normal/front.gif",
+                "backSprite": "../pokeSprite/gen1/0068_machamp/normal/back.gif",
+                "condition": "Trade",
+                "conditionJa": "通信交換",
+                "details": [
+                  {
+                    "trigger": "trade",
+                    "triggerName": "Trade or Linking Cord",
+                    "minLevel": null,
+                    "item": null,
+                    "itemJp": null,
+                    "heldItem": null,
+                    "knownMove": null,
+                    "minHappiness": null,
+                    "timeOfDay": null,
+                    "conditionText": "Trade",
+                    "conditionTextJa": "通信交換"
+                  }
+                ],
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [],
+      "regionals": []
+    },
+    "summaryText": "Machop --(Level 28)--> Machoke --(Trade)--> Machamp",
+    "summaryTextJa": "ワンリキー --(Lv.28)--> ゴーリキー --(通信交換)--> カイリキー"
+  },
+  "moves": {
+    "totalUniqueMoves": 21,
+    "levelUp": [
+      {
+        "id": 33,
+        "slug": "tackle",
+        "name": "Tackle",
+        "jpName": "たいあたり",
+        "type": "normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 35,
+        "priority": 0,
+        "description": "A physical attack in which the user charges and slams into the target with its whole body.",
+        "jpDescription": "相手に むかって 全身で ぶつかっていき 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 249,
+        "slug": "rock-smash",
+        "name": "Rock Smash",
+        "jpName": "いわくだき",
+        "type": "fighting",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks with a punch. This may also lower the target's Defense stat.",
+        "jpDescription": "パンチで 攻撃する。相手の 防御を さげる ことが ある。",
+        "level": 6
+      },
+      {
+        "id": 418,
+        "slug": "bullet-punch",
+        "name": "Bullet Punch",
+        "jpName": "バレットパンチ",
+        "type": "steel",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+        "jpDescription": "弾丸の ような 速くて 硬い パンチを 相手に くりだす。 必ず 先制攻撃 できる。",
+        "level": 11
+      },
+      {
+        "id": 458,
+        "slug": "double-hit",
+        "name": "Double Hit",
+        "jpName": "ダブルアタック",
+        "type": "normal",
+        "category": "physical",
+        "power": 35,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams the target with a tail or the like. The target is hit twice in a row.",
+        "jpDescription": "しっぽなどを 使い 相手を たたいて 攻撃する。 ２回連続で ダメージを 与える。",
+        "level": 18
+      },
+      {
+        "id": 183,
+        "slug": "mach-punch",
+        "name": "Mach Punch",
+        "jpName": "マッハパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 30,
+        "priority": 1,
+        "description": "The user throws a punch at blinding speed. This move always goes first.",
+        "jpDescription": "目にも 留まらぬ ものすごい 速さで パンチを くりだす。 必ず 先制攻撃 できる。",
+        "level": 22
+      },
+      {
+        "id": 339,
+        "slug": "bulk-up",
+        "name": "Bulk Up",
+        "jpName": "ビルドアップ",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user tenses its muscles to bulk up its body, boosting its Attack and Defense stats.",
+        "jpDescription": "体に 力を こめて 筋肉を ぶあつく することで 自分の 攻撃と 防御を あげる。",
+        "level": 25
+      },
+      {
+        "id": 38,
+        "slug": "double-edge",
+        "name": "Double-Edge",
+        "jpName": "すてみタックル",
+        "type": "normal",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+        "jpDescription": "命を 懸けて 相手に 突進して 攻撃する。 自分も かなり ダメージを 受ける。",
+        "level": 34
+      },
+      {
+        "id": 370,
+        "slug": "close-combat",
+        "name": "Close Combat",
+        "jpName": "インファイト",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user fights the target up close, inflicting damage without guarding itself. This also lowers the user's Defense and Sp. Def stats.",
+        "jpDescription": "守りを 捨てて 相手の ふところに 突撃する。 自分の 防御と 特防が さがる。",
+        "level": 43
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 811,
+        "slug": "coaching",
+        "name": "Coaching",
+        "jpName": "コーチング",
+        "type": "fighting",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
+        "jpDescription": "的確な 指導を おこなうことで 味方 全員の 攻撃と 防御を 上げる。"
+      },
+      {
+        "id": 530,
+        "slug": "dual-chop",
+        "name": "Dual Chop",
+        "jpName": "ダブルチョップ",
+        "type": "dragon",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 90,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+        "jpDescription": "体の 硬い部分で 相手を たたいて 攻撃する。 ２回連続で ダメージを 与える。"
+      },
+      {
+        "id": 7,
+        "slug": "fire-punch",
+        "name": "Fire Punch",
+        "jpName": "ほのおのパンチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with a fiery punch. This may also leave the target with a burn.",
+        "jpDescription": "炎を こめた パンチで 相手を 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 264,
+        "slug": "focus-punch",
+        "name": "Focus Punch",
+        "jpName": "きあいパンチ",
+        "type": "fighting",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": -3,
+        "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+        "jpDescription": "精神を 高めて パンチを くりだす。 技を だすまでに 攻撃を 受けると 失敗する。"
+      },
+      {
+        "id": 270,
+        "slug": "helping-hand",
+        "name": "Helping Hand",
+        "jpName": "てだすけ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 5,
+        "description": "The user assists an ally by boosting the power of that ally's attack.",
+        "jpDescription": "仲間を 助ける。 てだすけ された ポケモンの 技の 威力は いつもより 大きくなる。"
+      },
+      {
+        "id": 8,
+        "slug": "ice-punch",
+        "name": "Ice Punch",
+        "jpName": "れいとうパンチ",
+        "type": "ice",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an icy punch. This may also leave the target frozen.",
+        "jpDescription": "冷気を こめた パンチで 相手を 攻撃する。 こおり状態に することが ある。"
+      },
+      {
+        "id": 282,
+        "slug": "knock-off",
+        "name": "Knock Off",
+        "jpName": "はたきおとす",
+        "type": "dark",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item.",
+        "jpDescription": "相手の 持ち物を はたき 落として 戦闘が 終わるまで 使えなくする。 物を持つ 相手には ダメージが増す。"
+      },
+      {
+        "id": 67,
+        "slug": "low-kick",
+        "name": "Low Kick",
+        "jpName": "けたぐり",
+        "type": "fighting",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+        "jpDescription": "足を 強く けり 相手を 転ばせて 攻撃する。 相手が 重いほど 威力が あがる。"
+      },
+      {
+        "id": 272,
+        "slug": "role-play",
+        "name": "Role Play",
+        "jpName": "なりきり",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user mimics the target completely, copying the target's Ability.",
+        "jpDescription": "相手に なりきって 自分も 相手と 同じ 特性に 変化する。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 707,
+        "slug": "stomping-tantrum",
+        "name": "Stomping Tantrum",
+        "jpName": "じだんだ",
+        "type": "ground",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+        "jpDescription": "悔しさを バネにして 攻撃する。 前の ターンに 技を 外していると 威力が 倍に なる。"
+      },
+      {
+        "id": 276,
+        "slug": "superpower",
+        "name": "Superpower",
+        "jpName": "ばかぢから",
+        "type": "fighting",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with great power. This also lowers the user's Attack and Defense stats.",
+        "jpDescription": "すごい 力を 発揮して 相手を 攻撃する。自分の 攻撃と 防御が さがる。"
+      },
+      {
+        "id": 9,
+        "slug": "thunder-punch",
+        "name": "Thunder Punch",
+        "jpName": "かみなりパンチ",
+        "type": "electric",
+        "category": "physical",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is attacked with an electrified punch. This may also leave the target with paralysis.",
+        "jpDescription": "電撃を こめた パンチで 相手を 攻撃する。 まひ状態に することが ある。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+// pixel-paint palette for 1022_iron-boulder. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 101010
+1 333333
+2 3c2f2f
+3 4a4244
+4 b91c1c
+5 837f8d
+6 db6417
+7 a2a2a3
+8 ea8528
+9 bab6c1
+a ffb824
+b e4e0d3

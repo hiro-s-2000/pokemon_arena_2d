@@ -1,0 +1,53 @@
+{
+ "id": "0071_victreebel-mega",
+ "exported": "2026-10-21T07:51:35.957Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 30,
+   "H": 38,
+   "x0": -3,
+   "y0": -3,
+   "w": 36,
+   "h": 45,
+   "frames": 19
+  },
+  "back": {
+   "W": 34,
+   "H": 38,
+   "x0": -3,
+   "y0": -2,
+   "w": 40,
+   "h": 44,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 37,
+  "how": "base 0071_victreebel",
+  "scale": 0.3646,
+  "srcBodyH": 96,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0071_victreebel",
+  "palette": 11,
+  "outlineShades": 1
+ }
+}

@@ -1,0 +1,19 @@
+// pixel-paint palette for 0131_lapras-gmax (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+1 1b4a7a  // blue deep shade
+2 2c70b0  // blue shade
+3 3e9ade  // blue main
+4 86ccf6  // blue highlight
+5 a9843f  // cream shadow
+6 dcbb76  // cream
+7 f4e2aa  // cream light
+8 5d5866  // shell dark
+9 958f9c  // shell mid
+a c4bfca  // shell light
+b eeecf2  // shell highlight
+c 22d8ee  // aurora cyan / iris
+d bafcff  // aurora light
+e ffffff  // white
+f 102a40  // pupil / eye dark
+g fff4c8  // eye sclera (pale cream)

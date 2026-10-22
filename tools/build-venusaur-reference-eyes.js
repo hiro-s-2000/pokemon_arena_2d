@@ -1,0 +1,6 @@
+'use strict';
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),Art=require('./pmd-form-reference-parts'),{build}=require('./build-pmd-form-reference');
+const original=Art.compose;
+Art.compose=function(raw,body,ctx){const out=original(raw,body,ctx);if(![0,1,2,6,7].includes(ctx.row))return out;const h=ctx.anchors.head;for(let y=0;y<raw.h;y++)for(let x=0;x<raw.w;x++){const i=(y*raw.w+x)*4;if(!raw.data[i+3]||((x-h[0])/24)**2+((y-h[1]+4)/22)**2>=1)continue;const col=Buffer.from(raw.data.subarray(i,i+3)).toString('hex');if(col==='ffffff')out.data.set([255,245,220,255],i);if(col==='9f0000')out.data.set([168,46,73,255],i);}return out;};
+const ROOT=path.resolve(__dirname,'..'),OUT=path.resolve(ROOT,'../確認用画像/pokeSprite-smooth-review/form-pmd-v4'),roster=JSON.parse(fs.readFileSync(path.join(ROOT,'pokeData/index.json'))).pokemon;
+for(const id of ['0003_venusaur-gmax','0003_venusaur-mega']){build(roster.find(p=>p.id===id),process.argv.includes('--idle-only'));if(!process.argv.includes('--idle-only')){const f=path.join(OUT,id,'manifest.json'),m=JSON.parse(fs.readFileSync(f));m.sources.push({file:path.relative(ROOT,__filename),sha256:crypto.createHash('sha256').update(fs.readFileSync(__filename)).digest('hex')});fs.writeFileSync(f,JSON.stringify(m,null,2)+'\n');}}

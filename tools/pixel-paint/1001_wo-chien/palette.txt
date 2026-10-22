@@ -1,0 +1,11 @@
+// pixel-paint palette for 1001_wo-chien. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 343233
+1 393a2f
+2 58594f
+3 8d7254
+4 f43f5e
+5 a2a272
+6 c9d2bb

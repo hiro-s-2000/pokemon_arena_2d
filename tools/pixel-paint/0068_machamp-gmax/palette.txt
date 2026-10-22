@@ -1,0 +1,20 @@
+// pixel-paint palette for 0068_machamp-gmax (hand-painted). "." transparent, "#" outline.
+. transparent
+# 000000
+W ffffff
+s cfdde4
+S a4b4b8
+d 7f8a96
+D 4a5868
+y fff04a
+o f6c000
+O de8a04
+b 8a5806
+c f8f0a8
+C c8b65a
+k 8a7a30
+p 6e6e8c
+P 4a4a62
+q 2a2a3a
+r f03030
+R 981818

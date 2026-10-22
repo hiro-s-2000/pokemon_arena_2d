@@ -1,0 +1,15 @@
+// pixel-paint palette for 0485_heatran-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 530e29
+1 333333
+2 891123
+3 67676f
+4 cd372d
+5 7f8f97
+6 fd5335
+7 e78f27
+8 afb7bf
+9 d7dfdf
+a ffe754

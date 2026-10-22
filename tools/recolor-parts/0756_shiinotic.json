@@ -1,0 +1,246 @@
+{
+ "base": "0755_morelull",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "P": "c89ae4",
+  "p": "9a6ac4",
+  "q": "6c4a94",
+  "g": "9ad070",
+  "f": "ff9ad0",
+  "F": "d070b0",
+  "u": "b8e090"
+ },
+ "parts": [
+  {
+   "name": "cap",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -20
+     ],
+     "px": [
+      "........kkkkkkkkkk........",
+      "......kkPPPPPPPPPPkk......",
+      ".....kPPPPPPPPPPPPPPk.....",
+      "....kPPppppppppppppppk....",
+      "...kPPgggppppppppgggppk...",
+      "..kPPppppppppppppppppppk..",
+      ".kPPppppppppggppppppppppk.",
+      "kPPggqqqqqqqqqqqqqqqqggqqk",
+      "kPPqqqqqqqqqqqqqqqqqqqqqqk",
+      "kffffffffffffffffffffffffk",
+      "kfFfFfFfFfFfFfFfFfFfFfFfk.",
+      ".kkkkuuuuuuuuuuuuuuuukkk..",
+      ".....kkkkkkkkkkkkkkkk....."
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -20
+     ],
+     "px": [
+      "........kkkkkkkkkk........",
+      "......kkPPPPPPPPPPkk......",
+      ".....kPPPPPPPPPPPPPPk.....",
+      "....kPPppppppppppppppk....",
+      "...kPPgggppppppppgggppk...",
+      "..kPPppppppppppppppppppk..",
+      ".kPPppppppppggppppppppppk.",
+      "kPPggqqqqqqqqqqqqqqqqggqqk",
+      "kPPqqqqqqqqqqqqqqqqqqqqqqk",
+      "kffffffffffffffffffffffffk",
+      "kfFfFfFfFfFfFfFfFfFfFfFfk.",
+      ".kkkkuuuuuuuuuuuuuuuukkk..",
+      ".....kkkkkkkkkkkkkkkk....."
+     ]
+    },
+    "SE": {
+     "at": [
+      -11,
+      -20
+     ],
+     "px": [
+      ".......kkkkkkkk.......",
+      ".....kkPPPPPPPPkk.....",
+      "....kPPPPPPPPPPPPk....",
+      "...kPPppppppppppppk...",
+      "..kPPgggppppppgggppk..",
+      ".kPPppppppppppppppppk.",
+      ".kPPppppppggppppppppk.",
+      "kPgggqqqqqqqqqqqqgggqk",
+      "kPPqqqqqqqqqqqqqqqqqqk",
+      "kffffffffffffffffffffk",
+      "kfFfFfFfFfFfFfFfFfFfk.",
+      ".kkkkuuuuuuuuuuuukkk..",
+      ".....kkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -11,
+      -20
+     ],
+     "px": [
+      ".......kkkkkkkk.......",
+      ".....kkPPPPPPPPkk.....",
+      "....kPPPPPPPPPPPPk....",
+      "...kPPppppppppppppk...",
+      "..kPPgggppppppgggppk..",
+      ".kPPppppppppppppppppk.",
+      ".kPPppppppggppppppppk.",
+      "kPgggqqqqqqqqqqqqgggqk",
+      "kPPqqqqqqqqqqqqqqqqqqk",
+      "kffffffffffffffffffffk",
+      "kfFfFfFfFfFfFfFfFfFfk.",
+      ".kkkkuuuuuuuuuuuukkk..",
+      ".....kkkkkkkkkkkk....."
+     ]
+    },
+    "NE": {
+     "at": [
+      -11,
+      -20
+     ],
+     "px": [
+      ".......kkkkkkkk.......",
+      ".....kkPPPPPPPPkk.....",
+      "....kPPPPPPPPPPPPk....",
+      "...kPPppppppppppppk...",
+      "..kPPgggppppppgggppk..",
+      ".kPPppppppppppppppppk.",
+      ".kPPppppppggppppppppk.",
+      "kPgggqqqqqqqqqqqqgggqk",
+      "kPPqqqqqqqqqqqqqqqqqqk",
+      "kffffffffffffffffffffk",
+      "kfFfFfFfFfFfFfFfFfFfk.",
+      ".kkkkuuuuuuuuuuuukkk..",
+      ".....kkkkkkkkkkkk....."
+     ]
+    }
+   }
+  },
+  {
+   "name": "armL",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -9,
+      -3
+     ],
+     "px": [
+      ".k....",
+      "kukkk.",
+      "kuuuuk",
+      ".kkuk.",
+      "...k.."
+     ]
+    },
+    "N": {
+     "at": [
+      3,
+      -3
+     ],
+     "px": [
+      "....k.",
+      ".kkkuk",
+      "kuuuuk",
+      ".kukk.",
+      "..k..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -9,
+      -3
+     ],
+     "px": [
+      ".k....",
+      "kukkk.",
+      "kuuuuk",
+      ".kkuk.",
+      "...k.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -9,
+      -3
+     ],
+     "px": [
+      ".k....",
+      "kukkk.",
+      "kuuuuk",
+      ".kkuk.",
+      "...k.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "armR",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      3,
+      -3
+     ],
+     "px": [
+      "....k.",
+      ".kkkuk",
+      "kuuuuk",
+      ".kukk.",
+      "..k..."
+     ]
+    },
+    "N": {
+     "at": [
+      -9,
+      -3
+     ],
+     "px": [
+      ".k....",
+      "kukkk.",
+      "kuuuuk",
+      ".kkuk.",
+      "...k.."
+     ]
+    },
+    "SE": {
+     "at": [
+      2,
+      -3
+     ],
+     "px": [
+      "....k.",
+      ".kkkuk",
+      "kuuuuk",
+      ".kukk.",
+      "..k..."
+     ]
+    },
+    "NE": {
+     "at": [
+      2,
+      -3
+     ],
+     "px": [
+      "....k.",
+      ".kkkuk",
+      "kuuuuk",
+      ".kukk.",
+      "..k..."
+     ]
+    }
+   }
+  }
+ ]
+}

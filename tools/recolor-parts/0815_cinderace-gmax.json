@@ -1,0 +1,1427 @@
+{
+ "grow": 8,
+ "colors": {
+  "k": "000000",
+  "y": "fff0a0",
+  "o": "ffb030",
+  "r": "f05818",
+  "w": "f8f8f8",
+  "g": "c8c8d8"
+ },
+ "parts": [
+  {
+   "name": "earL",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -13,
+      -7
+     ],
+     "px": [
+      "........kk.",
+      ".......kwwk",
+      ".....kkwwgk",
+      "...kkwwwgk.",
+      ".kkwwwggk..",
+      "kwwwggkk...",
+      "kwgkkk.....",
+      ".kk........"
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -7
+     ],
+     "px": [
+      "........kk.",
+      ".......kwwk",
+      ".....kkwwgk",
+      "...kkwwwgk.",
+      ".kkwwwggk..",
+      "kwwwggkk...",
+      "kwgkkk.....",
+      ".kk........"
+     ]
+    },
+    "E": {
+     "at": [
+      -13,
+      -7
+     ],
+     "px": [
+      "........kk.",
+      ".......kwwk",
+      ".....kkwwgk",
+      "...kkwwwgk.",
+      ".kkwwwggk..",
+      "kwwwggkk...",
+      "kwgkkk.....",
+      ".kk........"
+     ]
+    },
+    "NE": {
+     "at": [
+      -13,
+      -8
+     ],
+     "px": [
+      "........kk.",
+      ".......kwwk",
+      ".....kkwwgk",
+      "...kkwwwgk.",
+      ".kkwwwggk..",
+      "kwwwggkk...",
+      "kwgkkk.....",
+      ".kk........"
+     ]
+    },
+    "N": {
+     "at": [
+      -13,
+      -7
+     ],
+     "px": [
+      "........kk.",
+      ".......kwwk",
+      ".....kkwwgk",
+      "...kkwwwgk.",
+      ".kkwwwggk..",
+      "kwwwggkk...",
+      "kwgkkk.....",
+      ".kk........"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "earL-m",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      3,
+      -8
+     ],
+     "px": [
+      ".kk........",
+      "kwwk.......",
+      "kgwwkk.....",
+      ".kgwwwkk...",
+      "..kggwwwkk.",
+      "...kkggwwwk",
+      ".....kkkgwk",
+      "........kk."
+     ]
+    },
+    "W": {
+     "at": [
+      3,
+      -7
+     ],
+     "px": [
+      ".kk........",
+      "kwwk.......",
+      "kgwwkk.....",
+      ".kgwwwkk...",
+      "..kggwwwkk.",
+      "...kkggwwwk",
+      ".....kkkgwk",
+      "........kk."
+     ]
+    },
+    "SW": {
+     "at": [
+      3,
+      -7
+     ],
+     "px": [
+      ".kk........",
+      "kwwk.......",
+      "kgwwkk.....",
+      ".kgwwwkk...",
+      "..kggwwwkk.",
+      "...kkggwwwk",
+      ".....kkkgwk",
+      "........kk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "earR",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      2,
+      -7
+     ],
+     "px": [
+      ".kk........",
+      "kwwk.......",
+      "kgwwkk.....",
+      ".kgwwwkk...",
+      "..kggwwwkk.",
+      "...kkggwwwk",
+      ".....kkkgwk",
+      "........kk."
+     ]
+    },
+    "N": {
+     "at": [
+      2,
+      -7
+     ],
+     "px": [
+      ".kk........",
+      "kwwk.......",
+      "kgwwkk.....",
+      ".kgwwwkk...",
+      "..kggwwwkk.",
+      "...kkggwwwk",
+      ".....kkkgwk",
+      "........kk."
+     ]
+    }
+   }
+  },
+  {
+   "name": "fireball#0",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "fireball#1",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "fireball#2",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkrrrrrrrkkk.....",
+      ".......kkkkkkk........"
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkrrrrrrrkkk.....",
+      ".......kkkkkkk........"
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkrrrrrrrkkk.....",
+      ".......kkkkkkk........"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Attack"
+   ]
+  },
+  {
+   "name": "fireball#3",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "fireball#4",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".kkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...kkkkkkkkkkkkkkk...."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkkkkkkkkkkk....."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "krrooooooooooooooorrk.",
+      "krrooooooooooooooorrk.",
+      ".krrooooooooooooorrk..",
+      "..krrooooooooooorrk...",
+      "...krrrooooooorrrk....",
+      "....kkkrrrrrrrkkk.....",
+      ".......kkkkkkk........"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "fireball#5",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kroyyyyyyyooooooooork.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "krryyyyyyyyooooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      0
+     ],
+     "px": [
+      "...k....k.....k...k...",
+      "..krk..krk...krk.krk..",
+      ".krorkkrorkkkrorkrork.",
+      "..kkkkkrrrrrrrkkkkkk..",
+      "...krrryyyyooorrrk....",
+      "..krryyyyyyyoooorrk...",
+      ".krryyyyyyyyooooorrk..",
+      "krryyyyyyyyyoooooorrk.",
+      "kkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "fireball-m#0",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "fireball-m#1",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "fireball-m#2",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..krrooooooooooooorrk.",
+      "...krrooooooooooorrk..",
+      "....krrrooooooorrrk...",
+      ".....kkkrrrrrrrkkk....",
+      "........kkkkkkk......."
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..krrooooooooooooorrk.",
+      "...krrooooooooooorrk..",
+      "....krrrooooooorrrk...",
+      ".....kkkrrrrrrrkkk....",
+      "........kkkkkkk......."
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Attack"
+   ]
+  },
+  {
+   "name": "fireball-m#3",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "fireball-m#4",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..krrooooooooooooorrk.",
+      "...krrooooooooooorrk..",
+      "....krrrooooooorrrk...",
+      ".....kkkkkkkkkkkkk...."
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..krrooooooooooooorrk.",
+      "...krrooooooooooorrk..",
+      "....kkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".krrooooooooooooooorrk",
+      ".krrooooooooooooooorrk",
+      "..krrooooooooooooorrk.",
+      "...krrooooooooooorrk..",
+      "....krrrooooooorrrk...",
+      ".....kkkkkkkkkkkkk...."
+     ]
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "fireball-m#5",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".krroooooooyyyyyyyyrrk",
+      ".kroooooooooyyyyyyyork",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "SW": {
+     "at": [
+      -11,
+      0
+     ],
+     "px": [
+      "...k...k.....k....k...",
+      "..krk.krk...krk..krk..",
+      ".krorkrorkkkrorkkrork.",
+      "..kkkkkkrrrrrrrkkkkk..",
+      "....krrroooyyyyrrrk...",
+      "...krrooooyyyyyyyrrk..",
+      "..krroooooyyyyyyyyrrk.",
+      ".krrooooooyyyyyyyyyrrk",
+      ".kkkkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+// pixel-paint palette for 0592_frillish-male. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 395a6b
+2 4f6fb7
+3 de2910
+4 67a7ef
+5 77d7ff
+6 c7efff
+7 ffffff

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0834_drednaw-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4e201f
+1 333333
+2 0c3658
+3 9e4d38
+4 49857e
+5 4da49b
+6 d68414
+7 4bc2ab
+8 f6be13
+9 a0e2cd
+a ffffff

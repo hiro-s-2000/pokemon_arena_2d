@@ -1,0 +1,1636 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "c": "e63337",
+  "a": "9c2e46",
+  "w": "d8fcff",
+  "m": "80e8f8",
+  "j": "19e7ff",
+  "n": "f9ffff"
+ },
+ "parts": [
+  {
+   "name": "brim#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "SE": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "E": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "NE": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "N": {
+     "at": [
+      -19,
+      -1
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk",
+    "Attack",
+    "Shoot",
+    "Charge",
+    "Strike"
+   ]
+  },
+  {
+   "name": "brim#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "SE": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "E": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "NE": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -19,
+      -1
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "brim-m#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "W": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    }
+   },
+   "anims": [
+    "Idle",
+    "Walk",
+    "Attack",
+    "Shoot",
+    "Charge",
+    "Strike"
+   ]
+  },
+  {
+   "name": "brim-m#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    },
+    "SW": {
+     "at": [
+      -19,
+      0
+     ],
+     "px": [
+      "..........kkkkkkkkkkkkkkkkkkk..........",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..kkaaaacccccccccccccccccccccccaaaakk..",
+      ".kaaacccccccccccccccccccccccccccccaaak.",
+      "kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak",
+      ".kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak.",
+      "..kkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakk..",
+      "....kkkkkkaaaaaaaaaaaaaaaaaaakkkkkk....",
+      "..........kkkkkkkkkkkkkkkkkkk.........."
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "beam#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "beam#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "beam#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "beam#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "beam#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kmwwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "beam#5",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwmk...",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwmk..",
+      ".kmwwwwwwwwwwwwwwmk.",
+      "kkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "E": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kkkkkkkkkkkkkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kkkkkkkkkkkkk...."
+     ]
+    },
+    "N": {
+     "at": [
+      -10,
+      2
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "...kmwwwwwwwwwmk....",
+      "...kmwwwwwwwwwwmk...",
+      "...kkkkkkkkkkkkkk..."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "beam-m#0",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "beam-m#1",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwwmk",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "beam-m#2",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwwmk",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwwmk",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "beam-m#3",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwwmk",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    }
+   },
+   "anims": [
+    "Shoot"
+   ]
+  },
+  {
+   "name": "beam-m#4",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwwmk",
+      "..kkkkkkkkkkkkkkkkk."
+     ]
+    }
+   },
+   "anims": [
+    "Charge"
+   ]
+  },
+  {
+   "name": "beam-m#5",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "NW": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kkkkkkkkkkkkk..."
+     ]
+    },
+    "W": {
+     "at": [
+      -9,
+      3
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kkkkkkkkkkkkkk..."
+     ]
+    },
+    "SW": {
+     "at": [
+      -9,
+      4
+     ],
+     "px": [
+      ".....kkkkkkkkkk.....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwmk....",
+      "....kmwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwmk...",
+      "...kmwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwmk..",
+      "..kmwwwwwwwwwwwwwmk.",
+      ".kmwwwwwwwwwwwwwwmk.",
+      ".kkkkkkkkkkkkkkkkkkk"
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "swirl",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "E": {
+     "at": [
+      -13,
+      -9
+     ],
+     "px": [
+      "...kkkkk...",
+      "..kjjjjjk..",
+      ".kjnnnnnjk.",
+      "kjnnjjjnnjk",
+      "kjnjnnnjnjk",
+      "kjnnjjjnnjk",
+      ".kjnnnnnjk.",
+      "..kjjjjjk..",
+      "...kkkkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -2,
+      -9
+     ],
+     "px": [
+      "...kkkkk...",
+      "..kjjjjjk..",
+      ".kjnnnnnjk.",
+      "kjnnjjjnnjk",
+      "kjnjnnnjnjk",
+      "kjnnjjjnnjk",
+      ".kjnnnnnjk.",
+      "..kjjjjjk..",
+      "...kkkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -6,
+      -10
+     ],
+     "px": [
+      ".....kkkkk.....",
+      "...kkjjjjjkk...",
+      "..kjjnnnnnjjk..",
+      ".kjjnnjjjnnjjk.",
+      "kjjnnjjnjjnnjjk",
+      "kjjnjjnnnjjnjjk",
+      "kjjnnjjnjjnnjjk",
+      ".kjjnnjjjnnjjk.",
+      "..kjjnnnnnjjk..",
+      "...kkjjjjjkk...",
+      ".....kkkkk....."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   }
+  },
+  {
+   "name": "swirl-m",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -8,
+      -9
+     ],
+     "px": [
+      "...kkkkk...",
+      "..kjjjjjk..",
+      ".kjnnnnnjk.",
+      "kjnnjjjnnjk",
+      "kjnjnnnjnjk",
+      "kjnnjjjnnjk",
+      ".kjnnnnnjk.",
+      "..kjjjjjk..",
+      "...kkkkk..."
+     ]
+    },
+    "W": {
+     "at": [
+      3,
+      -9
+     ],
+     "px": [
+      "...kkkkk...",
+      "..kjjjjjk..",
+      ".kjnnnnnjk.",
+      "kjnnjjjnnjk",
+      "kjnjnnnjnjk",
+      "kjnnjjjnnjk",
+      ".kjnnnnnjk.",
+      "..kjjjjjk..",
+      "...kkkkk..."
+     ]
+    }
+   }
+  }
+ ]
+}

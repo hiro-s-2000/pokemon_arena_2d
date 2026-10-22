@@ -1,0 +1,16 @@
+// pixel-paint palette for 0160_feraligatr-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 133c5d
+2 9f0000
+3 6a5200
+4 0067b7
+5 d73f00
+6 f25260
+7 1f9fe7
+8 ed957d
+9 8fdfff
+a ffe79f
+b ffffff

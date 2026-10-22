@@ -1,0 +1,235 @@
+{
+ "base": "0036_clefable",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "q": "fcd0e4",
+  "Q": "f0a0c8",
+  "z": "c87098",
+  "P": "b04898",
+  "p": "d870c0",
+  "d": "782868",
+  "w": "f4f0f4",
+  "W": "c8c0d0",
+  "r": "e02040"
+ },
+ "parts": [
+  {
+   "name": "head_head",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -19
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kpPPppPPPPPPppPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      ".....kpPPPPwwwwPPPPPdk....",
+      "....kpPPPPwwwwwwPPPPdk....",
+      "....kpPPPwwwwwwwwPPPdk....",
+      "....kpPPwrrwwwwrrwPPdk....",
+      "....kpPPwkrwwwwrkwPPdk....",
+      ".....kpPPPwwWWwwPPPdk.....",
+      "......kdPPPwWWwPPPddk.....",
+      ".......kddPPWWPPddkk......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    },
+    "SE": {
+     "at": [
+      -13,
+      -19
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kpPPppPPPPPPppPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      ".....kpPPPPwwwwPPPPPdk....",
+      "....kpPPPPwwwwwwPPPPdk....",
+      "....kpPPPwwwwwwwwPPPdk....",
+      "....kpPPwrrwwwwrrwPPdk....",
+      "....kpPPwkrwwwwrkwPPdk....",
+      ".....kpPPPwwWWwwPPPdk.....",
+      "......kdPPPwWWwPPPddk.....",
+      ".......kddPPWWPPddkk......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    },
+    "E": {
+     "at": [
+      -12,
+      -16
+     ],
+     "px": [
+      "...k.............",
+      "..kpk............",
+      "..kppk...........",
+      "...kpPk..........",
+      "...kpPPkkkk......",
+      "....kpPPpppkk....",
+      "....kpPPPPPppk...",
+      "...kpPPPPPPPwk...",
+      "..kpPPPPPPwwwwk..",
+      "..kpPPPPPwwrrwwk.",
+      "..kpPPPPPwwkrwwWk",
+      "..kpPPPPPPwwwWWk.",
+      "...kdPPPPPPwWWk..",
+      "...kkddPPPPddk...",
+      "..kpPPPPPwwwwWk..",
+      "...kdPPPPPPWWk...",
+      "....kddPPPPddk...",
+      ".....kkddddkk....",
+      ".......kkkk......"
+     ]
+    },
+    "NE": {
+     "at": [
+      -14,
+      -19
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kpPPppPPPPPPppPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      "....kpPPPPPPPPPPPPPPdk....",
+      "....kpPPPddPPPPPPPPPdk....",
+      "....kpPPPPddPPPPPPPPdk....",
+      "....kpPPPPPPPPPPPPPPdk....",
+      ".....kpPPPPPPPPPPPPdk.....",
+      "......kdPPPPPPPPPPddk.....",
+      ".......kddPPPPPPddkk......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -18
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kpPPppPPPPPPppPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      ".....kpPPPPPPPPPPPPPdk....",
+      "....kpPPPPPPPPPPPPPPdk....",
+      "....kpPPPddPPPPPPPPPdk....",
+      "....kpPPPPddPPPPPPPPdk....",
+      "....kpPPPPPPPPPPPPPPdk....",
+      ".....kpPPPPPPPPPPPPdk.....",
+      "......kdPPPPPPPPPPddk.....",
+      ".......kddPPPPPPddkk......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    },
+    "NW": {
+     "at": [
+      -11,
+      -17
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kdPPppPPPPPPppPPpk....",
+      "....kdPPPPPPPPPPPPPpk.....",
+      "....kdPPPPPPPPPPPPPpk.....",
+      "....kdPPPPPPPPPPPPPPpk....",
+      "....kdPPPPPPPPPddPPPpk....",
+      "....kdPPPPPPPPddPPPPpk....",
+      "....kdPPPPPPPPPPPPPPpk....",
+      ".....kdPPPPPPPPPPPPpk.....",
+      ".....kddPPPPPPPPPPdk......",
+      "......kkddPPPPPPddk.......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    },
+    "W": {
+     "at": [
+      -4,
+      -16
+     ],
+     "px": [
+      ".............k...",
+      "............kpk..",
+      "...........kppk..",
+      "..........kPpk...",
+      "......kkkkPPpk...",
+      "....kkpppPPpk....",
+      "...kppPPPPPpk....",
+      "...kwPPPPPPPpk...",
+      "..kwwwwPPPPPPpk..",
+      ".kwwrrwwPPPPPpk..",
+      "kWwwrkwwPPPPPpk..",
+      ".kWWwwwPPPPPPpk..",
+      "..kWWwPPPPPPdk...",
+      "...kddPPPPddkk...",
+      "..kWwwwwPPPPPpk..",
+      "...kWWPPPPPPdk...",
+      "...kddPPPPddk....",
+      "....kkddddkk.....",
+      "......kkkk......."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -19
+     ],
+     "px": [
+      "..k....................k..",
+      ".kpk..................kpk.",
+      ".kppk................kppk.",
+      "..kpPk..............kPpk..",
+      "..kpPPk...kkkkkk...kPPpk..",
+      "...kpPPkkkppppppkkkPPpk...",
+      "....kdPPppPPPPPPppPPpk....",
+      "....kdPPPPPPPPPPPPPpk.....",
+      "....kdPPPPPwwwwPPPPpk.....",
+      "....kdPPPPwwwwwwPPPPpk....",
+      "....kdPPPwwwwwwwwPPPpk....",
+      "....kdPPwrrwwwwrrwPPpk....",
+      "....kdPPwkrwwwwrkwPPpk....",
+      ".....kdPPPwwWWwwPPPpk.....",
+      ".....kddPPPwWWwPPPdk......",
+      "......kkddPPWWPPddk.......",
+      "........kkddddddkk........",
+      "..........kkkkkk.........."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+// pixel-paint palette for 1023_iron-crown. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 171e2b
+1 333333
+2 2c4149
+3 235f74
+4 8c540a
+5 4e94a2
+6 c09723
+7 30c3c6
+8 c6c8d2
+9 f5d32f
+a 53f5ef
+b f8fbfb

@@ -1,0 +1,53 @@
+{
+ "id": "0823_corviknight-gmax",
+ "exported": "2026-10-21T07:51:48.590Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 48,
+   "H": 45,
+   "x0": -2,
+   "y0": -3,
+   "w": 52,
+   "h": 52,
+   "frames": 20
+  },
+  "back": {
+   "W": 48,
+   "H": 43,
+   "x0": -2,
+   "y0": -3,
+   "w": 52,
+   "h": 50,
+   "frames": 20
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (20 vs 20 frames)",
+  "backR": "worst frame mismatch 0.00% (20 vs 20 frames)"
+ },
+ "pixel": {
+  "height": 43,
+  "how": "base 0823_corviknight",
+  "scale": 0.41,
+  "srcBodyH": 100,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 5,
+  "speckContrast": 0.22,
+  "darkLift": 0.32,
+  "paletteFrom": "0823_corviknight",
+  "palette": 9,
+  "outlineShades": 1
+ }
+}

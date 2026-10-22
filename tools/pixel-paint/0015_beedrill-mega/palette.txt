@@ -1,0 +1,16 @@
+// 0015_beedrill-mega hand-painted palette (light from upper-left)
+. transparent
+# 000000
+Y ffd84a
+y f0a020
+o b06a10
+K 2c2c3c
+k 5c6484
+L 9aa4c4
+l dfe2f2
+W f6f2ff
+w d4cbec
+v a294c6
+R ec2c36
+r 941424
+e ffa090

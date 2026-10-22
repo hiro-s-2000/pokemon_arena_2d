@@ -1,0 +1,22 @@
+// Eevee-Gmax hand-painted palette (lit from upper-left)
+. transparent
+# 000000
+1 3d2216
+2 6e4038
+3 a4624a
+4 c8805e
+5 a8702a
+6 d59c4a
+7 eebd6a
+8 bd9c7b
+9 e6c594
+a ffe6ac
+b fff6d8
+e 141420
+W ffffff
+i 6c74a0
+r c8605a
+m 6b3a20
+g 9aa4b4
+w f4f8ff
+n 1e2838

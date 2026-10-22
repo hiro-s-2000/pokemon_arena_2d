@@ -1,0 +1,16 @@
+// pixel-paint palette for 0879_copperajah-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 1b3837
+1 1c3938
+2 323334
+3 24514f
+4 793d1c
+5 396b69
+6 3d927e
+7 c75f1e
+8 738b93
+9 63b19f
+a ff8447
+b ffffff

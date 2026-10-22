@@ -1,0 +1,282 @@
+{
+  "_": "Mega Blastoise = Blastoise PMD sheets recoloured + twin cannons erased + central dorsal turret & Mega Launcher cannon + forearm shell shields/cannons + white chin beard & red eyes",
+  "grow": 6,
+  "colors": {
+    "k": "000000",
+    "W": "ffffff",
+    "g": "dce2ec",
+    "G": "9aa4b4",
+    "D": "525a68",
+    "h": "181c24",
+    "B": "9c6438",
+    "b": "643c1c",
+    "R": "d83424"
+  },
+  "erase": [
+    {
+      "name": "erase-twin-cannons",
+      "anchor": "center",
+      "anims": ["Idle", "Walk", "Attack", "Shoot", "SpAttack", "Strike", "Charge"],
+      "dirs": {
+        "S": {
+          "at": [-13, -14],
+          "px": [
+            "..................kkkkkkk..",
+            "...................kkkkkk..",
+            "..kkk..............kkkkkkk.",
+            ".kkkkk..............kkkkkk.",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkk.................kkkkk"
+          ]
+        },
+        "SE": {
+          "at": [-12, -13],
+          "px": [
+            "..............kkkkkkk",
+            "..............kkkkkkk",
+            "..............kkkkkkk",
+            "..............kkkkkkk",
+            "...............kkkkkk",
+            ".....................",
+            ".....................",
+            ".....................",
+            ".....................",
+            "kkkkkkk..............",
+            "kkkkkkk..............",
+            "kkkkkkk..............",
+            "kkkkkkk..............",
+            "kkkkkk...............",
+            "kkkkk................"
+          ]
+        },
+        "E": {
+          "at": [-4, -17],
+          "px": [
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk"
+          ]
+        },
+        "NE": {
+          "at": [-11, -14],
+          "px": [
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk",
+            "kkkkkkk"
+          ]
+        },
+        "N": {
+          "at": [-13, -15],
+          "px": [
+            ".kkkkkk.............kkkkkk.",
+            "kkkkkkk.............kkkkkkk",
+            "kkkkkkk.............kkkkkkk",
+            "kkkkkkk.............kkkkkkk",
+            "kkkkkkk.............kkkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkkk...............kkkkkk",
+            "kkkkk.................kkkkk"
+          ]
+        }
+      }
+    }
+  ],
+  "parts": [
+    {
+      "name": "mega-launcher-cannon",
+      "anchor": "center",
+      "layer": "front",
+      "dirs": {
+        "S": {
+          "at": [-5, -15],
+          "px": [
+            "...kkkkk...",
+            "..kBWWWBk..",
+            ".kBWgggWBk.",
+            ".kWgggggWk.",
+            "kBWgGGGgWBk",
+            "kWgGhhhGgWk",
+            "kWghhhhhgWk",
+            "kWGhhhhhGWk",
+            ".kGGhhhGGk.",
+            "..kkGGGkk..",
+            "...kkkkk..."
+          ]
+        },
+        "SE": {
+          "at": [-5, -15],
+          "px": [
+            ".......kkkkk..",
+            ".....kkgggghk.",
+            "....kWggggGhhk",
+            "..kkWggggGGhhk",
+            ".kBWWgggGGDkk.",
+            "kBBBBWWGGDk...",
+            "kBbbbbWWDk....",
+            ".kkkkkkkk....."
+          ]
+        },
+        "E": {
+          "at": [-6, -16],
+          "px": [
+            "........kkkkk..",
+            "......kkggggghk",
+            "....kkWggggGGhk",
+            "..kkWWggggGGhhk",
+            ".kBWWWgggGGDkk.",
+            "kBBBBWWWGGDk...",
+            "kBbbbbWWWDk....",
+            ".kkkkkkkkk....."
+          ]
+        },
+        "NE": {
+          "at": [-5, -16],
+          "px": [
+            ".......kkkk..",
+            ".....kkggggk.",
+            "....kWggggGDk",
+            "...kWggggGGDk",
+            "..kWWgggGGDk.",
+            ".kBWWWWGGDk..",
+            "kBBBBbWGDk...",
+            "kBbbbbWDk....",
+            ".kkkkkkk....."
+          ]
+        },
+        "N": {
+          "at": [-5, -17],
+          "px": [
+            "...kkkkk...",
+            "..kgggggk..",
+            "..kWgggGk..",
+            "..kWgggGk..",
+            "..kWgggGk..",
+            "..kWWgGGk..",
+            ".kWWWWWWWk.",
+            "kBBBBBBBBbk",
+            "kBBbbbbbbbk",
+            ".kkkkkkkkk."
+          ]
+        }
+      }
+    },
+    {
+      "name": "arm-shields",
+      "anchor": "center",
+      "layer": "front",
+      "anims": ["Idle", "Walk", "Attack", "Shoot", "SpAttack", "Strike", "Charge"],
+      "dirs": {
+        "S": {
+          "at": [-12, 0],
+          "px": [
+            ".kkkk..............kkkk.",
+            "kgGGWk............kWGGgk",
+            "khBBBk............kBBBhk",
+            "kBbbbk............kbbbBk",
+            "kWWWWk............kWWWWk",
+            ".kkkk..............kkkk."
+          ]
+        },
+        "SE": {
+          "at": [-3, -1],
+          "px": [
+            "............kkkk.",
+            "...........kWGGgk",
+            "...........kBBBhk",
+            ".kkkk......kbbbBk",
+            "kWWWWk.....kWWWWk",
+            "kBBBBk......kkkk.",
+            "kbbghk...........",
+            ".kkkk............"
+          ]
+        },
+        "E": {
+          "at": [6, -1],
+          "px": [
+            ".kkkk.",
+            "kWWWWk",
+            "kBBBgh",
+            "kbbbGk",
+            ".kkkk."
+          ]
+        },
+        "NE": {
+          "at": [7, -4],
+          "px": [
+            ".kkkk.",
+            "kWGGgk",
+            "kBBBhk",
+            "kbbbBk",
+            ".kkkk."
+          ]
+        },
+        "N": {
+          "at": [-12, -3],
+          "px": [
+            ".kkkk..............kkkk.",
+            "kgGGWk............kWGGgk",
+            "kBBBBk............kBBBBk",
+            "kbbbbk............kbbbbk",
+            "kWWWWk............kWWWWk",
+            ".kkkk..............kkkk."
+          ]
+        }
+      }
+    },
+    {
+      "name": "chin-beard-and-red-eyes",
+      "anchor": "head",
+      "layer": "front",
+      "anims": ["Idle", "Walk", "Attack", "Shoot", "SpAttack", "Strike", "Charge"],
+      "dirs": {
+        "S": {
+          "at": [-4, -5],
+          "px": [
+            ".R.....R.",
+            ".........",
+            ".........",
+            ".........",
+            ".........",
+            "..kWWWk..",
+            "..kgWgk..",
+            "...kkk..."
+          ]
+        },
+        "SE": {
+          "at": [-2, -4],
+          "px": [
+            "R.....",
+            "......",
+            "......",
+            "......",
+            ".kWWk.",
+            "..kgk.",
+            "..kk.."
+          ]
+        },
+        "E": {
+          "at": [-2, -3],
+          "px": [
+            "R....",
+            ".....",
+            ".....",
+            ".kWWk",
+            "..kgk",
+            "..kk."
+          ]
+        }
+      }
+    }
+  ]
+}

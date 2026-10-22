@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMD 制作比較</title><style>
+body{font:15px system-ui;margin:24px;background:#20232a;color:#eef2f7}header{position:sticky;top:0;background:#20232a;padding:12px 0;z-index:1}h1{font-size:23px}button,select,input{font:inherit;margin:4px;padding:7px}section{display:flex;gap:20px;flex-wrap:wrap}.pair{padding:12px;background:#303540;border-radius:10px;margin:10px 0}canvas{image-rendering:pixelated;max-width:100%;border:1px solid #687080}small{display:block;color:#bac8d8;margin:5px}#design img{image-rendering:pixelated;height:150px;object-fit:contain;margin:12px}#status{font-variant-numeric:tabular-nums}</style>
+<header><h1>8方向・ポーズ制作の比較</h1><div id="title"></div>
+<label>動作 <select id="anim"></select></label><button id="play">停止</button><button id="prev">前のコマ</button><button id="next">次のコマ</button>
+<label>速度 <select id="speed"><option value="0.25">0.25倍</option><option value="0.5">0.5倍</option><option value="1" selected>1倍</option></select></label>
+<label>拡大 <select id="zoom"><option>1</option><option selected>2</option><option>4</option></select></label>
+<label>背景 <input id="bg" type="color" value="#cbd0d8"></label><label><input id="onion" type="checkbox">直前コマを重ねる</label><div id="status"></div></header>
+<p>各枠の左が読み込み時の絵、右が編集結果。同じ配置で形や動きを比較します。上のpokeSpriteはデザインの参考です。</p><div id="design"></div><section id="views"></section><pre id="checks"></pre>
+<script>
+const D=/*WORKSHOP_DATA*/;
+const $=id=>document.getElementById(id), images={},refs={}, canvases=[];
+$('title').textContent=D.project.id+' / SpriteCollab '+D.project.source.folder;
+for(const n of Object.keys(D.record.anims)){$('anim').add(new Option(n,n));images[n]=new Image();images[n].src=D.images[n];refs[n]=new Image();refs[n].src=D.reference[n];}
+for(const[side,src]of Object.entries(D.design)){const im=new Image();im.src=src;im.alt='pokeSprite '+side;$('design').append(im);}
+for(let r=0;r<8;r++){const box=document.createElement('div');box.className='pair';const label=document.createElement('small');label.textContent=D.project.dirs[r]+' — 元の絵 / 編集結果';const c=document.createElement('canvas');box.append(label,c);$('views').append(box);canvases.push(c);}
+$('checks').textContent='構造検査: 合格 / 画質は目視確認が必要\n'+D.warnings.join('\n');
+let elapsed=0,playing=true,last=performance.now();
+function frame(a){let t=elapsed%(a.durations.reduce((s,d)=>s+d,0)/60);for(let i=0;i<a.frames;i++){t-=a.durations[i]/60;if(t<0)return i;}return a.frames-1;}
+function render(){const n=$('anim').value,a=D.record.anims[n],raw=D.project.anims[n],f=frame(a),z=+$('zoom').value;
+  $('status').textContent=`コマ ${f+1}/${a.frames} ・ ${a.durations[f]} ticks ・ ヒット ${a.hit===null?'なし':a.hit+1} ・ 変更 ${D.metrics[n].changedPixels??'寸法変更'} px`;
+  canvases.forEach((c,r)=>{const w=Math.max(a.fw,120),h=Math.max(a.fh,120);c.width=w*z*2;c.height=h*z;const ctx=c.getContext('2d');ctx.imageSmoothingEnabled=false;ctx.fillStyle=$('bg').value;ctx.fillRect(0,0,c.width,c.height);
+    function draw(img,fw,fh,k,half,alpha){if(!img.complete||!img.naturalWidth)return;ctx.globalAlpha=alpha;const row=a.rows===1?0:r;const scale=half===0?D.project.scale:1;ctx.drawImage(img,k*fw,row*fh,fw,fh,(half*w+(w-fw*scale)/2)*z,(h-fh*scale)/2*z,fw*scale*z,fh*scale*z);ctx.globalAlpha=1;}
+    if($('onion').checked){draw(refs[n],raw.fw,raw.fh,(f+a.frames-1)%a.frames,0,.25);draw(images[n],a.fw,a.fh,(f+a.frames-1)%a.frames,1,.25);}
+    draw(refs[n],raw.fw,raw.fh,f,0,1);draw(images[n],a.fw,a.fh,f,1,1);
+  });
+}
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'停止':'再生';};
+function step(d){playing=false;$('play').textContent='再生';const a=D.record.anims[$('anim').value],i=(frame(a)+d+a.frames)%a.frames;elapsed=a.durations.slice(0,i).reduce((s,x)=>s+x,0)/60+.000001;render();}
+$('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('anim').onchange=()=>{elapsed=0;render();};
+function tick(now){if(playing)elapsed+=(now-last)/1000*+$('speed').value;last=now;render();requestAnimationFrame(tick);}requestAnimationFrame(tick);
+</script></html>

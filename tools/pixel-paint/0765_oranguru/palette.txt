@@ -1,0 +1,16 @@
+// pixel-paint palette for 0765_oranguru. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 4a1f4b
+2 702e8b
+3 136425
+4 695452
+5 9b50b8
+6 9f8e8e
+7 1cbe50
+8 f36eb2
+9 bcbdc1
+a ffac12
+b fdfdfa

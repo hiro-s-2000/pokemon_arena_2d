@@ -1,0 +1,244 @@
+{
+ "base": "0422_shellos",
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "B": "a87850",
+  "b": "7a5034",
+  "c": "4a2c1c",
+  "G": "7aa050",
+  "g": "4e7034",
+  "Y": "e0b860",
+  "y": "b08838"
+ },
+ "parts": [
+  {
+   "name": "shell",
+   "anchor": "center",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      -2,
+      -16
+     ],
+     "px": [
+      ".....kkkk.....",
+      ".....kbbk.....",
+      ".....kbbk.....",
+      "....kcccck....",
+      "....kbbbbk....",
+      "...kBbbbbbk...",
+      "...kBbbbbbk...",
+      "..kcccccccck..",
+      "..kBBbbbbbbk..",
+      "..kBBbbbbbbk..",
+      ".kBBBbbbbbbbk.",
+      ".kcccccccccck.",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kcccccccccccck"
+     ]
+    },
+    "SE": {
+     "at": [
+      -10,
+      -16
+     ],
+     "px": [
+      ".....kkkk.....",
+      ".....kbbk.....",
+      ".....kbbk.....",
+      "....kcccck....",
+      "....kbbbbk....",
+      "...kBbbbbbk...",
+      "...kBbbbbbk...",
+      "..kcccccccck..",
+      "..kBBbbbbbbk..",
+      "..kBBbbbbbbk..",
+      ".kBBBbbbbbbbk.",
+      ".kcccccccccck.",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kcccccccccccck"
+     ]
+    },
+    "E": {
+     "at": [
+      -12,
+      -15
+     ],
+     "px": [
+      ".....kkkk.....",
+      ".....kbbk.....",
+      ".....kbbk.....",
+      "....kcccck....",
+      "....kbbbbk....",
+      "...kBbbbbbk...",
+      "...kBbbbbbk...",
+      "..kcccccccck..",
+      "..kBBbbbbbbk..",
+      "..kBBbbbbbbk..",
+      ".kBBBbbbbbbbk.",
+      ".kcccccccccck.",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kcccccccccccck"
+     ]
+    }
+   }
+  },
+  {
+   "name": "shellBack",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NE": {
+     "at": [
+      -8,
+      -14
+     ],
+     "px": [
+      ".....kkkk.....",
+      ".....kbbk.....",
+      ".....kbbk.....",
+      "....kcccck....",
+      "....kbbbbk....",
+      "...kBbbbbbk...",
+      "...kBbbbbbk...",
+      "..kcccccccck..",
+      "..kBBbbbbbbk..",
+      "..kBBbbbbbbk..",
+      ".kBBBbbbbbbbk.",
+      ".kcccccccccck.",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kcccccccccccck"
+     ]
+    },
+    "N": {
+     "at": [
+      -7,
+      -13
+     ],
+     "px": [
+      ".....kkkk.....",
+      ".....kbbk.....",
+      ".....kbbk.....",
+      "....kcccck....",
+      "....kbbbbk....",
+      "...kBbbbbbk...",
+      "...kBbbbbbk...",
+      "..kcccccccck..",
+      "..kBBbbbbbbk..",
+      "..kBBbbbbbbk..",
+      ".kBBBbbbbbbbk.",
+      ".kcccccccccck.",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kBBBBbbbbbbbbk",
+      "kcccccccccccck"
+     ]
+    }
+   }
+  },
+  {
+   "name": "leaves",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      "..k......k..",
+      ".kyk....kyk.",
+      "..kGk..kGk..",
+      ".kk.kkk.kk..",
+      "kGGkYYYkGGk.",
+      "kGgYYyYYgGGk",
+      ".kggkyykggk.",
+      "..kk.kk.kk.."
+     ]
+    },
+    "SE": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      "..k......k..",
+      ".kyk....kyk.",
+      "..kGk..kGk..",
+      ".kk.kkk.kk..",
+      "kGGkYYYkGGk.",
+      "kGgYYyYYgGGk",
+      ".kggkyykggk.",
+      "..kk.kk.kk.."
+     ]
+    },
+    "E": {
+     "at": [
+      -7,
+      -14
+     ],
+     "px": [
+      "..k......k..",
+      ".kyk....kyk.",
+      "..kGk..kGk..",
+      ".kk.kkk.kk..",
+      "kGGkYYYkGGk.",
+      "kGgYYyYYgGGk",
+      ".kggkyykggk.",
+      "..kk.kk.kk.."
+     ]
+    }
+   }
+  },
+  {
+   "name": "leavesBack",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "NE": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      "..k......k..",
+      ".kyk....kyk.",
+      "..kGk..kGk..",
+      ".kk.kkk.kk..",
+      "kGGkYYYkGGk.",
+      "kGgYYyYYgGGk",
+      ".kggkyykggk.",
+      "..kk.kk.kk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -6,
+      -14
+     ],
+     "px": [
+      "..k......k..",
+      ".kyk....kyk.",
+      "..kGk..kGk..",
+      ".kk.kkk.kk..",
+      "kGGkYYYkGGk.",
+      "kGgYYyYYgGGk",
+      ".kggkyykggk.",
+      "..kk.kk.kk.."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "1022_iron-boulder",
+ "exported": "2026-10-21T07:51:57.114Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 48,
+   "H": 34,
+   "x0": -3,
+   "y0": -3,
+   "w": 54,
+   "h": 41,
+   "frames": 19
+  },
+  "back": {
+   "W": 50,
+   "H": 31,
+   "x0": -3,
+   "y0": -2,
+   "w": 56,
+   "h": 37,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 33,
+  "how": "override",
+  "scale": 0.4921,
+  "srcBodyH": 63,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

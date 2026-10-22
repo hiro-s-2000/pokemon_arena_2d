@@ -1,0 +1,180 @@
+{
+ "grow": 10,
+ "colors": {
+  "k": "000000",
+  "Y": "f8d020",
+  "w": "fffbe0",
+  "O": "c89000"
+ },
+ "parts": [
+  {
+   "name": "bolt",
+   "anchor": "center",
+   "layer": "back",
+   "anims": [
+    "Idle",
+    "Walk",
+    "Charge",
+    "Shoot",
+    "Hurt"
+   ],
+   "dirs": {
+    "S": {
+     "at": [
+      -3,
+      -26
+     ],
+     "px": [
+      "......kkkkkkkk.",
+      ".....kYYYYYYYYk",
+      ".....kYYYYYYYYk",
+      "....kYYwwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYkkkk.",
+      "...kYYwwwYYYYYk",
+      "...kYYwwwwYYYYk",
+      "..kYYYYwwwwYYk.",
+      "...kkkYYwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYk....",
+      "...kYYwwYYkkkk.",
+      "..kYYYwwwYYYYYk",
+      "...kYYYwwwYYYk.",
+      "....kkYYwYYkk..",
+      "....kYYwYYk....",
+      "....kYYYYYk....",
+      "...kYYYYYk.....",
+      "..kYYYkkk......",
+      ".kkYYk.........",
+      "kYYkk..........",
+      ".kk............"
+     ]
+    },
+    "SE": {
+     "at": [
+      -5,
+      -26
+     ],
+     "px": [
+      "......kkkkkkkk.",
+      ".....kYYYYYYYYk",
+      ".....kYYYYYYYYk",
+      "....kYYwwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYkkkk.",
+      "...kYYwwwYYYYYk",
+      "...kYYwwwwYYYYk",
+      "..kYYYYwwwwYYk.",
+      "...kkkYYwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYk....",
+      "...kYYwwYYkkkk.",
+      "..kYYYwwwYYYYYk",
+      "...kYYYwwwYYYk.",
+      "....kkYYwYYkk..",
+      "....kYYwYYk....",
+      "....kYYYYYk....",
+      "...kYYYYYk.....",
+      "..kYYYkkk......",
+      ".kkYYk.........",
+      "kYYkk..........",
+      ".kk............"
+     ]
+    },
+    "E": {
+     "at": [
+      -7,
+      -26
+     ],
+     "px": [
+      "......kkkkkkkk.",
+      ".....kYYYYYYYYk",
+      ".....kYYYYYYYYk",
+      "....kYYwwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYkkkk.",
+      "...kYYwwwYYYYYk",
+      "...kYYwwwwYYYYk",
+      "..kYYYYwwwwYYk.",
+      "...kkkYYwwYYYk.",
+      "....kYYwwYYkk..",
+      "...kYYwwYYk....",
+      "...kYYwwYYkkkk.",
+      "..kYYYwwwYYYYYk",
+      "...kYYYwwwYYYk.",
+      "....kkYYwYYkk..",
+      "....kYYwYYk....",
+      "....kYYYYYk....",
+      "...kYYYYYk.....",
+      "..kYYYkkk......",
+      ".kkYYk.........",
+      "kYYkk..........",
+      ".kk............"
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -26
+     ],
+     "px": [
+      ".kkkkkkkk......",
+      "kYYYYYYYYk.....",
+      "kYYYYYYYYk.....",
+      ".kYYYwwwYYk....",
+      "..kkYYwwYYk....",
+      ".kkkkYYwwYYk...",
+      "kYYYYYwwwYYk...",
+      "kYYYYwwwwYYk...",
+      ".kYYwwwwYYYYk..",
+      ".kYYYwwYYkkk...",
+      "..kkYYwwYYk....",
+      "....kYYwwYYk...",
+      ".kkkkYYwwYYk...",
+      "kYYYYYwwwYYYk..",
+      ".kYYYwwwYYYk...",
+      "..kkYYwYYkk....",
+      "....kYYwYYk....",
+      "....kYYYYYk....",
+      ".....kYYYYYk...",
+      "......kkkYYYk..",
+      ".........kYYkk.",
+      "..........kkYYk",
+      "............kk."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -26
+     ],
+     "px": [
+      ".kkkkkkkk......",
+      "kYYYYYYYYk.....",
+      "kYYYYYYYYk.....",
+      ".kYYYwwwYYk....",
+      "..kkYYwwYYk....",
+      ".kkkkYYwwYYk...",
+      "kYYYYYwwwYYk...",
+      "kYYYYwwwwYYk...",
+      ".kYYwwwwYYYYk..",
+      ".kYYYwwYYkkk...",
+      "..kkYYwwYYk....",
+      "....kYYwwYYk...",
+      ".kkkkYYwwYYk...",
+      "kYYYYYwwwYYYk..",
+      ".kYYYwwwYYYk...",
+      "..kkYYwYYkk....",
+      "....kYYwYYk....",
+      "....kYYYYYk....",
+      ".....kYYYYYk...",
+      "......kkkYYYk..",
+      ".........kYYkk.",
+      "..........kkYYk",
+      "............kk."
+     ]
+    }
+   }
+  }
+ ]
+}

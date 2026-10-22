@@ -1,0 +1,15 @@
+// pixel-paint palette for 0986_brute-bonnet. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 281d1e
+1 0a3a1c
+2 4b302e
+3 694b40
+4 42674b
+5 c22d2f
+6 5f9668
+7 e75153
+8 9b9b8d
+9 8bf285
+a d6decd

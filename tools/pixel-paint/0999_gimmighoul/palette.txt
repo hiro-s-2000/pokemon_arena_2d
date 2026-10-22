@@ -1,0 +1,16 @@
+// pixel-paint palette for 0999_gimmighoul. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 100f12
+1 333333
+2 313337
+3 652836
+4 8f0000
+5 816630
+6 626a82
+7 7c3aed
+8 a7870f
+9 879fc7
+a bec5d9
+b efcf00

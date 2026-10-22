@@ -1,0 +1,53 @@
+{
+ "id": "0376_metagross-mega",
+ "exported": "2026-10-21T07:51:39.335Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 42,
+   "H": 31,
+   "x0": -3,
+   "y0": -3,
+   "w": 48,
+   "h": 38,
+   "frames": 19
+  },
+  "back": {
+   "W": 42,
+   "H": 23,
+   "x0": -2,
+   "y0": -3,
+   "w": 47,
+   "h": 30,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 30,
+  "how": "base 0376_metagross",
+  "scale": 0.3636,
+  "srcBodyH": 77,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.5,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": "0376_metagross",
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

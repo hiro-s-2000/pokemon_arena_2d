@@ -1,0 +1,53 @@
+{
+ "id": "1023_iron-crown",
+ "exported": "2026-10-21T07:51:57.200Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 30,
+   "H": 35,
+   "x0": -2,
+   "y0": -3,
+   "w": 34,
+   "h": 42,
+   "frames": 19
+  },
+  "back": {
+   "W": 32,
+   "H": 40,
+   "x0": -2,
+   "y0": -3,
+   "w": 37,
+   "h": 47,
+   "frames": 19
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (19 vs 19 frames)",
+  "backR": "worst frame mismatch 0.00% (19 vs 19 frames)"
+ },
+ "pixel": {
+  "height": 34,
+  "how": "override",
+  "scale": 0.3855,
+  "srcBodyH": 83,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.34,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

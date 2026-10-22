@@ -1,0 +1,280 @@
+{
+  "_units": "lungePx / hopPx / anims.*.lunge are PMD-scale pixels (converted from GIF pixels by the pixelize scale)",
+  "_comment": "Curated GIF-anim tuning for the Gen 5 / Gen 6 species and regional forms without PMD art (schema: README.md here). Frame numbers are front.gif frames. Step counts: Attack 9, Strike 10, Shoot 7, SpAttack 9, Charge 10, Hurt 3, Faint 7. Pixel keys (pixelHeight / colors / paletteFrom / innerLines / lineWeight) tuned per entry against the --pixel-review sheets: innerLines 0.42-0.5 with lineWeight 0.3 drops the GIF’s texture strokes so the art reads flat like PMD; heights sit next to the evolution relatives’ PMD bodies (e.g. Simisage 29, Jellicent 28, Darmanitan-Galar 35).",
+
+  "_0514_simisear": "Sways side to side: 6 leans back, 18 leans forward with head low, 57 arms out.",
+  "0514_simisear": {
+    "pixelHeight": 28, "colors": 10, "paletteFrom": "0513_pansear", "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 6, "reach": 18, "mid": 21 },
+    "walkFrames": [0, 3, 6, 9, 12, 15, 18, 21],
+    "attackFrames": [0, 6, 7, 17, 18, 19, 20, 22, 0],
+    "strikeFrames": [6, 7, 41, 42, 42, 43, 44, 45, 0, 0],
+    "shootFrames": [53, 54, 57, 58, 59, 60, 0],
+    "spAttackFrames": [3, 14, 15, 15, 16, 15, 14, 0, 0],
+    "chargeFrames": [3, 4, 3, 9, 10, 9, 33, 34, 11, 0],
+    "hurtFrames": [6, 7, 8],
+    "faintFrames": [6, 54, 55, 55, 55, 55, 55]
+  },
+
+  "_0516_simipour": "Waves: 5 arm raised, 11 leans forward, 14 head tilted low, 55 flinch, 69 leans forward arm out.",
+  "0516_simipour": {
+    "pixelHeight": 28, "colors": 10, "paletteFrom": "0515_panpour", "innerLines": 0.42, "lineWeight": 0.3,
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 14, "reach": 11, "mid": 13 },
+    "walkFrames": [0, 4, 8, 11, 14, 17, 20, 22],
+    "attackFrames": [0, 14, 15, 11, 12, 12, 13, 0, 0],
+    "strikeFrames": [53, 55, 67, 69, 69, 69, 70, 72, 0, 0],
+    "shootFrames": [55, 11, 12, 12, 13, 0, 0],
+    "spAttackFrames": [14, 23, 24, 5, 6, 29, 4, 0, 0],
+    "chargeFrames": [38, 38, 39, 38, 14, 15, 14, 15, 16, 0],
+    "hurtFrames": [55, 56, 58],
+    "faintFrames": [55, 56, 56, 56, 56, 56, 56]
+  },
+
+  "_0520_tranquill": "18 head pulled back, 30 tail fanned / neck up, 100 pecks forward.",
+  "0520_tranquill": {
+    "pixelHeight": 25, "colors": 10, "paletteFrom": "0521_unfezant", "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 18, "reach": 100, "mid": 102 },
+    "walkFrames": [0, 2, 4, 6, 8, 10, 12, 14],
+    "attackFrames": [0, 18, 19, 99, 100, 101, 102, 105, 0],
+    "strikeFrames": [30, 31, 110, 111, 112, 111, 113, 114, 0, 0],
+    "shootFrames": [5, 6, 7, 30, 31, 9, 0],
+    "spAttackFrames": [3, 29, 30, 31, 30, 29, 28, 0, 0],
+    "chargeFrames": [41, 42, 41, 42, 41, 42, 41, 42, 43, 0],
+    "hurtFrames": [18, 19, 20],
+    "faintFrames": [19, 100, 101, 101, 101, 101, 101]
+  },
+
+  "_0522_blitzle": "Mane lights up yellow on 50/61/64/73/75/76/87/89/99; 62 rears, 54 head down with a foreleg kick.",
+  "0522_blitzle": {
+    "pixelHeight": 24, "colors": 10, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 62, "reach": 54, "mid": 56 },
+    "walkFrames": [0, 3, 5, 7, 8, 9, 11, 12],
+    "attackFrames": [0, 62, 63, 54, 54, 54, 55, 56, 0],
+    "strikeFrames": [62, 61, 53, 54, 54, 54, 55, 56, 0, 0],
+    "shootFrames": [0, 75, 76, 75, 74, 0, 0],
+    "spAttackFrames": [7, 50, 61, 64, 73, 76, 74, 0, 0],
+    "chargeFrames": [7, 50, 7, 61, 6, 64, 7, 76, 4, 0],
+    "hurtFrames": [62, 62, 60],
+    "faintFrames": [62, 7, 7, 7, 7, 7, 7]
+  },
+
+  "_0523_zebstrika": "115-125 stomps; 126/129/131 whole body lights up (electric burst) — kept out of Idle, used for Strike/Shoot/SpAttack/Charge.",
+  "0523_zebstrika": {
+    "pixelHeight": 30, "colors": 10, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "idleRange": [0, 112],
+    "lungePx": 8,
+    "poses": { "rest": 0, "crouch": 4, "reach": 120, "mid": 122 },
+    "walkFrames": [115, 117, 119, 120, 122, 124, 125, 0],
+    "attackFrames": [0, 117, 119, 120, 120, 120, 122, 124, 0],
+    "strikeFrames": [127, 126, 129, 129, 131, 131, 133, 134, 0, 0],
+    "shootFrames": [124, 126, 126, 129, 133, 0, 0],
+    "spAttackFrames": [4, 126, 129, 131, 129, 131, 133, 134, 0],
+    "chargeFrames": [4, 4, 126, 4, 129, 4, 131, 4, 133, 0],
+    "hurtFrames": [119, 120, 122],
+    "faintFrames": [119, 120, 4, 4, 4, 4, 4]
+  },
+
+  "_0538_throh": "61-82 reaches its left arm out (grab); 7-9 chest puffed up; 2 arm pulled back.",
+  "0538_throh": {
+    "pixelHeight": 28, "colors": 10, "paletteFrom": null, "innerLines": 0.42, "lineWeight": 0.3,
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 2, "reach": 67, "mid": 79 },
+    "walkFrames": [0, 2, 4, 6, 8, 10, 12, 13],
+    "attackFrames": [0, 62, 63, 65, 67, 70, 79, 82, 0],
+    "strikeFrames": [2, 3, 64, 67, 67, 67, 79, 81, 0, 0],
+    "shootFrames": [2, 8, 9, 9, 10, 13, 0],
+    "spAttackFrames": [2, 7, 8, 9, 8, 9, 10, 13, 0],
+    "chargeFrames": [2, 4, 2, 5, 2, 4, 2, 5, 13, 0],
+    "hurtFrames": [2, 3, 1],
+    "faintFrames": [2, 2, 2, 2, 2, 2, 2]
+  },
+
+  "_0555_darmanitan-galar-zen": "19-frame GIF: 3-8 fires an ice beam from the head, 12-16 swings an ice blade — Idle trimmed to the clean 0-2 flicker.",
+  "0555_darmanitan-galar-zen": {
+    "pixelHeight": 35, "colors": 11, "paletteFrom": null, "innerLines": 0.42, "lineWeight": 0.3,
+    "idleRange": [0, 2],
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 1, "reach": 10, "mid": 11 },
+    "walkFrames": [0, 1, 2, 17, 18, 9, 10, 11],
+    "attackFrames": [0, 1, 2, 10, 11, 11, 10, 17, 18],
+    "strikeFrames": [10, 11, 12, 13, 14, 14, 15, 16, 17, 18],
+    "shootFrames": [1, 3, 5, 6, 7, 8, 9],
+    "spAttackFrames": [2, 3, 4, 5, 6, 7, 8, 9, 0],
+    "chargeFrames": [0, 1, 2, 1, 0, 1, 2, 1, 9, 0],
+    "hurtFrames": [9, 10, 11],
+    "faintFrames": [10, 0, 0, 0, 0, 0, 0]
+  },
+
+  "_0558_crustle": "7 rises and leans forward, 2 leans back low, 25-32 legs scuttle, 50-58 hunkers down.",
+  "0558_crustle": {
+    "pixelHeight": 30, "colors": 11, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 4,
+    "poses": { "rest": 0, "crouch": 2, "reach": 7, "mid": 9 },
+    "walkFrames": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+    "attackFrames": [0, 2, 3, 6, 7, 8, 9, 10, 0],
+    "strikeFrames": [24, 25, 26, 27, 28, 29, 33, 34, 35, 0],
+    "shootFrames": [4, 43, 44, 45, 46, 0, 0],
+    "spAttackFrames": [50, 17, 18, 19, 18, 17, 16, 0, 0],
+    "chargeFrames": [50, 51, 52, 53, 54, 55, 56, 57, 58, 0],
+    "hurtFrames": [2, 4, 5],
+    "faintFrames": [5, 50, 50, 50, 50, 50, 50]
+  },
+
+  "_0564_tirtouga": "Swims with a bob: 26 body high, 18 low with mouth wide open.",
+  "0564_tirtouga": {
+    "pixelHeight": 24, "colors": 12, "paletteFrom": null, "innerLines": 0.42, "lineWeight": 0.3,
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 26, "reach": 18, "mid": 20 },
+    "walkFrames": [15, 17, 19, 21, 23, 25, 27, 29],
+    "attackFrames": [22, 25, 26, 17, 18, 18, 19, 21, 0],
+    "strikeFrames": [25, 26, 32, 33, 34, 34, 35, 37, 46, 0],
+    "shootFrames": [3, 17, 18, 18, 19, 20, 0],
+    "spAttackFrames": [4, 24, 25, 26, 26, 27, 28, 30, 0],
+    "chargeFrames": [2, 3, 4, 3, 2, 3, 4, 3, 5, 0],
+    "hurtFrames": [10, 11, 12],
+    "faintFrames": [11, 17, 17, 17, 17, 17, 17]
+  },
+
+  "_0565_carracosta": "Sways its flippers: 2 spread wide, 6 pulled in; 44-52 hunches.",
+  "0565_carracosta": {
+    "pixelHeight": 28, "colors": 12, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 6, "reach": 2, "mid": 4 },
+    "walkFrames": [0, 1, 2, 4, 5, 6, 8, 9],
+    "attackFrames": [0, 6, 7, 2, 3, 3, 4, 5, 0],
+    "strikeFrames": [44, 45, 2, 3, 2, 3, 4, 5, 0, 0],
+    "shootFrames": [6, 2, 3, 3, 4, 5, 0],
+    "spAttackFrames": [44, 1, 2, 3, 2, 1, 0, 0, 0],
+    "chargeFrames": [44, 45, 46, 47, 48, 49, 50, 51, 52, 0],
+    "hurtFrames": [6, 7, 8],
+    "faintFrames": [6, 47, 47, 48, 48, 48, 48]
+  },
+
+  "_0591_amoonguss": "Sways: 6 leans back, 18 leans forward, 30-32 cap droops.",
+  "0591_amoonguss": {
+    "pixelHeight": 25, "colors": 10, "paletteFrom": "0590_foongus", "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 4,
+    "hopPx": 1,
+    "poses": { "rest": 0, "crouch": 6, "reach": 18, "mid": 21 },
+    "walkFrames": [0, 3, 6, 9, 12, 15, 18, 21],
+    "attackFrames": [0, 6, 6, 17, 18, 18, 20, 23, 0],
+    "strikeFrames": [29, 30, 41, 42, 42, 42, 44, 47, 0, 0],
+    "shootFrames": [11, 8, 6, 6, 5, 3, 0],
+    "spAttackFrames": [0, 51, 53, 54, 56, 57, 59, 60, 0],
+    "chargeFrames": [53, 54, 56, 57, 53, 54, 56, 57, 59, 0],
+    "hurtFrames": [30, 32, 33],
+    "faintFrames": [30, 32, 32, 32, 32, 32, 32]
+  },
+
+  "_0592_frillish-male": "Pulses: 20 squashed low with veils spread, 88-90 veils flung out, 96-98 stretched tall.",
+  "0592_frillish-male": {
+    "pixelHeight": 30, "colors": 10, "paletteFrom": "0593_jellicent-male", "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 20, "reach": 89, "mid": 94 },
+    "walkFrames": [32, 35, 38, 41, 44, 47, 50, 53, 56],
+    "attackFrames": [0, 19, 20, 94, 96, 97, 98, 0, 0],
+    "strikeFrames": [45, 46, 87, 88, 89, 90, 92, 94, 96, 0],
+    "shootFrames": [70, 89, 89, 90, 92, 96, 0],
+    "spAttackFrames": [20, 93, 95, 97, 98, 98, 0, 1, 2],
+    "chargeFrames": [18, 19, 20, 21, 20, 19, 20, 21, 24, 0],
+    "hurtFrames": [8, 10, 12],
+    "faintFrames": [20, 21, 21, 21, 21, 21, 21]
+  },
+
+  "_0616_shelmet": "Head out 0-35 / 58-112 (6-12 stretched forward); withdraws into its shell 40-53 with a shell hop at 43-45.",
+  "0616_shelmet": {
+    "pixelHeight": 22, "colors": 10, "paletteFrom": "0617_accelgor", "innerLines": 0.42, "lineWeight": 0.3,
+    "lungePx": 4,
+    "poses": { "rest": 0, "crouch": 40, "reach": 8, "mid": 13 },
+    "walkFrames": [0, 2, 4, 6, 8, 10, 12, 14],
+    "attackFrames": [0, 38, 40, 43, 44, 45, 46, 56, 58],
+    "strikeFrames": [41, 48, 50, 51, 51, 51, 52, 55, 57, 0],
+    "shootFrames": [0, 7, 8, 9, 10, 13, 0],
+    "spAttackFrames": [3, 6, 9, 10, 26, 27, 30, 32, 0],
+    "chargeFrames": [39, 40, 41, 42, 40, 41, 42, 40, 55, 58],
+    "hurtFrames": [40, 40, 39],
+    "faintFrames": [39, 40, 40, 40, 40, 40, 40]
+  },
+
+  "_0618_stunfisk": "Flat fish: 6-7 lifts its body, 64-75 lies flat and vibrates.",
+  "0618_stunfisk": {
+    "pixelHeight": 26, "colors": 10, "paletteFrom": null, "innerLines": 0.42, "lineWeight": 0.3,
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 64, "reach": 7, "mid": 10 },
+    "walkFrames": [0, 2, 3, 5, 6, 8, 10, 11],
+    "attackFrames": [0, 64, 66, 6, 7, 7, 8, 10, 0],
+    "strikeFrames": [64, 66, 5, 6, 7, 7, 9, 11, 0, 0],
+    "shootFrames": [3, 7, 7, 8, 10, 12, 0],
+    "spAttackFrames": [64, 5, 6, 7, 6, 7, 9, 11, 0],
+    "chargeFrames": [64, 65, 66, 67, 68, 69, 70, 71, 72, 0],
+    "hurtFrames": [64, 66, 68],
+    "faintFrames": [64, 66, 68, 70, 72, 74, 74]
+  },
+
+  "_0618_stunfisk-galar": "19-frame GIF: 3-8 a fiery spark runs out, 12-16 a yellow slash — Idle trimmed to the clean 0-2.",
+  "0618_stunfisk-galar": {
+    "pixelHeight": 26, "colors": 10, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "idleRange": [0, 2],
+    "lungePx": 5,
+    "poses": { "rest": 0, "crouch": 1, "reach": 10, "mid": 11 },
+    "walkFrames": [0, 1, 2, 17, 18, 9, 10, 11],
+    "attackFrames": [0, 1, 2, 10, 11, 11, 10, 17, 18],
+    "strikeFrames": [10, 11, 12, 13, 14, 14, 15, 16, 17, 18],
+    "shootFrames": [1, 3, 5, 6, 7, 8, 9],
+    "spAttackFrames": [2, 3, 4, 5, 6, 7, 8, 9, 0],
+    "chargeFrames": [0, 1, 2, 1, 0, 1, 2, 1, 9, 0],
+    "hurtFrames": [9, 10, 11],
+    "faintFrames": [10, 0, 0, 0, 0, 0, 0]
+  },
+
+  "_0626_bouffalant": "Head bobs 0-95; 97-110 lowers its afro and charges (104-106 fully stretched forward).",
+  "0626_bouffalant": {
+    "pixelHeight": 31, "colors": 10, "paletteFrom": null, "innerLines": 0.5, "lineWeight": 0.3,
+    "lungePx": 7,
+    "poses": { "rest": 0, "crouch": 98, "reach": 106, "mid": 109 },
+    "walkFrames": [0, 2, 4, 5, 7, 8, 10, 11, 13],
+    "attackFrames": [0, 97, 98, 104, 106, 106, 107, 110, 112],
+    "strikeFrames": [98, 100, 104, 106, 107, 106, 109, 110, 112, 0],
+    "shootFrames": [8, 2, 2, 4, 5, 7, 0],
+    "spAttackFrames": [8, 1, 2, 2, 2, 4, 5, 0, 0],
+    "chargeFrames": [97, 98, 100, 98, 100, 98, 100, 98, 101, 112],
+    "hurtFrames": [1, 2, 4],
+    "faintFrames": [100, 8, 8, 8, 8, 8, 8]
+  },
+
+  "_0668_pyroar-male": "0-59 sways its head; 60-89 roars with the mane glowing (69-82) — kept out of Idle, used for Strike/Shoot/SpAttack/Charge.",
+  "0668_pyroar-male": {
+    "pixelHeight": 31, "colors": 10, "paletteFrom": "0667_litleo", "innerLines": 0.5, "lineWeight": 0.3,
+    "idleRange": [0, 59],
+    "lungePx": 6,
+    "poses": { "rest": 0, "crouch": 7, "reach": 4, "mid": 6 },
+    "walkFrames": [0, 2, 4, 6, 8, 10, 12, 14],
+    "attackFrames": [0, 7, 8, 3, 4, 4, 5, 6, 0],
+    "strikeFrames": [63, 64, 66, 67, 68, 68, 69, 76, 88, 0],
+    "shootFrames": [66, 70, 71, 72, 73, 75, 0],
+    "spAttackFrames": [64, 69, 71, 73, 75, 77, 79, 83, 89],
+    "chargeFrames": [64, 65, 70, 71, 72, 73, 74, 75, 85, 0],
+    "hurtFrames": [9, 10, 11],
+    "faintFrames": [64, 64, 64, 64, 64, 64, 64]
+  },
+
+  "_0683_aromatisse": "19-frame GIF: 3-8 a perfume beam, 12-16 a sparkle at its hand — Idle trimmed to the clean 0-2.",
+  "0683_aromatisse": {
+    "pixelHeight": 26, "colors": 12, "paletteFrom": null, "innerLines": 0.42, "lineWeight": 0.3,
+    "idleRange": [0, 2],
+    "lungePx": 4,
+    "poses": { "rest": 0, "crouch": 1, "reach": 10, "mid": 11 },
+    "walkFrames": [0, 1, 2, 17, 18, 9, 10, 11],
+    "attackFrames": [0, 1, 2, 9, 10, 10, 11, 17, 18],
+    "strikeFrames": [9, 10, 11, 10, 11, 11, 10, 17, 18, 0],
+    "shootFrames": [2, 3, 5, 6, 7, 8, 9],
+    "spAttackFrames": [11, 12, 13, 14, 15, 16, 17, 18, 0],
+    "chargeFrames": [0, 1, 2, 12, 1, 13, 2, 1, 10, 0],
+    "hurtFrames": [10, 11, 9],
+    "faintFrames": [10, 0, 0, 0, 0, 0, 0]
+  }
+}

@@ -1,0 +1,14 @@
+// pixel-paint palette for 0212_scizor-mega — hand-painted (light from upper-left)
+. transparent
+# 000000
+q ff7a6a
+r e03838
+R a81c28
+D 681018
+k 3a3a46
+K 62626e
+l 9a9aaa
+W cfcfdc
+w ffffff
+c 40e0f8
+C 1890c0

@@ -1,0 +1,23 @@
+// pixel-paint palette for 0359_absol-mega-z (hand-painted). "." = transparent, "#" = outline.
+. transparent
+# 000000
+// body navy: highlight / light / base / shade
+l 5a86b0
+m 355a7d
+n 263a54
+N 15233a
+// grey spikes, horns, claws: light / mid / dark
+w c2c3c5
+g 7788aa
+d 575a7c
+// red mane: highlight / base / shade / deep
+q ff8aa6
+p ff2e61
+r bf344d
+R 7c2642
+// eye: glint / iris / iris shade
+W fffbe6
+E ff3048
+K 8a1830
+// pale blade (attack)
+P ffc6d4

@@ -1,0 +1,16 @@
+// pixel-paint palette for 0735_gumshoos. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 2f2d2a
+1 333333
+2 602c24
+3 8d473d
+4 84521a
+5 787885
+6 af754e
+7 b6973a
+8 ea6f91
+9 a3a3ab
+a ecd96c
+b f8f8f8

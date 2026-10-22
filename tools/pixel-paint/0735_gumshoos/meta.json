@@ -1,0 +1,53 @@
+{
+ "id": "0735_gumshoos",
+ "exported": "2026-10-21T07:51:46.399Z",
+ "margin": 4,
+ "views": {
+  "front": {
+   "W": 34,
+   "H": 29,
+   "x0": -3,
+   "y0": -3,
+   "w": 40,
+   "h": 36,
+   "frames": 94
+  },
+  "back": {
+   "W": 34,
+   "H": 32,
+   "x0": -3,
+   "y0": -2,
+   "w": 40,
+   "h": 38,
+   "frames": 94
+  }
+ },
+ "derive": {
+  "frontR": "mirror front",
+  "backR": "mirror back"
+ },
+ "mirrorCheck": {
+  "frontR": "worst frame mismatch 0.00% (94 vs 94 frames)",
+  "backR": "worst frame mismatch 0.00% (94 vs 94 frames)"
+ },
+ "pixel": {
+  "height": 28,
+  "how": "override",
+  "scale": 0.4194,
+  "srcBodyH": 62,
+  "colors": 12,
+  "alphaThreshold": 0.45,
+  "outline": "black",
+  "outlineOutside": true,
+  "outlineInner": false,
+  "innerLines": 0.45,
+  "lineWeight": 0.6,
+  "keepDetail": 3,
+  "speckSize": 3,
+  "speckContrast": 0.16,
+  "darkLift": 0.32,
+  "paletteFrom": null,
+  "palette": 12,
+  "outlineShades": 1
+ }
+}

@@ -1,0 +1,25 @@
+// Heracross-Mega (hand-painted). Lit from upper-left.
+. transparent
+# 000000
+D 173552
+B 245b86
+M 3a7fb0
+L 5ea6d2
+H 9fd4ee
+r a3202a
+R e8403c
+P ff8a7a
+Y f8d838
+y b89018
+W ffffff
+w a8b4c0
+o d8a028
+T c99e3a
+t 8e6b22
+U e8c460
+g a6e63c
+G 4f9a1e
+h eaffb0
+c 7cc8f0
+C 2f6fb4
+S 6e5218

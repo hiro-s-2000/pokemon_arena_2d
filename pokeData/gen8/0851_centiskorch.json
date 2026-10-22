@@ -1,0 +1,1046 @@
+{
+  "id": "0851_centiskorch",
+  "pokemonId": 851,
+  "dex": 851,
+  "slug": "centiskorch",
+  "name": "Centiskorch",
+  "jpName": "マルヤクデ",
+  "genus": "Radiator Pokémon",
+  "jpGenus": "はつねつポケモン",
+  "generation": 8,
+  "category": "gen8",
+  "isLegendary": false,
+  "isMythical": false,
+  "sprite": "../pokeSprite/gen8/0851_centiskorch/normal/front.gif",
+  "backSprite": "../pokeSprite/gen8/0851_centiskorch/normal/back.gif",
+  "abilities": [
+    {
+      "id": 18,
+      "slug": "flash-fire",
+      "name": "Flash Fire",
+      "jpName": "もらいび",
+      "isHidden": false,
+      "slot": 1,
+      "description": "Protects against Fire moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+      "jpDescription": "ほのおタイプの 技を 受けると 炎を もらい 自分が 出す ほのおタイプの 技が 強くなる。"
+    },
+    {
+      "id": 73,
+      "slug": "white-smoke",
+      "name": "White Smoke",
+      "jpName": "しろいけむり",
+      "isHidden": false,
+      "slot": 2,
+      "description": "Prevents stats from being lowered by other Pokémon.",
+      "jpDescription": "白い煙に 守られて 相手に 能力を 下げられない。"
+    },
+    {
+      "id": 49,
+      "slug": "flame-body",
+      "name": "Flame Body",
+      "jpName": "ほのおのからだ",
+      "isHidden": true,
+      "slot": 3,
+      "description": "Has a 30% chance of burning attacking Pokémon on contact.",
+      "jpDescription": "自分に 触った 相手を やけど状態に する ことがある。"
+    }
+  ],
+  "height": {
+    "decimeters": 30,
+    "meters": 3.0,
+    "feetInches": "9'10\"",
+    "display": "3.0 m (9'10\")"
+  },
+  "weight": {
+    "hectograms": 1200,
+    "kilograms": 120.0,
+    "pounds": 264.6,
+    "display": "120.0 kg (264.6 lbs)"
+  },
+  "shape": {
+    "id": 10,
+    "slug": "tentacles",
+    "name": "Tentacles",
+    "awesomeName": "Cilial",
+    "jpName": "触手・多脚"
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 90,
+    "speed": 65,
+    "total": 525,
+    "ranges": {
+      "hp": {
+        "lv50": {
+          "min": 160,
+          "max": 207
+        },
+        "lv100": {
+          "min": 310,
+          "max": 404
+        }
+      },
+      "attack": {
+        "lv50": {
+          "min": 108,
+          "max": 183
+        },
+        "lv100": {
+          "min": 211,
+          "max": 361
+        }
+      },
+      "defense": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      },
+      "specialAttack": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      },
+      "specialDefense": {
+        "lv50": {
+          "min": 85,
+          "max": 156
+        },
+        "lv100": {
+          "min": 166,
+          "max": 306
+        }
+      },
+      "speed": {
+        "lv50": {
+          "min": 63,
+          "max": 128
+        },
+        "lv100": {
+          "min": 121,
+          "max": 251
+        }
+      }
+    }
+  },
+  "baseStatTotal": 525,
+  "typeMatchups": {
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "typeDetails": [
+      {
+        "slot": 1,
+        "id": 10,
+        "slug": "fire",
+        "name": "Fire",
+        "jpName": "ほのお"
+      },
+      {
+        "slot": 2,
+        "id": 7,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "defenseMultipliers": {
+      "normal": 1.0,
+      "fire": 1.0,
+      "water": 2.0,
+      "electric": 1.0,
+      "grass": 0.25,
+      "ice": 0.5,
+      "fighting": 0.5,
+      "poison": 1.0,
+      "ground": 1.0,
+      "flying": 2.0,
+      "psychic": 1.0,
+      "bug": 0.5,
+      "rock": 4.0,
+      "ghost": 1.0,
+      "dragon": 1.0,
+      "dark": 1.0,
+      "steel": 0.5,
+      "fairy": 0.5
+    },
+    "weaknesses4x": [
+      "rock"
+    ],
+    "weaknesses2x": [
+      "water",
+      "flying"
+    ],
+    "neutral1x": [
+      "normal",
+      "fire",
+      "electric",
+      "poison",
+      "ground",
+      "psychic",
+      "ghost",
+      "dragon",
+      "dark"
+    ],
+    "resistances0_5x": [
+      "ice",
+      "fighting",
+      "bug",
+      "steel",
+      "fairy"
+    ],
+    "resistances0_25x": [
+      "grass"
+    ],
+    "immunities0x": [],
+    "stabSuperEffectiveAgainst": [
+      "grass",
+      "ice",
+      "psychic",
+      "bug",
+      "dark",
+      "steel"
+    ]
+  },
+  "training": {
+    "evYield": [
+      {
+        "stat": "attack",
+        "statName": "Attack",
+        "statJpName": "こうげき",
+        "effort": 2
+      }
+    ],
+    "evYieldText": "2 Attack",
+    "evYieldTextJa": "こうげき+2",
+    "catchRate": 75,
+    "pokeBallFullHpPercent": 17.5,
+    "catchRateDisplay": "75 (17.5% with PokéBall, full HP)",
+    "baseFriendship": 50,
+    "baseExperience": 184,
+    "growthRate": {
+      "id": 2,
+      "slug": "medium",
+      "name": "Medium",
+      "formula": "x^3"
+    }
+  },
+  "breeding": {
+    "eggGroups": [
+      {
+        "id": 3,
+        "slug": "bug",
+        "name": "Bug",
+        "jpName": "むし"
+      }
+    ],
+    "genderRatio": {
+      "genderless": false,
+      "malePercent": 50.0,
+      "femalePercent": 50.0,
+      "display": "50.0% Male, 50.0% Female",
+      "displayJa": "♂ 50.0% / ♀ 50.0%"
+    },
+    "eggCycles": {
+      "cycles": 20,
+      "minSteps": 4881,
+      "maxSteps": 5397,
+      "display": "20 (4,881–5,397 steps)"
+    }
+  },
+  "evolution": {
+    "chainId": 447,
+    "evolvesFrom": {
+      "speciesId": 850,
+      "dex": 850,
+      "slug": "sizzlipede",
+      "name": "Sizzlipede",
+      "jpName": "ヤクデ",
+      "conditions": [
+        {
+          "trigger": "level-up",
+          "triggerName": "Level up",
+          "minLevel": 28,
+          "item": null,
+          "itemJp": null,
+          "heldItem": null,
+          "knownMove": null,
+          "minHappiness": null,
+          "timeOfDay": null,
+          "conditionText": "Level 28",
+          "conditionTextJa": "Lv.28"
+        }
+      ]
+    },
+    "evolvesTo": [],
+    "chain": [
+      {
+        "speciesId": 850,
+        "dex": 850,
+        "slug": "sizzlipede",
+        "name": "Sizzlipede",
+        "jpName": "ヤクデ",
+        "types": [
+          "fire",
+          "bug"
+        ],
+        "sprite": "../pokeSprite/gen8/0850_sizzlipede/normal/front.gif",
+        "backSprite": "../pokeSprite/gen8/0850_sizzlipede/normal/back.gif",
+        "condition": null,
+        "conditionJa": null,
+        "details": [],
+        "evolvesTo": [
+          {
+            "speciesId": 851,
+            "dex": 851,
+            "slug": "centiskorch",
+            "name": "Centiskorch",
+            "jpName": "マルヤクデ",
+            "types": [
+              "fire",
+              "bug"
+            ],
+            "sprite": "../pokeSprite/gen8/0851_centiskorch/normal/front.gif",
+            "backSprite": "../pokeSprite/gen8/0851_centiskorch/normal/back.gif",
+            "condition": "Level 28",
+            "conditionJa": "Lv.28",
+            "details": [
+              {
+                "trigger": "level-up",
+                "triggerName": "Level up",
+                "minLevel": 28,
+                "item": null,
+                "itemJp": null,
+                "heldItem": null,
+                "knownMove": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "conditionText": "Level 28",
+                "conditionTextJa": "Lv.28"
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ],
+    "specialForms": {
+      "megas": [],
+      "gigantamax": [
+        "0851_centiskorch-gmax"
+      ],
+      "regionals": []
+    },
+    "summaryText": "Sizzlipede --(Level 28)--> Centiskorch",
+    "summaryTextJa": "ヤクデ --(Lv.28)--> マルヤクデ"
+  },
+  "moves": {
+    "totalUniqueMoves": 46,
+    "levelUp": [
+      {
+        "id": 35,
+        "slug": "wrap",
+        "name": "Wrap",
+        "jpName": "まきつく",
+        "type": "normal",
+        "category": "physical",
+        "power": 15,
+        "accuracy": 90,
+        "pp": 20,
+        "priority": 0,
+        "description": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+        "jpDescription": "長い 体や つるなどを 使って ４ー５ターンの 間 相手に まきついて 攻撃する。",
+        "level": 1
+      },
+      {
+        "id": 44,
+        "slug": "bite",
+        "name": "Bite",
+        "jpName": "かみつく",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+        "jpDescription": "鋭く とがった 歯で かみついて 攻撃する。 相手を ひるませることが ある。",
+        "level": 1
+      },
+      {
+        "id": 52,
+        "slug": "ember",
+        "name": "Ember",
+        "jpName": "ひのこ",
+        "type": "fire",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The target is attacked with small flames. This may also leave the target with a burn.",
+        "jpDescription": "小さな 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。",
+        "level": 1
+      },
+      {
+        "id": 108,
+        "slug": "smokescreen",
+        "name": "Smokescreen",
+        "jpName": "えんまく",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user releases an obscuring cloud of smoke or ink. This lowers the target's accuracy.",
+        "jpDescription": "煙や 墨などを 吹きかけて 相手の 命中率を さげる。",
+        "level": 1
+      },
+      {
+        "id": 517,
+        "slug": "inferno",
+        "name": "Inferno",
+        "jpName": "れんごく",
+        "type": "fire",
+        "category": "special",
+        "power": 100,
+        "accuracy": 50,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+        "jpDescription": "激しい 炎で 相手を 包みこみ 攻撃する。 やけど状態に する。",
+        "level": 1
+      },
+      {
+        "id": 172,
+        "slug": "flame-wheel",
+        "name": "Flame Wheel",
+        "jpName": "かえんぐるま",
+        "type": "fire",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 25,
+        "priority": 0,
+        "description": "The user attacks by cloaking itself in fire and charging at the target. This may also leave the target with a burn.",
+        "jpDescription": "炎を まとい 相手に 突進して 攻撃する。 やけど状態に することが ある。",
+        "level": 15
+      },
+      {
+        "id": 450,
+        "slug": "bug-bite",
+        "name": "Bug Bite",
+        "jpName": "むしくい",
+        "type": "bug",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user attacks by biting the target. If the target is holding a Berry, the user eats it and gains its effect.",
+        "jpDescription": "かみついて 攻撃する。 相手が きのみを 持っているとき 食べて きのみの 効果を 受けられる。",
+        "level": 20
+      },
+      {
+        "id": 489,
+        "slug": "coil",
+        "name": "Coil",
+        "jpName": "とぐろをまく",
+        "type": "poison",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user coils up and concentrates. This boosts its Attack and Defense stats as well as its accuracy.",
+        "jpDescription": "とぐろを まいて 集中する。 自分の 攻撃と 防御と 命中率を あげる。",
+        "level": 25
+      },
+      {
+        "id": 21,
+        "slug": "slam",
+        "name": "Slam",
+        "jpName": "たたきつける",
+        "type": "normal",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 75,
+        "pp": 20,
+        "priority": 0,
+        "description": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+        "jpDescription": "長い しっぽや つるなどを 使い 相手を たたきつけて 攻撃する。",
+        "level": 32
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。",
+        "level": 39
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。",
+        "level": 46
+      },
+      {
+        "id": 680,
+        "slug": "fire-lash",
+        "name": "Fire Lash",
+        "jpName": "ほのおのムチ",
+        "type": "fire",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
+        "jpDescription": "焼けたムチで 相手を 打ちつける。 攻撃を 受けた 相手は 防御が さがる。",
+        "level": 53
+      },
+      {
+        "id": 679,
+        "slug": "lunge",
+        "name": "Lunge",
+        "jpName": "とびかかる",
+        "type": "bug",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat.",
+        "jpDescription": "全力で 相手に 飛びかかって 攻撃。 相手の 攻撃を さげる。",
+        "level": 60
+      },
+      {
+        "id": 682,
+        "slug": "burn-up",
+        "name": "Burn Up",
+        "jpName": "もえつきる",
+        "type": "fire",
+        "category": "special",
+        "power": 130,
+        "accuracy": 100,
+        "pp": 5,
+        "priority": 0,
+        "description": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+        "jpDescription": "全身の ほのおを すべて 燃やして 大ダメージを 与える。 自分の ほのおタイプが なくなる。",
+        "level": 67
+      }
+    ],
+    "machine": [
+      {
+        "id": 213,
+        "slug": "attract",
+        "name": "Attract",
+        "jpName": "メロメロ",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves.",
+        "jpDescription": "♂なら♀を ♀なら♂を 誘惑して メロメロに する。 相手は 技が だしにくくなる。"
+      },
+      {
+        "id": 693,
+        "slug": "brutal-swing",
+        "name": "Brutal Swing",
+        "jpName": "ぶんまわす",
+        "type": "dark",
+        "category": "physical",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+        "jpDescription": "自分の 体を ぶんまわして 相手に ダメージを 与える。"
+      },
+      {
+        "id": 405,
+        "slug": "bug-buzz",
+        "name": "Bug Buzz",
+        "jpName": "むしのさざめき",
+        "type": "bug",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user vibrates to generate a damaging sound wave. This may also lower the target's Sp. Def stat.",
+        "jpDescription": "振動で 音波を おこして 攻撃する。相手の 特防を さげることが ある。"
+      },
+      {
+        "id": 242,
+        "slug": "crunch",
+        "name": "Crunch",
+        "jpName": "かみくだく",
+        "type": "dark",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+        "jpDescription": "鋭い 歯で 相手を かみくだいて 攻撃する。 相手の 防御を さげることが ある。"
+      },
+      {
+        "id": 203,
+        "slug": "endure",
+        "name": "Endure",
+        "jpName": "こらえる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",
+        "jpDescription": "攻撃を 受けても ＨＰを 必ず １だけ 残せる。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 263,
+        "slug": "facade",
+        "name": "Facade",
+        "jpName": "からげんき",
+        "type": "normal",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 20,
+        "priority": 0,
+        "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed.",
+        "jpDescription": "自分が 毒 まひ やけど 状態のとき 相手に くりだすと 技の 威力が ２倍に なる。"
+      },
+      {
+        "id": 126,
+        "slug": "fire-blast",
+        "name": "Fire Blast",
+        "jpName": "だいもんじ",
+        "type": "fire",
+        "category": "special",
+        "power": 110,
+        "accuracy": 85,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+        "jpDescription": "大の字の 炎で 相手を 焼きつくす。 やけど状態に することが ある。"
+      },
+      {
+        "id": 424,
+        "slug": "fire-fang",
+        "name": "Fire Fang",
+        "jpName": "ほのおのキバ",
+        "type": "fire",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+        "jpDescription": "炎を まとった キバで かみつく。 相手を ひるませたり やけど状態に することが ある。"
+      },
+      {
+        "id": 83,
+        "slug": "fire-spin",
+        "name": "Fire Spin",
+        "jpName": "ほのおのうず",
+        "type": "fire",
+        "category": "special",
+        "power": 35,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns.",
+        "jpDescription": "激しく 渦をまく 炎の中に ４ー５ターンの 間 相手を 閉じこめて 攻撃する。"
+      },
+      {
+        "id": 53,
+        "slug": "flamethrower",
+        "name": "Flamethrower",
+        "jpName": "かえんほうしゃ",
+        "type": "fire",
+        "category": "special",
+        "power": 90,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+        "jpDescription": "激しい 炎を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 394,
+        "slug": "flare-blitz",
+        "name": "Flare Blitz",
+        "jpName": "フレアドライブ",
+        "type": "fire",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn.",
+        "jpDescription": "炎を まとって 突進する。 自分も かなり ダメージを 受ける。 やけど状態に することが ある。"
+      },
+      {
+        "id": 416,
+        "slug": "giga-impact",
+        "name": "Giga Impact",
+        "jpName": "ギガインパクト",
+        "type": "normal",
+        "category": "physical",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+        "jpDescription": "持てる 力を すべて 使って 相手に 突撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 535,
+        "slug": "heat-crash",
+        "name": "Heat Crash",
+        "jpName": "ヒートスタンプ",
+        "type": "fire",
+        "category": "physical",
+        "power": null,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user slams into the target with its flame-covered body. The more the user outweighs the target, the greater the move's power.",
+        "jpDescription": "燃える 体で 相手に ぶつかって 攻撃する。 自分が 相手より 重いほど 威力が あがる。"
+      },
+      {
+        "id": 257,
+        "slug": "heat-wave",
+        "name": "Heat Wave",
+        "jpName": "ねっぷう",
+        "type": "fire",
+        "category": "special",
+        "power": 95,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave them with a burn.",
+        "jpDescription": "熱い 息を 相手に 吹きつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 63,
+        "slug": "hyper-beam",
+        "name": "Hyper Beam",
+        "jpName": "はかいこうせん",
+        "type": "normal",
+        "category": "special",
+        "power": 150,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+        "jpDescription": "強い 光線を 相手に 発射して 攻撃する。 次の ターンは 動けなくなる。"
+      },
+      {
+        "id": 141,
+        "slug": "leech-life",
+        "name": "Leech Life",
+        "jpName": "きゅうけつ",
+        "type": "bug",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user drains the target's blood. The user's HP is restored by up to half the damage taken by the target.",
+        "jpDescription": "血を 吸い取って 相手を 攻撃する。 与えた ダメージの 半分の ＨＰを 回復できる。"
+      },
+      {
+        "id": 595,
+        "slug": "mystical-fire",
+        "name": "Mystical Fire",
+        "jpName": "マジカルフレイム",
+        "type": "fire",
+        "category": "special",
+        "power": 75,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
+        "jpDescription": "口から 吐きだす 特別 熱い 炎で 攻撃する。 相手の 特攻を さげる。"
+      },
+      {
+        "id": 315,
+        "slug": "overheat",
+        "name": "Overheat",
+        "jpName": "オーバーヒート",
+        "type": "fire",
+        "category": "special",
+        "power": 130,
+        "accuracy": 90,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user attacks the target with all its might. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+        "jpDescription": "フルパワーで 相手を 攻撃する。 使うと 反動で 自分の 特攻が がくっと さがる。"
+      },
+      {
+        "id": 438,
+        "slug": "power-whip",
+        "name": "Power Whip",
+        "jpName": "パワーウィップ",
+        "type": "grass",
+        "category": "physical",
+        "power": 120,
+        "accuracy": 85,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user violently whirls its vines, tentacles, or the like to lash the target.",
+        "jpDescription": "ツタや 触手を 激しく ふるって 相手を たたきつけ 攻撃する。"
+      },
+      {
+        "id": 182,
+        "slug": "protect",
+        "name": "Protect",
+        "jpName": "まもる",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 4,
+        "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+        "jpDescription": "相手の 攻撃を まったく 受けない。 連続で だすと 失敗しやすい。"
+      },
+      {
+        "id": 156,
+        "slug": "rest",
+        "name": "Rest",
+        "jpName": "ねむる",
+        "type": "psychic",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions.",
+        "jpDescription": "２ターンの 間 眠り続ける。 自分の ＨＰと 状態異常を すべて 回復する。"
+      },
+      {
+        "id": 496,
+        "slug": "round",
+        "name": "Round",
+        "jpName": "りんしょう",
+        "type": "normal",
+        "category": "special",
+        "power": 60,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks the target with a song. If others use this move, they will act immediately after the initial user, and the power of their Rounds will be boosted.",
+        "jpDescription": "歌で 相手を 攻撃する。 みんなで 輪唱すると 続けて だすことが でき 威力も あがる。"
+      },
+      {
+        "id": 503,
+        "slug": "scald",
+        "name": "Scald",
+        "jpName": "ねっとう",
+        "type": "water",
+        "category": "special",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user attacks by shooting boiling hot water at the target. This may also leave the target with a burn.",
+        "jpDescription": "熱く 煮えたぎる 水を 相手に 発射して 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 214,
+        "slug": "sleep-talk",
+        "name": "Sleep Talk",
+        "jpName": "ねごと",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user randomly uses one of the moves it knows. This move can only be used while the user is asleep.",
+        "jpDescription": "自分が おぼえている 技の うち どれか １つを くりだす。 自分が 寝ているときだけ 使える。"
+      },
+      {
+        "id": 173,
+        "slug": "snore",
+        "name": "Snore",
+        "jpName": "いびき",
+        "type": "normal",
+        "category": "special",
+        "power": 50,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+        "jpDescription": "自分が 寝ているときに 雑音を だして 攻撃する。 相手を ひるませることが ある。"
+      },
+      {
+        "id": 76,
+        "slug": "solar-beam",
+        "name": "Solar Beam",
+        "jpName": "ソーラービーム",
+        "type": "grass",
+        "category": "special",
+        "power": 120,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user gathers light on the first turn, then blasts a bundled beam on the next turn.",
+        "jpDescription": "１ターン目に 光を いっぱいに 集め ２ターン目に 光の 束を 発射して 攻撃する。"
+      },
+      {
+        "id": 164,
+        "slug": "substitute",
+        "name": "Substitute",
+        "jpName": "みがわり",
+        "type": "normal",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy.",
+        "jpDescription": "自分の ＨＰを 少し 削って 分身を だす。 分身は 自分の 身代わりに なる。"
+      },
+      {
+        "id": 241,
+        "slug": "sunny-day",
+        "name": "Sunny Day",
+        "jpName": "にほんばれ",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": null,
+        "pp": 5,
+        "priority": 0,
+        "description": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",
+        "jpDescription": "５ターンの 間 日差しを 強くして ほのおタイプの 威力を あげる。 みずタイプの 威力は さがる。"
+      },
+      {
+        "id": 422,
+        "slug": "thunder-fang",
+        "name": "Thunder Fang",
+        "jpName": "かみなりのキバ",
+        "type": "electric",
+        "category": "physical",
+        "power": 65,
+        "accuracy": 95,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+        "jpDescription": "電気を ためた キバで かみつく。 相手を ひるませたり まひ状態に することが ある。"
+      },
+      {
+        "id": 474,
+        "slug": "venoshock",
+        "name": "Venoshock",
+        "jpName": "ベノムショック",
+        "type": "poison",
+        "category": "special",
+        "power": 65,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned.",
+        "jpDescription": "特殊な 毒液を 浴びせかける。 毒状態の 相手には 威力が ２倍に なる。"
+      },
+      {
+        "id": 261,
+        "slug": "will-o-wisp",
+        "name": "Will-O-Wisp",
+        "jpName": "おにび",
+        "type": "fire",
+        "category": "status",
+        "power": null,
+        "accuracy": 85,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user shoots a sinister flame at the target to inflict a burn.",
+        "jpDescription": "不気味で 怪しい 炎を 放って 相手を やけどの 状態に する。"
+      },
+      {
+        "id": 404,
+        "slug": "x-scissor",
+        "name": "X-Scissor",
+        "jpName": "シザークロス",
+        "type": "bug",
+        "category": "physical",
+        "power": 80,
+        "accuracy": 100,
+        "pp": 15,
+        "priority": 0,
+        "description": "The user slashes at the target by crossing its scythes, claws, or the like as if they were a pair of scissors.",
+        "jpDescription": "カマや ツメを ハサミのように 交差させながら 相手を 切り裂く。"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "id": 815,
+        "slug": "scorching-sands",
+        "name": "Scorching Sands",
+        "jpName": "ねっさのだいち",
+        "type": "ground",
+        "category": "special",
+        "power": 70,
+        "accuracy": 100,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+        "jpDescription": "熱く 焼けた 砂を 相手に ぶつけて 攻撃する。 やけど状態に することが ある。"
+      },
+      {
+        "id": 806,
+        "slug": "skitter-smack",
+        "name": "Skitter Smack",
+        "jpName": "はいよるいちげき",
+        "type": "bug",
+        "category": "physical",
+        "power": 70,
+        "accuracy": 90,
+        "pp": 10,
+        "priority": 0,
+        "description": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
+        "jpDescription": "背後から はいより 攻撃する。 相手の 特攻を さげる。"
+      }
+    ]
+  }
+}

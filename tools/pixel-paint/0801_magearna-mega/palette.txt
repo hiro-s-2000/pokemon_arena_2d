@@ -1,0 +1,16 @@
+// pixel-paint palette for 0801_magearna-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 323335
+2 801e20
+3 504e4d
+4 a72a48
+5 a35d0f
+6 797878
+7 eb4551
+8 c2a769
+9 ff94ce
+a e3e9ef
+b faed63

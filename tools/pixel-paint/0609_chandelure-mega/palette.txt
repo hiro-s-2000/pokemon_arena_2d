@@ -1,0 +1,15 @@
+// pixel-paint palette for 0609_chandelure-mega. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 1e0c35
+1 333333
+2 4229b5
+3 5a5a5a
+4 b91c1c
+5 7352e6
+6 a4814e
+7 848cdc
+8 ada5f7
+9 e9c16e
+a dfe0f7

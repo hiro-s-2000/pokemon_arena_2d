@@ -1,0 +1,98 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "t": "3d927e",
+  "d": "2a6458",
+  "l": "7ccab6",
+  "w": "fffefe",
+  "g": "afb8c0"
+ },
+ "parts": [
+  {
+   "name": "giantTrunk",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -10,
+      3
+     ],
+     "px": [
+      ".......kkkkkkk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      "......kkdtltdkk.......",
+      "......kddtltddk.......",
+      ".....kkddtltddkk......",
+      "....kdddttlttdddk.....",
+      "...kddttttltttdddk....",
+      "..kddtttttltttttddk...",
+      ".kddttttttlttttttddk..",
+      ".kdtttttttttttttttdk..",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      ".kgk.kgk.kgk.kgk.kgk..",
+      "..k...k...k...k...k..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -6,
+      3
+     ],
+     "px": [
+      ".......kkkkkkk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      "......kkdtltdkk.......",
+      "......kddtltddk.......",
+      ".....kkddtltddkk......",
+      "....kdddttlttdddk.....",
+      "...kddttttltttdddk....",
+      "..kddtttttltttttddk...",
+      ".kddttttttlttttttddk..",
+      ".kdtttttttttttttttdk..",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      ".kgk.kgk.kgk.kgk.kgk..",
+      "..k...k...k...k...k..."
+     ]
+    },
+    "E": {
+     "at": [
+      -3,
+      3
+     ],
+     "px": [
+      ".......kkkkkkk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      ".......kdtltdk........",
+      "......kkdtltdkk.......",
+      "......kddtltddk.......",
+      ".....kkddtltddkk......",
+      "....kdddttlttdddk.....",
+      "...kddttttltttdddk....",
+      "..kddtttttltttttddk...",
+      ".kddttttttlttttttddk..",
+      ".kdtttttttttttttttdk..",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      "kwwgkwwgkwwgkwwgkwwgk.",
+      ".kgk.kgk.kgk.kgk.kgk..",
+      "..k...k...k...k...k..."
+     ]
+    }
+   }
+  }
+ ]
+}

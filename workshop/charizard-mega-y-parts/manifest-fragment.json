@@ -1,0 +1,203 @@
+{
+  "src": "gen1/0006_charizard/mega/charizard-mega-y",
+  "exact": true,
+  "source": "recolor-parts",
+  "base": "0006_charizard",
+  "sc": "0006",
+  "scale": 2,
+  "shadowSize": 2,
+  "bodyH": 58,
+  "bodyW": 54,
+  "anims": {
+    "Idle": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Idle.png",
+      "fw": 80,
+      "fh": 96,
+      "frames": 4,
+      "rows": 8,
+      "durations": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "anchorY": 64
+    },
+    "Walk": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Walk.png",
+      "fw": 80,
+      "fh": 96,
+      "frames": 4,
+      "rows": 8,
+      "durations": [
+        8,
+        10,
+        8,
+        10
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "anchorY": 64
+    },
+    "Attack": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Attack.png",
+      "fw": 160,
+      "fh": 176,
+      "frames": 14,
+      "rows": 8,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": 2,
+      "ret": 8,
+      "anchorY": 142
+    },
+    "Shoot": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Shoot.png",
+      "fw": 112,
+      "fh": 112,
+      "frames": 11,
+      "rows": 8,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "anchorY": 84
+    },
+    "SpAttack": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/SpAttack.png",
+      "fw": 112,
+      "fh": 112,
+      "frames": 11,
+      "rows": 8,
+      "durations": [
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 2,
+      "rush": null,
+      "ret": 6,
+      "anchorY": 84
+    },
+    "Charge": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Charge.png",
+      "fw": 96,
+      "fh": 96,
+      "frames": 10,
+      "rows": 8,
+      "durations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 5,
+      "rush": null,
+      "ret": 9,
+      "anchorY": 66
+    },
+    "Strike": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Strike.png",
+      "fw": 144,
+      "fh": 160,
+      "frames": 13,
+      "rows": 8,
+      "durations": [
+        2,
+        2,
+        6,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hit": 4,
+      "rush": 2,
+      "ret": 6,
+      "anchorY": 132
+    },
+    "Hurt": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Hurt.png",
+      "fw": 128,
+      "fh": 128,
+      "frames": 2,
+      "rows": 8,
+      "durations": [
+        2,
+        8
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "anchorY": 68
+    },
+    "Faint": {
+      "file": "../pokeAnim/gen1/0006_charizard/mega/charizard-mega-y/Faint.png",
+      "fw": 96,
+      "fh": 96,
+      "frames": 4,
+      "rows": 8,
+      "durations": [
+        8,
+        12,
+        4,
+        10
+      ],
+      "hit": null,
+      "rush": null,
+      "ret": null,
+      "anchorY": 60
+    }
+  }
+}

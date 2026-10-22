@@ -1,0 +1,1932 @@
+{
+ "_units": "lungePx / hopPx / anims.*.lunge are PMD-scale pixels (converted from GIF pixels by the pixelize scale)",
+ "_comment": "Curated by mega-a: first 28 mega entries. Megas share a frame layout (head/mouth effect, then forward-hand effect), so physical moves use the hand-effect frames and Shoot/SpAttack the head/mouth effect; lungePx by body type.",
+ "0003_venusaur-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   14,
+   15,
+   16,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 3,
+  "_note": "heavy; vine whip 12-17, razor leaves 4-8",
+  "innerLines": 0.5
+ },
+ "0006_charizard-mega-y": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   10,
+   1,
+   2,
+   6,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 6,
+  "_note": "fire breath 5-8, claw sparks 13-17, wings up 1-2",
+  "innerLines": 0.5,
+  "pixelHeight": 31,
+  "outlineInner": true
+ },
+ "0009_blastoise-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 3,
+  "_note": "heavy; water cannons 3-8",
+  "pixelHeight": 28
+ },
+ "0015_beedrill-mega": {
+  "lungePx": 7,
+  "poses": {
+   "rest": 0,
+   "crouch": 93,
+   "reach": 97,
+   "mid": 101
+  },
+  "attackFrames": [
+   0,
+   92,
+   93,
+   96,
+   97,
+   98,
+   99,
+   102,
+   0
+  ],
+  "strikeFrames": [
+   92,
+   93,
+   165,
+   166,
+   97,
+   98,
+   99,
+   101,
+   104,
+   0
+  ],
+  "shootFrames": [
+   92,
+   94,
+   96,
+   96,
+   100,
+   104,
+   0
+  ],
+  "spAttackFrames": [
+   80,
+   76,
+   77,
+   77,
+   78,
+   78,
+   79,
+   0,
+   0
+  ],
+  "chargeFrames": [
+   106,
+   107,
+   106,
+   107,
+   106,
+   107,
+   106,
+   107,
+   104,
+   0
+  ],
+  "hurtFrames": [
+   100,
+   101,
+   104
+  ],
+  "faintFrames": [
+   96
+  ],
+  "_note": "stinger dive 92-100 / 164-167 used for thrusts",
+  "innerLines": 0.5
+ },
+ "0018_pidgeot-mega": {
+  "attackFrames": [
+   0,
+   2,
+   2,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   2,
+   2,
+   13,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   1,
+   2,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   1,
+   2,
+   11,
+   12,
+   1,
+   2,
+   11,
+   12,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 7,
+  "_note": "wing flaps 0-3, gust 4-8, wing blade 13-17",
+  "innerLines": 0.5
+ },
+ "0026_raichu-mega-x": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   3,
+   4,
+   3,
+   4,
+   5,
+   4,
+   5,
+   4,
+   9,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 10,
+  "hopPx": 1,
+  "_note": "small and quick; head sparks 3-8",
+  "innerLines": 0.6,
+  "lineWeight": 0.3
+ },
+ "0026_raichu-mega-y": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   3,
+   4,
+   3,
+   4,
+   5,
+   4,
+   5,
+   4,
+   9,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 7,
+  "_note": "quick; head sparks 3-8",
+  "innerLines": 0.5
+ },
+ "0036_clefable-mega": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 5,
+  "_note": "floaty; moon glitter 4-9 for SpAttack",
+  "pixelHeight": 31,
+  "innerLines": 0.5,
+  "outlineInner": true
+ },
+ "0071_victreebel-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 5,
+  "_note": "tall pot plant, small lunge; leaf blade 12-16",
+  "innerLines": 0.5
+ },
+ "0121_starmie-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 7,
+  "_note": "fast; water jet 3-8, slash streak 12-16",
+  "innerLines": 0.5
+ },
+ "0127_pinsir-mega": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   5,
+   6,
+   7,
+   8,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 7,
+  "_note": "horn effect 4-9 for Attack, hand effect for Strike",
+  "innerLines": 0.5
+ },
+ "0130_gyarados-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 10,
+  "_note": "water crest 3-8, splash 12-16",
+  "innerLines": 0.6,
+  "colors": 14,
+  "speckSize": 4,
+  "lineWeight": 0.4
+ },
+ "0149_dragonite-mega": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 7,
+  "_note": "beam 4-9, purple star 13-17",
+  "innerLines": 0.5
+ },
+ "0150_mewtwo-mega-x": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 8,
+  "_note": "fighter; psychic beam 3-8, fist star 12-16",
+  "innerLines": 0.5
+ },
+ "0154_meganium-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 4,
+  "_note": "heavy; vine 12-16",
+  "innerLines": 0.5,
+  "pixelHeight": 34,
+  "outlineInner": true
+ },
+ "0160_feraligatr-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 6,
+  "_note": "water jaw 3-8, claw slash 12-16",
+  "innerLines": 0.5
+ },
+ "0181_ampharos-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "shootFrames": [
+   3,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   9,
+   10,
+   11,
+   13,
+   14,
+   15,
+   16,
+   17,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 5,
+  "_note": "real arm extension 3-8 for Strike (punch) / Shoot, foot sparks for Attack / SpAttack"
+ },
+ "0212_scizor-mega": {
+  "lungePx": 6,
+  "attackFrames": [
+   0,
+   67,
+   68,
+   70,
+   71,
+   72,
+   73,
+   75,
+   0
+  ],
+  "strikeFrames": [
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75,
+   77,
+   0
+  ],
+  "shootFrames": [
+   69,
+   72,
+   73,
+   73,
+   74,
+   76,
+   0
+  ],
+  "spAttackFrames": [
+   0,
+   69,
+   70,
+   71,
+   72,
+   72,
+   73,
+   76,
+   0
+  ],
+  "chargeFrames": [
+   7,
+   8,
+   7,
+   8,
+   7,
+   8,
+   7,
+   8,
+   39,
+   0
+  ],
+  "hurtFrames": [
+   7,
+   7,
+   39
+  ],
+  "faintFrames": [
+   7
+  ],
+  "_note": "pincer swing 67-75",
+  "innerLines": 0.5
+ },
+ "0214_heracross-mega": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   5,
+   6,
+   7,
+   8,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 6,
+  "_note": "horn effect 4-9 for Attack (Megahorn)",
+  "innerLines": 0.5
+ },
+ "0257_blaziken-mega": {
+  "lungePx": 6,
+  "attackFrames": [
+   0,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   0
+  ],
+  "strikeFrames": [
+   80,
+   81,
+   82,
+   83,
+   84,
+   84,
+   85,
+   86,
+   88,
+   0
+  ],
+  "shootFrames": [
+   73,
+   75,
+   77,
+   78,
+   79,
+   81,
+   0
+  ],
+  "spAttackFrames": [
+   73,
+   74,
+   76,
+   77,
+   78,
+   78,
+   79,
+   80,
+   0
+  ],
+  "chargeFrames": [
+   74,
+   75,
+   74,
+   75,
+   76,
+   75,
+   76,
+   77,
+   79,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   44
+  ],
+  "faintFrames": [
+   10
+  ],
+  "_note": "arm-flame swing 82-85 for melee, flare-up 74-79 for fire moves",
+  "pixelHeight": 32,
+  "outlineInner": true
+ },
+ "0260_swampert-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 6,
+  "_note": "water rings at fist 12-16",
+  "innerLines": 0.5,
+  "outlineInner": true
+ },
+ "0306_aggron-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 3,
+  "_note": "heavy",
+  "innerLines": 0.5,
+  "speckContrast": 0.25,
+  "colors": 10,
+  "speckSize": 4,
+  "pixelHeight": 32,
+  "outlineInner": true
+ },
+ "0358_chimecho-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 4,
+  "_note": "light floater; sound notes 3-8",
+  "innerLines": 0.5
+ },
+ "0359_absol-mega-z": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 9,
+  "_note": "horn slash 13-17",
+  "innerLines": 0.5
+ },
+ "0373_salamence-mega": {
+  "lungePx": 7,
+  "attackFrames": [
+   0,
+   88,
+   89,
+   92,
+   93,
+   93,
+   95,
+   97,
+   0
+  ],
+  "strikeFrames": [
+   88,
+   89,
+   90,
+   91,
+   92,
+   93,
+   94,
+   96,
+   0,
+   0
+  ],
+  "shootFrames": [
+   10,
+   92,
+   93,
+   93,
+   94,
+   96,
+   0
+  ],
+  "spAttackFrames": [
+   89,
+   91,
+   92,
+   93,
+   93,
+   94,
+   95,
+   97,
+   0
+  ],
+  "chargeFrames": [
+   88,
+   89,
+   90,
+   89,
+   90,
+   89,
+   90,
+   91,
+   93,
+   0
+  ],
+  "hurtFrames": [
+   87,
+   88,
+   52
+  ],
+  "faintFrames": [
+   89
+  ],
+  "_note": "head-down crouch 87-91, rear-up 92-94",
+  "innerLines": 0.5,
+  "outlineInner": true
+ },
+ "0376_metagross-mega": {
+  "attackFrames": [
+   0,
+   1,
+   1,
+   12,
+   13,
+   14,
+   15,
+   17,
+   0
+  ],
+  "strikeFrames": [
+   10,
+   10,
+   13,
+   14,
+   15,
+   15,
+   16,
+   17,
+   0,
+   0
+  ],
+  "shootFrames": [
+   2,
+   4,
+   5,
+   6,
+   6,
+   7,
+   0
+  ],
+  "spAttackFrames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   9,
+   10,
+   11,
+   10,
+   9,
+   10,
+   11,
+   10,
+   17,
+   0
+  ],
+  "hurtFrames": [
+   17,
+   18,
+   0
+  ],
+  "faintFrames": [
+   18
+  ],
+  "lungePx": 4,
+  "_note": "heavy; claw streak 12-16 (Meteor Mash)",
+  "innerLines": 0.5
+ },
+ "0398_staraptor-mega": {
+  "attackFrames": [
+   0,
+   3,
+   3,
+   14,
+   15,
+   16,
+   17,
+   10,
+   0
+  ],
+  "strikeFrames": [
+   3,
+   3,
+   14,
+   15,
+   16,
+   16,
+   17,
+   10,
+   0,
+   0
+  ],
+  "shootFrames": [
+   3,
+   5,
+   6,
+   7,
+   7,
+   8,
+   0
+  ],
+  "spAttackFrames": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   7,
+   8,
+   9,
+   0
+  ],
+  "chargeFrames": [
+   11,
+   12,
+   18,
+   19,
+   11,
+   12,
+   18,
+   19,
+   10,
+   0
+  ],
+  "hurtFrames": [
+   10,
+   10,
+   0
+  ],
+  "faintFrames": [
+   2
+  ],
+  "lungePx": 7,
+  "_note": "fast flyer; beak fire 4-9, wing glow 13-17",
+  "innerLines": 0.5
+ },
+ "0445_garchomp-mega": {
+  "lungePx": 8,
+  "attackFrames": [
+   0,
+   96,
+   98,
+   100,
+   101,
+   102,
+   103,
+   106,
+   0
+  ],
+  "strikeFrames": [
+   97,
+   99,
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   108,
+   0
+  ],
+  "shootFrames": [
+   11,
+   98,
+   99,
+   99,
+   100,
+   0,
+   0
+  ],
+  "spAttackFrames": [
+   96,
+   97,
+   98,
+   99,
+   100,
+   100,
+   99,
+   0,
+   0
+  ],
+  "chargeFrames": [
+   96,
+   97,
+   96,
+   97,
+   98,
+   97,
+   98,
+   97,
+   96,
+   0
+  ],
+  "hurtFrames": [
+   102,
+   103,
+   10
+  ],
+  "faintFrames": [
+   104
+  ],
+  "_note": "arm blades raise 95-100, slash down 101-105",
+  "innerLines": 0.5
+ }
+}

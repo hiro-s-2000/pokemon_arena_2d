@@ -1,0 +1,14 @@
+// pixel-paint palette for 0523_zebstrika. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 2c3535
+2 3a4343
+3 005a9c
+4 7c7971
+5 00adde
+6 a3a3a3
+7 cecece
+8 ffe700
+9 ffffff

@@ -1,0 +1,121 @@
+{
+ "base": "0053_persian",
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "d": "24485a",
+  "l": "7ad0ec"
+ },
+ "parts": [
+  {
+   "name": "spots",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "E": {
+     "at": [
+      -5,
+      -1
+     ],
+     "px": [
+      "ll.....ll..",
+      "ll..ll.ll..",
+      "....ll....l",
+      ".l.......ll",
+      "ll..ll.....",
+      "....ll..ll.",
+      "........ll."
+     ]
+    },
+    "SE": {
+     "at": [
+      -5,
+      0
+     ],
+     "px": [
+      "ll.....ll..",
+      "ll..ll.ll..",
+      "....ll....l",
+      ".l.......ll",
+      "ll..ll.....",
+      "....ll..ll.",
+      "........ll."
+     ]
+    },
+    "N": {
+     "at": [
+      -5,
+      -3
+     ],
+     "px": [
+      "ll.....ll..",
+      "ll..ll.ll..",
+      "....ll....l",
+      ".l.......ll",
+      "ll..ll.....",
+      "....ll..ll.",
+      "........ll."
+     ]
+    }
+   }
+  },
+  {
+   "name": "fangs",
+   "anchor": "head",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -5,
+      -3
+     ],
+     "px": [
+      "kkk....kkk",
+      "kdk....kdk",
+      "kdk....kdk",
+      "kdk....kdk",
+      "klk....klk",
+      "kdk....kdk",
+      "klk....klk",
+      "kdk....kdk",
+      ".k......k."
+     ]
+    },
+    "SE": {
+     "at": [
+      -3,
+      -2
+     ],
+     "px": [
+      "kkk..kkk",
+      "kdk..kdk",
+      "kdk..kdk",
+      "kdk..kdk",
+      "klk..klk",
+      "kdk..kdk",
+      "klk..klk",
+      "kdk..kdk",
+      ".k....k."
+     ]
+    },
+    "E": {
+     "at": [
+      0,
+      -1
+     ],
+     "px": [
+      "kkk",
+      "kdk",
+      "kdk",
+      "kdk",
+      "klk",
+      "kdk",
+      "klk",
+      "kdk",
+      ".k."
+     ]
+    }
+   }
+  }
+ ]
+}

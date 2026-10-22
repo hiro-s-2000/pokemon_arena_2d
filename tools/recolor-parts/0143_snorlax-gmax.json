@@ -1,0 +1,228 @@
+{
+ "grow": 6,
+ "colors": {
+  "k": "000000",
+  "L": "a8de62",
+  "G": "68b03a",
+  "D": "7a5030",
+  "p": "f6a0c4",
+  "r": "d83030",
+  "T": "8a5a2c"
+ },
+ "parts": [
+  {
+   "name": "tree",
+   "anchor": "head",
+   "layer": "back",
+   "dirs": {
+    "S": {
+     "at": [
+      2,
+      -22
+     ],
+     "px": [
+      "......kk......",
+      ".....kGGk.....",
+      "....kGLLGk....",
+      "...kGLLGGGk...",
+      "...kkGGGGkk...",
+      "..kGLLGrrGGk..",
+      ".kGLLGGrrGDGk.",
+      ".kkkGGGGGDkkk.",
+      "..kGLGGGGGDGk.",
+      "kGLLGrrGGGDDGk",
+      "kkkkkrrGGDDkkk",
+      "....kkTTkk....",
+      ".....kTTk.....",
+      ".....kTTk....."
+     ]
+    },
+    "SE": {
+     "at": [
+      -6,
+      -21
+     ],
+     "px": [
+      "......kk......",
+      ".....kGGk.....",
+      "....kGLLGk....",
+      "...kGLLGGGk...",
+      "...kkGGGGkk...",
+      "..kGLLGrrGGk..",
+      ".kGLLGGrrGDGk.",
+      ".kkkGGGGGDkkk.",
+      "..kGLGGGGGDGk.",
+      "kGLLGrrGGGDDGk",
+      "kkkkkrrGGDDkkk",
+      "....kkTTkk....",
+      ".....kTTk.....",
+      ".....kTTk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -20,
+      -20
+     ],
+     "px": [
+      "......kk......",
+      ".....kGGk.....",
+      "....kGLLGk....",
+      "...kGLLGGGk...",
+      "...kkGGGGkk...",
+      "..kGLLGrrGGk..",
+      ".kGLLGGrrGDGk.",
+      ".kkkGGGGGDkkk.",
+      "..kGLGGGGGDGk.",
+      "kGLLGrrGGGDDGk",
+      "kkkkkrrGGDDkkk",
+      "....kkTTkk....",
+      ".....kTTk.....",
+      ".....kTTk....."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -17
+     ],
+     "px": [
+      "......kk......",
+      ".....kGGk.....",
+      "....kGLLGk....",
+      "...kGLLGGGk...",
+      "...kkGGGGkk...",
+      "..kGLLGrrGGk..",
+      ".kGLLGGrrGDGk.",
+      ".kkkGGGGGDkkk.",
+      "..kGLGGGGGDGk.",
+      "kGLLGrrGGGDDGk",
+      "kkkkkrrGGDDkkk",
+      "....kkTTkk....",
+      ".....kTTk.....",
+      ".....kTTk....."
+     ]
+    },
+    "N": {
+     "at": [
+      2,
+      -18
+     ],
+     "px": [
+      "......kk......",
+      ".....kGGk.....",
+      "....kGLLGk....",
+      "...kGLLGGGk...",
+      "...kkGGGGkk...",
+      "..kGLLGrrGGk..",
+      ".kGLLGGrrGDGk.",
+      ".kkkGGGGGDkkk.",
+      "..kGLGGGGGDGk.",
+      "kGLLGrrGGGDDGk",
+      "kkkkkrrGGDDkkk",
+      "....kkTTkk....",
+      ".....kTTk.....",
+      ".....kTTk....."
+     ]
+    }
+   }
+  },
+  {
+   "name": "island",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -9,
+      -1
+     ],
+     "px": [
+      "....kkkkkkkkkk....",
+      "..kkLLLLLLLLLLkk..",
+      ".kLLppLLLLLLppLLk.",
+      "kLLLppLLLLLLppLLLk",
+      "kGLLLLLLppLLLLLGGk",
+      "kGGLLLLLppLLLLGGGk",
+      ".kGGGLLLLLLLLGGGk.",
+      ".kDGGGGGGGGGGGGDk.",
+      "..kDDDDDDDDDDDDk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -6,
+      -2
+     ],
+     "px": [
+      "....kkkkkkkkkk....",
+      "..kkLLLLLLLLLLkk..",
+      ".kLLppLLLLLLppLLk.",
+      "kLLLppLLLLLLppLLLk",
+      "kGLLLLLLppLLLLLGGk",
+      "kGGLLLLLppLLLLGGGk",
+      ".kGGGLLLLLLLLGGGk.",
+      ".kDGGGGGGGGGGGGDk.",
+      "..kDDDDDDDDDDDDk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -4,
+      -3
+     ],
+     "px": [
+      "....kkkkkkkkkk....",
+      "..kkLLLLLLLLLLkk..",
+      ".kLLppLLLLLLppLLk.",
+      "kLLLppLLLLLLppLLLk",
+      "kGLLLLLLppLLLLLGGk",
+      "kGGLLLLLppLLLLGGGk",
+      ".kGGGLLLLLLLLGGGk.",
+      ".kDGGGGGGGGGGGGDk.",
+      "..kDDDDDDDDDDDDk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "N": {
+     "at": [
+      -9,
+      -5
+     ],
+     "px": [
+      "....kkkkkkkkkk....",
+      "..kkLLLLLLLLLLkk..",
+      ".kLLppLLLLLLppLLk.",
+      "kLLLppLLLLLLppLLLk",
+      "kGLLLLLLppLLLLLGGk",
+      "kGGLLLLLppLLLLGGGk",
+      ".kGGGLLLLLLLLGGGk.",
+      ".kDGGGGGGGGGGGGDk.",
+      "..kDDDDDDDDDDDDk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -10,
+      -5
+     ],
+     "px": [
+      "....kkkkkkkkkk....",
+      "..kkLLLLLLLLLLkk..",
+      ".kLLppLLLLLLppLLk.",
+      "kLLLppLLLLLLppLLLk",
+      "kGLLLLLLppLLLLLGGk",
+      "kGGLLLLLppLLLLGGGk",
+      ".kGGGLLLLLLLLGGGk.",
+      ".kDGGGGGGGGGGGGDk.",
+      "..kDDDDDDDDDDDDk..",
+      "...kkkkkkkkkkkk..."
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+// pixel-paint palette for 0520_tranquill. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 454251
+2 8c2131
+3 747d98
+4 bd6363
+5 e43272
+6 9da5b3
+7 ff9c9c
+8 f2d01d
+9 ced4d7

@@ -1,0 +1,15 @@
+// pixel-paint palette for 0181_ampharos-mega — hand-painted (light from upper-left)
+. transparent
+# 000000
+y ffe048
+Y fff4a0
+o e0a818
+O b07810
+w ffffff
+W dcdce6
+g b0b0c0
+G 84849a
+r f04020
+R a81808
+q ffa080
+k 282830

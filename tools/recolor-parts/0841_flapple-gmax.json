@@ -1,0 +1,1055 @@
+{
+ "grow": 4,
+ "colors": {
+  "k": "000000",
+  "y": "f8c848",
+  "Y": "fff0a0",
+  "o": "e08820",
+  "r": "d83040",
+  "R": "a01c30",
+  "h": "f06070",
+  "f": "f8a040"
+ },
+ "parts": [
+  {
+   "name": "apple#0",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -2
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "apple#1",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -2
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "apple#2",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -2
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "apple#3",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -2
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Shoot",
+    "Charge"
+   ]
+  },
+  {
+   "name": "apple#4",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "S": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "SE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kRRrrrffrrrffrrrffrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    },
+    "E": {
+     "at": [
+      -14,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kRrrrrfrrrrforrrforrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NE": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "N": {
+     "at": [
+      -12,
+      -2
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkYYYYyyyyykkk.....",
+      "...kkYYYYYYYyyyyyyyykk...",
+      "..kYYYYYYYYYyyyyyyyyyyk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".koyyyyyyyooyyyooyyyooyk.",
+      "kyRyyoyyyyrryyyrroyyrryyk",
+      "koRoohoyoorryyorrryyrrook",
+      "kRRhhhhorrrroyrrrryorrRRk",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "NW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "W": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    },
+    "SW": {
+     "at": [
+      0,
+      0
+     ],
+     "px": []
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  },
+  {
+   "name": "apple-m#0",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    }
+   },
+   "anims": [
+    "Idle"
+   ]
+  },
+  {
+   "name": "apple-m#1",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kkkkkkkkkkkkkkkkkkkkk.."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    }
+   },
+   "anims": [
+    "Walk"
+   ]
+  },
+  {
+   "name": "apple-m#2",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkRRRRRRRRRkkk.....",
+      "........kkkkkkkkk........"
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    }
+   },
+   "anims": [
+    "Attack",
+    "Strike"
+   ]
+  },
+  {
+   "name": "apple-m#3",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkkkkkkkkkkkkkkkkkk..."
+     ]
+    }
+   },
+   "anims": [
+    "Shoot",
+    "Charge"
+   ]
+  },
+  {
+   "name": "apple-m#4",
+   "anchor": "center",
+   "layer": "front",
+   "dirs": {
+    "NW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "kkkkkkkkkkkkkkkkkkkkkkkkk"
+     ]
+    },
+    "W": {
+     "at": [
+      -10,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kkkkkkkkkkkkkkkkkkkkkkk."
+     ]
+    },
+    "SW": {
+     "at": [
+      -12,
+      -1
+     ],
+     "px": [
+      "........kkkkkkkkk........",
+      ".....kkkyyyyyYYYYkkk.....",
+      "...kkyyyyyyyyYYYYYYYkk...",
+      "..kyyyyyyyyyyYYYYYYYYYk..",
+      ".kyyyyyyyyyyyyyyyyyyyyyk.",
+      ".kyooyyyooyyyooyyyyyyyok.",
+      "kyyrryyorryyyrryyyyoyyRyk",
+      "koorryyrrroyyrrooyohooRok",
+      "kRRrroyrrrryorrrrohhhhRRk",
+      ".kRrrrofrrrofrrrrfrrrrRk.",
+      ".kRRrrffrrrffrrrffrrrRRk.",
+      "..kRRRRRRRRRRRRRRRRRRRk..",
+      "...kkRRRRRRRRRRRRRRRkk...",
+      ".....kkkkkkkkkkkkkkk....."
+     ]
+    }
+   },
+   "anims": [
+    "Hurt"
+   ]
+  }
+ ]
+}

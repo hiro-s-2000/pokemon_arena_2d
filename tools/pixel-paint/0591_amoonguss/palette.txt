@@ -1,0 +1,14 @@
+// pixel-paint palette for 0591_amoonguss. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 291818
+1 333333
+2 4f4138
+3 635247
+4 ad3163
+5 8c735a
+6 de528c
+7 9c9484
+8 da8db1
+9 bfbfc2

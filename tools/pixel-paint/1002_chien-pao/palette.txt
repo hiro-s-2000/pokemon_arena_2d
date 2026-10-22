@@ -1,0 +1,12 @@
+// pixel-paint palette for 1002_chien-pao. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 333234
+2 2a4045
+3 566e8a
+4 ee3c5b
+5 7b99bc
+6 afc7dc
+7 f7f7f7

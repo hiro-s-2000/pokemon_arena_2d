@@ -1,0 +1,13 @@
+// pixel-paint palette for 0884_duraludon-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 313335
+1 535a64
+2 b91c1c
+3 727d8a
+4 38adba
+5 a4acb7
+6 4fcbd9
+7 dadde1
+8 ffffff

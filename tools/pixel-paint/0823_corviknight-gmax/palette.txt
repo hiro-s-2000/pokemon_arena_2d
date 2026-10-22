@@ -1,0 +1,13 @@
+// pixel-paint palette for 0823_corviknight-gmax. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 333333
+1 332b55
+2 473f3f
+3 3f3f7f
+4 831966
+5 5f5f97
+6 d70043
+7 bae6fd
+8 f6fbff

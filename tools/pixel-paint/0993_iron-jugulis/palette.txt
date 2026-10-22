@@ -1,0 +1,16 @@
+// pixel-paint palette for 0993_iron-jugulis. One colour per line: <char> <rrggbb>. "." = transparent.
+// "#" = outline black. Add new colours freely (any unused non-space char), e.g.:  P ff80c0
+. transparent
+# 000000
+0 4d4d4d
+1 494d56
+2 4e4c50
+3 4d4d4f
+4 91134f
+5 535558
+6 3b5694
+7 c22685
+8 5d86ce
+9 f25bab
+a 9cb6f7
+b f2e1e5

@@ -1,0 +1,21 @@
+// Hand-painted palette for 0978_tatsugiri-droopy-mega (shared with the other Tatsugiri mega form; PMD tatsugiri-curly-mega colours).
+// O/o orange+shade, P/p peach, Y/y yellow, R/r pink-red, M magenta, V/v violet, C/c cyan, G sprig green, W/w rice white+shade, L effect lilac.
+. transparent
+# 000000
+O f37432
+o bf3d06
+P ffc0a2
+p dc8173
+Y fff700
+y cc9f00
+R ff0664
+r a50c5e
+M fa6bf5
+V a14bf8
+v 6a3ad0
+C 60ddff
+c 3a8fe8
+G 32f377
+W ffffff
+w 678aa5
+L e6c8ff
